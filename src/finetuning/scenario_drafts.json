@@ -1,0 +1,5653 @@
+{
+  "scenarios": [
+    {
+      "id": "1.1",
+      "name": "Pick X from Y (success)",
+      "description": "Pick an object of type X from location Y (ANY mode)",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 2,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE",
+          "constraints": {
+            "must_exist_in": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_pick",
+      "final_messages": {
+        "success": "Successfully picked up the $X from $FOUND_LOCATION.",
+        "ask_user": "I cannot pick up the $X because I am currently holding an object. Would you like me to place it somewhere first?",
+        "not_found": "I could not find a $X at $Y."
+      },
+      "prompt_templates": [
+        "Pick up the $X from $Y.",
+        "Grab the $X from $Y.",
+        "Take the $X from $Y.",
+        "Get the $X from $Y for me.",
+        "Retrieve the $X from $Y.",
+        "Pick the $X up from $Y."
+      ]
+    },
+    {
+      "id": "1.2",
+      "name": "Pick X from Y (gripper holding)",
+      "description": "Attempt to pick when gripper is already holding something",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 2,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "observe_and_pick",
+      "final_messages": {
+        "success": "Successfully picked up the $X from $FOUND_LOCATION.",
+        "ask_user": "I cannot pick up the $X because I am currently holding an object. Would you like me to place it somewhere first?",
+        "not_found": "I could not find a $X at $Y."
+      },
+      "prompt_templates": [
+        "Pick up the $X from $Y.",
+        "Grab the $X from $Y.",
+        "Take the $X from $Y.",
+        "Get the $X from $Y for me.",
+        "Retrieve the $X from $Y.",
+        "Pick the $X up from $Y."
+      ]
+    },
+    {
+      "id": "1.4",
+      "name": "Pick X from Y (not found)",
+      "description": "Attempt to pick an object that doesn't exist at the specified location",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "observe_and_pick",
+      "final_messages": {
+        "success": "Successfully picked up the $X from $FOUND_LOCATION.",
+        "ask_user": "I cannot pick up the $X because I am currently holding an object. Would you like me to place it somewhere first?",
+        "not_found": "I could not find a $X at $Y. The location appears to be empty or contains a different object type."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Pick up the $X from $Y.",
+        "Grab the $X from $Y.",
+        "Take the $X from $Y.",
+        "Get the $X from $Y for me.",
+        "Retrieve the $X from $Y.",
+        "Pick the $X up from $Y."
+      ]
+    },
+    {
+      "id": "2.1",
+      "name": "Place X into Y (success)",
+      "description": "Place held object into empty target location",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_place",
+      "final_messages": {
+        "success": "Successfully placed the $X into $PLACED_LOCATION.",
+        "not_holding": "I cannot place anything because I am not currently holding any object. Would you like me to pick up a $X first?",
+        "wrong_type": "I cannot place a $X because I am currently holding a $HELD_TYPE, not a $X. Would you like me to place the $HELD_TYPE instead?",
+        "all_occupied": "$Y occupied. I cannot place the $X there. Would you like me to place it somewhere else?"
+      },
+      "prompt_templates": [
+        "Place the $X into $Y.",
+        "Put the $X in $Y.",
+        "Set the $X down at $Y.",
+        "Drop the $X off at $Y.",
+        "Place the $X at $Y.",
+        "Put the $X into $Y for me."
+      ]
+    },
+    {
+      "id": "2.2",
+      "name": "Place X (not holding)",
+      "description": "Attempt to place when not holding anything",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 2,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_place",
+      "final_messages": {
+        "success": "Successfully placed the $X into $PLACED_LOCATION.",
+        "not_holding": "I cannot place anything because I am not currently holding any object. Would you like me to pick up a $X first?",
+        "wrong_type": "I cannot place a $X because I am currently holding a $HELD_TYPE, not a $X. Would you like me to place the $HELD_TYPE instead?",
+        "all_occupied": "All locations in $Y are occupied. I cannot place the $X there. Would you like me to place it somewhere else?"
+      },
+      "prompt_templates": [
+        "Place the $X into $Y.",
+        "Put the $X in $Y.",
+        "Set the $X down at $Y.",
+        "Drop the $X off at $Y.",
+        "Place the $X at $Y.",
+        "Put the $X into $Y for me."
+      ]
+    },
+    {
+      "id": "2.3",
+      "name": "Place X (holding wrong type)",
+      "description": "Attempt to place specific type but holding different type",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_place",
+      "final_messages": {
+        "success": "Successfully placed the $X into $PLACED_LOCATION.",
+        "not_holding": "I cannot place anything because I am not currently holding any object. Would you like me to pick up a $X first?",
+        "wrong_type": "I cannot place a $X because I am currently holding a $HELD_TYPE, not a $X. Would you like me to place the $HELD_TYPE instead?",
+        "all_occupied": "All locations in $Y are occupied. I cannot place the $X there. Would you like me to place it somewhere else?"
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Place the $X into $Y.",
+        "Put the $X in $Y.",
+        "Set the $X down at $Y.",
+        "Drop the $X off at $Y.",
+        "Place the $X at $Y.",
+        "Put the $X into $Y for me."
+      ]
+    },
+    {
+      "id": "2.4",
+      "name": "Place X into Y (all occupied)",
+      "description": "Attempt to place into location(s) that are all occupied",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_place",
+      "final_messages": {
+        "success": "Successfully placed the $X into $PLACED_LOCATION.",
+        "not_holding": "I cannot place anything because I am not currently holding any object. Would you like me to pick up a $X first?",
+        "wrong_type": "I cannot place a $X because I am currently holding a $HELD_TYPE, not a $X. Would you like me to place the $HELD_TYPE instead?",
+        "all_occupied": "$Y is occupied. I cannot place the $X there. Would you like me to find an empty location?"
+      },
+      "prompt_templates": [
+        "Place the $X into $Y.",
+        "Put the $X in $Y.",
+        "Set the $X down at $Y.",
+        "Drop the $X off at $Y.",
+        "Place the $X at $Y.",
+        "Put the $X into $Y for me."
+      ]
+    },
+    {
+      "id": "2.5",
+      "name": "Place X into Y (find empty in group)",
+      "description": "Place into a location group by finding an empty slot",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_place",
+      "final_messages": {
+        "success": "Successfully placed the $X into $PLACED_LOCATION in $Y.",
+        "not_holding": "I cannot place anything because I am not currently holding any object. Would you like me to pick up a $X first?",
+        "wrong_type": "I cannot place a $X because I am currently holding a $HELD_TYPE, not a $X. Would you like me to place the $HELD_TYPE instead?",
+        "all_occupied": "All locations in $Y are occupied. I cannot place the $X there. Would you like me to place it somewhere else?"
+      },
+      "prompt_templates": [
+        "Place the $X into $Y.",
+        "Put the $X in $Y.",
+        "Set the $X down at $Y.",
+        "Drop the $X off at $Y.",
+        "Place the $X at $Y.",
+        "Put the $X into $Y for me."
+      ]
+    },
+    {
+      "id": "3.1",
+      "name": "What am I holding? (holding)",
+      "description": "Query gripper status when holding an object",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "holding": "You are currently holding a $HELD_TYPE.",
+        "empty": "You are not holding anything. The gripper is open."
+      },
+      "prompt_templates": [
+        "What am I holding?",
+        "What's in my gripper?",
+        "What do I currently have?",
+        "What object am I gripping?",
+        "Tell me what I'm holding right now.",
+        "Do I have anything in my gripper?"
+      ]
+    },
+    {
+      "id": "3.2",
+      "name": "What am I holding? (empty)",
+      "description": "Query gripper status when gripper is open",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": "reset"
+      },
+      "variables": [],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "holding": "You are currently holding a $HELD_TYPE.",
+        "empty": "You are not holding anything. The gripper is open."
+      },
+      "prompt_templates": [
+        "What am I holding?",
+        "What's in my gripper?",
+        "What do I currently have?",
+        "What object am I gripping?",
+        "Tell me what I'm holding right now.",
+        "Do I have anything in my gripper?"
+      ]
+    },
+    {
+      "id": "3.3",
+      "name": "Am I holding X? (yes)",
+      "description": "Query if holding specific type when actually holding it",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "yes": "Yes, you are holding a $X.",
+        "no_wrong": "No, you are holding a $HELD_TYPE, not a $X.",
+        "no_empty": "No, you are not holding anything."
+      },
+      "prompt_templates": [
+        "Am I holding a $X?",
+        "Do I have a $X in my gripper?",
+        "Is there a $X in my grip?",
+        "Check if I'm holding a $X.",
+        "Am I gripping a $X right now?",
+        "Is the object in my gripper a $X?"
+      ]
+    },
+    {
+      "id": "3.4",
+      "name": "Am I holding X? (wrong type)",
+      "description": "Query if holding specific type when holding different type",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "yes": "Yes, you are holding a $X.",
+        "no_wrong": "No, you are holding a $HELD_TYPE, not a $X.",
+        "no_empty": "No, you are not holding anything."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Am I holding a $X?",
+        "Do I have a $X in my gripper?",
+        "Is there a $X in my grip?",
+        "Check if I'm holding a $X.",
+        "Am I gripping a $X right now?",
+        "Is the object in my gripper a $X?"
+      ]
+    },
+    {
+      "id": "3.5",
+      "name": "Am I holding X? (empty gripper)",
+      "description": "Query if holding specific type when gripper is open",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": "reset"
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "yes": "Yes, you are holding a $X.",
+        "no_wrong": "No, you are holding a $HELD_TYPE, not a $X.",
+        "no_empty": "No, you are not holding anything."
+      },
+      "prompt_templates": [
+        "Am I holding a $X?",
+        "Do I have a $X in my gripper?",
+        "Is there a $X in my grip?",
+        "Check if I'm holding a $X.",
+        "Am I gripping a $X right now?",
+        "Is the object in my gripper a $X?"
+      ]
+    },
+    {
+      "id": "3.6",
+      "name": "Can I pick? (yes)",
+      "description": "Check if gripper is available when it is open",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": "reset"
+      },
+      "variables": [],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "empty": "Yes, the gripper is open and ready.",
+        "holding": "No, currently holding a $HELD_TYPE. Place it first."
+      },
+      "prompt_templates": [
+        "Can I pick something up right now?",
+        "Is my gripper free?",
+        "Am I able to grab something?",
+        "Is my gripper available for picking?",
+        "Can I grab an object right now?",
+        "Is my hand empty and ready to pick?"
+      ]
+    },
+    {
+      "id": "3.7",
+      "name": "Can I pick? (no, holding)",
+      "description": "Check if gripper is available when holding something",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "empty": "Yes, the gripper is open and ready.",
+        "holding": "No, currently holding a $HELD_TYPE. Place it first."
+      },
+      "prompt_templates": [
+        "Can I pick something up right now?",
+        "Is my gripper free?",
+        "Am I able to grab something?",
+        "Is my gripper available for picking?",
+        "Can I grab an object right now?",
+        "Is my hand empty and ready to pick?"
+      ]
+    },
+    {
+      "id": "3.8",
+      "name": "What position am I at?",
+      "description": "Query current robot position",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": "reset"
+      },
+      "variables": [],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "empty": "You are currently at $POSITION.",
+        "holding": "You are currently at $POSITION."
+      },
+      "prompt_templates": [
+        "What position am I at?",
+        "Where am I right now?",
+        "What's my current position?",
+        "Tell me my current location.",
+        "Where is the robot positioned?",
+        "What position am I currently at?"
+      ]
+    },
+    {
+      "id": "3.8b",
+      "name": "What position am I at? (holding)",
+      "description": "Query current robot position (gripper holding)",
+      "category": "status",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [],
+      "tool_routine": "status_only",
+      "final_messages": {
+        "empty": "You are currently at $POSITION.",
+        "holding": "You are currently at $POSITION."
+      },
+      "prompt_templates": [
+        "What position am I at?",
+        "Where am I right now?",
+        "What's my current position?",
+        "Tell me my current location.",
+        "Where is the robot positioned?",
+        "What position am I currently at?"
+      ]
+    },
+    {
+      "id": "4.1",
+      "name": "Go to home",
+      "description": "Navigate to the home position",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": "prev"
+      },
+      "variables": [],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "Moved to the home position."
+      },
+      "prompt_templates": [
+        "Go to the home position.",
+        "Return home.",
+        "Move to the home position.",
+        "Navigate back to home.",
+        "Go home.",
+        "Head to the home position."
+      ]
+    },
+    {
+      "id": "4.1b",
+      "name": "Go to home (holding)",
+      "description": "Navigate to the home position (gripper holding)",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "Moved to the home position."
+      },
+      "prompt_templates": [
+        "Go to the home position.",
+        "Return home.",
+        "Move to the home position.",
+        "Navigate back to home.",
+        "Go home.",
+        "Head to the home position."
+      ]
+    },
+    {
+      "id": "4.2",
+      "name": "Go to observation position for Y",
+      "description": "Navigate to observation point, may already be there",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": "prev"
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "Moved to the observation position for $Y.",
+        "already_there": "Already at the observation point for $Y."
+      },
+      "prompt_templates": [
+        "Go to the observation position for $Y.",
+        "Navigate to where I can see $Y.",
+        "Move to the viewpoint for $Y.",
+        "Go to the observe position for $Y.",
+        "Head to the observation point for $Y.",
+        "Move to the spot where I can observe $Y."
+      ]
+    },
+    {
+      "id": "4.2b",
+      "name": "Go to observation position for Y (holding)",
+      "description": "Navigate to observation point, may already be there (gripper holding)",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "Moved to the observation position for $Y.",
+        "already_there": "Already at the observation point for $Y."
+      },
+      "prompt_templates": [
+        "Go to the observation position for $Y.",
+        "Navigate to where I can see $Y.",
+        "Move to the viewpoint for $Y.",
+        "Go to the observe position for $Y.",
+        "Head to the observation point for $Y.",
+        "Move to the spot where I can observe $Y."
+      ]
+    },
+    {
+      "id": "4.4",
+      "name": "Visit observation points for Y and Z",
+      "description": "Navigate to two observation points sequentially",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": "prev"
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "Visited observation points for $Y and $Z."
+      },
+      "prompt_templates": [
+        "Visit the observation points for $Y and then $Z.",
+        "Go observe $Y and then $Z.",
+        "Check out $Y first, then $Z.",
+        "Navigate to the observation positions for $Y and $Z in that order.",
+        "Head to the viewpoints for $Y followed by $Z.",
+        "Move to the observe spots for $Y, then $Z."
+      ]
+    },
+    {
+      "id": "4.4b",
+      "name": "Visit observation points for Y and Z (holding)",
+      "description": "Navigate to two observation points sequentially (gripper holding)",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "Visited observation points for $Y and $Z."
+      },
+      "prompt_templates": [
+        "Visit the observation points for $Y and then $Z.",
+        "Go observe $Y and then $Z.",
+        "Check out $Y first, then $Z.",
+        "Navigate to the observation positions for $Y and $Z in that order.",
+        "Head to the viewpoints for $Y followed by $Z.",
+        "Move to the observe spots for $Y, then $Z."
+      ]
+    },
+    {
+      "id": "4.5",
+      "name": "Go to pick position (already located)",
+      "description": "Navigate to pick position after prior localization, random gripper",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "At pick position for $X at $Y."
+      },
+      "prompt_templates": [
+        "I have already located $X at $Y. Go to the pick position for $X at $Y, do not pick.",
+        "I know $X is at $Y. Move to the pick spot for $X at $Y but don't pick it up.",
+        "The $X is at $Y. Navigate to the pick position for $X at $Y without picking.",
+        "$X is at $Y. Go to the pick position for $X at $Y, just position yourself.",
+        "I found $X at $Y already. Head to the pick position for $X at $Y, do not grab it.",
+        "$X has been located at $Y. Move to its pick position but don't pick it up."
+      ]
+    },
+    {
+      "id": "4.5b",
+      "name": "Go to pick position (already located) (holding)",
+      "description": "Navigate to pick position after prior localization, random gripper (gripper holding)",
+      "category": "navigation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "navigate_to",
+      "final_messages": {
+        "arrived": "At pick position for $X at $Y."
+      },
+      "prompt_templates": [
+        "I have already located $X at $Y. Go to the pick position for $X at $Y, do not pick.",
+        "I know $X is at $Y. Move to the pick spot for $X at $Y but don't pick it up.",
+        "The $X is at $Y. Navigate to the pick position for $X at $Y without picking.",
+        "$X is at $Y. Go to the pick position for $X at $Y, just position yourself.",
+        "I found $X at $Y already. Head to the pick position for $X at $Y, do not grab it.",
+        "$X has been located at $Y. Move to its pick position but don't pick it up."
+      ]
+    },
+    {
+      "id": "5.1",
+      "name": "What is at Y? (found)",
+      "description": "Report objects at a location when objects are present",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$INVENTORY",
+        "empty": "$Y is empty."
+      },
+      "prompt_templates": [
+        "What is at $Y?",
+        "What's sitting at $Y?",
+        "Tell me what's at $Y.",
+        "What can you see at $Y?",
+        "What object is at $Y?",
+        "Check what is at $Y."
+      ]
+    },
+    {
+      "id": "5.1b",
+      "name": "What is at Y? (found) (holding)",
+      "description": "Report objects at a location when objects are present (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$INVENTORY",
+        "empty": "$Y is empty."
+      },
+      "prompt_templates": [
+        "What is at $Y?",
+        "What's sitting at $Y?",
+        "Tell me what's at $Y.",
+        "What can you see at $Y?",
+        "What object is at $Y?",
+        "Check what is at $Y."
+      ]
+    },
+    {
+      "id": "5.2",
+      "name": "What is at Y? (empty)",
+      "description": "Report objects at a location when it is empty",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$INVENTORY",
+        "empty": "$Y is empty."
+      },
+      "prompt_templates": [
+        "What is at $Y?",
+        "What's sitting at $Y?",
+        "Tell me what's at $Y.",
+        "What can you see at $Y?",
+        "What object is at $Y?",
+        "Check what is at $Y."
+      ]
+    },
+    {
+      "id": "5.2b",
+      "name": "What is at Y? (empty) (holding)",
+      "description": "Report objects at a location when it is empty (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$INVENTORY",
+        "empty": "$Y is empty."
+      },
+      "prompt_templates": [
+        "What is at $Y?",
+        "What's sitting at $Y?",
+        "Tell me what's at $Y.",
+        "What can you see at $Y?",
+        "What object is at $Y?",
+        "Check what is at $Y."
+      ]
+    },
+    {
+      "id": "5.3",
+      "name": "Is there X at Y? (varies)",
+      "description": "Check for specific type at location, may or may not be there",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$REPORT",
+        "different": "$REPORT",
+        "empty": "$Y is empty."
+      },
+      "prompt_templates": [
+        "Is there a $X at $Y?",
+        "Can you see a $X at $Y?",
+        "Check if $Y has a $X.",
+        "Is a $X present at $Y?",
+        "Do you see a $X at $Y?",
+        "Look for a $X at $Y. Is one there?"
+      ]
+    },
+    {
+      "id": "5.3b",
+      "name": "Is there X at Y? (varies) (holding)",
+      "description": "Check for specific type at location, may or may not be there (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$REPORT",
+        "different": "$REPORT",
+        "empty": "$Y is empty."
+      },
+      "prompt_templates": [
+        "Is there a $X at $Y?",
+        "Can you see a $X at $Y?",
+        "Check if $Y has a $X.",
+        "Is a $X present at $Y?",
+        "Do you see a $X at $Y?",
+        "Look for a $X at $Y. Is one there?"
+      ]
+    },
+    {
+      "id": "5.4",
+      "name": "List all objects in Y (group)",
+      "description": "List per-location inventory for a location group",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "$INVENTORY",
+        "all_full": "$INVENTORY",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "List all objects in $Y.",
+        "What objects are in $Y?",
+        "Show me everything at $Y.",
+        "Tell me all the objects at $Y.",
+        "Enumerate the objects in $Y.",
+        "What's inside $Y?"
+      ]
+    },
+    {
+      "id": "5.4b",
+      "name": "List all objects in Y (group) (holding)",
+      "description": "List per-location inventory for a location group (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "$INVENTORY",
+        "all_full": "$INVENTORY",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "List all objects in $Y.",
+        "What objects are in $Y?",
+        "Show me everything at $Y.",
+        "Tell me all the objects at $Y.",
+        "Enumerate the objects in $Y.",
+        "What's inside $Y?"
+      ]
+    },
+    {
+      "id": "5.5",
+      "name": "How many slots occupied in Y?",
+      "description": "Count occupied locations in a group",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "$COUNT of $TOTAL slots in $Y are occupied.",
+        "all_full": "$COUNT of $TOTAL slots in $Y are occupied.",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "How many slots in $Y are occupied?",
+        "How many spots in $Y have something?",
+        "Count the occupied slots at $Y.",
+        "How many positions at $Y are filled?",
+        "Tell me the number of occupied slots in $Y.",
+        "How full is $Y?"
+      ]
+    },
+    {
+      "id": "5.5b",
+      "name": "How many slots occupied in Y? (holding)",
+      "description": "Count occupied locations in a group (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "$COUNT of $TOTAL slots in $Y are occupied.",
+        "all_full": "$COUNT of $TOTAL slots in $Y are occupied.",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "How many slots in $Y are occupied?",
+        "How many spots in $Y have something?",
+        "Count the occupied slots at $Y.",
+        "How many positions at $Y are filled?",
+        "Tell me the number of occupied slots in $Y.",
+        "How full is $Y?"
+      ]
+    },
+    {
+      "id": "5.6",
+      "name": "Any empty slots in Y?",
+      "description": "Check if location group has any empty slots",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "Yes, $EMPTY_COUNT slots in $Y are empty.",
+        "all_full": "No, all locations in $Y are occupied."
+      },
+      "prompt_templates": [
+        "Are there any empty slots in $Y?",
+        "Is there room at $Y?",
+        "Does $Y have any free spots?",
+        "Are there open slots at $Y?",
+        "Check if $Y has empty positions.",
+        "Is there any space left at $Y?"
+      ]
+    },
+    {
+      "id": "5.6b",
+      "name": "Any empty slots in Y? (holding)",
+      "description": "Check if location group has any empty slots (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "Yes, $EMPTY_COUNT slots in $Y are empty.",
+        "all_full": "No, all locations in $Y are occupied."
+      },
+      "prompt_templates": [
+        "Are there any empty slots in $Y?",
+        "Is there room at $Y?",
+        "Does $Y have any free spots?",
+        "Are there open slots at $Y?",
+        "Check if $Y has empty positions.",
+        "Is there any space left at $Y?"
+      ]
+    },
+    {
+      "id": "5.7",
+      "name": "Where is X in Y? (group)",
+      "description": "Find specific type within a location group",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$X is at $FOUND_LOCATIONS in $Y.",
+        "different": "No $X found in $Y.",
+        "empty": "No $X found in $Y."
+      },
+      "prompt_templates": [
+        "Where is $X in $Y?",
+        "Which slot in $Y has the $X?",
+        "Find the $X in $Y.",
+        "Where exactly in $Y is the $X?",
+        "Locate the $X within $Y.",
+        "At which position in $Y is the $X?"
+      ]
+    },
+    {
+      "id": "5.7b",
+      "name": "Where is X in Y? (group) (holding)",
+      "description": "Find specific type within a location group (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "found": "$X is at $FOUND_LOCATIONS in $Y.",
+        "different": "No $X found in $Y.",
+        "empty": "No $X found in $Y."
+      },
+      "prompt_templates": [
+        "Where is $X in $Y?",
+        "Which slot in $Y has the $X?",
+        "Find the $X in $Y.",
+        "Where exactly in $Y is the $X?",
+        "Locate the $X within $Y.",
+        "At which position in $Y is the $X?"
+      ]
+    },
+    {
+      "id": "5.8",
+      "name": "Which has X: Y or Z?",
+      "description": "Compare two locations for a specific object type",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 2,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 2,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "at_y": "$X is at $Y.",
+        "at_z": "$X is at $Z.",
+        "both": "$X is at both $Y and $Z.",
+        "neither": "$X is at neither $Y nor $Z."
+      },
+      "prompt_templates": [
+        "Which has $X: $Y or $Z?",
+        "Is the $X at $Y or $Z?",
+        "Where is the $X, $Y or $Z?",
+        "Check $Y and $Z \u2014 which one has the $X?",
+        "Does $Y or $Z contain the $X?",
+        "Between $Y and $Z, where is the $X?"
+      ]
+    },
+    {
+      "id": "5.8b",
+      "name": "Which has X: Y or Z? (holding)",
+      "description": "Compare two locations for a specific object type (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 2,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 2,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_report",
+      "final_messages": {
+        "at_y": "$X is at $Y.",
+        "at_z": "$X is at $Z.",
+        "both": "$X is at both $Y and $Z.",
+        "neither": "$X is at neither $Y nor $Z."
+      },
+      "prompt_templates": [
+        "Which has $X: $Y or $Z?",
+        "Is the $X at $Y or $Z?",
+        "Where is the $X, $Y or $Z?",
+        "Check $Y and $Z \u2014 which one has the $X?",
+        "Does $Y or $Z contain the $X?",
+        "Between $Y and $Z, where is the $X?"
+      ]
+    },
+    {
+      "id": "5.9",
+      "name": "Count objects by type in Y",
+      "description": "Count objects grouped by type in a location group",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "$REPORT",
+        "all_full": "$REPORT",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "Count objects by type in $Y.",
+        "Break down what's at $Y by type.",
+        "How many of each type are in $Y?",
+        "Give me a count per object type at $Y.",
+        "Tally the objects in $Y by their type.",
+        "What types of objects are in $Y and how many of each?"
+      ]
+    },
+    {
+      "id": "5.9b",
+      "name": "Count objects by type in Y (holding)",
+      "description": "Count objects grouped by type in a location group (gripper holding)",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 6,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "$REPORT",
+        "all_full": "$REPORT",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "Count objects by type in $Y.",
+        "Break down what's at $Y by type.",
+        "How many of each type are in $Y?",
+        "Give me a count per object type at $Y.",
+        "Tally the objects in $Y by their type.",
+        "What types of objects are in $Y and how many of each?"
+      ]
+    },
+    {
+      "id": "6.1",
+      "name": "Pick whatever at Y (success)",
+      "description": "Pick up unknown object type from location",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "success": "Picked up $FOUND_TYPE from $Y.",
+        "empty": "Nothing at $Y.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y.",
+        "Grab whatever is at $Y.",
+        "Take whatever you find at $Y.",
+        "Pick up the object at $Y, whatever it is.",
+        "Go to $Y and pick up whatever is there.",
+        "Get whatever is sitting at $Y."
+      ]
+    },
+    {
+      "id": "6.2",
+      "name": "Pick whatever at Y (empty)",
+      "description": "Attempt to pick from empty location",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "success": "Picked up $FOUND_TYPE from $Y.",
+        "empty": "Nothing at $Y.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y.",
+        "Grab whatever is at $Y.",
+        "Take whatever you find at $Y.",
+        "Pick up the object at $Y, whatever it is.",
+        "Go to $Y and pick up whatever is there.",
+        "Get whatever is sitting at $Y."
+      ]
+    },
+    {
+      "id": "6.3",
+      "name": "Pick from Y else Z (found at Y)",
+      "description": "Pick from Y with fallback to Z, object found at Y",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "found_y": "Picked up $FOUND_TYPE from $Y.",
+        "found_z": "Nothing at $Y. Picked up $FOUND_TYPE from $Z instead.",
+        "both_empty": "Both $Y and $Z are empty.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y. If $Y is empty, pick from $Z instead.",
+        "Grab what's at $Y; if nothing's there, try $Z.",
+        "Take whatever is at $Y. If $Y has nothing, use $Z.",
+        "Pick up from $Y. If $Y is empty, pick from $Z as a fallback.",
+        "Get whatever is at $Y, or from $Z if $Y is empty.",
+        "Try picking from $Y first; if it's empty, go to $Z instead."
+      ]
+    },
+    {
+      "id": "6.4",
+      "name": "Pick from Y else Z (found at Z)",
+      "description": "Pick from Y with fallback to Z, Y empty, found at Z",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "found_y": "Picked up $FOUND_TYPE from $Y.",
+        "found_z": "Nothing at $Y. Picked up $FOUND_TYPE from $Z instead.",
+        "both_empty": "Both $Y and $Z are empty.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y. If $Y is empty, pick from $Z instead.",
+        "Grab what's at $Y; if nothing's there, try $Z.",
+        "Take whatever is at $Y. If $Y has nothing, use $Z.",
+        "Pick up from $Y. If $Y is empty, pick from $Z as a fallback.",
+        "Get whatever is at $Y, or from $Z if $Y is empty.",
+        "Try picking from $Y first; if it's empty, go to $Z instead."
+      ]
+    },
+    {
+      "id": "6.5",
+      "name": "Pick X or W from Y (found X)",
+      "description": "Pick one of two types, X found",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE",
+          "constraints": {
+            "must_differ_from": "$X"
+          }
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "found_x": "Found $X at $Y. Picked it up.",
+        "found_w": "Found $W at $Y. Picked it up.",
+        "empty": "$Y is empty.",
+        "neither": "$Y has $FOUND_ITEMS — neither $X nor $W.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Pick up a $X or a $W from $Y, whichever is there.",
+        "Get me a $X or $W from $Y, whatever you find.",
+        "Grab either a $X or a $W from $Y.",
+        "From $Y, pick up a $X or $W \u2014 whichever is available.",
+        "Pick whichever is at $Y: a $X or a $W.",
+        "Go to $Y and pick up a $X or a $W, whichever one is present."
+      ]
+    },
+    {
+      "id": "6.6",
+      "name": "Pick X or W from Y (found W)",
+      "description": "Pick one of two types, W found",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$W"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE",
+          "constraints": {
+            "must_differ_from": "$X"
+          }
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "found_x": "Found $X at $Y. Picked it up.",
+        "found_w": "Found $W at $Y. Picked it up.",
+        "empty": "$Y is empty.",
+        "neither": "$Y has $FOUND_ITEMS — neither $X nor $W.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Pick up a $X or a $W from $Y, whichever is there.",
+        "Get me a $X or $W from $Y, whatever you find.",
+        "Grab either a $X or a $W from $Y.",
+        "From $Y, pick up a $X or $W \u2014 whichever is available.",
+        "Pick whichever is at $Y: a $X or a $W.",
+        "Go to $Y and pick up a $X or a $W, whichever one is present."
+      ]
+    },
+    {
+      "id": "6.7",
+      "name": "Pick X or W from Y (empty)",
+      "description": "Pick one of two types, Y is empty",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE",
+          "constraints": {
+            "must_differ_from": "$X"
+          }
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "found_x": "Found $X at $Y. Picked it up.",
+        "found_w": "Found $W at $Y. Picked it up.",
+        "empty": "$Y is empty.",
+        "neither": "$Y has $FOUND_ITEMS — neither $X nor $W.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Pick up a $X or a $W from $Y, whichever is there.",
+        "Get me a $X or $W from $Y, whatever you find.",
+        "Grab either a $X or a $W from $Y.",
+        "From $Y, pick up a $X or $W \u2014 whichever is available.",
+        "Pick whichever is at $Y: a $X or a $W.",
+        "Go to $Y and pick up a $X or a $W, whichever one is present."
+      ]
+    },
+    {
+      "id": "6.8",
+      "name": "Pick X or W from Y (neither)",
+      "description": "Pick one of two types, different type at Y",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": [
+              "$X",
+              "$W"
+            ]
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE",
+          "constraints": {
+            "must_differ_from": "$X"
+          }
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "found_x": "Found $X at $Y. Picked it up.",
+        "found_w": "Found $W at $Y. Picked it up.",
+        "empty": "$Y is empty.",
+        "neither": "$Y has $FOUND_ITEMS — neither $X nor $W.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "min_object_types": 3,
+      "prompt_templates": [
+        "Pick up a $X or a $W from $Y, whichever is there.",
+        "Get me a $X or $W from $Y, whatever you find.",
+        "Grab either a $X or a $W from $Y.",
+        "From $Y, pick up a $X or $W \u2014 whichever is available.",
+        "Pick whichever is at $Y: a $X or a $W.",
+        "Go to $Y and pick up a $X or a $W, whichever one is present."
+      ]
+    },
+    {
+      "id": "6.9",
+      "name": "Pick unless W (success)",
+      "description": "Pick from Y unless it contains W, object is not W",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$W"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "success": "Picked up $FOUND_TYPE from $Y.",
+        "refused": "$Y has $W, will not pick.",
+        "empty": "$Y is empty.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Pick up whatever is at $Y, as long as it is not a $W.",
+        "Grab anything at $Y except a $W.",
+        "Take whatever is at $Y, but not if it's a $W.",
+        "Pick from $Y, as long as the object isn't a $W.",
+        "Get whatever you find at $Y, unless it's a $W.",
+        "Pick up the object at $Y only if it's not a $W."
+      ]
+    },
+    {
+      "id": "6.10",
+      "name": "Pick unless W (refused)",
+      "description": "Pick from Y unless it contains W, W is at Y",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$W"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "success": "Picked up $FOUND_TYPE from $Y.",
+        "refused": "$Y has $W, will not pick.",
+        "empty": "$Y is empty.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y, as long as it is not a $W.",
+        "Grab anything at $Y except a $W.",
+        "Take whatever is at $Y, but not if it's a $W.",
+        "Pick from $Y, as long as the object isn't a $W.",
+        "Get whatever you find at $Y, unless it's a $W.",
+        "Pick up the object at $Y only if it's not a $W."
+      ]
+    },
+    {
+      "id": "6.11",
+      "name": "Pick unless W (empty)",
+      "description": "Pick from Y unless it contains W, Y is empty",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        }
+      ],
+      "tool_routine": "observe_and_pick_any",
+      "final_messages": {
+        "success": "Picked up $FOUND_TYPE from $Y.",
+        "refused": "$Y has $W, will not pick.",
+        "empty": "$Y is empty.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y, as long as it is not a $W.",
+        "Grab anything at $Y except a $W.",
+        "Take whatever is at $Y, but not if it's a $W.",
+        "Pick from $Y, as long as the object isn't a $W.",
+        "Get whatever you find at $Y, unless it's a $W.",
+        "Pick up the object at $Y only if it's not a $W."
+      ]
+    },
+    {
+      "id": "7.1",
+      "name": "Get X from Y, come back (success)",
+      "description": "Pick X from Y and return to starting position",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_pick_return_origin",
+      "final_messages": {
+        "success": "Picked up $X from $FOUND_LOCATION and returned to $ORIGIN.",
+        "not_found": "$Y is empty. Returned to $ORIGIN.",
+        "wrong_type": "Found $FOUND_ITEMS at $Y, not $X. Returned to $ORIGIN.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Get the $X from $Y and come back to where you started.",
+        "Fetch the $X from $Y and return to your starting position.",
+        "Pick up the $X from $Y, then come back here.",
+        "Go grab the $X from $Y and bring it back.",
+        "Retrieve the $X from $Y and return to your origin.",
+        "Get the $X from $Y and navigate back to where you began."
+      ]
+    },
+    {
+      "id": "7.2",
+      "name": "Get X from Y, come back (Y empty)",
+      "description": "Attempt to pick X from empty Y, return",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_pick_return_origin",
+      "final_messages": {
+        "success": "Picked up $X from $FOUND_LOCATION and returned to $ORIGIN.",
+        "not_found": "$Y is empty. Returned to $ORIGIN.",
+        "wrong_type": "Found $FOUND_ITEMS at $Y, not $X. Returned to $ORIGIN.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Get the $X from $Y and come back to where you started.",
+        "Fetch the $X from $Y and return to your starting position.",
+        "Pick up the $X from $Y, then come back here.",
+        "Go grab the $X from $Y and bring it back.",
+        "Retrieve the $X from $Y and return to your origin.",
+        "Get the $X from $Y and navigate back to where you began."
+      ]
+    },
+    {
+      "id": "7.3",
+      "name": "Get X from Y, come back (wrong type)",
+      "description": "Attempt to pick X but different type found, return",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_pick_return_origin",
+      "final_messages": {
+        "success": "Picked up $X from $FOUND_LOCATION and returned to $ORIGIN.",
+        "not_found": "$Y is empty. Returned to $ORIGIN.",
+        "wrong_type": "Found $FOUND_ITEMS at $Y, not $X. Returned to $ORIGIN.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Get the $X from $Y and come back to where you started.",
+        "Fetch the $X from $Y and return to your starting position.",
+        "Pick up the $X from $Y, then come back here.",
+        "Go grab the $X from $Y and bring it back.",
+        "Retrieve the $X from $Y and return to your origin.",
+        "Get the $X from $Y and navigate back to where you began."
+      ]
+    },
+    {
+      "id": "7.4",
+      "name": "Conditional pick X, come back (X found)",
+      "description": "Go to Y, pick only if X, return - X is there",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_pick_return_origin",
+      "final_messages": {
+        "success": "Found $X at $Y, picked it up and returned to $ORIGIN.",
+        "wrong_type": "Found $FOUND_ITEMS at $Y, not $X. Returned to $ORIGIN without picking.",
+        "not_found": "$Y is empty. Returned to $ORIGIN.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Go to $Y, see what's there, pick it up if it's a $X, then come back.",
+        "Check $Y \u2014 if there's a $X, grab it and return.",
+        "Visit $Y. If you find a $X, pick it up and come back.",
+        "Head to $Y, and if there's a $X there, bring it back.",
+        "Go look at $Y. Pick up any $X you find, then return.",
+        "Inspect $Y. If it has a $X, grab it and come back to your start."
+      ]
+    },
+    {
+      "id": "7.5",
+      "name": "Conditional pick X, come back (not X)",
+      "description": "Go to Y, pick only if X, return - X not there",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_pick_return_origin",
+      "final_messages": {
+        "success": "Found $X at $Y, picked it up and returned to $ORIGIN.",
+        "wrong_type": "Found $FOUND_ITEMS at $Y, not $X. Returned to $ORIGIN without picking.",
+        "not_found": "$Y is empty. Returned to $ORIGIN.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Go to $Y, see what's there, pick it up if it's a $X, then come back.",
+        "Check $Y \u2014 if there's a $X, grab it and return.",
+        "Visit $Y. If you find a $X, pick it up and come back.",
+        "Head to $Y, and if there's a $X there, bring it back.",
+        "Go look at $Y. Pick up any $X you find, then return.",
+        "Inspect $Y. If it has a $X, grab it and come back to your start."
+      ]
+    },
+    {
+      "id": "7.6",
+      "name": "Pick whatever, bring back (success)",
+      "description": "Pick any object from Y and return to origin",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_pick_return_origin",
+      "final_messages": {
+        "success": "Picked up $FOUND_TYPE from $Y and returned to $ORIGIN.",
+        "empty": "$Y is empty. Returned to $ORIGIN.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y and bring it back.",
+        "Grab what's at $Y and come back.",
+        "Go to $Y, pick up whatever is there, and return.",
+        "Fetch whatever is at $Y and bring it back here.",
+        "Take whatever you find at $Y and come back to start.",
+        "Pick up the object at $Y and return to your starting position."
+      ]
+    },
+    {
+      "id": "7.7",
+      "name": "Pick whatever, bring back (empty)",
+      "description": "Attempt to pick from empty Y, return to origin",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "*"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_pick_return_origin",
+      "final_messages": {
+        "success": "Picked up $FOUND_TYPE from $Y and returned to $ORIGIN.",
+        "empty": "$Y is empty. Returned to $ORIGIN.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick up whatever is at $Y and bring it back.",
+        "Grab what's at $Y and come back.",
+        "Go to $Y, pick up whatever is there, and return.",
+        "Fetch whatever is at $Y and bring it back here.",
+        "Take whatever you find at $Y and come back to start.",
+        "Pick up the object at $Y and return to your starting position."
+      ]
+    },
+    {
+      "id": "8.1",
+      "name": "Place X somewhere (success)",
+      "description": "Search for any empty location and place",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "success": "Placed $X at $PLACED_LOCATION.",
+        "all_occupied": "No empty location found. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place the $X somewhere.",
+        "Find a spot for the $X.",
+        "Put the $X down somewhere.",
+        "Set the $X down at any available location.",
+        "Place the $X wherever there's room.",
+        "Drop the $X off at an open spot."
+      ]
+    },
+    {
+      "id": "8.2",
+      "name": "Place X somewhere (all occupied)",
+      "description": "Attempt to place when all locations occupied",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "success": "Placed $X at $PLACED_LOCATION.",
+        "all_occupied": "No empty location found. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place the $X somewhere.",
+        "Find a spot for the $X.",
+        "Put the $X down somewhere.",
+        "Set the $X down at any available location.",
+        "Place the $X wherever there's room.",
+        "Drop the $X off at an open spot."
+      ]
+    },
+    {
+      "id": "8.3",
+      "name": "Place X prefer Y (Y full)",
+      "description": "Place with preference for Y, Y is full",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "placed_in_y": "Placed $X at $PLACED_LOCATION in $Y.",
+        "placed_elsewhere": "$Y is full. Placed $X at $PLACED_LOCATION.",
+        "all_occupied": "No empty location found.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place the $X, preferring $Y. If $Y is full, find any empty spot.",
+        "Put the $X at $Y if possible, otherwise anywhere.",
+        "Try to place the $X at $Y. If it's full, find another spot.",
+        "Place the $X at $Y if there's room; if not, use any open location.",
+        "Prefer placing the $X at $Y, but use any available spot if $Y is full.",
+        "Put the $X in $Y. If $Y has no room, find an empty slot elsewhere."
+      ]
+    },
+    {
+      "id": "8.4",
+      "name": "Place X not at Y",
+      "description": "Place at any location except Y",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "success": "Placed $X at $PLACED_LOCATION, avoided $Y.",
+        "all_occupied": "No empty location available outside $Y.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place the $X somewhere, but not at $Y.",
+        "Put the $X down, just not at $Y.",
+        "Find a spot for the $X that isn't $Y.",
+        "Place the $X anywhere except $Y.",
+        "Set the $X down at any location other than $Y.",
+        "Drop the $X off somewhere \u2014 avoid $Y."
+      ]
+    },
+    {
+      "id": "8.5",
+      "name": "Place X prefer Y (Y not full)",
+      "description": "Place with preference for Y, Y has empty slot",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "placed_in_y": "Placed $X at $PLACED_LOCATION in $Y.",
+        "placed_elsewhere": "$Y is full. Placed $X at $PLACED_LOCATION.",
+        "all_occupied": "No empty location found.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place the $X, preferring $Y. If $Y is full, find any empty spot.",
+        "Put the $X at $Y if possible, otherwise anywhere.",
+        "Try to place the $X at $Y. If it's full, find another spot.",
+        "Place the $X at $Y if there's room; if not, use any open location.",
+        "Prefer placing the $X at $Y, but use any available spot if $Y is full.",
+        "Put the $X in $Y. If $Y has no room, find an empty slot elsewhere."
+      ]
+    },
+    {
+      "id": "8.6",
+      "name": "Place X somewhere (wrong type)",
+      "description": "Attempt to place X but holding wrong type",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "success": "Placed $X at $PLACED_LOCATION.",
+        "all_occupied": "No empty location found.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Place the $X somewhere.",
+        "Find a spot for the $X.",
+        "Put the $X down somewhere.",
+        "Set the $X down at any available location.",
+        "Place the $X wherever there's room.",
+        "Drop the $X off at an open spot."
+      ]
+    },
+    {
+      "id": "8.7",
+      "name": "Place X prefer Y (wrong type)",
+      "description": "Attempt to place X prefer Y but holding wrong type",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "placed_in_y": "Placed $X at $PLACED_LOCATION in $Y.",
+        "placed_elsewhere": "$Y is full. Placed $X at $PLACED_LOCATION.",
+        "all_occupied": "No empty location found.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Place the $X, preferring $Y. If $Y is full, find any empty spot.",
+        "Put the $X at $Y if possible, otherwise anywhere.",
+        "Try to place the $X at $Y. If it's full, find another spot.",
+        "Place the $X at $Y if there's room; if not, use any open location.",
+        "Prefer placing the $X at $Y, but use any available spot if $Y is full.",
+        "Put the $X in $Y. If $Y has no room, find an empty slot elsewhere."
+      ]
+    },
+    {
+      "id": "8.8",
+      "name": "Place X not at Y (wrong type)",
+      "description": "Attempt to place X not at Y but holding wrong type",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "search_all_and_place",
+      "final_messages": {
+        "success": "Placed $X at $PLACED_LOCATION, avoided $Y.",
+        "all_occupied": "No empty location available outside $Y.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Place the $X somewhere, but not at $Y.",
+        "Put the $X down, just not at $Y.",
+        "Find a spot for the $X that isn't $Y.",
+        "Place the $X anywhere except $Y.",
+        "Set the $X down at any location other than $Y.",
+        "Drop the $X off somewhere \u2014 avoid $Y."
+      ]
+    },
+    {
+      "id": "9.1",
+      "name": "Place at Y else Z (Y empty)",
+      "description": "Place at primary location, which is empty",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_primary": "Placed $X at $Y.",
+        "placed_fallback": "$Y is occupied. Placed $X at $Z.",
+        "both_occupied": "Both $Y and $Z are occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place $X at $Y, if occupied try $Z.",
+        "Put $X at $Y. If full, use $Z.",
+        "Place $X at $Y, falling back to $Z if it's occupied.",
+        "Try placing $X at $Y. If $Y is taken, use $Z instead.",
+        "Put $X in $Y; if there's no room, try $Z.",
+        "Place $X at $Y first. If $Y is occupied, go with $Z."
+      ]
+    },
+    {
+      "id": "9.2",
+      "name": "Place at Y else Z (Y occupied, Z empty)",
+      "description": "Place at primary occupied, fallback to Z",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Z"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_primary": "Placed $X at $Y.",
+        "placed_fallback": "$Y is occupied. Placed $X at $Z.",
+        "both_occupied": "Both $Y and $Z are occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place $X at $Y, if occupied try $Z.",
+        "Put $X at $Y. If full, use $Z.",
+        "Place $X at $Y, falling back to $Z if it's occupied.",
+        "Try placing $X at $Y. If $Y is taken, use $Z instead.",
+        "Put $X in $Y; if there's no room, try $Z.",
+        "Place $X at $Y first. If $Y is occupied, go with $Z."
+      ]
+    },
+    {
+      "id": "9.3",
+      "name": "Place at Y else Z (both occupied)",
+      "description": "Both locations occupied",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_primary": "Placed $X at $Y.",
+        "placed_fallback": "$Y is occupied. Placed $X at $Z.",
+        "both_occupied": "Both $Y and $Z are occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place $X at $Y, if occupied try $Z.",
+        "Put $X at $Y. If full, use $Z.",
+        "Place $X at $Y, falling back to $Z if it's occupied.",
+        "Try placing $X at $Y. If $Y is taken, use $Z instead.",
+        "Put $X in $Y; if there's no room, try $Z.",
+        "Place $X at $Y first. If $Y is occupied, go with $Z."
+      ]
+    },
+    {
+      "id": "9.4",
+      "name": "Place at Y strict (varies)",
+      "description": "Place only if Y is empty, no fallback",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed": "Placed $X at $Y.",
+        "occupied": "$Y has $FOUND_ITEMS. Did not place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place $X at $Y, but only if $Y is completely empty. Do not try elsewhere.",
+        "Put $X at $Y only if every slot there is free. Don't look elsewhere.",
+        "Place $X at $Y, but only when $Y is entirely empty. No fallback.",
+        "Only place $X at $Y if $Y has zero objects. Do not try other locations.",
+        "If $Y is completely empty, place $X there. Otherwise, do nothing.",
+        "Place $X at $Y \u2014 but only if $Y is fully empty. Don't try anywhere else."
+      ]
+    },
+    {
+      "id": "9.5",
+      "name": "Place at Y if W go Z (W at Y)",
+      "description": "Type-conditional placement, W detected at Y",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$W"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Z"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_y": "No $W at $Y. Placed $X at $Y.",
+        "placed_z": "$Y has $W. Placed $X at $Z instead.",
+        "both_occupied": "$Y has $W. $Z is occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place $X at $Y. If $Y has a $W in it, place at $Z instead.",
+        "Put $X at $Y unless there's a $W there \u2014 then use $Z.",
+        "Place $X at $Y. If you find a $W at $Y, use $Z instead.",
+        "Try placing $X at $Y, but if $Y contains a $W, place at $Z.",
+        "Put $X in $Y. If a $W is already there, switch to $Z.",
+        "Place $X at $Y; however, if $Y has a $W, place $X at $Z instead."
+      ]
+    },
+    {
+      "id": "9.6",
+      "name": "Place at Y if W go Z (no W at Y)",
+      "description": "Type-conditional placement, no W at Y",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$W"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_y": "No $W at $Y. Placed $X at $Y.",
+        "placed_z": "$Y has $W. Placed $X at $Z instead.",
+        "both_occupied": "$Y has $W. $Z is occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place $X at $Y. If $Y has a $W in it, place at $Z instead.",
+        "Put $X at $Y unless there's a $W there \u2014 then use $Z.",
+        "Place $X at $Y. If you find a $W at $Y, use $Z instead.",
+        "Try placing $X at $Y, but if $Y contains a $W, place at $Z.",
+        "Put $X in $Y. If a $W is already there, switch to $Z.",
+        "Place $X at $Y; however, if $Y has a $W, place $X at $Z instead."
+      ]
+    },
+    {
+      "id": "9.7",
+      "name": "Place at Y if W go Z (both full)",
+      "description": "Type-conditional placement, W at Y and Z occupied",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$W"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_y": "No $W at $Y. Placed $X at $Y.",
+        "placed_z": "$Y has $W. Placed $X at $Z instead.",
+        "both_occupied": "$Y has $W. $Z is occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "prompt_templates": [
+        "Place $X at $Y. If $Y has a $W in it, place at $Z instead.",
+        "Put $X at $Y unless there's a $W there \u2014 then use $Z.",
+        "Place $X at $Y. If you find a $W at $Y, use $Z instead.",
+        "Try placing $X at $Y, but if $Y contains a $W, place at $Z.",
+        "Put $X in $Y. If a $W is already there, switch to $Z.",
+        "Place $X at $Y; however, if $Y has a $W, place $X at $Z instead."
+      ]
+    },
+    {
+      "id": "9.8",
+      "name": "Place at Y else Z (wrong type)",
+      "description": "Place at Y else Z but holding wrong type",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_primary": "Placed $X at $Y.",
+        "placed_fallback": "$Y is occupied. Placed $X at $Z.",
+        "both_occupied": "Both $Y and $Z are occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Place $X at $Y, if occupied try $Z.",
+        "Put $X at $Y. If full, use $Z.",
+        "Place $X at $Y, falling back to $Z if it's occupied.",
+        "Try placing $X at $Y. If $Y is taken, use $Z instead.",
+        "Put $X in $Y; if there's no room, try $Z.",
+        "Place $X at $Y first. If $Y is occupied, go with $Z."
+      ]
+    },
+    {
+      "id": "9.9",
+      "name": "Place at Y strict (wrong type)",
+      "description": "Strict place at Y but holding wrong type",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed": "Placed $X at $Y.",
+        "occupied": "$Y has $FOUND_ITEMS. Did not place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Place $X at $Y, but only if $Y is completely empty. Do not try elsewhere.",
+        "Put $X at $Y only if every slot there is free. Don't look elsewhere.",
+        "Place $X at $Y, but only when $Y is entirely empty. No fallback.",
+        "Only place $X at $Y if $Y has zero objects. Do not try other locations.",
+        "If $Y is completely empty, place $X there. Otherwise, do nothing.",
+        "Place $X at $Y \u2014 but only if $Y is fully empty. Don't try anywhere else."
+      ]
+    },
+    {
+      "id": "9.10",
+      "name": "Place at Y if W go Z (wrong type)",
+      "description": "Type-conditional placement but holding wrong type",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$W",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_and_place_with_fallback",
+      "final_messages": {
+        "placed_y": "No $W at $Y. Placed $X at $Y.",
+        "placed_z": "$Y has $W. Placed $X at $Z instead.",
+        "both_occupied": "$Y has $W. $Z is occupied. Cannot place.",
+        "not_holding": "Not holding anything.",
+        "wrong_type": "Holding $HELD_TYPE, not $X."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Place $X at $Y. If $Y has a $W in it, place at $Z instead.",
+        "Put $X at $Y unless there's a $W there \u2014 then use $Z.",
+        "Place $X at $Y. If you find a $W at $Y, use $Z instead.",
+        "Try placing $X at $Y, but if $Y contains a $W, place at $Z.",
+        "Put $X in $Y. If a $W is already there, switch to $Z.",
+        "Place $X at $Y; however, if $Y has a $W, place $X at $Z instead."
+      ]
+    },
+    {
+      "id": "10.1",
+      "name": "Move X from Y to Z (success)",
+      "description": "Pick X from Y and place at Z",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Z"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $X from $FOUND_LOCATION to $PLACED_LOCATION.",
+        "pick_failed": "Could not find $X at $Y.",
+        "place_failed": "Picked up $X but $Z is occupied. Still holding.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Move the $X from $Y to $Z.",
+        "Transfer the $X from $Y to $Z.",
+        "Relocate the $X from $Y to $Z.",
+        "Take the $X from $Y and put it at $Z.",
+        "Pick the $X from $Y and place it in $Z.",
+        "Move the $X over from $Y to $Z."
+      ]
+    },
+    {
+      "id": "10.2",
+      "name": "Move X from Y to Z (X not at Y)",
+      "description": "Attempt move but X not at Y",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $X from $FOUND_LOCATION to $PLACED_LOCATION.",
+        "pick_failed": "Could not find $X at $Y.",
+        "place_failed": "Picked up $X but $Z is occupied. Still holding.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Move the $X from $Y to $Z.",
+        "Transfer the $X from $Y to $Z.",
+        "Relocate the $X from $Y to $Z.",
+        "Take the $X from $Y and put it at $Z.",
+        "Pick the $X from $Y and place it in $Z.",
+        "Move the $X over from $Y to $Z."
+      ]
+    },
+    {
+      "id": "10.3",
+      "name": "Move X from Y to Z (Z occupied)",
+      "description": "Pick X but Z is full",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $X from $FOUND_LOCATION to $PLACED_LOCATION.",
+        "pick_failed": "Could not find $X at $Y.",
+        "place_failed": "Picked up $X but $Z is occupied. Still holding.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Move the $X from $Y to $Z.",
+        "Transfer the $X from $Y to $Z.",
+        "Relocate the $X from $Y to $Z.",
+        "Take the $X from $Y and put it at $Z.",
+        "Pick the $X from $Y and place it in $Z.",
+        "Move the $X over from $Y to $Z."
+      ]
+    },
+    {
+      "id": "10.4",
+      "name": "Move X Y to Z, return if full (returned)",
+      "description": "Move with return fallback, Z occupied",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $X from $FOUND_LOCATION to $PLACED_LOCATION.",
+        "returned": "$Z is occupied. Returned $X to $Y.",
+        "pick_failed": "Could not find $X at $Y.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Move the $X from $Y to $Z. If $Z is occupied, bring $X back to $Y.",
+        "Move $X from $Y to $Z; if $Z is full, return $X to $Y.",
+        "Transfer $X from $Y to $Z. If $Z is taken, put $X back at $Y.",
+        "Take $X from $Y to $Z. If $Z has no room, bring it back to $Y.",
+        "Relocate $X from $Y to $Z, but if $Z is occupied, return $X to $Y.",
+        "Move the $X from $Y to $Z. Should $Z be full, bring it back to $Y."
+      ]
+    },
+    {
+      "id": "10.5",
+      "name": "Move X Y to Z, return if full (X not at Y)",
+      "description": "Move with return fallback, X not found",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $X from $FOUND_LOCATION to $PLACED_LOCATION.",
+        "returned": "$Z is occupied. Returned $X to $Y.",
+        "pick_failed": "Could not find $X at $Y.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Move the $X from $Y to $Z. If $Z is occupied, bring $X back to $Y.",
+        "Move $X from $Y to $Z; if $Z is full, return $X to $Y.",
+        "Transfer $X from $Y to $Z. If $Z is taken, put $X back at $Y.",
+        "Take $X from $Y to $Z. If $Z has no room, bring it back to $Y.",
+        "Relocate $X from $Y to $Z, but if $Z is occupied, return $X to $Y.",
+        "Move the $X from $Y to $Z. Should $Z be full, bring it back to $Y."
+      ]
+    },
+    {
+      "id": "10.6",
+      "name": "Move X Y to Z, return if full (Y empty)",
+      "description": "Move with return fallback, Y is empty",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        },
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $X from $FOUND_LOCATION to $PLACED_LOCATION.",
+        "returned": "$Z is occupied. Returned $X to $Y.",
+        "pick_failed": "Could not find $X at $Y.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Move the $X from $Y to $Z. If $Z is occupied, bring $X back to $Y.",
+        "Move $X from $Y to $Z; if $Z is full, return $X to $Y.",
+        "Transfer $X from $Y to $Z. If $Z is taken, put $X back at $Y.",
+        "Take $X from $Y to $Z. If $Z has no room, bring it back to $Y.",
+        "Relocate $X from $Y to $Z, but if $Z is occupied, return $X to $Y.",
+        "Move the $X from $Y to $Z. Should $Z be full, bring it back to $Y."
+      ]
+    },
+    {
+      "id": "10.7",
+      "name": "Pick any from Y, place at Z (success)",
+      "description": "Pick unknown type from Y and place at Z",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Z"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $FOUND_TYPE from $Y to $PLACED_LOCATION.",
+        "empty_source": "$Y is empty. Nothing to pick.",
+        "place_failed": "Picked up $FOUND_TYPE but $Z is occupied. Still holding.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick whatever is at $Y and place it in $Z.",
+        "Grab what's at $Y and put it at $Z.",
+        "Take whatever you find at $Y and move it to $Z.",
+        "Pick up the object at $Y and place it in $Z.",
+        "Get whatever is at $Y and set it down at $Z.",
+        "Move whatever is at $Y over to $Z."
+      ]
+    },
+    {
+      "id": "10.8",
+      "name": "Pick any from Y, place at Z (Y empty)",
+      "description": "Attempt to pick from empty Y",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $FOUND_TYPE from $Y to $PLACED_LOCATION.",
+        "empty_source": "$Y is empty. Nothing to pick.",
+        "place_failed": "Picked up $FOUND_TYPE but $Z is occupied. Still holding.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick whatever is at $Y and place it in $Z.",
+        "Grab what's at $Y and put it at $Z.",
+        "Take whatever you find at $Y and move it to $Z.",
+        "Pick up the object at $Y and place it in $Z.",
+        "Get whatever is at $Y and set it down at $Z.",
+        "Move whatever is at $Y over to $Z."
+      ]
+    },
+    {
+      "id": "10.9",
+      "name": "Pick any from Y, place at Z (Z occupied)",
+      "description": "Pick from Y but Z is full",
+      "category": "pick_and_place",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "OBJECT_LOCATION"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "pick_and_place",
+      "final_messages": {
+        "success": "Moved $FOUND_TYPE from $Y to $PLACED_LOCATION.",
+        "empty_source": "$Y is empty. Nothing to pick.",
+        "place_failed": "Picked up $FOUND_TYPE but $Z is occupied. Still holding.",
+        "ask_user": "Cannot pick, already holding an object."
+      },
+      "prompt_templates": [
+        "Pick whatever is at $Y and place it in $Z.",
+        "Grab what's at $Y and put it at $Z.",
+        "Take whatever you find at $Y and move it to $Z.",
+        "Pick up the object at $Y and place it in $Z.",
+        "Get whatever is at $Y and set it down at $Z.",
+        "Move whatever is at $Y over to $Z."
+      ]
+    },
+    {
+      "id": "11.1",
+      "name": "Find and pick X (success)",
+      "description": "Search for and pick an object without knowing its location",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "*",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 2,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "search_all_and_pick",
+      "final_messages": {
+        "success": "Found and picked up a $X from $FOUND_LOCATION.",
+        "ask_user": "I cannot pick up the $X because I am currently holding an object. Would you like me to place it somewhere first?",
+        "not_found": "I searched all observable locations but could not find a $X."
+      },
+      "prompt_templates": [
+        "Find and pick up a $X.",
+        "Search for a $X and pick it up.",
+        "Locate a $X and grab it.",
+        "Look for a $X and pick it up.",
+        "Find a $X somewhere and grab it.",
+        "Hunt down a $X and pick it up."
+      ]
+    },
+    {
+      "id": "11.2",
+      "name": "Find and pick X (gripper holding)",
+      "description": "Attempt to find and pick when gripper is already holding something",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            false
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "*",
+            "type_pattern": "$X"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "search_all_and_pick",
+      "final_messages": {
+        "success": "Found and picked up a $X from $FOUND_LOCATION.",
+        "ask_user": "I cannot pick up the $X because I am currently holding an object. Would you like me to place it somewhere first?",
+        "not_found": "I searched all observable locations but could not find a $X."
+      },
+      "prompt_templates": [
+        "Find and pick up a $X.",
+        "Search for a $X and pick it up.",
+        "Locate a $X and grab it.",
+        "Look for a $X and pick it up.",
+        "Find a $X somewhere and grab it.",
+        "Hunt down a $X and pick it up."
+      ]
+    },
+    {
+      "id": "11.3",
+      "name": "Find and pick X (not found)",
+      "description": "Search for an object that doesn't exist anywhere",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": [
+            "reset"
+          ],
+          "gripper_open": [
+            true
+          ]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 7,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "search_all_and_pick",
+      "final_messages": {
+        "success": "Found and picked up a $X from $FOUND_LOCATION.",
+        "ask_user": "I cannot pick up the $X because I am currently holding an object. Would you like me to place it somewhere first?",
+        "not_found": "I searched all observable locations but could not find a $X."
+      },
+      "min_object_types": 2,
+      "prompt_templates": [
+        "Find and pick up a $X.",
+        "Search for a $X and pick it up.",
+        "Locate a $X and grab it.",
+        "Look for a $X and pick it up.",
+        "Find a $X somewhere and grab it.",
+        "Hunt down a $X and pick it up."
+      ]
+    },
+    {
+      "id": "12.1",
+      "name": "Observe conditional pick (X found, picked)",
+      "description": "Check Y, find X there, pick it up",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": ["reset"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE",
+          "constraints": {
+            "must_exist_in": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "observe_conditional_pick",
+      "final_messages": {
+        "picked": "I found a $X at $FOUND_LOCATION and picked it up.",
+        "different": "I checked $Y and found $FOUND_ITEMS, but no $X.",
+        "empty": "I checked $Y and it is empty — no objects found.",
+        "ask_user": "I cannot pick anything because I am currently holding an object. Would you like me to place it first?"
+      },
+      "prompt_templates": [
+        "Check what's at $Y. If there's a $X, pick it up. Otherwise, just tell me what you found.",
+        "Look at $Y. If you see a $X, grab it. If not, report what's there.",
+        "Inspect $Y for a $X. Pick it up if found, otherwise let me know what's there.",
+        "Go check $Y. Pick up the $X if it's there, or tell me what you see.",
+        "See if there's a $X at $Y. Grab it if yes, otherwise report back."
+      ]
+    },
+    {
+      "id": "12.2",
+      "name": "Observe conditional pick (different type found)",
+      "description": "Check Y, find a different type, report it",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": ["reset"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "*",
+            "type_exclude": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "observe_conditional_pick",
+      "min_object_types": 2,
+      "final_messages": {
+        "picked": "I found a $X at $FOUND_LOCATION and picked it up.",
+        "different": "I checked $Y and found $FOUND_ITEMS, but no $X.",
+        "empty": "I checked $Y and it is empty — no objects found.",
+        "ask_user": "I cannot pick anything because I am currently holding an object. Would you like me to place it first?"
+      },
+      "prompt_templates": [
+        "Check what's at $Y. If there's a $X, pick it up. Otherwise, just tell me what you found.",
+        "Look at $Y. If you see a $X, grab it. If not, report what's there.",
+        "Inspect $Y for a $X. Pick it up if found, otherwise let me know what's there.",
+        "Go check $Y. Pick up the $X if it's there, or tell me what you see.",
+        "See if there's a $X at $Y. Grab it if yes, otherwise report back."
+      ]
+    },
+    {
+      "id": "12.3",
+      "name": "Observe conditional pick (Y empty)",
+      "description": "Check Y, find it empty, report empty",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": ["reset"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "observe_conditional_pick",
+      "final_messages": {
+        "picked": "I found a $X at $FOUND_LOCATION and picked it up.",
+        "different": "I checked $Y and found $FOUND_ITEMS, but no $X.",
+        "empty": "I checked $Y and it is empty — no objects found.",
+        "ask_user": "I cannot pick anything because I am currently holding an object. Would you like me to place it first?"
+      },
+      "prompt_templates": [
+        "Check what's at $Y. If there's a $X, pick it up. Otherwise, just tell me what you found.",
+        "Look at $Y. If you see a $X, grab it. If not, report what's there.",
+        "Inspect $Y for a $X. Pick it up if found, otherwise let me know what's there.",
+        "Go check $Y. Pick up the $X if it's there, or tell me what you see.",
+        "See if there's a $X at $Y. Grab it if yes, otherwise report back."
+      ]
+    },
+    {
+      "id": "12.4",
+      "name": "Observe conditional pick (gripper busy)",
+      "description": "Attempt conditional pick when gripper is holding",
+      "category": "pick",
+      "initial_state": {
+        "robot": {
+          "position": ["reset"],
+          "gripper_open": [false]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "$Y",
+            "type_pattern": "$X"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        },
+        {
+          "name": "$X",
+          "type": "OBJECT_TYPE"
+        }
+      ],
+      "tool_routine": "observe_conditional_pick",
+      "final_messages": {
+        "picked": "I found a $X at $FOUND_LOCATION and picked it up.",
+        "different": "I checked $Y and found $FOUND_ITEMS, but no $X.",
+        "empty": "I checked $Y and it is empty — no objects found.",
+        "ask_user": "I cannot pick anything because I am currently holding an object. Would you like me to place it first?"
+      },
+      "prompt_templates": [
+        "Check what's at $Y. If there's a $X, pick it up. Otherwise, just tell me what you found.",
+        "Look at $Y. If you see a $X, grab it. If not, report what's there.",
+        "Inspect $Y for a $X. Pick it up if found, otherwise let me know what's there.",
+        "Go check $Y. Pick up the $X if it's there, or tell me what you see.",
+        "See if there's a $X at $Y. Grab it if yes, otherwise report back."
+      ]
+    },
+    {
+      "id": "13.1",
+      "name": "Compare inventories (varied counts)",
+      "description": "Compare Y and Z — different object counts",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": ["*"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 3,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 1,
+            "max_objects": 3,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 2,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "compare_inventories",
+      "min_object_types": 2,
+      "final_messages": {
+        "compared": "$Y has $Y_COUNT object(s) and $Z has $Z_COUNT object(s). $MOST has the most objects, and $EMPTIEST has the fewest."
+      },
+      "prompt_templates": [
+        "Compare $Y and $Z \u2014 which has the most objects? Which is emptiest?",
+        "Check $Y and $Z. Tell me which one has the most objects and which is the emptiest.",
+        "Look at $Y and $Z. Which location is most full and which is most empty?",
+        "Scan $Y and $Z for me. Which has the most stuff and which has the least?",
+        "Inspect $Y and $Z. Compare how many objects each has."
+      ]
+    },
+    {
+      "id": "13.2",
+      "name": "Compare inventories (tie)",
+      "description": "Compare Y and Z — both have same count",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": ["*"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "$Z",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 2,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        },
+        {
+          "name": "$Z",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME",
+          "constraints": {
+            "must_differ_from": "$Y"
+          }
+        }
+      ],
+      "tool_routine": "compare_inventories",
+      "min_object_types": 2,
+      "final_messages": {
+        "compared": "$Y has $Y_COUNT object(s) and $Z has $Z_COUNT object(s). $MOST has the most objects, and $EMPTIEST has the fewest."
+      },
+      "prompt_templates": [
+        "Compare $Y and $Z \u2014 which has the most objects? Which is emptiest?",
+        "Check $Y and $Z. Tell me which one has the most objects and which is the emptiest.",
+        "Look at $Y and $Z. Which location is most full and which is most empty?",
+        "Scan $Y and $Z for me. Which has the most stuff and which has the least?",
+        "Inspect $Y and $Z. Compare how many objects each has."
+      ]
+    },
+    {
+      "id": "14.1",
+      "name": "Which locations in Y are empty (mixed)",
+      "description": "Y has some empty and some occupied locations",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": ["*"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 4,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "In $Y, the following locations are empty: $EMPTY_LOCATIONS. The occupied locations are: $OCCUPIED_LOCATIONS.",
+        "all_full": "All locations in $Y are occupied. None are empty.",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "Which locations in $Y do NOT have any objects right now?",
+        "Tell me which spots in $Y are empty.",
+        "What locations in $Y are unoccupied?",
+        "Are there any empty locations in $Y? Which ones?",
+        "Check $Y and tell me which locations are empty."
+      ]
+    },
+    {
+      "id": "14.2",
+      "name": "Which locations in Y are empty (all empty)",
+      "description": "Y is completely empty",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": ["*"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "In $Y, the following locations are empty: $EMPTY_LOCATIONS. The occupied locations are: $OCCUPIED_LOCATIONS.",
+        "all_full": "All locations in $Y are occupied. None are empty.",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "Which locations in $Y do NOT have any objects right now?",
+        "Tell me which spots in $Y are empty.",
+        "What locations in $Y are unoccupied?",
+        "Are there any empty locations in $Y? Which ones?",
+        "Check $Y and tell me which locations are empty."
+      ]
+    },
+    {
+      "id": "14.3",
+      "name": "Which locations in Y are empty (all full)",
+      "description": "Y is completely full, no empty locations",
+      "category": "observation",
+      "initial_state": {
+        "robot": {
+          "position": ["*"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 3,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "LOCATION_NAME"
+        }
+      ],
+      "tool_routine": "observe_and_report_all",
+      "final_messages": {
+        "has_empty": "In $Y, the following locations are empty: $EMPTY_LOCATIONS. The occupied locations are: $OCCUPIED_LOCATIONS.",
+        "all_full": "All locations in $Y are occupied. None are empty.",
+        "all_empty": "All locations in $Y are empty."
+      },
+      "prompt_templates": [
+        "Which locations in $Y do NOT have any objects right now?",
+        "Tell me which spots in $Y are empty.",
+        "What locations in $Y are unoccupied?",
+        "Are there any empty locations in $Y? Which ones?",
+        "Check $Y and tell me which locations are empty."
+      ]
+    },
+    {
+      "id": "15.1",
+      "name": "Place implicit type (success)",
+      "description": "Place whatever is held at Y — success",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": ["reset"],
+          "gripper_open": [false]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*",
+            "location_exclude": "$Y"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "place_implicit_type",
+      "final_messages": {
+        "success": "Placed the $HELD_TYPE at $PLACED_LOCATION.",
+        "not_holding": "I am not holding anything. There is nothing to place.",
+        "all_occupied": "$Y is fully occupied. I cannot place the $HELD_TYPE there."
+      },
+      "prompt_templates": [
+        "Just put down whatever I'm holding at $Y.",
+        "Place whatever is in the gripper at $Y.",
+        "Drop what I'm holding at $Y.",
+        "Put this down at $Y.",
+        "Set down whatever you're holding at $Y."
+      ]
+    },
+    {
+      "id": "15.2",
+      "name": "Place implicit type (not holding)",
+      "description": "Try to place when gripper is empty",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": ["reset"],
+          "gripper_open": [true]
+        },
+        "objects": [
+          {
+            "min_objects": 0,
+            "max_objects": 4,
+            "location_pattern": "*",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "place_implicit_type",
+      "final_messages": {
+        "success": "Placed the $HELD_TYPE at $PLACED_LOCATION.",
+        "not_holding": "I am not holding anything. There is nothing to place.",
+        "all_occupied": "$Y is fully occupied. I cannot place the $HELD_TYPE there."
+      },
+      "prompt_templates": [
+        "Just put down whatever I'm holding at $Y.",
+        "Place whatever is in the gripper at $Y.",
+        "Drop what I'm holding at $Y.",
+        "Put this down at $Y.",
+        "Set down whatever you're holding at $Y."
+      ]
+    },
+    {
+      "id": "15.3",
+      "name": "Place implicit type (Y full)",
+      "description": "Try to place when Y is fully occupied",
+      "category": "place",
+      "initial_state": {
+        "robot": {
+          "position": ["reset"],
+          "gripper_open": [false]
+        },
+        "objects": [
+          {
+            "min_objects": 1,
+            "max_objects": 1,
+            "location_pattern": "ATTACHED",
+            "type_pattern": "*"
+          },
+          {
+            "min_objects": 99,
+            "max_objects": 99,
+            "location_pattern": "$Y",
+            "type_pattern": "*"
+          }
+        ]
+      },
+      "variables": [
+        {
+          "name": "$Y",
+          "type": "LOCATION",
+          "mode": "ANY"
+        }
+      ],
+      "tool_routine": "place_implicit_type",
+      "final_messages": {
+        "success": "Placed the $HELD_TYPE at $PLACED_LOCATION.",
+        "not_holding": "I am not holding anything. There is nothing to place.",
+        "all_occupied": "$Y is fully occupied. I cannot place the $HELD_TYPE there."
+      },
+      "prompt_templates": [
+        "Just put down whatever I'm holding at $Y.",
+        "Place whatever is in the gripper at $Y.",
+        "Drop what I'm holding at $Y.",
+        "Put this down at $Y.",
+        "Set down whatever you're holding at $Y."
+      ]
+    }
+  ]
+}
