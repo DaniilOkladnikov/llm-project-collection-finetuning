@@ -54,23 +54,21 @@ class ScenarioRunner:
         self.system_prompt = system_prompt
         self.scene_config: Optional[SceneConfig] = None
 
-    async def load_scene(self, scene_path: Path) -> None:
+    async def load_scene(self, scene_name: str) -> None:
         """Load a scene into the simulation via SimServer API."""
-        with open(scene_path) as f:
-            scene_dict = json.load(f)
-
-        # Load scene config locally for variable resolution
-        self.scene_config = SceneConfig.from_dict(scene_dict)
-
-        # Load scene into simulation via API
         async with httpx.AsyncClient(base_url=SIM_API_URL, timeout=30) as client:
-            resp = await client.post("/scene/load", json=scene_dict)
+            resp = await client.post("/scene/load", params={"name": scene_name})
             resp.raise_for_status()
+
+            # Get scene config from API for variable resolution
+            desc = await client.get("/scene/description")
+            desc.raise_for_status()
+            self.scene_config = SceneConfig.from_dict(desc.json()["config"])
 
     async def run_scenario(
         self,
         draft_id: str,
-        scene_path: Optional[Path] = None,
+        scene_name: Optional[str] = None,
         random_seed: Optional[int] = None
     ) -> Conversation:
         """
@@ -78,18 +76,18 @@ class ScenarioRunner:
 
         Args:
             draft_id: ID of the scenario draft to run
-            scene_path: Optional path to scene JSON file. If provided, loads this scene first.
+            scene_name: Optional scene name. If provided, loads this scene first.
             random_seed: Optional random seed for reproducibility
 
         Returns:
             Conversation object with the full message history.
         """
-        # Load scene if path provided
-        if scene_path is not None:
-            await self.load_scene(scene_path)
+        # Load scene if name provided
+        if scene_name is not None:
+            await self.load_scene(scene_name)
 
         if self.scene_config is None:
-            raise ValueError("No scene loaded. Call load_scene() first or provide scene_path.")
+            raise ValueError("No scene loaded. Call load_scene() first or provide scene_name.")
 
         draft = self.scenario_drafts[draft_id]
 
@@ -134,7 +132,7 @@ class ScenarioRunner:
         messages.append(ConversationMessage(role="assistant", content=final_msg))
 
         # 6. Return conversation with metadata
-        scene_id = scene_path.stem if scene_path else None
+        scene_id = scene_name
         return Conversation(
             messages=messages,
             metadata={
@@ -218,14 +216,15 @@ async def run_scenario_demo():
 
     # Use first scene
     scene_path = scenes[0]
-    print(f"\nUsing scene: {scene_path.name}")
+    scene_name = scene_path.stem
+    print(f"\nUsing scene: {scene_name}")
 
     # Create runner
     drafts_path = Path(__file__).parent / "scenario_drafts.json"
     runner = ScenarioRunner(str(drafts_path))
 
     # Run a scenario with the scene
-    conversation = await runner.run_scenario("2.1", scene_path=scene_path)
+    conversation = await runner.run_scenario("2.1", scene_name=scene_name)
 
     # Print conversation
     print(f"=== Generated Conversation ===")

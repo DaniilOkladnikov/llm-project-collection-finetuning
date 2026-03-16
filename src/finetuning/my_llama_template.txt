@@ -1,58 +1,38 @@
 <|start_header_id|>system<|end_header_id|>
 
-Cutting Knowledge Date: December 2023
+{{ if .Tools }}Environment: ipython
+{{ end }}Cutting Knowledge Date: December 2023
+Today Date: 26 July 2024
 
-{%- if tools %}
-When you receive a tool call response, use the output to format an answer to the original user question.
+{{ if .System }}{{ .System }}{{ end }}<|eot_id|>
+{{- range $i, $_ := .Messages }}
+{{- $last := eq (len (slice $.Messages $i)) 1 }}
+{{- if eq .Role "user" }}<|start_header_id|>user<|end_header_id|>
 
-You are a helpful assistant with tool calling capabilities.
-{%- endif %}
-
-{#- Loop through all messages to find the system message first -#}
-{%- for message in messages %}
-    {%- if message['role'] == 'system' %}
-{{ message['content'] }}
-    {%- endif %}
-{%- endfor %}
-<|eot_id|>
-
-{#- Main Message Loop -#}
-{%- for message in messages %}
-    {%- if message['role'] == 'user' %}
-<|start_header_id|>user<|end_header_id|>
-
-        {#- Logic: If this is the last message and tools exist, inject tool definitions -#}
-        {%- if loop.last and tools %}
-Given the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.
+{{ if $.Tools }}Given the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.
 
 Respond in the format {"name": function name, "parameters": dictionary of argument name and its value}. Do not use variables.
 
-            {%- for tool in tools %}
-{{ tool }}
-            {%- endfor %}
-        {%- endif %}
+{{ range $.Tools }}{{ . }}
 
-{{ message['content'] }}<|eot_id|>
+{{ end }}{{ end }}{{ .Content }}<|eot_id|>
+{{- if $last }}<|start_header_id|>assistant<|end_header_id|>
 
-    {%- elif message['role'] == 'assistant' %}
-<|start_header_id|>assistant<|end_header_id|>
+{{ end }}
+{{- else if eq .Role "assistant" }}<|start_header_id|>assistant<|end_header_id|>
 
-        {%- if message.tool_calls %}
-            {%- for tool_call in message.tool_calls %}
-{"name": "{{ tool_call.function.name }}", "parameters": {{ tool_call.function.arguments }}}
-            {%- endfor %}
-        {%- else %}
-{{ message['content'] }}
-        {%- endif %}
-<|eot_id|>
+{{- if .Content }}{{ .Content }}
+{{ end }}
+{{- if .ToolCalls }}
+{{- range .ToolCalls }}
+{"name": "{{ .Function.Name }}", "parameters": {{ .Function.Arguments }}}
+{{- end }}
+{{- end }}{{ if not $last }}<|eot_id|>{{ end }}
+{{- else if eq .Role "tool" }}<|start_header_id|>ipython<|end_header_id|>
 
-    {%- elif message['role'] == 'tool' %}
-<|start_header_id|>tool<|end_header_id|>
+{{ .Content }}<|eot_id|>
+{{- if $last }}<|start_header_id|>assistant<|end_header_id|>
 
-{{ message['content'] }}<|eot_id|>
-    {%- endif %}
-{%- endfor %}
-
-{%- if add_generation_prompt %}
-<|start_header_id|>assistant<|end_header_id|>
-{%- endif %}
+{{ end }}
+{{- end }}
+{{- end }}

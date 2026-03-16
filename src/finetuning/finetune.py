@@ -476,7 +476,7 @@ def make_short_name(model_name):
 
 
 def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs):
-    return f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
+    return f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}_test_rand"
 
 
 # ============================================================
@@ -509,7 +509,7 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
         lora_dropout=0,
         bias="none",
         use_gradient_checkpointing="unsloth",
-        random_state=3407,
+        random_state=12345,
         use_rslora=False,
         loftq_config=None,
     )
@@ -558,7 +558,7 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
         optim="adamw_8bit",
         weight_decay=0,
         lr_scheduler_type=lr_method,
-        seed=3407,
+        seed=12345,
         output_dir=f"{SAVE_BASE}/checkpoints/{run_name}",
         save_strategy="no",
         report_to="wandb",

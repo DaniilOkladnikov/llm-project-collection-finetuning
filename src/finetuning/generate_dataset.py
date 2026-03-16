@@ -238,7 +238,7 @@ async def generate_dataset(
 
                     conversation = await runner.run_scenario(
                         draft_id=draft_id,
-                        scene_path=scene_path,
+                        scene_name=scene_name,
                         random_seed=seed
                     )
 

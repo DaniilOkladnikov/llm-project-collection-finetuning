@@ -26,7 +26,7 @@ def make_short_name(model_name):
 
 
 def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs):
-    return f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
+    return f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}_test_rand"
 
 
 def run_exists(model_name, r, alpha, lr, lr_method):
