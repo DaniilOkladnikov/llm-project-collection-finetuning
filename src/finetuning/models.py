@@ -33,7 +33,7 @@ class ObjectPlacementRule(BaseModel):
     location_pattern: str = "*"       # Glob pattern or variable reference like "$Y"
     type_pattern: str = "*"           # Glob pattern or variable reference like "$X"
     type_exclude: Optional[Union[str, List[str]]] = None  # Type(s) to exclude, e.g. "$X" or ["$X", "$W"]
-    location_exclude: Optional[str] = None  # Location to exclude
+    location_exclude: Optional[Union[str, List[str]]] = None  # Location(s) to exclude
 
 
 class InitialStateConfig(BaseModel):

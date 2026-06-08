@@ -6,27 +6,37 @@ import sys
 from itertools import product
 from pathlib import Path
 
-MODEL_NAMES = ["Llama-3.2-3B-Instruct-unsloth-bnb-4bit"]
-R_VALUES = [32, 64, 128]
+MODEL_NAMES = ["Llama-3.2-3B-Instruct"]
+R_VALUES = [128]
 ALPHA_VALUES = [1, 2]
-LR_VALUES = [2e-4, 6e-5]
-LR_METHODS = ["cosine", "constant_with_warmup"]
-NUM_EPOCHS_LIST = [1, 2, 3]
+LR_VALUES = [6e-5]
+LR_METHODS = ["cosine"]
+NUM_EPOCHS_LIST = [1, 2]
 
 FINETUNE_SCRIPT = "finetune.py"
 SAVE_BASE = Path("D:/MyLLMs")
+ADAPTERS_DIR = SAVE_BASE / "adapters"
 
 
 def make_short_name(model_name):
     """'Llama-3.2-3B-Instruct-unsloth-bnb-4bit' -> 'Llama-3.2-3B'"""
     name = model_name
-    for suffix in ["-Instruct-unsloth-bnb-4bit", "-Instruct", "-unsloth-bnb-4bit"]:
+    for suffix in ["-Instruct-unsloth-bnb-4bit", "-Instruct-bnb-8bit", "-Instruct", "-unsloth-bnb-4bit", "-bnb-8bit"]:
         name = name.replace(suffix, "")
+    for prefix in ["Meta-"]:
+        if name.startswith(prefix):
+            name = name[len(prefix):]
     return name
 
 
-def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs):
-    return f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}_test_rand"
+FULL_DATASET = True
+
+
+def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs, full_dataset=False):
+    name = f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
+    if full_dataset:
+        name += "_full_dataset"
+    return name
 
 
 def run_exists(model_name, r, alpha, lr, lr_method):
@@ -35,7 +45,7 @@ def run_exists(model_name, r, alpha, lr, lr_method):
     if lr_method == "constant_with_warmup":
         # All epoch dirs must exist (they're all produced by a single run)
         return all(
-            (SAVE_BASE / make_run_name(short_name, r, alpha, lr, lr_method, ep)).is_dir()
+            (ADAPTERS_DIR / make_run_name(short_name, r, alpha, lr, lr_method, ep, full_dataset=FULL_DATASET)).is_dir()
             for ep in NUM_EPOCHS_LIST
         )
     else:
@@ -54,7 +64,7 @@ def build_commands():
         if lr_method == "constant_with_warmup":
             max_ep = max(NUM_EPOCHS_LIST)
             if run_exists(model_name, r, alpha, lr, lr_method):
-                display_name = make_run_name(short_name, r, alpha, lr, lr_method, max_ep)
+                display_name = make_run_name(short_name, r, alpha, lr, lr_method, max_ep, full_dataset=FULL_DATASET)
                 print(f"SKIP (all epochs exist): {display_name}")
                 continue
             cmd = [
@@ -67,12 +77,14 @@ def build_commands():
                 "--num-epochs", str(max_ep),
                 "--save-adapter-per-epoch",
             ]
-            run_name = make_run_name(short_name, r, alpha, lr, lr_method, max_ep)
+            if FULL_DATASET:
+                cmd.append("--full-dataset")
+            run_name = make_run_name(short_name, r, alpha, lr, lr_method, max_ep, full_dataset=FULL_DATASET)
             commands.append((cmd, run_name))
         else:
             for num_epochs in NUM_EPOCHS_LIST:
-                run_name = make_run_name(short_name, r, alpha, lr, lr_method, num_epochs)
-                if (SAVE_BASE / run_name).is_dir():
+                run_name = make_run_name(short_name, r, alpha, lr, lr_method, num_epochs, full_dataset=FULL_DATASET)
+                if (ADAPTERS_DIR / run_name).is_dir():
                     print(f"SKIP (exists): {run_name}")
                     continue
                 cmd = [
@@ -84,6 +96,8 @@ def build_commands():
                     "--lr-method", lr_method,
                     "--num-epochs", str(num_epochs),
                 ]
+                if FULL_DATASET:
+                    cmd.append("--full-dataset")
                 commands.append((cmd, run_name))
     return commands
 

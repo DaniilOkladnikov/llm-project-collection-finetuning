@@ -15,7 +15,7 @@ from pathlib import Path
 
 ADAPTERS_DIR = Path("D:/MyLLMs/adapters")
 GGUF_DIR = Path("D:/MyLLMs/gguf")
-MERGED_TEMP_DIR = Path("D:/MyLLMs/adapters/_merged_temp")
+MERGED_TEMP_DIR = Path("D:/MyLLMs/_merged_temp")
 CONVERT_SCRIPT = Path("C:/Users/okladnik/Documents/llama.cpp/convert_hf_to_gguf.py")
 MERGE_SCRIPT = Path(__file__).parent / "merge_adapter.py"
 QUANT_METHOD = "q8_0"
@@ -99,11 +99,17 @@ def main():
         "--output-dir", type=Path, default=GGUF_DIR,
         help="Directory to write GGUF files",
     )
+    parser.add_argument(
+        "--filter", type=str, default="test_rand",
+        help="Only process adapters whose name contains this substring",
+    )
     args = parser.parse_args()
 
     adapters = sorted(
         p for p in args.adapters_dir.iterdir()
         if p.is_dir() and p.name != MERGED_TEMP_DIR.name
+        and (p / "adapter_config.json").exists()
+        and (args.filter is None or args.filter in p.name)
     )
     if not adapters:
         print(f"No adapter directories found in {args.adapters_dir}")

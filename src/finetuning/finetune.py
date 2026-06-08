@@ -1,3 +1,7 @@
+import os
+import sys
+os.environ["TORCHINDUCTOR_CACHE_DIR"] = "C:/tc"
+os.environ["TRITON_CACHE_DIR"] = "C:/tc/triton"
 import unsloth
 from unsloth import FastLanguageModel
 import json
@@ -17,8 +21,8 @@ from unsloth.chat_templates import get_chat_template
 # ============================================================
 MAX_SEQ_LENGTH = 8192
 DTYPE = None
-LOAD_IN_4BIT = True
-LOAD_IN_8BIT = False
+LOAD_IN_4BIT = False
+LOAD_IN_8BIT = True
 SAVE_BASE = "D:/MyLLMs"
 DATASET_PATH = "./datasets/dataset_20260218_045534.json"
 DATASET_NAME = "dataset_20260218_045534"
@@ -253,70 +257,77 @@ llama31_cot_template = \
 # ============================================================
 # SECTION 4: DATASET LOADING AND 4-WAY SPLIT
 # ============================================================
+FULL_DATASET = "--full-dataset" in sys.argv
+
 with open(DATASET_PATH) as f:
     raw_dataset = json.load(f)
 
-EVAL_SCENES = {
-    "scene_bay_A_cylinder_red",
-    "scene_BIN_RED_LEFT_cable",
-    "scene_binA_001_gear",
-}
+if FULL_DATASET:
+    train_conversations = [item["messages"] for item in raw_dataset]
+    raw_eval_datasets = {}
+else:
+    EVAL_SCENES = {
+        "scene_bay_A_cylinder_red",
+        "scene_BIN_RED_LEFT_cable",
+        "scene_binA_001_gear",
+    }
 
-# Seen tasks: 1.x-11.x and 13.x
-# Unseen tasks: 12.x, 14.x, 15.x
-train_conversations = []
-eval_unseen_scenes_seen_tasks = []
-eval_seen_scenes_unseen_tasks = []
-eval_unseen_scenes_unseen_tasks = []
+    # Seen tasks: 1.x-11.x and 13.x
+    # Unseen tasks: 12.x, 14.x, 15.x
+    train_conversations = []
+    eval_unseen_scenes_seen_tasks = []
+    eval_seen_scenes_unseen_tasks = []
+    eval_unseen_scenes_unseen_tasks = []
 
-for item in raw_dataset:
-    scene_id = item["metadata"]["scene_id"]
-    draft_id = item["metadata"]["draft_id"]
-    major = int(draft_id.split(".")[0])
+    for item in raw_dataset:
+        scene_id = item["metadata"]["scene_id"]
+        draft_id = item["metadata"]["draft_id"]
+        major = int(draft_id.split(".")[0])
 
-    is_eval_scene = scene_id in EVAL_SCENES
-    is_unseen_task = major >= 12 and major != 13
+        is_eval_scene = scene_id in EVAL_SCENES
+        is_unseen_task = major >= 12 and major != 13
 
-    if not is_unseen_task and is_eval_scene:
-        eval_unseen_scenes_seen_tasks.append(item["messages"])
-    elif is_unseen_task and not is_eval_scene:
-        eval_seen_scenes_unseen_tasks.append(item["messages"])
-    elif is_unseen_task and is_eval_scene:
-        eval_unseen_scenes_unseen_tasks.append(item["messages"])
-    else:
-        train_conversations.append(item["messages"])
+        if not is_unseen_task and is_eval_scene:
+            eval_unseen_scenes_seen_tasks.append(item["messages"])
+        elif is_unseen_task and not is_eval_scene:
+            eval_seen_scenes_unseen_tasks.append(item["messages"])
+        elif is_unseen_task and is_eval_scene:
+            eval_unseen_scenes_unseen_tasks.append(item["messages"])
+        else:
+            train_conversations.append(item["messages"])
 
-# Cap eval datasets at 100 examples with fixed seed
-EVAL_CAP = 100
-rng = random.Random(42)
+    # Cap eval datasets at 100 examples with fixed seed
+    EVAL_CAP = 100
+    rng = random.Random(42)
 
-def cap_and_shuffle(conversations, cap):
-    if len(conversations) > cap:
-        return rng.sample(conversations, cap)
-    return conversations
+    def cap_and_shuffle(conversations, cap):
+        if len(conversations) > cap:
+            return rng.sample(conversations, cap)
+        return conversations
 
-eval_unseen_scenes_seen_tasks = cap_and_shuffle(eval_unseen_scenes_seen_tasks, EVAL_CAP)
-eval_seen_scenes_unseen_tasks = cap_and_shuffle(eval_seen_scenes_unseen_tasks, EVAL_CAP)
-eval_unseen_scenes_unseen_tasks = cap_and_shuffle(eval_unseen_scenes_unseen_tasks, EVAL_CAP)
+    eval_unseen_scenes_seen_tasks = cap_and_shuffle(eval_unseen_scenes_seen_tasks, EVAL_CAP)
+    eval_seen_scenes_unseen_tasks = cap_and_shuffle(eval_seen_scenes_unseen_tasks, EVAL_CAP)
+    eval_unseen_scenes_unseen_tasks = cap_and_shuffle(eval_unseen_scenes_unseen_tasks, EVAL_CAP)
 
-# Save eval datasets to disk for reproducibility
-datasets_dir = Path(__file__).parent / "datasets"
-for name, convos in [
-    ("unseen_scenes_seen_tasks", eval_unseen_scenes_seen_tasks),
-    ("seen_scenes_unseen_tasks", eval_seen_scenes_unseen_tasks),
-    ("unseen_scenes_unseen_tasks", eval_unseen_scenes_unseen_tasks),
-]:
-    out_path = datasets_dir / f"{DATASET_NAME}_{name}.json"
-    with open(out_path, "w") as f:
-        json.dump([{"messages": c} for c in convos], f, indent=2)
-    print(f"Saved eval dataset '{name}' ({len(convos)} examples) to {out_path}")
+    # Save eval datasets to disk for reproducibility
+    datasets_dir = Path(__file__).parent / "datasets"
+    for name, convos in [
+        ("unseen_scenes_seen_tasks", eval_unseen_scenes_seen_tasks),
+        ("seen_scenes_unseen_tasks", eval_seen_scenes_unseen_tasks),
+        ("unseen_scenes_unseen_tasks", eval_unseen_scenes_unseen_tasks),
+    ]:
+        out_path = datasets_dir / f"{DATASET_NAME}_{name}.json"
+        with open(out_path, "w") as f:
+            json.dump([{"messages": c} for c in convos], f, indent=2)
+        print(f"Saved eval dataset '{name}' ({len(convos)} examples) to {out_path}")
+
+    raw_eval_datasets = {
+        "unseen_scenes_seen_tasks": Dataset.from_dict({"messages": eval_unseen_scenes_seen_tasks}),
+        "seen_scenes_unseen_tasks": Dataset.from_dict({"messages": eval_seen_scenes_unseen_tasks}),
+        "unseen_scenes_unseen_tasks": Dataset.from_dict({"messages": eval_unseen_scenes_unseen_tasks}),
+    }
 
 raw_train_dataset = Dataset.from_dict({"messages": train_conversations})
-raw_eval_datasets = {
-    "unseen_scenes_seen_tasks": Dataset.from_dict({"messages": eval_unseen_scenes_seen_tasks}),
-    "seen_scenes_unseen_tasks": Dataset.from_dict({"messages": eval_seen_scenes_unseen_tasks}),
-    "unseen_scenes_unseen_tasks": Dataset.from_dict({"messages": eval_unseen_scenes_unseen_tasks}),
-}
 
 print(f"\nTraining samples: {len(raw_train_dataset)}")
 for name, ds in raw_eval_datasets.items():
@@ -470,23 +481,29 @@ class ClearCacheCallback(TrainerCallback):
 def make_short_name(model_name):
     """'Llama-3.2-3B-Instruct-unsloth-bnb-4bit' -> 'Llama-3.2-3B'"""
     name = model_name
-    for suffix in ["-Instruct-unsloth-bnb-4bit", "-Instruct", "-unsloth-bnb-4bit"]:
+    for suffix in ["-Instruct-unsloth-bnb-4bit", "-Instruct-bnb-8bit", "-Instruct", "-unsloth-bnb-4bit", "-bnb-8bit"]:
         name = name.replace(suffix, "")
+    for prefix in ["Meta-"]:
+        if name.startswith(prefix):
+            name = name[len(prefix):]
     return name
 
 
-def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs):
-    return f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}_test_rand"
+def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs, full_dataset=False):
+    name = f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
+    if full_dataset:
+        name += "_full_dataset"
+    return name
 
 
 # ============================================================
 # SECTION 6: TRAINING FUNCTION
 # ============================================================
-def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_per_epoch=False):
+def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_per_epoch=False, full_dataset=False):
     """Single training run. Handles model loading, tokenization, training, saving, and cleanup."""
     short_name = make_short_name(model_name)
-    run_name = make_run_name(short_name, r, alpha, lr, lr_method, num_epochs)
-    save_dir = f"{SAVE_BASE}/{run_name}"
+    run_name = make_run_name(short_name, r, alpha, lr, lr_method, num_epochs, full_dataset=full_dataset)
+    save_dir = f"{SAVE_BASE}/adapters/{run_name}"
 
     print(f"\n{'='*60}")
     print(f"Starting run: {run_name}")
@@ -514,17 +531,18 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
         loftq_config=None,
     )
 
-    tokenizer = get_chat_template(tokenizer, chat_template="llama-3.2")
+    tokenizer = get_chat_template(tokenizer, chat_template="llama-3.1")
     tokenizer.chat_template = llama31_cot_template
 
     formatting_func = make_formatting_func(tokenizer, tools, instruction_message, MAX_SEQ_LENGTH)
     tok_train = raw_train_dataset.map(formatting_func, batched=True, keep_in_memory=True)
     tok_evals = {k: v.map(formatting_func, batched=True, keep_in_memory=True) for k, v in raw_eval_datasets.items()}
-
+    print(tokenizer.decode(tok_train[0]["input_ids"]))
+    
     callbacks = [ClearCacheCallback()]
     if save_adapter_per_epoch:
-        name_template = make_run_name(short_name, r, alpha, lr, lr_method, "{ep}")
-        callbacks.append(SaveAdapterCallback(model, tokenizer, SAVE_BASE, name_template))
+        name_template = make_run_name(short_name, r, alpha, lr, lr_method, "{ep}", full_dataset=full_dataset)
+        callbacks.append(SaveAdapterCallback(model, tokenizer, f"{SAVE_BASE}/adapters", name_template))
 
     wandb.init(
         project="Finetuning robot agent",
@@ -541,9 +559,7 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
             "dataset": DATASET_NAME,
             "dataset_path": DATASET_PATH,
             "train_samples": len(tok_train),
-            "eval_unseen_scenes_seen_tasks_samples": len(tok_evals["unseen_scenes_seen_tasks"]),
-            "eval_seen_scenes_unseen_tasks_samples": len(tok_evals["seen_scenes_unseen_tasks"]),
-            "eval_unseen_scenes_unseen_tasks_samples": len(tok_evals["unseen_scenes_unseen_tasks"]),
+            **{f"eval_{k}_samples": len(v) for k, v in tok_evals.items()},
             "max_seq_length": MAX_SEQ_LENGTH,
         },
     )
@@ -606,6 +622,7 @@ if __name__ == "__main__":
     parser.add_argument("--lr-method", type=str, required=True)
     parser.add_argument("--num-epochs", type=int, required=True)
     parser.add_argument("--save-adapter-per-epoch", action="store_true")
+    parser.add_argument("--full-dataset", action="store_true")
     args = parser.parse_args()
 
     run_training(
@@ -616,4 +633,5 @@ if __name__ == "__main__":
         lr_method=args.lr_method,
         num_epochs=args.num_epochs,
         save_adapter_per_epoch=args.save_adapter_per_epoch,
+        full_dataset=args.full_dataset,
     )
