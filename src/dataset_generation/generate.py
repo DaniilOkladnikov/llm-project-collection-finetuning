@@ -26,9 +26,9 @@ from typing import Dict, List, Optional
 
 from tool_simulation_server import config as sim_config
 
-from .resolve import IncompatibleScenario
-from .runner import run_scenario
-from .tasks import TASKS
+from dataset_generation.resolve import IncompatibleScenario
+from dataset_generation.runner import run_scenario
+from dataset_generation.tasks import TASKS
 
 OUTPUT_DIR = Path(__file__).resolve().parent / "datasets"
 # repo root: .../llm-project-collection/finetuning/src/dataset_generation/generate.py

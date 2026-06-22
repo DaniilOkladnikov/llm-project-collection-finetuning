@@ -15,7 +15,7 @@ from typing import Dict, List, Optional
 
 from tool_simulation_server.scene import SceneConfig
 
-from .dsl_state import DslState
+from dataset_generation.dsl_state import DslState
 
 
 class SceneView:

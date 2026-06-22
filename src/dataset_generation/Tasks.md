@@ -1,32 +1,67 @@
 ### Pick up X from A
 Comes after:
+Expressions: first location in A holding X, gripper is closed, is not none
+State changes:  
 Intent: pick
 Program:
 STEP 1
 check gripper
-observe A
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first location in A holding X
+    else:
+        observe A
+STEP 3
+    let loc = first location in A holding X
     if loc is not none:
         pick from loc
         answer_2
     else: 
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
-    answer_2: Picked X from loc.
+    answer_1: [mustplace]
+    answer_2: [picked(X,loc)].
     answer_3: There is no X in A.
+
+### Close gripper, I am giving you X
+Comes after:
+Expressions: gripper is closed
+State changes: 
+Intent: get
+Program: 
+STEP 1
+check gripper
+STEP 2
+    if gripper is closed:
+        answer_1
+    else:
+        get X from user 
+        answer_2
+Answers:
+    answer_1: [mustplace]
+    answer_2: Got X from you.
+
+### Come to A and get X from me
+Comes after:
+Expressions: 
+State changes:
+Intent: get
+Program:
+Step 1
+answer_1
+Answers:
+answer_1: Please separate your commands for safety. Tell me where to move first, and hand me the item in the next step.
 
 ### You are holding X. Place it into A
 Comes after:
+Expressions: is not none, first empty 
+State changes: gripper: closed, held: X
 Intent: place
 Program:
 STEP 1
     observe A
 STEP 2
-    temp loc = first empty location
+    let loc = first empty location
     if loc is not none:
         place at loc
         answer_1
@@ -38,43 +73,51 @@ Answers:
 
 ### What are you holding?
 Comes after: 
+Expressions: 
+State changes: 
 Intent: query
 Program:
 STEP 1
     answer_1
 Answers:
     answer_1: 
-        if STATE.gripper_state == open: I don't hold anything
+        if STATE.gripper == open: I don't hold anything
         elif STATE.held == unkown: I hold something but I don't know what it is
         else: I am holding STATE.held
 
 ### Am I holding X?
 Comes after: 
+Expressions: 
+State changes: 
 Intent: query
 Program:
 STEP 1
     answer_1
 Answers:
     answer_1: 
-        if STATE.gripper_state == open: No, I don't hold anything
+        if STATE.gripper == open: No, I don't hold anything
         elif STATE.held == unkown: I don't know, I hold something
         elif STATE.held == X: Yes, I am holding X
         else: No, I am holding STATE.held
 
 ### Is your gripper free?
-Comes after: 
+Comes after:
+Expressions: 
+State changes:  
 Intent: query
 Program:
 STEP 1
     answer_1
 Answers:
     answer_1: 
-        if STATE.gripper_state == open: Yes
-        elif STATE.gripper_state == closed: No
+        if STATE.gripper == open: Yes
+        elif STATE.gripper == closed: No
         else: I don't know
 
 ### What position are you at?
 Comes after: 
+Expressions: 
+State changes: 
 Intent: query
 Program: 
 STEP 1
@@ -85,6 +128,8 @@ Answers:
 
 ### Go to the home position
 Comes after:
+Expressions: 
+State changes: 
 Intent: query
 Program:
 STEP 1
@@ -95,6 +140,8 @@ Answers:
 
 ### Go to the observation point for A
 Comes after:
+Expressions: 
+State changes: 
 Intent: query
 Program:
 STEP 1
@@ -103,8 +150,22 @@ STEP 1
 Answers:
     answer_1: I am at the observation point for A
 
+### Go to P
+Comes after:
+Expressions:
+State changes:
+Intent: move
+Program:
+STEP 1
+    go to P
+    answer_1
+Answers:
+    answer_1: I am at P
+
 ### Visit the observation points for A and then B
 Comes after:
+Expressions:
+State changes:
 Intent: move
 Program:
 STEP 1
@@ -116,6 +177,8 @@ Answers:
 
 ### Prepare to pick X from empty space in A
 Comes after: 
+Expressions: gripper is closed, is not none, first empty in
+State changes:
 Intent: move
 Program:
 STEP 1
@@ -124,7 +187,7 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first empty in A
+    let loc = first empty in A
     if loc is not none: 
         approach pick of X from loc
         answer_2
@@ -137,6 +200,8 @@ Answers:
 
 ### What is at A?
 Comes after: 
+Expressions:
+State changes:
 Intent: query
 Program:
 STEP 1
@@ -145,10 +210,12 @@ STEP 1
 Answers:
     answer_1: 
         if A is empty: A is empty
-        else: There is type in loc for loc in A if loc not is not empty
+        else: There is {type in loc for loc in A if loc not is not empty}
 
 ### Is there X in A?
 Comes after: 
+Expressions:
+State changes:
 Intent: query
 Program:
 STEP 1
@@ -161,6 +228,8 @@ Answers:
 
 ### How many slots in A are occupied?
 Comes after: 
+Expressions:
+State changes:
 Intent: query
 Program:
 STEP 1
@@ -172,6 +241,8 @@ Answers:
 
 ### Are there any empty slots in A?
 Comes after: 
+Expressions:
+State changes:
 Intent: query
 Program:
 STEP 1
@@ -184,6 +255,8 @@ Answers:
 
 ### Which slot in A has X?
 Comes after: 
+Expressions:
+State changes:
 Intent: query
 Program:
 STEP 1
@@ -196,6 +269,8 @@ Answers:
 
 ### Which has X, A or B?
 Comes after: 
+Expressions:
+State changes:
 Intent: query
 Program:
 STEP 1
@@ -209,6 +284,8 @@ Answers:
 
 ### Count objects by type in A
 Comes after: 
+Expressions:
+State changes:
 Intent: query
 Program:
 STEP 1
@@ -219,6 +296,8 @@ Answers:
 
 ### Pick up whatever is in A
 Comes after:
+Expressions: gripper is closed, first occupied, is not none
+State changes:
 Intent: pick
 Program:
 STEP 1
@@ -227,15 +306,15 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first occupied in A
+    let loc = first occupied in A
     if loc is not none:
         pick from loc
         answer_2
     else: 
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
-    answer_2: Picked {held} from {loc}.
+    answer_1: [mustplace]
+    answer_2: [picked(held,loc)].
     answer_3: There is no X in A.
 
 ### Pick up whatever is in A. If A is empty, pick from B instead.
@@ -249,20 +328,20 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first occupied in A
+    let loc = first occupied in A
     if loc is not none:
         pick from loc
         answer_2
-    temp loc = first occupied in B
+    let loc = first occupied in B
     if loc is not none:
         pick from loc
         answer_3
     else:
         answer_4        
 Answers:
-    answer_1: Already holding something — can't pick.
-    answer_2: Picked {held} from {loc}.
-    answer_3: Picked {held} from {loc}.
+    answer_1: [mustplace]
+    answer_2: [picked(held,loc)].
+    answer_3: [picked(held,loc)].
     answer_4: Both A and B are empty.
 
 ### Pick up X or W from A, whichever is there.
@@ -275,8 +354,8 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp locX = first in A holding X
-    temp locW = first in A holding W
+    let locX = first in A holding X
+    let locW = first in A holding W
     if locX is not none:
         pick from locX
         answer_2
@@ -286,7 +365,7 @@ STEP 2
     else:
         answer_4        
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked {held} from {loc}.
     answer_3: Picked {held} from {loc}.
     answer_4: There is no X or W in A.
@@ -301,7 +380,7 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first in A holding not W
+    let loc = first in A holding not W
     if loc is not none:
         pick from loc
         answer_2
@@ -309,7 +388,7 @@ STEP 2
         answer_3
         
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked {held} from {loc}.
     answer_3: 
         if A is empty: A is empty 
@@ -326,7 +405,7 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first in A holding X
+    let loc = first in A holding X
     if loc is not none:
         pick from loc
         go to start_position
@@ -335,7 +414,7 @@ STEP 2
         answer_3
         
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked {held} from {loc} and returned to {start_position}.
     answer_3: There is no X in A
 
@@ -350,14 +429,14 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first in A holding X
+    let loc = first in A holding X
     if loc is not none:
         pick from loc
     go to start_position
     answer_2
         
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: 
         if held is not none: Picked {held} from {loc} and returned to {start_position}.
         else: There is no X in A, returned to {start_postition}
@@ -373,25 +452,76 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first occupied in A
+    let loc = first occupied in A
     if loc is not none:
         pick from loc
     go to start_position
     answer_2
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: 
         if held is not none: Picked {held} from {loc} and returned to {start_position}.
         else: There is nothing in A, returned to {start_postition}
 
-### Place X somewhere.
-Comes after:
+### Place what you're holding somewhere.
+Comes after: [mustplace]
 Intent: place
+State changes:
+Program:
+STEP 1
+    if held is unkown:
+        answer_1
+    elif held is none:
+        answer_2
+    else:
+        observe everything
+STEP 2
+    let loc = first empty
+    if loc is not none:
+        place at loc
+        answer_3
+    else:
+        answer_4
+Answers:
+    answer_1: You have to tell me what I am holding first.
+    answer_2: I don't hold anything.
+    answer_3: Placed X in {loc}
+    answer_4: There is no empty space at all.
+
+### Place what you are holding at A
+Comes after: [mustplace]
+Intent: place
+State changes:
+Program:
+STEP 1
+    if held is unkown:
+        answer_1
+    elif held is none:
+        answer_2
+    else:
+        observe A
+STEP 2
+    let loc = first empty in A
+    if loc is not none:
+        place at loc
+        answer_3
+    else:
+        answer_4
+Answers:
+    answer_1: You have to tell me what I am holding first.
+    answer_2: I don't hold anything.
+    answer_3: Placed X in {loc}.
+    answer_4: There is no empty space in A.
+
+### Place X somewhere.
+Comes after: "Move X from A to B; if B is full, put X back in A": answer_1
+Intent: place
+State changes: gripper: closed, held: X
 Program:
 STEP 1
     observe everything
 STEP 2
-    temp loc = first empty
+    let loc = first empty
     if loc is not none:
         place at loc
         answer_1
@@ -404,18 +534,19 @@ Answers:
 ### Place X, preferring A. If A is full, find any empty spot
 Comes after:
 Intent: place
+State changes: gripper: closed, held: X
 Program:
 STEP 1
     observe A
 STEP 2
-    temp loc = first empty in A
+    let loc = first empty in A
     if loc is not none:
         place at loc
         answer_1
     else: 
         observe everything
 STEP 3
-    temp loc = first empty
+    let loc = first empty
     if loc is not none:
         place at loc
         answer_2
@@ -429,11 +560,12 @@ Answers:
 ### You are holding X. Place it somewhere, but not in A
 Comes after:
 Intent: place
+State changes: gripper: closed, held: X
 Program:
 STEP 1
     observe everything
 STEP 2
-    temp loc = first empty outside A
+    let loc = first empty outside A
     if loc is not none:
         place at loc
         answer_1
@@ -443,24 +575,23 @@ Answers:
     answer_1: Placed X at {loc}.
     answer_2: There is no empty location outside A.
 
-### You are holding X. Put it at A if possible, otherwise anywhere
-Comes after:
-Intent: place
-Same program as "Place X, preferring A. If A is full, find any empty spot".
 
 ### You are holding X. Place it at A, otherwise try B
 Comes after:
 Intent: place
+State changes: gripper: closed, held: X
 Program:
 STEP 1
     observe A
-    observe B
 STEP 2
-    temp loc = first empty in A
+    let loc = first empty in A
     if loc is not none:
         place at loc
         answer_1
-    temp loc = first empty in B
+    else: 
+        observe B
+STEP 3
+    let loc = first empty in B
     if loc is not none:
         place at loc
         answer_2
@@ -472,15 +603,17 @@ Answers:
     answer_3: Both A and B are full — still holding X.
 
 ### You are holding X. Place it at A, only if A is completely empty
+Synonyms: "Place X at A, only if A is completely empty"
 Comes after:
 Intent: place
+State changes: gripper: closed, held: X
 Program:
 STEP 1
     observe A
 STEP 2
     if A is not empty:
         answer_1
-    temp loc = first empty in A
+    let loc = first empty in A
     place at loc
     answer_2
 Answers:
@@ -488,108 +621,134 @@ Answers:
     answer_2: A was empty; placed X at {loc}.
 
 ### You are holding X. Place it at A; if A has a W in it, place it at B instead
+Synonyms: "Place X at A; if A has a W in it, place it at B instead" 
 Comes after:
 Intent: place
+State changes: gripper: closed, held: X
 Program:
 STEP 1
     observe A
-    observe B
 STEP 2
     if A has W:
-        remember dest = first empty in B
+        observe B
     else:
-        remember dest = first empty in A
+        let loc = first empty in A
+        if loc is not none:
+            place at loc
+            answer_1
+        else: 
+            answer_2
 STEP 3
-    if dest is not none:
-        place at dest
-        answer_1
-    else:
-        answer_2
+    let loc = first empty in B
+        if loc is not none:
+            place at loc
+            answer_3
+        else: 
+            answer_4
 Answers:
-    answer_1: Placed X at {dest}.
-    answer_2:
-        if A has W: A has a W and B is full — still holding X.
-        else: A is full — still holding X.
+    answer_1: Placed X at {loc}.
+    answer_2: A has no W in it, but is full — cannot place there
+    answer_3: A has W in it, placed in {loc}
+    answer_4: A has W in it, but B is full - cannot place there
 
 ### Move X from A to B
 Comes after:
-Intent: move
+Intent: pick+place
 Program:
 STEP 1
     check gripper
     observe A
-    observe B
 STEP 2
     if gripper is closed:
         answer_1
-    temp src = first in A holding X
-    if src is none:
-        answer_2
-    temp dest = first empty in B
-    if dest is none:
-        answer_3
-    pick from src
-    place at dest
-    answer_4
-Answers:
-    answer_1: Already holding something — free the gripper first.
-    answer_2: There is no X in A.
-    answer_3: B is full.
-    answer_4: Moved X from {src} to {dest}.
-
-### Move X from A to B; if B is full, put X back in A
-Comes after:
-Intent: move
-Program:
-STEP 1
-    check gripper
-    observe A
-    observe B
-STEP 2
-    if gripper is closed:
-        answer_1
-    temp src = first in A holding X
-    if src is none:
-        answer_2
-    pick from src
-    temp dest = first empty in B
-    if dest is not none:
-        place at dest
-        answer_3
     else:
-        place at src
+    observe A
+STEP 3
+    let loc = first in A holding X
+    if loc is not none:
+        pick from loc
+        observe B
+    else:
+        answer_2
+STEP 4
+    let loc = first empty in B
+    if loc is not none:
+        place at loc
+        answer_3
+    else:    
         answer_4
 Answers:
     answer_1: Already holding something — free the gripper first.
     answer_2: There is no X in A.
-    answer_3: Moved X from {src} to {dest}.
-    answer_4: B is full, so I put X back at {src} in A.
+    answer_3: B is full.
+    answer_4: Moved X to {loc}.
 
-### Pick whatever is at A and place it in B
+### Move X from A to B; if B is full, put X back in A
 Comes after:
-Intent: move
+Intent: pick+place
 Program:
 STEP 1
     check gripper
     observe A
-    observe B
 STEP 2
     if gripper is closed:
         answer_1
-    temp src = first occupied in A
-    if src is none:
+    else:
+    observe A
+STEP 3
+    let loc = first in A holding X
+    if loc is not none:
+        pick from loc
+        observe B
+    else:
         answer_2
-    temp dest = first empty in B
-    if dest is none:
+STEP 4
+    let loc = first empty in B
+    if loc is not none:
+        place at loc
         answer_3
-    pick from src
-    place at dest
+STEP 5
+    let loc = first empty in A
+    place at loc
     answer_4
+
 Answers:
     answer_1: Already holding something — free the gripper first.
-    answer_2: There is nothing at A.
+    answer_2: There is no X in A.
+    answer_3: Put X to {loc}.
+    answer_4: B is full. Put X to {loc}.
+
+### Pick whatever is at A and place it in B
+Comes after:
+Intent: pick+place
+Program:
+STEP 1
+    check gripper
+    observe A
+STEP 2
+    if gripper is closed:
+        answer_1
+    else:
+    observe A
+STEP 3
+    let loc = first occupied in A
+    if loc is not none:
+        pick from loc
+        observe B
+    else:
+        answer_2
+STEP 4
+    let loc = first empty in B
+    if loc is not none:
+        place at loc
+        answer_3
+    else:    
+        answer_4
+Answers:
+    answer_1: Already holding something — free the gripper first.
+    answer_2: A is empty.
     answer_3: B is full.
-    answer_4: Moved the object from {src} to {dest}.
+    answer_4: Moved X to {loc}.
 
 ### Find and pick up an X
 Comes after:
@@ -597,47 +756,52 @@ Intent: pick
 Program:
 STEP 1
     check gripper
-    observe everything
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first holding X
+    else:
+        observe everything
+STEP 3
+    let loc = first holding X
     if loc is not none:
         pick from loc
         answer_2
     else:
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Found and picked X from {loc}.
     answer_3: I could not find an X anywhere.
 
-### Check what is at A; if there is an X pick it, otherwise tell me what is there
+### Check what is at A; if there is an X, pick it, otherwise tell me what is there
 Comes after:
 Intent: pick
 Program:
 STEP 1
-    check gripper
     observe A
 STEP 2
-    if gripper is closed:
-        answer_1
-    if A is empty:
-        answer_2
-    temp loc = first in A holding X
+    let loc = first in A holding X
     if loc is not none:
+        check gripper
+    else:
+        answer_1
+STEP 3
+    if gripper is closed:
+        answer_2
+    else:
+        let loc = first in A holding X
         pick from loc
         answer_3
-    else:
-        answer_4
 Answers:
-    answer_1: Already holding something — can't pick.
-    answer_2: A is empty.
-    answer_3: Picked X from {loc}.
-    answer_4: There is no X at A. A contains: {occupied slots in A}.
+    answer_1: 
+        if A not empty: There is no X in A. There is {type in loc for loc in A if loc not is not empty}. 
+        else: A is empty.
+    answer_2: [mustplace]
+    answer_3: Picked X from {loc}. 
 
 ### Which locations in A are empty right now?
 Comes after:
+Expressions: 
 Intent: query
 Program:
 STEP 1
@@ -646,38 +810,59 @@ STEP 1
 Answers:
     answer_1:
         if A is full: There are no empty locations in A.
-        else: Empty locations in A: {empty slots in A}.
+        else: {loc for loc in A if loc not is empty}.
 
-### Place what you are holding at A
+### Pick up one of whatever there's most of in A
 Comes after:
-Intent: place
-Same program as "You are holding X. Place it into A".
-
-### If there is an X in A, move it to B
-Comes after:
-Intent: move
+Features: no loc=none check
+Intent: pick 
 Program:
 STEP 1
     check gripper
     observe A
-    observe B
 STEP 2
-    if gripper is closed:
+    let X = most common object in A
+    if gripper is closed or X is none:
         answer_1
-    temp src = first in A holding X
-    if src is none:
+    else:
+        let loc = first in A holding X
+        pick from loc
         answer_2
-    temp dest = first empty in B
-    if dest is none:
-        answer_3
-    pick from src
-    place at dest
-    answer_4
 Answers:
-    answer_1: Already holding something — free the gripper first.
-    answer_2: There is no X in A — nothing to move.
-    answer_3: B is full.
-    answer_4: Moved X from {src} to {dest}.
+    answer_1:
+        if gripper is closed: [mustplace]
+        else: A is empty
+    answer_2: [picked(X,loc)]
+
+### If there is an X in A, move it to B
+Comes after:
+Expressions: first in holding, is closed, or, ...
+Intent: pick+place
+Program:
+STEP 1
+    observe A
+STEP 2
+    remember loc = first in A holding X
+    if loc is not none:
+        check gripper
+        observe B
+    else:
+        answer_1
+STEP 3
+    if gripper is closed or B is empty:
+        answer_2 
+    else:
+        pick from loc
+STEP 4
+    temp loc = first empty in B
+    place at loc
+    answer_3
+Answers:
+    answer_1: There is no X in A
+    answer_2: 
+        if gripper is closed: There is X in A. [mustplace]
+        else: There is X in A, but B is full.
+    answer_3: pick
 
 ### Is A empty? If so, go home; if not, tell me what is there
 Comes after:
@@ -704,8 +889,8 @@ STEP 1
 STEP 2
     if A is full:
         answer_1
-    temp last = count of empty slots in A == 1
-    temp loc = first empty in A
+    let last = count of empty slots in A == 1
+    let loc = first empty in A
     place at loc
     if last:
         answer_2
@@ -727,18 +912,18 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first in A holding X
+    let loc = first in A holding X
     if loc is not none:
         pick from loc
         answer_2
-    temp loc = first in B holding X
+    let loc = first in B holding X
     if loc is not none:
         pick from loc
         answer_3
     else:
         answer_4
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked X from {loc} in A.
     answer_3: Picked X from {loc} in B.
     answer_4: Neither A nor B has an X.
@@ -759,18 +944,18 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first occupied in A
+    let loc = first occupied in A
     if loc is not none:
         pick from loc
         answer_2
-    temp loc = first occupied in B
+    let loc = first occupied in B
     if loc is not none:
         pick from loc
         answer_3
     else:
         answer_4
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked {held} from {loc} in A.
     answer_3: Picked {held} from {loc} in B.
     answer_4: Both A and B are empty.
@@ -786,11 +971,11 @@ STEP 2
     if A is full and B is full:
         answer_1
     if more empty room in A than B:
-        temp loc = first empty in A
+        let loc = first empty in A
         place at loc
         answer_2
     else:
-        temp loc = first empty in B
+        let loc = first empty in B
         place at loc
         answer_3
 Answers:
@@ -811,9 +996,9 @@ STEP 1
         answer_1
 STEP 2
     if holding X:
-        temp loc = first empty in A
+        let loc = first empty in A
     elif holding W:
-        temp loc = first empty in B
+        let loc = first empty in B
     if loc is not none:
         place at loc
         answer_2
@@ -833,7 +1018,7 @@ Program:
 STEP 1
     observe everything
 STEP 2
-    temp loc = first empty
+    let loc = first empty
     if loc is not none:
         place at loc
         go to home
@@ -853,12 +1038,12 @@ STEP 1
     remember start_position = check position
     observe everything
 STEP 2
-    temp loc = first empty in A
+    let loc = first empty in A
     if loc is none:
         answer_1
     place at loc
 STEP 3
-    temp loc = first holding X
+    let loc = first holding X
     if loc is not none:
         pick from loc
         go to start_position
@@ -881,7 +1066,7 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first in A holding X
+    let loc = first in A holding X
     if loc is not none:
         pick from loc
         answer_2
@@ -889,7 +1074,7 @@ STEP 2
         go to home
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked X from {loc}.
     answer_3: There is no X in A — went home.
 
@@ -1084,14 +1269,14 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first in A holding not X
+    let loc = first in A holding not X
     if loc is not none:
         pick from loc
         answer_2
     else:
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked {held} from {loc}.
     answer_3: A has only X or is empty — nothing else to pick.
 
@@ -1106,13 +1291,13 @@ STEP 2
     if gripper is closed:
         answer_1
     if count in A == 1:
-        temp loc = first occupied in A
+        let loc = first occupied in A
         pick from loc
         answer_2
     else:
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked {held} from {loc}.
     answer_3: A does not have exactly one object.
 
@@ -1129,15 +1314,15 @@ STEP 2
         answer_1
     if B is empty:
         answer_2
-    temp t = a type in B
-    temp loc = first in A holding t
+    let t = a type in B
+    let loc = first in A holding t
     if loc is not none:
         pick from loc
         answer_3
     else:
         answer_4
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: B is empty — there is no reference object.
     answer_3: Picked {held} from {loc} (matching what is in B).
     answer_4: A has nothing of the kind found in B.
@@ -1153,14 +1338,14 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp t = a type shared by A and B
+    let t = a type shared by A and B
     if t is none:
         answer_2
-    temp loc = first in A holding t
+    let loc = first in A holding t
     pick from loc
     answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: A and B share no object type.
     answer_3: Picked {held} from {loc}.
 
@@ -1175,14 +1360,14 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp t = a type in A not in B
+    let t = a type in A not in B
     if t is none:
         answer_2
-    temp loc = first in A holding t
+    let loc = first in A holding t
     pick from loc
     answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Every type in A is also in B.
     answer_3: Picked {held} from {loc}.
 
@@ -1221,13 +1406,13 @@ STEP 2
     if gripper is closed:
         answer_1
     if count in A >= N:
-        temp loc = first occupied in A
+        let loc = first occupied in A
         pick from loc
         answer_2
     else:
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked {held} from {loc}.
     answer_3: A has fewer than N objects.
 
@@ -1244,13 +1429,13 @@ STEP 2
     if A is empty:
         answer_2
     if A contains only X:
-        temp loc = first in A holding X
+        let loc = first in A holding X
         pick from loc
         answer_3
     else:
         answer_4
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: A is empty.
     answer_3: Picked X from {loc}.
     answer_4: A contains something other than X.
@@ -1268,14 +1453,14 @@ STEP 2
         answer_1
     if A has no X:
         answer_2
-    temp loc = first occupied in B
+    let loc = first occupied in B
     if loc is not none:
         pick from loc
         answer_3
     else:
         answer_4
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: A has no X.
     answer_3: A has an X, so I picked {held} from {loc} in B.
     answer_4: A has an X, but B is empty.
@@ -1313,7 +1498,7 @@ STEP 1
 STEP 2
     if A has X:
         answer_1
-    temp loc = first empty in A
+    let loc = first empty in A
     if loc is not none:
         place at loc
         answer_2
@@ -1331,12 +1516,12 @@ Program:
 STEP 1
     observe everything
 STEP 2
-    temp loc = first empty
+    let loc = first empty
     if loc is none:
         answer_1
     place at loc
 STEP 3
-    temp loc = first holding X
+    let loc = first holding X
     if loc is not none:
         pick from loc
         answer_2
@@ -1354,7 +1539,7 @@ Program:
 STEP 1
     observe A
 STEP 2
-    temp loc = first empty in A
+    let loc = first empty in A
     if loc is not none:
         place at loc
         answer_1
@@ -1387,10 +1572,10 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp src = first in A holding X
+    let src = first in A holding X
     if src is none:
         answer_2
-    temp dest = first empty in B
+    let dest = first empty in B
     if dest is none:
         answer_3
     pick from src
@@ -1429,14 +1614,14 @@ STEP 1
 STEP 2
     if gripper is closed:
         answer_1
-    temp loc = first in A holding X
+    let loc = first in A holding X
     if loc is not none:
         pick from loc
         answer_2
     else:
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: Picked X from {loc}. A still has: {occupied slots in A}.
     answer_3: There is no X in A.
 
@@ -1452,14 +1637,14 @@ STEP 2
         answer_1
     remember snapshot = occupied slots in A
 STEP 3
-    temp loc = first in A holding X
+    let loc = first in A holding X
     if loc is not none:
         pick from loc
         answer_2
     else:
         answer_3
 Answers:
-    answer_1: Already holding something — can't pick.
+    answer_1: [mustplace]
     answer_2: A contained {snapshot}. Picked X from {loc}.
     answer_3: A contains {snapshot}. There is no X.
 
@@ -1475,10 +1660,10 @@ STEP 2
         answer_1
     if A has X:
         answer_2
-    temp dest = first empty in A
+    let dest = first empty in A
     if dest is none:
         answer_3
-    temp src = first holding X outside A
+    let src = first holding X outside A
     if src is none:
         answer_4
     pick from src
@@ -1503,7 +1688,7 @@ Program:
 STEP 1
     observe everything
 STEP 2
-    temp loc = first empty
+    let loc = first empty
     if loc is not none:
         place at loc
         go to home
@@ -1515,3 +1700,7 @@ Answers:
     answer_1: Dropped X at {loc}, then went home.
     answer_2: Found nowhere to drop X; went home still holding it.
 
+Answers:
+    [mustplace]: Already holding something — can't pick.
+    [picked(X,loc)]: Picked {X} from {loc}.
+    [placed(X,loc)]: Placed {X} into {loc}.

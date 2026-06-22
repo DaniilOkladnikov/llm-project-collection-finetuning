@@ -17,10 +17,10 @@ from tool_simulation_server.state_resolver import StateResolver
 from finetuning.variable_resolver import VariableResolver
 from finetuning.models import VariableType
 
-from .context import Binding, Role, SceneView
-from .dsl_state import DslState
-from .sim_driver import SimDriver
-from .taskspec import TaskSpec
+from dataset_generation.context import Binding, Role, SceneView
+from dataset_generation.dsl_state import DslState
+from dataset_generation.sim_driver import SimDriver
+from dataset_generation.taskspec import TaskSpec
 
 
 class IncompatibleScenario(Exception):

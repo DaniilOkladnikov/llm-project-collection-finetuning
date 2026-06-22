@@ -16,9 +16,9 @@ from typing import Callable, Dict, List, Optional
 
 from finetuning.models import VariableDefinition
 
-from .context import EvalContext
-from . import helpers as H
-from .program import Program
+from dataset_generation.context import EvalContext
+from dataset_generation import helpers as H
+from dataset_generation.program import Program
 
 
 class AnswerEnv:

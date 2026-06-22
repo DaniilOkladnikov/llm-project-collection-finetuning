@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
-from .dsl_state import DslState
+from dataset_generation.dsl_state import DslState
 
 
 # --- value rendering ------------------------------------------------------

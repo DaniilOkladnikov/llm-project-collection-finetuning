@@ -12,12 +12,12 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
-from . import blocks as B
-from .context import Binding, EvalContext, SceneView
-from .dsl_state import DslState
-from .program import Program, Step
-from .sim_driver import SimDriver
-from .taskspec import AnswerEnv, TaskSpec
+from dataset_generation import blocks as B
+from dataset_generation.context import Binding, EvalContext, SceneView
+from dataset_generation.dsl_state import DslState
+from dataset_generation.program import Program, Step
+from dataset_generation.sim_driver import SimDriver
+from dataset_generation.taskspec import AnswerEnv, TaskSpec
 
 
 @dataclass

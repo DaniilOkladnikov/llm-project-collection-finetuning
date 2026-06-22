@@ -17,7 +17,7 @@ from __future__ import annotations
 
 from typing import Any, List, Optional, Sequence, Tuple
 
-from .context import EvalContext
+from dataset_generation.context import EvalContext
 
 NONE = "none"
 

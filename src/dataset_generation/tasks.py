@@ -13,7 +13,7 @@ from typing import List
 
 from finetuning.models import VariableDefinition, VariableType, LocationMode
 
-from .helpers import (
+from dataset_generation.helpers import (
     ATypeIn, ATypeInNotIn, ATypeSharedBy, BinOp, Count, FirstEmpty, FirstEmptyIn,
     FirstHolding, FirstHoldingIn, FirstHoldingNotIn, FirstOccupiedIn, Held,
     IsNone, IsNotNone, ListExpr, LocationsHolding, MemRef, MemTrue, Not, NumberLit,
@@ -22,12 +22,12 @@ from .helpers import (
     gripper_is, has, has_no, holding, holding_anything, is_empty, is_full,
     is_not_empty, more_empty_room, no_location_holds, same_count,
 )
-from .program import (
+from dataset_generation.program import (
     Answer, ApproachObserve, ApproachPick, CheckGripper, CheckPosition, GoTo,
     Observe, ObserveEverything, PickFrom, PlaceAt, Program, Remember, Temp,
     branch, linear, otherwise, when,
 )
-from .taskspec import TaskSpec
+from dataset_generation.taskspec import TaskSpec
 
 
 # --- variable-definition shorthands ---------------------------------------

@@ -16,10 +16,10 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Callable, List, Optional
 
-from .blocks import render_tool_call
-from .context import EvalContext
-from .dsl_state import DslState
-from .helpers import Expr, fmt
+from dataset_generation.blocks import render_tool_call
+from dataset_generation.context import EvalContext
+from dataset_generation.dsl_state import DslState
+from dataset_generation.helpers import Expr, fmt
 
 
 @dataclass

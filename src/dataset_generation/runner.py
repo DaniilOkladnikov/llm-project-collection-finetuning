@@ -8,14 +8,14 @@ from typing import List
 
 from tool_simulation_server.scene import SceneConfig
 
-from .context import SceneView
-from .interpreter import Entry, Interpreter
-from .resolve import (
+from dataset_generation.context import SceneView
+from dataset_generation.interpreter import Entry, Interpreter
+from dataset_generation.resolve import (
     apply_initial_state, build_binding, build_initial_dsl_state,
     check_compatibility, held_type_for, make_state_def, scene_capabilities,
 )
-from .sim_driver import SimDriver
-from .taskspec import TaskSpec
+from dataset_generation.sim_driver import SimDriver
+from dataset_generation.taskspec import TaskSpec
 
 
 def run_scenario(task: TaskSpec, scene_path: Path, seed: int) -> List[Entry]:
