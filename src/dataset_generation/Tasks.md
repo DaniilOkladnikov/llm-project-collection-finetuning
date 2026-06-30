@@ -150,7 +150,7 @@ STEP 1
 Answers:
     answer_1: I am at the observation point for A
 
-### Go to P
+### Go to P. (Note, P must be close to real position name)
 Comes after:
 Expressions:
 State changes:
