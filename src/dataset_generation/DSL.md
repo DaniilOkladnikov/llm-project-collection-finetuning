@@ -83,16 +83,19 @@ How the program is executed you can see in the walkthroughs.
 
 ### 1.4 Special memory keys
 
-There are a couple of special memory keys that are "reserved" for things model might need in most cases. They are not "hard" reserved, it's just a convention on how it is trained. Further we call them STATE.
+There are a couple of special memory keys that are "reserved" for things model might need in most cases. They are not "hard" reserved, it's just a convention on how the model is trained. Further we call them state.
 
 | key | stores |
 |------|--------|
-| position | current robot position from positions list / unknown |
-| gripper | gripper closed/open/unknown |
+| current position | current robot position from positions list / unknown |
+| gripper | gripper closed / open / unknown |
 | held | currently held object / unknown |
 | explored observation positions | list[observation position1, observation position2, ...] |
 | cursor | next line of program to execute Li / done |
-| objects | dict{location1: object1 / empty, location2: object2 / empty, ...} |
+| scans | dict{location1: object1 / empty, location2: object2 / empty, ...} |
+| positions | list of positions present in scene |
+| objects | list of objects present in scene |
+| locations | list of locations present in scene |
 
 ### 1.5 Tool effects on state
 
@@ -132,7 +135,51 @@ Model must be trained to use following data types, besides strings and numbers.
 |-----------|-----------|
 | `list` | python-like list |
 | `counter` | python-like list with counts [elem1: count1, elemt2: count2,...] count is an int |
+| `dict` | python-like dictionary |
+| `string` | python-like string |
+
+Here is how state variables match these data types:
+
+| state variable | data type |
+|-----------|-----------|
+| `scans` | `dict` |
+| `objects`, `locations` | `list` |
 | `dictionary` | python-like dictionary |
+| `dictionary` | python-like dictionary |
+
+### 2.4 Expressions on data types
+
+Counter
+
+| Expression | Value |
+|-----------|-----------------|
+| count of `X` in `counter` | count of X in counter |
+| N-biggest count in `counter` | N-biggest count in counter |
+| N-smallest count in `counter` | N-smallest count in counter |
+| N-biggest in `counter` | X in counter that has N-biggest count |
+| N-smallest in `counter` | X in counter that has N-smallest count |
+
+List
+
+| Expression | Value |
+|-----------|-----------------|
+| first in `list` | list[0] |
+| parse `list` for objects | saves `objects` list of objects whose existence follows from the list|
+| parse `list` for locations | saves `locations` list of locations whose existence follows from the list|
+
+Dict
+
+| Expression | Value |
+|-----------|-----------------|
+| keys in `dict` where value is `[list of values]` | `list` of keys with value matching any value in the list |
+| keys in `dict` where value is not `[list of values]` | `list` of keys with value not matching any value in the list |
+| `dict[keys group]` | `dict` that is obtained from original one by deleting all keys not matching `keys group` semantically (LLM decides) |
+
+String
+
+| Expression | Value |
+|-----------|-----------------|
+| `string` is `value` | bool comparison |
 
 ### 5.5 Primitives
  
@@ -168,10 +215,11 @@ Further:
 | Primitive | Tool calls | Resolution lines | Precondition |
 |-----------|-----------|------------------|--------------|
 | `approach pick of <X> at <A>` | `move_to(position=pick_<X>_<L>)` | (none beyond `<X>` / `<A>` helpers, if any) | none |
-| `pick from <A>` | `move_to(pick_<X>_<L>); close_gripper()` | `L = <A> = <location>`<br>`T = scans[<L>] = <type>` | gripper open; `<A>` resolves to a single Location `L`; `L ∈ STATE.scans` |
+| `pick from <A>` | `move_to(pick_<X>_<L>); close_gripper()` | `L = <A> = <location>`<br>`T = scans[<L>] = <type>` | gripper open; `<A>` resolves to a single Location `L`; `L ∈ MEMORY.scans` |
 | `get <X> from user` | `close_gripper()` | getting <X> | |
+| `give <held> to user` | `open_gripper()` | giving <held>> | |
 | `approach place of <X> at <A>` | `move_to(place_<X>_<L>)` | (none beyond `<X>` / `<A>` helpers, if any) | `<L>` is known empty |
-| `place at <A>` | `move_to(place_<X>_<L>); open_gripper()` | `L = <A> = <location>`<br>`X = held = <type>` | gripper closed; `STATE.held` is an ObjectType (not `none`, not `unknown`); `<A>` resolves to a single Location `L`; `L` is known empty |
+| `place at <A>` | `move_to(place_<X>_<L>); open_gripper()` | `L = <A> = <location>`<br>`X = held = <type>` | gripper closed; `MEMORY.held` is an ObjectType (not `none`, not `unknown`); `<A>` resolves to a single Location `L`; `L` is known empty |
 
 #### 5.5.4 Memory
 
@@ -188,78 +236,6 @@ As opposed to memory, these are not written to memory block and not preserved ac
 | Primitive | Effect | Resolution lines |
 |-----------|--------|------------------|
 | `let <name> = <expression>` | Model should emit `<name> = <expression value>` in the resolution block and use the variable further in the step | `<name> = <expression value>` |
-
-Guard it with `if <name> is not none:` to act on the value
-
-### 5.6 ObjectType and Location helpers
-
-Each non-literal expression emits one RESOLUTION line of the form `<expression> = <value>`. A finder helper resolves to `none` when no object matches.
-
-| Expression | Value |
-|-----------|-----------------|
-| literal type or location name (from MAP) | itself |
-| `held` | `MEMORY[held]`|
-| `objects in <A1>, <A2>, ...` | counter type:count of types present in A1, A2,... |
-| `first occupied in <A>, <B>, ...` | First `L` in `<A>, <B>, ...` (slot order) present in `STATE.scans` |
-| `first in <A>, <B>, ... holding <X>` | First `L` in `<A>, <B>, ...` (slot order) with `scans[L] == <X>` |
-| `first in <A>, <B>, ... holding not <X>, <Y>, ...` | First `L` in `<A>, <B>, ...` (slot order) with `scans[L] != <X>, <Y>, ...` |
-| `first holding <X>` | First `L` anywhere in `STATE.scans` (insertion order of `scans`) with entry `<X>` |
-| `first holding <X> outside <A>, <B>, ...` | As above, excluding any `L` in `<A>, <B>, ...` |
-| `first empty` | First `L` covered by `STATE.visited` and absent from `STATE.scans` (order: position-list order over all Locations) |
-| `first empty outside <A>, <B>, ...` | As above, excluding any `L` in `<A>, <B>, ...` |
-
-### 5.7 Data structure helpers
-
-Each emits one RESOLUTION line of the form `<expression> = <value>`. A finder helper resolves to `none` when no slot matches.
-
-#### 5.7.1 List helpers
-
-| Expression | Value |
-|-----------|-----------------|
-| First in `List` | first value in a list |
-
-#### 5.7.2 Counter helpers
-
-| Expression | Value |
-|-----------|-----------------|
-| count of `X` in `counter` | count of X in counter |
-| N-biggest count in `counter` | N-biggest count in counter |
-| N-smallest count in `counter` | N-smallest count in counter |
-| N-biggest in `counter` | X in counter that has N-biggest count |
-| N-smallest in `counter` | X in counter that has N-smallest count |
-
-### 5.8 Bool and numerical helpers
-
-#### 5.8.1 Bool helpers
-
-Each evaluated condition emits one RESOLUTION line of the form `<cond> = <value>`. Value is bool unless stated otherwise
- 
-**Robot.**
- 
-| Condition | Value |
-|-----------|-----------------|
-| `gripper is open` | `STATE.gripper == open` |
-| `gripper is closed` | `STATE.gripper == closed` |
-| `gripper is known` | `STATE.gripper != unknown` |
-| `holding anything` | `STATE.held` is an ObjectType (not `none`, not `unknown`) |
-| `holding <X>` | `STATE.held == <X>` |
-| `holding is known` | `STATE.held != unknown` |
-| `at home` | `STATE.position == home` |
-| `at <Position>` | `STATE.position == <Position>` |
-| `position` | `STATE.position` (returns position name; used in comparisons) |
-| `visited all observe positions` | exists no observe position not in `STATE.visited`|
-| `<A> is empty` | A covered by visited and no `L ∈ <A>` is in `STATE.scans` |
-
- 
-**Composition.** `and`, `or`, `not`, `>`, `>=`, `<`, `<=`, `==`, `+`, `-`.
- 
-A composite condition (e.g. `a and b`) should be emitted split:
- 
-```
-a = <value>
-b = <value>
-a and b = <value>
-```
 
 ---
 
@@ -278,12 +254,15 @@ a and b = <value>
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 ```
 Output
 ```
 PROGRAM
 L1 remember positions = get positions
+L2 parse positions for objects
+L3 parse positions for locations
+L4 parse user
 
 MEMORY
 cursor = L1
@@ -298,10 +277,13 @@ held = unknown
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
 PROGRAM
 L1 remember positions = get positions
+L2 parse positions for objects
+L3 parse positions for locations
+L4 parse user
 
 MEMORY
 cursor = L1
@@ -315,7 +297,7 @@ RESOLUTION
 L1
 
 MEMORY
-cursor = done
+cursor = L2
 
 TOOL CALL
 positions = get_positions()
@@ -327,13 +309,16 @@ positions = get_positions()
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
 PROGRAM
 L1 remember positions = get positions
+L2 parse positions for objects
+L3 parse positions for locations
+L4 parse user
 
 MEMORY
-cursor = done
+cursor = L2
 position = unknown
 gripper = unknown
 held = unknown
@@ -342,47 +327,12 @@ positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place
 ```
 Output
 ```
-MEMORY
-box1 = ["box1_1", "box1_2"]
-cube = cube
-```
-
----
-
-#### Invocation 3
-
-Input
-```
-User: pick up cube from box1
-
-PROGRAM
-L1 remember positions = get positions
+RESOLUTION
+L2 
 
 MEMORY
-cursor = done
-position = unknown
-gripper = unknown
-held = unknown
-positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
-"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
-```
-Output
-```
-PROGRAM
-L1 check gripper
-L2 if gripper is closed:
-L3   answer_1
-L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
-L7 if loc is not none:
-L8   pick from loc
-L9   answer_2
-L10 else:
-L11  answer_3
-
-MEMORY
-cursor = L1
+cursor = L3
+objects = ["cube"]
 ```
 
 ---
@@ -391,15 +341,126 @@ cursor = L1
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
+
+PROGRAM
+L1 remember positions = get positions
+L2 parse positions for objects
+L3 parse positions for locations
+L4 parse user
+
+MEMORY
+cursor = L3
+position = unknown
+gripper = unknown
+held = unknown
+positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
+"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+```
+Output
+```
+RESOLUTION
+L3
+
+MEMORY
+cursor = L4
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+```
+
+#### Invocation 5
+
+Input
+```
+User: pick up a brick from the first box
+
+PROGRAM
+L1 remember positions = get positions
+L2 parse positions for objects
+L3 parse positions for locations
+L4 parse user
+
+MEMORY
+cursor = L4
+position = unknown
+gripper = unknown
+held = unknown
+positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
+"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+```
+Output
+```
+RESOLUTION
+L4 
+
+MEMORY
+cursor = done
+brick = cube
+first box = ["box1_1", "box1_2"]
+```
+
+---
+
+#### Invocation 6
+
+Input
+```
+User: pick up a brick from the first box
+
+PROGRAM
+L1 remember positions = get positions
+L2 parse positions for objects
+L3 parse positions for locations
+L4 parse user
+
+MEMORY
+cursor = done
+position = unknown
+gripper = unknown
+held = unknown
+positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
+"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
+```
+Output
+```
+PROGRAM
+L1 check gripper
+L2 if gripper is closed:
+L3   answer_1
+L4 else:
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
+L7 if loc is not none:
+L8   pick from loc
+L9   answer_2
+L10 else:
+L11  answer_3
+
+MEMORY
+cursor = L1
+```
+
+---
+
+#### Invocation 7
+
+Input
+```
+User: pick up a brick from the first box
 
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -413,6 +474,10 @@ gripper = unknown
 held = unknown
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 ```
 Output
 ```
@@ -428,19 +493,19 @@ check_gripper()
 
 ---
 
-#### Invocation 5
+#### Invocation 8
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -454,6 +519,10 @@ gripper = unknown
 held = unknown
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 
 TOOL RESULTS
 check_gripper = {status:"OK", content: "open"}
@@ -467,19 +536,19 @@ held = none
 
 ```
 ---
-#### Invocation 6
+#### Invocation 9
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -493,6 +562,10 @@ gripper = open
 held = none
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 
 ```
 Output
@@ -500,7 +573,7 @@ Output
 RESOLUTION
 L2 gripper is closed = False
    selected: L5
-L5 observe positions = "observe_box1"
+L5 observe positions = ["observe_box1"]
 
 MEMORY
 cursor = L6
@@ -509,19 +582,19 @@ TOOL CALL
 move_robot_to(position="observe_box1")
 ```
 ---
-#### Invocation 7
+#### Invocation 10
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -535,6 +608,10 @@ gripper = open
 held = none
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 
 RESOLUTION
 L2 gripper is closed = False
@@ -558,19 +635,19 @@ locate_shapes()
 
 ```
 ---
-#### Invocation 8
+#### Invocation 11
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -584,6 +661,10 @@ gripper = open
 held = none
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 
 RESOLUTION
 L2 gripper is closed = False
@@ -602,25 +683,24 @@ Output
 ```
 MEMORY
 explored observation positions = "observe_box1"
-objects = {"box1_1": "cube", "box1_2": empty}
+objects = {"box1_1": "cube", "box1_2": "empty"}
 ```
 
 ---
 
-#### Invocation 9
+#### Invocation 12
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
-PROGRAM
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -635,7 +715,10 @@ held = none
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 explored observation positions = "observe_box1"
-objects = {"box1_1": "cube", "box1_2": empty}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 
 RESOLUTION
 L2 gripper is closed = False
@@ -650,10 +733,12 @@ locate_shapes()
 Output
 ```
 RESOLUTION
-L6 temp loc = box1_1
+L6 MEMORY.scans[first box] = {box1_1: cube, box1_2: empty}
+   MEMORY.scans[first box] where value is cube = ["box1_1"]
+   temp loc = "box1_1"
 L7 loc is not none = True
    selected: L8
-L8 pick location = box1_1
+L8 pick location = "box1_1"
    pick object = cube
 
 MEMORY
@@ -664,20 +749,19 @@ move_robot_to(position="pick_cube_box1_1")
 ```
 ---
 
-#### Invocation 10
+#### Invocation 13
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
-PROGRAM
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -692,7 +776,10 @@ held = none
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 explored observation positions = "observe_box1"
-objects = {"box1_1": cube, "box1_2": empty}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 
 RESOLUTION
 L6 temp loc = box1_1
@@ -717,20 +804,19 @@ close_gripper()
 ```
 ---
 
-#### Invocation 11
+#### Invocation 14
 
 Input
 ```
-User: pick up cube from box1
+User: pick up a brick from the first box
 
-PROGRAM
 PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
 L4 else:
-L5   observe box1
-L6 temp loc = first in box1 holding cube
+L5   observe first box
+L6 temp loc = first in MEMORY.scans[first box] where value is cube
 L7 if loc is not none:
 L8   pick from loc
 L9   answer_2
@@ -745,7 +831,10 @@ held = none
 positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 explored observation positions = "observe_box1"
-objects = {"box1_1": "cube", "box1_2": empty}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+brick = cube
+first box = ["box1_1", "box1_2"]
 
 RESOLUTION
 L6 temp loc = box1_1

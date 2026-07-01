@@ -1,3 +1,53 @@
+### Grab the second X, leave the first one for me.
+Comes after: any
+Expressions: 
+State changes:  
+Intent: pick
+Program: 
+
+    answer_1
+
+Answers:
+    answer_1: [canthelp]
+
+### Grab the furthest X from the door    
+Comes after:
+Expressions: 
+State changes:  
+Intent: pick
+Program:
+answer_1
+Answers:
+    answer_1: [canthelp]
+
+### OK, put it back where you got it.
+Comes after only: picked(X,L)
+Expressions:  
+State changes: 
+Intent: place
+Program:
+
+    place X at L
+    answer_1
+
+Answers: 
+
+    answer_1: placed(X,L)
+
+### Where did you get X from?
+Comes after only: picked(X,L)
+Expressions:
+State changes: 
+Intent: query
+Program:
+
+    place X at L
+    answer_1
+
+Answers: 
+
+    answer_1: I got X from {L}.
+
 ### Pick up X from A
 Comes after:
 Expressions: first location in A holding X, gripper is closed, is not none
@@ -39,7 +89,7 @@ STEP 2
         answer_2
 Answers:
     answer_1: [mustplace]
-    answer_2: Got X from you.
+    answer_2: [got(X)].
 
 ### Come to A and get X from me
 Comes after:
@@ -51,6 +101,34 @@ Step 1
 answer_1
 Answers:
 answer_1: Please separate your commands for safety. Tell me where to move first, and hand me the item in the next step.
+
+### Release what you hold
+Comes after:
+Expressions:
+State changes:
+Intent: give
+Program:
+
+    open gripper
+    answer_1
+    
+Answers:
+
+    answer_1: [opened]
+
+### Find X nearest to me
+Comes after:
+Expressions:
+State changes:
+Intent: give
+Program:
+
+    answer_1
+    
+Answers:
+
+    answer_1: [canthelp]
+
 
 ### You are holding X. Place it into A
 Comes after:
@@ -528,7 +606,7 @@ STEP 2
     else:
         answer_2
 Answers:
-    answer_1: Successfully placed at {loc}
+    answer_1: placed(X,loc)
     answer_2: Cannot place, no empty space found
 
 ### Place X, preferring A. If A is full, find any empty spot
@@ -553,8 +631,8 @@ STEP 3
     else:
         answer_3
 Answers:
-    answer_1: Successfully placed at {loc}
-    answer_2: Successfully placed at {loc}
+    answer_1: placed(X,loc)
+    answer_2: placed(X,loc)
     answer_3: Cannot place, no empty space found
 
 ### You are holding X. Place it somewhere, but not in A
@@ -598,8 +676,8 @@ STEP 3
     else:
         answer_3
 Answers:
-    answer_1: Placed X at {loc}.
-    answer_2: A was full, so I placed X at {loc}.
+    answer_1: placed(X,loc)
+    answer_2: A was full. placed(X,loc)
     answer_3: Both A and B are full — still holding X.
 
 ### You are holding X. Place it at A, only if A is completely empty
@@ -618,7 +696,7 @@ STEP 2
     answer_2
 Answers:
     answer_1: A is not empty — did not place.
-    answer_2: A was empty; placed X at {loc}.
+    answer_2: A was empty. placed(X,loc)
 
 ### You are holding X. Place it at A; if A has a W in it, place it at B instead
 Synonyms: "Place X at A; if A has a W in it, place it at B instead" 
@@ -648,7 +726,7 @@ STEP 3
 Answers:
     answer_1: Placed X at {loc}.
     answer_2: A has no W in it, but is full — cannot place there
-    answer_3: A has W in it, placed in {loc}
+    answer_3: A has W in it. placed(X,loc)
     answer_4: A has W in it, but B is full - cannot place there
 
 ### Move X from A to B
@@ -980,8 +1058,8 @@ STEP 2
         answer_3
 Answers:
     answer_1: Both A and B are full — still holding X.
-    answer_2: A has more room; placed X at {loc}.
-    answer_3: Placed X at {loc} in B.
+    answer_2: A has more room. placed(X,loc)
+    answer_3: placed(X,loc)
 
 ### You are holding something. If it is an X place it at A; if it is a W place it at B
 Comes after:
@@ -1683,24 +1761,33 @@ left out of scope.
 
 ### You are holding X. Drop it somewhere, then go home
 Comes after:
-Intent: place
+
+Intent: 
+    place
+
 Program:
-STEP 1
-    observe everything
-STEP 2
-    let loc = first empty
-    if loc is not none:
-        place at loc
-        go to home
-        answer_1
-    else:
-        go to home
-        answer_2
+
+    STEP 1
+        observe everything
+    STEP 2
+        let loc = first empty
+        if loc is not none:
+            place at loc
+            go to home
+            answer_1
+        else:
+            go to home
+            answer_2
 Answers:
+
     answer_1: Dropped X at {loc}, then went home.
     answer_2: Found nowhere to drop X; went home still holding it.
 
-Answers:
+### Global Answers:
+
+    [canthelp]: I failed you, master. This task lies beyond my reach.
     [mustplace]: Already holding something — can't pick.
+    [opened]: Opened gripper.
     [picked(X,loc)]: Picked {X} from {loc}.
+    [got(X)]: Got {X} from you.
     [placed(X,loc)]: Placed {X} into {loc}.
