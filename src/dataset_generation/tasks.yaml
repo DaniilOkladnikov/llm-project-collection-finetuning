@@ -1,0 +1,902 @@
+answers: 
+  "mustplace": "I must first place what I hold"
+  "picked(X, loc)": "I picked up {X} from {loc}"
+  "placed(X, loc)": "I placed {X} in {loc}"
+  "donthold": "I don't hold anything"
+  "released": "I released the gripper"
+  "canthelp": "Sorry, but I can't assist you with this task"
+  "got(X)": "I got {X} from you"
+  "donthold": "I don't hold anything"
+  "nospace2place(A)": "There is no empty space in {A}"
+  "heldunknown": "I don't know what I'm holding"
+  "holding(X)": "I am holding {X}"
+  "gripperunknown": "I don't know if the gripper is open or closed"
+  "gripperclosed": "The gripper is closed"
+  "gripperopen": "The gripper is open"
+  "gripperopen": "The gripper is open"
+  "atpos(P)": "I am at {P}"
+  "posunknown": "I don't know my position"
+  "atpos(P)": "I am at {P}"
+  "isfull(A)": "{A} is full"
+  "notfull(A)": "{A} is not full"
+  "isempty(L[A])": "{L[A]} is empty" # Here and further, L[A] denotes list of targets (location or locations collection), all locations are written using coma, no [] in the displayed string, same rules for L[X], list of objects (types)
+  "isnonempty(A)": "{A} is not empty"
+  "thereis(X,A)": "There is {X} in {A}"
+  "nameobjects(A)": "scans[loc] for loc in A"
+  "thereis(X,A)": "There is {X} in {A}"
+  "thereisno(L[X],L[A])": "There is no {L[X]} in {L[A]}" 
+  "locof(X,L[A])": "There is X is in loc for loc in A if scans[loc] = X"
+  "thereisno(L[X],L[A])": "There is no {L[X]} in {L[A]}"
+  "thereisonly(L[X],L[A])": "There is only {L[X]} in {L[A]}"
+  "gotfrom(X,loc)": "I got {X} from {loc}"
+  "emptylocs(A)": "MEMORY.scans[A] where value is empty" # comma separated list values
+
+tasks:
+  1: 
+    prompts: ["Pick up {X} from {A}"] 
+    program:
+      "check gripper
+      if MEMORY.gripper is closed:
+        answer_1: mustplace
+      else:
+        observe A
+      remember loc = first in MEMORY.scans[A] where value is X
+      if loc is not none:
+        pick from loc
+        answer_2: picked(X, loc)
+      else:
+        answer_3: thereisno([X],[A])
+      "
+  2: 
+    prompts: ["Close gripper, I am giving you {X}"]
+    program:
+      "
+      check gripper
+      if MEMORY.gripper is closed:
+        answer_1: mustplace
+      else:
+        get X from user 
+        answer_2: got(X)
+      "
+  3:
+    prompts: ["Release what you hold"]
+    program:
+      "
+      check gripper
+      if MEMORY.gripper is open:
+        answer_1: donthold
+      else:
+        open gripper
+        answer_2: released
+      "
+  4:
+    prompts: ["You are holding {X}. Place it into {A}"]
+    state_change: 
+      - gripper: closed
+      - held: X
+    program:
+      "
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_2: placed(X, loc)
+      else:
+        answer_3: nospace2place(A)
+      "
+  5:
+    prompts: ["Am I holding {X}?", "What are you holding?"]
+    program:
+      "answer_1":
+        if MEMORY.held is unknown: "heldunknown"
+        else: "holding(MEMORY.held)"
+  6:
+    prompts: ["Is your gripper free?"]
+    program:
+      "answer_1":
+        if MEMORY.gripper is unknown: "gripperunknown"
+        elif MEMORY.gripper is closed: "gripperclosed"
+        else: "gripperopen"
+  7:
+    prompts: ["What position are you at?"]
+    program:
+      "answer_1":
+        if MEMORY.position is unknown: "posunknown"
+        else: "atpos(MEMORY.position)"
+  8: 
+    prompts: ["Go to {P position}", "Move to {P}"]
+    program:
+      "go to P
+      answer_1: atpos(P)
+      " # Note, P in the program is literally what user said, can be different from real position name, P in the answer in the actual position name saved in memory by parse user command and where the robot actually is.
+  9:
+    prompts: ["Go to the {observation point for A}"]
+    program:
+      "go to observation of A
+      answer_1: atpos(observation point for A) 
+      " # Note, here and further observation point for A in the program is literally what user said, observation point for A in the answer in the actual position name saved in memory by parse user command and where the robot actually is.
+  10:
+    prompts: ["Visit the observation points for {A} and then {B}"]
+    program:
+      "go to observation of A
+      go to observation of B
+      answer_1: atpos(observation of B)" # observation of B in the answer is the actual position name
+  11:
+    prompts: ["Find empty space in A and go to position to pickup from there. And check if gripper is open", "Get ready to pick from empty in A"]
+    program:
+      "observe A
+      check gripper
+      if MEMORY.gripper is open:
+        answer_1: mustplace
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        go to pick MEMORY.scans[loc] from loc
+        answer_2: atpos(loc)
+      else:
+        answer_3: isfull(A)
+      "
+  12:
+    prompts: ["Prepare to pick something from A", "Find an object in A prepare to pick it"]
+    program:
+      "observe A
+      remember loc = first in MEMORY.scans[A] where value is not empty
+      if loc is not none:
+        go to pick MEMORY.scans[loc] from loc
+        answer_1: atpos(loc)
+      else:
+        answer_2: isempty([A])
+      "
+  13: 
+    prompts: ["What is in A?"]
+    program:
+      "observe A
+      answer_1:
+        if A empty: isempty([A])
+        else: nameobjects(A)"
+  14: 
+    prompts: ["Is there an X in A?"]
+    program:
+      "observe A
+      answer_1:
+        if X in A : thereis(X,A)
+        else: thereisno([X],[A])"
+  15: 
+    prompts: ["How many slots in A are occupied?"]
+    program:
+      "answer_1: canthelp"
+  16: 
+    prompts: ["How many slots in A are empty?"]
+    program:
+      "answer_1: canthelp"
+  17:
+    prompts: ["Are there any empty slots in A?"]
+    program:
+      "observe A
+      answer_1:
+        if A empty: isempty([A]) 
+        else: isnonempty(A)"
+  18:
+    prompts: ["Which slot in A has X?"]
+    program:
+      "observe A
+      answer_1:
+        if X in A: locof(X,[A])
+        else: thereisno([X],[A])" 
+  19:
+    prompts: ["Which has X, A or B?"]
+    program:
+      "observe A
+      observe B
+      answer_1:
+        if X in A or X in B: locof(X,[A,B])
+        else: thereisno(X,[A,B])"
+  20:
+    prompts: ["Pick up whatever is in A"]
+    program:
+      "check gripper
+       if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is not empty
+      if loc is not none:
+        pick from loc
+        answer_2: picked(MEMORY.scans[loc], loc)
+      else:
+        answer_3: isempty([A])
+      "
+  21:
+    prompts: ["Pick up whatever is in A. If A is empty, pick from B instead."]
+    program:
+      "check gripper
+       if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is not empty
+      if loc is not none:
+        pick from loc
+        answer_2: picked(X, loc)
+      observe B
+      remember loc = first in MEMORY.scans[B] where value is not empty
+      if loc is not none:
+        place in loc
+        answer_3: picked(X, loc)
+      else:
+        answer_4: isempty([A, B])
+      "
+  22:
+    prompts: ["Pick up X or W from A."]
+    program:
+      "check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is [X, W]
+      if loc is not none:
+        pick from loc
+        answer_2: picked(X, loc)
+      else:
+        answer_3: 
+          if A empty: isempty(A)
+          else: thereisno([X, W], [A])
+      "
+  23: 
+    prompts: ["Pick up whatever is at A, as long as it is not a W"]
+    program:
+      "check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is not W
+      if loc is not none:
+        pick from loc
+        answer_2: picked(X, loc)
+      else:
+        answer_3: 
+          if A empty: isempty(A)
+          else: thereisonly([W], [A])
+      "
+  24:
+    prompts: ["Get X from A and come back to where you started"]
+    program:
+      "check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      remember original position = check position
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is X
+      if loc is not none:
+        pick from loc
+        go to MEMORY.original position
+        answer_2: picked(X, loc). atpos(MEMORY.original position)
+      else:
+        answer_3: thereisno([X], [A])"
+  25:
+    prompts: ["Place what you're holding somewhere."]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe everything
+      remember loc = first in MEMORY.scans where value is empty
+      if loc is not none:
+        place in loc
+        answer_3: placed(X, loc)
+      else:
+        answer_4: nospace2place() 
+      " # nospace2place with empty argument means at all (in the whole scene)
+  26:
+    prompts: ["Place what you are holding at A"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_3: placed(X, loc)
+      else:
+        answer_4: nospace2place(A) 
+      "
+  27:
+    prompts: ["Move X from A to B"]
+    program:
+      "
+      check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is X
+      if loc is not none:
+        pick from loc
+      else:
+        answer_3: thereisno([X], [A])
+      observe B
+      remember loc = first in MEMORY.scans[B] where value is empty
+      if loc is not none:
+        place in loc
+        answer_2: placed(X, loc)
+      else:
+        answer_4: nospace2place(B)
+      "
+  28:
+    prompts: ["OK, put it back {where you got it}"]
+    comes only after: [picked(X, loc)] # {where you got it} = loc
+    program:
+      "
+      check gripper
+      if gripper is open:
+        answer_1: donthold
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is X
+      if loc is not none:
+        place in loc
+        answer_2: placed(X, loc)
+      else:
+        answer_3: nospace2place(A)
+      "
+  29:
+    prompts: ["Find and pick up an X"]
+    program:
+      "check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe everything
+      remember loc = first in MEMORY.scans where value is X
+      if loc is not none:
+        pick from loc
+        answer_2: picked(MEMORY.scans[loc], loc)
+      else:
+        answer_3: thereisno([X]) 
+      " # thereisno without location means everywhere
+  30:
+    prompts: ["Pick up all the X from A."]
+    program:
+      "answer_1: canthelp"
+  31:
+    prompts: ["Where did you get X from?"]
+    comes only after: [picked(X, loc)] # {where you got it} = loc
+    program:
+      "answer_1: gotfrom(X,loc)"
+  32:
+    prompts: ["Come to A and get X from me"]
+    program:
+      "answer_1: canthelp"
+  33:
+    prompts: ["Count objects by type in A"]
+    program:
+      "observe A
+      answer_1"
+  34: 
+    prompts: ["If A is not empty, pick something from A. Otherwise, pick something from B"]
+    program:
+      "observe A
+      remember loc = first in MEMORY.scans[A] where value is not [empty]
+      if loc is not none:
+        pick from loc
+        answer_1: picked(X, loc)
+      observe B
+      remember loc = first in MEMORY.scans[B] where value is not [empty]
+      if loc is not none:
+        pick from loc
+        answer_2: picked(X, loc)
+      else:
+        answer_3: isempty([A, B])
+      "
+  35:
+    prompts: ["Go to A, see what's there, pick it up if that's an X, then come back"]
+    program:
+      "remember original position = check position
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is X
+      if loc is not none:
+        check gripper
+        if gripper is closed:
+          answer_1: mustplace
+        else:
+          pick from loc
+      go to MEMORY.original position
+      answer_2
+  36:
+    prompts: ["Pick up whatever is in A and bring it back."]
+    program:
+      "check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      remember original position = check position
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is not empty
+      if loc is not none:
+        pick from loc
+        go to MEMORY.original position
+        answer_2: picked(MEMORY.scans[loc], loc). atpos(MEMORY.original position)
+      else:
+        answer_3: isempty([A])
+      "
+  37:
+    prompts: ["Place {X} somewhere", "Put {X} down anywhere"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe everything
+      remember loc = first in MEMORY.scans where value is empty
+      if loc is not none:
+        place in loc
+        answer_3: placed(X, loc)
+      else:
+        answer_4: nospace2place()
+      "
+  38:
+    prompts: ["Place {X}, preferring {A}. If {A} is full, find any empty spot"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_3: placed(X, loc)
+      observe everything
+      remember loc = first in MEMORY.scans where value is empty
+      if loc is not none:
+        place in loc
+        answer_4: placed(X, loc)
+      answer_5: nospace2place()
+      "
+  39:
+    prompts: ["You are holding {X}. Place it somewhere, but not in {A}"]
+    state_change:
+      - gripper: closed
+      - held: X
+    program:
+      "observe everything
+      remember loc = first in MEMORY.scans[not A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_1: placed(X, loc)
+      else:
+        answer_2: nospace2place()
+      "
+  40:
+    prompts: ["You are holding {X}. Place it at {A}, otherwise try {B}"]
+    state_change:
+      - gripper: closed
+      - held: X
+    program:
+      "observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_1: placed(X, loc)
+      observe B
+      remember loc = first in MEMORY.scans[B] where value is empty
+      if loc is not none:
+        place in loc
+        answer_2: placed(X, loc)
+      else:
+        answer_3: nospace2place([A, B])
+      "
+  41:
+    prompts: ["You are holding {X}. Place it at {A}, only if {A} is completely empty"]
+    state_change:
+      - gripper: closed
+      - held: X
+    program:
+      "observe A
+      remember nonemptyloc = first in MEMORY.scans[A] where value is not empty
+      if nonemptyloc is none:
+        remember loc = first in MEMORY.scans[A]
+        place in loc
+        answer_1: placed(X, loc)
+      else:
+        answer_2: isnonempty(A)
+      "
+  42:
+    prompts: ["You are holding {X}. Place it at {A}; if {A} has a {W} in it, place it at {B} instead"]
+    state_change:
+      - gripper: closed
+      - held: X
+    program:
+      "observe A
+      remember wloc = first in MEMORY.scans[A] where value is W
+      if wloc is none:
+        remember loc = first in MEMORY.scans[A] where value is empty
+        if loc is not none:
+          place in loc
+          answer_1: placed(X, loc)
+        else:
+          answer_2: nospace2place(A)
+      else:
+        observe B
+        remember loc = first in MEMORY.scans[B] where value is empty
+        if loc is not none:
+          place in loc
+          answer_3: placed(X, loc)
+        else:
+          answer_4: nospace2place(B)
+      "
+  43:
+    prompts: ["Place what you hold somewhere, but not in {A}"]
+    program:
+      "
+      check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe everything
+      remember loc = first in MEMORY.scans[not A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_3: placed(X, loc)
+      else:
+        answer_4: nospace2place()
+      "
+  44:
+    prompts: ["Place what you hold in {A}, otherwise try {B}"]
+    state_change:
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_1: placed(X, loc)
+      observe B
+      remember loc = first in MEMORY.scans[B] where value is empty
+      if loc is not none:
+        place in loc
+        answer_2: placed(X, loc)
+      else:
+        answer_3: nospace2place([A, B])
+      "
+  45:
+    prompts: ["Place the held object at {A}, only if {A} is completely empty"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe A
+      remember nonemptyloc = first in MEMORY.scans[A] where value is not empty
+      if nonemptyloc is none:
+        remember loc = first in MEMORY.scans[A]
+        place in loc
+        answer_1: placed(X, loc)
+      else:
+        answer_2: isnonempty(A)
+      "
+  46:
+    prompts: ["Place the thing in your gripper in {A}; if {A} has a {W} in it, place it at {B} instead"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe A
+      remember wloc = first in MEMORY.scans[A] where value is W
+      if wloc is none:
+        remember loc = first in MEMORY.scans[A] where value is empty
+        if loc is not none:
+          place in loc
+          answer_1: placed(X, loc)
+        else:
+          answer_2: nospace2place(A)
+      else:
+        observe B
+        remember loc = first in MEMORY.scans[B] where value is empty
+        if loc is not none:
+          place in loc
+          answer_3: placed(X, loc)
+        else:
+          answer_4: nospace2place(B)
+      "
+  47:
+    prompts: ["Move {X} from {A} to {B}; if {B} is full, put {X} back in {A}"]
+    program:
+      "
+      check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember srcloc = first in MEMORY.scans[A] where value is X
+      if srcloc is none:
+        answer_2: thereisno([X], [A])
+      else:
+        pick from srcloc
+        observe B
+        remember loc = first in MEMORY.scans[B] where value is empty
+        if loc is not none:
+          place in loc
+          answer_3: placed(X, loc)
+        else:
+          place in srcloc
+          answer_4: isfull(B). placed(X, srcloc)
+      "
+  48:
+    prompts: ["Pick whatever is at {A} and place it in {B}"]
+    program:
+      "
+      check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember srcloc = first in MEMORY.scans[A] where value is not empty
+      if srcloc is not none:
+        pick from srcloc
+      else:
+        answer_2: isempty([A])
+      observe B
+      remember loc = first in MEMORY.scans[B] where value is empty
+      if loc is not none:
+        place in loc
+        answer_3: placed(X, loc)
+      else:
+        answer_4: nospace2place(B)
+      "
+  49:
+    prompts: ["Check what is at {A}; if there is an {X}, pick it, otherwise tell me what is there"]
+    program:
+      "
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is X
+      if loc is not none:
+        check gripper
+        if gripper is closed:
+          answer_1: mustplace
+        else:
+          pick from loc
+          answer_2: picked(X, loc)
+      else:
+        answer_3:
+          if A empty: isempty([A])
+          else: nameobjects(A)
+      "
+  50:
+    prompts: ["Which locations in A are empty right now?"]
+    program:
+      "observe A
+      answer_1:
+        if A empty: isempty([A])
+        else: emptylocs(A)"
+  51:
+    prompts: ["Pick up one of whatever there's most of in A"]
+    program:
+      "canthelp"
+  52:
+    prompts: ["If there is an X in A, move it to B"]
+    program:
+      "
+      check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is X
+      if loc is not none:
+        pick from loc
+      else:
+        answer_2: thereisno([X], [A])
+      observe B
+      remember loc = first in MEMORY.scans[B] where value is empty
+      if loc is not none:
+        place in loc
+        answer_2: placed(X, loc)
+      else:
+        answer_3: nospace2place(B)
+      "
+  53:
+    prompts: ["Is A empty? If so, go to P; if not, tell me what is there"]
+    program:
+      "observe A
+      if A empty:
+        go to P
+        answer_1: atpos(P)
+      else:
+        answer_2: nameobjects(A)
+      "
+  54:
+    prompts: ["You are holding {X}. Place it at {A}; report whether {A} is then full"]
+    state_change:
+      - gripper: closed
+      - held: X
+    program:
+      "observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+      else:
+        answer_1: nospace2place(A)
+      remember nextloc = first in MEMORY.scans[A] where value is empty
+      if nextloc is none:
+        answer_2: placed(X, loc). isfull(A)
+      else:
+        answer_3: placed(X, loc). notfull(A)
+      "
+  55:
+    prompts: ["Put held entity into {A}; report whether {A} is then full"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+      else:
+        answer_3: nospace2place(A)
+      remember nextloc = first in MEMORY.scans[A] where value is empty
+      if nextloc is none:
+        answer_4: placed(X, loc). isfull(A)
+      else:
+        answer_5: placed(X, loc). notfull(A)
+      "
+  56:
+    prompts: ["Check A and B; pick the X from whichever has it"]
+    program:
+      "check gripper
+      if gripper is closed:
+        answer_1: mustplace
+      observe A
+      observe B
+      remember loc = first in MEMORY.scans[A and B] where value is X
+      if loc is not none:
+        pick from loc
+        answer_2: picked(X, loc)
+      else:
+        answer_3: thereisno([X], [A, B])
+      "
+  57:
+    prompts: ["You are holding X. Place it in whichever of A or B has more room"]
+    program:
+      "canthelp"
+  58:
+    prompts: ["You are holding something. If it is an {X} place it at {A}; if it is a {W} place it at {B}"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      if MEMORY.held is X:
+        observe A
+        remember loc = first in MEMORY.scans[A] where value is empty
+        if loc is not none:
+          place in loc
+          answer_3: placed(X, loc)
+        else:
+          answer_4: nospace2place(A)
+      elif MEMORY.held is W:
+        observe B
+        remember loc = first in MEMORY.scans[B] where value is empty
+        if loc is not none:
+          place in loc
+          answer_5: placed(W, loc)
+        else:
+          answer_6: nospace2place(B)
+      "
+  59:
+    prompts: ["You are holding {X}. Place it somewhere, then go to {P}"]
+    state_change:
+      - gripper: closed
+      - held: X
+    program:
+      "observe everything
+      remember loc = first in MEMORY.scans where value is empty
+      if loc is not none:
+        place in loc
+        go to P
+        answer_1: placed(X, loc). atpos(P)
+      else:
+        answer_2: nospace2place()
+      "
+  60:
+    prompts: ["You are holding {W}. Drop it at {A}, then bring an {X} back to where you started"]
+    state_change:
+      - gripper: closed
+      - held: W
+    program:
+      "remember original position = check position
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_1: placed(W, loc)
+      else:
+        answer_2: nospace2place(A)
+      observe everything
+      remember loc = first in MEMORY.scans where value is X
+      if loc is not none:
+        pick from loc
+        go to MEMORY.original position
+        answer_3: picked(X, loc). atpos(MEMORY.original position)
+      else:
+        answer_4: thereisno([X])
+      "
+  61:
+    prompts: ["Place held item somewhere, then go to {P}"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      observe everything
+      remember loc = first in MEMORY.scans where value is empty
+      if loc is not none:
+        place in loc
+        go to P
+        answer_3: placed(X, loc). atpos(P)
+      else:
+        answer_4: nospace2place()
+      "
+  62:
+    prompts: ["Drop what hold at {A}, then bring an {X} back to where you started"]
+    program:
+      "check gripper
+      if gripper is open:
+        answer_1: donthold
+      if MEMORY.held is unknown:
+        answer_2: heldunknown
+      remember original position = check position
+      observe A
+      remember loc = first in MEMORY.scans[A] where value is empty
+      if loc is not none:
+        place in loc
+        answer_3: placed(W, loc)
+      else:
+        answer_4: nospace2place(A)
+      observe everything
+      remember loc = first in MEMORY.scans where value is X
+      if loc is not none:
+        pick from loc
+        go to MEMORY.original position
+        answer_5: picked(X, loc). atpos(MEMORY.original position)
+      else:
+        answer_6: thereisno([X])
+      "
+  63:
+    prompts: ["How many X are in A?"]
+    program:
+      "canthelp"
+  64:
+    prompts: ["How many empty locations are there in A?"]
+    program:
+      "canthelp"
+  65:
+      prompts: ["Are there more objects in A or B"]
+      program:
+        "canthelp"
+  66:
+      prompts: ["Do A and B have the same number of objects?"]
+      program:
+        "canthelp"
+  67:
+      prompts: ["Does A have more X than B?"]
+      program:
+        "canthelp"
+  68:
+      prompts: ["How many X are there in total across A and B?"]
+      program:
+        "canthelp"
+  69:
+      prompts: ["How many objects are there in total across A and B?"]
+      program:
+        "canthelp"
