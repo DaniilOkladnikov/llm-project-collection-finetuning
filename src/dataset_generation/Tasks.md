@@ -20,19 +20,217 @@ answer_1
 Answers:
     answer_1: [canthelp]
 
+### Give me the one closest to you.
+
+### Hold this for a second.
+
+### When I put something in your gripper, take it to A.
+
+### If you're holding something, place it at A; if not, pick an X from A.
+
+### How many times have you picked something up?
+
+### Have you been to A yet?
+
+### Get me one of those.
+
+### Pick up two things from A. 
+
+### Tidy up A.
+
+### If A has nothing in it, put what you're holding there.
+
+### Pick from A, but only if B is empty.
+
+### Tell me what's missing from A
+
+### Pick something from white slot in A
+
+### Pick from white slot in A.
+
+### Pick from A, starting from the slot next to where the X is.
+
+### Does A have at least as many objects as B?
+
+### Is A more full than B?
+
+### If A is full, tell me what's in B.
+
+### Did the last pick actually work? Check the gripper.
+
+### You just placed X in A — confirm it's really there.
+
+### Grab the thing.
+
+### Put it over there.
+
+### Move the cube.
+
+### Pick the X from A and also keep the gripper free
+
+### Place what you're holding, but you're not holding anything.
+
+### Put the sphere from A into A.
+
+### Which location in A has the most objects?
+
+### Pick an X from A, B, or C — whichever has one.
+
+### Pick from the fullest of A, B, and C.
+
+### Move the X from A to whichever of B or C has room.
+
+### Compare A now to how it was before.
+
+### Verify the gripper actually closed on something.
+
+### Can you fit two more objects in A?
+
+### How many more X could fit in A?
+
+### Would B be full if I add one more?
+
+### Pick up the X and hand it to me while I reach in.
+
+### Move faster.
+
+### Skip the gripper check this time.
+
+### Swap places for X in A and W in B.
+
+### Make sure A is empty.
+
+### Did that work?
+
+### Get A ready for me.
+
+### Go get me a coffee.
+
+### Undo that
+
+### Sort these
+
+### Sort objects in A
+
+### Put all X in A and all W in B
+
+### Move X from A to B until B is full.
+
+### Take two X from A.
+
+### Empty A into B.
+
+### Take the X from A to B, then bring the W from C to D.
+
+### Do the same thing you just did, but with C.
+
+### After you place this, go check B.
+
+### What was the last thing you picked up?
+
+### Go back to the last place you observed.
+
+### What did you do last?
+
+### Have you picked up anything today?
+
+### Move all X from A to B
+
+### Sort all of X and W from A to B and C
+
+### Pick up all the X from A.
+
+### Move everything from A to B.
+
+### Count how many objects you've moved so far
+
 ### OK, put it back where you got it.
-Comes after only: picked(X,L)
-Expressions:  
-State changes: 
-Intent: place
-Program:
 
-    place X at L
-    answer_1
+### Oh, sorry, the I meant the other box.
 
-Answers: 
+### I think there is a cube in A, go get it
 
-    answer_1: placed(X,L)
+### Can you reach box4?
+
+### Put this one to A and pick up another one
+
+### Are you sure? Check again
+
+### Place X at A but confirm it's empty in the first place.
+
+### Where were you before this?
+
+### From now on, prefer box2 if you have a choice
+
+### Is A more than half full?
+
+### Tell me the first empty location in A, but don't place anything.
+
+### Tell me which locations in A are empty and which are full.
+
+### Is there room for what I'm holding in A?
+
+### Do I need to place what I'm holding before I can pick from A?
+
+### Check whether A still has an X.
+
+### Are all objects in A of same type?
+
+### How many different objects are in A?
+
+### What is the rarest object in A?
+
+### Place what you're holding at A only if A has fewer objects than B.
+
+### Make sure A has an empty slot 
+
+### If A is already empty, say so; otherwise tell me what's blocking it.
+
+### Grab the heaviest thing in A. 
+
+### Grab the hottest thing in A.
+
+### Where are all the X right now?
+
+### I just added something to A, look again.
+
+### Something fell. Recheck everything.
+
+### The object at A moved on its own — where is it now?
+
+### What would happen if you dropped what you're holding right now?
+
+### If you pick from A, will A still have any X left?
+
+### Before you move it, tell me what the boxes will look like afterward.
+
+### Wait until I move my hand away, then place it.
+
+### I'm going to take the object out of A myself — tell me when it's gone.
+
+### Get the X, but use as few moves as possible.
+
+### Which is faster: moving X from A, or from B?
+
+### Make A and B have the same number of objects.
+
+### Keep checking B until it's empty.
+
+### Let me know if A ever has more than three things.
+
+### What kinds of things can you actually do?
+
+### Can you tell colors apart?
+
+### Put this between the two spheres.
+
+### Pick the nicest-looking object in A.
+
+### Check A: if it has an X, tell me where B could hold it; if not, just say so.
+
+### Is what I'm holding also present somewhere in A?
+
+### Is there exactly one X in A?
 
 ### Where did you get X from?
 Comes after only: picked(X,L)
@@ -41,55 +239,11 @@ State changes:
 Intent: query
 Program:
 
-    place X at L
     answer_1
 
 Answers: 
 
     answer_1: I got X from {L}.
-
-### Pick up X from A
-Comes after:
-Expressions: first location in A holding X, gripper is closed, is not none
-State changes:  
-Intent: pick
-Program:
-STEP 1
-check gripper
-STEP 2
-    if gripper is closed:
-        answer_1
-    else:
-        observe A
-STEP 3
-    let loc = first location in A holding X
-    if loc is not none:
-        pick from loc
-        answer_2
-    else: 
-        answer_3
-Answers:
-    answer_1: [mustplace]
-    answer_2: [picked(X,loc)].
-    answer_3: There is no X in A.
-
-### Close gripper, I am giving you X
-Comes after:
-Expressions: gripper is closed
-State changes: 
-Intent: get
-Program: 
-STEP 1
-check gripper
-STEP 2
-    if gripper is closed:
-        answer_1
-    else:
-        get X from user 
-        answer_2
-Answers:
-    answer_1: [mustplace]
-    answer_2: [got(X)].
 
 ### Come to A and get X from me
 Comes after:
@@ -101,20 +255,6 @@ Step 1
 answer_1
 Answers:
 answer_1: Please separate your commands for safety. Tell me where to move first, and hand me the item in the next step.
-
-### Release what you hold
-Comes after:
-Expressions:
-State changes:
-Intent: give
-Program:
-
-    open gripper
-    answer_1
-    
-Answers:
-
-    answer_1: [opened]
 
 ### Find X nearest to me
 Comes after:
@@ -129,237 +269,6 @@ Answers:
 
     answer_1: [canthelp]
 
-
-### You are holding X. Place it into A
-Comes after:
-Expressions: is not none, first empty 
-State changes: gripper: closed, held: X
-Intent: place
-Program:
-STEP 1
-    observe A
-STEP 2
-    let loc = first empty location
-    if loc is not none:
-        place at loc
-        answer_1
-    else:
-        answer_2 
-Answers: 
-    answer_1: Placed X in A.
-    answer_2: There is no empty space in A.
-
-### What are you holding?
-Comes after: 
-Expressions: 
-State changes: 
-Intent: query
-Program:
-STEP 1
-    answer_1
-Answers:
-    answer_1: 
-        if STATE.gripper == open: I don't hold anything
-        elif STATE.held == unkown: I hold something but I don't know what it is
-        else: I am holding STATE.held
-
-### Am I holding X?
-Comes after: 
-Expressions: 
-State changes: 
-Intent: query
-Program:
-STEP 1
-    answer_1
-Answers:
-    answer_1: 
-        if STATE.gripper == open: No, I don't hold anything
-        elif STATE.held == unkown: I don't know, I hold something
-        elif STATE.held == X: Yes, I am holding X
-        else: No, I am holding STATE.held
-
-### Is your gripper free?
-Comes after:
-Expressions: 
-State changes:  
-Intent: query
-Program:
-STEP 1
-    answer_1
-Answers:
-    answer_1: 
-        if STATE.gripper == open: Yes
-        elif STATE.gripper == closed: No
-        else: I don't know
-
-### What position are you at?
-Comes after: 
-Expressions: 
-State changes: 
-Intent: query
-Program: 
-STEP 1
-    check position
-    answer_1
-Answers:
-    answer_1: I am at STATE.position
-
-### Go to the home position
-Comes after:
-Expressions: 
-State changes: 
-Intent: query
-Program:
-STEP 1
-    go to home
-    answer_1
-Answers:
-    answer_1: I am at home
-
-### Go to the observation point for A
-Comes after:
-Expressions: 
-State changes: 
-Intent: query
-Program:
-STEP 1
-    approach observe A
-    answer_1
-Answers:
-    answer_1: I am at the observation point for A
-
-### Go to P. (Note, P must be close to real position name)
-Comes after:
-Expressions:
-State changes:
-Intent: move
-Program:
-STEP 1
-    go to P
-    answer_1
-Answers:
-    answer_1: I am at P
-
-### Visit the observation points for A and then B
-Comes after:
-Expressions:
-State changes:
-Intent: move
-Program:
-STEP 1
-    observe A
-    observe B
-    answer_1
-Answers:
-    answer_1: I have visited observation points for A and B
-
-### Prepare to pick X from empty space in A
-Comes after: 
-Expressions: gripper is closed, is not none, first empty in
-State changes:
-Intent: move
-Program:
-STEP 1
-    check gripper
-    observe A
-STEP 2
-    if gripper is closed:
-        answer_1
-    let loc = first empty in A
-    if loc is not none: 
-        approach pick of X from loc
-        answer_2
-    else:
-        answer_3
-Answers:
-    answer_1: Already holding something — have to drop it somewhere first.
-    answer_2: Prepared to pick X from loc.
-    answer_3: There is no X in A and no empty location in A.
-
-### What is at A?
-Comes after: 
-Expressions:
-State changes:
-Intent: query
-Program:
-STEP 1
-    observe A
-    answer_1
-Answers:
-    answer_1: 
-        if A is empty: A is empty
-        else: There is {type in loc for loc in A if loc not is not empty}
-
-### Is there X in A?
-Comes after: 
-Expressions:
-State changes:
-Intent: query
-Program:
-STEP 1
-    observe A
-    answer_1
-Answers:
-    answer_1: 
-        if X not in A: No, there is no X in A
-        else: Yes, there is X in loc for loc in A if X in loc
-
-### How many slots in A are occupied?
-Comes after: 
-Expressions:
-State changes:
-Intent: query
-Program:
-STEP 1
-    observe A
-    answer_1
-Answers:
-    answer_1: 
-        len(loc for loc in A if loc not is empty)
-
-### Are there any empty slots in A?
-Comes after: 
-Expressions:
-State changes:
-Intent: query
-Program:
-STEP 1
-    observe A
-    answer_1
-Answers:
-    answer_1: 
-        if A is empty: No, there are no empty slots in A
-        if A not is empty: Yes, there are empty slots in A: loc for loc in A if loc is empty
-
-### Which slot in A has X?
-Comes after: 
-Expressions:
-State changes:
-Intent: query
-Program:
-STEP 1
-    observe A
-    answer_1
-Answers:
-    answer_1: 
-        if not X in A: There is no X in A
-        else: loc for loc in A if X in loc
-
-### Which has X, A or B?
-Comes after: 
-Expressions:
-State changes:
-Intent: query
-Program:
-STEP 1
-    observe A
-    observe B
-    answer_1
-Answers:
-    answer_1: 
-        if not X in A and not X in B: There is no X in A or B
-        else: There is {X in loc for loc in A,B if X in loc}
-
 ### Count objects by type in A
 Comes after: 
 Expressions:
@@ -372,30 +281,6 @@ STEP 1
 Answers:
     answer_1: There are {len(loc for loc in A if X in loc)} of X {for X in scene if X in A}
 
-### Pick up whatever is in A
-Comes after:
-Expressions: gripper is closed, first occupied, is not none
-State changes:
-Intent: pick
-Program:
-STEP 1
-    check gripper
-    observe A
-STEP 2
-    if gripper is closed:
-        answer_1
-    let loc = first occupied in A
-    if loc is not none:
-        pick from loc
-        answer_2
-    else: 
-        answer_3
-Answers:
-    answer_1: [mustplace]
-    answer_2: [picked(held,loc)].
-    answer_3: There is no X in A.
-
-### Pick up whatever is in A. If A is empty, pick from B instead.
 Comes after:
 Intent: pick
 Program:
@@ -421,80 +306,6 @@ Answers:
     answer_2: [picked(held,loc)].
     answer_3: [picked(held,loc)].
     answer_4: Both A and B are empty.
-
-### Pick up X or W from A, whichever is there.
-Comes after:
-Intent: pick
-Program:
-STEP 1
-    check gripper
-    observe A
-STEP 2
-    if gripper is closed:
-        answer_1
-    let locX = first in A holding X
-    let locW = first in A holding W
-    if locX is not none:
-        pick from locX
-        answer_2
-    elif locW is not none:
-        pick from locW
-        answer_3
-    else:
-        answer_4        
-Answers:
-    answer_1: [mustplace]
-    answer_2: Picked {held} from {loc}.
-    answer_3: Picked {held} from {loc}.
-    answer_4: There is no X or W in A.
-
-### Pick up whatever is at A, as long as it is not a W
-Comes after:
-Intent: pick
-Program:
-STEP 1
-    check gripper
-    observe A
-STEP 2
-    if gripper is closed:
-        answer_1
-    let loc = first in A holding not W
-    if loc is not none:
-        pick from loc
-        answer_2
-    else:
-        answer_3
-        
-Answers:
-    answer_1: [mustplace]
-    answer_2: Picked {held} from {loc}.
-    answer_3: 
-        if A is empty: A is empty 
-        else: There is nothing except W in A
-
-### Get X from A and come back to where you started
-Comes after:
-Intent: pick
-Program:
-STEP 1
-    remember start_position = check position
-    check gripper
-    observe A
-STEP 2
-    if gripper is closed:
-        answer_1
-    let loc = first in A holding X
-    if loc is not none:
-        pick from loc
-        go to start_position
-        answer_2
-    else:
-        answer_3
-        
-Answers:
-    answer_1: [mustplace]
-    answer_2: Picked {held} from {loc} and returned to {start_position}.
-    answer_3: There is no X in A
 
 ### Go to A, see what's there, pick it up if it's X, then come back.
 Comes after:
@@ -540,31 +351,6 @@ Answers:
     answer_2: 
         if held is not none: Picked {held} from {loc} and returned to {start_position}.
         else: There is nothing in A, returned to {start_postition}
-
-### Place what you're holding somewhere.
-Comes after: [mustplace]
-Intent: place
-State changes:
-Program:
-STEP 1
-    if held is unkown:
-        answer_1
-    elif held is none:
-        answer_2
-    else:
-        observe everything
-STEP 2
-    let loc = first empty
-    if loc is not none:
-        place at loc
-        answer_3
-    else:
-        answer_4
-Answers:
-    answer_1: You have to tell me what I am holding first.
-    answer_2: I don't hold anything.
-    answer_3: Placed X in {loc}
-    answer_4: There is no empty space at all.
 
 ### Place what you are holding at A
 Comes after: [mustplace]
@@ -729,38 +515,6 @@ Answers:
     answer_3: A has W in it. placed(X,loc)
     answer_4: A has W in it, but B is full - cannot place there
 
-### Move X from A to B
-Comes after:
-Intent: pick+place
-Program:
-STEP 1
-    check gripper
-    observe A
-STEP 2
-    if gripper is closed:
-        answer_1
-    else:
-    observe A
-STEP 3
-    let loc = first in A holding X
-    if loc is not none:
-        pick from loc
-        observe B
-    else:
-        answer_2
-STEP 4
-    let loc = first empty in B
-    if loc is not none:
-        place at loc
-        answer_3
-    else:    
-        answer_4
-Answers:
-    answer_1: Already holding something — free the gripper first.
-    answer_2: There is no X in A.
-    answer_3: B is full.
-    answer_4: Moved X to {loc}.
-
 ### Move X from A to B; if B is full, put X back in A
 Comes after:
 Intent: pick+place
@@ -827,29 +581,6 @@ Answers:
     answer_2: A is empty.
     answer_3: B is full.
     answer_4: Moved X to {loc}.
-
-### Find and pick up an X
-Comes after:
-Intent: pick
-Program:
-STEP 1
-    check gripper
-STEP 2
-    if gripper is closed:
-        answer_1
-    else:
-        observe everything
-STEP 3
-    let loc = first holding X
-    if loc is not none:
-        pick from loc
-        answer_2
-    else:
-        answer_3
-Answers:
-    answer_1: [mustplace]
-    answer_2: Found and picked X from {loc}.
-    answer_3: I could not find an X anywhere.
 
 ### Check what is at A; if there is an X, pick it, otherwise tell me what is there
 Comes after:
