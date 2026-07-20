@@ -1,31 +1,42 @@
 import os
-import sys
 os.environ["TORCHINDUCTOR_CACHE_DIR"] = "C:/tc"
 os.environ["TRITON_CACHE_DIR"] = "C:/tc/triton"
+# unsloth_zoo turns on hf_transfer unless this is already set. Its Rust
+# downloader leaks file handles on Windows, so a hiccup mid-download leaves a
+# locked .incomplete blob it then can't clean up (os error 32).
+os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "0"
 import unsloth
 from unsloth import FastLanguageModel
 import json
 import gc
 import random
-import numpy as np
 import torch
 import wandb
-from pathlib import Path
 from datasets import Dataset
-from transformers import TrainingArguments, TrainerCallback
+from transformers import AutoTokenizer, TrainingArguments, TrainerCallback
 from unsloth import UnslothTrainer
 from unsloth.chat_templates import get_chat_template
 
 # ============================================================
 # SECTION 1: CONSTANTS
 # ============================================================
-MAX_SEQ_LENGTH = 8192
+# max_seq_length is measured from the dataset at startup (see
+# build_train_dataset) so nothing is truncated and no context window is
+# paid for that the data never uses.
 DTYPE = None
 LOAD_IN_4BIT = False
 LOAD_IN_8BIT = True
 SAVE_BASE = "D:/MyLLMs"
-DATASET_PATH = "./datasets/dataset_20260218_045534.json"
-DATASET_NAME = "dataset_20260218_045534"
+DATASET_PATH = "./datasets/dataset.json"
+DATASET_NAME = "dataset"
+# A conversation is dropped whole -- every one of its records -- as soon as any
+# of them renders to more tokens than this. Applied before anything else,
+# including the max_seq_length measurement, so the context window is sized to
+# what actually gets trained on.
+MAX_CONTEXT_TOKENS = 4000
+# Fraction of the surviving records to train on, sampled at random.
+DATASET_FRACTION = 0.4
+DATASET_SAMPLE_SEED = 12345
 
 # ============================================================
 # SECTION 2: TOOL DEFINITIONS (for chat template)
@@ -35,17 +46,18 @@ from typing import Dict, Any
 
 SIM_API_URL = "http://127.0.0.1:8001"
 
-async def move_to(pos: str = "") -> None:
+async def move_robot_to(position: str) -> dict:
     """
     Move the robot to the specified position.
 
     Args:
-        pos: name of the target position
+        position: name of the target position
+
+    Returns:
+        {"status": "OK"/"ERROR", "content": null}
     """
-    async with httpx.AsyncClient(base_url=SIM_API_URL, timeout=30) as client:
-        resp = await client.post("/robot/move_to", params={"position": pos})
-        resp.raise_for_status()
-    print(f'Tool calling: move_to')
+    results = []
+    return results
 
 async def open_gripper() -> None:
     """
@@ -95,23 +107,28 @@ async def locate_shapes() -> Dict[str, str]:
     return results
 
 
-async def get_status() -> Any:
+async def get_gripper_state() -> dict:
     """
-    Get the current robot status: position and gripper state (open/closed).
+    Get the gripper state.
 
     Returns:
-        return_robot_position: the current robot position name
-        return_gripper_oopen: if the gripper is open or closed, True or 1 for open, False or 0 for closed
+        {"status": "OK"/"ERROR", "content": "open" or "closed"}
     """
-    async with httpx.AsyncClient(base_url=SIM_API_URL, timeout=30) as client:
-        resp = await client.get("/robot/status")
-        resp.raise_for_status()
-        results = resp.json()
+    print("Tool calling: get_gripper_state")
+    results = []
+    return results
 
-    return (results['gripper_open'], results['position']["name"])
+async def get_robot_position() -> dict:
+    """
+    Get the robot's current position.
 
+    Returns:
+        {"status": "OK"/"ERROR", "content": current position name}
+    """
+    results = []
+    return results
 
-async def get_positions() -> list[str]:
+async def list_avaliable_robot_positions() -> list[str]:
     """
     Get the full list of available positions where the robot can go.
 
@@ -130,7 +147,7 @@ async def get_positions() -> list[str]:
     print(f"Tool calling: get_positions.")
     return resp
 
-tools = [move_to, open_gripper, close_gripper, get_positions, get_status, locate_shapes]
+tools = [move_robot_to, open_gripper, close_gripper, list_avaliable_robot_positions, get_gripper_state, get_robot_position, locate_shapes]
 
 # ============================================================
 # SECTION 3: CHAT TEMPLATE
@@ -255,112 +272,132 @@ llama31_cot_template = \
 """
 
 # ============================================================
-# SECTION 4: DATASET LOADING AND 4-WAY SPLIT
+# SECTION 4: DATASET LOADING
 # ============================================================
-FULL_DATASET = "--full-dataset" in sys.argv
+# The dataset is a dict keyed by example index. Each entry is one LLM
+# invocation: "input" holds the conversation so far, "output" the assistant
+# text to produce. There are no tool messages -- "input" is a sequence of
+# blocks separated by blank lines, each either a user message ("User: ...")
+# or a DSL block emitted by the assistant (PROGRAM / MEMORY / RESOLUTION /
+# TOOL CALL / TOOL RESULTS / ANSWER).
+USER_PREFIX = "User:"
 
-with open(DATASET_PATH) as f:
-    raw_dataset = json.load(f)
 
-if FULL_DATASET:
-    train_conversations = [item["messages"] for item in raw_dataset]
-    raw_eval_datasets = {}
-else:
-    EVAL_SCENES = {
-        "scene_bay_A_cylinder_red",
-        "scene_BIN_RED_LEFT_cable",
-        "scene_binA_001_gear",
-    }
+def parse_conversation(input_text, output_text):
+    """Turn one {input, output} record into a chat message list.
 
-    # Seen tasks: 1.x-11.x and 13.x
-    # Unseen tasks: 12.x, 14.x, 15.x
-    train_conversations = []
-    eval_unseen_scenes_seen_tasks = []
-    eval_seen_scenes_unseen_tasks = []
-    eval_unseen_scenes_unseen_tasks = []
+    Each "User:" block becomes its own user message; runs of consecutive
+    non-user blocks are merged back into one assistant message (they were a
+    single invocation's output). "output" is appended as the final assistant
+    message -- the only one trained on.
+    """
+    messages = []
+    pending = []
 
-    for item in raw_dataset:
-        scene_id = item["metadata"]["scene_id"]
-        draft_id = item["metadata"]["draft_id"]
-        major = int(draft_id.split(".")[0])
+    def flush():
+        if pending:
+            messages.append({"role": "assistant", "content": "\n\n".join(pending)})
+            pending.clear()
 
-        is_eval_scene = scene_id in EVAL_SCENES
-        is_unseen_task = major >= 12 and major != 13
-
-        if not is_unseen_task and is_eval_scene:
-            eval_unseen_scenes_seen_tasks.append(item["messages"])
-        elif is_unseen_task and not is_eval_scene:
-            eval_seen_scenes_unseen_tasks.append(item["messages"])
-        elif is_unseen_task and is_eval_scene:
-            eval_unseen_scenes_unseen_tasks.append(item["messages"])
+    for block in input_text.split("\n\n"):
+        if block.startswith(USER_PREFIX):
+            flush()
+            messages.append({"role": "user", "content": block[len(USER_PREFIX):].strip()})
         else:
-            train_conversations.append(item["messages"])
+            pending.append(block)
+    flush()
 
-    # Cap eval datasets at 100 examples with fixed seed
-    EVAL_CAP = 100
-    rng = random.Random(42)
+    messages.append({"role": "assistant", "content": output_text})
+    return messages
 
-    def cap_and_shuffle(conversations, cap):
-        if len(conversations) > cap:
-            return rng.sample(conversations, cap)
-        return conversations
 
-    eval_unseen_scenes_seen_tasks = cap_and_shuffle(eval_unseen_scenes_seen_tasks, EVAL_CAP)
-    eval_seen_scenes_unseen_tasks = cap_and_shuffle(eval_seen_scenes_unseen_tasks, EVAL_CAP)
-    eval_unseen_scenes_unseen_tasks = cap_and_shuffle(eval_unseen_scenes_unseen_tasks, EVAL_CAP)
-
-    # Save eval datasets to disk for reproducibility
-    datasets_dir = Path(__file__).parent / "datasets"
-    for name, convos in [
-        ("unseen_scenes_seen_tasks", eval_unseen_scenes_seen_tasks),
-        ("seen_scenes_unseen_tasks", eval_seen_scenes_unseen_tasks),
-        ("unseen_scenes_unseen_tasks", eval_unseen_scenes_unseen_tasks),
-    ]:
-        out_path = datasets_dir / f"{DATASET_NAME}_{name}.json"
-        with open(out_path, "w") as f:
-            json.dump([{"messages": c} for c in convos], f, indent=2)
-        print(f"Saved eval dataset '{name}' ({len(convos)} examples) to {out_path}")
-
-    raw_eval_datasets = {
-        "unseen_scenes_seen_tasks": Dataset.from_dict({"messages": eval_unseen_scenes_seen_tasks}),
-        "seen_scenes_unseen_tasks": Dataset.from_dict({"messages": eval_seen_scenes_unseen_tasks}),
-        "unseen_scenes_unseen_tasks": Dataset.from_dict({"messages": eval_unseen_scenes_unseen_tasks}),
-    }
-
-raw_train_dataset = Dataset.from_dict({"messages": train_conversations})
-
-print(f"\nTraining samples: {len(raw_train_dataset)}")
-for name, ds in raw_eval_datasets.items():
-    print(f"Eval '{name}': {len(ds)}")
-
-# ============================================================
-# SECTION 5: HELPER FUNCTIONS
-# ============================================================
 with open('instruction_message.txt') as f:
     instruction_message = f.read()
 
 
-def clean_conversation(convo):
-    """Clean a conversation by fixing null values and arguments."""
-    for msg in convo:
-        if msg.get("content") is None:
-            msg["content"] = ""
-        if "tool_calls" in msg and msg["tool_calls"] is None:
-            del msg["tool_calls"]
-        if msg.get("tool_calls"):
-            for tool in msg["tool_calls"]:
-                if "function" in tool:
-                    args = tool["function"].get("arguments")
-                    if args is None:
-                        tool["function"]["arguments"] = {}
-                    elif isinstance(args, dict):
-                        clean_args = {k: v for k, v in args.items() if v is not None}
-                        tool["function"]["arguments"] = clean_args
-    return convo
+def build_train_dataset(tok):
+    """Load the dataset, drop over-long conversations, sample, and measure.
+
+    A record's context length is its fully-rendered length in tokens (system
+    message + tools + conversation so far + output). Records of one
+    conversation share a prefix and grow monotonically, so one record over
+    MAX_CONTEXT_TOKENS means the tail of that conversation is over it too --
+    the whole conversation goes, rather than leaving a truncated stub behind.
+
+    Returns (dataset, max_seq_length) where max_seq_length is the longest
+    surviving sample, so nothing that gets trained on is truncated.
+    """
+    with open(DATASET_PATH) as f:
+        raw_dataset = json.load(f)
+
+    records = [item for _, item in sorted(raw_dataset.items(), key=lambda kv: int(kv[0]))]
+    print(f"\nLoaded records: {len(records)}")
+
+    system_part = {"role": "system", "content": instruction_message}
+    lengths = []
+    over_long_conversations = set()
+
+    for r in records:
+        convo = parse_conversation(r["input"], r["output"])
+        full_text = tok.apply_chat_template(
+            [system_part] + convo,
+            tokenize=False,
+            add_generation_prompt=False,
+            tools=tools,
+        )
+        length = len(tok(full_text, add_special_tokens=False)["input_ids"])
+        lengths.append(length)
+        if length > MAX_CONTEXT_TOKENS:
+            over_long_conversations.add(r["metadata"]["conversation_id"])
+
+    total_conversations = len({r["metadata"]["conversation_id"] for r in records})
+    print(f"Token lengths over {len(lengths)} records: max={max(lengths)} "
+          f"mean={sum(lengths) / len(lengths):.0f} min={min(lengths)}")
+
+    kept = [(r, n) for r, n in zip(records, lengths)
+            if r["metadata"]["conversation_id"] not in over_long_conversations]
+    print(f"After dropping conversations over {MAX_CONTEXT_TOKENS} tokens: {len(kept)} records "
+          f"({len(records) - len(kept)} removed, from "
+          f"{len(over_long_conversations)}/{total_conversations} conversations)")
+
+    # Sample the fraction we train on. Shuffle first so the subset isn't biased by
+    # the dataset's generation order (records arrive grouped by scene/task).
+    rng = random.Random(DATASET_SAMPLE_SEED)
+    rng.shuffle(kept)
+    kept = kept[:int(len(kept) * DATASET_FRACTION)]
+    print(f"After sampling {DATASET_FRACTION:.0%}: {len(kept)}")
+
+    dataset = Dataset.from_dict({
+        "messages": [parse_conversation(r["input"], r["output"]) for r, _ in kept]
+    })
+    max_seq_length = max(n for _, n in kept)
+    print(f"\nTraining samples: {len(dataset)} (longest {max_seq_length} tokens)")
+    return dataset, max_seq_length
+
+
+# ============================================================
+# SECTION 5: HELPER FUNCTIONS
+# ============================================================
+def make_tokenizer(model_name):
+    """Tokenizer with the project chat template, loaded without the model.
+
+    Needed before FastLanguageModel.from_pretrained, which wants max_seq_length
+    up front -- and that can only be measured by tokenizing the dataset.
+    """
+    tok = AutoTokenizer.from_pretrained(f"unsloth/{model_name}")
+    tok = get_chat_template(tok, chat_template="llama-3.1")
+    tok.chat_template = llama31_cot_template
+    return tok
 
 
 def make_formatting_func(tok, tool_list, instr_message, max_seq_len):
-    """Factory that returns a formatting function bound to the given tokenizer."""
+    """Factory that returns a formatting function bound to the given tokenizer.
+
+    Everything up to and including the generation header is masked out: loss is
+    computed only on the final assistant message (the record's "output"). The
+    assistant blocks inside "input" are context -- they repeat across every step
+    of a conversation and would be massively over-weighted if trained on.
+    """
     def formatting_prompts_func(examples):
         convos = examples["messages"]
         all_input_ids = []
@@ -371,7 +408,21 @@ def make_formatting_func(tok, tool_list, instr_message, max_seq_len):
 
         for convo in convos:
             new_convo = [system_part] + convo
-            new_convo = clean_conversation(new_convo)
+
+            # The chat template emits bos_token itself, so don't add it again.
+            prompt_text = tok.apply_chat_template(
+                new_convo[:-1],
+                tokenize=False,
+                add_generation_prompt=True,
+                tools=tool_list
+            )
+            prompt_len = len(tok(
+                prompt_text,
+                truncation=True,
+                max_length=max_seq_len,
+                add_special_tokens=False,
+                return_tensors=None
+            )["input_ids"])
 
             full_text = tok.apply_chat_template(
                 new_convo,
@@ -379,50 +430,22 @@ def make_formatting_func(tok, tool_list, instr_message, max_seq_len):
                 add_generation_prompt=False,
                 tools=tool_list
             )
-
             full_tokens = tok(
                 full_text,
                 truncation=True,
                 max_length=max_seq_len,
+                add_special_tokens=False,
                 return_tensors=None
             )
+            input_ids = full_tokens["input_ids"]
 
-            labels = [-100] * len(full_tokens["input_ids"])
+            # Truncation ate the whole target -- nothing to learn from.
+            if prompt_len >= len(input_ids):
+                continue
 
-            for i, msg in enumerate(new_convo):
-                if msg.get("role") != "assistant":
-                    continue
+            labels = [-100] * prompt_len + input_ids[prompt_len:]
 
-                prefix_text = tok.apply_chat_template(
-                    new_convo[:i],
-                    tokenize=False,
-                    add_generation_prompt=True,
-                    tools=tool_list
-                )
-                start_idx = len(tok(
-                    prefix_text,
-                    truncation=True,
-                    max_length=max_seq_len,
-                    return_tensors=None
-                )["input_ids"])
-
-                prefix_with_text = tok.apply_chat_template(
-                    new_convo[:i + 1],
-                    tokenize=False,
-                    add_generation_prompt=False,
-                    tools=tool_list
-                )
-                end_idx = len(tok(
-                    prefix_with_text,
-                    truncation=True,
-                    max_length=max_seq_len,
-                    return_tensors=None
-                )["input_ids"])
-
-                for j in range(start_idx, min(end_idx, len(labels))):
-                    labels[j] = full_tokens["input_ids"][j]
-
-            all_input_ids.append(full_tokens["input_ids"])
+            all_input_ids.append(input_ids)
             all_attention_mask.append(full_tokens["attention_mask"])
             all_labels.append(labels)
 
@@ -432,26 +455,6 @@ def make_formatting_func(tok, tool_list, instr_message, max_seq_len):
             "labels": all_labels
         }
     return formatting_prompts_func
-
-
-def preprocess_logits_for_metrics(logits, labels):
-    if isinstance(logits, tuple):
-        logits = logits[0]
-    result = logits.argmax(dim=-1)
-    del logits
-    return result
-
-
-def compute_metrics(eval_preds):
-    preds, labels = eval_preds
-    # Shift alignment: logits[i] predicts token at position i+1
-    preds = preds[:, :-1]
-    labels = labels[:, 1:]
-    mask = labels != -100
-    active_preds = preds[mask]
-    active_labels = labels[mask]
-    accuracy = (active_preds == active_labels).mean()
-    return {"accuracy": float(accuracy)}
 
 
 class SaveAdapterCallback(TrainerCallback):
@@ -470,14 +473,6 @@ class SaveAdapterCallback(TrainerCallback):
         print(f"Saved adapter checkpoint to {save_dir}")
 
 
-class ClearCacheCallback(TrainerCallback):
-    """Clears CPU and GPU caches after evaluation to prevent
-    memory fragmentation that degrades training throughput."""
-    def on_evaluate(self, args, state, control, **kwargs):
-        gc.collect()
-        torch.cuda.empty_cache()
-
-
 def make_short_name(model_name):
     """'Llama-3.2-3B-Instruct-unsloth-bnb-4bit' -> 'Llama-3.2-3B'"""
     name = model_name
@@ -490,7 +485,7 @@ def make_short_name(model_name):
 
 
 def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs, full_dataset=False):
-    name = f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
+    name = f"{short_name}-DSL_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
     if full_dataset:
         name += "_full_dataset"
     return name
@@ -509,9 +504,14 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
     print(f"Starting run: {run_name}")
     print(f"{'='*60}")
 
+    # Filtering is by rendered token count, so it needs the tokenizer -- which
+    # is also how the context window gets sized to the data instead of a guess.
+    raw_train_dataset, max_seq_length = build_train_dataset(make_tokenizer(model_name))
+    print(f"max_seq_length set to {max_seq_length}")
+
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=f"unsloth/{model_name}",
-        max_seq_length=MAX_SEQ_LENGTH,
+        max_seq_length=max_seq_length,
         dtype=DTYPE,
         load_in_4bit=LOAD_IN_4BIT,
         load_in_8bit=LOAD_IN_8BIT,
@@ -534,12 +534,27 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
     tokenizer = get_chat_template(tokenizer, chat_template="llama-3.1")
     tokenizer.chat_template = llama31_cot_template
 
-    formatting_func = make_formatting_func(tokenizer, tools, instruction_message, MAX_SEQ_LENGTH)
-    tok_train = raw_train_dataset.map(formatting_func, batched=True, keep_in_memory=True)
-    tok_evals = {k: v.map(formatting_func, batched=True, keep_in_memory=True) for k, v in raw_eval_datasets.items()}
-    print(tokenizer.decode(tok_train[0]["input_ids"]))
-    
-    callbacks = [ClearCacheCallback()]
+    formatting_func = make_formatting_func(tokenizer, tools, instruction_message, max_seq_length)
+    tok_train = raw_train_dataset.map(
+        formatting_func,
+        batched=True,
+        keep_in_memory=True,
+        remove_columns=raw_train_dataset.column_names,
+    )
+    dropped = len(raw_train_dataset) - len(tok_train)
+    if dropped:
+        print(f"Dropped {dropped} samples that exceeded max_seq_length={max_seq_length}")
+
+    example = tok_train[0]
+    print(tokenizer.decode(example["input_ids"]))
+    print("--- trained tokens only ---")
+    print(tokenizer.decode([t for t in example["labels"] if t != -100]))
+    print(f"--- input_ids ({len(example['input_ids'])} tokens) ---")
+    print(example["input_ids"])
+    print(f"--- labels ({sum(t != -100 for t in example['labels'])} unmasked) ---")
+    print(example["labels"])
+
+    callbacks = []
     if save_adapter_per_epoch:
         name_template = make_run_name(short_name, r, alpha, lr, lr_method, "{ep}", full_dataset=full_dataset)
         callbacks.append(SaveAdapterCallback(model, tokenizer, f"{SAVE_BASE}/adapters", name_template))
@@ -558,9 +573,10 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
             "num_train_epochs": num_epochs,
             "dataset": DATASET_NAME,
             "dataset_path": DATASET_PATH,
+            "max_context_tokens": MAX_CONTEXT_TOKENS,
+            "dataset_fraction": DATASET_FRACTION,
             "train_samples": len(tok_train),
-            **{f"eval_{k}_samples": len(v) for k, v in tok_evals.items()},
-            "max_seq_length": MAX_SEQ_LENGTH,
+            "max_seq_length": max_seq_length,
         },
     )
 
@@ -586,11 +602,8 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
         model=model,
         tokenizer=tokenizer,
         train_dataset=tok_train,
-        eval_dataset=tok_evals,
-        max_seq_length=MAX_SEQ_LENGTH,
+        max_seq_length=max_seq_length,
         packing=False,
-        compute_metrics=compute_metrics,
-        preprocess_logits_for_metrics=preprocess_logits_for_metrics,
         callbacks=callbacks,
         args=training_args,
     )
@@ -603,7 +616,7 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
 
     wandb.finish()
 
-    del model, trainer, tok_train, tok_evals
+    del model, trainer, tok_train
     gc.collect()
     torch.cuda.empty_cache()
 
@@ -622,6 +635,8 @@ if __name__ == "__main__":
     parser.add_argument("--lr-method", type=str, required=True)
     parser.add_argument("--num-epochs", type=int, required=True)
     parser.add_argument("--save-adapter-per-epoch", action="store_true")
+    # No eval split exists any more -- every run trains on the whole dataset.
+    # The flag only tags the run name, kept so run_grid.py keeps working.
     parser.add_argument("--full-dataset", action="store_true")
     args = parser.parse_args()
 

@@ -8,10 +8,10 @@ from pathlib import Path
 
 MODEL_NAMES = ["Llama-3.2-3B-Instruct"]
 R_VALUES = [128]
-ALPHA_VALUES = [1, 2]
+ALPHA_VALUES = [1]
 LR_VALUES = [6e-5]
-LR_METHODS = ["cosine"]
-NUM_EPOCHS_LIST = [1, 2]
+LR_METHODS = ["constant_with_warmup"]
+NUM_EPOCHS_LIST = [1]
 
 FINETUNE_SCRIPT = "finetune.py"
 SAVE_BASE = Path("D:/MyLLMs")
@@ -33,7 +33,7 @@ FULL_DATASET = True
 
 
 def make_run_name(short_name, r, alpha, lr, lr_method, num_epochs, full_dataset=False):
-    name = f"{short_name}_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
+    name = f"{short_name}-DSL_r{r}_a{alpha}_lr{lr:.0e}_{lr_method}_ep{num_epochs}"
     if full_dataset:
         name += "_full_dataset"
     return name
