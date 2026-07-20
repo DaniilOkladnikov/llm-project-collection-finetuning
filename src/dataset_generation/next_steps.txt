@@ -1,13 +1,12 @@
+1. Review tasks you are missing (Claude's analysis 2)
 2. Write a couple of walkthroughs
+2.5 Rewrite the programs
 3. In the generation of dataset, add position name alterations in the input (for go to P task)
 4. Also, maybe in the generation add new ways to format positions of the scene.
 5. !important! Position names must include synonyms of same objects. I.e. name of object or location in pick position, place position, locate_shapes can be three different things.
+6. Add more impossible tasks "canthelp"
 7. Add tasks that reference locations existent in some scene, but not in others (executable/can'thelp)
 8. Negatives : 
     1. Near-misses of your own positives
     2. A spread of obviously-outside prompts, cheap and random.        
     3. Length/complexity decoys
-9. Let answers do calculations in resolution
-10. Make sure parse user parses state changes
-
-Immediate steps: finish transfer of tasks from md to yaml, rewrite DSL, formalize tasks
