@@ -7,7 +7,7 @@ from itertools import product
 from pathlib import Path
 
 MODEL_NAMES = ["Llama-3.2-3B-Instruct"]
-R_VALUES = [128]
+R_VALUES = [64]
 ALPHA_VALUES = [1]
 LR_VALUES = [6e-5]
 LR_METHODS = ["constant_with_warmup"]

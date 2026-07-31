@@ -1,0 +1,3191 @@
+[
+  {
+    "object_locations": [
+      "table_Q1",
+      "table_Q2",
+      "table_Q3",
+      "table_Q4"
+    ],
+    "object_types": {
+      "component1": [
+        "part1",
+        "module1"
+      ],
+      "component2": [
+        "part2",
+        "module2"
+      ]
+    },
+    "observe_dict": {
+      "table_q1_look": [
+        "table_Q1"
+      ],
+      "table_q2_look": [
+        "table_Q2"
+      ],
+      "table_q3_look": [
+        "table_Q3"
+      ],
+      "table_q4_look": [
+        "table_Q4"
+      ]
+    },
+    "general_position_names": [
+      "home"
+    ],
+    "location_names": {
+      "first two quadrants": [
+        "table_Q1",
+        "table_Q2"
+      ],
+      "last two quadrants": [
+        "table_Q3",
+        "table_Q4"
+      ],
+      "Q1 or Q3 positions": [
+        "table_Q1",
+        "table_Q3"
+      ],
+      "Q2 or Q4 positions": [
+        "table_Q2",
+        "table_Q4"
+      ],
+      "Q1 or Q4": [
+        "table_Q1",
+        "table_Q4"
+      ],
+      "quadrants 1 through 3": [
+        "table_Q1",
+        "table_Q2",
+        "table_Q3"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "workbench_A1",
+      "workbench_A2",
+      "drawer_small_parts"
+    ],
+    "object_types": {
+      "bolt": [
+        "screw",
+        "fastener"
+      ],
+      "nut": [
+        "hex_nut",
+        "locknut"
+      ],
+      "washer": [
+        "spacer",
+        "shim_ring"
+      ]
+    },
+    "observe_dict": {
+      "look at workbench_A1 & workbench_A2": [
+        "workbench_A1",
+        "workbench_A2"
+      ],
+      "peek drawer_small_parts": [
+        "drawer_small_parts"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "sensor_safe_hover",
+      "workbench_center_hover"
+    ],
+    "location_names": {
+      "workbench A1|A2": [
+        "workbench_A1",
+        "workbench_A2"
+      ],
+      "any workbench position": [
+        "workbench_A1",
+        "workbench_A2"
+      ],
+      "workbench A1 or the drawer": [
+        "workbench_A1",
+        "drawer_small_parts"
+      ],
+      "workbench A2 or the small parts drawer": [
+        "workbench_A2",
+        "drawer_small_parts"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "BIN_RED_LEFT",
+      "BIN_BLUE_RIGHT",
+      "WASTE_CHUTE"
+    ],
+    "object_types": {
+      "cable": [
+        "wire",
+        "cord"
+      ],
+      "label": [
+        "tag",
+        "sticker"
+      ]
+    },
+    "observe_dict": {
+      "bins_observe_red": [
+        "BIN_RED_LEFT"
+      ],
+      "bins_observe_blue": [
+        "BIN_BLUE_RIGHT"
+      ],
+      "chute_observe": [
+        "WASTE_CHUTE"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "bin_transfer_hover",
+      "waste_safe_drop"
+    ],
+    "location_names": {
+      "bins": [
+        "BIN_RED_LEFT",
+        "BIN_BLUE_RIGHT"
+      ],
+      "any of the color bins": [
+        "BIN_RED_LEFT",
+        "BIN_BLUE_RIGHT"
+      ],
+      "red bin or waste chute": [
+        "BIN_RED_LEFT",
+        "WASTE_CHUTE"
+      ],
+      "blue bin or waste chute": [
+        "BIN_BLUE_RIGHT",
+        "WASTE_CHUTE"
+      ],
+      "red or blue bin": [
+        "BIN_RED_LEFT",
+        "BIN_BLUE_RIGHT"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "tray_infeed_slot1",
+      "tray_infeed_slot2",
+      "tray_outfeed_slot1",
+      "tray_outfeed_slot2"
+    ],
+    "object_types": {
+      "gear": [
+        "cog",
+        "sprocket"
+      ],
+      "bracket": [
+        "mount",
+        "support"
+      ]
+    },
+    "observe_dict": {
+      "infeed_observe": [
+        "tray_infeed_slot1",
+        "tray_infeed_slot2"
+      ],
+      "outfeed_observe": [
+        "tray_outfeed_slot1",
+        "tray_outfeed_slot2"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "tray_scan_hover",
+      "tray_clearance_lift"
+    ],
+    "location_names": {
+      "infeed_slots": [
+        "tray_infeed_slot1",
+        "tray_infeed_slot2"
+      ],
+      "outfeed_slots": [
+        "tray_outfeed_slot1",
+        "tray_outfeed_slot2"
+      ],
+      "slot 1 of each tray": [
+        "tray_infeed_slot1",
+        "tray_outfeed_slot1"
+      ],
+      "slot 2 of each tray": [
+        "tray_infeed_slot2",
+        "tray_outfeed_slot2"
+      ],
+      "infeed slot 1 or outfeed slot 2": [
+        "tray_infeed_slot1",
+        "tray_outfeed_slot2"
+      ],
+      "infeed slot 2 or outfeed slot 1": [
+        "tray_infeed_slot2",
+        "tray_outfeed_slot1"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "conveyor_pick_zone",
+      "conveyor_drop_zone",
+      "inspection_pad"
+    ],
+    "object_types": {
+      "cap": [
+        "lid",
+        "cover"
+      ],
+      "sensor": [
+        "detector",
+        "probe"
+      ]
+    },
+    "observe_dict": {
+      "conveyor_pick_watchpoint": [
+        "conveyor_pick_zone"
+      ],
+      "conveyor_drop_watchpoint": [
+        "conveyor_drop_zone"
+      ],
+      "inspection_observe": [
+        "inspection_pad"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "conveyor_wait_hover",
+      "inspection_safe_hover"
+    ],
+    "location_names": {
+      "conveyor_zones": [
+        "conveyor_pick_zone",
+        "conveyor_drop_zone"
+      ],
+      "pick zone or inspection pad": [
+        "conveyor_pick_zone",
+        "inspection_pad"
+      ],
+      "drop zone or inspection pad": [
+        "conveyor_drop_zone",
+        "inspection_pad"
+      ],
+      "anywhere along the conveyor": [
+        "conveyor_pick_zone",
+        "conveyor_drop_zone"
+      ],
+      "pick or drop zone": [
+        "conveyor_pick_zone",
+        "conveyor_drop_zone"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "rack top",
+      "rack middle",
+      "rack bottom",
+      "cart front",
+      "cart back"
+    ],
+    "object_types": {
+      "vial": [
+        "ampoule",
+        "phial"
+      ],
+      "label": [
+        "tag",
+        "sticker"
+      ]
+    },
+    "observe_dict": {
+      "rack_inventory_overlook": [
+        "rack top",
+        "rack middle",
+        "rack bottom"
+      ],
+      "cart_overhead_observe": [
+        "cart front",
+        "cart back"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "rack_approach_hover",
+      "cart_loading_hover"
+    ],
+    "location_names": {
+      "rack": [
+        "rack top",
+        "rack middle",
+        "rack bottom"
+      ],
+      "cart": [
+        "cart front",
+        "cart back"
+      ],
+      "rack top or rack bottom": [
+        "rack top",
+        "rack bottom"
+      ],
+      "rack middle or cart front": [
+        "rack middle",
+        "cart front"
+      ],
+      "rack top or cart front": [
+        "rack top",
+        "cart front"
+      ],
+      "rack bottom or cart back": [
+        "rack bottom",
+        "cart back"
+      ],
+      "any rack position": [
+        "rack top",
+        "rack middle",
+        "rack bottom"
+      ],
+      "either end of the cart": [
+        "cart front",
+        "cart back"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "slot1_1",
+      "slot1_2",
+      "slot1_3",
+      "slot1_4",
+      "slot2_1",
+      "slot2_2",
+      "slot2_3",
+      "slot2_4",
+      "slot3_1",
+      "slot3_2",
+      "slot3_3",
+      "slot3_4"
+    ],
+    "object_types": {
+      "bolt": [
+        "screw",
+        "fastener"
+      ],
+      "nut": [
+        "hex_nut",
+        "locknut"
+      ],
+      "washer": [
+        "spacer",
+        "shim_ring"
+      ],
+      "cap": [
+        "lid",
+        "cover"
+      ]
+    },
+    "observe_dict": {
+      "slot1_OBSERVE": [
+        "slot1_1",
+        "slot1_2",
+        "slot1_3",
+        "slot1_4"
+      ],
+      "slot2_OBSERVE": [
+        "slot2_1",
+        "slot2_2",
+        "slot2_3",
+        "slot2_4"
+      ],
+      "slot3_OBSERVE": [
+        "slot3_1",
+        "slot3_2",
+        "slot3_3",
+        "slot3_4"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "grid_entry_hover"
+    ],
+    "location_names": {
+      "slot1_1 to slot2_2": [
+        "slot1_1",
+        "slot1_2",
+        "slot1_3",
+        "slot1_4",
+        "slot2_1",
+        "slot2_2"
+      ],
+      "slot2_3 to slot3_4": [
+        "slot2_3",
+        "slot2_4",
+        "slot3_1",
+        "slot3_2",
+        "slot3_3",
+        "slot3_4"
+      ],
+      "first cells of each slot": [
+        "slot1_1",
+        "slot2_1",
+        "slot3_1"
+      ],
+      "last cells of each slot": [
+        "slot1_4",
+        "slot2_4",
+        "slot3_4"
+      ],
+      "slot1 bins 1 or 2": [
+        "slot1_1",
+        "slot1_2"
+      ],
+      "third bin any slot except last": [
+        "slot3_1",
+        "slot3_2",
+        "slot3_3"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "binA_001",
+      "binA_002",
+      "binA_003",
+      "binA_004",
+      "binA_005",
+      "binB_101",
+      "binB_102",
+      "binB_103",
+      "binB_104",
+      "binB_105",
+      "binC_201",
+      "binC_202"
+    ],
+    "object_types": {
+      "gear": [
+        "cog",
+        "sprocket"
+      ],
+      "bracket": [
+        "mount",
+        "support"
+      ],
+      "sensor": [
+        "detector",
+        "probe"
+      ]
+    },
+    "observe_dict": {
+      "binA_observe strip": [
+        "binA_001",
+        "binA_002",
+        "binA_003",
+        "binA_004",
+        "binA_005"
+      ],
+      "binB_observe strip": [
+        "binB_101",
+        "binB_102",
+        "binB_103",
+        "binB_104",
+        "binB_105"
+      ],
+      "binC_corner vantage": [
+        "binC_201",
+        "binC_202"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "aisle_safe_hover"
+    ],
+    "location_names": {
+      "binA_002 to binB_102": [
+        "binA_002",
+        "binA_003",
+        "binA_004",
+        "binA_005",
+        "binB_101",
+        "binB_102"
+      ],
+      "bins from A_001 to B_102": [
+        "binA_001",
+        "binA_002",
+        "binA_003",
+        "binA_004",
+        "binA_005",
+        "binB_101",
+        "binB_102"
+      ],
+      "second slot of each bin": [
+        "binA_002",
+        "binB_102",
+        "binC_202"
+      ],
+      "last but one cells of each bin": [
+        "binA_004",
+        "binB_104",
+        "binC_201"
+      ],
+      "binA slots 1 or 2": [
+        "binA_001",
+        "binA_002"
+      ],
+      "binB any opening except last": [
+        "binB_101",
+        "binB_102",
+        "binB_103",
+        "binB_104"
+      ],
+      "first two slots of A": [
+        "binA_001",
+        "binA_002"
+      ],
+      "odd numbered slots in binA": [
+        "binA_001",
+        "binA_003",
+        "binA_005"
+      ],
+      "even numbered slots in binA": [
+        "binA_002",
+        "binA_004"
+      ],
+      "all of binC": [
+        "binC_201",
+        "binC_202"
+      ],
+      "locations ending in 03": [
+        "binA_003",
+        "binB_103"
+      ],
+      "bins 01": [
+        "binA_001",
+        "binB_101",
+        "binC_201"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "chess_a1",
+      "chess_b1",
+      "chess_c1",
+      "chess_d1",
+      "chess_e1",
+      "chess_f1",
+      "chess_g1",
+      "chess_h1",
+      "captured pieces"
+    ],
+    "object_types": {
+      "pawn": [
+        "foot_soldier",
+        "pawn_piece"
+      ],
+      "rook": [
+        "castle",
+        "tower"
+      ],
+      "knight": [
+        "horse",
+        "cavalier"
+      ],
+      "bishop": [
+        "prelate",
+        "diagonal_piece"
+      ],
+      "queen": [
+        "lady_piece",
+        "monarch"
+      ],
+      "king": [
+        "sovereign",
+        "ruler_piece"
+      ]
+    },
+    "observe_dict": {
+      "captured pieces look": [
+        "captured pieces"
+      ],
+      "kingside_vantage": [
+        "chess_e1",
+        "chess_f1",
+        "chess_g1",
+        "chess_h1"
+      ],
+      "queenside_vantage": [
+        "chess_a1",
+        "chess_b1",
+        "chess_c1",
+        "chess_d1"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "board_center_overlook",
+      "piece_safe_lift"
+    ],
+    "location_names": {
+      "kingside": [
+        "chess_e1",
+        "chess_f1",
+        "chess_g1",
+        "chess_h1"
+      ],
+      "queenside": [
+        "chess_a1",
+        "chess_b1",
+        "chess_c1",
+        "chess_d1"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "METALcontainer",
+      "DEBRIScontainer",
+      "ELECTRONICcontainer",
+      "clearingquadrantALPHA",
+      "clearingquadrantBETA",
+      "clearingquadrantGAMMA",
+      "clearingquadrantDELTA"
+    ],
+    "object_types": {
+      "electronic part": [
+        "e_component",
+        "circuit_part"
+      ],
+      "debris": [
+        "rubble",
+        "waste_matter"
+      ],
+      "metal scrap": [
+        "scrap_metal",
+        "metal_offcut"
+      ]
+    },
+    "observe_dict": {
+      "METALcontainerLook": [
+        "METALcontainer"
+      ],
+      "DEBRIScontainerLook": [
+        "DEBRIScontainer"
+      ],
+      "ELECTRONICcontainerView": [
+        "ELECTRONICcontainer"
+      ],
+      "clearingquadrantALPHA Overwiew": [
+        "clearingquadrantALPHA"
+      ],
+      "clearingquadrantBETA Overview": [
+        "clearingquadrantBETA"
+      ],
+      "clearingquadrantGAMMA Overview": [
+        "clearingquadrantGAMMA"
+      ],
+      "clearingquadrantDELTA Overview": [
+        "clearingquadrantDELTA"
+      ]
+    },
+    "general_position_names": [
+      "home"
+    ],
+    "location_names": {
+      "containers": [
+        "METALcontainer",
+        "DEBRIScontainer",
+        "ELECTRONICcontainer"
+      ],
+      "clearing_quadrants": [
+        "clearingquadrantALPHA",
+        "clearingquadrantBETA",
+        "clearingquadrantGAMMA",
+        "clearingquadrantDELTA"
+      ],
+      "conductive material storage": [
+        "METALcontainer",
+        "ELECTRONICcontainer"
+      ],
+      "non-electronic waste containers": [
+        "METALcontainer",
+        "DEBRIScontainer"
+      ],
+      "one of the containers": [
+        "METALcontainer",
+        "DEBRIScontainer",
+        "ELECTRONICcontainer"
+      ],
+      "clearing area": [
+        "clearingquadrantALPHA",
+        "clearingquadrantBETA",
+        "clearingquadrantGAMMA",
+        "clearingquadrantDELTA"
+      ],
+      "alpha or beta clearing quadrant": [
+        "clearingquadrantALPHA",
+        "clearingquadrantBETA"
+      ],
+      "alpha gamma or delta clearing quadrant": [
+        "clearingquadrantALPHA",
+        "clearingquadrantGAMMA",
+        "clearingquadrantDELTA"
+      ],
+      "first or second cleaning disposals": [
+        "clearingquadrantALPHA",
+        "clearingquadrantBETA"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "station_alpha",
+      "station_beta",
+      "station_gamma",
+      "buffer_zone"
+    ],
+    "object_types": {
+      "widget": [
+        "gadget",
+        "gizmo"
+      ]
+    },
+    "observe_dict": {
+      "look at station_alpha": [
+        "station_alpha"
+      ],
+      "look at station_beta": [
+        "station_beta"
+      ],
+      "look at station_gamma": [
+        "station_gamma"
+      ],
+      "look at buffer_zone": [
+        "buffer_zone"
+      ]
+    },
+    "general_position_names": [
+      "home"
+    ],
+    "location_names": {
+      "main processing terminals": [
+        "station_alpha",
+        "station_beta",
+        "station_gamma"
+      ],
+      "first station or in buffer zone": [
+        "station_alpha",
+        "buffer_zone"
+      ],
+      "stations only": [
+        "station_alpha",
+        "station_beta",
+        "station_gamma"
+      ],
+      "stations": [
+        "station_alpha",
+        "station_beta",
+        "station_gamma"
+      ],
+      "final station and buffer zone": [
+        "station_gamma",
+        "buffer_zone"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "zone_001",
+      "zone_002",
+      "zone_003",
+      "zone_004",
+      "zone_005",
+      "zone_006",
+      "zone_007",
+      "zone_008",
+      "zone_009",
+      "zone_010",
+      "zone_011",
+      "zone_012",
+      "zone_013",
+      "zone_014",
+      "zone_015",
+      "zone_016",
+      "zone_017",
+      "zone_018"
+    ],
+    "object_types": {
+      "parcel_small": [
+        "package_small",
+        "box_small"
+      ],
+      "parcel_medium": [
+        "package_medium",
+        "box_medium"
+      ],
+      "parcel_large": [
+        "package_large",
+        "box_large"
+      ],
+      "parcel_fragile": [
+        "package_fragile",
+        "box_fragile"
+      ],
+      "parcel_heavy": [
+        "package_heavy",
+        "box_heavy"
+      ],
+      "parcel_express": [
+        "package_express",
+        "box_express"
+      ],
+      "parcel_standard": [
+        "package_standard",
+        "box_standard"
+      ],
+      "parcel_overnight": [
+        "package_overnight",
+        "box_overnight"
+      ],
+      "parcel_international": [
+        "package_international",
+        "box_international"
+      ],
+      "parcel_domestic": [
+        "package_domestic",
+        "box_domestic"
+      ],
+      "parcel_perishable": [
+        "package_perishable",
+        "box_perishable"
+      ],
+      "parcel_hazmat": [
+        "package_hazmat",
+        "box_hazmat"
+      ],
+      "parcel_oversized": [
+        "package_oversized",
+        "box_oversized"
+      ],
+      "parcel_envelope": [
+        "package_envelope",
+        "box_envelope"
+      ],
+      "parcel_tube": [
+        "package_tube",
+        "box_tube"
+      ]
+    },
+    "observe_dict": {
+      "view zone_001 zone_002 zone_003": [
+        "zone_001",
+        "zone_002",
+        "zone_003"
+      ],
+      "view zone_004-zone_009": [
+        "zone_004",
+        "zone_005",
+        "zone_006",
+        "zone_007",
+        "zone_008",
+        "zone_009"
+      ],
+      "view zone_010-zone_018": [
+        "zone_010",
+        "zone_011",
+        "zone_012",
+        "zone_013",
+        "zone_014",
+        "zone_015",
+        "zone_016",
+        "zone_017",
+        "zone_018"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "central_hub"
+    ],
+    "location_names": {
+      "zone_001|zone_002|zone_003": [
+        "zone_001",
+        "zone_002",
+        "zone_003"
+      ],
+      "zone_004->zone_009": [
+        "zone_004",
+        "zone_005",
+        "zone_006",
+        "zone_007",
+        "zone_008",
+        "zone_009"
+      ],
+      "zone_010:zone_018": [
+        "zone_010",
+        "zone_011",
+        "zone_012",
+        "zone_013",
+        "zone_014",
+        "zone_015",
+        "zone_016",
+        "zone_017",
+        "zone_018"
+      ],
+      "single digit zones": [
+        "zone_001",
+        "zone_002",
+        "zone_003",
+        "zone_004",
+        "zone_005",
+        "zone_006",
+        "zone_007",
+        "zone_008",
+        "zone_009"
+      ],
+      "first zones (1-6)": [
+        "zone_001",
+        "zone_002",
+        "zone_003",
+        "zone_004",
+        "zone_005",
+        "zone_006"
+      ],
+      "middle zones (7-12)": [
+        "zone_007",
+        "zone_008",
+        "zone_009",
+        "zone_010",
+        "zone_011",
+        "zone_012"
+      ],
+      "zones (13-18)": [
+        "zone_013",
+        "zone_014",
+        "zone_015",
+        "zone_016",
+        "zone_017",
+        "zone_018"
+      ],
+      "even numbered zones": [
+        "zone_002",
+        "zone_004",
+        "zone_006",
+        "zone_008",
+        "zone_010",
+        "zone_012",
+        "zone_014",
+        "zone_016",
+        "zone_018"
+      ],
+      "two last zones": [
+        "zone_017",
+        "zone_018"
+      ],
+      "008-011 zones": [
+        "zone_008",
+        "zone_009",
+        "zone_010",
+        "zone_011"
+      ],
+      "zone_005 to zone_010": [
+        "zone_005",
+        "zone_006",
+        "zone_007",
+        "zone_008",
+        "zone_009",
+        "zone_010"
+      ],
+      "zones 2-6": [
+        "zone_002",
+        "zone_003",
+        "zone_004",
+        "zone_005",
+        "zone_006"
+      ],
+      "zones 1-8": [
+        "zone_001",
+        "zone_002",
+        "zone_003",
+        "zone_004",
+        "zone_005",
+        "zone_006",
+        "zone_007",
+        "zone_008"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "bay_A",
+      "bay_B",
+      "bay_C",
+      "overflow_rack"
+    ],
+    "object_types": {
+      "cylinder_red": [
+        "tube_red",
+        "roller_red"
+      ],
+      "cylinder_blue": [
+        "tube_blue",
+        "roller_blue"
+      ],
+      "cylinder_green": [
+        "tube_green",
+        "roller_green"
+      ],
+      "cylinder_yellow": [
+        "tube_yellow",
+        "roller_yellow"
+      ],
+      "cylinder_orange": [
+        "tube_orange",
+        "roller_orange"
+      ],
+      "cylinder_purple": [
+        "tube_purple",
+        "roller_purple"
+      ],
+      "cylinder_white": [
+        "tube_white",
+        "roller_white"
+      ],
+      "cylinder_black": [
+        "tube_black",
+        "roller_black"
+      ],
+      "cylinder_gray": [
+        "tube_gray",
+        "roller_gray"
+      ],
+      "cylinder_pink": [
+        "tube_pink",
+        "roller_pink"
+      ],
+      "cylinder_cyan": [
+        "tube_cyan",
+        "roller_cyan"
+      ],
+      "cylinder_magenta": [
+        "tube_magenta",
+        "roller_magenta"
+      ]
+    },
+    "observe_dict": {
+      "glance@bay_A": [
+        "bay_A"
+      ],
+      "glance@bay_B": [
+        "bay_B"
+      ],
+      "glance@bay_C": [
+        "bay_C"
+      ],
+      "peek overflow_rack": [
+        "overflow_rack"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "transfer_midpoint"
+    ],
+    "location_names": {
+      "bay A/B/C": [
+        "bay_A",
+        "bay_B",
+        "bay_C"
+      ],
+      "bays A through B": [
+        "bay_A",
+        "bay_B"
+      ],
+      "bay C and overflow rack": [
+        "bay_C",
+        "overflow_rack"
+      ],
+      "outermost bays (A and C)": [
+        "bay_A",
+        "bay_C"
+      ],
+      "bays A to C": [
+        "bay_A",
+        "bay_B",
+        "bay_C"
+      ],
+      "one of the bays A through C": [
+        "bay_A",
+        "bay_B",
+        "bay_C"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "pos.y0.x0",
+      "pos.y0.x1",
+      "pos.y0.x2",
+      "pos.y0.x3",
+      "pos.y1.x0",
+      "pos.y1.x1",
+      "pos.y1.x2",
+      "pos.y1.x3",
+      "pos.y2.x0",
+      "pos.y2.x1",
+      "pos.y2.x2",
+      "pos.y2.x3"
+    ],
+    "object_types": {
+      "token_A": [
+        "chip_A",
+        "marker_A"
+      ],
+      "token_B": [
+        "chip_B",
+        "marker_B"
+      ],
+      "token_C": [
+        "chip_C",
+        "marker_C"
+      ],
+      "token_D": [
+        "chip_D",
+        "marker_D"
+      ],
+      "token_E": [
+        "chip_E",
+        "marker_E"
+      ],
+      "token_F": [
+        "chip_F",
+        "marker_F"
+      ],
+      "token_G": [
+        "chip_G",
+        "marker_G"
+      ],
+      "token_H": [
+        "chip_H",
+        "marker_H"
+      ]
+    },
+    "observe_dict": {
+      "scan pos.y0.*": [
+        "pos.y0.x0",
+        "pos.y0.x1",
+        "pos.y0.x2",
+        "pos.y0.x3"
+      ],
+      "scan pos.y1.*": [
+        "pos.y1.x0",
+        "pos.y1.x1",
+        "pos.y1.x2",
+        "pos.y1.x3"
+      ],
+      "scan pos.y2.*": [
+        "pos.y2.x0",
+        "pos.y2.x1",
+        "pos.y2.x2",
+        "pos.y2.x3"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "grid_origin_hover",
+      "grid_center_hover"
+    ],
+    "location_names": {
+      "any pos with x3": [
+        "pos.y0.x3",
+        "pos.y1.x3",
+        "pos.y2.x3"
+      ],
+      "any pos with y0": [
+        "pos.y0.x0",
+        "pos.y0.x1",
+        "pos.y0.x2",
+        "pos.y0.x3"
+      ],
+      "poses with y0": [
+        "pos.y0.x0",
+        "pos.y0.x1",
+        "pos.y0.x2",
+        "pos.y0.x3"
+      ],
+      "poses with y1": [
+        "pos.y1.x0",
+        "pos.y1.x1",
+        "pos.y1.x2",
+        "pos.y1.x3"
+      ],
+      "poses with y2": [
+        "pos.y2.x0",
+        "pos.y2.x1",
+        "pos.y2.x2",
+        "pos.y2.x3"
+      ],
+      "poses with x0": [
+        "pos.y0.x0",
+        "pos.y1.x0",
+        "pos.y2.x0"
+      ],
+      "poses with x0 or x2": [
+        "pos.y0.x0",
+        "pos.y1.x0",
+        "pos.y2.x0",
+        "pos.y0.x2",
+        "pos.y1.x2",
+        "pos.y2.x2"
+      ],
+      "positions with y2": [
+        "pos.y2.x0",
+        "pos.y2.x1",
+        "pos.y2.x2",
+        "pos.y2.x3"
+      ],
+      "poses with y1 x0 or y1 x3": [
+        "pos.y1.x0",
+        "pos.y1.x3"
+      ],
+      "poses x3": [
+        "pos.y0.x3",
+        "pos.y1.x3",
+        "pos.y2.x3"
+      ],
+      "poses with x1 or x0": [
+        "pos.y0.x0",
+        "pos.y0.x1",
+        "pos.y1.x0",
+        "pos.y1.x1",
+        "pos.y2.x0",
+        "pos.y2.x1"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "nest_1",
+      "nest_2",
+      "nest_3",
+      "nest_4",
+      "nest_5"
+    ],
+    "object_types": {
+      "egg": [
+        "ovum",
+        "egg_unit"
+      ]
+    },
+    "observe_dict": {
+      "locate nests": [
+        "nest_1",
+        "nest_2",
+        "nest_3",
+        "nest_4",
+        "nest_5"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "gentle_approach"
+    ],
+    "location_names": {
+      "odd numbered nests": [
+        "nest_1",
+        "nest_3",
+        "nest_5"
+      ],
+      "even numbered nests": [
+        "nest_2",
+        "nest_4"
+      ],
+      "first three nests": [
+        "nest_1",
+        "nest_2",
+        "nest_3"
+      ],
+      "last two nests": [
+        "nest_4",
+        "nest_5"
+      ],
+      "nests except the first": [
+        "nest_2",
+        "nest_3",
+        "nest_4",
+        "nest_5"
+      ],
+      "outer nests (first and last)": [
+        "nest_1",
+        "nest_5"
+      ],
+      "inner nests (2, 3, 4)": [
+        "nest_2",
+        "nest_3",
+        "nest_4"
+      ],
+      "operating nests 2 to 4": [
+        "nest_2",
+        "nest_3",
+        "nest_4"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "slot_primary",
+      "slot_secondary",
+      "slot_tertiary",
+      "reject_tray"
+    ],
+    "object_types": {
+      "chip_type_A": [
+        "wafer_A",
+        "tile_A"
+      ],
+      "chip_type_B": [
+        "wafer_B",
+        "tile_B"
+      ],
+      "chip_type_C": [
+        "wafer_C",
+        "tile_C"
+      ],
+      "chip_type_D": [
+        "wafer_D",
+        "tile_D"
+      ],
+      "chip_type_E": [
+        "wafer_E",
+        "tile_E"
+      ],
+      "chip_type_F": [
+        "wafer_F",
+        "tile_F"
+      ],
+      "chip_type_G": [
+        "wafer_G",
+        "tile_G"
+      ],
+      "chip_type_H": [
+        "wafer_H",
+        "tile_H"
+      ],
+      "chip_type_I": [
+        "wafer_I",
+        "tile_I"
+      ],
+      "chip_type_J": [
+        "wafer_J",
+        "tile_J"
+      ],
+      "chip_type_K": [
+        "wafer_K",
+        "tile_K"
+      ],
+      "chip_type_L": [
+        "wafer_L",
+        "tile_L"
+      ],
+      "chip_type_M": [
+        "wafer_M",
+        "tile_M"
+      ],
+      "chip_type_N": [
+        "wafer_N",
+        "tile_N"
+      ],
+      "chip_type_O": [
+        "wafer_O",
+        "tile_O"
+      ],
+      "chip_type_P": [
+        "wafer_P",
+        "tile_P"
+      ],
+      "chip_type_Q": [
+        "wafer_Q",
+        "tile_Q"
+      ],
+      "chip_type_R": [
+        "wafer_R",
+        "tile_R"
+      ],
+      "chip_type_S": [
+        "wafer_S",
+        "tile_S"
+      ],
+      "chip_type_T": [
+        "wafer_T",
+        "tile_T"
+      ]
+    },
+    "observe_dict": {
+      "inspect:slot_primary": [
+        "slot_primary"
+      ],
+      "inspect:slot_secondary": [
+        "slot_secondary"
+      ],
+      "inspect:slot_tertiary": [
+        "slot_tertiary"
+      ],
+      "check reject_tray": [
+        "reject_tray"
+      ]
+    },
+    "general_position_names": [
+      "home"
+    ],
+    "location_names": {
+      "slots primary/secondary/tertiary": [
+        "slot_primary",
+        "slot_secondary",
+        "slot_tertiary"
+      ],
+      "valid output storages": [
+        "slot_primary",
+        "slot_secondary",
+        "slot_tertiary"
+      ],
+      "first or second slots": [
+        "slot_primary",
+        "slot_secondary"
+      ],
+      "third or second slots": [
+        "slot_tertiary",
+        "slot_secondary"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "cell_R1C1",
+      "cell_R1C2",
+      "cell_R1C3",
+      "cell_R1C4",
+      "cell_R1C5",
+      "cell_R2C1",
+      "cell_R2C2",
+      "cell_R2C3",
+      "cell_R2C4",
+      "cell_R2C5",
+      "cell_R3C1",
+      "cell_R3C2",
+      "cell_R3C3",
+      "cell_R3C4",
+      "cell_R3C5",
+      "cell_R4C1",
+      "cell_R4C2",
+      "cell_R4C3",
+      "cell_R4C4",
+      "cell_R4C5"
+    ],
+    "object_types": {
+      "sample_vial": [
+        "specimen_vial",
+        "sample_ampoule"
+      ],
+      "reagent_tube": [
+        "reagent_vial",
+        "test_tube"
+      ],
+      "buffer_container": [
+        "buffer_vessel",
+        "buffer_bottle"
+      ]
+    },
+    "observe_dict": {
+      "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R2C1",
+        "cell_R2C2"
+      ],
+      "check cell_R1C3->C5 cell_R2C3->C5": [
+        "cell_R1C3",
+        "cell_R1C4",
+        "cell_R1C5",
+        "cell_R2C3",
+        "cell_R2C4",
+        "cell_R2C5"
+      ],
+      "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": [
+        "cell_R3C1",
+        "cell_R3C2",
+        "cell_R4C1",
+        "cell_R4C2"
+      ],
+      "check cell_R3C3->C5 cell_R4C3->C5": [
+        "cell_R3C3",
+        "cell_R3C4",
+        "cell_R3C5",
+        "cell_R4C3",
+        "cell_R4C4",
+        "cell_R4C5"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "plate_hover",
+      "pipette_ready"
+    ],
+    "location_names": {
+      "cellR1": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R1C3",
+        "cell_R1C4",
+        "cell_R1C5"
+      ],
+      "cellR2": [
+        "cell_R2C1",
+        "cell_R2C2",
+        "cell_R2C3",
+        "cell_R2C4",
+        "cell_R2C5"
+      ],
+      "cellR3": [
+        "cell_R3C1",
+        "cell_R3C2",
+        "cell_R3C3",
+        "cell_R3C4",
+        "cell_R3C5"
+      ],
+      "cellR4": [
+        "cell_R4C1",
+        "cell_R4C2",
+        "cell_R4C3",
+        "cell_R4C4",
+        "cell_R4C5"
+      ],
+      "cells of row R1": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R1C3",
+        "cell_R1C4",
+        "cell_R1C5"
+      ],
+      "cells with R1 or R2": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R1C3",
+        "cell_R1C4",
+        "cell_R1C5",
+        "cell_R2C1",
+        "cell_R2C2",
+        "cell_R2C3",
+        "cell_R2C4",
+        "cell_R2C5"
+      ],
+      "cell with column 4 or 5": [
+        "cell_R1C4",
+        "cell_R1C5",
+        "cell_R2C4",
+        "cell_R2C5",
+        "cell_R3C4",
+        "cell_R3C5",
+        "cell_R4C4",
+        "cell_R4C5"
+      ],
+      "cells in row 1": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R1C3",
+        "cell_R1C4",
+        "cell_R1C5"
+      ],
+      "cells in Column2": [
+        "cell_R1C2",
+        "cell_R2C2",
+        "cell_R3C2",
+        "cell_R4C2"
+      ],
+      "cells in row 4": [
+        "cell_R4C1",
+        "cell_R4C2",
+        "cell_R4C3",
+        "cell_R4C4",
+        "cell_R4C5"
+      ],
+      "cells in rows 1 and 2": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R1C3",
+        "cell_R1C4",
+        "cell_R1C5",
+        "cell_R2C1",
+        "cell_R2C2",
+        "cell_R2C3",
+        "cell_R2C4",
+        "cell_R2C5"
+      ],
+      "cells in column 5": [
+        "cell_R1C5",
+        "cell_R2C5",
+        "cell_R3C5",
+        "cell_R4C5"
+      ],
+      "cells C1 to C3 (all rows)": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R1C3",
+        "cell_R2C1",
+        "cell_R2C2",
+        "cell_R2C3",
+        "cell_R3C1",
+        "cell_R3C2",
+        "cell_R3C3",
+        "cell_R4C1",
+        "cell_R4C2",
+        "cell_R4C3"
+      ],
+      "cells in row 3": [
+        "cell_R3C1",
+        "cell_R3C2",
+        "cell_R3C3",
+        "cell_R3C4",
+        "cell_R3C5"
+      ],
+      "cells in row 2": [
+        "cell_R2C1",
+        "cell_R2C2",
+        "cell_R2C3",
+        "cell_R2C4",
+        "cell_R2C5"
+      ],
+      "cells in odd rows": [
+        "cell_R1C1",
+        "cell_R1C2",
+        "cell_R1C3",
+        "cell_R1C4",
+        "cell_R1C5",
+        "cell_R3C1",
+        "cell_R3C2",
+        "cell_R3C3",
+        "cell_R3C4",
+        "cell_R3C5"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "hook_1",
+      "hook_2",
+      "hook_3",
+      "hook_4",
+      "hook_5",
+      "hook_6",
+      "bin_floor"
+    ],
+    "object_types": {
+      "jacket": [
+        "coat",
+        "parka"
+      ],
+      "backpack": [
+        "rucksack",
+        "knapsack"
+      ]
+    },
+    "observe_dict": {
+      "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": [
+        "hook_1",
+        "hook_2",
+        "hook_3",
+        "hook_4",
+        "hook_5",
+        "hook_6"
+      ],
+      "look at bin_floor": [
+        "bin_floor"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "coat_room_entry"
+    ],
+    "location_names": {
+      "any hook": [
+        "hook_1",
+        "hook_2",
+        "hook_3",
+        "hook_4",
+        "hook_5",
+        "hook_6"
+      ],
+      "ground receptacle": [
+        "bin_floor"
+      ],
+      "odd numbered hooks": [
+        "hook_1",
+        "hook_3",
+        "hook_5"
+      ],
+      "even numbered hangers": [
+        "hook_2",
+        "hook_4",
+        "hook_6"
+      ],
+      "first three hooks": [
+        "hook_1",
+        "hook_2",
+        "hook_3"
+      ],
+      "hooks 4 through 6": [
+        "hook_4",
+        "hook_5",
+        "hook_6"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "furnace_mouth",
+      "ingot_queue",
+      "cooling_rack",
+      "finished_stack"
+    ],
+    "object_types": {
+      "iron_ingot": [
+        "iron_bar",
+        "iron_block"
+      ],
+      "steel_billet": [
+        "steel_bar",
+        "steel_block"
+      ],
+      "copper_bar": [
+        "copper_ingot",
+        "copper_rod"
+      ],
+      "aluminum_rod": [
+        "aluminium_rod",
+        "aluminum_bar"
+      ],
+      "titanium_block": [
+        "titanium_ingot",
+        "titanium_slab"
+      ],
+      "zinc_slab": [
+        "zinc_block",
+        "zinc_ingot"
+      ]
+    },
+    "observe_dict": {
+      "monitor furnace_mouth": [
+        "furnace_mouth"
+      ],
+      "scan ingot_queue": [
+        "ingot_queue"
+      ],
+      "check cooling_rack": [
+        "cooling_rack"
+      ],
+      "view finished_stack": [
+        "finished_stack"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "heat_safe_distance",
+      "loading_position"
+    ],
+    "location_names": {
+      "furnace & cooling": [
+        "furnace_mouth",
+        "cooling_rack"
+      ],
+      "queue & stack": [
+        "ingot_queue",
+        "finished_stack"
+      ],
+      "furnace or stack": [
+        "furnace_mouth",
+        "finished_stack"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "lane_1_start",
+      "lane_1_mid",
+      "lane_1_end",
+      "lane_2_start",
+      "lane_2_mid",
+      "lane_2_end",
+      "lane_3_start",
+      "lane_3_mid",
+      "lane_3_end",
+      "reject_bin",
+      "pass_bin"
+    ],
+    "object_types": {
+      "product_unit": [
+        "item_unit",
+        "product_item"
+      ]
+    },
+    "observe_dict": {
+      "view lane_*_start": [
+        "lane_1_start",
+        "lane_2_start",
+        "lane_3_start"
+      ],
+      "view lane_*_end": [
+        "lane_1_end",
+        "lane_2_end",
+        "lane_3_end"
+      ],
+      "view lane_*_mid": [
+        "lane_1_mid",
+        "lane_2_mid",
+        "lane_3_mid"
+      ],
+      "inspect reject_bin + pass_bin": [
+        "reject_bin",
+        "pass_bin"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "inspection_station",
+      "divert_position"
+    ],
+    "location_names": {
+      "start zones": [
+        "lane_1_start",
+        "lane_2_start",
+        "lane_3_start"
+      ],
+      "one of the central lane sections": [
+        "lane_1_mid",
+        "lane_2_mid",
+        "lane_3_mid"
+      ],
+      "any of the end sections": [
+        "lane_1_end",
+        "lane_2_end",
+        "lane_3_end"
+      ],
+      "reject or pass": [
+        "reject_bin",
+        "pass_bin"
+      ],
+      "lane 1": [
+        "lane_1_start",
+        "lane_1_mid",
+        "lane_1_end"
+      ],
+      "second lane assembly": [
+        "lane_2_start",
+        "lane_2_mid",
+        "lane_2_end"
+      ],
+      "somewhere on the Lanes 1 or 3": [
+        "lane_1_start",
+        "lane_1_mid",
+        "lane_1_end",
+        "lane_3_start",
+        "lane_3_mid",
+        "lane_3_end"
+      ],
+      "any of location on the lanes": [
+        "lane_1_start",
+        "lane_1_mid",
+        "lane_1_end",
+        "lane_2_start",
+        "lane_2_mid",
+        "lane_2_end",
+        "lane_3_start",
+        "lane_3_mid",
+        "lane_3_end"
+      ],
+      "somewhere on the lane 1": [
+        "lane_1_start",
+        "lane_1_mid",
+        "lane_1_end"
+      ],
+      "anywhere on the lane 3": [
+        "lane_3_start",
+        "lane_3_mid",
+        "lane_3_end"
+      ],
+      "anywhere on the lane 2": [
+        "lane_2_start",
+        "lane_2_mid",
+        "lane_2_end"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "dispenser_A",
+      "dispenser_B",
+      "dispenser_C",
+      "dispenser_D"
+    ],
+    "object_types": {
+      "red_bead": [
+        "red_pellet",
+        "red_ball"
+      ],
+      "blue_bead": [
+        "blue_pellet",
+        "blue_ball"
+      ],
+      "green_bead": [
+        "green_pellet",
+        "green_ball"
+      ],
+      "yellow_bead": [
+        "yellow_pellet",
+        "yellow_ball"
+      ],
+      "white_bead": [
+        "white_pellet",
+        "white_ball"
+      ],
+      "black_bead": [
+        "black_pellet",
+        "black_ball"
+      ],
+      "clear_bead": [
+        "clear_pellet",
+        "clear_ball"
+      ],
+      "gold_bead": [
+        "gold_pellet",
+        "gold_ball"
+      ],
+      "silver_bead": [
+        "silver_pellet",
+        "silver_ball"
+      ],
+      "pearl_bead": [
+        "pearl_pellet",
+        "pearl_ball"
+      ]
+    },
+    "observe_dict": {
+      "look at dispenser_A & dispenser_B": [
+        "dispenser_A",
+        "dispenser_B"
+      ],
+      "look at dispenser_C & dispenser_D": [
+        "dispenser_C",
+        "dispenser_D"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "stringing_station"
+    ],
+    "location_names": {
+      "dispensers A or B": [
+        "dispenser_A",
+        "dispenser_B"
+      ],
+      "dispensers C or D": [
+        "dispenser_C",
+        "dispenser_D"
+      ],
+      "dispensers B or C": [
+        "dispenser_B",
+        "dispenser_C"
+      ],
+      "dispensers A or D": [
+        "dispenser_A",
+        "dispenser_D"
+      ],
+      "dispensers A, B, or C": [
+        "dispenser_A",
+        "dispenser_B",
+        "dispenser_C"
+      ],
+      "dispensers B, C, or D": [
+        "dispenser_B",
+        "dispenser_C",
+        "dispenser_D"
+      ],
+      "dispensers A or C": [
+        "dispenser_A",
+        "dispenser_C"
+      ],
+      "somewhere in dispensers B or D": [
+        "dispenser_B",
+        "dispenser_D"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "drawer_1",
+      "drawer_2",
+      "drawer_3",
+      "drawer_4",
+      "drawer_5",
+      "drawer_6",
+      "drawer_7",
+      "drawer_8",
+      "drawer_9",
+      "drawer_10",
+      "countertop"
+    ],
+    "object_types": {
+      "medication_bottle": [
+        "pill_bottle",
+        "med_bottle"
+      ]
+    },
+    "observe_dict": {
+      "check drawer_1->drawer_5": [
+        "drawer_1",
+        "drawer_2",
+        "drawer_3",
+        "drawer_4",
+        "drawer_5"
+      ],
+      "check drawer_6->drawer_10": [
+        "drawer_6",
+        "drawer_7",
+        "drawer_8",
+        "drawer_9",
+        "drawer_10"
+      ],
+      "glance countertop": [
+        "countertop"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "dispensing_window"
+    ],
+    "location_names": {
+      "any of the drawers": [
+        "drawer_1",
+        "drawer_2",
+        "drawer_3",
+        "drawer_4",
+        "drawer_5",
+        "drawer_6",
+        "drawer_7",
+        "drawer_8",
+        "drawer_9",
+        "drawer_10"
+      ],
+      "somewhere on the top of the counter": [
+        "countertop"
+      ],
+      "somewhere in drawers 1, 2, or 3": [
+        "drawer_1",
+        "drawer_2",
+        "drawer_3"
+      ],
+      "any of the drawers 8 through 10": [
+        "drawer_8",
+        "drawer_9",
+        "drawer_10"
+      ],
+      "one of the middle drawers": [
+        "drawer_4",
+        "drawer_5",
+        "drawer_6",
+        "drawer_7"
+      ],
+      "somewhere in the odd numbered drawers": [
+        "drawer_1",
+        "drawer_3",
+        "drawer_5",
+        "drawer_7",
+        "drawer_9"
+      ],
+      "any of the drawers 1 or 10": [
+        "drawer_1",
+        "drawer_10"
+      ],
+      "inside the drawers 1 through 5": [
+        "drawer_1",
+        "drawer_2",
+        "drawer_3",
+        "drawer_4",
+        "drawer_5"
+      ],
+      "within any of the drawers 6 to 10": [
+        "drawer_6",
+        "drawer_7",
+        "drawer_8",
+        "drawer_9",
+        "drawer_10"
+      ],
+      "the drawer 5 or the countertop": [
+        "drawer_5",
+        "countertop"
+      ],
+      "one of the drawer units 1 or 2": [
+        "drawer_1",
+        "drawer_2"
+      ],
+      "within the last two drawers": [
+        "drawer_9",
+        "drawer_10"
+      ],
+      "either drawer 3 or drawer 4": [
+        "drawer_3",
+        "drawer_4"
+      ],
+      "any odd numbered drawers": [
+        "drawer_1",
+        "drawer_3",
+        "drawer_5",
+        "drawer_7",
+        "drawer_9"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "silo_1",
+      "silo_2",
+      "silo_3"
+    ],
+    "object_types": {
+      "grain_wheat": [
+        "wheat_grain",
+        "wheat_kernel"
+      ],
+      "grain_corn": [
+        "corn_grain",
+        "corn_kernel"
+      ],
+      "grain_barley": [
+        "barley_grain",
+        "barley_kernel"
+      ],
+      "grain_oat": [
+        "oat_grain",
+        "oat_kernel"
+      ],
+      "grain_rice": [
+        "rice_grain",
+        "rice_kernel"
+      ],
+      "grain_sorghum": [
+        "sorghum_grain",
+        "sorghum_kernel"
+      ],
+      "grain_millet": [
+        "millet_grain",
+        "millet_kernel"
+      ],
+      "grain_rye": [
+        "rye_grain",
+        "rye_kernel"
+      ],
+      "grain_quinoa": [
+        "quinoa_grain",
+        "quinoa_kernel"
+      ],
+      "grain_buckwheat": [
+        "buckwheat_grain",
+        "buckwheat_kernel"
+      ],
+      "grain_spelt": [
+        "spelt_grain",
+        "spelt_kernel"
+      ],
+      "grain_farro": [
+        "farro_grain",
+        "farro_kernel"
+      ],
+      "grain_teff": [
+        "teff_grain",
+        "teff_kernel"
+      ],
+      "grain_amaranth": [
+        "amaranth_grain",
+        "amaranth_kernel"
+      ]
+    },
+    "observe_dict": {
+      "checkLevel silo_1": [
+        "silo_1"
+      ],
+      "checkLevel silo_2": [
+        "silo_2"
+      ],
+      "checkLevel silo_3": [
+        "silo_3"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "auger_position",
+      "hopper_fill"
+    ],
+    "location_names": {
+      "from any of the silos 1 or 2": [
+        "silo_1",
+        "silo_2"
+      ],
+      "inside the tanks 2 or 3": [
+        "silo_2",
+        "silo_3"
+      ],
+      "from either silo 1 or silo 3": [
+        "silo_1",
+        "silo_3"
+      ],
+      "within any of the first two silos": [
+        "silo_1",
+        "silo_2"
+      ],
+      "from the last two silos": [
+        "silo_2",
+        "silo_3"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "palette_well_1",
+      "palette_well_2",
+      "palette_well_3",
+      "palette_well_4",
+      "palette_well_5",
+      "palette_well_6",
+      "palette_well_7",
+      "palette_well_8",
+      "canvas_zone_A",
+      "canvas_zone_B",
+      "canvas_zone_C",
+      "water_cup",
+      "rag_spot"
+    ],
+    "object_types": {
+      "brush_fine": [
+        "fine_brush",
+        "brush_thin"
+      ],
+      "brush_medium": [
+        "medium_brush",
+        "brush_mid"
+      ],
+      "brush_broad": [
+        "broad_brush",
+        "brush_wide"
+      ]
+    },
+    "observe_dict": {
+      "scan palette_well_1->palette_well_8": [
+        "palette_well_1",
+        "palette_well_2",
+        "palette_well_3",
+        "palette_well_4",
+        "palette_well_5",
+        "palette_well_6",
+        "palette_well_7",
+        "palette_well_8"
+      ],
+      "look at canvas_zone_A canvas_zone_B canvas_zone_C": [
+        "canvas_zone_A",
+        "canvas_zone_B",
+        "canvas_zone_C"
+      ],
+      "peek water_cup & rag_spot": [
+        "water_cup",
+        "rag_spot"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "easel_approach",
+      "dip_position"
+    ],
+    "location_names": {
+      "any of the palette wells": [
+        "palette_well_1",
+        "palette_well_2",
+        "palette_well_3",
+        "palette_well_4",
+        "palette_well_5",
+        "palette_well_6",
+        "palette_well_7",
+        "palette_well_8"
+      ],
+      "somewhere on the canvas": [
+        "canvas_zone_A",
+        "canvas_zone_B",
+        "canvas_zone_C"
+      ],
+      "inside wells 1 through 4": [
+        "palette_well_1",
+        "palette_well_2",
+        "palette_well_3",
+        "palette_well_4"
+      ],
+      "inside wells 5 through 8": [
+        "palette_well_5",
+        "palette_well_6",
+        "palette_well_7",
+        "palette_well_8"
+      ],
+      "on canvas zones A or B": [
+        "canvas_zone_A",
+        "canvas_zone_B"
+      ],
+      "from any of the odd numbered wells": [
+        "palette_well_1",
+        "palette_well_3",
+        "palette_well_5",
+        "palette_well_7"
+      ],
+      "from any of the even numbered wells": [
+        "palette_well_2",
+        "palette_well_4",
+        "palette_well_6",
+        "palette_well_8"
+      ],
+      "from the first three palettes or first three canvas zones": [
+        "palette_well_1",
+        "palette_well_2",
+        "palette_well_3",
+        "canvas_zone_A",
+        "canvas_zone_B",
+        "canvas_zone_C"
+      ],
+      "on the surface areas B or C": [
+        "canvas_zone_B",
+        "canvas_zone_C"
+      ],
+      "from wells 4 or 5": [
+        "palette_well_4",
+        "palette_well_5"
+      ],
+      "anywhere on the palette or the rag": [
+        "palette_well_1",
+        "palette_well_2",
+        "palette_well_3",
+        "palette_well_4",
+        "palette_well_5",
+        "palette_well_6",
+        "palette_well_7",
+        "palette_well_8",
+        "rag_spot"
+      ],
+      "from canvas A or the water cup": [
+        "canvas_zone_A",
+        "water_cup"
+      ],
+      "in any of the wells 1, 4, or 8": [
+        "palette_well_1",
+        "palette_well_4",
+        "palette_well_8"
+      ],
+      "somewhere in the middle wells (3-6)": [
+        "palette_well_3",
+        "palette_well_4",
+        "palette_well_5",
+        "palette_well_6"
+      ],
+      "from the outer zones (A and C)": [
+        "canvas_zone_A",
+        "canvas_zone_C"
+      ],
+      "from the wells 1 and 2 or the water cup": [
+        "palette_well_1",
+        "palette_well_2",
+        "water_cup"
+      ],
+      "somewhere on the canvas zones or the rag spot": [
+        "canvas_zone_A",
+        "canvas_zone_B",
+        "canvas_zone_C",
+        "rag_spot"
+      ],
+      "from the last three wells or canvas zone C": [
+        "palette_well_6",
+        "palette_well_7",
+        "palette_well_8",
+        "canvas_zone_C"
+      ],
+      "inside wells 4, 5, 6 or the water cup": [
+        "palette_well_4",
+        "palette_well_5",
+        "palette_well_6",
+        "water_cup"
+      ],
+      "from canvas zone A or well 1": [
+        "canvas_zone_A",
+        "palette_well_1"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "input_chute",
+      "penny_bin",
+      "nickel_bin",
+      "dime_bin",
+      "quarter_bin",
+      "reject_slot"
+    ],
+    "object_types": {
+      "coin_penny": [
+        "penny",
+        "cent_coin"
+      ],
+      "coin_nickel": [
+        "nickel",
+        "five_cent_coin"
+      ],
+      "coin_dime": [
+        "dime",
+        "ten_cent_coin"
+      ],
+      "coin_quarter": [
+        "quarter",
+        "twenty_five_cent_coin"
+      ],
+      "coin_half_dollar": [
+        "half_dollar",
+        "fifty_cent_coin"
+      ],
+      "coin_dollar": [
+        "dollar_coin",
+        "buck"
+      ]
+    },
+    "observe_dict": {
+      "watch input_chute": [
+        "input_chute"
+      ],
+      "scan penny_bin & nickel_bin": [
+        "penny_bin",
+        "nickel_bin"
+      ],
+      "scan dime_bin & quarter_bin": [
+        "dime_bin",
+        "quarter_bin"
+      ],
+      "peek reject_slot": [
+        "reject_slot"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "sorting_position"
+    ],
+    "location_names": {
+      "from any of the valid coin bins": [
+        "penny_bin",
+        "nickel_bin",
+        "dime_bin",
+        "quarter_bin"
+      ],
+      "somewhere in the input or reject slots": [
+        "input_chute",
+        "reject_slot"
+      ],
+      "inside the penny or nickel containers": [
+        "penny_bin",
+        "nickel_bin"
+      ],
+      "from the dime or quarter trays": [
+        "dime_bin",
+        "quarter_bin"
+      ],
+      "from the input chute or the quarter bin": [
+        "input_chute",
+        "quarter_bin"
+      ],
+      "inside any of the receptacles excluding the input": [
+        "penny_bin",
+        "nickel_bin",
+        "dime_bin",
+        "quarter_bin",
+        "reject_slot"
+      ],
+      "from the penny bin or the reject slot": [
+        "penny_bin",
+        "reject_slot"
+      ],
+      "from the dime bin or the input chute": [
+        "dime_bin",
+        "input_chute"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "shelf_L1_S1",
+      "shelf_L1_S2",
+      "shelf_L1_S3",
+      "shelf_L1_S4",
+      "shelf_L2_S1",
+      "shelf_L2_S2",
+      "shelf_L2_S3",
+      "shelf_L2_S4",
+      "shelf_L3_S1",
+      "shelf_L3_S2",
+      "shelf_L3_S3",
+      "shelf_L3_S4",
+      "packing_table",
+      "shipping_dock"
+    ],
+    "object_types": {
+      "product_SKU_001": [
+        "item_SKU_001",
+        "sku_001"
+      ],
+      "product_SKU_002": [
+        "item_SKU_002",
+        "sku_002"
+      ],
+      "product_SKU_003": [
+        "item_SKU_003",
+        "sku_003"
+      ],
+      "product_SKU_004": [
+        "item_SKU_004",
+        "sku_004"
+      ],
+      "product_SKU_005": [
+        "item_SKU_005",
+        "sku_005"
+      ]
+    },
+    "observe_dict": {
+      "scanLevel shelf_L1_*": [
+        "shelf_L1_S1",
+        "shelf_L1_S2",
+        "shelf_L1_S3",
+        "shelf_L1_S4"
+      ],
+      "scanLevel shelf_L2_*": [
+        "shelf_L2_S1",
+        "shelf_L2_S2",
+        "shelf_L2_S3",
+        "shelf_L2_S4"
+      ],
+      "scanLevel shelf_L3_*": [
+        "shelf_L3_S1",
+        "shelf_L3_S2",
+        "shelf_L3_S3",
+        "shelf_L3_S4"
+      ],
+      "observe packing_table + shipping_dock": [
+        "packing_table",
+        "shipping_dock"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "aisle_traverse",
+      "lift_high",
+      "lift_low"
+    ],
+    "location_names": {
+      "shelf_L1 slots": [
+        "shelf_L1_S1",
+        "shelf_L1_S2",
+        "shelf_L1_S3",
+        "shelf_L1_S4"
+      ],
+      "shelf_L2 slots": [
+        "shelf_L2_S1",
+        "shelf_L2_S2",
+        "shelf_L2_S3",
+        "shelf_L2_S4"
+      ],
+      "shelf_L3 slots": [
+        "shelf_L3_S1",
+        "shelf_L3_S2",
+        "shelf_L3_S3",
+        "shelf_L3_S4"
+      ],
+      "any shelf compartment": [
+        "shelf_L1_S1",
+        "shelf_L1_S2",
+        "shelf_L1_S3",
+        "shelf_L1_S4",
+        "shelf_L2_S1",
+        "shelf_L2_S2",
+        "shelf_L2_S3",
+        "shelf_L2_S4",
+        "shelf_L3_S1",
+        "shelf_L3_S2",
+        "shelf_L3_S3",
+        "shelf_L3_S4"
+      ],
+      "self S1 of each level": [
+        "shelf_L1_S1",
+        "shelf_L2_S1",
+        "shelf_L3_S1"
+      ],
+      "shelf S4 of each level": [
+        "shelf_L1_S4",
+        "shelf_L2_S4",
+        "shelf_L3_S4"
+      ],
+      "packing or shipping areas": [
+        "packing_table",
+        "shipping_dock"
+      ],
+      "level 1 or level 2 of the shelfs": [
+        "shelf_L1_S1",
+        "shelf_L1_S2",
+        "shelf_L1_S3",
+        "shelf_L1_S4",
+        "shelf_L2_S1",
+        "shelf_L2_S2",
+        "shelf_L2_S3",
+        "shelf_L2_S4"
+      ],
+      "shelfs level 2 or level 3 positions": [
+        "shelf_L2_S1",
+        "shelf_L2_S2",
+        "shelf_L2_S3",
+        "shelf_L2_S4",
+        "shelf_L3_S1",
+        "shelf_L3_S2",
+        "shelf_L3_S3",
+        "shelf_L3_S4"
+      ],
+      "first two cells on each shelf level": [
+        "shelf_L1_S1",
+        "shelf_L1_S2",
+        "shelf_L2_S1",
+        "shelf_L2_S2",
+        "shelf_L3_S1",
+        "shelf_L3_S2"
+      ],
+      "last two units on each shelf level": [
+        "shelf_L1_S3",
+        "shelf_L1_S4",
+        "shelf_L2_S3",
+        "shelf_L2_S4",
+        "shelf_L3_S3",
+        "shelf_L3_S4"
+      ],
+      "odd numbered compartments across all shelf levels": [
+        "shelf_L1_S1",
+        "shelf_L1_S3",
+        "shelf_L2_S1",
+        "shelf_L2_S3",
+        "shelf_L3_S1",
+        "shelf_L3_S3"
+      ],
+      "even numbered positions across all shelf levels": [
+        "shelf_L1_S2",
+        "shelf_L1_S4",
+        "shelf_L2_S2",
+        "shelf_L2_S4",
+        "shelf_L3_S2",
+        "shelf_L3_S4"
+      ],
+      "bays S2 and S3 of each shelf level": [
+        "shelf_L1_S2",
+        "shelf_L1_S3",
+        "shelf_L2_S2",
+        "shelf_L2_S3",
+        "shelf_L3_S2",
+        "shelf_L3_S3"
+      ],
+      "shelf level L1 slots or the packing table": [
+        "shelf_L1_S1",
+        "shelf_L1_S2",
+        "shelf_L1_S3",
+        "shelf_L1_S4",
+        "packing_table"
+      ],
+      "shelf level L3 units or shipping dock": [
+        "shelf_L3_S1",
+        "shelf_L3_S2",
+        "shelf_L3_S3",
+        "shelf_L3_S4",
+        "shipping_dock"
+      ],
+      "shelf L1 compartments": [
+        "shelf_L1_S1",
+        "shelf_L1_S2",
+        "shelf_L1_S3",
+        "shelf_L1_S4"
+      ],
+      "shelf L2 positions": [
+        "shelf_L2_S1",
+        "shelf_L2_S2",
+        "shelf_L2_S3",
+        "shelf_L2_S4"
+      ],
+      "shelf L3 bays": [
+        "shelf_L3_S1",
+        "shelf_L3_S2",
+        "shelf_L3_S3",
+        "shelf_L3_S4"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "pot_small",
+      "pot_medium",
+      "pot_large",
+      "burner_front_left",
+      "burner_front_right",
+      "burner_back_left",
+      "burner_back_right",
+      "prep_board",
+      "sink_basin"
+    ],
+    "object_types": {
+      "vegetable_carrot": [
+        "carrot",
+        "veg_carrot"
+      ],
+      "vegetable_potato": [
+        "potato",
+        "veg_potato"
+      ],
+      "vegetable_onion": [
+        "onion",
+        "veg_onion"
+      ],
+      "vegetable_celery": [
+        "celery",
+        "veg_celery"
+      ],
+      "protein_chicken": [
+        "chicken",
+        "poultry"
+      ],
+      "protein_beef": [
+        "beef",
+        "steak_cut"
+      ],
+      "protein_tofu": [
+        "tofu",
+        "bean_curd"
+      ],
+      "seasoning_salt": [
+        "salt",
+        "table_salt"
+      ],
+      "seasoning_pepper": [
+        "pepper",
+        "black_pepper"
+      ],
+      "liquid_broth": [
+        "broth",
+        "stock"
+      ]
+    },
+    "observe_dict": {
+      "watch burner_front_left burner_front_right burner_back_left burner_back_right": [
+        "burner_front_left",
+        "burner_front_right",
+        "burner_back_left",
+        "burner_back_right"
+      ],
+      "look at prep_board & sink_basin": [
+        "prep_board",
+        "sink_basin"
+      ],
+      "glance pot_small pot_medium pot_large": [
+        "pot_small",
+        "pot_medium",
+        "pot_large"
+      ],
+      "view burner_front_*": [
+        "burner_front_left",
+        "burner_front_right"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "stove_approach",
+      "sink_position",
+      "prep_station"
+    ],
+    "location_names": {
+      "pot small|medium|large": [
+        "pot_small",
+        "pot_medium",
+        "pot_large"
+      ],
+      "burner front+back": [
+        "burner_front_left",
+        "burner_front_right",
+        "burner_back_left",
+        "burner_back_right"
+      ],
+      "front burners": [
+        "burner_front_left",
+        "burner_front_right"
+      ],
+      "back burners": [
+        "burner_back_left",
+        "burner_back_right"
+      ],
+      "burners on the left": [
+        "burner_front_left",
+        "burner_back_left"
+      ],
+      "burners on the right": [
+        "burner_front_right",
+        "burner_back_right"
+      ],
+      "prep board or sink": [
+        "prep_board",
+        "sink_basin"
+      ],
+      "any pot or the prep board": [
+        "pot_small",
+        "pot_medium",
+        "pot_large",
+        "prep_board"
+      ],
+      "small or medium pot": [
+        "pot_small",
+        "pot_medium"
+      ],
+      "medium or large pot": [
+        "pot_medium",
+        "pot_large"
+      ],
+      "any burner or the sink": [
+        "burner_front_left",
+        "burner_front_right",
+        "burner_back_left",
+        "burner_back_right",
+        "sink_basin"
+      ],
+      "front_left or back_right burner": [
+        "burner_front_left",
+        "burner_back_right"
+      ],
+      "the sink or the prep board": [
+        "sink_basin",
+        "prep_board"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "tire_bay_FL",
+      "tire_bay_FR",
+      "tire_bay_RL",
+      "tire_bay_RR",
+      "tire_rack_new",
+      "tire_rack_used",
+      "balancer_machine",
+      "disposal_area"
+    ],
+    "object_types": {
+      "tire_summer": [
+        "summer_tire",
+        "summer_tyre"
+      ],
+      "tire_winter": [
+        "winter_tire",
+        "winter_tyre"
+      ],
+      "tire_allseason": [
+        "allseason_tire",
+        "all_season_tyre"
+      ]
+    },
+    "observe_dict": {
+      "inspect tire_bay_FL|FR|RL|RR": [
+        "tire_bay_FL",
+        "tire_bay_FR",
+        "tire_bay_RL",
+        "tire_bay_RR"
+      ],
+      "check tire_rack_new + tire_rack_used": [
+        "tire_rack_new",
+        "tire_rack_used"
+      ],
+      "monitor balancer_machine": [
+        "balancer_machine"
+      ],
+      "glance disposal_area": [
+        "disposal_area"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "lift_clearance",
+      "wheel_approach"
+    ],
+    "location_names": {
+      "tire_bay FL/FR/RL/RR": [
+        "tire_bay_FL",
+        "tire_bay_FR",
+        "tire_bay_RL",
+        "tire_bay_RR"
+      ],
+      "tire_rack new & used": [
+        "tire_rack_new",
+        "tire_rack_used"
+      ],
+      "front tire bays (FL and FR)": [
+        "tire_bay_FL",
+        "tire_bay_FR"
+      ],
+      "rear tire bays (RL and RR)": [
+        "tire_bay_RL",
+        "tire_bay_RR"
+      ],
+      "tire bays on the left (FL and RL)": [
+        "tire_bay_FL",
+        "tire_bay_RL"
+      ],
+      "tire bays on the right (FR and RR)": [
+        "tire_bay_FR",
+        "tire_bay_RR"
+      ],
+      "any tire bay or the balancer": [
+        "tire_bay_FL",
+        "tire_bay_FR",
+        "tire_bay_RL",
+        "tire_bay_RR",
+        "balancer_machine"
+      ],
+      "storage or disposal areas": [
+        "tire_rack_new",
+        "tire_rack_used",
+        "disposal_area"
+      ],
+      "new rack or any bay": [
+        "tire_rack_new",
+        "tire_bay_FL",
+        "tire_bay_FR",
+        "tire_bay_RL",
+        "tire_bay_RR"
+      ],
+      "processing stations": [
+        "balancer_machine",
+        "disposal_area"
+      ],
+      "tire bay FL or RR": [
+        "tire_bay_FL",
+        "tire_bay_RR"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "tree_1",
+      "tree_2",
+      "tree_3",
+      "tree_4",
+      "tree_5",
+      "tree_6",
+      "tree_7",
+      "tree_8",
+      "tree_9",
+      "tree_10",
+      "tree_11",
+      "tree_12",
+      "tree_13",
+      "tree_14",
+      "tree_15",
+      "collection_bin",
+      "sorting_table"
+    ],
+    "object_types": {
+      "apple_red": [
+        "red_apple",
+        "apple_crimson"
+      ],
+      "apple_green": [
+        "green_apple",
+        "apple_granny"
+      ]
+    },
+    "observe_dict": {
+      "scan tree_1->tree_5": [
+        "tree_1",
+        "tree_2",
+        "tree_3",
+        "tree_4",
+        "tree_5"
+      ],
+      "scan tree_6->tree_10": [
+        "tree_6",
+        "tree_7",
+        "tree_8",
+        "tree_9",
+        "tree_10"
+      ],
+      "scan tree_11->tree_15": [
+        "tree_11",
+        "tree_12",
+        "tree_13",
+        "tree_14",
+        "tree_15"
+      ],
+      "look at collection_bin & sorting_table": [
+        "collection_bin",
+        "sorting_table"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "orchard_entry",
+      "collection_point"
+    ],
+    "location_names": {
+      "tree 1-7": [
+        "tree_1",
+        "tree_2",
+        "tree_3",
+        "tree_4",
+        "tree_5",
+        "tree_6",
+        "tree_7"
+      ],
+      "tree 8-10": [
+        "tree_8",
+        "tree_9",
+        "tree_10"
+      ],
+      "tree 1-5 or tree 6-10": [
+        "tree_1",
+        "tree_2",
+        "tree_3",
+        "tree_4",
+        "tree_5",
+        "tree_6",
+        "tree_7",
+        "tree_8",
+        "tree_9",
+        "tree_10"
+      ],
+      "tree 5-7 or tree 11-12": [
+        "tree_5",
+        "tree_6",
+        "tree_7",
+        "tree_11",
+        "tree_12"
+      ],
+      "tree 3-5 or tree 13": [
+        "tree_3",
+        "tree_4",
+        "tree_5",
+        "tree_13"
+      ],
+      "tree 1-3 or tree 12-15": [
+        "tree_1",
+        "tree_2",
+        "tree_3",
+        "tree_12",
+        "tree_13",
+        "tree_14",
+        "tree_15"
+      ],
+      "tree 6-10": [
+        "tree_6",
+        "tree_7",
+        "tree_8",
+        "tree_9",
+        "tree_10"
+      ],
+      "tree 11-15": [
+        "tree_11",
+        "tree_12",
+        "tree_13",
+        "tree_14",
+        "tree_15"
+      ],
+      "any tree in the orchard": [
+        "tree_1",
+        "tree_2",
+        "tree_3",
+        "tree_4",
+        "tree_5",
+        "tree_6",
+        "tree_7",
+        "tree_8",
+        "tree_9",
+        "tree_10",
+        "tree_11",
+        "tree_12",
+        "tree_13",
+        "tree_14",
+        "tree_15"
+      ],
+      "collection or sorting areas": [
+        "collection_bin",
+        "sorting_table"
+      ],
+      "trees 1 through 5 or collection bin": [
+        "tree_1",
+        "tree_2",
+        "tree_3",
+        "tree_4",
+        "tree_5",
+        "collection_bin"
+      ],
+      "odd numbered trees": [
+        "tree_1",
+        "tree_3",
+        "tree_5",
+        "tree_7",
+        "tree_9",
+        "tree_11",
+        "tree_13",
+        "tree_15"
+      ],
+      "even numbered trees": [
+        "tree_2",
+        "tree_4",
+        "tree_6",
+        "tree_8",
+        "tree_10",
+        "tree_12",
+        "tree_14"
+      ],
+      "first three trees": [
+        "tree_1",
+        "tree_2",
+        "tree_3"
+      ],
+      "last three trees": [
+        "tree_13",
+        "tree_14",
+        "tree_15"
+      ],
+      "trees 5 through 10": [
+        "tree_5",
+        "tree_6",
+        "tree_7",
+        "tree_8",
+        "tree_9",
+        "tree_10"
+      ],
+      "trees in the middle section (6-10)": [
+        "tree_6",
+        "tree_7",
+        "tree_8",
+        "tree_9",
+        "tree_10"
+      ],
+      "edge trees (1, 5, 11, and 15)": [
+        "tree_1",
+        "tree_5",
+        "tree_11",
+        "tree_15"
+      ],
+      "trees 11 through 15 or the sorting table": [
+        "tree_11",
+        "tree_12",
+        "tree_13",
+        "tree_14",
+        "tree_15",
+        "sorting_table"
+      ]
+    }
+  }
+]

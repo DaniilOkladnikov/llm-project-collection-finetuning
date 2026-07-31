@@ -33,9 +33,9 @@ DATASET_NAME = "dataset"
 # of them renders to more tokens than this. Applied before anything else,
 # including the max_seq_length measurement, so the context window is sized to
 # what actually gets trained on.
-MAX_CONTEXT_TOKENS = 4000
+MAX_CONTEXT_TOKENS = 5600
 # Fraction of the surviving records to train on, sampled at random.
-DATASET_FRACTION = 0.4
+DATASET_FRACTION = 1
 DATASET_SAMPLE_SEED = 12345
 
 # ============================================================

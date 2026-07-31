@@ -18,10 +18,10 @@ env/
 # uv
 .uv/
 
-# Datasets
+# Datasets — large generated finetuning data (the actual training .json files live here).
+# Policy: everything under datasets/ stays OUT of git; ALL other JSON (configs, scene
+# drafts, analysis outputs, etc.) IS committed. Do NOT add a blanket *.json ignore.
 datasets/
-*.json
-!src/finetuning/scenario_drafts.json
 
 # Model outputs & checkpoints
 outputs/
