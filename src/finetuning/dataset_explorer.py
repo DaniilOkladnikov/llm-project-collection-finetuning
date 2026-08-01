@@ -28,7 +28,7 @@ from pathlib import Path
 from tkinter import font as tkfont
 from typing import Any
 
-DEFAULT_DATASET = Path(__file__).parent / "datasets" / "dataset.json"
+DEFAULT_DATASET = Path(__file__).parent / "datasets" / "dataset_2026-07-31_15-10-47.json"
 
 BG = "#1e1f26"
 PANEL = "#262832"
@@ -39,7 +39,6 @@ KEY = "#c3a6ff"
 VALUE = "#9ece6a"
 
 Invocation = dict[str, Any]
-
 
 def load_conversations(path: Path) -> list[list[Invocation]]:
     """Group the flat dataset into conversations ordered by invocation index."""

@@ -1,0 +1,83 @@
+{
+ "unreachable": [
+  {
+   "task_id": 53,
+   "label": "answer_4",
+   "branch": -1,
+   "macro": "thereisno([X])",
+   "reason": "dead code: answer_1/answer_2 emitted earlier terminate the turn."
+  },
+  {
+   "task_id": 55,
+   "label": "answer_6",
+   "branch": -1,
+   "macro": "thereisno([X])",
+   "reason": "dead code: an earlier answer terminates the turn."
+  },
+  {
+   "task_id": 70,
+   "label": "answer_4",
+   "branch": -1,
+   "macro": "thereisno([X])",
+   "reason": "dead code: answer_1/answer_2 emitted earlier terminate the turn."
+  },
+  {
+   "task_id": 21,
+   "label": "answer_3",
+   "branch": 0,
+   "macro": "isempty(A)",
+   "reason": "`where value is not W` also matches empty slots, so loc is never None while A is empty -> isempty branch never taken."
+  },
+  {
+   "task_id": 11,
+   "label": "answer_2",
+   "branch": -1,
+   "macro": "atpos(loc)",
+   "reason": "program does `go to pick MEMORY.scans[loc] from loc` where loc is an empty slot; there is no pick pose for type 'empty'."
+  },
+  {
+   "task_id": 19,
+   "label": "answer_3",
+   "branch": -1,
+   "macro": "picked(X, loc)",
+   "reason": "`place in loc` targets loc = first NON-empty slot of B, i.e. placing into an occupied slot (invalid)."
+  },
+  {
+   "task_id": 26,
+   "label": "answer_1",
+   "branch": -1,
+   "macro": "donthold",
+   "reason": "donthold needs gripper open, but the required prior `picked` leaves the gripper closed."
+  },
+  {
+   "task_id": 26,
+   "label": "answer_2",
+   "branch": -1,
+   "macro": "placed(X, loc)",
+   "reason": "`place in loc` where loc must already hold X (scans==X): placing into an occupied slot (invalid)."
+  },
+  {
+   "task_id": 53,
+   "label": "answer_3",
+   "branch": -1,
+   "macro": "picked(X, loc). atpos(MEMORY.original position)",
+   "reason": "dead code: answer_1/answer_2 emitted earlier terminate the turn."
+  },
+  {
+   "task_id": 55,
+   "label": "answer_5",
+   "branch": -1,
+   "macro": "picked(X, loc). atpos(MEMORY.original position)",
+   "reason": "dead code: an earlier answer terminates the turn."
+  },
+  {
+   "task_id": 70,
+   "label": "answer_3",
+   "branch": -1,
+   "macro": "picked(X, loc)",
+   "reason": "dead code: answer_1/answer_2 emitted earlier terminate the turn."
+  }
+ ],
+ "conversations": 524,
+ "elements": 10981
+}

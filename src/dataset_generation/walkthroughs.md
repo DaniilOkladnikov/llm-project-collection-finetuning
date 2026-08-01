@@ -19,7 +19,9 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
+
 
 MEMORY
 cursor = L1
@@ -40,7 +42,8 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
 cursor = L1
@@ -69,7 +72,8 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
 cursor = L1
@@ -103,7 +107,8 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
 cursor = L2
@@ -141,7 +146,8 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
 cursor = L3
@@ -164,7 +170,7 @@ MEMORY
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
 cursor = L4
 ```
-
+---
 #### Invocation 6
 
 Input
@@ -175,7 +181,8 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
 cursor = L4
@@ -196,13 +203,11 @@ RESOLUTION
 L4 
 
 MEMORY
-cursor = done
-brick = cube
-first box = ["box1_1", "box1_2"]
+cursor = L5
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 ```
 
 ---
-
 #### Invocation 7
 
 Input
@@ -213,10 +218,11 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
-cursor = done
+cursor = L5
 position = unknown
 gripper = unknown
 held = unknown
@@ -224,29 +230,20 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-brick = cube
-first box = ["box1_1", "box1_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 
 RESOLUTION
-L4 
+L4
 ```
 Output
 ```
-PROGRAM
-L1 check gripper
-L2 if gripper is closed:
-L3   answer_1
-L4 else:
-L5   observe first box
-L6 remember loc = first in MEMORY.scans[first box] where value is brick
-L7 if loc is not none:
-L8   pick from loc
-L9   answer_2
-L10 else:
-L11  answer_3
+RESOLUTION
+L5 
 
 MEMORY
-cursor = L1
+cursor = done
+brick = cube
+first box = ["box1_1", "box1_2"]
 ```
 
 ---
@@ -258,6 +255,31 @@ Input
 User: pick up a brick from the first box
 
 PROGRAM
+L1 remember avaliable positions = get positions
+L2 parse avaliable positions for objects
+L3 parse avaliable positions for locations
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
+
+MEMORY
+cursor = done
+position = unknown
+gripper = unknown
+held = unknown
+avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
+"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+brick = cube
+first box = ["box1_1", "box1_2"]
+
+RESOLUTION
+L4 
+```
+Output
+```
+PROGRAM
 L1 check gripper
 L2 if gripper is closed:
 L3   answer_1
@@ -272,26 +294,6 @@ L11  answer_3
 
 MEMORY
 cursor = L1
-position = unknown
-gripper = unknown
-held = unknown
-avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
-"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
-objects = ["cube"]
-locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-brick = cube
-first box = ["box1_1", "box1_2"]
-
-RESOLUTION
-L4 
-```
-Output
-```
-RESOLUTION
-L1 
-
-TOOL CALL
- get_gripper_state()
 ```
 
 ---
@@ -324,27 +326,24 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
+RESOLUTION
+L4 
+```
+Output
+```
 RESOLUTION
 L1 
 
 TOOL CALL
  get_gripper_state()
+```
 
-TOOL RESULTS
- get_gripper_state = {status:"OK", content: "open"}
-
-```
-Output
-```
-MEMORY
-gripper = open
-held = none
-cursor = L2
-```
 ---
+
 #### Invocation 10
 
 Input
@@ -365,14 +364,15 @@ L10 else:
 L11  answer_3
 
 MEMORY
-cursor = L2
+cursor = L1
 position = unknown
-gripper = open
-held = none
+gripper = unknown
+held = unknown
 avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -381,16 +381,17 @@ L1
 
 TOOL CALL
  get_gripper_state()
+
+TOOL RESULTS
+ get_gripper_state = {status:"OK", content: "open"}
+
 ```
 Output
 ```
-RESOLUTION
-L2 gripper is closed = False
-   selected: L5
-L5 observation positions = ["observe_box1"]
-
-TOOL CALL
-move_robot_to(position="observe_box1")
+MEMORY
+gripper = open
+held = none
+cursor = L2
 ```
 ---
 #### Invocation 11
@@ -421,6 +422,56 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+brick = cube
+first box = ["box1_1", "box1_2"]
+
+RESOLUTION
+L1 
+
+TOOL CALL
+ get_gripper_state()
+```
+Output
+```
+RESOLUTION
+L2 gripper is closed = False
+   selected: L5
+L5 observation positions = ["observe_box1"]
+
+TOOL CALL
+move_robot_to(position="observe_box1")
+```
+---
+#### Invocation 12
+
+Input
+```
+User: pick up a brick from the first box
+
+PROGRAM
+L1 check gripper
+L2 if gripper is closed:
+L3   answer_1
+L4 else:
+L5   observe first box
+L6 remember loc = first in MEMORY.scans[first box] where value is brick
+L7 if loc is not none:
+L8   pick from loc
+L9   answer_2
+L10 else:
+L11  answer_3
+
+MEMORY
+cursor = L2
+position = unknown
+gripper = open
+held = none
+avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
+"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -446,7 +497,7 @@ locate_shapes()
 
 ```
 ---
-#### Invocation 12
+#### Invocation 13
 
 Input
 ```
@@ -474,6 +525,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -500,7 +552,7 @@ cursor = L6
 
 ---
 
-#### Invocation 13
+#### Invocation 14
 
 Input
 ```
@@ -555,7 +607,7 @@ cursor = L7
 ```
 ---
 
-#### Invocation 14
+#### Invocation 15
 
 Input
 ```
@@ -607,7 +659,7 @@ move_robot_to(position="pick_cube_box1_1")
 ```
 ---
 
-#### Invocation 15
+#### Invocation 16
 
 Input
 ```
@@ -663,7 +715,7 @@ close_gripper()
 ```
 ---
 
-#### Invocation 16
+#### Invocation 17
 
 Input
 ```
@@ -720,7 +772,7 @@ cursor = L9
 ```
 ---
 
-#### Invocation 17
+#### Invocation 18
 
 Input
 ```
@@ -789,9 +841,9 @@ Picked up cube from pick_cube_box1_1
 
 ---
 
-#### Invocations 1-5: same as previous
+#### Invocations 1-6: same as previous
 
-#### Invocation 6
+#### Invocation 7
 Input
 ```
 User: You are holding a brick. Place it into second compartment of first box
@@ -800,10 +852,11 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
-cursor = L4
+cursor = L5
 position = unknown
 gripper = unknown
 held = unknown
@@ -811,14 +864,15 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 
 RESOLUTION
-L3 
+L4 
 ```
 Output
 ```
 RESOLUTION
-L4 
+L5 
 
 MEMORY
 cursor = done
@@ -830,7 +884,7 @@ held = cube
 
 ---
 
-#### Invocation 7
+#### Invocation 8
 
 Input
 ```
@@ -840,7 +894,8 @@ PROGRAM
 L1 remember avaliable positions = get positions
 L2 parse avaliable positions for objects
 L3 parse avaliable positions for locations
-L4 parse user
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
 
 MEMORY
 cursor = done
@@ -851,11 +906,12 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 brick = cube
 second compartment of first box = ["box1_2"]
 
 RESOLUTION
-L4 
+L5 
 ```
 Output
 ```
@@ -874,7 +930,7 @@ cursor = L1
 
 ---
 
-#### Invocations 8+: execution of program.
+#### Invocations 9+: execution of program.
 
 ### Task with id=10
 
@@ -885,85 +941,7 @@ cursor = L1
 
 ---
 
-#### Invocations 1-4: same as previous
-
-#### Invocation 5
-
-Input
-```
-User: Visit the observation points for the first box and then the second box
-
-PROGRAM
-L1 remember avaliable positions = get positions
-L2 parse avaliable positions for objects
-L3 parse avaliable positions for locations
-L4 parse user
-
-MEMORY
-cursor = L4
-position = unknown
-gripper = unknown
-held = unknown
-avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
-"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
-objects = ["cube"]
-locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-
-RESOLUTION
-L3
-```
-Output
-```
-RESOLUTION
-L4 
-
-MEMORY
-cursor = done
-the first box = ["box1_1", "box1_2"]
-the second box = ["box2_1", "box2_2"]
-```
-
----
-
-#### Invocation 6
-
-Input
-```
-User: Visit the observation points for the first box and then the second box
-
-PROGRAM
-L1 remember avaliable positions = get positions
-L2 parse avaliable positions for objects
-L3 parse avaliable positions for locations
-L4 parse user
-
-MEMORY
-cursor = done
-position = unknown
-gripper = unknown
-held = unknown
-avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
-"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
-objects = ["cube"]
-locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-the first box = ["box1_1", "box1_2"]
-the second box = ["box2_1", "box2_2"]
-
-RESOLUTION
-L4 
-```
-Output
-```
-PROGRAM
-L1 go to observation of the first box
-L2 go to observation of the second box
-L3 answer_1
-
-MEMORY
-cursor = L1
-```
-
----
+#### Invocations 1-6: same as previous
 
 #### Invocation 7
 
@@ -972,6 +950,88 @@ Input
 User: Visit the observation points for the first box and then the second box
 
 PROGRAM
+L1 remember avaliable positions = get positions
+L2 parse avaliable positions for objects
+L3 parse avaliable positions for locations
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
+
+MEMORY
+cursor = L5
+position = unknown
+gripper = unknown
+held = unknown
+avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
+"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+
+RESOLUTION
+L4
+```
+Output
+```
+RESOLUTION
+L5
+
+MEMORY
+cursor = done
+the first box = ["box1_1", "box1_2"]
+the second box = ["box2_1", "box2_2"]
+```
+
+---
+
+#### Invocation 8
+
+Input
+```
+User: Visit the observation points for the first box and then the second box
+
+PROGRAM
+L1 remember avaliable positions = get positions
+L2 parse avaliable positions for objects
+L3 parse avaliable positions for locations
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
+
+MEMORY
+cursor = done
+position = unknown
+gripper = unknown
+held = unknown
+avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_2", "place_cube_box1_1", "place_cube_box1_2" "observe_box1", 
+"pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
+objects = ["cube"]
+locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+the first box = ["box1_1", "box1_2"]
+the second box = ["box2_1", "box2_2"]
+
+RESOLUTION
+L5
+```
+Output
+```
+PROGRAM
+L1 go to observation of the first box
+L2 go to observation of the second box
+L3 answer_1
+
+MEMORY
+cursor = L1
+```
+
+---
+
+#### Invocation 9
+
+Input
+```
+User: Visit the observation points for the first box and then the second box
+
+PROGRAM
 L1 go to observation of the first box
 L2 go to observation of the second box
 L3 answer_1
@@ -985,11 +1045,12 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
 RESOLUTION
-L4 
+L5 
 ```
 Output
 ```
@@ -1002,7 +1063,7 @@ move_robot_to(position="observe_box1")
 
 ---
 
-#### Invocation 8
+#### Invocation 10
 
 Input
 ```
@@ -1022,6 +1083,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1044,7 +1106,7 @@ cursor = L2
 
 ---
 
-#### Invocation 9
+#### Invocation 11
 
 Input
 ```
@@ -1064,6 +1126,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1085,7 +1148,7 @@ move_robot_to(position="observe_box2")
 
 ---
 
-#### Invocation 10
+#### Invocation 12
 
 Input
 ```
@@ -1105,6 +1168,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1126,7 +1190,7 @@ cursor = L3
 
 ---
 
-#### Invocation 11
+#### Invocation 13
 
 Input
 ```
@@ -1146,6 +1210,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
+observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 

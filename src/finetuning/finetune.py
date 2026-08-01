@@ -27,7 +27,7 @@ DTYPE = None
 LOAD_IN_4BIT = False
 LOAD_IN_8BIT = True
 SAVE_BASE = "D:/MyLLMs"
-DATASET_PATH = "./datasets/dataset.json"
+DATASET_PATH = "./datasets/dataset_2026-07-31_15-10-47.json"
 DATASET_NAME = "dataset"
 # A conversation is dropped whole -- every one of its records -- as soon as any
 # of them renders to more tokens than this. Applied before anything else,
@@ -473,6 +473,41 @@ class SaveAdapterCallback(TrainerCallback):
         print(f"Saved adapter checkpoint to {save_dir}")
 
 
+class SaveHalfEpochCallback(TrainerCallback):
+    """Saves LoRA adapters halfway through each epoch (at 0.5, 1.5, ...).
+
+    A companion to SaveAdapterCallback's epoch-boundary saves: it drops a
+    mid-epoch snapshot so a run can be inspected or resumed from partway
+    through an epoch. Step boundaries are computed from the optimizer-step
+    count so the mark is exact under gradient accumulation.
+    """
+    def __init__(self, model, tokenizer, save_base, name_template):
+        self.model = model
+        self.tokenizer = tokenizer
+        self.save_base = save_base
+        self.name_template = name_template
+        # {global_step at the half-epoch mark: 0-indexed epoch number}
+        self.half_targets = {}
+
+    def on_train_begin(self, args, state, control, **kwargs):
+        # The half-epoch mark of epoch k lands at optimizer step
+        # round(steps_per_epoch * (k + 0.5)).
+        steps_per_epoch = state.max_steps / args.num_train_epochs
+        self.half_targets = {
+            round(steps_per_epoch * (k + 0.5)): k
+            for k in range(int(args.num_train_epochs))
+        }
+
+    def on_step_end(self, args, state, control, **kwargs):
+        k = self.half_targets.get(state.global_step)
+        if k is None:
+            return
+        save_dir = f"{self.save_base}/{self.name_template.format(ep=f'{k}.5')}"
+        self.model.save_pretrained(save_dir)
+        self.tokenizer.save_pretrained(save_dir)
+        print(f"Saved half-epoch adapter checkpoint to {save_dir}")
+
+
 def make_short_name(model_name):
     """'Llama-3.2-3B-Instruct-unsloth-bnb-4bit' -> 'Llama-3.2-3B'"""
     name = model_name
@@ -554,10 +589,12 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
     print(f"--- labels ({sum(t != -100 for t in example['labels'])} unmasked) ---")
     print(example["labels"])
 
+    name_template = make_run_name(short_name, r, alpha, lr, lr_method, "{ep}", full_dataset=full_dataset)
     callbacks = []
     if save_adapter_per_epoch:
-        name_template = make_run_name(short_name, r, alpha, lr, lr_method, "{ep}", full_dataset=full_dataset)
         callbacks.append(SaveAdapterCallback(model, tokenizer, f"{SAVE_BASE}/adapters", name_template))
+    # Mid-epoch snapshots (0.5, 1.5, ...) go to the checkpoints dir.
+    callbacks.append(SaveHalfEpochCallback(model, tokenizer, f"{SAVE_BASE}/checkpoints", name_template))
 
     wandb.init(
         project="Finetuning robot agent",

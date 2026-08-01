@@ -167,6 +167,7 @@ List
 | first in `list` | list[0] |
 | parse `list` for objects | saves `objects` list of objects whose existence follows from the list|
 | parse `list` for locations | saves `locations` list of locations whose existence follows from the list|
+| parse `list`, `list` for observation mapping | saves `observation mapping` dict of observation position: locations list, derived from the two lists, observation position comes from the first list, locations list come from the second|
 
 Dict
 

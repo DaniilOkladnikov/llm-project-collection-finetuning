@@ -244,7 +244,11 @@ class Generator:
         self.next_id = 0
         self.conv_id = 0
         self.unreachable: List[dict] = []
-        self.out_path = out_path or os.path.join(_HERE, "dataset.json")
+        if out_path:
+            self.out_path = out_path
+        else:
+            stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+            self.out_path = os.path.join(_HERE, f"dataset_{stamp}.json")
         self._scene = None
         self._scene_uses = 0
         self._convs_since_save = 0

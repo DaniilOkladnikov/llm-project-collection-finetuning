@@ -20,7 +20,8 @@ PARSE_PROGRAM_BLOCK = (
     "L1 remember avaliable positions = get positions\n"
     "L2 parse avaliable positions for objects\n"
     "L3 parse avaliable positions for locations\n"
-    "L4 parse user"
+    "L4 parse avaliable positions, locations for observation mapping\n"
+    "L5 parse user"
 )
 
 
@@ -120,6 +121,16 @@ class Conversation:
         locations = list(self.scene.canonical_order)
         return objects, locations
 
+    def _render_observation_mapping(self) -> str:
+        """observation mapping = dict of observe pose -> its observable locations,
+        rendered per the spec e.g.
+        {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}."""
+        parts: List[str] = []
+        for name, locs in self.scene.observe_positions():
+            ordered = self.scene.order(locs)
+            parts.append(q(name) + ": " + ", ".join(q(l) for l in ordered))
+        return "{" + ", ".join(parts) + "}"
+
     def _render_parse_prelude(self, parse_user_delta: dict, statechange_delta: dict):
         # P1: PROGRAM(parse) + initial belief memory
         init = OrderedDict()
@@ -144,14 +155,18 @@ class Conversation:
         # P5: parse locations
         self._emit({"resolution": "RESOLUTION\nL3",
                     "memory": {"locations": jlist(locations), "cursor": "L4"}})
-        # P6: parse user (+ state change)
+        # P6: parse observation mapping (advances cursor like every other parse step)
+        self._emit({"resolution": "RESOLUTION\nL4",
+                    "memory": {"observation mapping": self._render_observation_mapping(),
+                               "cursor": "L5"}})
+        # P7: parse user (+ state change)
         delta = OrderedDict()
         delta["cursor"] = "done"
         for k, v in parse_user_delta.items():
             delta[k] = v
         for k, v in statechange_delta.items():
             delta[k] = v
-        self._emit({"resolution": "RESOLUTION\nL4", "memory": delta})
+        self._emit({"resolution": "RESOLUTION\nL5", "memory": delta})
         self.state.parsed = True
 
     # --- step rendering ----------------------------------------------------
