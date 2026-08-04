@@ -1,0 +1,1204 @@
+{
+ "object_locations": [
+  "drawer_7",
+  "sink_basin",
+  "binB_104",
+  "parcelPalette-1.2.2",
+  "drawer_4",
+  "canvas_zone_C",
+  "prep_board",
+  "drawer_6",
+  "parcelPalette-1.2.1",
+  "drawer_5",
+  "palette_well_8",
+  "zone_005",
+  "pos.y2.x0",
+  "pos.y1.x0",
+  "tray_infeed_slot2",
+  "reject_slot",
+  "pos.y0.x0"
+ ],
+ "object_types": [
+  "support",
+  "steel_block",
+  "brush_wide",
+  "parcel_hazmat",
+  "grain_oat",
+  "med_bottle"
+ ],
+ "positions": {
+  "CMD:GRIP:steel_block:LOC:parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parcel_hazmat:LOC:pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "--grasp--brush_wide--at--sink_basin": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parcel_hazmat:LOC:drawer_6": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_oat:LOC:pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "--grasp--support--at--binB_104": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:drawer_5": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:steel_block:LOC:drawer_7": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "CMD:GRIP:steel_block:LOC:canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_wide:LOC:reject_slot": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--sink_basin": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--grain_oat--at--drawer_6": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_wide:LOC:drawer_7": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_oat:LOC:sink_basin": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--steel_block--at--pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--med_bottle--at--pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--drawer_7": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:steel_block:LOC:parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "--grasp--med_bottle--at--parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "--grasp--grain_oat--at--drawer_7": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "CMD:GRIP:med_bottle:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "--grasp--support--at--sink_basin": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--brush_wide--at--parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:med_bottle:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "--grasp--grain_oat--at--pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:reject_slot": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--brush_wide--at--zone_005": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "--grasp--steel_block--at--drawer_4": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_wide:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:steel_block:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--palette_well_8": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:med_bottle:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:drawer_7": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "--grasp--steel_block--at--pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parcel_hazmat:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--drawer_5": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_oat:LOC:parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "--grasp--med_bottle--at--pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "--grasp--med_bottle--at--drawer_6": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "--grasp--grain_oat--at--zone_005": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "--grasp--parcel_hazmat--at--prep_board": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_oat:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_wide:LOC:drawer_6": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "--grasp--steel_block--at--sink_basin": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "CMD:GRIP:support:LOC:palette_well_8": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:med_bottle:LOC:sink_basin": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--grain_oat--at--drawer_4": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_oat:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "steel_block-to-parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "store:brush_wide:sink_basin": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "support-to-parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-drawer_6": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_005/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x0/grain_oat": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "support-to-binB_104": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "store:support:drawer_5": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/steel_block": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "store:steel_block:canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "DEPOSIT/reject_slot/brush_wide": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "store:parcel_hazmat:sink_basin": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "grain_oat-to-drawer_6": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "DEPOSIT/prep_board/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "store:support:tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "brush_wide-to-drawer_7": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "grain_oat-to-sink_basin": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "store:steel_block:pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "store:parcel_hazmat:parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "store:parcel_hazmat:reject_slot": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x0/med_bottle": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "store:support:pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/parcel_hazmat": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "store:parcel_hazmat:canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "steel_block-to-parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "store:parcel_hazmat:pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-1.2.2/med_bottle": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "grain_oat-to-drawer_7": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "med_bottle-to-zone_005": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "DEPOSIT/sink_basin/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-1.2.2/brush_wide": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "store:med_bottle:binB_104": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "grain_oat-to-pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/reject_slot/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "store:brush_wide:zone_005": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_4/steel_block": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "brush_wide-to-binB_104": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "steel_block-to-prep_board": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "DEPOSIT/palette_well_8/parcel_hazmat": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_infeed_slot2/med_bottle": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "support-to-drawer_7": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-zone_005": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "steel_block-to-pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_104/parcel_hazmat": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "store:parcel_hazmat:drawer_5": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-1.2.2/grain_oat": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "med_bottle-to-pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_6/med_bottle": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "store:grain_oat:zone_005": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "store:parcel_hazmat:prep_board": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "grain_oat-to-binB_104": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_6/brush_wide": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "steel_block-to-sink_basin": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "support-to-palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "DEPOSIT/sink_basin/med_bottle": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "store:grain_oat:drawer_4": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "grain_oat-to-tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_104"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_005"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x0"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_4",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_6",
+    "drawer_7"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_8"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_C"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "look at prep_board & sink_basin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "prep_board",
+    "sink_basin"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.2.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "poses with x0": [
+   "pos.y0.x0",
+   "pos.y1.x0",
+   "pos.y2.x0"
+  ],
+  "one of the middle drawers": [
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7"
+  ],
+  "prep board or sink": [
+   "prep_board",
+   "sink_basin"
+  ],
+  "the sink or the prep board": [
+   "sink_basin",
+   "prep_board"
+  ],
+  "Palettesshelf - 1.2.*": [
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2"
+  ]
+ }
+}

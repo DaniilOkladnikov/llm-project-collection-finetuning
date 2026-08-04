@@ -1,0 +1,1077 @@
+{
+ "object_locations": [
+  "zone_014",
+  "zone_004",
+  "pos.y2.x3",
+  "zone_002",
+  "pos.y1.x3",
+  "zone_016",
+  "zone_008",
+  "table_Q2",
+  "zone_018",
+  "table_Q1",
+  "cell_R1C4",
+  "cell_R1C1",
+  "cell_R1C5",
+  "zone_006",
+  "pos.y0.x3",
+  "cell_R1C3",
+  "cell_R1C2",
+  "zone_010",
+  "zone_012"
+ ],
+ "object_types": [
+  "iron_block",
+  "protein_chicken",
+  "ampoule",
+  "wafer_B",
+  "power_drill"
+ ],
+ "positions": {
+  "$.zone_004.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.zone_002.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "$.pos.y1.x3.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "$.zone_016.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.cell_R1C5.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "$.zone_014.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "$.zone_006.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.zone_010.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "$.zone_010.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.zone_006.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "$.zone_010.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.table_Q1.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "$.table_Q1.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "$.zone_010.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.zone_002.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "$.table_Q1.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "$.zone_018.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.zone_002.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "$.table_Q2.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "$.cell_R1C3.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.pos.y1.x3.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "$.cell_R1C3.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.zone_002.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "$.zone_004.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.zone_002.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "$.zone_018.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.zone_004.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.zone_018.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.zone_008.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "$.pos.y2.x3.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "$.pos.y1.x3.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "$.table_Q2.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "$.zone_018.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.pos.y2.x3.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "$.table_Q2.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "$.pos.y0.x3.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "$.zone_016.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.zone_012.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "$.pos.y0.x3.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "$.zone_012.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "$.zone_014.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "$.zone_006.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "$.pos.y0.x3.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.protein_chicken.grab": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.zone_010.iron_block.grab": {
+   "type": "PICK",
+   "bound_type": "iron_block",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.power_drill.grab": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.wafer_B.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_004/iron_block": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_002/iron_block": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/iron_block": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_016/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "store:protein_chicken:cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "store:protein_chicken:zone_014": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_006/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C1/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_010/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C4/ampoule": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_010/wafer_B": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "store:ampoule:zone_006": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_010/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C1/ampoule": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "store:wafer_B:table_Q1": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "store:power_drill:table_Q1": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "store:ampoule:zone_010": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_002/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "store:ampoule:table_Q1": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_018/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "store:iron_block:cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_002/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q2/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "store:wafer_B:cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/wafer_B": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "store:ampoule:cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_002/wafer_B": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "store:power_drill:zone_004": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "store:ampoule:zone_002": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "store:wafer_B:zone_018": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_004/ampoule": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_018/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "store:protein_chicken:zone_008": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/wafer_B": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "store:power_drill:pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "store:power_drill:table_Q2": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "store:ampoule:zone_018": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/ampoule": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q2/ampoule": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "store:protein_chicken:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_016/iron_block": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "store:protein_chicken:zone_012": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "store:power_drill:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_012/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "store:iron_block:zone_014": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_006/iron_block": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x3/ampoule": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "store:protein_chicken:cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_010/iron_block": {
+   "type": "PLACE",
+   "bound_type": "iron_block",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C2/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "store:wafer_B:cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C2/ampoule": {
+   "type": "PLACE",
+   "bound_type": "ampoule",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "table_q1_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q1"
+   ]
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_002"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004",
+    "zone_006",
+    "zone_008"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010",
+    "zone_012",
+    "zone_014",
+    "zone_016",
+    "zone_018"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x3"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x3"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "iron_block",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "ampoule",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "first two quadrants": [
+   "table_Q1",
+   "table_Q2"
+  ],
+  "even numbered zones": [
+   "zone_002",
+   "zone_004",
+   "zone_006",
+   "zone_008",
+   "zone_010",
+   "zone_012",
+   "zone_014",
+   "zone_016",
+   "zone_018"
+  ],
+  "any pos with x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "poses x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ]
+ }
+}

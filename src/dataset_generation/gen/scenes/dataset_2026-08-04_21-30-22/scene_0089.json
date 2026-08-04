@@ -1,0 +1,853 @@
+{
+ "object_locations": [
+  "silo_3",
+  "binA_002",
+  "tree_14",
+  "binA_001",
+  "binA_005",
+  "pos.y2.x3",
+  "pos.y0.x3",
+  "silo_1",
+  "binA_003",
+  "pos.y1.x3"
+ ],
+ "object_types": [
+  "package_hazmat",
+  "half_dollar",
+  "fine_brush",
+  "cylinder_yellow",
+  "detector",
+  "green_pellet",
+  "table_salt",
+  "corn_kernel",
+  "tube_purple"
+ ],
+ "positions": {
+  "tree_14:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "pos.y2.x3:cylinder_yellow:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "binA_001:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "binA_001:package_hazmat:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "get|package_hazmat|@|silo_3": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "get|half_dollar|@|binA_003": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "pos.y0.x3:cylinder_yellow:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "get|cylinder_yellow|@|tree_14": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|binA_005": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "binA_002:green_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "green_pellet",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "binA_001:cylinder_yellow:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "get|table_salt|@|binA_005": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "get|cylinder_yellow|@|binA_003": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "pos.y2.x3:fine_brush:GRASP": {
+   "type": "PICK",
+   "bound_type": "fine_brush",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "pos.y1.x3:corn_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pos.y0.x3:detector:GRASP": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "binA_002:package_hazmat:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "get|fine_brush|@|pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "fine_brush",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "pos.y0.x3:green_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "green_pellet",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "get|package_hazmat|@|pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "pos.y2.x3:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "get|detector|@|binA_001": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "pos.y0.x3:tube_purple:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "get|fine_brush|@|tree_14": {
+   "type": "PICK",
+   "bound_type": "fine_brush",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "tree_14:green_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "green_pellet",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "binA_001:fine_brush:GRASP": {
+   "type": "PICK",
+   "bound_type": "fine_brush",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "binA_005:cylinder_yellow:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "get|fine_brush|@|binA_003": {
+   "type": "PICK",
+   "bound_type": "fine_brush",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "silo_3:tube_purple:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_3:fine_brush:GRASP": {
+   "type": "PICK",
+   "bound_type": "fine_brush",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_3:green_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "green_pellet",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "get|table_salt|@|pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "binA_001:tube_purple:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "binA_002:cylinder_yellow:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "get|table_salt|@|tree_14": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "get|half_dollar|@|pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "pos.y0.x3:package_hazmat:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "tree_14:corn_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "get|table_salt|@|silo_1": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "tree_14:package_hazmat:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:half_dollar:LOC:tree_14": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cylinder_yellow:LOC:pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "op/stow/half_dollar/loc/binA_001": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "op/stow/package_hazmat/loc/binA_001": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "op/stow/package_hazmat/loc/silo_3": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "op/stow/half_dollar/loc/silo_1": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:half_dollar:LOC:binA_003": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cylinder_yellow:LOC:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_yellow/loc/tree_14": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "op/stow/corn_kernel/loc/binA_005": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:green_pellet:LOC:binA_002": {
+   "type": "PLACE",
+   "bound_type": "green_pellet",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cylinder_yellow:LOC:binA_001": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/binA_005": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_yellow/loc/binA_003": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "op/stow/fine_brush/loc/pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "fine_brush",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_kernel:LOC:pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "op/stow/detector/loc/pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/stow/package_hazmat/loc/binA_002": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "op/stow/fine_brush/loc/pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "fine_brush",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/stow/green_pellet/loc/pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "green_pellet",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/stow/package_hazmat/loc/pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:half_dollar:LOC:pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "op/stow/detector/loc/binA_001": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tube_purple:LOC:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:fine_brush:LOC:tree_14": {
+   "type": "PLACE",
+   "bound_type": "fine_brush",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:green_pellet:LOC:tree_14": {
+   "type": "PLACE",
+   "bound_type": "green_pellet",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:fine_brush:LOC:binA_001": {
+   "type": "PLACE",
+   "bound_type": "fine_brush",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cylinder_yellow:LOC:binA_005": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "op/stow/fine_brush/loc/binA_003": {
+   "type": "PLACE",
+   "bound_type": "fine_brush",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tube_purple:LOC:silo_3": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "op/stow/fine_brush/loc/silo_3": {
+   "type": "PLACE",
+   "bound_type": "fine_brush",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "op/stow/green_pellet/loc/silo_3": {
+   "type": "PLACE",
+   "bound_type": "green_pellet",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "op/stow/corn_kernel/loc/pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:table_salt:LOC:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tube_purple:LOC:binA_001": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cylinder_yellow:LOC:binA_002": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/tree_14": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:half_dollar:LOC:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/stow/package_hazmat/loc/pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/stow/corn_kernel/loc/tree_14": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:table_salt:LOC:silo_1": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "op/stow/package_hazmat/loc/tree_14": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001",
+    "binA_002",
+    "binA_003",
+    "binA_005"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x3"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x3"
+   ]
+  },
+  "checkLevel silo_1": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_1"
+   ]
+  },
+  "checkLevel silo_3": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_3"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_14"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "auger_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "fine_brush",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "fine_brush",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "fine_brush",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "fine_brush",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "fine_brush",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "fine_brush",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "green_pellet",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "green_pellet",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "green_pellet",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "green_pellet",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "binA slots 1 or 2": [
+   "binA_001",
+   "binA_002"
+  ],
+  "first two slots of A": [
+   "binA_001",
+   "binA_002"
+  ],
+  "odd numbered slots in binA": [
+   "binA_001",
+   "binA_003",
+   "binA_005"
+  ],
+  "any pos with x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "poses x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "from either silo 1 or silo 3": [
+   "silo_1",
+   "silo_3"
+  ]
+ }
+}

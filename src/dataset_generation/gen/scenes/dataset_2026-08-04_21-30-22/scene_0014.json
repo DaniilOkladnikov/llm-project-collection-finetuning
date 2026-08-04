@@ -1,0 +1,1699 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "parcelPalette-1.1.2",
+  "drawer_small_parts",
+  "bay_B",
+  "BIN_RED_LEFT",
+  "cell_R1C3",
+  "BIN_BLUE_RIGHT",
+  "cell_R1C2",
+  "shelf_L2_S4",
+  "shelf_L1_S4",
+  "shelf_L1_S1",
+  "parcelPalette-1.1.1",
+  "zone_018",
+  "workbench_A1",
+  "cell_R1C1",
+  "tray_infeed_slot1",
+  "cell_R1C4",
+  "cell_R1C5",
+  "tray_outfeed_slot1"
+ ],
+ "object_types": [
+  "twenty_five_cent_coin",
+  "brush_wide",
+  "steel_block",
+  "clear_ball",
+  "parka",
+  "buckwheat_kernel",
+  "millet_kernel",
+  "beef"
+ ],
+ "positions": {
+  "[cell_R1C4][parka]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "[BIN_RED_LEFT][millet_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "[canvas_zone_A][steel_block]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "get__parka__from__cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "[cell_R1C5][clear_ball]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "[workbench_A1][buckwheat_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "[shelf_L1_S1][millet_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/buckwheat_kernel/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/twenty_five_cent_coin/loc/tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "get__parka__from__parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "get__millet_kernel__from__cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "op/grab/buckwheat_kernel/loc/parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "[canvas_zone_A][twenty_five_cent_coin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "get__brush_wide__from__cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "op/grab/beef/loc/parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "get__millet_kernel__from__cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/twenty_five_cent_coin/loc/parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "op/grab/beef/loc/cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "[cell_R1C1][clear_ball]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "get__beef__from__drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "op/grab/clear_ball/loc/drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "[shelf_L1_S4][parka]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "get__steel_block__from__BIN_RED_LEFT": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/grab/twenty_five_cent_coin/loc/cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "op/grab/clear_ball/loc/zone_018": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "[shelf_L1_S4][beef]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/clear_ball/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/bay_B": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.2][millet_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.1][brush_wide]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "[cell_R1C2][beef]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "[cell_R1C2][clear_ball]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "get__parka__from__tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "get__steel_block__from__cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "[tray_outfeed_slot1][buckwheat_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "[BIN_RED_LEFT][twenty_five_cent_coin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/grab/parka/loc/cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "get__twenty_five_cent_coin__from__shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/grab/twenty_five_cent_coin/loc/bay_B": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "get__brush_wide__from__cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "[zone_018][parka]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/workbench_A1": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "get__steel_block__from__cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/beef/loc/BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "[canvas_zone_A][beef]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "get__clear_ball__from__canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "[cell_R1C3][brush_wide]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/parka/loc/parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "op/grab/beef/loc/BIN_RED_LEFT": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "[shelf_L1_S1][clear_ball]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/grab/twenty_five_cent_coin/loc/cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "get__buckwheat_kernel__from__cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "[bay_B][beef]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.1][beef]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/tray_infeed_slot1": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "get__millet_kernel__from__tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "[cell_R1C3][twenty_five_cent_coin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "get__parka__from__BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "op/grab/buckwheat_kernel/loc/BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "[zone_018][millet_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "[cell_R1C5][brush_wide]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "op/grab/twenty_five_cent_coin/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/beef/loc/cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "[bay_B][millet_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "get__millet_kernel__from__parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "get__buckwheat_kernel__from__shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "get__parka__from__shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "get__beef__from__cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/clear_ball/loc/cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "get__steel_block__from__shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/parka/loc/bay_B": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "get__twenty_five_cent_coin__from__parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "[cell_R1C2][millet_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "[tray_infeed_slot1][clear_ball]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "[cell_R1C5][parka]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "get__buckwheat_kernel__from__cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:cell_R1C4:item:parka:action:place": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "put__millet_kernel__to__BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "put__steel_block__to__canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:parka:action:place": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_ball&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buckwheat_kernel&dest=workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S1:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S4:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buckwheat_kernel&dest=shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:brush_wide:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=twenty_five_cent_coin&dest=tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__parka__to__parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.2:item:buckwheat_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "put__twenty_five_cent_coin__to__canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "put__brush_wide__to__cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "put__beef__to__parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "put__millet_kernel__to__cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=twenty_five_cent_coin&dest=parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "put__beef__to__cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ns:cell_R1C1:item:clear_ball:action:place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=beef&dest=drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "ns:drawer_small_parts:item:clear_ball:action:place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parka&dest=shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:BIN_RED_LEFT:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "put__twenty_five_cent_coin__to__cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "put__clear_ball__to__zone_018": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "put__brush_wide__to__shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "put__beef__to__shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_ball&dest=shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "put__brush_wide__to__bay_B": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=millet_kernel&dest=parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:brush_wide:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=beef&dest=cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C2:item:clear_ball:action:place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "put__millet_kernel__to__drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "put__parka__to__tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__steel_block__to__cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:tray_outfeed_slot1:item:buckwheat_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "ns:BIN_RED_LEFT:item:twenty_five_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "put__parka__to__cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "put__twenty_five_cent_coin__to__shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "put__twenty_five_cent_coin__to__bay_B": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "put__brush_wide__to__cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "put__parka__to__zone_018": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=steel_block&dest=workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=steel_block&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:BIN_BLUE_RIGHT:item:beef:action:place": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "ns:canvas_zone_A:item:beef:action:place": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_ball&dest=canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:brush_wide:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:parka:action:place": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "put__beef__to__BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_ball&dest=shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=twenty_five_cent_coin&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:cell_R1C2:item:buckwheat_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "put__brush_wide__to__shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=beef&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "put__beef__to__parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=brush_wide&dest=tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=millet_kernel&dest=tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__steel_block__to__parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=twenty_five_cent_coin&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=millet_kernel&dest=canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "put__brush_wide__to__parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "put__parka__to__BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "put__buckwheat_kernel__to__BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=millet_kernel&dest=zone_018": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=brush_wide&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=twenty_five_cent_coin&dest=shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "put__beef__to__cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=millet_kernel&dest=parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S1:item:buckwheat_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parka&dest=shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:beef:action:place": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:clear_ball:action:place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "put__steel_block__to__shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parka&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.2:item:twenty_five_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "twenty_five_cent_coin",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C2:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "ns:tray_infeed_slot1:item:clear_ball:action:place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "put__parka__to__cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buckwheat_kernel&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "look at workbench_A1 & workbench_A2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "workbench_A1"
+   ]
+  },
+  "peek drawer_small_parts": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_small_parts"
+   ]
+  },
+  "bins_observe_red": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_RED_LEFT"
+   ]
+  },
+  "bins_observe_blue": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_BLUE_RIGHT"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot1"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot1"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_018"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S4"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sensor_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "workbench_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "twenty_five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "beef",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "workbench A1 or the drawer": [
+   "workbench_A1",
+   "drawer_small_parts"
+  ],
+  "bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "any of the color bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "red or blue bin": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "slot 1 of each tray": [
+   "tray_infeed_slot1",
+   "tray_outfeed_slot1"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ]
+ }
+}

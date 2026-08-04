@@ -1,0 +1,1405 @@
+{
+ "object_locations": [
+  "tree_12",
+  "lane_2_start",
+  "burner_front_right",
+  "rack top",
+  "clearingquadrantBETA",
+  "lane_1_start",
+  "dispenser_B",
+  "ELECTRONICcontainer",
+  "rack middle",
+  "dispenser_A",
+  "rack bottom",
+  "burner_front_left",
+  "lane_3_start"
+ ],
+ "object_types": [
+  "black_pepper",
+  "box_express",
+  "cylinder_pink",
+  "vial",
+  "wafer_D",
+  "shim_ring",
+  "yellow_pellet",
+  "veg_celery",
+  "sku_002",
+  "support"
+ ],
+ "positions": {
+  "actions/grasp/vial/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/vial/from/rack middle": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "actions/grasp/shim_ring/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "shim_ring",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/shim_ring/from/burner_front_right": {
+   "type": "PICK",
+   "bound_type": "shim_ring",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/rack middle": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/burner_front_right": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/dispenser_A": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/rack top": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/sku_002/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "sku_002",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/vial/from/dispenser_A": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/sku_002/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "sku_002",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/sku_002/from/rack middle": {
+   "type": "PICK",
+   "bound_type": "sku_002",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/dispenser_A": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/rack top": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "actions/grasp/vial/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/sku_002/from/clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "sku_002",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "actions/grasp/vial/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "actions/grasp/vial/from/burner_front_right": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "actions/grasp/shim_ring/from/clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "shim_ring",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "actions/grasp/support/from/burner_front_right": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/sku_002/from/burner_front_left": {
+   "type": "PICK",
+   "bound_type": "sku_002",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/burner_front_left": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "actions/grasp/shim_ring/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "shim_ring",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/dispenser_A": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/dispenser_A": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/dispenser_A": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/shim_ring/from/dispenser_A": {
+   "type": "PICK",
+   "bound_type": "shim_ring",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/rack top": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/shim_ring/from/burner_front_left": {
+   "type": "PICK",
+   "bound_type": "shim_ring",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "actions/grasp/sku_002/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "sku_002",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/vial/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/sku_002/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "sku_002",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_pink/from/rack top": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "actions/grasp/yellow_pellet/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "yellow_pellet",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/shim_ring/from/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "shim_ring",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/ELECTRONICcontainer/vial": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "store:black_pepper:lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "rack middle_vial_deposit": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_2_start/black_pepper": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "dispenser_B_shim_ring_deposit": {
+   "type": "PLACE",
+   "bound_type": "shim_ring",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "tree_12_yellow_pellet_deposit": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "tree_12_black_pepper_deposit": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "tree_12_veg_celery_deposit": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "store:black_pepper:dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/wafer_D": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:cylinder_pink:rack bottom": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "store:shim_ring:burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "shim_ring",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "rack middle_support_deposit": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "burner_front_right_black_pepper_deposit": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "store:support:ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "dispenser_A_cylinder_pink_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "store:support:rack top": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "store:wafer_D:rack bottom": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "lane_3_start_sku_002_deposit": {
+   "type": "PLACE",
+   "bound_type": "sku_002",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_B/yellow_pellet": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "store:yellow_pellet:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "store:cylinder_pink:lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "store:veg_celery:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "store:cylinder_pink:lane_2_start": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "tree_12_box_express_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_A/vial": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_B/box_express": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/ELECTRONICcontainer/sku_002": {
+   "type": "PLACE",
+   "bound_type": "sku_002",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack middle/sku_002": {
+   "type": "PLACE",
+   "bound_type": "sku_002",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "store:support:rack bottom": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "store:black_pepper:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "store:cylinder_pink:dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ELECTRONICcontainer_yellow_pellet_deposit": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_A/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "lane_1_start_wafer_D_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "rack top_yellow_pellet_deposit": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "lane_2_start_wafer_D_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "lane_1_start_vial_deposit": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "store:veg_celery:ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/sku_002": {
+   "type": "PLACE",
+   "bound_type": "sku_002",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "dispenser_B_vial_deposit": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_1_start/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "clearingquadrantBETA_veg_celery_deposit": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:support:lane_2_start": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/burner_front_right/vial": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "store:box_express:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/black_pepper": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:shim_ring:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "shim_ring",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "rack bottom_yellow_pellet_deposit": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_3_start/cylinder_pink": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "burner_front_right_support_deposit": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "rack bottom_veg_celery_deposit": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "burner_front_left_sku_002_deposit": {
+   "type": "PLACE",
+   "bound_type": "sku_002",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "DEPOSIT/burner_front_left/yellow_pellet": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "store:shim_ring:lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "shim_ring",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "store:yellow_pellet:dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "store:veg_celery:dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "store:black_pepper:dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "store:box_express:ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "dispenser_A_shim_ring_deposit": {
+   "type": "PLACE",
+   "bound_type": "shim_ring",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack top/box_express": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "store:shim_ring:burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "shim_ring",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "store:sku_002:tree_12": {
+   "type": "PLACE",
+   "bound_type": "sku_002",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "store:vial:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/ELECTRONICcontainer/cylinder_pink": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_B/sku_002": {
+   "type": "PLACE",
+   "bound_type": "sku_002",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack top/cylinder_pink": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "store:box_express:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "lane_1_start_yellow_pellet_deposit": {
+   "type": "PLACE",
+   "bound_type": "yellow_pellet",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "store:veg_celery:lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "store:wafer_D:ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "store:veg_celery:dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "store:shim_ring:lane_2_start": {
+   "type": "PLACE",
+   "bound_type": "shim_ring",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top",
+    "rack middle",
+    "rack bottom"
+   ]
+  },
+  "ELECTRONICcontainerView": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "ELECTRONICcontainer"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start",
+    "lane_2_start",
+    "lane_3_start"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_A",
+    "dispenser_B"
+   ]
+  },
+  "view burner_front_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_front_right"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_12"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "shim_ring",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "shim_ring",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "shim_ring",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "shim_ring",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "shim_ring",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "shim_ring",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "shim_ring",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "yellow_pellet",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "sku_002",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "sku_002",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "sku_002",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "sku_002",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "sku_002",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "sku_002",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "sku_002",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "support",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rack": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "rack top or rack bottom": [
+   "rack top",
+   "rack bottom"
+  ],
+  "any rack position": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "start zones": [
+   "lane_1_start",
+   "lane_2_start",
+   "lane_3_start"
+  ],
+  "dispensers A or B": [
+   "dispenser_A",
+   "dispenser_B"
+  ],
+  "front burners": [
+   "burner_front_left",
+   "burner_front_right"
+  ]
+ }
+}

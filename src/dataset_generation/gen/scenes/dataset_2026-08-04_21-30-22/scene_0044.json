@@ -1,0 +1,1783 @@
+{
+ "object_locations": [
+  "sink_basin",
+  "cooling_rack",
+  "pos.y1.x2",
+  "cell_R1C4",
+  "cell_R1C1",
+  "cell_R1C5",
+  "Ext-Yard-ZoneQ9",
+  "prep_board",
+  "furnace_mouth",
+  "Ext-Yard-ZoneP9",
+  "cell_R1C3",
+  "cell_R1C2",
+  "pos.y1.x0",
+  "cell_R2C2",
+  "Ext-Yard-ZoneR9",
+  "zone_008"
+ ],
+ "object_types": [
+  "component2",
+  "chip_type_P",
+  "token_C",
+  "aluminium_rod",
+  "tile_K",
+  "chip_type_A",
+  "roller_blue",
+  "network_link",
+  "concrete_mix_bag",
+  "summer_tire"
+ ],
+ "positions": {
+  "seize_roller_blue@Ext-Yard-ZoneP9": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "pos.y1.x2=>tile_K=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneQ9=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "cell_R1C3=>aluminium_rod=>TAKE": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "sink_basin=>component2=>TAKE": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x0/chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "cell_R1C2=>chip_type_P=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C5/tile_K": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "task/pick/prep_board/token_C": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "seize_tile_K@cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "seize_token_C@cooling_rack": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "seize_component2@cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "zone_008=>concrete_mix_bag=>TAKE": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "cell_R1C4=>chip_type_P=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "seize_tile_K@cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/pick/sink_basin/token_C": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "seize_token_C@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/pick/zone_008/component2": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "task/pick/cooling_rack/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "seize_summer_tire@prep_board": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "seize_token_C@cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "sink_basin=>concrete_mix_bag=>TAKE": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "task/pick/prep_board/roller_blue": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneP9/chip_type_P": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "cell_R1C4=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "seize_component2@cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "task/pick/cooling_rack/roller_blue": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "task/pick/sink_basin/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "seize_summer_tire@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "cell_R1C1=>concrete_mix_bag=>TAKE": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x2/chip_type_P": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/sink_basin/roller_blue": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneR9=>network_link=>TAKE": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "prep_board=>aluminium_rod=>TAKE": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "seize_component2@Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "cell_R2C2=>token_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C2/token_C": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "seize_component2@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "task/pick/cooling_rack/aluminium_rod": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C1/roller_blue": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "seize_tile_K@zone_008": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "sink_basin=>aluminium_rod=>TAKE": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "furnace_mouth=>aluminium_rod=>TAKE": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneR9=>summer_tire=>TAKE": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "task/pick/prep_board/tile_K": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "seize_concrete_mix_bag@cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "task/pick/prep_board/chip_type_P": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "seize_summer_tire@cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C5/chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C1/aluminium_rod": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "seize_component2@cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "seize_tile_K@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x2/component2": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneQ9/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "sink_basin=>chip_type_P=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "task/pick/zone_008/aluminium_rod": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "seize_concrete_mix_bag@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneR9=>token_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneQ9/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "seize_tile_K@cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x0/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_chip_type_P@cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "seize_roller_blue@Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C3/component2": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "cooling_rack=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "seize_aluminium_rod@cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "pos.y1.x0=>roller_blue=>TAKE": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_token_C@cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "zone_008=>chip_type_P=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "task/pick/sink_basin/chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "furnace_mouth=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneR9/roller_blue": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "seize_aluminium_rod@Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C3/token_C": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x0/aluminium_rod": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C5/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "seize_chip_type_P@cooling_rack": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "seize_summer_tire@cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "seize_roller_blue@pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/furnace_mouth/chip_type_P": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "seize_summer_tire@cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "seize_component2@cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "zone_008=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "cell_R1C3=>concrete_mix_bag=>TAKE": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "seize_network_link@cooling_rack": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneR9/aluminium_rod": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "pos.y1.x0=>tile_K=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_roller_blue@cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneQ9/chip_type_P": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "seize_chip_type_A@cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "seize_aluminium_rod@pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "aluminium_rod",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneP9/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "task/pick/Ext-Yard-ZoneP9/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:roller_blue:LOC:Ext-Yard-ZoneP9": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "placing/tile_K/pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "placing/chip_type_A/Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "placing/aluminium_rod/cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:component2:LOC:sink_basin": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "placing/chip_type_A/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "cell_R1C2:chip_type_P:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "cell_R1C5:tile_K:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:token_C:LOC:prep_board": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tile_K:LOC:cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "cooling_rack:token_C:DROP": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:component2:LOC:cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:concrete_mix_bag:LOC:zone_008": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "placing/chip_type_P/cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "cell_R1C3:tile_K:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "sink_basin:token_C:DROP": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "furnace_mouth:token_C:DROP": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:component2:LOC:zone_008": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "cooling_rack:concrete_mix_bag:DROP": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "placing/summer_tire/prep_board": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "cell_R1C1:token_C:DROP": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "sink_basin:concrete_mix_bag:DROP": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "prep_board:roller_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_P:LOC:Ext-Yard-ZoneP9": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "cell_R1C4:chip_type_A:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "placing/component2/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placing/roller_blue/cooling_rack": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "sink_basin:summer_tire:DROP": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "placing/summer_tire/furnace_mouth": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "cell_R1C1:concrete_mix_bag:DROP": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "pos.y1.x2:chip_type_P:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:roller_blue:LOC:sink_basin": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:Ext-Yard-ZoneR9": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "placing/aluminium_rod/prep_board": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:component2:LOC:Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "cell_R2C2:token_C:DROP": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:token_C:LOC:cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "pos.y1.x0:component2:DROP": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "cooling_rack:aluminium_rod:DROP": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:roller_blue:LOC:cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placing/tile_K/zone_008": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "placing/aluminium_rod/sink_basin": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "furnace_mouth:aluminium_rod:DROP": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "placing/summer_tire/Ext-Yard-ZoneR9": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "prep_board:tile_K:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "cell_R1C2:concrete_mix_bag:DROP": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placing/chip_type_P/prep_board": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "placing/summer_tire/cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "placing/chip_type_A/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:aluminium_rod:LOC:cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:component2:LOC:cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "furnace_mouth:tile_K:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:component2:LOC:pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneQ9:concrete_mix_bag:DROP": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "placing/chip_type_P/sink_basin": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "zone_008:aluminium_rod:DROP": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:concrete_mix_bag:LOC:pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "placing/token_C/Ext-Yard-ZoneR9": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "placing/summer_tire/Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "placing/tile_K/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:summer_tire:LOC:pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "placing/chip_type_P/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneQ9:roller_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "placing/component2/cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_A:LOC:cooling_rack": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "placing/aluminium_rod/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placing/roller_blue/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "placing/token_C/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_P:LOC:zone_008": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_A:LOC:sink_basin": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "furnace_mouth:chip_type_A:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "placing/roller_blue/Ext-Yard-ZoneR9": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "placing/aluminium_rod/Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:token_C:LOC:cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "pos.y1.x0:aluminium_rod:DROP": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "placing/concrete_mix_bag/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_P:LOC:cooling_rack": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "placing/summer_tire/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placing/roller_blue/pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_P:LOC:furnace_mouth": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "cell_R1C4:summer_tire:DROP": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "cell_R1C5:component2:DROP": {
+   "type": "PLACE",
+   "bound_type": "component2",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "zone_008:chip_type_A:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "cell_R1C3:concrete_mix_bag:DROP": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "placing/network_link/cooling_rack": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneR9:aluminium_rod:DROP": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "Ext-Yard-ZoneR9",
+   "observable_locations": null
+  },
+  "pos.y1.x0:tile_K:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "cell_R1C4:roller_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_P:LOC:Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "cell_R1C2:chip_type_A:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:aluminium_rod:LOC:pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "aluminium_rod",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:concrete_mix_bag:LOC:Ext-Yard-ZoneP9": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneP9:summer_tire:DROP": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_008"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x2"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "monitor furnace_mouth": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "furnace_mouth"
+   ]
+  },
+  "check cooling_rack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cooling_rack"
+   ]
+  },
+  "look at prep_board & sink_basin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "prep_board",
+    "sink_basin"
+   ]
+  },
+  "Crane_Camera_Ext_Yard_Zones_P9_Q9_R9": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Ext-Yard-ZoneP9",
+    "Ext-Yard-ZoneQ9",
+    "Ext-Yard-ZoneR9"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "heat_safe_distance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charging_station_alpha": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "component2",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "aluminium_rod",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "furnace & cooling": [
+   "furnace_mouth",
+   "cooling_rack"
+  ],
+  "prep board or sink": [
+   "prep_board",
+   "sink_basin"
+  ],
+  "the sink or the prep board": [
+   "sink_basin",
+   "prep_board"
+  ],
+  "Exterior_Yard_Scaffold_Zones_Indices_P9_and_Q9": [
+   "Ext-Yard-ZoneP9",
+   "Ext-Yard-ZoneQ9"
+  ],
+  "Exterior_Yard_Scaffold_Zones_Indices_Q9_and_R9": [
+   "Ext-Yard-ZoneQ9",
+   "Ext-Yard-ZoneR9"
+  ],
+  "All_Exterior_Yard_Zones_Indices_P9_through_R9": [
+   "Ext-Yard-ZoneP9",
+   "Ext-Yard-ZoneQ9",
+   "Ext-Yard-ZoneR9"
+  ]
+ }
+}

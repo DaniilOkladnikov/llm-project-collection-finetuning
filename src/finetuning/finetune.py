@@ -5,11 +5,28 @@ os.environ["TRITON_CACHE_DIR"] = "C:/tc/triton"
 # downloader leaks file handles on Windows, so a hiccup mid-download leaves a
 # locked .incomplete blob it then can't clean up (os error 32).
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "0"
+# No MSVC (cl.exe) on this machine, so TorchInductor can't build the C++ CPU
+# kernels it generates for unsloth's torch.compile'd ops (e.g. swiglu). Turn
+# unsloth's compilation into a no-op so everything runs eager. Must be set
+# before `import unsloth` -- unsloth_zoo reads it at import time.
+os.environ["UNSLOTH_COMPILE_DISABLE"] = "1"
+# gpt-oss's attention sinks are served by unsloth's patch that replaces
+# GptOssAttention.forward with a torch flex_attention path. With compilation
+# disabled (above) there's no Triton flex kernel, so flex_attention falls back to
+# torch's eager reference sdpa_dense_backward, which has a bf16 bug (softmax
+# scores cast to bf16 while grad_out stays fp32 -> "expected scalar type Float
+# but found BFloat16"). Setting this to "0" makes patch_GptOssAttention bail out
+# (it early-returns on this flag), so transformers' own attention runs instead --
+# and attn_implementation="eager" at load time selects its sink-aware eager path.
+# Must be set before `import unsloth` so the temporary patch sees it. Only affects
+# gpt-oss; other models don't use this patch.
+os.environ["UNSLOTH_ENABLE_FLEX_ATTENTION"] = "0"
 import unsloth
 from unsloth import FastLanguageModel
 import json
 import gc
 import random
+from datetime import datetime
 import torch
 import wandb
 from datasets import Dataset
@@ -28,15 +45,30 @@ LOAD_IN_4BIT = False
 LOAD_IN_8BIT = True
 SAVE_BASE = "D:/MyLLMs"
 DATASET_PATH = "./datasets/dataset_2026-07-31_15-10-47.json"
-DATASET_NAME = "dataset"
-# A conversation is dropped whole -- every one of its records -- as soon as any
-# of them renders to more tokens than this. Applied before anything else,
-# including the max_seq_length measurement, so the context window is sized to
-# what actually gets trained on.
-MAX_CONTEXT_TOKENS = 5600
+DATASET_NAME = DATASET_PATH
+# Any single record (one LLM invocation) that renders to more tokens than this
+# is dropped on its own; the other records of its conversation are kept.
+# Applied before anything else, including the max_seq_length measurement, so the
+# context window is sized to what actually gets trained on.
+MAX_CONTEXT_TOKENS = 3500
 # Fraction of the surviving records to train on, sampled at random.
 DATASET_FRACTION = 1
 DATASET_SAMPLE_SEED = 12345
+
+# Which modules LoRA attaches to, per family. Llama exposes all seven as plain
+# nn.Linear, so a name list is enough.
+LLAMA_TARGET_MODULES = ["q_proj", "k_proj", "v_proj", "o_proj",
+                        "gate_proj", "up_proj", "down_proj"]
+# gpt-oss has no gate_proj / up_proj / down_proj module anywhere -- its MLP is
+# router + experts. In unsloth's bnb-4bit repo the experts are one submodule per
+# expert, mlp.experts.gate_up_projs.0 ... .31 and mlp.experts.down_projs.0 ...
+# .31, so the last path segment is the expert index and a name list can never
+# match them (PEFT matches names on that last segment). Hence a regex, which
+# PEFT re.fullmatch-es against the full module key.
+GPT_OSS_TARGET_MODULES = (
+    r".*\.(?:self_attn\.(?:q_proj|k_proj|v_proj|o_proj)"
+    r"|mlp\.experts\.(?:gate_up_projs|down_projs)\.\d+)"
+)
 
 # ============================================================
 # SECTION 2: TOOL DEFINITIONS (for chat template)
@@ -316,13 +348,14 @@ with open('instruction_message.txt') as f:
 
 
 def build_train_dataset(tok):
-    """Load the dataset, drop over-long conversations, sample, and measure.
+    """Load the dataset, drop over-long records, sample, and measure.
 
     A record's context length is its fully-rendered length in tokens (system
-    message + tools + conversation so far + output). Records of one
-    conversation share a prefix and grow monotonically, so one record over
-    MAX_CONTEXT_TOKENS means the tail of that conversation is over it too --
-    the whole conversation goes, rather than leaving a truncated stub behind.
+    message + tools + conversation so far + output). Each record over
+    MAX_CONTEXT_TOKENS is dropped on its own; every other record of its
+    conversation is kept as long as it fits. Records are filtered
+    independently, so which records of a conversation survive does not depend
+    on the order they appear in.
 
     Returns (dataset, max_seq_length) where max_seq_length is the longest
     surviving sample, so nothing that gets trained on is truncated.
@@ -335,7 +368,6 @@ def build_train_dataset(tok):
 
     system_part = {"role": "system", "content": instruction_message}
     lengths = []
-    over_long_conversations = set()
 
     for r in records:
         convo = parse_conversation(r["input"], r["output"])
@@ -347,18 +379,19 @@ def build_train_dataset(tok):
         )
         length = len(tok(full_text, add_special_tokens=False)["input_ids"])
         lengths.append(length)
-        if length > MAX_CONTEXT_TOKENS:
-            over_long_conversations.add(r["metadata"]["conversation_id"])
 
     total_conversations = len({r["metadata"]["conversation_id"] for r in records})
     print(f"Token lengths over {len(lengths)} records: max={max(lengths)} "
           f"mean={sum(lengths) / len(lengths):.0f} min={min(lengths)}")
 
-    kept = [(r, n) for r, n in zip(records, lengths)
-            if r["metadata"]["conversation_id"] not in over_long_conversations]
-    print(f"After dropping conversations over {MAX_CONTEXT_TOKENS} tokens: {len(kept)} records "
+    kept = [(r, n) for r, n in zip(records, lengths) if n <= MAX_CONTEXT_TOKENS]
+    affected_conversations = {
+        r["metadata"]["conversation_id"]
+        for r, n in zip(records, lengths) if n > MAX_CONTEXT_TOKENS
+    }
+    print(f"After dropping records over {MAX_CONTEXT_TOKENS} tokens: {len(kept)} records "
           f"({len(records) - len(kept)} removed, from "
-          f"{len(over_long_conversations)}/{total_conversations} conversations)")
+          f"{len(affected_conversations)}/{total_conversations} conversations)")
 
     # Sample the fraction we train on. Shuffle first so the subset isn't biased by
     # the dataset's generation order (records arrive grouped by scene/task).
@@ -378,15 +411,49 @@ def build_train_dataset(tok):
 # ============================================================
 # SECTION 5: HELPER FUNCTIONS
 # ============================================================
+def is_llama_model(model_name):
+    """Whether to use the Llama-specific setup, matched purely by name.
+
+    Llama models get the project's hand-written llama31_cot_template forced on
+    and the LOAD_IN_* (8-bit) load path. Every other model (e.g. gpt-oss) keeps
+    the built-in chat template that ships with its tokenizer and loads in 4-bit.
+    """
+    return "llama" in model_name.lower()
+
+
+def is_gpt_oss_model(model_name):
+    """Whether this is a gpt-oss model, matched purely by name."""
+    return "gpt-oss" in model_name.lower()
+
+
+def make_lora_targets(model_name):
+    """(target_modules, target_parameters) to pass to get_peft_model.
+
+    target_parameters is forced empty for gpt-oss. Left at None, unsloth derives
+    ["mlp.experts.gate_up_proj", "mlp.experts.down_proj"] from the MLP names in
+    target_modules -- but those are the fused nn.Parameters of the *unquantized*
+    model, which the bnb-4bit repo does not have. PEFT then matches nothing and
+    warns, and unsloth rewrites that warning to say MoE experts are "handled
+    separately", which they are not: runs before this trained attention only.
+    """
+    if is_gpt_oss_model(model_name):
+        return GPT_OSS_TARGET_MODULES, []
+    return LLAMA_TARGET_MODULES, None
+
+
 def make_tokenizer(model_name):
     """Tokenizer with the project chat template, loaded without the model.
 
     Needed before FastLanguageModel.from_pretrained, which wants max_seq_length
     up front -- and that can only be measured by tokenizing the dataset.
+
+    For Llama models the project's custom template is forced on; other models
+    keep the built-in template that ships with their tokenizer.
     """
     tok = AutoTokenizer.from_pretrained(f"unsloth/{model_name}")
-    tok = get_chat_template(tok, chat_template="llama-3.1")
-    tok.chat_template = llama31_cot_template
+    if is_llama_model(model_name):
+        tok = get_chat_template(tok, chat_template="llama-3.1")
+        tok.chat_template = llama31_cot_template
     return tok
 
 
@@ -457,6 +524,47 @@ def make_formatting_func(tok, tool_list, instr_message, max_seq_len):
     return formatting_prompts_func
 
 
+def save_training_examples(tok_train, tokenizer, out_dir="inputs", n=3, run_name=None):
+    """Write the first `n` tokenized samples exactly as the model sees them.
+
+    Each sample is split at the loss boundary: the masked prefix
+    (labels == -100, only conditioned on) and the target (labels != -100, the
+    only tokens loss is computed on). Special tokens are kept visible so the
+    dump matches the real token stream. Saved to inputs/inputs_<timestamp>.txt
+    so every run leaves a human-readable record of what it actually trained on.
+    """
+    os.makedirs(out_dir, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    path = os.path.join(out_dir, f"inputs_{timestamp}.txt")
+
+    n = min(n, len(tok_train))
+    with open(path, "w", encoding="utf-8") as f:
+        if run_name:
+            f.write(f"run: {run_name}\n")
+        f.write(f"saved: {timestamp}  |  first {n} of {len(tok_train)} training samples\n")
+        for i in range(n):
+            ex = tok_train[i]
+            input_ids = ex["input_ids"]
+            labels = ex["labels"]
+            # The prefix is masked (-100) and contiguous, so its length is just
+            # the count of leading -100s; the rest is the loss-bearing target.
+            prompt_len = sum(1 for l in labels if l == -100)
+            input_text = tokenizer.decode(input_ids[:prompt_len])
+            output_text = tokenizer.decode(input_ids[prompt_len:])
+            n_out = len(input_ids) - prompt_len
+            f.write("\n" + "=" * 80 + "\n")
+            f.write(f"EXAMPLE {i + 1}/{n}  |  {len(input_ids)} tokens total, "
+                    f"{n_out} in OUTPUT (loss computed on these)\n")
+            f.write("=" * 80 + "\n")
+            f.write("\n----- INPUT (fed to the model, loss masked) -----\n")
+            f.write(input_text)
+            f.write("\n\n----- OUTPUT (loss IS computed on these tokens) -----\n")
+            f.write(output_text)
+            f.write("\n")
+    print(f"Saved {n} training example(s) to {path}")
+    return path
+
+
 class SaveAdapterCallback(TrainerCallback):
     """Saves LoRA adapters at each epoch boundary."""
     def __init__(self, model, tokenizer, save_base, name_template):
@@ -473,39 +581,44 @@ class SaveAdapterCallback(TrainerCallback):
         print(f"Saved adapter checkpoint to {save_dir}")
 
 
-class SaveHalfEpochCallback(TrainerCallback):
-    """Saves LoRA adapters halfway through each epoch (at 0.5, 1.5, ...).
+class SaveThirdEpochCallback(TrainerCallback):
+    """Saves LoRA adapters at the 1/3 and 2/3 marks of each epoch.
 
-    A companion to SaveAdapterCallback's epoch-boundary saves: it drops a
-    mid-epoch snapshot so a run can be inspected or resumed from partway
-    through an epoch. Step boundaries are computed from the optimizer-step
-    count so the mark is exact under gradient accumulation.
+    A companion to SaveAdapterCallback's epoch-boundary saves: it drops two
+    mid-epoch snapshots (at 0.33 and 0.66 of every epoch) so a run can be
+    inspected or resumed from partway through an epoch. Step boundaries are
+    computed from the optimizer-step count so the marks are exact under
+    gradient accumulation.
     """
+    # Fractional marks within each epoch: {fraction of epoch: name suffix}.
+    MARKS = {0.33: "33", 0.66: "66"}
+
     def __init__(self, model, tokenizer, save_base, name_template):
         self.model = model
         self.tokenizer = tokenizer
         self.save_base = save_base
         self.name_template = name_template
-        # {global_step at the half-epoch mark: 0-indexed epoch number}
-        self.half_targets = {}
+        # {global_step at a fractional mark: fraction label, e.g. "0.33"}
+        self.third_targets = {}
 
     def on_train_begin(self, args, state, control, **kwargs):
-        # The half-epoch mark of epoch k lands at optimizer step
-        # round(steps_per_epoch * (k + 0.5)).
+        # The f-th mark of epoch k lands at optimizer step
+        # round(steps_per_epoch * (k + f)) for each fraction f.
         steps_per_epoch = state.max_steps / args.num_train_epochs
-        self.half_targets = {
-            round(steps_per_epoch * (k + 0.5)): k
+        self.third_targets = {
+            round(steps_per_epoch * (k + frac)): f"{k}.{suffix}"
             for k in range(int(args.num_train_epochs))
+            for frac, suffix in self.MARKS.items()
         }
 
     def on_step_end(self, args, state, control, **kwargs):
-        k = self.half_targets.get(state.global_step)
-        if k is None:
+        label = self.third_targets.get(state.global_step)
+        if label is None:
             return
-        save_dir = f"{self.save_base}/{self.name_template.format(ep=f'{k}.5')}"
+        save_dir = f"{self.save_base}/{self.name_template.format(ep=label)}"
         self.model.save_pretrained(save_dir)
         self.tokenizer.save_pretrained(save_dir)
-        print(f"Saved half-epoch adapter checkpoint to {save_dir}")
+        print(f"Saved third-epoch adapter checkpoint to {save_dir}")
 
 
 def make_short_name(model_name):
@@ -544,19 +657,38 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
     raw_train_dataset, max_seq_length = build_train_dataset(make_tokenizer(model_name))
     print(f"max_seq_length set to {max_seq_length}")
 
+    # Llama uses the project's 8-bit setup (LOAD_IN_* above); gpt-oss and any
+    # other model ship pre-quantized and load in 4-bit.
+    extra_model_kwargs = {}
+    if is_llama_model(model_name):
+        load_in_4bit, load_in_8bit = LOAD_IN_4BIT, LOAD_IN_8BIT
+    else:
+        load_in_4bit, load_in_8bit = True, False
+        # gpt-oss's attention sinks default to torch flex_attention. Without a
+        # FlashAttention2 build (unavailable on this Windows setup), the backward
+        # falls back to torch's eager sdpa_dense_backward kernel, which has a bf16
+        # bug: softmax scores get cast to the bf16 query dtype while grad_out
+        # stays fp32, so the final matmul mixes Float and BFloat16 and raises
+        # "expected scalar type Float but found BFloat16". Forcing eager attention
+        # avoids that path -- gpt-oss's eager_attention_forward implements sinks
+        # correctly, so this is numerically sound, just slower than flex/FA2.
+        extra_model_kwargs["attn_implementation"] = "eager"
+
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=f"unsloth/{model_name}",
         max_seq_length=max_seq_length,
         dtype=DTYPE,
-        load_in_4bit=LOAD_IN_4BIT,
-        load_in_8bit=LOAD_IN_8BIT,
+        load_in_4bit=load_in_4bit,
+        load_in_8bit=load_in_8bit,
         full_finetuning=False,
+        **extra_model_kwargs,
     )
+    target_modules, target_parameters = make_lora_targets(model_name)
     model = FastLanguageModel.get_peft_model(
         model,
         r=r,
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj",
-                        "gate_proj", "up_proj", "down_proj"],
+        target_modules=target_modules,
+        target_parameters=target_parameters,
         lora_alpha=alpha * r,
         lora_dropout=0,
         bias="none",
@@ -565,9 +697,12 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
         use_rslora=False,
         loftq_config=None,
     )
+    trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    print(f"Trainable LoRA parameters: {trainable_params:,}")
 
-    tokenizer = get_chat_template(tokenizer, chat_template="llama-3.1")
-    tokenizer.chat_template = llama31_cot_template
+    if is_llama_model(model_name):
+        tokenizer = get_chat_template(tokenizer, chat_template="llama-3.1")
+        tokenizer.chat_template = llama31_cot_template
 
     formatting_func = make_formatting_func(tokenizer, tools, instruction_message, max_seq_length)
     tok_train = raw_train_dataset.map(
@@ -580,21 +715,14 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
     if dropped:
         print(f"Dropped {dropped} samples that exceeded max_seq_length={max_seq_length}")
 
-    example = tok_train[0]
-    print(tokenizer.decode(example["input_ids"]))
-    print("--- trained tokens only ---")
-    print(tokenizer.decode([t for t in example["labels"] if t != -100]))
-    print(f"--- input_ids ({len(example['input_ids'])} tokens) ---")
-    print(example["input_ids"])
-    print(f"--- labels ({sum(t != -100 for t in example['labels'])} unmasked) ---")
-    print(example["labels"])
+    save_training_examples(tok_train, tokenizer, n=3, run_name=run_name)
 
     name_template = make_run_name(short_name, r, alpha, lr, lr_method, "{ep}", full_dataset=full_dataset)
     callbacks = []
     if save_adapter_per_epoch:
         callbacks.append(SaveAdapterCallback(model, tokenizer, f"{SAVE_BASE}/adapters", name_template))
-    # Mid-epoch snapshots (0.5, 1.5, ...) go to the checkpoints dir.
-    callbacks.append(SaveHalfEpochCallback(model, tokenizer, f"{SAVE_BASE}/checkpoints", name_template))
+    # Mid-epoch snapshots (0.33, 0.66, 1.33, ...) go to the checkpoints dir.
+    callbacks.append(SaveThirdEpochCallback(model, tokenizer, f"{SAVE_BASE}/checkpoints", name_template))
 
     wandb.init(
         project="Finetuning robot agent",

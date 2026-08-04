@@ -1,0 +1,1343 @@
+{
+ "object_locations": [
+  "table_Q4",
+  "BIN_BLUE_RIGHT",
+  "zone_009",
+  "binA_002",
+  "drawer_1",
+  "BIN_RED_LEFT",
+  "binA_001",
+  "zone_006",
+  "zone_007",
+  "zone_005",
+  "zone_010",
+  "zone_008",
+  "table_Q2"
+ ],
+ "object_types": [
+  "allseason_tire",
+  "tube_blue",
+  "product_SKU_005",
+  "parcel_large",
+  "cover",
+  "sprocket",
+  "brush_fine",
+  "package_hazmat",
+  "product_unit",
+  "millet_grain"
+ ],
+ "positions": {
+  "binA_002.item.millet_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=allseason_tire&source=binA_001": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "seize_product_SKU_005@zone_007": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "seize_product_unit@zone_010": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "drawer_1.item.package_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone_007.item.parcel_large.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "seize_tube_blue@zone_006": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "drawer_1.item.allseason_tire.acquire": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "binA_002.item.product_unit.acquire": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=table_Q2": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "BIN_BLUE_RIGHT.item.tube_blue.acquire": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "table_Q2.item.millet_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone_008.item.millet_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "drawer_1.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cover&source=binA_001": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=zone_005": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "seize_allseason_tire@zone_007": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "seize_tube_blue@binA_002": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=millet_grain&source=zone_005": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "seize_product_unit@table_Q2": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "seize_sprocket@table_Q4": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "BIN_BLUE_RIGHT.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=product_SKU_005&source=zone_010": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_006.item.parcel_large.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "seize_product_SKU_005@zone_009": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_007.item.cover.acquire": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tube_blue&source=zone_008": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "seize_tube_blue@zone_005": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "seize_parcel_large@zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "table_Q4.item.product_unit.acquire": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone_006.item.package_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=drawer_1": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "binA_002.item.parcel_large.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=allseason_tire&source=zone_006": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_009.item.package_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "seize_allseason_tire@zone_010": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=product_SKU_005&source=BIN_RED_LEFT": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "seize_package_hazmat@zone_010": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_008.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_006.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_005.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=product_unit&source=drawer_1": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "seize_cover@zone_006": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "seize_brush_fine@zone_009": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "BIN_BLUE_RIGHT.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "seize_brush_fine@zone_010": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_008.item.parcel_large.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "binA_001.item.tube_blue.acquire": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=table_Q2": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "seize_parcel_large@zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=millet_grain&source=zone_007": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "table_Q4.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "table_Q2.item.allseason_tire.acquire": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "seize_cover@zone_009": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "seize_allseason_tire@zone_008": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=product_unit&source=zone_007": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "seize_package_hazmat@zone_005": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tube_blue&source=zone_007": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=brush_fine&source=table_Q2": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "drawer_1.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "seize_parcel_large@binA_001": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "seize_sprocket@zone_006": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "seize_package_hazmat@table_Q4": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=brush_fine&source=zone_005": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "seize_cover@zone_008": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "seize_allseason_tire@table_Q4": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "seize_sprocket@zone_010": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=parcel_large&source=drawer_1": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=millet_grain&source=zone_009": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.binA_002.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "zone.binA_001.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.tube_blue.release": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.binA_002.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.sprocket.release": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.BIN_BLUE_RIGHT.item.tube_blue.release": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.zone_008.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.binA_001.item.cover.release": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.sprocket.release": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone.binA_002.item.tube_blue.release": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.sprocket.release": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone.BIN_BLUE_RIGHT.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.zone_009.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.cover.release": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone.zone_008.item.tube_blue.release": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.tube_blue.release": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.sprocket.release": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.binA_002.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.zone_009.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.BIN_RED_LEFT.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.zone_008.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.cover.release": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.zone_009.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.BIN_BLUE_RIGHT.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.zone_008.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.binA_001.item.tube_blue.release": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.zone_009.item.cover.release": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.zone_008.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.tube_blue.release": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.binA_001.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.sprocket.release": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.zone_008.item.cover.release": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.allseason_tire.release": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.sprocket.release": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.parcel_large.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.zone_009.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "bins_observe_red": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_RED_LEFT"
+   ]
+  },
+  "bins_observe_blue": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_BLUE_RIGHT"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001",
+    "binA_002"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_005",
+    "zone_006",
+    "zone_007",
+    "zone_008",
+    "zone_009"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "bin_transfer_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_safe_drop": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "Q2 or Q4 positions": [
+   "table_Q2",
+   "table_Q4"
+  ],
+  "bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "any of the color bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "red or blue bin": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "binA slots 1 or 2": [
+   "binA_001",
+   "binA_002"
+  ],
+  "first two slots of A": [
+   "binA_001",
+   "binA_002"
+  ],
+  "zone_005 to zone_010": [
+   "zone_005",
+   "zone_006",
+   "zone_007",
+   "zone_008",
+   "zone_009",
+   "zone_010"
+  ]
+ }
+}

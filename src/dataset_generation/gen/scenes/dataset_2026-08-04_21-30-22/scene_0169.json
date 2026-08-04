@@ -1,0 +1,1666 @@
+{
+ "object_locations": [
+  "collection_bin",
+  "quarter_bin",
+  "nest_3",
+  "shelf_L3_S3",
+  "station_beta",
+  "shelf_L2_S3",
+  "sorting_table",
+  "shelf_L1_S2",
+  "shelf_L2_S2",
+  "dime_bin",
+  "dispenser_D",
+  "nest_4",
+  "shelf_L3_S2",
+  "dispenser_B",
+  "slot_secondary",
+  "balancer_machine",
+  "shelf_L1_S3",
+  "input_chute",
+  "reject_slot"
+ ],
+ "object_types": [
+  "parcel",
+  "winter_tire",
+  "wafer_L",
+  "module1",
+  "wafer_P",
+  "buckwheat_kernel",
+  "blue_bead",
+  "yellow_bead"
+ ],
+ "positions": {
+  "robot/pickup-module1-at-station_beta": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/wafer_L": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/slot_secondary/winter_tire": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "robot/pickup-buckwheat_kernel-at-shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-input_chute": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "task/pick/dispenser_B/parcel": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "task/pick/nest_3/parcel": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/wafer_P": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/winter_tire": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel-at-sorting_table": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/buckwheat_kernel": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-slot_secondary": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "task/pick/input_chute/module1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "robot/pickup-buckwheat_kernel-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel-at-station_beta": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/blue_bead": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S3/module1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel-at-quarter_bin": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel-at-collection_bin": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-module1-at-shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_L-at-nest_4": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/pick/reject_slot/buckwheat_kernel": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/pickup-winter_tire-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-slot_secondary": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/buckwheat_kernel": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_L-at-dispenser_B": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_L-at-nest_3": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_L-at-reject_slot": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/blue_bead": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-blue_bead-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-module1-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/parcel": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/dime_bin/yellow_bead": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_L-at-quarter_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/blue_bead": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-module1-at-shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-shelf_L1_S2": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "task/pick/dispenser_D/parcel": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "robot/pickup-buckwheat_kernel-at-dispenser_B": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/module1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-buckwheat_kernel-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/yellow_bead": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/wafer_P": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/module1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-module1-at-nest_4": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/pick/quarter_bin/buckwheat_kernel": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-buckwheat_kernel-at-collection_bin": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-winter_tire-at-sorting_table": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "task/pick/dispenser_B/blue_bead": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "task/pick/nest_4/yellow_bead": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/pick/station_beta/winter_tire": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "task/pick/sorting_table/blue_bead": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-dispenser_B": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "task/pick/quarter_bin/winter_tire": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "task/pick/slot_secondary/wafer_L": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/parcel": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/pick/dime_bin/parcel": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "task/pick/sorting_table/yellow_bead": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-nest_4": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/pick/quarter_bin/blue_bead": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-module1-at-collection_bin": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/buckwheat_kernel": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-dispenser_B": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-nest_3": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "task/pick/station_beta/yellow_bead": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "task/pick/reject_slot/parcel": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "task/pick/input_chute/winter_tire": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-collection_bin": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_P-at-sorting_table": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/winter_tire": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/input_chute/blue_bead": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel-at-shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/station_beta/wafer_P": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "robot/pickup-buckwheat_kernel-at-dispenser_D": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "robot/pickup-blue_bead-at-shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-wafer_L-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_L",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-buckwheat_kernel-at-slot_secondary": {
+   "type": "PICK",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "robot/pickup-winter_tire-at-dispenser_D": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/yellow_bead": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "deposit_module1@station_beta": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@slot_secondary": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@input_chute": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "deposit_parcel@dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "deposit_parcel@nest_3": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "deposit_parcel@balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "deposit_parcel@sorting_table": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@slot_secondary": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "deposit_module1@input_chute": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_parcel@station_beta": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "deposit_module1@shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "deposit_parcel@quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "deposit_parcel@collection_bin": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "deposit_module1@shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@nest_4": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@reject_slot": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@slot_secondary": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@nest_3": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@reject_slot": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_module1@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "deposit_parcel@shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "deposit_module1@shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_parcel@dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "deposit_module1@shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "deposit_module1@shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "deposit_module1@nest_4": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@collection_bin": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@sorting_table": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@nest_4": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@station_beta": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@sorting_table": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@slot_secondary": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "deposit_parcel@shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "deposit_parcel@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@sorting_table": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@nest_4": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "deposit_module1@collection_bin": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@nest_3": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@station_beta": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "deposit_parcel@reject_slot": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@input_chute": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@collection_bin": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@sorting_table": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@input_chute": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "deposit_parcel@shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "deposit_wafer_P@station_beta": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "deposit_blue_bead@shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "deposit_wafer_L@dime_bin": {
+   "type": "PLACE",
+   "bound_type": "wafer_L",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_buckwheat_kernel@slot_secondary": {
+   "type": "PLACE",
+   "bound_type": "buckwheat_kernel",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "deposit_winter_tire@dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "deposit_yellow_bead@shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "look at station_beta": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_beta"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_3",
+    "nest_4"
+   ]
+  },
+  "inspect:slot_secondary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_secondary"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_B"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_D"
+   ]
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin",
+    "quarter_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S2",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2",
+    "shelf_L3_S3"
+   ]
+  },
+  "monitor balancer_machine": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "balancer_machine"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "collection_bin",
+    "sorting_table"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stringing_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_L",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "buckwheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "somewhere in dispensers B or D": [
+   "dispenser_B",
+   "dispenser_D"
+  ],
+  "somewhere in the input or reject slots": [
+   "input_chute",
+   "reject_slot"
+  ],
+  "from the dime or quarter trays": [
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "from the input chute or the quarter bin": [
+   "input_chute",
+   "quarter_bin"
+  ],
+  "from the dime bin or the input chute": [
+   "dime_bin",
+   "input_chute"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ],
+  "collection or sorting areas": [
+   "collection_bin",
+   "sorting_table"
+  ]
+ }
+}

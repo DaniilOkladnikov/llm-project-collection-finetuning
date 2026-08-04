@@ -1,0 +1,1911 @@
+{
+ "object_locations": [
+  "L2-SecC-RackO",
+  "L2-SecC-RackM",
+  "zone_004",
+  "shelf_L3_S3",
+  "zone_002",
+  "drawer_9",
+  "cell_R3C1",
+  "zone_003",
+  "cell_R3C2",
+  "cell_R3C3",
+  "shelf_L3_S4",
+  "tray_infeed_slot2",
+  "shelf_L3_S2",
+  "prep_board",
+  "cell_R3C5",
+  "cell_R3C4",
+  "zone_006",
+  "shelf_L3_S1",
+  "zone_005",
+  "L2-SecC-RackN"
+ ],
+ "object_types": [
+  "foot_soldier",
+  "token_G",
+  "wafer_Q",
+  "fastener",
+  "wafer_J",
+  "package_overnight",
+  "parka",
+  "network_link",
+  "grain_rice"
+ ],
+ "positions": {
+  "CMD:GRIP:foot_soldier:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:zone_003": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:zone_004": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:zone_002": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:zone_003": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:zone_006": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:drawer_9": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:zone_006": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:zone_002": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:zone_004": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:zone_005": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:zone_002": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:zone_006": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:fastener:LOC:zone_002": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:drawer_9": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:zone_004": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:zone_003": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parka:LOC:shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "parka",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_J:LOC:shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:drawer_9": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:zone_004": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_Q:LOC:cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_rice:LOC:cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "CMD:GRIP:network_link:LOC:zone_006": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_overnight:LOC:shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "package_overnight",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:foot_soldier:LOC:zone_002": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#foot_soldier/leave": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "actions/release/parka/to/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_overnight&dest=zone_003": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#fastener/leave": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=fastener&dest=shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#network_link/leave": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#shelf_L3_S3/#token_G/leave": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "#cell_R3C5/#token_G/leave": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "actions/release/token_G/to/zone_004": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "#cell_R3C3/#foot_soldier/leave": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "actions/release/parka/to/zone_005": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#L2-SecC-RackO/#package_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "actions/release/token_G/to/zone_005": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "actions/release/fastener/to/cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=network_link&dest=cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "#zone_002/#wafer_Q/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "#L2-SecC-RackO/#fastener/leave": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=token_G&dest=zone_003": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "actions/release/foot_soldier/to/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/prep_board": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#shelf_L3_S3/#fastener/leave": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_overnight&dest=zone_005": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#shelf_L3_S3/#network_link/leave": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "actions/release/parka/to/zone_006": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=fastener&dest=cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#foot_soldier/leave": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#grain_rice/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#zone_005/#fastener/leave": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "actions/release/grain_rice/to/prep_board": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#network_link/leave": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "#cell_R3C4/#grain_rice/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=foot_soldier&dest=L2-SecC-RackO": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "#cell_R3C2/#fastener/leave": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=network_link&dest=cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_Q&dest=shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=token_G&dest=L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "#L2-SecC-RackN/#grain_rice/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=network_link&dest=shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "actions/release/foot_soldier/to/cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "#drawer_9/#wafer_Q/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#grain_rice/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "actions/release/network_link/to/cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "actions/release/foot_soldier/to/zone_005": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#zone_006/#token_G/leave": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parka&dest=L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=network_link&dest=zone_005": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=token_G&dest=L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "actions/release/fastener/to/prep_board": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=token_G&dest=zone_002": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "actions/release/grain_rice/to/cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "actions/release/fastener/to/cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=token_G&dest=shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#shelf_L3_S3/#wafer_Q/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_J&dest=shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "actions/release/wafer_Q/to/cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "actions/release/wafer_Q/to/zone_004": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "actions/release/fastener/to/L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "#cell_R3C3/#parka/leave": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "#zone_005/#wafer_Q/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#L2-SecC-RackN/#package_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "#zone_002/#package_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=fastener&dest=zone_006": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "actions/release/package_overnight/to/shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#zone_002/#fastener/leave": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_Q&dest=cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "#cell_R3C2/#wafer_J/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "#cell_R3C5/#parka/leave": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parka&dest=zone_004": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "actions/release/foot_soldier/to/tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "actions/release/foot_soldier/to/prep_board": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "actions/release/grain_rice/to/zone_003": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#foot_soldier/leave": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parka&dest=shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "parka",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#network_link/leave": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#network_link/leave": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#wafer_J/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=token_G&dest=shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "actions/release/foot_soldier/to/L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "actions/release/grain_rice/to/L2-SecC-RackO": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "#cell_R3C4/#foot_soldier/leave": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "actions/release/package_overnight/to/cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "#drawer_9/#token_G/leave": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=token_G&dest=cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_overnight&dest=zone_004": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "actions/release/wafer_Q/to/tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "actions/release/token_G/to/cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "#prep_board/#wafer_Q/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_Q&dest=cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "actions/release/foot_soldier/to/L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "#zone_006/#network_link/leave": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "actions/release/package_overnight/to/shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "package_overnight",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=foot_soldier&dest=zone_002": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_002",
+    "zone_003"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004",
+    "zone_005",
+    "zone_006"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R3C4",
+    "cell_R3C5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_9"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S2",
+    "shelf_L3_S3",
+    "shelf_L3_S4"
+   ]
+  },
+  "look at prep_board & sink_basin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "prep_board"
+   ]
+  },
+  "Catwalk_Overlook_L2_SecC_Racks_M_N_O": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L2-SecC-RackM",
+    "L2-SecC-RackN",
+    "L2-SecC-RackO"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "package_overnight",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "parka",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "97": {
+   "id": 97,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "98": {
+   "id": 98,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "99": {
+   "id": 99,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "zones 2-6": [
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006"
+  ],
+  "cellR3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells in row 3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "shelf_L3 slots": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "shelf L3 bays": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "Level_2_Steel_Racks_Indices_M_and_N": [
+   "L2-SecC-RackM",
+   "L2-SecC-RackN"
+  ],
+  "Level_2_Steel_Racks_Indices_N_and_O": [
+   "L2-SecC-RackN",
+   "L2-SecC-RackO"
+  ],
+  "All_Level_2_Section_C_Racks_Indices_M_to_O": [
+   "L2-SecC-RackM",
+   "L2-SecC-RackN",
+   "L2-SecC-RackO"
+  ]
+ }
+}

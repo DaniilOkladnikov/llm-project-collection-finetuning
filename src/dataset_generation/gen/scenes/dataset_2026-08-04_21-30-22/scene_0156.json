@@ -1,0 +1,1492 @@
+{
+ "object_locations": [
+  "cement_mixer_storage",
+  "shelf_L3_S2",
+  "cell_R1C1",
+  "cell_R1C4",
+  "shelf_L1_S3",
+  "cell_R1C5",
+  "METALcontainer",
+  "cement_bag_pile",
+  "shelf_L1_S2",
+  "zone_004",
+  "shelf_L3_S3",
+  "lane_3_start",
+  "cell_R1C3",
+  "cell_R1C2",
+  "DEBRIScontainer",
+  "shelf_L2_S3",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "tile_N",
+  "grain_rice",
+  "tube_blue",
+  "marker_H",
+  "chip_type_A",
+  "metal_support_tube",
+  "clear_bead",
+  "product_unit",
+  "potato"
+ ],
+ "positions": {
+  "ns:cement_bag_pile:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S2:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ns:cement_mixer_storage:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:cell_R1C4:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C2:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C4:item:chip_type_A:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C1:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C1:item:chip_type_A:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ns:lane_3_start:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:chip_type_A:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S2:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S2:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:marker_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:lane_3_start:item:chip_type_A:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:chip_type_A:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "ns:METALcontainer:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "ns:cement_bag_pile:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S2:item:chip_type_A:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S3:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:marker_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:chip_type_A:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:potato:action:pick": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:METALcontainer:item:tube_blue:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_blue",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "ns:cell_R1C4:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:marker_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C2:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:potato:action:pick": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C1:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ns:cell_R1C4:item:potato:action:pick": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:potato:action:pick": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:marker_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:potato:action:pick": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:marker_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S3:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:potato:action:pick": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:marker_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S3:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C4:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:cement_mixer_storage:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:METALcontainer:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "ns:cell_R1C1:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:clear_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C1:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ns:DEBRIScontainer:item:potato:action:pick": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S2:item:marker_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S2:item:metal_support_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:cement_mixer_storage:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "ns:cement_bag_pile:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S2:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:product_unit:action:pick": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "cement_bag_pile:grain_rice:DROP": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_blue&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:clear_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "cement_mixer_storage:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "DEBRIScontainer:tile_N:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "cell_R1C4:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=metal_support_tube&dest=cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_A&dest=cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_bead&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "cell_R1C1:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "DEBRIScontainer:clear_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_blue&dest=shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "cell_R1C1:chip_type_A:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_A&dest=shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_N&dest=shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "cell_R1C3:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=DEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_bead&dest=shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "zone_004:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "cell_R1C5:marker_H:DROP": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "lane_3_start:chip_type_A:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "zone_004:chip_type_A:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "METALcontainer:product_unit:DROP": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_blue&dest=cement_bag_pile": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_A&dest=shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_blue&dest=DEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:marker_H:DROP": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_A&dest=DEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "cell_R1C5:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=potato&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "METALcontainer:tube_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "tube_blue",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "cell_R1C4:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=metal_support_tube&dest=shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=marker_H&dest=shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_bead&dest=cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:potato:DROP": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=metal_support_tube&dest=cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=potato&dest=cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "shelf_L3_S3:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:potato:DROP": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=marker_H&dest=zone_004": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=potato&dest=shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=marker_H&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:tile_N:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "cell_R1C3:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=potato&dest=zone_004": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_N&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "DEBRIScontainer:marker_H:DROP": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_bead&dest=shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "cell_R1C4:tile_N:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "DEBRIScontainer:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=cement_mixer_storage": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_bead&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "METALcontainer:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=clear_bead&dest=shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S3:grain_rice:DROP": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_N&dest=cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "DEBRIScontainer:potato:DROP": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_N&dest=shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=marker_H&dest=shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "zone_004:grain_rice:DROP": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:metal_support_tube:DROP": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "cement_mixer_storage:product_unit:DROP": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "cement_bag_pile:tile_N:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_rice&dest=shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "METALcontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "METALcontainer"
+   ]
+  },
+  "DEBRIScontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "DEBRIScontainer"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_start"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S2",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2",
+    "shelf_L3_S3"
+   ]
+  },
+  "cement_station_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cement_mixer_storage",
+    "cement_bag_pile"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "battery_charging_dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "tube_blue",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "potato",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "non-electronic waste containers": [
+   "METALcontainer",
+   "DEBRIScontainer"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ],
+  "cement_area_storage": [
+   "cement_mixer_storage",
+   "cement_bag_pile"
+  ],
+  "powder_and_mixer_cement_zones": [
+   "cement_mixer_storage",
+   "cement_bag_pile"
+  ]
+ }
+}

@@ -1,0 +1,1438 @@
+{
+ "object_locations": [
+  "shelf_L3_S2",
+  "shelf_L1_S4",
+  "zone_004",
+  "parcelPalette-1.1.2",
+  "zone_002",
+  "cell_R1C2",
+  "parcelPalette-1.1.1",
+  "cell_R1C1",
+  "cell_R1C4",
+  "cell_R1C5",
+  "zone_003",
+  "zone_006",
+  "shelf_L1_S2",
+  "slot2_4",
+  "cell_R1C3",
+  "zone_005",
+  "zone_001",
+  "shelf_L3_S4",
+  "shelf_L2_S4",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "egg",
+  "wafer_I",
+  "box_oversized",
+  "mount",
+  "roller_orange",
+  "apple_crimson",
+  "quinoa_kernel"
+ ],
+ "positions": {
+  "#slot2_4/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "#zone_005/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#zone_001/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "#zone_001/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "#shelf_L1_S4/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "#cell_R1C4/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "#cell_R1C4/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "#zone_001/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "#slot2_4/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "#zone_002/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "#shelf_L2_S4/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "#shelf_L1_S2/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#zone_005/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#shelf_L1_S4/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "#zone_004/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#zone_001/#mount/take": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#mount/take": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#slot2_4/#mount/take": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "#shelf_L2_S4/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#zone_005/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#mount/take": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#shelf_L1_S4/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "#shelf_L1_S4/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "#zone_005/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "#shelf_L2_S4/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "#shelf_L2_S4/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "#zone_005/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#zone_003/#apple_crimson/take": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "#zone_001/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "#shelf_L2_S4/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "#shelf_L1_S2/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "#zone_004/#mount/take": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#zone_002/#mount/take": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#cell_R1C4/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "#zone_003/#box_oversized/take": {
+   "type": "PICK",
+   "bound_type": "box_oversized",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "#zone_006/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "#zone_003/#quinoa_kernel/take": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#shelf_L1_S4/#mount/take": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "#zone_001/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#egg/take": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#zone_004/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#wafer_I/take": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "slot2_4:apple_crimson:DROP": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S4.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "zone_005:wafer_I:DROP": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "$.zone_001.quinoa_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "$.zone_001.box_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:wafer_I:DROP": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.apple_crimson.release": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.box_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "zone_001:egg:DROP": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S2.box_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "$.slot2_4.egg.release": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "$.zone_002.roller_orange.release": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S2.apple_crimson.release": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:wafer_I:DROP": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "cell_R1C1:box_oversized:DROP": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "cell_R1C3:roller_orange:DROP": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S2.quinoa_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "cell_R1C1:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S2.roller_orange.release": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S2.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:egg:DROP": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.1:wafer_I:DROP": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:roller_orange:DROP": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.egg.release": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.zone_005.roller_orange.release": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:roller_orange:DROP": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "$.zone_004.box_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S2.apple_crimson.release": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "cell_R1C3:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "zone_001:mount:DROP": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "$.cell_R1C5.mount.release": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "$.slot2_4.mount.release": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S4.roller_orange.release": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S2.box_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "$.cell_R1C3.egg.release": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:apple_crimson:DROP": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "zone_005:apple_crimson:DROP": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:egg:DROP": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.mount.release": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.1.roller_orange.release": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S4.apple_crimson.release": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S4.quinoa_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "zone_005:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.2.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:egg:DROP": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S4.box_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "$.zone_005.egg.release": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "$.zone_003.apple_crimson.release": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_001:wafer_I:DROP": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S4.egg.release": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:box_oversized:DROP": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "zone_004:mount:DROP": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.1.box_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "$.zone_002.mount.release": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.1:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "zone_003:box_oversized:DROP": {
+   "type": "PLACE",
+   "bound_type": "box_oversized",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S2.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "$.zone_006.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_003:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.1:egg:DROP": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2:roller_orange:DROP": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S4.mount.release": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "$.zone_001.roller_orange.release": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "cell_R1C2:egg:DROP": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.zone_004.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.cell_R1C3.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S2.roller_orange.release": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "slot2_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot2_4"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_001",
+    "zone_002",
+    "zone_003"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004",
+    "zone_005",
+    "zone_006"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S2",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2",
+    "shelf_L2_S4"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2",
+    "shelf_L3_S4"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "box_oversized",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "zone_001|zone_002|zone_003": [
+   "zone_001",
+   "zone_002",
+   "zone_003"
+  ],
+  "first zones (1-6)": [
+   "zone_001",
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006"
+  ],
+  "zones 2-6": [
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "shelf S4 of each level": [
+   "shelf_L1_S4",
+   "shelf_L2_S4",
+   "shelf_L3_S4"
+  ],
+  "even numbered positions across all shelf levels": [
+   "shelf_L1_S2",
+   "shelf_L1_S4",
+   "shelf_L2_S2",
+   "shelf_L2_S4",
+   "shelf_L3_S2",
+   "shelf_L3_S4"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ]
+ }
+}

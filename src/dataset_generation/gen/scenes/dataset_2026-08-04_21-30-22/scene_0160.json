@@ -1,0 +1,905 @@
+{
+ "object_locations": [
+  "tool_shed_shelf_top",
+  "zone_009",
+  "parcelPalette-1.2.2",
+  "zone_007",
+  "parcelPalette-1.1.2",
+  "tool_shed_shelf_bottom",
+  "parcelPalette-1.2.1",
+  "zone_010",
+  "zone_012",
+  "parcelPalette-1.1.1",
+  "zone_008",
+  "zone_011"
+ ],
+ "object_types": [
+  "steak_cut",
+  "steel_billet",
+  "tile_R",
+  "package_fragile",
+  "sticker",
+  "water_conduit",
+  "cylinder_magenta"
+ ],
+ "positions": {
+  "ACQUIRE/zone_010/steak_cut": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.2.1/package_fragile": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/steak_cut": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:water_conduit:action:pick": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/water_conduit": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_012:item:cylinder_magenta:action:pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.1.1/steel_billet": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_010/package_fragile": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_007/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.1.1/sticker": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/tool_shed_shelf_bottom/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_bottom:item:steel_billet:action:pick": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.2.1:item:cylinder_magenta:action:pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.1.1/steak_cut": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_011/steel_billet": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.2:item:steel_billet:action:pick": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:tile_R:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_012/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:water_conduit:action:pick": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ns:zone_008:item:package_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_top:item:sticker:action:pick": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "tool_shed_shelf_top",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_bottom:item:sticker:action:pick": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.2:item:sticker:action:pick": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_bottom:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "ACQUIRE/tool_shed_shelf_top/water_conduit": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "tool_shed_shelf_top",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_012/package_fragile": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_bottom:item:tile_R:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.1.2/steak_cut": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:cylinder_magenta:action:pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_011/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_bottom:item:water_conduit:action:pick": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.2:item:tile_R:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.2.1:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_007/water_conduit": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.1.2/water_conduit": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:steel_billet:action:pick": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.2.1:item:water_conduit:action:pick": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:sticker:action:pick": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/sticker": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_011/package_fragile": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_008/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.1.2/package_fragile": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-1.2.2/steel_billet": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_007/package_fragile": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "deposit_steak_cut@zone_010": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "deposit_package_fragile@parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "[zone_009][steak_cut]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "deposit_tile_R@zone_009": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "[zone_010][water_conduit]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "[zone_009][water_conduit]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "[zone_012][cylinder_magenta]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "deposit_steel_billet@parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "deposit_package_fragile@zone_010": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "[zone_007][cylinder_magenta]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.1][sticker]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "[tool_shed_shelf_bottom][cylinder_magenta]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "[tool_shed_shelf_bottom][steel_billet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "deposit_cylinder_magenta@parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.1][steak_cut]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "[zone_011][steel_billet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.2][steel_billet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "deposit_tile_R@parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "deposit_tile_R@zone_012": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "deposit_water_conduit@parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "deposit_package_fragile@zone_008": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "[tool_shed_shelf_top][sticker]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "tool_shed_shelf_top",
+   "observable_locations": null
+  },
+  "[tool_shed_shelf_bottom][sticker]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.2][sticker]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "[tool_shed_shelf_bottom][steak_cut]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "deposit_water_conduit@tool_shed_shelf_top": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "tool_shed_shelf_top",
+   "observable_locations": null
+  },
+  "[zone_012][package_fragile]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "[zone_011][steak_cut]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "deposit_tile_R@tool_shed_shelf_bottom": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.2][steak_cut]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "[zone_010][cylinder_magenta]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "deposit_tile_R@zone_011": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "[tool_shed_shelf_bottom][water_conduit]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.2][tile_R]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.2.1][steak_cut]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "[zone_007][water_conduit]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.1.2][water_conduit]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "deposit_steel_billet@zone_009": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "[parcelPalette-1.2.1][water_conduit]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "[zone_010][sticker]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "deposit_sticker@zone_009": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "[zone_011][package_fragile]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "deposit_cylinder_magenta@zone_008": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "deposit_package_fragile@parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "deposit_steel_billet@parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "deposit_package_fragile@zone_007": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_007",
+    "zone_008",
+    "zone_009"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010",
+    "zone_011",
+    "zone_012"
+   ]
+  },
+  "tool_shed_interior_camera": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tool_shed_shelf_top",
+    "tool_shed_shelf_bottom"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2",
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.2.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "middle zones (7-12)": [
+   "zone_007",
+   "zone_008",
+   "zone_009",
+   "zone_010",
+   "zone_011",
+   "zone_012"
+  ],
+  "008-011 zones": [
+   "zone_008",
+   "zone_009",
+   "zone_010",
+   "zone_011"
+  ],
+  "all_tool_shed_shelves": [
+   "tool_shed_shelf_top",
+   "tool_shed_shelf_bottom"
+  ],
+  "top_bottom_tool_racks": [
+   "tool_shed_shelf_top",
+   "tool_shed_shelf_bottom"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ],
+  "Palettesshelf - 1.2.*": [
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2"
+  ]
+ }
+}

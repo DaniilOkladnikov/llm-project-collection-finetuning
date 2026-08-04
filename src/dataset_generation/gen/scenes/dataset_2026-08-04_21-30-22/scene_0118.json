@@ -1,0 +1,965 @@
+{
+ "object_locations": [
+  "dime_bin",
+  "table_Q4",
+  "table_Q3",
+  "nickel_bin",
+  "cell_R1C4",
+  "palette_well_6",
+  "quarter_bin",
+  "conveyor_pick_zone",
+  "cell_R4C2",
+  "drawer_5",
+  "inspection_pad",
+  "penny_bin",
+  "tree_12",
+  "tree_9",
+  "conveyor_drop_zone",
+  "reject_slot",
+  "countertop"
+ ],
+ "object_types": [
+  "parcel_standard",
+  "buck",
+  "cent_coin",
+  "wafer_N"
+ ],
+ "positions": {
+  "pickupcent_coindime_bin": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "pickupcent_coinpenny_bin": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "pickupparcel_standardquarter_bin": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "pickupcent_coincountertop": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "pickupwafer_Ndime_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "pickupbuckdime_bin": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "pickupbuckpenny_bin": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "pickupparcel_standarddime_bin": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "pickupwafer_Nconveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "pickupcent_coininspection_pad": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "pickupwafer_Nreject_slot": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "pickupbucktree_12": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "pickupwafer_Npalette_well_6": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "pickupbuckpalette_well_6": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "pickupwafer_Ninspection_pad": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "pickupbuckinspection_pad": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "pickupcent_cointree_9": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "pickupparcel_standardconveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "pickupbucktable_Q3": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "pickupbuckcell_R1C4": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "pickupparcel_standardreject_slot": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "pickupcent_coincell_R4C2": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "pickupparcel_standardtree_12": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "pickupwafer_Ntree_9": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "pickupbucktree_9": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "pickupparcel_standardinspection_pad": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "pickupparcel_standardcell_R1C4": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "pickupwafer_Nconveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "pickupwafer_Ncell_R4C2": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "pickupbuckcell_R4C2": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "pickupcent_coinnickel_bin": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "pickupcent_coindrawer_5": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pickupbuckconveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "pickupparcel_standardtree_9": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "pickupcent_coinquarter_bin": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "pickupcent_cointable_Q4": {
+   "type": "PICK",
+   "bound_type": "cent_coin",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "pickupwafer_Nquarter_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "pickupwafer_Ndrawer_5": {
+   "type": "PICK",
+   "bound_type": "wafer_N",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pickupbuckdrawer_5": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pickupparcel_standardconveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "pickupparcel_standardcell_R4C2": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "pickupbuckquarter_bin": {
+   "type": "PICK",
+   "bound_type": "buck",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "dime_bin=>cent_coin=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "[penny_bin][cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "[quarter_bin][parcel_standard]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "countertop=>cent_coin=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "[dime_bin][wafer_N]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "[dime_bin][buck]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "[penny_bin][buck]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "[dime_bin][parcel_standard]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone=>wafer_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "[inspection_pad][cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "[reject_slot][wafer_N]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "tree_12=>buck=>PUT": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "palette_well_6=>wafer_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "[palette_well_6][buck]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "[inspection_pad][wafer_N]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "inspection_pad=>buck=>PUT": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "tree_9=>cent_coin=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "[table_Q3][buck]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "cell_R1C4=>buck=>PUT": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "[reject_slot][parcel_standard]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "[cell_R4C2][cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "tree_12=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "[tree_9][wafer_N]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "tree_9=>buck=>PUT": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "inspection_pad=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "cell_R1C4=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone=>wafer_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "[cell_R4C2][wafer_N]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "[cell_R4C2][buck]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "nickel_bin=>cent_coin=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "drawer_5=>cent_coin=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone=>buck=>PUT": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "[tree_9][parcel_standard]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "[quarter_bin][cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "table_Q4=>cent_coin=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cent_coin",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "[quarter_bin][wafer_N]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "drawer_5=>wafer_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "wafer_N",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[drawer_5][buck]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "cell_R4C2=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "quarter_bin=>buck=>PUT": {
+   "type": "PLACE",
+   "bound_type": "buck",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "inspection_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "inspection_pad"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C4"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C2"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_5"
+   ]
+  },
+  "glance countertop": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "countertop"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_6"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin",
+    "nickel_bin"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin",
+    "quarter_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_9"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_12"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "buck",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cent_coin",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "wafer_N",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "last two quadrants": [
+   "table_Q3",
+   "table_Q4"
+  ],
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick zone or inspection pad": [
+   "conveyor_pick_zone",
+   "inspection_pad"
+  ],
+  "drop zone or inspection pad": [
+   "conveyor_drop_zone",
+   "inspection_pad"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "somewhere on the top of the counter": [
+   "countertop"
+  ],
+  "the drawer 5 or the countertop": [
+   "drawer_5",
+   "countertop"
+  ],
+  "from any of the valid coin bins": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside the penny or nickel containers": [
+   "penny_bin",
+   "nickel_bin"
+  ],
+  "from the dime or quarter trays": [
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside any of the receptacles excluding the input": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin",
+   "reject_slot"
+  ],
+  "from the penny bin or the reject slot": [
+   "penny_bin",
+   "reject_slot"
+  ]
+ }
+}

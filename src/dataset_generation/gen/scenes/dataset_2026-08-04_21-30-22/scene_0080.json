@@ -1,0 +1,1716 @@
+{
+ "object_locations": [
+  "parcelPalette-2.2.2",
+  "L1-SecA-Bay02",
+  "L1-SecB-SiloX2",
+  "lane_3_mid",
+  "lane_2_mid",
+  "parcelPalette-1.2.2",
+  "L1-SecB-SiloX1",
+  "L1-SecA-Bay01",
+  "parcelPalette-2.1.2",
+  "parcelPalette-3.2.2",
+  "cart front",
+  "parcelPalette-3.3.2",
+  "parcelPalette-1.1.2",
+  "rack middle",
+  "lane_1_mid",
+  "parcelPalette-3.1.2",
+  "parcelPalette-2.3.2",
+  "parcelPalette-1.3.2"
+ ],
+ "object_types": [
+  "optical_transceiver",
+  "chip_C",
+  "chip_type_D",
+  "cylinder_blue",
+  "item_unit",
+  "green_bead",
+  "tube_magenta",
+  "product_SKU_001",
+  "cap"
+ ],
+ "positions": {
+  "/mnt/rack middle/chip_type_D/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "/mnt/cart front/chip_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.2.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay02.optical_transceiver.grab": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "/mnt/rack middle/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecA-Bay01/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.2.cap.grab": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.cap.grab": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.item_unit.grab": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecB-SiloX1/chip_type_D/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay02.tube_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.cylinder_blue.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX1.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "/mnt/cart front/cylinder_blue/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.1.2/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.lane_2_mid.chip_type_D.grab": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "$.lane_2_mid.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_mid/item_unit/pick": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.item_unit.grab": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.3.2/product_SKU_001/pick": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.rack middle.chip_C.grab": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_mid/cylinder_blue/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_mid/product_SKU_001/pick": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.cart front.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.optical_transceiver.grab": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.2/cylinder_blue/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecA-Bay01/optical_transceiver/pick": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.2.chip_C.grab": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.chip_C.grab": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.2.2/tube_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.2/tube_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX1.optical_transceiver.grab": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay01.tube_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.chip_type_D.grab": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.cap.grab": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.2.cap.grab": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_mid/chip_type_D/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.1.2/cylinder_blue/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.chip_type_D.grab": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.2.2/chip_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "$.lane_2_mid.optical_transceiver.grab": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_mid/cylinder_blue/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.1.2/tube_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.1.2/tube_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecB-SiloX1/item_unit/pick": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.3.2/cap/pick": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.1.2/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.cylinder_blue.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.1.2/item_unit/pick": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.1.2/item_unit/pick": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.1.2/optical_transceiver/pick": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.3.2/chip_type_D/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.1.2/tube_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecA-Bay02/chip_type_D/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_mid/chip_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "$.lane_3_mid.cap.grab": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.3.2/chip_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.2/cap/pick": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.lane_1_mid.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay02.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.1.2/item_unit/pick": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "$.lane_3_mid.green_bead.grab": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.2/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.cylinder_blue.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.lane_3_mid.optical_transceiver.grab": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.2/optical_transceiver/pick": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecB-SiloX2/optical_transceiver/pick": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "$.cart front.optical_transceiver.grab": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.cylinder_blue.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.2.cylinder_blue.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.chip_C.grab": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX1.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-2.1.2/cylinder_blue/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.item_unit.grab": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.lane_1_mid.chip_type_D.grab": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "/mnt/cart front/tube_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.1.2/product_SKU_001/pick": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.2/cap/pick": {
+   "type": "PICK",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecA-Bay02/chip_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.3.2/optical_transceiver/pick": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.item_unit.grab": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.cylinder_blue.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "/mnt/cart front/item_unit/pick": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.2.item_unit.grab": {
+   "type": "PICK",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.2.chip_type_D.grab": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/rack middle": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "$.cart front.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "op/stow/green_bead/loc/parcelPalette-3.2.2": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "op/stow/optical_transceiver/loc/L1-SecA-Bay02": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.rack middle.green_bead.release": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "op/stow/green_bead/loc/L1-SecA-Bay01": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "op/stow/cap/loc/parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.cap.release": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/L1-SecB-SiloX1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "op/stow/tube_magenta/loc/L1-SecA-Bay02": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX1.green_bead.release": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "$.cart front.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "op/stow/green_bead/loc/parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/green_bead/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "op/stow/product_SKU_001/loc/parcelPalette-2.3.2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.rack middle.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "$.lane_1_mid.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.green_bead.release": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/product_SKU_001/loc/lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "op/stow/product_SKU_001/loc/cart front": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.optical_transceiver.release": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_blue/loc/parcelPalette-3.2.2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay01.optical_transceiver.release": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.2.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_C/loc/parcelPalette-3.1.2": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.tube_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/tube_magenta/loc/parcelPalette-3.2.2": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "op/stow/optical_transceiver/loc/L1-SecB-SiloX1": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "op/stow/tube_magenta/loc/L1-SecA-Bay01": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.chip_type_D.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.cap.release": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.2.cap.release": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.green_bead.release": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.2.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "$.lane_2_mid.optical_transceiver.release": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_blue/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/green_bead/loc/L1-SecB-SiloX2": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.2.tube_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.tube_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/L1-SecB-SiloX1": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "op/stow/cap/loc/parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "op/stow/green_bead/loc/parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.2.2.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.item_unit.release": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.1.2.optical_transceiver.release": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "op/stow/product_SKU_001/loc/parcelPalette-3.1.2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "op/stow/tube_magenta/loc/parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/L1-SecA-Bay02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.lane_2_mid.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "$.lane_3_mid.cap.release": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.cap.release": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.lane_1_mid.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay02.green_bead.release": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.1.2.item_unit.release": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "$.lane_3_mid.green_bead.release": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.2.2.green_bead.release": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.3.2.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "op/stow/optical_transceiver/loc/lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "op/stow/optical_transceiver/loc/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.optical_transceiver.release": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "op/stow/optical_transceiver/loc/cart front": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_blue/loc/parcelPalette-3.3.2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "op/stow/product_SKU_001/loc/L1-SecB-SiloX1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.1.2.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/parcelPalette-2.3.2": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "$.lane_1_mid.chip_type_D.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "op/stow/tube_magenta/loc/cart front": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.1.2.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.2.cap.release": {
+   "type": "PLACE",
+   "bound_type": "cap",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay02.chip_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.optical_transceiver.release": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/L1-SecB-SiloX2": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-1.3.2.cylinder_blue.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/cart front": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "op/stow/item_unit/loc/parcelPalette-3.3.2": {
+   "type": "PLACE",
+   "bound_type": "item_unit",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.2.chip_type_D.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack middle"
+   ]
+  },
+  "cart_overhead_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cart front"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_mid",
+    "lane_2_mid",
+    "lane_3_mid"
+   ]
+  },
+  "Viewpoint_Monitor_L1_SecA_Bays_01_and_02": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecA-Bay01",
+    "L1-SecA-Bay02"
+   ]
+  },
+  "Platform_Inspect_L1_SecB_Silos_X1_and_X2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecB-SiloX1",
+    "L1-SecB-SiloX2"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.2",
+    "parcelPalette-1.2.2",
+    "parcelPalette-1.3.2"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.2",
+    "parcelPalette-2.2.2",
+    "parcelPalette-2.3.2"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.1.2",
+    "parcelPalette-3.2.2",
+    "parcelPalette-3.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "cart_loading_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "item_unit",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "cap",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "cap",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "cap",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "cap",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "cap",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "cap",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "cap",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "cap",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rack middle or cart front": [
+   "rack middle",
+   "cart front"
+  ],
+  "one of the central lane sections": [
+   "lane_1_mid",
+   "lane_2_mid",
+   "lane_3_mid"
+  ],
+  "Level_1_Section_A_Material_Bays_01_and_02": [
+   "L1-SecA-Bay01",
+   "L1-SecA-Bay02"
+  ],
+  "Level_1_Section_B_Bulk_Silos_X1_and_X2": [
+   "L1-SecB-SiloX1",
+   "L1-SecB-SiloX2"
+  ],
+  "All_Level_1_Storage_Indices_01_02_X1_X2": [
+   "L1-SecA-Bay01",
+   "L1-SecA-Bay02",
+   "L1-SecB-SiloX1",
+   "L1-SecB-SiloX2"
+  ],
+  "Palettes tier both indices anything, last index 2]": [
+   "parcelPalette-1.1.2",
+   "parcelPalette-1.2.2",
+   "parcelPalette-1.3.2",
+   "parcelPalette-2.1.2",
+   "parcelPalette-2.2.2",
+   "parcelPalette-2.3.2",
+   "parcelPalette-3.1.2",
+   "parcelPalette-3.2.2",
+   "parcelPalette-3.3.2"
+  ]
+ }
+}

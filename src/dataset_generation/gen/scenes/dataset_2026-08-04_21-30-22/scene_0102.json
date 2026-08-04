@@ -1,0 +1,1438 @@
+{
+ "object_locations": [
+  "zone_014",
+  "shelf_L3_S2",
+  "rack top",
+  "shelf_L3_S3",
+  "drawer_5",
+  "zone_015",
+  "drawer_3",
+  "zone_013",
+  "drawer_1",
+  "zone_016",
+  "rack bottom",
+  "shelf_L2_S3",
+  "zone_018",
+  "drawer_9",
+  "drawer_7",
+  "workbench_A1",
+  "shelf_L1_S3",
+  "shelf_L1_S2",
+  "zone_017",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "sample_ampoule",
+  "product_SKU_002",
+  "roller_orange",
+  "chip_type_C",
+  "cylinder_yellow",
+  "barley_grain"
+ ],
+ "positions": {
+  "#drawer_1/#sample_ampoule/take": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#zone_018/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_5/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S3/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/rack top/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L1_S2/barley_grain": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_5/cylinder_yellow": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "#shelf_L3_S3/#chip_type_C/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "#rack top/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "#rack bottom/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "#rack top/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ACQUIRE/workbench_A1/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L1_S2/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#product_SKU_002/take": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "#workbench_A1/#chip_type_C/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_018/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/rack bottom/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L2_S2/chip_type_C": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_017/sample_ampoule": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "#drawer_1/#product_SKU_002/take": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#drawer_5/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "#shelf_L2_S3/#sample_ampoule/take": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "#zone_014/#sample_ampoule/take": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "#rack top/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_015/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ACQUIRE/rack top/chip_type_C": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S2/sample_ampoule": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_1/cylinder_yellow": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#shelf_L3_S3/#sample_ampoule/take": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "#shelf_L1_S3/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "#drawer_7/#chip_type_C/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_013/barley_grain": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "#zone_016/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_3/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "#shelf_L1_S2/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "#zone_017/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "#drawer_7/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "#rack bottom/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "#workbench_A1/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_014/barley_grain": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "#rack bottom/#chip_type_C/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_013/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "#zone_016/#product_SKU_002/take": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L2_S2/sample_ampoule": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_1/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_7/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_013/cylinder_yellow": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "#shelf_L3_S3/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "#drawer_9/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#product_SKU_002/take": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "#zone_017/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_5/sample_ampoule": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "#shelf_L2_S3/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_014/cylinder_yellow": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_7/cylinder_yellow": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "#drawer_3/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S3/product_SKU_002": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "#shelf_L3_S2/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_015/sample_ampoule": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "#shelf_L2_S2/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S3/cylinder_yellow": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "#zone_013/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "#shelf_L1_S3/#chip_type_C/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "#drawer_5/#barley_grain/take": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "#zone_013/#chip_type_C/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_7/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_016/chip_type_C": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "#shelf_L2_S3/#roller_orange/take": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "#zone_018/#product_SKU_002/take": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S2/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_014/roller_orange": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "#shelf_L2_S3/#chip_type_C/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/sample_ampoule": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_018/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S2/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_5/product_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L3_S3/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack top/product_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placebarley_grainshelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "placecylinder_yellowdrawer_5": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "placechip_type_Cshelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack top/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placebarley_grainrack bottom": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "placebarley_grainrack top": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placeroller_orangeworkbench_A1": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L1_S2/product_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "placeproduct_SKU_002shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "placechip_type_Cworkbench_A1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_018/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S2/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "placeproduct_SKU_002rack bottom": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "placechip_type_Cshelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_017/sample_ampoule": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "placeproduct_SKU_002drawer_1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_5/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S3/sample_ampoule": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "placesample_ampoulezone_014": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "placeroller_orangerack top": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placeroller_orangezone_015": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "placechip_type_Crack top": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placesample_ampouleshelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L3_S3/sample_ampoule": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "placebarley_grainshelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/chip_type_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "placebarley_grainzone_013": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_016/barley_grain": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_3/product_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "placeroller_orangeshelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_017/barley_grain": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "placebarley_graindrawer_7": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack bottom/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "DEPOSIT/workbench_A1/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_014/barley_grain": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack bottom/chip_type_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "placeproduct_SKU_002zone_013": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_016/product_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S2/sample_ampoule": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/product_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "placecylinder_yellowzone_013": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L3_S3/barley_grain": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_9/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L3_S2/product_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_017/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_5/sample_ampoule": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S3/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "placecylinder_yellowzone_014": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_3/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "placeproduct_SKU_002shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "placecylinder_yellowshelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_015/sample_ampoule": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S2/barley_grain": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L3_S3/cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_013/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "placechip_type_Cshelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_5/barley_grain": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_013/chip_type_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "placeroller_orangedrawer_7": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_016/chip_type_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S3/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "placeproduct_SKU_002zone_018": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "placeroller_orangeshelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_014/roller_orange": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S3/chip_type_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "look at workbench_A1 & workbench_A2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "workbench_A1"
+   ]
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top",
+    "rack bottom"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_013",
+    "zone_014",
+    "zone_015",
+    "zone_016",
+    "zone_017",
+    "zone_018"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_3",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_7",
+    "drawer_9"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S2",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2",
+    "shelf_L3_S3"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sensor_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rack top or rack bottom": [
+   "rack top",
+   "rack bottom"
+  ],
+  "zones (13-18)": [
+   "zone_013",
+   "zone_014",
+   "zone_015",
+   "zone_016",
+   "zone_017",
+   "zone_018"
+  ],
+  "two last zones": [
+   "zone_017",
+   "zone_018"
+  ],
+  "somewhere in the odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "any odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ]
+ }
+}

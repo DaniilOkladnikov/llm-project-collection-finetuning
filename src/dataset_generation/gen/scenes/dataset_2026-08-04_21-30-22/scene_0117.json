@@ -1,0 +1,1428 @@
+{
+ "object_locations": [
+  "dime_bin",
+  "tire_bay_FR",
+  "tire_bay_RL",
+  "tire_bay_FL",
+  "shelf_L1_S4",
+  "quarter_bin",
+  "shelf_L3_S3",
+  "tire_bay_RR",
+  "shelf_L2_S4",
+  "shelf_L2_S3",
+  "palette_well_3",
+  "nickel_bin",
+  "palette_well_1",
+  "shelf_L1_S3",
+  "palette_well_5",
+  "penny_bin",
+  "palette_well_7",
+  "shelf_L3_S4",
+  "reject_slot",
+  "tire_rack_new"
+ ],
+ "object_types": [
+  "apple_red",
+  "millet_kernel",
+  "chip_type_J",
+  "wafer_S",
+  "coin_dime",
+  "amaranth_kernel"
+ ],
+ "positions": {
+  "op/grab/apple_red/loc/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/palette_well_7": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/reject_slot": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/dime_bin": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/nickel_bin": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/penny_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/palette_well_7": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/reject_slot": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/nickel_bin": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/reject_slot": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/penny_bin": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/dime_bin": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/quarter_bin": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/palette_well_7": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/quarter_bin": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/quarter_bin": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/dime_bin": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/reject_slot": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/grab/apple_red/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/millet_kernel/loc/palette_well_7": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/nickel_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/amaranth_kernel/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/wafer_S/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/coin_dime/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "zone.tire_bay_RL.item.apple_red.release": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "apple_red-to-tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S3.item.millet_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "coin_dime-to-shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.palette_well_1.item.coin_dime.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "wafer_S-to-shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "zone.palette_well_1.item.chip_type_J.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "zone.palette_well_7.item.coin_dime.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "zone.tire_bay_FR.item.amaranth_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "chip_type_J-to-reject_slot": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "amaranth_kernel-to-dime_bin": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "millet_kernel-to-nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "--release--wafer_S--at--penny_bin": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "--release--apple_red--at--shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "chip_type_J-to-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S3.item.coin_dime.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "zone.tire_bay_RL.item.amaranth_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "amaranth_kernel-to-tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "zone.palette_well_7.item.apple_red.release": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "--release--chip_type_J--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "amaranth_kernel-to-tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "zone.tire_bay_FL.item.wafer_S.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "--release--coin_dime--at--tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "zone.reject_slot.item.amaranth_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "zone.nickel_bin.item.coin_dime.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "zone.reject_slot.item.wafer_S.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "zone.palette_well_1.item.amaranth_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "--release--wafer_S--at--palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "--release--amaranth_kernel--at--shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.penny_bin.item.millet_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--dime_bin": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "--release--chip_type_J--at--tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "zone.quarter_bin.item.coin_dime.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S4.item.coin_dime.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "apple_red-to-tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "zone.palette_well_7.item.amaranth_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "amaranth_kernel-to-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "zone.shelf_L2_S3.item.wafer_S.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "--release--chip_type_J--at--quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "apple_red-to-palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "apple_red-to-shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "millet_kernel-to-tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "chip_type_J-to-palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--release--apple_red--at--quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "--release--coin_dime--at--tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "zone.dime_bin.item.coin_dime.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "amaranth_kernel-to-shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "zone.tire_bay_FL.item.millet_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "--release--apple_red--at--shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "millet_kernel-to-reject_slot": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "millet_kernel-to-shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "chip_type_J-to-tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "--release--coin_dime--at--palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "zone.tire_rack_new.item.amaranth_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "--release--apple_red--at--tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "millet_kernel-to-palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "--release--wafer_S--at--nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "zone.palette_well_3.item.amaranth_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--release--amaranth_kernel--at--shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--wafer_S--at--palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S4.item.wafer_S.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "zone.palette_well_5.item.chip_type_J.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "zone.tire_bay_RL.item.chip_type_J.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "coin_dime-to-tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_1",
+    "palette_well_3",
+    "palette_well_5",
+    "palette_well_7"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin",
+    "nickel_bin"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin",
+    "quarter_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S3",
+    "shelf_L2_S4"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S3",
+    "shelf_L3_S4"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_FR",
+    "tire_bay_RL",
+    "tire_bay_RR"
+   ]
+  },
+  "check tire_rack_new + tire_rack_used": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_rack_new"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from any of the odd numbered wells": [
+   "palette_well_1",
+   "palette_well_3",
+   "palette_well_5",
+   "palette_well_7"
+  ],
+  "from any of the valid coin bins": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside the penny or nickel containers": [
+   "penny_bin",
+   "nickel_bin"
+  ],
+  "from the dime or quarter trays": [
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside any of the receptacles excluding the input": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin",
+   "reject_slot"
+  ],
+  "from the penny bin or the reject slot": [
+   "penny_bin",
+   "reject_slot"
+  ],
+  "shelf S4 of each level": [
+   "shelf_L1_S4",
+   "shelf_L2_S4",
+   "shelf_L3_S4"
+  ],
+  "last two units on each shelf level": [
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S3",
+   "shelf_L2_S4",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "tire_bay FL/FR/RL/RR": [
+   "tire_bay_FL",
+   "tire_bay_FR",
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "front tire bays (FL and FR)": [
+   "tire_bay_FL",
+   "tire_bay_FR"
+  ],
+  "rear tire bays (RL and RR)": [
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "tire bays on the left (FL and RL)": [
+   "tire_bay_FL",
+   "tire_bay_RL"
+  ],
+  "tire bays on the right (FR and RR)": [
+   "tire_bay_FR",
+   "tire_bay_RR"
+  ],
+  "new rack or any bay": [
+   "tire_rack_new",
+   "tire_bay_FL",
+   "tire_bay_FR",
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "tire bay FL or RR": [
+   "tire_bay_FL",
+   "tire_bay_RR"
+  ]
+ }
+}

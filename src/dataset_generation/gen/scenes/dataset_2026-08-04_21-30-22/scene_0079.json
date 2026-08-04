@@ -1,0 +1,1189 @@
+{
+ "object_locations": [
+  "pos.y2.x2",
+  "pos.y2.x1",
+  "nest_5",
+  "tree_7",
+  "pos.y2.x0",
+  "nest_3",
+  "tree_6",
+  "nest_1",
+  "pos.y2.x3",
+  "drawer_5",
+  "tree_12",
+  "tree_11",
+  "pos.y1.x0",
+  "pos.y1.x3",
+  "tree_5"
+ ],
+ "object_types": [
+  "tile_L",
+  "wafer_D",
+  "foot_soldier",
+  "chip_type_E",
+  "chip_type_M",
+  "package_perishable",
+  "module2"
+ ],
+ "positions": {
+  "tree_6:chip_type_M:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pos.y2.x3:foot_soldier:GRASP": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "nest_3:module2:GRASP": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "pos.y1.x3:package_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_M--at--pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "--grasp--wafer_D--at--nest_5": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "nest_3:tile_L:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "tree_7:tile_L:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "pos.y2.x3:chip_type_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "--grasp--foot_soldier--at--drawer_5": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "nest_1:module2:GRASP": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "--grasp--package_perishable--at--drawer_5": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_M--at--pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "nest_1:tile_L:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "pos.y2.x2:wafer_D:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "drawer_5:chip_type_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "drawer_5:chip_type_M:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "--grasp--module2--at--tree_6": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "pos.y1.x0:module2:GRASP": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "--grasp--package_perishable--at--nest_5": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--nest_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "tree_6:tile_L:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "--grasp--tile_L--at--pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "--grasp--foot_soldier--at--tree_5": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "pos.y2.x3:module2:GRASP": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "tree_5:package_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "nest_3:wafer_D:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "--grasp--package_perishable--at--pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "tree_12:wafer_D:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "pos.y2.x1:chip_type_M:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "--grasp--wafer_D--at--nest_1": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "--grasp--wafer_D--at--pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "--grasp--foot_soldier--at--tree_7": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "nest_3:package_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "tree_6:wafer_D:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "tree_12:package_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--nest_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "--grasp--foot_soldier--at--nest_1": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "--grasp--foot_soldier--at--pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "pos.y2.x1:module2:GRASP": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "--grasp--module2--at--pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "--grasp--module2--at--tree_5": {
+   "type": "PICK",
+   "bound_type": "module2",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "pos.y1.x3:wafer_D:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "tree_12:chip_type_M:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "nest_1:chip_type_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "pos.y2.x2:tile_L:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "tree_5:tile_L:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "--grasp--wafer_D--at--pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "tree_6:foot_soldier:GRASP": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "--grasp--tile_L--at--pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "pos.y2.x0:package_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_M--at--nest_1": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "pos.y2.x0:chip_type_M:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--tree_11": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "--grasp--wafer_D--at--drawer_5": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pos.y1.x3:foot_soldier:GRASP": {
+   "type": "PICK",
+   "bound_type": "foot_soldier",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_E--at--tree_6": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[tree_6][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[pos.y1.x0][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "[pos.y2.x3][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[nest_3][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "[pos.y1.x3][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "[pos.y1.x3][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "[pos.y1.x0][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "[nest_5][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "[nest_3][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "[tree_7][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "[pos.y2.x3][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[drawer_5][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[nest_1][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "[drawer_5][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[pos.y2.x3][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[nest_1][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "[pos.y2.x2][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "[drawer_5][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[drawer_5][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[tree_6][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[pos.y1.x0][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "[nest_5][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "[nest_5][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "[tree_6][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[pos.y1.x0][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "[tree_5][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "[pos.y2.x3][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[tree_5][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "[nest_3][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "[pos.y2.x1][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "[tree_12][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "[pos.y2.x1][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "[pos.y2.x1][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "[nest_1][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "[pos.y2.x0][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "[tree_7][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "[nest_3][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "[tree_6][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[tree_12][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "[nest_3][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "[nest_1][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "[pos.y2.x0][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "[pos.y2.x1][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "[pos.y2.x2][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "[tree_5][module2]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "module2",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "[pos.y1.x3][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "[tree_12][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "[nest_1][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "[pos.y2.x2][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "[pos.y2.x0][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "[tree_5][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "[pos.y2.x3][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[tree_6][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[pos.y2.x1][tile_L]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "[pos.y2.x0][package_perishable]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "[nest_1][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "[pos.y2.x0][chip_type_M]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "[tree_11][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "[drawer_5][wafer_D]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[pos.y1.x3][foot_soldier]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "foot_soldier",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "[tree_6][chip_type_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1",
+    "pos.y2.x2",
+    "pos.y2.x3"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_1",
+    "nest_3",
+    "nest_5"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_5"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "foot_soldier",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "module2",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "module2",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "module2",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "module2",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "module2",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "module2",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "module2",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "module2",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "poses with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "positions with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "poses with y1 x0 or y1 x3": [
+   "pos.y1.x0",
+   "pos.y1.x3"
+  ],
+  "odd numbered nests": [
+   "nest_1",
+   "nest_3",
+   "nest_5"
+  ],
+  "outer nests (first and last)": [
+   "nest_1",
+   "nest_5"
+  ],
+  "tree 5-7 or tree 11-12": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_11",
+   "tree_12"
+  ]
+ }
+}

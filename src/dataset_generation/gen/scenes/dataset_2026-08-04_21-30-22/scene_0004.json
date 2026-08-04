@@ -1,0 +1,4795 @@
+{
+ "object_locations": [
+  "zone_001",
+  "zone_002",
+  "zone_003",
+  "zone_004",
+  "zone_005",
+  "zone_006",
+  "zone_007",
+  "zone_008",
+  "zone_009",
+  "zone_010",
+  "zone_011",
+  "zone_012",
+  "zone_013",
+  "zone_014",
+  "zone_015",
+  "zone_016",
+  "zone_017",
+  "zone_018"
+ ],
+ "object_types": [
+  "parcel_small",
+  "parcel_medium",
+  "parcel_large",
+  "parcel_fragile",
+  "parcel_heavy",
+  "parcel_express",
+  "parcel_standard",
+  "parcel_overnight",
+  "parcel_international",
+  "parcel_domestic",
+  "parcel_perishable",
+  "parcel_hazmat",
+  "parcel_oversized",
+  "parcel_envelope",
+  "parcel_tube"
+ ],
+ "positions": {
+  "get__parcel_small__from__zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_small:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "picking/parcel_small/zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "picking/parcel_small/zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:parcel_small:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:zone_012:item:parcel_small:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_013": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "get__parcel_small__from__zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "picking/parcel_small/zone_015": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "picking/parcel_small/zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "picking/parcel_small/zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "ns:zone_018:item:parcel_small:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "get__parcel_medium__from__zone_003": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ns:zone_006:item:parcel_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_medium__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "get__parcel_medium__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:parcel_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "get__parcel_medium__from__zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_015": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "picking/parcel_medium/zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "ns:zone_017:item:parcel_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "get__parcel_medium__from__zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_003": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_large/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "ns:zone_007:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ns:zone_008:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:zone_012:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ns:zone_016:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "ns:zone_017:item:parcel_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "get__parcel_large__from__zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "get__parcel_fragile__from__zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:zone_002:item:parcel_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "get__parcel_fragile__from__zone_003": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:parcel_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "picking/parcel_fragile/zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "picking/parcel_fragile/zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_fragile__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ns:zone_008:item:parcel_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "picking/parcel_fragile/zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "get__parcel_fragile__from__zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:parcel_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_fragile__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "get__parcel_fragile__from__zone_013": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "ns:zone_014:item:parcel_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ns:zone_016:item:parcel_fragile:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "picking/parcel_fragile/zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_fragile/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:parcel_heavy:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "picking/parcel_heavy/zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "get__parcel_heavy__from__zone_003": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_heavy/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "ns:zone_005:item:parcel_heavy:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "get__parcel_heavy__from__zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_heavy__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "picking/parcel_heavy/zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:parcel_heavy:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:parcel_heavy:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "picking/parcel_heavy/zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_heavy__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_heavy:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "picking/parcel_heavy/zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_heavy:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "picking/parcel_heavy/zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "picking/parcel_heavy/zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "get__parcel_heavy__from__zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "get__parcel_express__from__zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "picking/parcel_express/zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "get__parcel_express__from__zone_003": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_express/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "get__parcel_express__from__zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "picking/parcel_express/zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_express__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ns:zone_008:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__parcel_express__from__zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "picking/parcel_express/zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_express__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "ns:zone_014:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "picking/parcel_express/zone_015": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ns:zone_016:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "picking/parcel_express/zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "get__parcel_express__from__zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:parcel_standard:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "picking/parcel_standard/zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_standard:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_standard/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "picking/parcel_standard/zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ns:zone_006:item:parcel_standard:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/parcel_standard/zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "picking/parcel_standard/zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__parcel_standard__from__zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:parcel_standard:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "get__parcel_standard__from__zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_standard__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_standard:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "ns:zone_014:item:parcel_standard:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_standard:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "picking/parcel_standard/zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "get__parcel_standard__from__zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_standard/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:parcel_overnight:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:zone_002:item:parcel_overnight:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_overnight:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_overnight/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "get__parcel_overnight__from__zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "get__parcel_overnight__from__zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/parcel_overnight/zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "picking/parcel_overnight/zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:parcel_overnight:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "get__parcel_overnight__from__zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "get__parcel_overnight__from__zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_overnight__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_overnight:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "picking/parcel_overnight/zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "get__parcel_overnight__from__zone_015": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ns:zone_016:item:parcel_overnight:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "get__parcel_overnight__from__zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_overnight/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "picking/parcel_international/zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:zone_002:item:parcel_international:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_international:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:parcel_international:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "get__parcel_international__from__zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "get__parcel_international__from__zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "ns:zone_007:item:parcel_international:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "get__parcel_international__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:parcel_international:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:parcel_international:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "picking/parcel_international/zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_international__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "picking/parcel_international/zone_013": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "picking/parcel_international/zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "get__parcel_international__from__zone_015": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "get__parcel_international__from__zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "ns:zone_017:item:parcel_international:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_international/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "picking/parcel_domestic/zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "get__parcel_domestic__from__zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_domestic:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:parcel_domestic:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "ns:zone_005:item:parcel_domestic:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "picking/parcel_domestic/zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_domestic__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "picking/parcel_domestic/zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:parcel_domestic:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "get__parcel_domestic__from__zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "get__parcel_domestic__from__zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "picking/parcel_domestic/zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "get__parcel_domestic__from__zone_013": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "picking/parcel_domestic/zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_domestic:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "picking/parcel_domestic/zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "ns:zone_017:item:parcel_domestic:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "get__parcel_domestic__from__zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_003": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "get__parcel_perishable__from__zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_perishable__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "get__parcel_perishable__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__parcel_perishable__from__zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "get__parcel_perishable__from__zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_perishable:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "ns:zone_014:item:parcel_perishable:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_perishable:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ns:zone_016:item:parcel_perishable:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_perishable/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "picking/parcel_hazmat/zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "get__parcel_hazmat__from__zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_hazmat:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:parcel_hazmat:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "picking/parcel_hazmat/zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "get__parcel_hazmat__from__zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_hazmat__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "get__parcel_hazmat__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "picking/parcel_hazmat/zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:parcel_hazmat:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:parcel_hazmat:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "picking/parcel_hazmat/zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_hazmat:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "ns:zone_014:item:parcel_hazmat:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "picking/parcel_hazmat/zone_015": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "get__parcel_hazmat__from__zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "picking/parcel_hazmat/zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_hazmat/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:zone_002:item:parcel_oversized:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_oversized:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:parcel_oversized:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "picking/parcel_oversized/zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "picking/parcel_oversized/zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_011": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "picking/parcel_oversized/zone_013": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "ns:zone_014:item:parcel_oversized:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_oversized:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "get__parcel_oversized__from__zone_016": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "picking/parcel_oversized/zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "ns:zone_018:item:parcel_oversized:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:parcel_envelope:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "get__parcel_envelope__from__zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_envelope:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "picking/parcel_envelope/zone_004": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "picking/parcel_envelope/zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "picking/parcel_envelope/zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/parcel_envelope/zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "get__parcel_envelope__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "picking/parcel_envelope/zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "get__parcel_envelope__from__zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:parcel_envelope:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_envelope__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "ns:zone_013:item:parcel_envelope:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "picking/parcel_envelope/zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ns:zone_015:item:parcel_envelope:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ns:zone_016:item:parcel_envelope:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "get__parcel_envelope__from__zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_envelope/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_001": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "get__parcel_tube__from__zone_002": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ns:zone_003:item:parcel_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "ns:zone_004:item:parcel_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_005": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ns:zone_006:item:parcel_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "get__parcel_tube__from__zone_007": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_008": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_009": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:parcel_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:parcel_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "get__parcel_tube__from__zone_012": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_013": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_014": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_015": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "ns:zone_016:item:parcel_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "get__parcel_tube__from__zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "picking/parcel_tube/zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_small=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_small",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_medium=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_medium",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_large=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_large",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_fragile=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_heavy=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_express=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_standard=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_standard",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_overnight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_international=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_international",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_domestic=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_perishable=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_hazmat=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_oversized=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_envelope=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_001=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_002=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_003=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone_004=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_005=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone_006=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_007=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_008=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_009=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_010=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_011=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_012=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_013=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_014=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "zone_016=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_017=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018=>parcel_tube=>PUT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_001",
+    "zone_002",
+    "zone_003"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004",
+    "zone_005",
+    "zone_006",
+    "zone_007",
+    "zone_008",
+    "zone_009"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010",
+    "zone_011",
+    "zone_012",
+    "zone_013",
+    "zone_014",
+    "zone_015",
+    "zone_016",
+    "zone_017",
+    "zone_018"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "parcel_small",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "parcel_medium",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "parcel_large",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "97": {
+   "id": 97,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "98": {
+   "id": 98,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "99": {
+   "id": 99,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "100": {
+   "id": 100,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "101": {
+   "id": 101,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "102": {
+   "id": 102,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "103": {
+   "id": 103,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "104": {
+   "id": 104,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "105": {
+   "id": 105,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "106": {
+   "id": 106,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "107": {
+   "id": 107,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "108": {
+   "id": 108,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "109": {
+   "id": 109,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "110": {
+   "id": 110,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "111": {
+   "id": 111,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "112": {
+   "id": 112,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "113": {
+   "id": 113,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "114": {
+   "id": 114,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "115": {
+   "id": 115,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "116": {
+   "id": 116,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "117": {
+   "id": 117,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "118": {
+   "id": 118,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "119": {
+   "id": 119,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "120": {
+   "id": 120,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "121": {
+   "id": 121,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "122": {
+   "id": 122,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "123": {
+   "id": 123,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "124": {
+   "id": 124,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "125": {
+   "id": 125,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "126": {
+   "id": 126,
+   "type": "parcel_standard",
+   "location": "UNDEFINED"
+  },
+  "127": {
+   "id": 127,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "128": {
+   "id": 128,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "129": {
+   "id": 129,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "130": {
+   "id": 130,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "131": {
+   "id": 131,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "132": {
+   "id": 132,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "133": {
+   "id": 133,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "134": {
+   "id": 134,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "135": {
+   "id": 135,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "136": {
+   "id": 136,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "137": {
+   "id": 137,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "138": {
+   "id": 138,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "139": {
+   "id": 139,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "140": {
+   "id": 140,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "141": {
+   "id": 141,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "142": {
+   "id": 142,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "143": {
+   "id": 143,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "144": {
+   "id": 144,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "145": {
+   "id": 145,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "146": {
+   "id": 146,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "147": {
+   "id": 147,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "148": {
+   "id": 148,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "149": {
+   "id": 149,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "150": {
+   "id": 150,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "151": {
+   "id": 151,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "152": {
+   "id": 152,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "153": {
+   "id": 153,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "154": {
+   "id": 154,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "155": {
+   "id": 155,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "156": {
+   "id": 156,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "157": {
+   "id": 157,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "158": {
+   "id": 158,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "159": {
+   "id": 159,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "160": {
+   "id": 160,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "161": {
+   "id": 161,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "162": {
+   "id": 162,
+   "type": "parcel_international",
+   "location": "UNDEFINED"
+  },
+  "163": {
+   "id": 163,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "164": {
+   "id": 164,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "165": {
+   "id": 165,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "166": {
+   "id": 166,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "167": {
+   "id": 167,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "168": {
+   "id": 168,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "169": {
+   "id": 169,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "170": {
+   "id": 170,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "171": {
+   "id": 171,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "172": {
+   "id": 172,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "173": {
+   "id": 173,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "174": {
+   "id": 174,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "175": {
+   "id": 175,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "176": {
+   "id": 176,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "177": {
+   "id": 177,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "178": {
+   "id": 178,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "179": {
+   "id": 179,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "180": {
+   "id": 180,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "181": {
+   "id": 181,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "182": {
+   "id": 182,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "183": {
+   "id": 183,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "184": {
+   "id": 184,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "185": {
+   "id": 185,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "186": {
+   "id": 186,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "187": {
+   "id": 187,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "188": {
+   "id": 188,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "189": {
+   "id": 189,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "190": {
+   "id": 190,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "191": {
+   "id": 191,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "192": {
+   "id": 192,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "193": {
+   "id": 193,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "194": {
+   "id": 194,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "195": {
+   "id": 195,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "196": {
+   "id": 196,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "197": {
+   "id": 197,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "198": {
+   "id": 198,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "199": {
+   "id": 199,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "200": {
+   "id": 200,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "201": {
+   "id": 201,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "202": {
+   "id": 202,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "203": {
+   "id": 203,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "204": {
+   "id": 204,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "205": {
+   "id": 205,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "206": {
+   "id": 206,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "207": {
+   "id": 207,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "208": {
+   "id": 208,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "209": {
+   "id": 209,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "210": {
+   "id": 210,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "211": {
+   "id": 211,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "212": {
+   "id": 212,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "213": {
+   "id": 213,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "214": {
+   "id": 214,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "215": {
+   "id": 215,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "216": {
+   "id": 216,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "217": {
+   "id": 217,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "218": {
+   "id": 218,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "219": {
+   "id": 219,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "220": {
+   "id": 220,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "221": {
+   "id": 221,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "222": {
+   "id": 222,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "223": {
+   "id": 223,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "224": {
+   "id": 224,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "225": {
+   "id": 225,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "226": {
+   "id": 226,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "227": {
+   "id": 227,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "228": {
+   "id": 228,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "229": {
+   "id": 229,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "230": {
+   "id": 230,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "231": {
+   "id": 231,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "232": {
+   "id": 232,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "233": {
+   "id": 233,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "234": {
+   "id": 234,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "235": {
+   "id": 235,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "236": {
+   "id": 236,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "237": {
+   "id": 237,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "238": {
+   "id": 238,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "239": {
+   "id": 239,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "240": {
+   "id": 240,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "241": {
+   "id": 241,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "242": {
+   "id": 242,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "243": {
+   "id": 243,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "244": {
+   "id": 244,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "245": {
+   "id": 245,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "246": {
+   "id": 246,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "247": {
+   "id": 247,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "248": {
+   "id": 248,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "249": {
+   "id": 249,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "250": {
+   "id": 250,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "251": {
+   "id": 251,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "252": {
+   "id": 252,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "253": {
+   "id": 253,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "254": {
+   "id": 254,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "255": {
+   "id": 255,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "256": {
+   "id": 256,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "257": {
+   "id": 257,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "258": {
+   "id": 258,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "259": {
+   "id": 259,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "260": {
+   "id": 260,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "261": {
+   "id": 261,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "262": {
+   "id": 262,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "263": {
+   "id": 263,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "264": {
+   "id": 264,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "265": {
+   "id": 265,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "266": {
+   "id": 266,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "267": {
+   "id": 267,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "268": {
+   "id": 268,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "269": {
+   "id": 269,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "270": {
+   "id": 270,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "zone_001|zone_002|zone_003": [
+   "zone_001",
+   "zone_002",
+   "zone_003"
+  ],
+  "zone_004->zone_009": [
+   "zone_004",
+   "zone_005",
+   "zone_006",
+   "zone_007",
+   "zone_008",
+   "zone_009"
+  ],
+  "zone_010:zone_018": [
+   "zone_010",
+   "zone_011",
+   "zone_012",
+   "zone_013",
+   "zone_014",
+   "zone_015",
+   "zone_016",
+   "zone_017",
+   "zone_018"
+  ],
+  "single digit zones": [
+   "zone_001",
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006",
+   "zone_007",
+   "zone_008",
+   "zone_009"
+  ],
+  "first aisle (1-6)": [
+   "zone_001",
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006"
+  ],
+  "middle aisle (7-12)": [
+   "zone_007",
+   "zone_008",
+   "zone_009",
+   "zone_010",
+   "zone_011",
+   "zone_012"
+  ],
+  "aisle (13-18)": [
+   "zone_013",
+   "zone_014",
+   "zone_015",
+   "zone_016",
+   "zone_017",
+   "zone_018"
+  ],
+  "even numbered bins": [
+   "zone_002",
+   "zone_004",
+   "zone_006",
+   "zone_008",
+   "zone_010",
+   "zone_012",
+   "zone_014",
+   "zone_016",
+   "zone_018"
+  ],
+  "two last buffers": [
+   "zone_017",
+   "zone_018"
+  ],
+  "008-011 blocks": [
+   "zone_008",
+   "zone_009",
+   "zone_010",
+   "zone_011"
+  ],
+  "zone_005 to zone_010": [
+   "zone_005",
+   "zone_006",
+   "zone_007",
+   "zone_008",
+   "zone_009",
+   "zone_010"
+  ],
+  "boxes 2-6": [
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006"
+  ],
+  "areas 1-8": [
+   "zone_001",
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006",
+   "zone_007",
+   "zone_008"
+  ]
+ }
+}

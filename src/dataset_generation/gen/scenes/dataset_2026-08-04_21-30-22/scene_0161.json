@@ -1,0 +1,830 @@
+{
+ "object_locations": [
+  "pass_bin",
+  "binB_102",
+  "binB_104",
+  "drawer_4",
+  "lane_1_start",
+  "drawer_1",
+  "reject_bin",
+  "drawer_3",
+  "tree_15",
+  "lane_1_end",
+  "binB_101",
+  "lane_1_mid",
+  "binB_103"
+ ],
+ "object_types": [
+  "module1",
+  "washer",
+  "salt",
+  "tile_P",
+  "vial"
+ ],
+ "positions": {
+  "pickupmodule1binB_103": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "lane_1_end:vial:GRASP": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "pickupvialbinB_104": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "pickupmodule1binB_104": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "pickupsaltlane_1_mid": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "pickupvialbinB_102": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "pickupvialpass_bin": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "pickupmodule1binB_102": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "pickupwasherlane_1_start": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "pass_bin:module1:GRASP": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "pickupvialtree_15": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "pickuptile_Plane_1_mid": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "pickupmodule1drawer_1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "reject_bin:tile_P:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "reject_bin:washer:GRASP": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "pickupsaltbinB_103": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "pickupsaltbinB_104": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "lane_1_end:salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "lane_1_mid:vial:GRASP": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "binB_102:salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "pickupsaltdrawer_4": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "pickuptile_PbinB_103": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "tree_15:salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "lane_1_end:tile_P:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "pickupmodule1lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "pickupsaltbinB_101": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "binB_104:tile_P:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "binB_104:washer:GRASP": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "reject_bin:vial:GRASP": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "pickupwasherlane_1_end": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "binB_102:tile_P:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "binB_102:washer:GRASP": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "reject_bin:module1:GRASP": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "pickuptile_Ppass_bin": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "pickupwasherpass_bin": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "pickuptile_Ptree_15": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "pickupwashertree_15": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "pickupwasherbinB_101": {
+   "type": "PICK",
+   "bound_type": "washer",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "drawer_3:salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "pickupsaltlane_1_start": {
+   "type": "PICK",
+   "bound_type": "salt",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "store:module1:binB_103": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "actions/release/vial/to/lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "binB_104=>vial=>PUT": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "binB_104=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "actions/release/salt/to/lane_1_mid": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "store:vial:binB_102": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "actions/release/vial/to/pass_bin": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "store:module1:binB_102": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "actions/release/washer/to/lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/release/module1/to/pass_bin": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "actions/release/vial/to/tree_15": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "lane_1_mid=>tile_P=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "store:module1:drawer_1": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/release/tile_P/to/reject_bin": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "store:washer:reject_bin": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "binB_103=>salt=>PUT": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "actions/release/salt/to/binB_104": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "store:salt:lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "lane_1_mid=>vial=>PUT": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "store:salt:binB_102": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "actions/release/salt/to/drawer_4": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/release/tile_P/to/binB_103": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "actions/release/salt/to/tree_15": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "store:tile_P:lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "lane_1_mid=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "binB_101=>salt=>PUT": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "store:tile_P:binB_104": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "binB_104=>washer=>PUT": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "store:vial:reject_bin": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "store:washer:lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "store:tile_P:binB_102": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "binB_102=>washer=>PUT": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "store:module1:reject_bin": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "store:tile_P:pass_bin": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "actions/release/washer/to/pass_bin": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "tree_15=>tile_P=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "tree_15=>washer=>PUT": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "binB_101=>washer=>PUT": {
+   "type": "PLACE",
+   "bound_type": "washer",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "store:salt:drawer_3": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "lane_1_start=>salt=>PUT": {
+   "type": "PLACE",
+   "bound_type": "salt",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101",
+    "binB_102",
+    "binB_103",
+    "binB_104"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_mid"
+   ]
+  },
+  "inspect reject_bin + pass_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_bin",
+    "pass_bin"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_3",
+    "drawer_4"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_15"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "washer",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "salt",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "vial",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "binB any opening except last": [
+   "binB_101",
+   "binB_102",
+   "binB_103",
+   "binB_104"
+  ],
+  "reject or pass": [
+   "reject_bin",
+   "pass_bin"
+  ],
+  "lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "somewhere on the lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "either drawer 3 or drawer 4": [
+   "drawer_3",
+   "drawer_4"
+  ]
+ }
+}

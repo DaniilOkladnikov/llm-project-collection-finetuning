@@ -1,0 +1,1593 @@
+{
+ "object_locations": [
+  "pos.y2.x3",
+  "reject_bin",
+  "zone_002",
+  "palette_well_3",
+  "pos.y2.x2",
+  "pass_bin",
+  "bay_A",
+  "binB_103",
+  "Node10.01",
+  "cart back",
+  "shelf_L3_S2",
+  "pos.y2.x0",
+  "pos.y1.x0",
+  "bay_C",
+  "input_chute",
+  "conveyor_pick_zone",
+  "penny_bin",
+  "binA_003",
+  "pos.y2.x1"
+ ],
+ "object_types": [
+  "sticker",
+  "package_large",
+  "lady_piece",
+  "chip_type_Q",
+  "clay_block",
+  "stock",
+  "wafer_F"
+ ],
+ "positions": {
+  "actions/grasp/lady_piece/from/binB_103": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "/mnt/pass_bin/chip_type_Q/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "shelf_L3_S2=>package_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "pos.y2.x0=>package_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "actions/grasp/sticker/from/bay_A": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_F/from/Node10.01": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "input_chute=>chip_type_Q=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "/mnt/input_chute/lady_piece/pick": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "/mnt/pos.y2.x0/lady_piece/pick": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "/mnt/cart back/wafer_F/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "cart back",
+   "observable_locations": null
+  },
+  "/mnt/pos.y2.x1/package_large/pick": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone=>stock=>TAKE": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "palette_well_3=>chip_type_Q=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "binA_003=>wafer_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "actions/grasp/sticker/from/Node10.01": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "actions/grasp/clay_block/from/pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_pick_zone/wafer_F/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_Q/from/bay_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "/mnt/pass_bin/lady_piece/pick": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "zone_002=>stock=>TAKE": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "actions/grasp/package_large/from/Node10.01": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "/mnt/binB_103/stock/pick": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_F/from/reject_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "/mnt/penny_bin/sticker/pick": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "pos.y2.x2=>clay_block=>TAKE": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "penny_bin=>clay_block=>TAKE": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "/mnt/pos.y2.x1/sticker/pick": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "zone_002=>wafer_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "/mnt/binB_103/wafer_F/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "actions/grasp/sticker/from/conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "cart back=>package_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "cart back",
+   "observable_locations": null
+  },
+  "actions/grasp/clay_block/from/conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "pos.y2.x2=>stock=>TAKE": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "shelf_L3_S2=>lady_piece=>TAKE": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/chip_type_Q/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "actions/grasp/clay_block/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "actions/grasp/package_large/from/penny_bin": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "zone_002=>sticker=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_pick_zone/package_large/pick": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "bay_C=>stock=>TAKE": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "pos.y2.x1=>wafer_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "binB_103=>clay_block=>TAKE": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "/mnt/penny_bin/chip_type_Q/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "pos.y1.x0=>stock=>TAKE": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "bay_C=>wafer_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_Q/from/conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "actions/grasp/package_large/from/zone_002": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "pos.y1.x0=>wafer_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pos.y2.x2=>sticker=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "pass_bin=>stock=>TAKE": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "actions/grasp/clay_block/from/input_chute": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "actions/grasp/sticker/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "/mnt/zone_002/chip_type_Q/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "/mnt/pos.y2.x0/clay_block/pick": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "actions/grasp/package_large/from/pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "pos.y1.x0=>clay_block=>TAKE": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "cart back=>lady_piece=>TAKE": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "cart back",
+   "observable_locations": null
+  },
+  "palette_well_3=>clay_block=>TAKE": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "actions/grasp/package_large/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "binB_103=>sticker=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "input_chute=>wafer_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "/mnt/pos.y2.x2/chip_type_Q/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S2/wafer_F/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "pos.y1.x0=>package_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_F/from/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "/mnt/binA_003/lady_piece/pick": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "palette_well_3=>stock=>TAKE": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone=>lady_piece=>TAKE": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "bay_C=>chip_type_Q=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "bay_C=>lady_piece=>TAKE": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/wafer_F/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_F",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "pos.y1.x0=>chip_type_Q=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "actions/grasp/sticker/from/input_chute": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "/mnt/bay_A/package_large/pick": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "reject_bin=>lady_piece=>TAKE": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S2/sticker/pick": {
+   "type": "PICK",
+   "bound_type": "sticker",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "zone_002=>lady_piece=>TAKE": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_Q/from/binB_103": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=binB_103": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=pass_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=bay_A": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=Node10.01": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=input_chute": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=input_chute": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=cart back": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "cart back",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=binA_003": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=Node10.01": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=bay_A": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=pass_bin": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=zone_002": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=Node10.01": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=binB_103": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=reject_bin": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=penny_bin": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=penny_bin": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=zone_002": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=binB_103": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=cart back": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "cart back",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=Node10.01": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=bay_C": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=penny_bin": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=zone_002": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=bay_C": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=binB_103": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=penny_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=bay_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=zone_002": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=pass_bin": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=input_chute": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=bay_C": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=zone_002": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=cart back": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "cart back",
+   "observable_locations": null
+  },
+  "move/place/clay_block?dst=palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=bay_C": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=binB_103": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=input_chute": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=binA_003": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "move/place/stock?dst=palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=bay_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=bay_C": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "move/place/wafer_F?dst=palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "wafer_F",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=input_chute": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=bay_A": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=reject_bin": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "move/place/sticker?dst=shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "sticker",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "move/place/lady_piece?dst=zone_002": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "move/place/chip_type_Q?dst=binB_103": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "cart_overhead_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cart back"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_003"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_103"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_002"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1",
+    "pos.y2.x2",
+    "pos.y2.x3"
+   ]
+  },
+  "inspect reject_bin + pass_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_bin",
+    "pass_bin"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_3"
+   ]
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.01"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "rack_approach_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "cart_loading_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "sticker",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "wafer_F",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "locations ending in 03": [
+   "binA_003",
+   "binB_103"
+  ],
+  "outermost bays (A and C)": [
+   "bay_A",
+   "bay_C"
+  ],
+  "poses with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "positions with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "reject or pass": [
+   "reject_bin",
+   "pass_bin"
+  ]
+ }
+}

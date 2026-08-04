@@ -1,0 +1,1156 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "canvas_zone_C",
+  "silo_1",
+  "silo_2",
+  "canvas_zone_B",
+  "table_Q3",
+  "cell_R3C1",
+  "table_Q1",
+  "L1-SecB-SiloX1",
+  "cell_R3C2",
+  "cell_R1C3",
+  "cell_R1C2",
+  "cell_R3C3",
+  "shelf_L1_S1",
+  "cell_R3C5",
+  "cell_R3C4",
+  "table_Q2",
+  "cell_R1C1",
+  "cell_R1C4",
+  "cell_R1C5"
+ ],
+ "object_types": [
+  "e_component",
+  "detector",
+  "wafer_T",
+  "chicken",
+  "chip_F"
+ ],
+ "positions": {
+  "/mnt/cell_R1C4/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C3/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_C/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecB-SiloX1/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "/mnt/table_Q3/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "/mnt/silo_2/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_C/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "/mnt/table_Q1/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_A/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C5/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "/mnt/table_Q1/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_A/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C5/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "/mnt/table_Q2/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "/mnt/table_Q2/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "/mnt/table_Q2/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecB-SiloX1/e_component/pick": {
+   "type": "PICK",
+   "bound_type": "e_component",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/e_component/pick": {
+   "type": "PICK",
+   "bound_type": "e_component",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_B/e_component/pick": {
+   "type": "PICK",
+   "bound_type": "e_component",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/table_Q1/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C1/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_A/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C1/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C4/e_component/pick": {
+   "type": "PICK",
+   "bound_type": "e_component",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C5/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C1/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "/mnt/silo_1/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecB-SiloX1/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C3/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C3/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "/mnt/table_Q2/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C3/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C2/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecB-SiloX1/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_B/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/detector/pick": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C2/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_C/e_component/pick": {
+   "type": "PICK",
+   "bound_type": "e_component",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_A/e_component/pick": {
+   "type": "PICK",
+   "bound_type": "e_component",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C1/wafer_T/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C5/e_component/pick": {
+   "type": "PICK",
+   "bound_type": "e_component",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/chip_F/pick": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "zone.cell_R1C4.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "zone.cell_R3C3.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_C.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "zone.L1-SecB-SiloX1.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "zone.table_Q3.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "zone.silo_2.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "zone.cell_R1C2.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_C.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "zone.table_Q1.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "zone.cell_R1C1.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_A.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "zone.cell_R3C5.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "zone.table_Q1.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_A.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "zone.cell_R3C5.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "zone.cell_R1C3.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.L1-SecB-SiloX1.item.e_component.release": {
+   "type": "PLACE",
+   "bound_type": "e_component",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.cell_R1C2.item.e_component.release": {
+   "type": "PLACE",
+   "bound_type": "e_component",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_B.item.e_component.release": {
+   "type": "PLACE",
+   "bound_type": "e_component",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.cell_R1C1.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.table_Q1.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "zone.cell_R3C1.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_A.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "zone.cell_R3C1.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "zone.cell_R3C4.item.e_component.release": {
+   "type": "PLACE",
+   "bound_type": "e_component",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "zone.cell_R3C5.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "zone.cell_R3C1.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "zone.silo_1.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "zone.L1-SecB-SiloX1.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "zone.cell_R3C3.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "zone.cell_R1C2.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.cell_R3C3.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.cell_R3C3.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "zone.cell_R3C2.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "zone.L1-SecB-SiloX1.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "zone.cell_R1C2.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_B.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "zone.cell_R1C2.item.detector.release": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.cell_R3C2.item.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_C.item.e_component.release": {
+   "type": "PLACE",
+   "bound_type": "e_component",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.canvas_zone_A.item.e_component.release": {
+   "type": "PLACE",
+   "bound_type": "e_component",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "zone.cell_R3C1.item.wafer_T.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_T",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "zone.cell_R3C5.item.e_component.release": {
+   "type": "PLACE",
+   "bound_type": "e_component",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "zone.cell_R1C5.item.chip_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "table_q1_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q1"
+   ]
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R3C4",
+    "cell_R3C5"
+   ]
+  },
+  "checkLevel silo_1": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_1"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_B",
+    "canvas_zone_C"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1"
+   ]
+  },
+  "Platform_Inspect_L1_SecB_Silos_X1_and_X2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecB-SiloX1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "auger_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "hopper_fill": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "e_component",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "e_component",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "e_component",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "e_component",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "e_component",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "e_component",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "e_component",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "wafer_T",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "first two quadrants": [
+   "table_Q1",
+   "table_Q2"
+  ],
+  "Q1 or Q3 positions": [
+   "table_Q1",
+   "table_Q3"
+  ],
+  "quadrants 1 through 3": [
+   "table_Q1",
+   "table_Q2",
+   "table_Q3"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cellR3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells in odd rows": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "from any of the silos 1 or 2": [
+   "silo_1",
+   "silo_2"
+  ],
+  "within any of the first two silos": [
+   "silo_1",
+   "silo_2"
+  ],
+  "somewhere on the canvas": [
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "on canvas zones A or B": [
+   "canvas_zone_A",
+   "canvas_zone_B"
+  ],
+  "on the surface areas B or C": [
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "from the outer zones (A and C)": [
+   "canvas_zone_A",
+   "canvas_zone_C"
+  ]
+ }
+}

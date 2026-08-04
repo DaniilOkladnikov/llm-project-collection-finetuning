@@ -1,0 +1,1265 @@
+{
+ "object_locations": [
+  "tree_7",
+  "shelf_L3_S3",
+  "pos.y1.x2",
+  "burner_back_right",
+  "silo_2",
+  "shelf_L2_S3",
+  "binB_104",
+  "bay_B",
+  "bay_A",
+  "tree_14",
+  "zone_017",
+  "shelf_L3_S4",
+  "shelf_L2_S4",
+  "tire_bay_FR",
+  "tire_bay_FL",
+  "shelf_L1_S4",
+  "bay_C",
+  "zone_018",
+  "burner_front_right",
+  "zone_001"
+ ],
+ "object_types": [
+  "brick",
+  "brush_mid",
+  "fifty_cent_coin",
+  "power_drill",
+  "ruler_piece",
+  "amaranth_grain"
+ ],
+ "positions": {
+  "power_drill-from-pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "brick-from-tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "brick",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "pickupfifty_cent_coinsilo_2": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "burner_front_right.item.ruler_piece.acquire": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ruler_piece-from-shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "power_drill-from-tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ruler_piece-from-shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S3.item.amaranth_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "pickupfifty_cent_cointire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "pickuppower_drilltree_7": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "zone_001.item.power_drill.acquire": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "zone_018.item.brush_mid.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "pickuppower_drillburner_front_right": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "pickuppower_drillbay_C": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "pickupfifty_cent_coinzone_001": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "pickuppower_drillshelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "zone_018.item.ruler_piece.acquire": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_018.item.amaranth_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "pickupbrush_midbinB_104": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "shelf_L1_S4.item.brush_mid.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L2_S3.item.fifty_cent_coin.acquire": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S3.item.power_drill.acquire": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "bay_C.item.brick.acquire": {
+   "type": "PICK",
+   "bound_type": "brick",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "shelf_L1_S4.item.amaranth_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "pickupruler_pieceshelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "brush_mid-from-bay_A": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "brick-from-shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "brick",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L2_S4.item.ruler_piece.acquire": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "pickupbrush_midtire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "pickuppower_drillzone_018": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "bay_A.item.amaranth_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "amaranth_grain-from-tree_14": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "tire_bay_FR.item.ruler_piece.acquire": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tire_bay_FR.item.amaranth_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "brush_mid-from-silo_2": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "binB_104.item.power_drill.acquire": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "power_drill-from-shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S4.item.fifty_cent_coin.acquire": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "amaranth_grain-from-silo_2": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "pickupbrickzone_018": {
+   "type": "PICK",
+   "bound_type": "brick",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "tire_bay_FL.item.brush_mid.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "bay_A.item.power_drill.acquire": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "fifty_cent_coin-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "fifty_cent_coin-from-shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "tire_bay_FR.item.power_drill.acquire": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "zone_001.item.brush_mid.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "pickupamaranth_graintire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "pickupbrush_midzone_017": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "tire_bay_FL.item.ruler_piece.acquire": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "tire_bay_FR.item.fifty_cent_coin.acquire": {
+   "type": "PICK",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "brick-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "brick",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "tree_7.item.amaranth_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "pickupbrickshelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "brick",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "pickuppower_drillburner_back_right": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "brick-from-bay_A": {
+   "type": "PICK",
+   "bound_type": "brick",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "zone_001.item.ruler_piece.acquire": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "bay_C.item.ruler_piece.acquire": {
+   "type": "PICK",
+   "bound_type": "ruler_piece",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "pickuppower_drillsilo_2": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ns:pos.y1.x2:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FR:item:brick:action:place": {
+   "type": "PLACE",
+   "bound_type": "brick",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ns:silo_2:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ns:burner_front_right:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FL:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FL:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ns:tree_7:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:zone_018:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:burner_front_right:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:zone_018:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:zone_018:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:binB_104:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:brick:action:place": {
+   "type": "PLACE",
+   "bound_type": "brick",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S4:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:brick:action:place": {
+   "type": "PLACE",
+   "bound_type": "brick",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S4:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FR:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ns:zone_018:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:tree_14:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FR:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FR:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ns:silo_2:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ns:binB_104:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:silo_2:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ns:zone_018:item:brick:action:place": {
+   "type": "PLACE",
+   "bound_type": "brick",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FL:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S4:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FR:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FL:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ns:zone_017:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FL:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ns:tire_bay_FR:item:fifty_cent_coin:action:place": {
+   "type": "PLACE",
+   "bound_type": "fifty_cent_coin",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:brick:action:place": {
+   "type": "PLACE",
+   "bound_type": "brick",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:tree_7:item:amaranth_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "amaranth_grain",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S4:item:brick:action:place": {
+   "type": "PLACE",
+   "bound_type": "brick",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:burner_back_right:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:brick:action:place": {
+   "type": "PLACE",
+   "bound_type": "brick",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:ruler_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "ruler_piece",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:silo_2:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_104"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_001"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_017",
+    "zone_018"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x2"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S3",
+    "shelf_L2_S4"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S3",
+    "shelf_L3_S4"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_right",
+    "burner_back_right"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_FR"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_7"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_14"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "hopper_fill": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "brick",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "brick",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "brick",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "brick",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "brick",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "brick",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "brick",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "fifty_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "ruler_piece",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "amaranth_grain",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "two last zones": [
+   "zone_017",
+   "zone_018"
+  ],
+  "bay A/B/C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "bays A through B": [
+   "bay_A",
+   "bay_B"
+  ],
+  "outermost bays (A and C)": [
+   "bay_A",
+   "bay_C"
+  ],
+  "bays A to C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "one of the bays A through C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "shelf S4 of each level": [
+   "shelf_L1_S4",
+   "shelf_L2_S4",
+   "shelf_L3_S4"
+  ],
+  "burners on the right": [
+   "burner_front_right",
+   "burner_back_right"
+  ],
+  "front tire bays (FL and FR)": [
+   "tire_bay_FL",
+   "tire_bay_FR"
+  ]
+ }
+}

@@ -1,0 +1,875 @@
+{
+ "object_locations": [
+  "palette_well_1",
+  "palette_well_2",
+  "palette_well_3",
+  "palette_well_4",
+  "palette_well_5",
+  "palette_well_6",
+  "palette_well_7",
+  "palette_well_8",
+  "canvas_zone_A",
+  "canvas_zone_B",
+  "canvas_zone_C",
+  "water_cup",
+  "rag_spot"
+ ],
+ "object_types": [
+  "brush_fine",
+  "brush_medium",
+  "brush_broad"
+ ],
+ "positions": {
+  "picking/brush_fine/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "picking/brush_fine/palette_well_2": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "picking/brush_fine/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "picking/brush_fine/palette_well_4": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "picking/brush_fine/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "picking/brush_fine/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "picking/brush_fine/palette_well_7": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "picking/brush_fine/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "picking/brush_fine/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "picking/brush_fine/canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "picking/brush_fine/canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "picking/brush_fine/water_cup": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "picking/brush_fine/rag_spot": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_2": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_4": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_7": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "picking/brush_medium/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "picking/brush_medium/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "picking/brush_medium/canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "picking/brush_medium/canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "picking/brush_medium/water_cup": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "picking/brush_medium/rag_spot": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_2": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_4": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_7": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "picking/brush_broad/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "picking/brush_broad/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "picking/brush_broad/canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "picking/brush_broad/canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "picking/brush_broad/water_cup": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "picking/brush_broad/rag_spot": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "palette_well_5_brush_fine_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "palette_well_8_brush_fine_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "canvas_zone_B_brush_fine_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__water_cup": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "put__brush_fine__to__rag_spot": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "put__brush_medium__to__palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "actions/release/brush_medium/to/palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "palette_well_3_brush_medium_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "actions/release/brush_medium/to/palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "put__brush_medium__to__palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "palette_well_6_brush_medium_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "palette_well_7_brush_medium_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "actions/release/brush_medium/to/palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "canvas_zone_A_brush_medium_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "put__brush_medium__to__canvas_zone_B": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "actions/release/brush_medium/to/canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "water_cup_brush_medium_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "actions/release/brush_medium/to/rag_spot": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "put__brush_broad__to__palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "palette_well_3_brush_broad_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "palette_well_4_brush_broad_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "put__brush_broad__to__palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "palette_well_6_brush_broad_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "put__brush_broad__to__palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "put__brush_broad__to__canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "canvas_zone_B_brush_broad_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "put__brush_broad__to__canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "put__brush_broad__to__water_cup": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "rag_spot_brush_broad_deposit": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_1",
+    "palette_well_2",
+    "palette_well_3",
+    "palette_well_4",
+    "palette_well_5",
+    "palette_well_6",
+    "palette_well_7",
+    "palette_well_8"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_B",
+    "canvas_zone_C"
+   ]
+  },
+  "peek water_cup & rag_spot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "water_cup",
+    "rag_spot"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "any of the palette wells": [
+   "palette_well_1",
+   "palette_well_2",
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8"
+  ],
+  "somewhere on the canvas": [
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "inside wells 1 through 4": [
+   "palette_well_1",
+   "palette_well_2",
+   "palette_well_3",
+   "palette_well_4"
+  ],
+  "inside wells 5 through 8": [
+   "palette_well_5",
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8"
+  ],
+  "on canvas zones A or B": [
+   "canvas_zone_A",
+   "canvas_zone_B"
+  ],
+  "from any of the odd numbered wells": [
+   "palette_well_1",
+   "palette_well_3",
+   "palette_well_5",
+   "palette_well_7"
+  ],
+  "from any of the even numbered wells": [
+   "palette_well_2",
+   "palette_well_4",
+   "palette_well_6",
+   "palette_well_8"
+  ],
+  "from the first three palettes or first three canvas zones": [
+   "palette_well_1",
+   "palette_well_2",
+   "palette_well_3",
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "on the surface areas B or C": [
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "from wells 4 or 5": [
+   "palette_well_4",
+   "palette_well_5"
+  ],
+  "anywhere on the palette or the rag": [
+   "palette_well_1",
+   "palette_well_2",
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8",
+   "rag_spot"
+  ],
+  "from canvas A or the water cup": [
+   "canvas_zone_A",
+   "water_cup"
+  ],
+  "in any of the wells 1, 4, or 8": [
+   "palette_well_1",
+   "palette_well_4",
+   "palette_well_8"
+  ],
+  "somewhere in the middle wells (3-6)": [
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6"
+  ],
+  "from the outer zones (A and C)": [
+   "canvas_zone_A",
+   "canvas_zone_C"
+  ],
+  "any of the locations excluding the canvas": [
+   "palette_well_1",
+   "palette_well_2",
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8",
+   "water_cup",
+   "rag_spot"
+  ],
+  "from the wells 1 and 2 or the water cup": [
+   "palette_well_1",
+   "palette_well_2",
+   "water_cup"
+  ],
+  "somewhere on the canvas zones or the rag spot": [
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C",
+   "rag_spot"
+  ],
+  "from the last three wells or canvas zone C": [
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8",
+   "canvas_zone_C"
+  ],
+  "inside wells 4, 5, 6 or the water cup": [
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6",
+   "water_cup"
+  ],
+  "from canvas zone A or well 1": [
+   "canvas_zone_A",
+   "palette_well_1"
+  ]
+ }
+}

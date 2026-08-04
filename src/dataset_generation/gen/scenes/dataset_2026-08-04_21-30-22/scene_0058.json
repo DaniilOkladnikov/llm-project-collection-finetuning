@@ -1,0 +1,1378 @@
+{
+ "object_locations": [
+  "tree_8",
+  "burner_front_right",
+  "tree_10",
+  "Node40.02",
+  "tree_7",
+  "clearingquadrantBETA",
+  "clearingquadrantALPHA",
+  "Node10.02",
+  "tree_6",
+  "Node20.02",
+  "burner_back_left",
+  "Node30.02",
+  "tree_9",
+  "burner_back_right",
+  "burner_front_left"
+ ],
+ "object_types": [
+  "rubble",
+  "wafer_C",
+  "oat_kernel",
+  "marker_B",
+  "tile_F",
+  "green_bead",
+  "wafer_K",
+  "cylinder_gray"
+ ],
+ "positions": {
+  "get__green_bead__from__Node10.02": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "get__wafer_C__from__tree_9": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "get__tile_F__from__Node30.02": {
+   "type": "PICK",
+   "bound_type": "tile_F",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "get__cylinder_gray__from__tree_9": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/tree_10/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "get__wafer_C__from__tree_6": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "get__wafer_C__from__Node40.02": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "get__cylinder_gray__from__Node40.02": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get__wafer_C__from__Node10.02": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "/mnt/Node40.02/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "/mnt/Node10.02/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "/mnt/tree_10/wafer_C/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/wafer_C/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get__wafer_K__from__Node10.02": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/rubble/pick": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/tree_8/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "get__cylinder_gray__from__tree_10": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "get__rubble__from__Node20.02": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "get__oat_kernel__from__tree_6": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "get__oat_kernel__from__tree_9": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/tree_8/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "/mnt/Node10.02/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "get__oat_kernel__from__burner_back_left": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/tree_8/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/wafer_C/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/Node10.02/tile_F/pick": {
+   "type": "PICK",
+   "bound_type": "tile_F",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "get__green_bead__from__burner_back_right": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/marker_B/pick": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/marker_B/pick": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/tree_8/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "get__oat_kernel__from__clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "/mnt/Node40.02/marker_B/pick": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "/mnt/Node40.02/rubble/pick": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "get__marker_B__from__burner_back_left": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get__marker_B__from__Node10.02": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "get__green_bead__from__burner_front_left": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "get__marker_B__from__tree_10": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "/mnt/Node10.02/rubble/pick": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_right/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/rubble/pick": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "get__oat_kernel__from__clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "get__wafer_K__from__burner_back_right": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "/mnt/burner_front_left/wafer_C/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "get__cylinder_gray__from__burner_front_left": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/tile_F/pick": {
+   "type": "PICK",
+   "bound_type": "tile_F",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "get__wafer_K__from__burner_front_left": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "get__marker_B__from__tree_8": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/marker_B/pick": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "get__wafer_C__from__Node20.02": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "get__oat_kernel__from__burner_back_right": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/rubble/pick": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "/mnt/burner_front_left/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "/mnt/tree_7/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/marker_B/pick": {
+   "type": "PICK",
+   "bound_type": "marker_B",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/rubble/pick": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/burner_front_right/cylinder_gray/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/Node40.02/green_bead/pick": {
+   "type": "PICK",
+   "bound_type": "green_bead",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "get__wafer_K__from__burner_front_right": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "store:green_bead:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:wafer_C:tree_9": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "store:tile_F:Node30.02": {
+   "type": "PLACE",
+   "bound_type": "tile_F",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:tree_9": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "store:green_bead:tree_10": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "store:wafer_C:tree_6": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "store:wafer_C:Node40.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:tree_6": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:Node40.02": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "store:wafer_C:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:wafer_K:Node40.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:wafer_C:tree_10": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "store:wafer_C:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "store:wafer_K:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:rubble:Node30.02": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "store:green_bead:tree_8": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "store:wafer_K:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "store:green_bead:clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:tree_10": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "store:rubble:Node20.02": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "store:oat_kernel:tree_6": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "store:oat_kernel:tree_9": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:tree_8": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "store:oat_kernel:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:oat_kernel:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "store:green_bead:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:wafer_K:tree_8": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "store:wafer_C:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:tile_F:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "tile_F",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:green_bead:burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:marker_B:tree_9": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "store:wafer_K:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:marker_B:tree_6": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "store:oat_kernel:tree_8": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "store:oat_kernel:clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "store:marker_B:Node40.02": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "store:rubble:Node40.02": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "store:marker_B:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "store:marker_B:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:green_bead:burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "store:marker_B:tree_10": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "store:rubble:Node10.02": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:rubble:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "store:green_bead:Node30.02": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "store:oat_kernel:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:wafer_K:burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:wafer_C:burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "store:tile_F:clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "tile_F",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "store:wafer_K:burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "store:marker_B:tree_8": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:Node30.02": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "store:marker_B:clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "store:wafer_C:Node20.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "store:wafer_K:Node30.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "store:oat_kernel:burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:rubble:clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "store:oat_kernel:burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:tree_7": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "store:marker_B:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "marker_B",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:rubble:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:cylinder_gray:burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "store:green_bead:tree_9": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "store:green_bead:Node40.02": {
+   "type": "PLACE",
+   "bound_type": "green_bead",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "store:wafer_K:burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "clearingquadrantALPHA Overwiew": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantALPHA"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_front_right",
+    "burner_back_left",
+    "burner_back_right"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7",
+    "tree_8",
+    "tree_9",
+    "tree_10"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.02"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.02"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.02"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "marker_B",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "tile_F",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tile_F",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "tile_F",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "green_bead",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "alpha or beta clearing quadrant": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "first or second cleaning disposals": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "burner front+back": [
+   "burner_front_left",
+   "burner_front_right",
+   "burner_back_left",
+   "burner_back_right"
+  ],
+  "front burners": [
+   "burner_front_left",
+   "burner_front_right"
+  ],
+  "back burners": [
+   "burner_back_left",
+   "burner_back_right"
+  ],
+  "burners on the left": [
+   "burner_front_left",
+   "burner_back_left"
+  ],
+  "burners on the right": [
+   "burner_front_right",
+   "burner_back_right"
+  ],
+  "front_left or back_right burner": [
+   "burner_front_left",
+   "burner_back_right"
+  ],
+  "tree 8-10": [
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 6-10": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees in the middle section (6-10)": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "Nodes02": [
+   "Node10.02",
+   "Node20.02",
+   "Node30.02",
+   "Node40.02"
+  ]
+ }
+}

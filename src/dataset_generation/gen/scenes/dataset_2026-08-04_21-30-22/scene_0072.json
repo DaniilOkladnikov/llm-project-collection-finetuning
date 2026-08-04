@@ -1,0 +1,1087 @@
+{
+ "object_locations": [
+  "binB_102",
+  "shelf_L2_S1",
+  "table_Q3",
+  "binB_104",
+  "parcelPalette-2.1.1",
+  "canvas_zone_B",
+  "shelf_L2_S2",
+  "bay_A",
+  "parcelPalette-2.1.2",
+  "METALcontainer",
+  "shelf_L2_S3",
+  "tray_outfeed_slot1",
+  "ELECTRONICcontainer",
+  "binB_101",
+  "tray_infeed_slot2",
+  "shelf_L2_S4",
+  "binB_103"
+ ],
+ "object_types": [
+  "token_C",
+  "buffer_container",
+  "grain_wheat",
+  "cylinder_green",
+  "spelt_grain",
+  "chip_G"
+ ],
+ "positions": {
+  "robot/pickup-cylinder_green-at-binB_104": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-bay_A": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-METALcontainer": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-parcelPalette-2.1.2": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-binB_102": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-table_Q3": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "robot/pickup-token_C-at-shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-binB_101": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-METALcontainer": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "robot/pickup-token_C-at-parcelPalette-2.1.2": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "robot/pickup-token_C-at-binB_104": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-binB_104": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-parcelPalette-2.1.2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "robot/pickup-token_C-at-parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "robot/pickup-token_C-at-bay_A": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-METALcontainer": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-binB_104": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "robot/pickup-token_C-at-canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-binB_102": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/pickup-chip_G-at-bay_A": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-table_Q3": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "robot/pickup-cylinder_green-at-tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-binB_103": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-METALcontainer": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-METALcontainer": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-binB_102": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-parcelPalette-2.1.2": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-table_Q3": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "robot/pickup-buffer_container-at-tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-parcelPalette-2.1.2": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-binB_102": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_grain-at-tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-bay_A": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "put__cylinder_green__to__binB_104": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "[bay_A][spelt_grain]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "--release--cylinder_green--at--METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "[parcelPalette-2.1.2][cylinder_green]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "[binB_102][cylinder_green]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "--release--chip_G--at--table_Q3": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "put__cylinder_green__to__shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "put__token_C__to__shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "put__cylinder_green__to__parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "put__chip_G__to__tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "--release--cylinder_green--at--tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "put__spelt_grain__to__shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--release--cylinder_green--at--binB_101": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "--release--buffer_container--at--METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "put__token_C__to__parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "put__token_C__to__binB_104": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "[binB_104][buffer_container]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "put__buffer_container__to__parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "--release--token_C--at--parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "put__buffer_container__to__tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "put__buffer_container__to__shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "[shelf_L2_S2][chip_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "[bay_A][token_C]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "[parcelPalette-2.1.1][buffer_container]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "put__chip_G__to__ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "put__spelt_grain__to__tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__chip_G__to__METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "put__grain_wheat__to__tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__chip_G__to__binB_104": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "--release--token_C--at--canvas_zone_B": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "put__chip_G__to__parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "[binB_102][chip_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "--release--chip_G--at--tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--release--chip_G--at--bay_A": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "[shelf_L2_S1][buffer_container]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--release--cylinder_green--at--shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "put__grain_wheat__to__shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "put__cylinder_green__to__table_Q3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "[parcelPalette-2.1.1][spelt_grain]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "[tray_outfeed_slot1][cylinder_green]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "--release--grain_wheat--at--binB_103": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "[METALcontainer][spelt_grain]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "put__grain_wheat__to__METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "--release--grain_wheat--at--binB_102": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "--release--grain_wheat--at--ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "put__spelt_grain__to__parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "put__buffer_container__to__table_Q3": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "--release--buffer_container--at--tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__grain_wheat__to__parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "put__spelt_grain__to__binB_102": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "put__spelt_grain__to__tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "[tray_infeed_slot2][grain_wheat]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--release--grain_wheat--at--bay_A": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot1"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101",
+    "binB_102",
+    "binB_103",
+    "binB_104"
+   ]
+  },
+  "METALcontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "METALcontainer"
+   ]
+  },
+  "ELECTRONICcontainerView": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "ELECTRONICcontainer"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_B"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S2",
+    "shelf_L2_S3",
+    "shelf_L2_S4"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.1",
+    "parcelPalette-2.1.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "infeed slot 2 or outfeed slot 1": [
+   "tray_infeed_slot2",
+   "tray_outfeed_slot1"
+  ],
+  "binB any opening except last": [
+   "binB_101",
+   "binB_102",
+   "binB_103",
+   "binB_104"
+  ],
+  "conductive material storage": [
+   "METALcontainer",
+   "ELECTRONICcontainer"
+  ],
+  "shelf_L2 slots": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelf L2 positions": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "Palettes 1st index 2, 2nd index 1": [
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.1.2"
+  ]
+ }
+}

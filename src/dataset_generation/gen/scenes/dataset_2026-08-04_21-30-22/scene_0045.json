@@ -1,0 +1,1768 @@
+{
+ "object_locations": [
+  "tree_7",
+  "tree_4",
+  "reject_bin",
+  "binA_005",
+  "tree_12",
+  "tree_11",
+  "tree_9",
+  "tree_3",
+  "tree_8",
+  "tree_1",
+  "pass_bin",
+  "tree_10",
+  "tree_14",
+  "binA_001",
+  "tree_6",
+  "tree_13",
+  "tree_15",
+  "binA_003",
+  "tree_5",
+  "tree_2"
+ ],
+ "object_types": [
+  "grain_quinoa",
+  "apple_red",
+  "chip_type_T",
+  "locknut",
+  "chassis_fan",
+  "parcel_heavy",
+  "rubble",
+  "quarter"
+ ],
+ "positions": {
+  "actions/grasp/rubble/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "#binA_001/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "#tree_2/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/rubble/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/rubble/from/binA_003": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "#tree_15/#chip_type_T/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/grasp/parcel_heavy/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#tree_7/#chassis_fan/take": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/apple_red/from/tree_1": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/grasp/rubble/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/grasp/rubble/from/reject_bin": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "#tree_9/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "#tree_3/#chassis_fan/take": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#binA_005/#chassis_fan/take": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "#tree_1/#chip_type_T/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "#tree_7/#grain_quinoa/take": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_quinoa/from/tree_3": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/grasp/chassis_fan/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "#tree_5/#apple_red/take": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/quarter/from/pass_bin": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "#pass_bin/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_T/from/tree_4": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#tree_14/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/apple_red/from/binA_003": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_quinoa/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "#binA_001/#rubble/take": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "actions/grasp/chassis_fan/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "#tree_2/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_T/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_T/from/binA_003": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "#tree_13/#chip_type_T/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#tree_12/#locknut/take": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#tree_7/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/parcel_heavy/from/tree_7": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/quarter/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_quinoa/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "#tree_3/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_quinoa/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/quarter/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_T/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/grasp/chassis_fan/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#tree_1/#chassis_fan/take": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/grasp/parcel_heavy/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/locknut/from/pass_bin": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "#tree_14/#locknut/take": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/parcel_heavy/from/tree_4": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/grasp/apple_red/from/tree_2": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "#tree_15/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "#tree_14/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_13/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#tree_5/#chassis_fan/take": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "#tree_12/#apple_red/take": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/chassis_fan/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#tree_7/#rubble/take": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/apple_red/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "#tree_3/#rubble/take": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_T/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#tree_3/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#tree_6/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#tree_6/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#tree_9/#chip_type_T/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "#tree_1/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "#tree_8/#locknut/take": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/rubble/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "#tree_4/#rubble/take": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/grasp/apple_red/from/pass_bin": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "#tree_14/#apple_red/take": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_4/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#tree_13/#locknut/take": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_quinoa/from/reject_bin": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "actions/grasp/rubble/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/parcel_heavy/from/binA_001": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "actions/grasp/parcel_heavy/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_quinoa/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/apple_red/from/binA_005": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "actions/grasp/locknut/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "#reject_bin/#locknut/take": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "actions/grasp/chassis_fan/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#binA_001/#grain_quinoa/take": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "actions/grasp/locknut/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "#tree_11/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "#tree_11/#parcel_heavy/take": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_quinoa/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "#reject_bin/#quarter/take": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "#tree_1/#rubble/take": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/grasp/chassis_fan/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/quarter/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "#tree_12/#grain_quinoa/take": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#binA_001/#locknut/take": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "set|rubble|@|tree_5": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "set|quarter|@|binA_001": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_heavy:LOC:tree_2": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|rubble|@|tree_13": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "robot/dropoff-rubble-at-binA_003": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "set|chip_type_T|@|tree_15": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "set|parcel_heavy|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "robot/dropoff-chassis_fan-at-tree_7": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "robot/dropoff-apple_red-at-tree_1": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|rubble|@|tree_11": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "set|rubble|@|reject_bin": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_heavy:LOC:tree_9": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "set|chassis_fan|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "robot/dropoff-chassis_fan-at-binA_005": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_T:LOC:tree_1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:grain_quinoa:LOC:tree_7": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "robot/dropoff-grain_quinoa-at-tree_3": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|chassis_fan|@|tree_8": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "set|apple_red|@|tree_5": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:quarter:LOC:pass_bin": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "set|parcel_heavy|@|pass_bin": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_T:LOC:tree_4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_heavy:LOC:tree_14": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "robot/dropoff-apple_red-at-binA_003": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "set|grain_quinoa|@|tree_9": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "set|rubble|@|binA_001": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chassis_fan:LOC:tree_15": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:quarter:LOC:tree_2": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_T-at-tree_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_T-at-binA_003": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_T-at-tree_13": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "set|locknut|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:quarter:LOC:tree_7": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_heavy:LOC:tree_7": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "set|quarter|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "robot/dropoff-grain_quinoa-at-tree_15": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_heavy:LOC:tree_3": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:grain_quinoa:LOC:tree_14": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "robot/dropoff-quarter-at-tree_9": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_T-at-tree_11": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "set|chassis_fan|@|tree_6": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "set|chassis_fan|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "robot/dropoff-parcel_heavy-at-tree_8": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "robot/dropoff-locknut-at-pass_bin": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "set|locknut|@|tree_14": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "robot/dropoff-parcel_heavy-at-tree_4": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:apple_red:LOC:tree_2": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "robot/dropoff-parcel_heavy-at-tree_15": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "set|quarter|@|tree_14": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "robot/dropoff-parcel_heavy-at-tree_13": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "robot/dropoff-chassis_fan-at-tree_5": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "set|apple_red|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "robot/dropoff-chassis_fan-at-tree_13": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "set|rubble|@|tree_7": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "set|apple_red|@|tree_9": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "set|rubble|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_T-at-tree_12": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "robot/dropoff-quarter-at-tree_3": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|quarter|@|tree_6": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_heavy:LOC:tree_6": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_T:LOC:tree_9": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "set|quarter|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "robot/dropoff-locknut-at-tree_8": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "set|rubble|@|tree_8": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:rubble:LOC:tree_4": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:apple_red:LOC:pass_bin": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-apple_red-at-tree_14": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:quarter:LOC:tree_4": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:locknut:LOC:tree_13": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:grain_quinoa:LOC:reject_bin": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:rubble:LOC:tree_14": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "robot/dropoff-parcel_heavy-at-binA_001": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_heavy:LOC:tree_5": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "set|grain_quinoa|@|tree_10": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "set|apple_red|@|binA_005": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "robot/dropoff-locknut-at-tree_11": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "robot/dropoff-locknut-at-reject_bin": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "set|chassis_fan|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "robot/dropoff-grain_quinoa-at-binA_001": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:locknut:LOC:tree_10": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:quarter:LOC:tree_11": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "robot/dropoff-parcel_heavy-at-tree_11": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "robot/dropoff-grain_quinoa-at-tree_5": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "robot/dropoff-quarter-at-reject_bin": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "set|rubble|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chassis_fan:LOC:tree_9": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "set|quarter|@|tree_10": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "robot/dropoff-grain_quinoa-at-tree_12": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:locknut:LOC:binA_001": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001",
+    "binA_003",
+    "binA_005"
+   ]
+  },
+  "inspect reject_bin + pass_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_bin",
+    "pass_bin"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_2",
+    "tree_3",
+    "tree_4",
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7",
+    "tree_8",
+    "tree_9",
+    "tree_10"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12",
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "odd numbered slots in binA": [
+   "binA_001",
+   "binA_003",
+   "binA_005"
+  ],
+  "reject or pass": [
+   "reject_bin",
+   "pass_bin"
+  ],
+  "tree 1-7": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_6",
+   "tree_7"
+  ],
+  "tree 8-10": [
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 1-5 or tree 6-10": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 5-7 or tree 11-12": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_11",
+   "tree_12"
+  ],
+  "tree 3-5 or tree 13": [
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_13"
+  ],
+  "tree 1-3 or tree 12-15": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "tree 6-10": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 11-15": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "any tree in the orchard": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10",
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "odd numbered trees": [
+   "tree_1",
+   "tree_3",
+   "tree_5",
+   "tree_7",
+   "tree_9",
+   "tree_11",
+   "tree_13",
+   "tree_15"
+  ],
+  "even numbered trees": [
+   "tree_2",
+   "tree_4",
+   "tree_6",
+   "tree_8",
+   "tree_10",
+   "tree_12",
+   "tree_14"
+  ],
+  "first three trees": [
+   "tree_1",
+   "tree_2",
+   "tree_3"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "trees 5 through 10": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees in the middle section (6-10)": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "edge trees (1, 5, 11, and 15)": [
+   "tree_1",
+   "tree_5",
+   "tree_11",
+   "tree_15"
+  ]
+ }
+}

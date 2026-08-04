@@ -1,0 +1,1620 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "parcelPalette-1.2.2",
+  "canvas_zone_C",
+  "parcelPalette-3.2.2",
+  "water_cup",
+  "lane_1_start",
+  "shelf_L3_S1",
+  "parcelPalette-1.1.2",
+  "parcelPalette-1.2.1",
+  "parcelPalette-3.2.1",
+  "zone_010",
+  "parcelPalette-1.3.1",
+  "parcelPalette-1.1.1",
+  "parcelPalette-1.3.2",
+  "tree_3"
+ ],
+ "object_types": [
+  "parcel_hazmat",
+  "steel_rebar",
+  "roller_black",
+  "seasoning_salt",
+  "grain_sorghum",
+  "tote",
+  "wafer_A",
+  "box_perishable",
+  "marker_H",
+  "roller_green"
+ ],
+ "positions": {
+  "#tree_3/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#lane_1_start/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.1/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#roller_black/take": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#steel_rebar/take": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#lane_1_start/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.1/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#box_perishable/take": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#roller_green/take": {
+   "type": "PICK",
+   "bound_type": "roller_green",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#steel_rebar/take": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#zone_010/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#water_cup/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "#zone_010/#roller_black/take": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#parcelPalette-3.2.1/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "#water_cup/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#roller_green/take": {
+   "type": "PICK",
+   "bound_type": "roller_green",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#lane_1_start/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.1/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#box_perishable/take": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-3.2.1/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.1/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#lane_1_start/#roller_black/take": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#zone_010/#box_perishable/take": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.1/#roller_black/take": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#water_cup/#box_perishable/take": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "#tree_3/#roller_green/take": {
+   "type": "PICK",
+   "bound_type": "roller_green",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#water_cup/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "#parcelPalette-3.2.1/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#lane_1_start/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#steel_rebar/take": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#lane_1_start/#steel_rebar/take": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#tree_3/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#tree_3/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#parcelPalette-3.2.2/#steel_rebar/take": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "#water_cup/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#zone_010/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#roller_black/take": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#zone_010/#roller_green/take": {
+   "type": "PICK",
+   "bound_type": "roller_green",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#roller_black/take": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "#water_cup/#roller_green/take": {
+   "type": "PICK",
+   "bound_type": "roller_green",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#box_perishable/take": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#parcel_hazmat/take": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#parcelPalette-3.2.1/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#lane_1_start/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.1/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#tree_3/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#zone_010/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#shelf_L3_S1/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#box_perishable/take": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#parcelPalette-3.2.2/#tote/take": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#water_cup/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#steel_rebar/take": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#tree_3/#wafer_A/take": {
+   "type": "PICK",
+   "bound_type": "wafer_A",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#marker_H/take": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "tree_3_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "lane_1_start_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "canvas_zone_C_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.1_roller_black_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "canvas_zone_A_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "lane_1_start_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "canvas_zone_C_box_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_roller_green_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_green",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.2_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "zone_010_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "water_cup_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "zone_010_roller_black_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "shelf_L3_S1_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "water_cup_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "canvas_zone_A_roller_green_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_green",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "lane_1_start_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2_box_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "canvas_zone_A_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "lane_1_start_roller_black_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "zone_010_box_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_roller_black_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "canvas_zone_C_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.2_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "shelf_L3_S1_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "water_cup_box_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "tree_3_roller_green_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_green",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.2_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "water_cup_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.2_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "shelf_L3_S1_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "lane_1_start_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "lane_1_start_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.1_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.1_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "tree_3_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "canvas_zone_C_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "tree_3_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.2_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "water_cup_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "canvas_zone_C_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "canvas_zone_A_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "zone_010_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.2_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "canvas_zone_A_roller_black_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "zone_010_roller_green_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_green",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "shelf_L3_S1_roller_black_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.1_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "water_cup_roller_green_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_green",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_box_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.1_parcel_hazmat_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "canvas_zone_A_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "canvas_zone_A_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "lane_1_start_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "tree_3_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone_010_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "shelf_L3_S1_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.2_seasoning_salt_deposit": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "canvas_zone_C_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "canvas_zone_A_box_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.2_tote_deposit": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.1_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "water_cup_grain_sorghum_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "water_cup",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "tree_3_wafer_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_A",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.1_marker_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_C"
+   ]
+  },
+  "peek water_cup & rag_spot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "water_cup"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_3"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2",
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.2.2",
+    "parcelPalette-1.3.1",
+    "parcelPalette-1.3.2"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.2.1",
+    "parcelPalette-3.2.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "wafer_A",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "roller_green",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "roller_green",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "roller_green",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "roller_green",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "roller_green",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from canvas A or the water cup": [
+   "canvas_zone_A",
+   "water_cup"
+  ],
+  "from the outer zones (A and C)": [
+   "canvas_zone_A",
+   "canvas_zone_C"
+  ],
+  "pallettes 1": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2",
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2",
+   "parcelPalette-1.3.1",
+   "parcelPalette-1.3.2"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ],
+  "Palettesshelf - 1.2.*": [
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2"
+  ],
+  "Palettes 1st line index 1, 2nd - 3": [
+   "parcelPalette-1.3.1",
+   "parcelPalette-1.3.2"
+  ],
+  "Palettes32.*": [
+   "parcelPalette-3.2.1",
+   "parcelPalette-3.2.2"
+  ]
+ }
+}

@@ -1,0 +1,930 @@
+{
+ "object_locations": [
+  "bay_A",
+  "bay_B",
+  "bay_C",
+  "overflow_rack"
+ ],
+ "object_types": [
+  "cylinder_red",
+  "cylinder_blue",
+  "cylinder_green",
+  "cylinder_yellow",
+  "cylinder_orange",
+  "cylinder_purple",
+  "cylinder_white",
+  "cylinder_black",
+  "cylinder_gray",
+  "cylinder_pink",
+  "cylinder_cyan",
+  "cylinder_magenta"
+ ],
+ "positions": {
+  "bay_A=>cylinder_red=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "#bay_B/#cylinder_red/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "bay_C=>cylinder_red=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_red/loc/overflow_rack": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "#bay_A/#cylinder_blue/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "bay_B=>cylinder_blue=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_blue/loc/bay_C": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_blue/loc/overflow_rack": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_green/loc/bay_A": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "bay_B=>cylinder_green=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "bay_C=>cylinder_green=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "overflow_rack=>cylinder_green=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "bay_A=>cylinder_yellow=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_yellow/loc/bay_B": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "bay_C=>cylinder_yellow=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "#overflow_rack/#cylinder_yellow/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "#bay_A/#cylinder_orange/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_orange",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_orange/loc/bay_B": {
+   "type": "PICK",
+   "bound_type": "cylinder_orange",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "bay_C=>cylinder_orange=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_orange",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_orange/loc/overflow_rack": {
+   "type": "PICK",
+   "bound_type": "cylinder_orange",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "bay_A=>cylinder_purple=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "#bay_B/#cylinder_purple/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "bay_C=>cylinder_purple=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "#overflow_rack/#cylinder_purple/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "bay_A=>cylinder_white=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_white",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "bay_B=>cylinder_white=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_white",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "#bay_C/#cylinder_white/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_white",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "overflow_rack=>cylinder_white=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_white",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_black/loc/bay_A": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "#bay_B/#cylinder_black/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "#bay_C/#cylinder_black/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "#overflow_rack/#cylinder_black/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "#bay_A/#cylinder_gray/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "bay_B=>cylinder_gray=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_gray/loc/bay_C": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "overflow_rack=>cylinder_gray=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "bay_A=>cylinder_pink=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "#bay_B/#cylinder_pink/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "#bay_C/#cylinder_pink/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "#overflow_rack/#cylinder_pink/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_cyan/loc/bay_A": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "#bay_B/#cylinder_cyan/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "#bay_C/#cylinder_cyan/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "overflow_rack=>cylinder_cyan=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "#bay_A/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_magenta/loc/bay_B": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_magenta/loc/bay_C": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "#overflow_rack/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:cylinder_red:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:cylinder_red:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "deposit_cylinder_red@bay_C": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:overflow_rack:item:cylinder_red:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:cylinder_blue:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_blue&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_blue&dest=bay_C": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:overflow_rack:item:cylinder_blue:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:cylinder_green:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_cylinder_green@bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "deposit_cylinder_green@bay_C": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_green&dest=overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:cylinder_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_cylinder_yellow@bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:cylinder_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:overflow_rack:item:cylinder_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:cylinder_orange:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_orange",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_cylinder_orange@bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_orange",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_orange&dest=bay_C": {
+   "type": "PLACE",
+   "bound_type": "cylinder_orange",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "deposit_cylinder_orange@overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "cylinder_orange",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:cylinder_purple:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_purple&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "deposit_cylinder_purple@bay_C": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "deposit_cylinder_purple@overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "deposit_cylinder_white@bay_A": {
+   "type": "PLACE",
+   "bound_type": "cylinder_white",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:cylinder_white:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_white",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_white&dest=bay_C": {
+   "type": "PLACE",
+   "bound_type": "cylinder_white",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_white&dest=overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "cylinder_white",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:cylinder_black:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_cylinder_black@bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:cylinder_black:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "deposit_cylinder_black@overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_gray&dest=bay_A": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_cylinder_gray@bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:cylinder_gray:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "deposit_cylinder_gray@overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=bay_A": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:cylinder_pink:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:cylinder_pink:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "deposit_cylinder_pink@overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_cyan&dest=bay_A": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_cyan&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:cylinder_cyan:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:overflow_rack:item:cylinder_cyan:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=bay_A": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "deposit_cylinder_magenta@bay_C": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:overflow_rack:item:cylinder_magenta:action:place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "peek overflow_rack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "overflow_rack"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cylinder_orange",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cylinder_orange",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cylinder_orange",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cylinder_orange",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cylinder_white",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cylinder_white",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cylinder_white",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cylinder_white",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "bay A/B/C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "lanes A through B": [
+   "bay_A",
+   "bay_B"
+  ],
+  "terminal C and expansion": [
+   "bay_C",
+   "overflow_rack"
+  ],
+  "entire facility storage": [
+   "bay_A",
+   "bay_B",
+   "bay_C",
+   "overflow_rack"
+  ],
+  "outermost bays (A and C)": [
+   "bay_A",
+   "bay_C"
+  ],
+  "fixed racking (no buffer)": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "disposals A to C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "one of the areas A through C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ]
+ }
+}

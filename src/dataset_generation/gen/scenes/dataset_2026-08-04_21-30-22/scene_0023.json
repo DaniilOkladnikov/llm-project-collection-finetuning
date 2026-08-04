@@ -1,0 +1,1629 @@
+{
+ "object_locations": [
+  "tree_4",
+  "parcelPalette-1.1.2",
+  "parcelPalette-1.2.1",
+  "drawer_5",
+  "drawer_3",
+  "tree_12",
+  "drawer_1",
+  "bay_C",
+  "parcelPalette-1.3.1",
+  "parcelPalette-1.1.1",
+  "overflow_rack",
+  "tree_8",
+  "drawer_9",
+  "drawer_7",
+  "parcelPalette-1.2.2",
+  "tree_10",
+  "tree_14",
+  "tree_6",
+  "tree_2",
+  "parcelPalette-1.3.2"
+ ],
+ "object_types": [
+  "chip_type_G",
+  "teff_kernel",
+  "millet_grain",
+  "winter_tire",
+  "box_large",
+  "chip_type_F",
+  "veg_celery"
+ ],
+ "positions": {
+  "parcelPalette-1.3.1=>winter_tire=>TAKE": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_F/from/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/drawer_9": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_F/from/parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_F/from/parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "tree_2=>chip_type_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_G/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "tree_12=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "bay_C=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "overflow_rack=>chip_type_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "drawer_5=>winter_tire=>TAKE": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/drawer_7": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/overflow_rack": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_G/from/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_F/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "drawer_7=>veg_celery=>TAKE": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_F/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "drawer_3=>teff_kernel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "tree_12=>teff_kernel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1=>winter_tire=>TAKE": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "tree_4=>millet_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "tree_4=>box_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "drawer_5=>box_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_G/from/tree_2": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "drawer_1=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2=>chip_type_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1=>chip_type_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "tree_10=>winter_tire=>TAKE": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2=>box_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_F/from/drawer_7": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "tree_6=>chip_type_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "drawer_7=>box_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "tree_10=>chip_type_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/tree_2": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "tree_6=>box_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/box_large/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/overflow_rack": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "tree_14=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_G/from/parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2=>millet_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "drawer_3=>box_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "drawer_7=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "tree_2=>veg_celery=>TAKE": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_G/from/overflow_rack": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "tree_6=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.2=>veg_celery=>TAKE": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_G/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/tree_2": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "tree_8=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "tree_4=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "tree_6=>teff_kernel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/teff_kernel/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/tree_2": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2=>chip_type_G=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "tree_12=>chip_type_F=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/veg_celery/from/parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "tree_12=>box_large=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "tree_14=>winter_tire=>TAKE": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/release/winter_tire/to/parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "actions/release/winter_tire/to/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "task/place/drawer_5/millet_grain": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.3.1.item.chip_type_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/tree_2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "task/place/tree_14/millet_grain": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "task/place/parcelPalette-1.3.1/millet_grain": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_G/to/drawer_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "task/place/tree_12/chip_type_G": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "task/place/bay_C/chip_type_G": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "zone.drawer_5.item.winter_tire.release": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/release/millet_grain/to/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "zone.overflow_rack.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "actions/release/teff_kernel/to/drawer_1": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.veg_celery.release": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "task/place/tree_6/millet_grain": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_G/to/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "task/place/tree_8/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/release/veg_celery/to/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "zone.drawer_5.item.chip_type_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "task/place/drawer_3/teff_kernel": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/release/teff_kernel/to/tree_12": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "task/place/tree_6/veg_celery": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "task/place/tree_8/millet_grain": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.winter_tire.release": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "task/place/tree_4/millet_grain": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "task/place/tree_4/box_large": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "task/place/drawer_5/box_large": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "zone.tree_10.item.veg_celery.release": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "task/place/tree_2/chip_type_G": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_G/to/drawer_1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.1.2.item.chip_type_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.3.2.item.chip_type_G.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "task/place/parcelPalette-1.2.1/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "zone.tree_10.item.winter_tire.release": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/release/millet_grain/to/parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.1.2.item.box_large.release": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "zone.drawer_7.item.chip_type_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "task/place/tree_6/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/release/teff_kernel/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.3.1.item.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "task/place/drawer_7/box_large": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "task/place/tree_10/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "task/place/tree_2/teff_kernel": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "zone.tree_6.item.box_large.release": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "zone.tree_10.item.box_large.release": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "task/place/drawer_3/winter_tire": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "zone.overflow_rack.item.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "zone.tree_14.item.chip_type_G.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "zone.bay_C.item.winter_tire.release": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.3.1.item.chip_type_G.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "task/place/parcelPalette-1.3.2/millet_grain": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "zone.tree_8.item.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/release/veg_celery/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "task/place/drawer_3/box_large": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "task/place/drawer_7/chip_type_G": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "zone.tree_2.item.veg_celery.release": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/release/veg_celery/to/drawer_1": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "task/place/overflow_rack/chip_type_G": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "actions/release/millet_grain/to/bay_C": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_G/to/tree_6": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.3.2.item.veg_celery.release": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "actions/release/teff_kernel/to/tree_14": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "zone.tree_10.item.chip_type_G.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "zone.tree_12.item.veg_celery.release": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/release/winter_tire/to/tree_2": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/release/winter_tire/to/drawer_1": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone.tree_8.item.chip_type_G.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "actions/release/millet_grain/to/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_G/to/tree_4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/release/teff_kernel/to/tree_6": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/release/veg_celery/to/drawer_5": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "zone.tree_10.item.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/release/millet_grain/to/tree_2": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "zone.drawer_1.item.millet_grain.release": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "task/place/parcelPalette-1.1.2/chip_type_G": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "task/place/tree_12/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/release/veg_celery/to/tree_14": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/release/veg_celery/to/parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/release/box_large/to/tree_12": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/release/winter_tire/to/tree_14": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "peek overflow_rack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "overflow_rack"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_3",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_7",
+    "drawer_9"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_2",
+    "tree_4"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_8",
+    "tree_10"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_12",
+    "tree_14"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2",
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.2.2",
+    "parcelPalette-1.3.1",
+    "parcelPalette-1.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "bay C and overflow rack": [
+   "bay_C",
+   "overflow_rack"
+  ],
+  "somewhere in the odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "any odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "even numbered trees": [
+   "tree_2",
+   "tree_4",
+   "tree_6",
+   "tree_8",
+   "tree_10",
+   "tree_12",
+   "tree_14"
+  ],
+  "pallettes 1": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2",
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2",
+   "parcelPalette-1.3.1",
+   "parcelPalette-1.3.2"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ],
+  "Palettesshelf - 1.2.*": [
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2"
+  ],
+  "Palettes 1st line index 1, 2nd - 3": [
+   "parcelPalette-1.3.1",
+   "parcelPalette-1.3.2"
+  ]
+ }
+}

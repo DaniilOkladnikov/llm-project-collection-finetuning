@@ -1,0 +1,662 @@
+{
+ "object_locations": [
+  "table_Q4",
+  "drawer_4",
+  "burner_back_left",
+  "drawer_3",
+  "cell_R2C4",
+  "table_Q3",
+  "cement_mixer_storage",
+  "cement_bag_pile",
+  "tree_6",
+  "tire_rack_used",
+  "tire_rack_new",
+  "palette_well_4"
+ ],
+ "object_types": [
+  "tube_magenta",
+  "chip_type_J",
+  "buffer_vessel",
+  "cordless_impact_driver"
+ ],
+ "positions": {
+  "op/grab/cordless_impact_driver/loc/tree_6": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/drawer_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "pickupcordless_impact_driverburner_back_left": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/tube_magenta/loc/drawer_3": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "op/grab/buffer_vessel/loc/drawer_4": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "pickupcordless_impact_drivercement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "op/grab/cordless_impact_driver/loc/tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/cement_mixer_storage": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/table_Q3": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "pickuptube_magentacement_mixer_storage": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "pickupchip_type_Jtire_rack_used": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "pickuptube_magentatable_Q3": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "op/grab/tube_magenta/loc/cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/tree_6": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "pickupchip_type_Jburner_back_left": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "pickupcordless_impact_drivertable_Q4": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "op/grab/tube_magenta/loc/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_J/loc/cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "pickupchip_type_Jpalette_well_4": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "pickuptube_magentacement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "pickuptube_magentapalette_well_4": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "pickupbuffer_vesseltable_Q3": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "op/grab/buffer_vessel/loc/cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "pickupbuffer_vesseltree_6": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "op/grab/buffer_vessel/loc/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/cordless_impact_driver/loc/table_Q3": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "pickupcordless_impact_drivercell_R2C4": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "op/grab/buffer_vessel/loc/cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "tree_6=>cordless_impact_driver=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/drawer_3/chip_type_J/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "burner_back_left=>cordless_impact_driver=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "drawer_3=>tube_magenta=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "/mnt/drawer_4/buffer_vessel/place": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "store:cordless_impact_driver:cement_bag_pile": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "store:cordless_impact_driver:tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "/mnt/cement_mixer_storage/chip_type_J/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "store:chip_type_J:table_Q3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "cement_mixer_storage=>tube_magenta=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "cement_mixer_storage",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C4/chip_type_J/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "/mnt/tire_rack_used/chip_type_J/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "table_Q3=>tube_magenta=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "store:tube_magenta:cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/chip_type_J/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/chip_type_J/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "store:cordless_impact_driver:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "store:tube_magenta:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/cement_bag_pile/chip_type_J/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "palette_well_4=>chip_type_J=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "store:tube_magenta:cement_bag_pile": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "palette_well_4=>tube_magenta=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "/mnt/table_Q3/buffer_vessel/place": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "cell_R2C4=>buffer_vessel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/buffer_vessel/place": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "store:buffer_vessel:burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "table_Q3=>cordless_impact_driver=>PUT": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C4/cordless_impact_driver/place": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "/mnt/cement_bag_pile/buffer_vessel/place": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C4"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_3",
+    "drawer_4"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_4"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_back_left"
+   ]
+  },
+  "check tire_rack_new + tire_rack_used": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_rack_new",
+    "tire_rack_used"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6"
+   ]
+  },
+  "cement_station_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cement_mixer_storage",
+    "cement_bag_pile"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "last two quadrants": [
+   "table_Q3",
+   "table_Q4"
+  ],
+  "either drawer 3 or drawer 4": [
+   "drawer_3",
+   "drawer_4"
+  ],
+  "tire_rack new & used": [
+   "tire_rack_new",
+   "tire_rack_used"
+  ],
+  "cement_area_storage": [
+   "cement_mixer_storage",
+   "cement_bag_pile"
+  ],
+  "powder_and_mixer_cement_zones": [
+   "cement_mixer_storage",
+   "cement_bag_pile"
+  ]
+ }
+}

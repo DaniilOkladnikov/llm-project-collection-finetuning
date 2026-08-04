@@ -1,0 +1,1197 @@
+{
+ "object_locations": [
+  "dime_bin",
+  "pot_small",
+  "drawer_small_parts",
+  "quarter_bin",
+  "L2-SecC-RackM",
+  "L2-SecC-RackO",
+  "pot_medium",
+  "pot_large",
+  "palette_well_5",
+  "palette_well_8",
+  "L2-SecC-RackN",
+  "tray_infeed_slot2",
+  "zone_008"
+ ],
+ "object_types": [
+  "spelt_kernel",
+  "allseason_tire",
+  "box_international",
+  "iron_bar",
+  "phial",
+  "rotary_hammer_drill",
+  "roller_orange",
+  "marker_F"
+ ],
+ "positions": {
+  "robot/pickup-iron_bar-at-pot_large": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "get__spelt_kernel__from__pot_small": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "robot/pickup-marker_F-at-palette_well_8": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/pickup-allseason_tire-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "get__iron_bar__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/pickup-box_international-at-pot_medium": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_kernel-at-palette_well_8": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "get__allseason_tire__from__palette_well_5": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "get__iron_bar__from__dime_bin": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__palette_well_8": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "get__rotary_hammer_drill__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "rotary_hammer_drill",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/pickup-marker_F-at-pot_large": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/pickup-allseason_tire-at-L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "get__spelt_kernel__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__box_international__from__pot_small": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "get__rotary_hammer_drill__from__dime_bin": {
+   "type": "PICK",
+   "bound_type": "rotary_hammer_drill",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "get__marker_F__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "get__spelt_kernel__from__pot_large": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/pickup-allseason_tire-at-L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "get__phial__from__palette_well_8": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_kernel-at-tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__pot_large": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/pickup-marker_F-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-iron_bar-at-L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "robot/pickup-phial-at-zone_008": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__box_international__from__zone_008": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "get__spelt_kernel__from__dime_bin": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "get__phial__from__quarter_bin": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-marker_F-at-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/pickup-phial-at-pot_large": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/pickup-allseason_tire-at-pot_small": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "get__allseason_tire__from__drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "get__box_international__from__pot_large": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/pickup-box_international-at-tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "get__iron_bar__from__pot_medium": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "robot/pickup-marker_F-at-L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "robot/pickup-spelt_kernel-at-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/pickup-allseason_tire-at-L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "robot/pickup-allseason_tire-at-palette_well_8": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__palette_well_5": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "get__spelt_kernel__from__L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "robot/pickup-phial-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-rotary_hammer_drill-at-pot_medium": {
+   "type": "PICK",
+   "bound_type": "rotary_hammer_drill",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "get__box_international__from__dime_bin": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-roller_orange-at-L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "get__iron_bar__from__L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "get__marker_F__from__pot_medium": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "robot/pickup-iron_bar-at-palette_well_8": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/pickup-phial-at-L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "get__phial__from__palette_well_5": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/pickup-allseason_tire-at-quarter_bin": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-box_international-at-L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "get__allseason_tire__from__pot_large": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/pickup-marker_F-at-drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "robot/pickup-phial-at-L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__pot_medium": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "robot/pickup-iron_bar-at-zone_008": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "get__iron_bar__from__quarter_bin": {
+   "type": "PICK",
+   "bound_type": "iron_bar",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "get__spelt_kernel__from__drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "robot/dropoff-iron_bar-at-pot_large": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/dropoff-spelt_kernel-at-pot_small": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "[palette_well_8][marker_F]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/dropoff-allseason_tire-at-dime_bin": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-iron_bar-at-tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "set|box_international|@|pot_medium": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "set|spelt_kernel|@|palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/dropoff-allseason_tire-at-palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "set|iron_bar|@|dime_bin": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-roller_orange-at-palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "[tray_infeed_slot2][rotary_hammer_drill]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "rotary_hammer_drill",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "robot/dropoff-marker_F-at-pot_large": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "set|allseason_tire|@|L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "[zone_008][spelt_kernel]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "set|box_international|@|pot_small": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "robot/dropoff-rotary_hammer_drill-at-dime_bin": {
+   "type": "PLACE",
+   "bound_type": "rotary_hammer_drill",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-marker_F-at-tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "set|spelt_kernel|@|pot_large": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/dropoff-allseason_tire-at-L2-SecC-RackO": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "[palette_well_8][phial]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/dropoff-spelt_kernel-at-tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "set|roller_orange|@|pot_large": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/dropoff-marker_F-at-dime_bin": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "[L2-SecC-RackO][iron_bar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "robot/dropoff-phial-at-zone_008": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "[zone_008][box_international]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "set|roller_orange|@|tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "[dime_bin][spelt_kernel]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "[quarter_bin][phial]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "set|marker_F|@|palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "[pot_large][phial]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/dropoff-allseason_tire-at-pot_small": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "[drawer_small_parts][allseason_tire]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "set|box_international|@|pot_large": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "[tray_infeed_slot2][box_international]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "set|iron_bar|@|pot_medium": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "robot/dropoff-marker_F-at-L2-SecC-RackO": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "set|spelt_kernel|@|palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/dropoff-allseason_tire-at-L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "set|allseason_tire|@|palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "[palette_well_5][roller_orange]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "[L2-SecC-RackO][spelt_kernel]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "[dime_bin][phial]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "set|rotary_hammer_drill|@|pot_medium": {
+   "type": "PLACE",
+   "bound_type": "rotary_hammer_drill",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "[dime_bin][box_international]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "[L2-SecC-RackO][roller_orange]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "robot/dropoff-iron_bar-at-L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "set|marker_F|@|pot_medium": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "robot/dropoff-iron_bar-at-palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "[L2-SecC-RackM][phial]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "robot/dropoff-phial-at-palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "[quarter_bin][allseason_tire]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-box_international-at-L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "robot/dropoff-allseason_tire-at-pot_large": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "robot/dropoff-marker_F-at-drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "[L2-SecC-RackO][phial]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "robot/dropoff-roller_orange-at-pot_medium": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "[zone_008][iron_bar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "set|iron_bar|@|quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "iron_bar",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-spelt_kernel-at-drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "peek drawer_small_parts": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_small_parts"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_008"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_5",
+    "palette_well_8"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin",
+    "quarter_bin"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium",
+    "pot_large"
+   ]
+  },
+  "Catwalk_Overlook_L2_SecC_Racks_M_N_O": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L2-SecC-RackM",
+    "L2-SecC-RackN",
+    "L2-SecC-RackO"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sensor_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "workbench_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "iron_bar",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "rotary_hammer_drill",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "rotary_hammer_drill",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "rotary_hammer_drill",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from the dime or quarter trays": [
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "pot small|medium|large": [
+   "pot_small",
+   "pot_medium",
+   "pot_large"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ],
+  "medium or large pot": [
+   "pot_medium",
+   "pot_large"
+  ],
+  "Level_2_Steel_Racks_Indices_M_and_N": [
+   "L2-SecC-RackM",
+   "L2-SecC-RackN"
+  ],
+  "Level_2_Steel_Racks_Indices_N_and_O": [
+   "L2-SecC-RackN",
+   "L2-SecC-RackO"
+  ],
+  "All_Level_2_Section_C_Racks_Indices_M_to_O": [
+   "L2-SecC-RackM",
+   "L2-SecC-RackN",
+   "L2-SecC-RackO"
+  ]
+ }
+}

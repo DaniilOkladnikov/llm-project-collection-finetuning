@@ -1,0 +1,1649 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "cell_R4C1",
+  "cell_R2C3",
+  "canvas_zone_C",
+  "dispenser_B",
+  "cell_R4C3",
+  "cell_R4C2",
+  "cell_R2C2",
+  "slot2_1",
+  "slot1_1",
+  "canvas_zone_B",
+  "cell_R3C1",
+  "cell_R1C1",
+  "cell_R2C1",
+  "cell_R3C2",
+  "slot3_1",
+  "dispenser_C",
+  "cell_R1C3",
+  "cell_R1C2",
+  "cell_R3C3"
+ ],
+ "object_types": [
+  "box_medium",
+  "tile_R",
+  "veg_celery",
+  "detector",
+  "barley_kernel",
+  "parcel_oversized",
+  "quarter",
+  "quinoa_grain"
+ ],
+ "positions": {
+  "$.slot3_1.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C3/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C1/detector": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot1_1/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_A/detector": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.barley_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/barley_kernel": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot1_1/veg_celery": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R3C3/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C2/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.dispenser_B.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "$.dispenser_C.parcel_oversized.grab": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.box_medium.grab": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C2/quinoa_grain": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C3/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C2/detector": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.detector.grab": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.cell_R2C3.parcel_oversized.grab": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "$.canvas_zone_C.quinoa_grain.grab": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "$.cell_R4C3.quinoa_grain.grab": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_C/detector": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_C/quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot1_1/quinoa_grain": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.tile_R.grab": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "$.cell_R2C3.detector.grab": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R3C2/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_C/quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R3C1/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C1/quinoa_grain": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "$.cell_R2C3.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.detector.grab": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "$.canvas_zone_C.parcel_oversized.grab": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "$.canvas_zone_B.detector.grab": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R3C2/detector": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_C/box_medium": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.parcel_oversized.grab": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "$.cell_R1C3.parcel_oversized.grab": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot1_1/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.box_medium.grab": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/veg_celery": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "$.cell_R1C3.box_medium.grab": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.slot1_1.box_medium.grab": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C1/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.quinoa_grain.grab": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C1/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "$.cell_R3C1.barley_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "$.cell_R1C3.quinoa_grain.grab": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.cell_R3C2.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.detector.grab": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C1/veg_celery": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R3C1/quinoa_grain": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "$.cell_R3C1.detector.grab": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "$.cell_R3C3.tile_R.grab": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot3_1/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "$.dispenser_C.tile_R.grab": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C2/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.quarter.grab": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C3/quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.barley_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R3C1/quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "$.cell_R4C3.tile_R.grab": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.quinoa_grain.grab": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.cell_R4C3.veg_celery.grab": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "$.canvas_zone_A.tile_R.grab": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C1/quinoa_grain": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C3/tile_R": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "$.cell_R3C3.barley_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "$.dispenser_C.barley_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "$.slot2_1.veg_celery.grab": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot3_1/quinoa_grain": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.quinoa_grain.grab": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.dispenser_B.box_medium.grab": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C3/barley_kernel": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "$.slot3_1.detector.grab": {
+   "type": "PICK",
+   "bound_type": "detector",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.parcel_oversized.grab": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.canvas_zone_A.parcel_oversized.grab": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C2/veg_celery": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.dispenser_B.quinoa_grain.grab": {
+   "type": "PICK",
+   "bound_type": "quinoa_grain",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C1/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot2_1/barley_kernel": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "#slot3_1/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#slot1_1/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#cell_R4C1/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#slot1_1/#veg_celery/leave": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#cell_R3C3/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#dispenser_B/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#dispenser_C/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#box_medium/leave": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#dispenser_C/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "#slot1_1/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#cell_R3C2/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#cell_R4C1/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#cell_R4C1/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#cell_R3C2/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#box_medium/leave": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "#dispenser_B/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#slot1_1/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#box_medium/leave": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#dispenser_B/#veg_celery/leave": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#box_medium/leave": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#slot1_1/#box_medium/leave": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R4C1/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R2C1/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R3C2/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R2C1/#veg_celery/leave": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#cell_R3C3/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "#slot3_1/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#dispenser_C/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#quarter/leave": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#veg_celery/leave": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#cell_R2C1/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#tile_R/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#cell_R3C3/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "#dispenser_C/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "#slot2_1/#veg_celery/leave": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "#slot3_1/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#dispenser_B/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#dispenser_B/#box_medium/leave": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#slot3_1/#detector/leave": {
+   "type": "PLACE",
+   "bound_type": "detector",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#veg_celery/leave": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#dispenser_B/#quinoa_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "quinoa_grain",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#cell_R2C1/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "#slot2_1/#barley_kernel/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "slot1_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot1_1"
+   ]
+  },
+  "slot2_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot2_1"
+   ]
+  },
+  "slot3_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot3_1"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2",
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R2C3"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2",
+    "cell_R4C1",
+    "cell_R4C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R4C3"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_B"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_C"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_B",
+    "canvas_zone_C"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "detector",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "quinoa_grain",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "first cells of each slot": [
+   "slot1_1",
+   "slot2_1",
+   "slot3_1"
+  ],
+  "cells in Column2": [
+   "cell_R1C2",
+   "cell_R2C2",
+   "cell_R3C2",
+   "cell_R4C2"
+  ],
+  "cells C1 to C3 (all rows)": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3"
+  ],
+  "dispensers B or C": [
+   "dispenser_B",
+   "dispenser_C"
+  ],
+  "somewhere on the canvas": [
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "on canvas zones A or B": [
+   "canvas_zone_A",
+   "canvas_zone_B"
+  ],
+  "on the surface areas B or C": [
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "from the outer zones (A and C)": [
+   "canvas_zone_A",
+   "canvas_zone_C"
+  ]
+ }
+}

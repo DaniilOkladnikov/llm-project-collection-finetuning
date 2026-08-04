@@ -1,0 +1,1091 @@
+{
+ "object_locations": [
+  "pot_small",
+  "binB_102",
+  "binA_004",
+  "zone_009",
+  "parcelPalette-2.1.1",
+  "binB_101",
+  "binA_003",
+  "binA_002",
+  "parcelPalette-2.1.2",
+  "zone_003",
+  "pot_large",
+  "zone_007",
+  "pot_medium",
+  "binA_005",
+  "zone_010",
+  "zone_012",
+  "zone_008",
+  "zone_011"
+ ],
+ "object_types": [
+  "tile_E",
+  "box_envelope",
+  "grain_rye",
+  "mailer",
+  "green_apple"
+ ],
+ "positions": {
+  "$.zone_007.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "$.zone_003.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "$.pot_medium.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "$.zone_008.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "$.binA_003.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "$.zone_009.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.binA_005.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "$.zone_007.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "$.binB_102.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "$.pot_small.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "$.binA_004.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "$.pot_medium.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.1.1.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "$.binA_004.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "$.zone_003.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "$.zone_010.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.zone_009.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.zone_010.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.pot_small.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "$.zone_009.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.binA_002.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "$.pot_small.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "$.binA_003.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "$.pot_medium.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.1.2.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "$.binA_004.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "$.pot_large.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "$.binB_102.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "$.zone_009.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.zone_011.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "$.zone_008.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "$.zone_010.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.binB_101.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "$.zone_008.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "$.zone_012.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "$.pot_small.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "$.binA_002.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "$.zone_003.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "$.binB_102.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "$.pot_large.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "$.binA_004.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "$.binA_003.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "$.binA_005.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.1.1.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "$.zone_003.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "$.zone_008.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "$.binB_101.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "$.zone_003.box_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "$.zone_009.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.zone_010.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.parcelPalette-2.1.2.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "$.binA_003.mailer.grab": {
+   "type": "PICK",
+   "bound_type": "mailer",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "$.binB_102.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "$.pot_small.tile_E.grab": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "[zone_007][mailer]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_003/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "[pot_medium][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "[zone_008][tile_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "[binA_003][grain_rye]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "[zone_009][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_005/mailer": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "[zone_007][grain_rye]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "[binB_102][tile_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "DEPOSIT/pot_small/green_apple": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_004/mailer": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "[pot_medium][box_envelope]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "[parcelPalette-2.1.1][tile_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_004/box_envelope": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "[zone_003][tile_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "[zone_010][mailer]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_009/mailer": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "[zone_010][box_envelope]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "[pot_small][mailer]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_009/box_envelope": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_002/mailer": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "DEPOSIT/pot_small/box_envelope": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_003/tile_E": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/pot_medium/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-2.1.2/green_apple": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_004/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "[pot_large][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "[binB_102][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "[zone_009][grain_rye]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "[zone_011][tile_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "[zone_008][mailer]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "[zone_010][grain_rye]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "[binB_101][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "[zone_008][box_envelope]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "[zone_012][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "[pot_small][grain_rye]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_002/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "[zone_003][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_102/box_envelope": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "[pot_large][box_envelope]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_004/tile_E": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "[binA_003][green_apple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "[binA_005][tile_E]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "[parcelPalette-2.1.1][box_envelope]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_003/mailer": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_008/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "[binB_101][box_envelope]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "[zone_003][box_envelope]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_envelope",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_009/tile_E": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_010/tile_E": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-2.1.2/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "[binA_003][mailer]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "mailer",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "[binB_102][grain_rye]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "DEPOSIT/pot_small/tile_E": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_002",
+    "binA_003",
+    "binA_004",
+    "binA_005"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101",
+    "binB_102"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_003"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_007",
+    "zone_008",
+    "zone_009"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010",
+    "zone_011",
+    "zone_012"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium",
+    "pot_large"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.1",
+    "parcelPalette-2.1.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "box_envelope",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "mailer",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "binA_002 to binB_102": [
+   "binA_002",
+   "binA_003",
+   "binA_004",
+   "binA_005",
+   "binB_101",
+   "binB_102"
+  ],
+  "even numbered slots in binA": [
+   "binA_002",
+   "binA_004"
+  ],
+  "middle zones (7-12)": [
+   "zone_007",
+   "zone_008",
+   "zone_009",
+   "zone_010",
+   "zone_011",
+   "zone_012"
+  ],
+  "008-011 zones": [
+   "zone_008",
+   "zone_009",
+   "zone_010",
+   "zone_011"
+  ],
+  "pot small|medium|large": [
+   "pot_small",
+   "pot_medium",
+   "pot_large"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ],
+  "medium or large pot": [
+   "pot_medium",
+   "pot_large"
+  ],
+  "Palettes 1st index 2, 2nd index 1": [
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.1.2"
+  ]
+ }
+}

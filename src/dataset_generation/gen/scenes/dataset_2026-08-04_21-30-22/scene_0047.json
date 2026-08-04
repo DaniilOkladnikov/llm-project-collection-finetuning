@@ -1,0 +1,1805 @@
+{
+ "object_locations": [
+  "zone_018",
+  "shelf_L2_S1",
+  "zone_013",
+  "bay_B",
+  "zone_014",
+  "shelf_L3_S2",
+  "bay_A",
+  "station_alpha",
+  "shelf_L1_S1",
+  "shelf_L1_S2",
+  "zone_017",
+  "shelf_L3_S1",
+  "zone_015",
+  "buffer_zone",
+  "bay_C",
+  "cell_R1C2",
+  "zone_016",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "roller_gray",
+  "component1",
+  "wafer_C",
+  "parcel_fragile",
+  "wafer_P",
+  "vegetable_carrot",
+  "test_tube",
+  "wafer_I",
+  "grain_sorghum"
+ ],
+ "positions": {
+  "--grasp--wafer_I--at--zone_018": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "bay_B.item.wafer_I.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "--grasp--grain_sorghum--at--shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--grasp--parcel_fragile--at--shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "station_alpha.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "zone_016.item.grain_sorghum.acquire": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "shelf_L1_S1.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "bay_C.item.grain_sorghum.acquire": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "zone_015.item.parcel_fragile.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "bay_B.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "zone_014.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "shelf_L3_S1.item.component1.acquire": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "bay_A.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "shelf_L1_S1.item.wafer_P.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "shelf_L3_S2.item.wafer_I.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "--grasp--grain_sorghum--at--shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "--grasp--wafer_P--at--bay_B": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "buffer_zone.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "--grasp--wafer_P--at--bay_A": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "cell_R1C2.item.component1.acquire": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "--grasp--wafer_C--at--zone_013": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "shelf_L1_S2.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "shelf_L3_S2.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "buffer_zone.item.roller_gray.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "--grasp--component1--at--zone_017": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "--grasp--roller_gray--at--zone_015": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "cell_R1C2.item.grain_sorghum.acquire": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "--grasp--parcel_fragile--at--zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "shelf_L1_S2.item.roller_gray.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "bay_A.item.wafer_I.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "--grasp--grain_sorghum--at--zone_017": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "shelf_L1_S1.item.component1.acquire": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "--grasp--wafer_I--at--station_alpha": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "bay_B.item.component1.acquire": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "cell_R1C2.item.parcel_fragile.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "bay_A.item.component1.acquire": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "--grasp--wafer_I--at--zone_014": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "shelf_L1_S2.item.wafer_P.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "--grasp--wafer_C--at--station_alpha": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "--grasp--parcel_fragile--at--zone_013": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "--grasp--test_tube--at--shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "--grasp--grain_sorghum--at--shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "--grasp--parcel_fragile--at--zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "bay_B.item.test_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "bay_A.item.grain_sorghum.acquire": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "--grasp--component1--at--station_alpha": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "--grasp--wafer_C--at--zone_014": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "buffer_zone.item.wafer_I.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "--grasp--component1--at--zone_014": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_015.item.wafer_I.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "--grasp--component1--at--shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "shelf_L1_S2.item.wafer_I.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "zone_014.item.wafer_P.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_016.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "bay_C.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "--grasp--test_tube--at--zone_013": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_015.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "buffer_zone.item.component1.acquire": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "--grasp--grain_sorghum--at--shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "--grasp--wafer_P--at--shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "--grasp--roller_gray--at--zone_016": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_carrot--at--zone_018": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "--grasp--roller_gray--at--zone_018": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "--grasp--parcel_fragile--at--shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.wafer_I.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "--grasp--wafer_P--at--shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_carrot--at--cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "--grasp--roller_gray--at--bay_B": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "zone_018.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "bay_C.item.wafer_P.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "shelf_L3_S1.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "--grasp--parcel_fragile--at--buffer_zone": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_carrot--at--zone_013": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "zone_017.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "--grasp--component1--at--shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "--grasp--roller_gray--at--cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "--grasp--parcel_fragile--at--shelf_L1_S2": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "zone_015.item.component1.acquire": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "--grasp--roller_gray--at--zone_013": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "cell_R1C2.item.wafer_C.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone_017.item.roller_gray.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "shelf_L3_S2.item.roller_gray.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "station_alpha.item.parcel_fragile.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "shelf_L1_S1.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "--grasp--wafer_C--at--zone_017": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "--grasp--component1--at--shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--grasp--wafer_C--at--zone_016": {
+   "type": "PICK",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_015.item.grain_sorghum.acquire": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_carrot--at--bay_B": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "cell_R1C2.item.wafer_P.acquire": {
+   "type": "PICK",
+   "bound_type": "wafer_P",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "LOWER_zone_018_wafer_I": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.bay_B.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L2_S1_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L2_S2_parcel_fragile": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "LOWER_station_alpha_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "LOWER_zone_016_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S1_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "LOWER_bay_C_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "$.zone_015.parcel_fragile.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "LOWER_bay_B_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "$.zone_014.vegetable_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L3_S1_component1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "LOWER_bay_A_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S1_wafer_P": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S2.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L3_S1_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "$.bay_B.wafer_P.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "LOWER_buffer_zone_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "$.bay_A.wafer_P.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "LOWER_cell_R1C2_component1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "LOWER_zone_013_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S2_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L3_S2_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "$.buffer_zone.roller_gray.release": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "LOWER_zone_017_component1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "LOWER_zone_015_roller_gray": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.grain_sorghum.release": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "LOWER_zone_018_parcel_fragile": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S2_roller_gray": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LOWER_bay_A_wafer_I": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "LOWER_zone_017_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S1_component1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "$.station_alpha.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "LOWER_bay_B_component1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.parcel_fragile.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.bay_A.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L2_S2_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "LOWER_zone_014_wafer_I": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S2.wafer_P.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LOWER_station_alpha_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "$.zone_013.parcel_fragile.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S1_test_tube": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S1_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "LOWER_zone_017_parcel_fragile": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "LOWER_bay_B_test_tube": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "$.bay_A.grain_sorghum.release": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "LOWER_station_alpha_component1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "$.zone_014.wafer_C.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "LOWER_buffer_zone_wafer_I": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "$.zone_014.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "$.zone_015.wafer_I.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L3_S2_component1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S2.wafer_C.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L2_S1_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S2_wafer_I": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LOWER_zone_014_wafer_P": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "LOWER_zone_016_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.bay_C.vegetable_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "$.zone_013.test_tube.release": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "$.zone_015.wafer_C.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "$.buffer_zone.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S2.grain_sorghum.release": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S2.wafer_P.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "$.zone_016.roller_gray.release": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L2_S1_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "LOWER_zone_018_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.zone_018.roller_gray.release": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L3_S2_parcel_fragile": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L2_S2_wafer_I": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S1.wafer_P.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.vegetable_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.bay_B.roller_gray.release": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "LOWER_zone_018_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.bay_C.wafer_P.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L3_S1_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "$.buffer_zone.parcel_fragile.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "$.zone_013.vegetable_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "LOWER_zone_017_vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S2.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.roller_gray.release": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L1_S2_parcel_fragile": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "$.zone_015.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "$.zone_013.roller_gray.release": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "LOWER_cell_R1C2_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.zone_017.roller_gray.release": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L3_S2_roller_gray": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "LOWER_station_alpha_parcel_fragile": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S1.vegetable_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "LOWER_zone_017_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S1.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "LOWER_zone_016_wafer_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_C",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.zone_015.grain_sorghum.release": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "$.bay_B.vegetable_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.wafer_P.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_P",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at buffer_zone": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "buffer_zone"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_013",
+    "zone_014",
+    "zone_015",
+    "zone_016",
+    "zone_017",
+    "zone_018"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C2"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S2"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wafer_C",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "wafer_P",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "first station or in buffer zone": [
+   "station_alpha",
+   "buffer_zone"
+  ],
+  "zones (13-18)": [
+   "zone_013",
+   "zone_014",
+   "zone_015",
+   "zone_016",
+   "zone_017",
+   "zone_018"
+  ],
+  "two last zones": [
+   "zone_017",
+   "zone_018"
+  ],
+  "bay A/B/C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "bays A through B": [
+   "bay_A",
+   "bay_B"
+  ],
+  "outermost bays (A and C)": [
+   "bay_A",
+   "bay_C"
+  ],
+  "bays A to C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "one of the bays A through C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "self S1 of each level": [
+   "shelf_L1_S1",
+   "shelf_L2_S1",
+   "shelf_L3_S1"
+  ],
+  "first two cells on each shelf level": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L3_S1",
+   "shelf_L3_S2"
+  ]
+ }
+}

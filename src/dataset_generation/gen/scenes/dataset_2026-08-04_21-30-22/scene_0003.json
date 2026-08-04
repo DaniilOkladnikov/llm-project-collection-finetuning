@@ -1,0 +1,1149 @@
+{
+ "object_locations": [
+  "pos.y0.x1",
+  "tray_infeed_slot2",
+  "pos.y1.x1",
+  "palette_well_6",
+  "ELECTRONICcontainer",
+  "METALcontainer",
+  "tray_outfeed_slot1",
+  "palette_well_8",
+  "palette_well_2",
+  "pos.y2.x0",
+  "pos.y1.x0",
+  "palette_well_4",
+  "pos.y2.x1",
+  "pos.y0.x0"
+ ],
+ "object_types": [
+  "vegetable_celery",
+  "diagonal_piece",
+  "package_large",
+  "seasoning_salt",
+  "all_season_tyre",
+  "component1"
+ ],
+ "positions": {
+  "op/grab/vegetable_celery/loc/tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_celery&source=pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "op/grab/vegetable_celery/loc/palette_well_2": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "op/grab/all_season_tyre/loc/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "op/grab/seasoning_salt/loc/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_large&source=palette_well_6": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=component1&source=pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "op/grab/component1/loc/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=palette_well_6": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "op/grab/all_season_tyre/loc/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "op/grab/vegetable_celery/loc/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "op/grab/package_large/loc/pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=component1&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "op/grab/component1/loc/pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "op/grab/package_large/loc/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "op/grab/package_large/loc/palette_well_2": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=seasoning_salt&source=palette_well_8": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "op/grab/vegetable_celery/loc/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "op/grab/diagonal_piece/loc/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=palette_well_8": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=seasoning_salt&source=METALcontainer": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "op/grab/vegetable_celery/loc/tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "op/grab/seasoning_salt/loc/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "op/grab/component1/loc/palette_well_4": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "op/grab/package_large/loc/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "op/grab/component1/loc/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=component1&source=METALcontainer": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=METALcontainer": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "op/grab/seasoning_salt/loc/tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=palette_well_8": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "op/grab/all_season_tyre/loc/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "op/grab/vegetable_celery/loc/pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "op/grab/vegetable_celery/loc/pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "op/grab/package_large/loc/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "op/grab/diagonal_piece/loc/palette_well_4": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "op/grab/component1/loc/tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=METALcontainer": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "op/grab/seasoning_salt/loc/pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "op/grab/seasoning_salt/loc/pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=component1&source=pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "op/grab/component1/loc/pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_large&source=pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "op/grab/all_season_tyre/loc/pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_large&source=pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_celery&source=palette_well_6": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=diagonal_piece&source=pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "op/grab/vegetable_celery/loc/pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "op/grab/seasoning_salt/loc/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=pos.y0.x1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=pos.y0.x1": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "move/place/component1?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y0.x1": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "move/place/all_season_tyre?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/package_large?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "move/place/diagonal_piece?dst=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "diagonal_piece",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "move/place/vegetable_celery?dst=pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "move/place/seasoning_salt?dst=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot1"
+   ]
+  },
+  "METALcontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "METALcontainer"
+   ]
+  },
+  "ELECTRONICcontainerView": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "ELECTRONICcontainer"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x0",
+    "pos.y0.x1"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x1"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_2",
+    "palette_well_4",
+    "palette_well_6",
+    "palette_well_8"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "diagonal_piece",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "component1",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "infeed slot 2 or outfeed slot 1": [
+   "tray_infeed_slot2",
+   "tray_outfeed_slot1"
+  ],
+  "conductive material storage": [
+   "METALcontainer",
+   "ELECTRONICcontainer"
+  ],
+  "poses with x0": [
+   "pos.y0.x0",
+   "pos.y1.x0",
+   "pos.y2.x0"
+  ],
+  "poses with x1 or x0": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y1.x0",
+   "pos.y1.x1",
+   "pos.y2.x0",
+   "pos.y2.x1"
+  ],
+  "from any of the even numbered wells": [
+   "palette_well_2",
+   "palette_well_4",
+   "palette_well_6",
+   "palette_well_8"
+  ]
+ }
+}

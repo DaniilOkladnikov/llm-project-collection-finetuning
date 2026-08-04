@@ -1,0 +1,809 @@
+{
+ "object_locations": [
+  "silo_1",
+  "silo_2",
+  "silo_3"
+ ],
+ "object_types": [
+  "grain_wheat",
+  "grain_corn",
+  "grain_barley",
+  "grain_oat",
+  "grain_rice",
+  "grain_sorghum",
+  "grain_millet",
+  "grain_rye",
+  "grain_quinoa",
+  "grain_buckwheat",
+  "grain_spelt",
+  "grain_farro",
+  "grain_teff",
+  "grain_amaranth"
+ ],
+ "positions": {
+  "silo_1=>grain_wheat=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "silo_2=>grain_wheat=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_wheat/take": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_corn/take": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_corn/take": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_corn/take": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1=>grain_barley=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_barley",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_barley/take": {
+   "type": "PICK",
+   "bound_type": "grain_barley",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "silo_3=>grain_barley=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_barley",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_oat/take": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_oat/take": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_oat/take": {
+   "type": "PICK",
+   "bound_type": "grain_oat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_rice/take": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "silo_2=>grain_rice=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "silo_3=>grain_rice=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_sorghum/take": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_millet/take": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "silo_2=>grain_millet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_millet/take": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1=>grain_rye=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_rye/take": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "silo_3=>grain_rye=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_quinoa/take": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_quinoa/take": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_quinoa/take": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1=>grain_buckwheat=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "silo_2=>grain_buckwheat=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "silo_3=>grain_buckwheat=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1=>grain_spelt=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_spelt/take": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_spelt/take": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1=>grain_farro=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_farro",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "silo_2=>grain_farro=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_farro",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_farro/take": {
+   "type": "PICK",
+   "bound_type": "grain_farro",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1=>grain_teff=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_teff/take": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "silo_3=>grain_teff=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "silo_1=>grain_amaranth=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "silo_2=>grain_amaranth=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_amaranth/take": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[silo_1][grain_wheat]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_wheat": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[silo_3][grain_wheat]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[silo_1][grain_corn]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "[silo_2][grain_corn]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "task/place/silo_3/grain_corn": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "task/place/silo_1/grain_barley": {
+   "type": "PLACE",
+   "bound_type": "grain_barley",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_barley": {
+   "type": "PLACE",
+   "bound_type": "grain_barley",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[silo_3][grain_barley]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_barley",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[silo_1][grain_oat]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_oat": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_oat/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_oat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[silo_1][grain_rice]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_rice/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[silo_3][grain_rice]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_sorghum/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "task/place/silo_3/grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "task/place/silo_1/grain_millet": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_millet": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[silo_3][grain_millet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[silo_1][grain_rye]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "task/place/silo_3/grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[silo_1][grain_quinoa]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_quinoa": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[silo_3][grain_quinoa]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_buckwheat/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_buckwheat/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[silo_3][grain_buckwheat]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "#silo_1/#grain_spelt/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_spelt/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_spelt/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[silo_1][grain_farro]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_farro",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "#silo_2/#grain_farro/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_farro",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_farro/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_farro",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "task/place/silo_1/grain_teff": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_teff": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "#silo_3/#grain_teff/leave": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "task/place/silo_1/grain_amaranth": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "task/place/silo_2/grain_amaranth": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "task/place/silo_3/grain_amaranth": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "checkLevel silo_1": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_1"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "checkLevel silo_3": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_3"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "auger_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "hopper_fill": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "grain_barley",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "grain_barley",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "grain_barley",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "grain_oat",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "grain_farro",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "grain_farro",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "grain_farro",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from any of the silos 1 or 2": [
+   "silo_1",
+   "silo_2"
+  ],
+  "inside the tanks 2 or 3": [
+   "silo_2",
+   "silo_3"
+  ],
+  "from either silo 1 or silo 3": [
+   "silo_1",
+   "silo_3"
+  ],
+  "within any of the first two vessels": [
+   "silo_1",
+   "silo_2"
+  ],
+  "from the last two units": [
+   "silo_2",
+   "silo_3"
+  ]
+ }
+}

@@ -78,6 +78,9 @@
    "reason": "dead code: answer_1/answer_2 emitted earlier terminate the turn."
   }
  ],
- "conversations": 524,
- "elements": 10981
+ "conversations": 618,
+ "elements": 15214,
+ "error_rows": 1383,
+ "scenes": 176,
+ "scenes_dir": "C:\\Users\\okladnik\\Documents\\llm-project-collection\\finetuning\\src\\dataset_generation\\gen\\scenes\\dataset_2026-08-04_21-30-22"
 }

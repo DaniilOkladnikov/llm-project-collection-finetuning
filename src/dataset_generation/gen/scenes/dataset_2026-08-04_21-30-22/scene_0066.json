@@ -1,0 +1,1482 @@
+{
+ "object_locations": [
+  "shelf_L2_S1",
+  "workbench_A1",
+  "binB_104",
+  "workbench_A2",
+  "binC_201",
+  "shelf_L1_S3",
+  "shelf_L1_S1",
+  "shelf_L3_S1",
+  "shelf_L3_S3",
+  "Node20.02",
+  "tire_bay_RR",
+  "binA_004",
+  "shelf_L2_S3",
+  "Node20.01",
+  "table_Q2"
+ ],
+ "object_types": [
+  "vegetable_celery",
+  "roller_white",
+  "chicken",
+  "wafer_H",
+  "package_heavy",
+  "tube_cyan",
+  "product_SKU_001",
+  "veg_carrot"
+ ],
+ "positions": {
+  "CMD:GRIP:chicken:LOC:shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:workbench_A1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:workbench_A1": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:table_Q2": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:table_Q2": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:workbench_A1": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:binA_004": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:workbench_A1": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:table_Q2": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:binA_004": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:table_Q2": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:workbench_A1": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:workbench_A1": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:workbench_A2": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:table_Q2": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:table_Q2": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:binC_201": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:binB_104": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:binC_201": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:binC_201": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:workbench_A2": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chicken:LOC:shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_white:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_001:LOC:binA_004": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_heavy:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "package_heavy",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:veg_carrot:LOC:binA_004": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:Node20.01": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:binC_201": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "CMD:GRIP:vegetable_celery:LOC:shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:wafer_H:LOC:binC_201": {
+   "type": "PICK",
+   "bound_type": "wafer_H",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_cyan:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "shelf_L1_S3_chicken_deposit": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S3_veg_carrot_deposit": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "Node20.02_roller_white_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "Node20.02_tube_cyan_deposit": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "$.workbench_A1.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:chicken:action:place": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:Node20.02:item:wafer_H:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S3_package_heavy_deposit": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:workbench_A1:item:veg_carrot:action:place": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "table_Q2_product_SKU_001_deposit": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "shelf_L3_S3_product_SKU_001_deposit": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S3.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S3.package_heavy.release": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S3.wafer_H.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S1:item:veg_carrot:action:place": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "ns:table_Q2:item:vegetable_celery:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "$.workbench_A1.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S1:item:product_SKU_001:action:place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "binA_004_tube_cyan_deposit": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S3:item:wafer_H:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:binB_104:item:veg_carrot:action:place": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "$.workbench_A1.package_heavy.release": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S1.veg_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S3.tube_cyan.release": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "$.binB_104.vegetable_celery.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "shelf_L1_S1_vegetable_celery_deposit": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S3.roller_white.release": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "$.table_Q2.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S3.wafer_H.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "binA_004_wafer_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "shelf_L3_S1_package_heavy_deposit": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "ns:table_Q2:item:package_heavy:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "$.workbench_A1.roller_white.release": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ns:workbench_A1:item:tube_cyan:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ns:Node20.01:item:product_SKU_001:action:place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.workbench_A2.veg_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "ns:binB_104:item:package_heavy:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S1.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S1:item:package_heavy:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "$.Node20.01.veg_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "table_Q2_roller_white_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "table_Q2_wafer_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "$.shelf_L3_S1.roller_white.release": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "$.Node20.01.vegetable_celery.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.tire_bay_RR.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "$.binC_201.vegetable_celery.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S1:item:product_SKU_001:action:place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "$.tire_bay_RR.veg_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "binB_104_roller_white_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "binB_104_tube_cyan_deposit": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "shelf_L1_S1_roller_white_deposit": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S1:item:tube_cyan:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S1:item:vegetable_celery:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "ns:Node20.01:item:chicken:action:place": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.Node20.01.package_heavy.release": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.Node20.02.veg_carrot.release": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "$.Node20.02.vegetable_celery.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S3.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "$.binC_201.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:binC_201:item:package_heavy:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "$.tire_bay_RR.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "workbench_A2_tube_cyan_deposit": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S1.chicken.release": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "ns:Node20.01:item:roller_white:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.shelf_L2_S3.product_SKU_001.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ns:binA_004:item:product_SKU_001:action:place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "shelf_L1_S3_vegetable_celery_deposit": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "$.Node20.02.package_heavy.release": {
+   "type": "PLACE",
+   "bound_type": "package_heavy",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S3_veg_carrot_deposit": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "Node20.01_tube_cyan_deposit": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "binA_004_veg_carrot_deposit": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "Node20.01_wafer_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.binC_201.tube_cyan.release": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "shelf_L2_S3_vegetable_celery_deposit": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "binC_201_wafer_H_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_H",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "tire_bay_RR_tube_cyan_deposit": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "look at workbench_A1 & workbench_A2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "workbench_A1",
+    "workbench_A2"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_004"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_104"
+   ]
+  },
+  "binC_corner vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binC_201"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S3"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_RR"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.01",
+    "Node20.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sensor_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "workbench_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "wafer_H",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "package_heavy",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "workbench A1|A2": [
+   "workbench_A1",
+   "workbench_A2"
+  ],
+  "any workbench position": [
+   "workbench_A1",
+   "workbench_A2"
+  ],
+  "last but one cells of each bin": [
+   "binA_004",
+   "binB_104",
+   "binC_201"
+  ],
+  "self S1 of each level": [
+   "shelf_L1_S1",
+   "shelf_L2_S1",
+   "shelf_L3_S1"
+  ],
+  "odd numbered compartments across all shelf levels": [
+   "shelf_L1_S1",
+   "shelf_L1_S3",
+   "shelf_L2_S1",
+   "shelf_L2_S3",
+   "shelf_L3_S1",
+   "shelf_L3_S3"
+  ],
+  "Subnet20": [
+   "Node20.01",
+   "Node20.02"
+  ]
+ }
+}

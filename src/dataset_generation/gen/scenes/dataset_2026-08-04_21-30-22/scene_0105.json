@@ -1,0 +1,1422 @@
+{
+ "object_locations": [
+  "drawer_9",
+  "tree_1",
+  "drawer_7",
+  "collection_bin",
+  "nest_4",
+  "Node30.01",
+  "Node30.03",
+  "tree_4",
+  "nest_2",
+  "drawer_5",
+  "drawer_3",
+  "pipe_stack_back",
+  "drawer_1",
+  "scaffolding_rack_right",
+  "tree_5",
+  "tree_2",
+  "Node30.02",
+  "tree_3"
+ ],
+ "object_types": [
+  "module1",
+  "roller_orange",
+  "label",
+  "farro_kernel",
+  "apple_red",
+  "widget",
+  "iron_ingot"
+ ],
+ "positions": {
+  "get__apple_red__from__scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "get__widget__from__tree_3": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "move/pick/widget?src=drawer_7": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "--grasp--apple_red--at--Node30.02": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "get__module1__from__tree_4": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "--grasp--farro_kernel--at--drawer_7": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "move/pick/module1?src=drawer_5": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__tree_1": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__Node30.01": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "move/pick/label?src=pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "--grasp--iron_ingot--at--drawer_9": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "--grasp--iron_ingot--at--nest_4": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "move/pick/iron_ingot?src=drawer_1": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "move/pick/iron_ingot?src=tree_5": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "--grasp--farro_kernel--at--tree_1": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "get__farro_kernel__from__Node30.01": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "--grasp--apple_red--at--drawer_1": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "get__label__from__tree_3": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "get__widget__from__tree_1": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "move/pick/label?src=drawer_7": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "move/pick/apple_red?src=pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "move/pick/iron_ingot?src=nest_2": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "get__iron_ingot__from__drawer_3": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "get__apple_red__from__tree_3": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "--grasp--apple_red--at--drawer_7": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "--grasp--module1--at--drawer_1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "move/pick/module1?src=drawer_9": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__collection_bin": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "get__farro_kernel__from__tree_4": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "get__farro_kernel__from__collection_bin": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "--grasp--module1--at--nest_4": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "get__farro_kernel__from__drawer_5": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "move/pick/iron_ingot?src=pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "move/pick/widget?src=tree_4": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "--grasp--module1--at--Node30.02": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "get__iron_ingot__from__Node30.03": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "get__iron_ingot__from__tree_3": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "--grasp--apple_red--at--tree_1": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "move/pick/module1?src=drawer_3": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "--grasp--apple_red--at--tree_5": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "move/pick/iron_ingot?src=tree_1": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "move/pick/module1?src=pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "move/pick/farro_kernel?src=tree_2": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "get__farro_kernel__from__drawer_1": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "move/pick/roller_orange?src=nest_4": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "--grasp--iron_ingot--at--Node30.01": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "get__module1__from__tree_3": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "get__module1__from__drawer_7": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "get__apple_red__from__tree_4": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "get__farro_kernel__from__scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "move/pick/apple_red?src=collection_bin": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "--grasp--widget--at--drawer_9": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "--grasp--label--at--Node30.02": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "get__roller_orange__from__nest_2": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "move/pick/widget?src=tree_2": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "move/pick/widget?src=scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "--grasp--farro_kernel--at--Node30.02": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "--grasp--widget--at--nest_4": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "get__widget__from__nest_2": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "move/pick/widget?src=Node30.02": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "move/pick/iron_ingot?src=drawer_5": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "get__module1__from__tree_1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "get__module1__from__Node30.01": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "--grasp--label--at--scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "move/pick/label?src=drawer_9": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "get__label__from__nest_4": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "move/pick/label?src=tree_2": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "--grasp--roller_orange--at--tree_3": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "--grasp--farro_kernel--at--pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "--grasp--roller_orange--at--Node30.03": {
+   "type": "PICK",
+   "bound_type": "roller_orange",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "get__apple_red__from__drawer_9": {
+   "type": "PICK",
+   "bound_type": "apple_red",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "--grasp--label--at--nest_2": {
+   "type": "PICK",
+   "bound_type": "label",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "move/pick/widget?src=pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "tree_3=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "drawer_7=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "Node30.02=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "tree_4=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "drawer_7=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "drawer_5=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "tree_1=>roller_orange=>PUT": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "Node30.01=>roller_orange=>PUT": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "drawer_9=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "nest_4=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "drawer_1=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "tree_5=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "tree_1=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "Node30.01=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "drawer_1=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "tree_3=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "tree_1=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "drawer_7=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "nest_2=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "drawer_3=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "tree_3=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "drawer_7=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "drawer_1=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "drawer_9=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "collection_bin=>roller_orange=>PUT": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "tree_4=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "collection_bin=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "nest_4=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "drawer_5=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "tree_4=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "Node30.02=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "Node30.03=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "tree_3=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "tree_1=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "drawer_3=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "tree_5=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "tree_1=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "tree_2=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "drawer_1=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "nest_4=>roller_orange=>PUT": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "Node30.01=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "tree_3=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "drawer_7=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "tree_4=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "collection_bin=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "drawer_9=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "Node30.02=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "nest_2=>roller_orange=>PUT": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "tree_2=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "Node30.02=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "nest_4=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "nest_2=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "Node30.02=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "drawer_5=>iron_ingot=>PUT": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "tree_1=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "Node30.01=>module1=>PUT": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "drawer_9=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "nest_4=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "tree_2=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "tree_3=>roller_orange=>PUT": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>farro_kernel=>PUT": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "Node30.03=>roller_orange=>PUT": {
+   "type": "PLACE",
+   "bound_type": "roller_orange",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "drawer_9=>apple_red=>PUT": {
+   "type": "PLACE",
+   "bound_type": "apple_red",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "nest_2=>label=>PUT": {
+   "type": "PLACE",
+   "bound_type": "label",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>widget=>PUT": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_2",
+    "nest_4"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_3",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_7",
+    "drawer_9"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_2",
+    "tree_3",
+    "tree_4",
+    "tree_5"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "collection_bin"
+   ]
+  },
+  "scaffolding_storage_inspection_point": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "scaffolding_rack_right"
+   ]
+  },
+  "plumbing_supplies_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pipe_stack_back"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01",
+    "Node30.02",
+    "Node30.03"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "battery_charging_dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "roller_orange",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "label",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "apple_red",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "even numbered nests": [
+   "nest_2",
+   "nest_4"
+  ],
+  "somewhere in the odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "any odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "trees 1 through 5 or collection bin": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "collection_bin"
+  ],
+  "first three trees": [
+   "tree_1",
+   "tree_2",
+   "tree_3"
+  ],
+  "Subnet30": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03"
+  ]
+ }
+}

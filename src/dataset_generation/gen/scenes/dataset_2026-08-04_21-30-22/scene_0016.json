@@ -1,0 +1,1682 @@
+{
+ "object_locations": [
+  "drawer_4",
+  "station_alpha",
+  "drawer_5",
+  "tree_12",
+  "tree_11",
+  "station_beta",
+  "tree_3",
+  "sorting_table",
+  "tree_1",
+  "drawer_7",
+  "station_gamma",
+  "tree_14",
+  "tree_13",
+  "tree_15",
+  "tree_2",
+  "drawer_6"
+ ],
+ "object_types": [
+  "chip_B",
+  "vegetable_carrot",
+  "veg_celery",
+  "coin_penny",
+  "parcel_oversized",
+  "lid",
+  "chicken",
+  "grain_quinoa",
+  "roller_yellow"
+ ],
+ "positions": {
+  "[drawer_7][coin_penny]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "/mnt/station_beta/parcel_oversized/pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "/mnt/tree_13/roller_yellow/pick": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "[tree_1][coin_penny]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/chip_B/pick": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_3/vegetable_carrot/pick": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "[tree_11][roller_yellow]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "/mnt/station_beta/chip_B/pick": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "[sorting_table][lid]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_11/lid/pick": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "/mnt/tree_1/vegetable_carrot/pick": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "picking/parcel_oversized/tree_12": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "/mnt/tree_14/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "[tree_13][coin_penny]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/tree_13/veg_celery/pick": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "[drawer_6][veg_celery]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "picking/chip_B/tree_2": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "[station_gamma][roller_yellow]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "[station_alpha][veg_celery]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "[station_gamma][lid]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "[tree_15][vegetable_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "picking/parcel_oversized/drawer_5": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[tree_3][chicken]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "picking/lid/tree_2": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/drawer_7/veg_celery/pick": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "picking/coin_penny/tree_11": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/vegetable_carrot/pick": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "/mnt/drawer_5/grain_quinoa/pick": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "picking/veg_celery/tree_1": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "[tree_12][roller_yellow]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "picking/lid/tree_12": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "/mnt/tree_15/grain_quinoa/pick": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "picking/grain_quinoa/tree_14": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "[drawer_6][grain_quinoa]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "picking/roller_yellow/sorting_table": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "[drawer_5][chip_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[tree_15][chicken]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "/mnt/tree_3/parcel_oversized/pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "[drawer_4][chip_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "[station_alpha][grain_quinoa]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "[drawer_6][chicken]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "[tree_12][coin_penny]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "[tree_14][lid]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/roller_yellow/pick": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "[sorting_table][coin_penny]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/veg_celery/pick": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_15/parcel_oversized/pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "[tree_1][chicken]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "picking/parcel_oversized/tree_13": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/station_beta/coin_penny/pick": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/parcel_oversized/pick": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "picking/roller_yellow/tree_3": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "/mnt/station_beta/veg_celery/pick": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "[drawer_4][coin_penny]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/vegetable_carrot/pick": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "picking/vegetable_carrot/station_beta": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "/mnt/tree_13/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "[drawer_5][roller_yellow]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[tree_15][chip_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "/mnt/drawer_5/lid/pick": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "/mnt/tree_13/chip_B/pick": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "[drawer_7][grain_quinoa]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/chip_B/pick": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "picking/roller_yellow/drawer_4": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "picking/roller_yellow/tree_15": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "/mnt/tree_3/coin_penny/pick": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "/mnt/tree_12/veg_celery/pick": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "/mnt/tree_15/lid/pick": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "[tree_13][lid]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/vegetable_carrot/pick": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "[station_alpha][chip_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "[station_alpha][roller_yellow]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "/mnt/tree_12/vegetable_carrot/pick": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "picking/chicken/station_beta": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "picking/coin_penny/drawer_5": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "picking/chip_B/tree_1": {
+   "type": "PICK",
+   "bound_type": "chip_B",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "[drawer_5][veg_celery]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[drawer_4][veg_celery]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "picking/coin_penny/tree_15": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "picking/roller_yellow/tree_1": {
+   "type": "PICK",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/tree_1/lid/pick": {
+   "type": "PICK",
+   "bound_type": "lid",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/station_gamma/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "picking/coin_penny/drawer_6": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "[tree_2][chicken]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/tree_12/grain_quinoa/pick": {
+   "type": "PICK",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "[sorting_table][parcel_oversized]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "[tree_14][vegetable_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "/mnt/drawer_7/coin_penny/place": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "/mnt/station_beta/parcel_oversized/place": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "set|roller_yellow|@|tree_13": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/tree_1/coin_penny/place": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|chip_B|@|sorting_table": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "set|vegetable_carrot|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "/mnt/tree_11/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "set|chip_B|@|station_beta": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "set|lid|@|sorting_table": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_11/lid/place": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "set|vegetable_carrot|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/tree_12/parcel_oversized/place": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|chicken|@|tree_14": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|tree_13": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/tree_13/veg_celery/place": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/veg_celery/place": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/chip_B/place": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/station_gamma/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "/mnt/station_alpha/veg_celery/place": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "/mnt/station_gamma/lid/place": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "/mnt/tree_15/vegetable_carrot/place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "/mnt/drawer_5/parcel_oversized/place": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "/mnt/tree_3/chicken/place": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|lid|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|veg_celery|@|drawer_7": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|tree_11": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/vegetable_carrot/place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "set|grain_quinoa|@|drawer_5": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "set|veg_celery|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|roller_yellow|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|lid|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|grain_quinoa|@|tree_15": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "/mnt/tree_14/grain_quinoa/place": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/grain_quinoa/place": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "set|chip_B|@|drawer_5": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "set|chicken|@|tree_15": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "set|parcel_oversized|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "/mnt/drawer_4/chip_B/place": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "/mnt/station_alpha/grain_quinoa/place": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "set|chicken|@|drawer_6": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|lid|@|tree_14": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|sorting_table": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/veg_celery/place": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_15/parcel_oversized/place": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "/mnt/tree_1/chicken/place": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|parcel_oversized|@|tree_13": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/station_beta/coin_penny/place": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/parcel_oversized/place": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "/mnt/tree_3/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|veg_celery|@|station_beta": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|drawer_4": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/vegetable_carrot/place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/station_beta/vegetable_carrot/place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "/mnt/tree_13/chicken/place": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "/mnt/drawer_5/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "/mnt/tree_15/chip_B/place": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "set|lid|@|drawer_5": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "/mnt/tree_13/chip_B/place": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "set|grain_quinoa|@|drawer_7": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/chip_B/place": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "set|roller_yellow|@|drawer_4": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "/mnt/tree_15/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "/mnt/tree_12/veg_celery/place": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|lid|@|tree_15": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "set|lid|@|tree_13": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "set|vegetable_carrot|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|chip_B|@|station_alpha": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "set|chicken|@|sorting_table": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/station_alpha/roller_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "set|vegetable_carrot|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|chicken|@|station_beta": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|drawer_5": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "/mnt/tree_1/chip_B/place": {
+   "type": "PLACE",
+   "bound_type": "chip_B",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/drawer_5/veg_celery/place": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "set|veg_celery|@|drawer_4": {
+   "type": "PLACE",
+   "bound_type": "veg_celery",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|tree_15": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "set|roller_yellow|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "roller_yellow",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/tree_1/lid/place": {
+   "type": "PLACE",
+   "bound_type": "lid",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|chicken|@|station_gamma": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "/mnt/drawer_6/coin_penny/place": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "set|chicken|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/tree_12/grain_quinoa/place": {
+   "type": "PLACE",
+   "bound_type": "grain_quinoa",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|parcel_oversized|@|sorting_table": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_14/vegetable_carrot/place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at station_beta": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_beta"
+   ]
+  },
+  "look at station_gamma": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_gamma"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_4",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_6",
+    "drawer_7"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_2",
+    "tree_3"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12",
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "sorting_table"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_B",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "veg_celery",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "lid",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "grain_quinoa",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "roller_yellow",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "main processing terminals": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations only": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "one of the middle drawers": [
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7"
+  ],
+  "tree 1-3 or tree 12-15": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "tree 11-15": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "first three trees": [
+   "tree_1",
+   "tree_2",
+   "tree_3"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "trees 11 through 15 or the sorting table": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15",
+   "sorting_table"
+  ]
+ }
+}

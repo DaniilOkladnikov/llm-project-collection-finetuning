@@ -1,0 +1,1260 @@
+{
+ "object_locations": [
+  "cell_R1C1",
+  "cell_R1C2",
+  "cell_R1C3",
+  "cell_R1C4",
+  "cell_R1C5",
+  "cell_R2C1",
+  "cell_R2C2",
+  "cell_R2C3",
+  "cell_R2C4",
+  "cell_R2C5",
+  "cell_R3C1",
+  "cell_R3C2",
+  "cell_R3C3",
+  "cell_R3C4",
+  "cell_R3C5",
+  "cell_R4C1",
+  "cell_R4C2",
+  "cell_R4C3",
+  "cell_R4C4",
+  "cell_R4C5"
+ ],
+ "object_types": [
+  "sample_vial",
+  "reagent_tube",
+  "buffer_container"
+ ],
+ "positions": {
+  "sample_vial-from-cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R4C4": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "sample_vial-from-cell_R4C5": {
+   "type": "PICK",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R4C4": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "reagent_tube-from-cell_R4C5": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R4C4": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "buffer_container-from-cell_R4C5": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "ns:cell_R1C1:item:sample_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "ns:cell_R1C3:item:sample_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/place/cell_R1C4/sample_vial": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C1/sample_vial": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C3/sample_vial": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C5/sample_vial": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:cell_R3C1:item:sample_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ns:cell_R3C3:item:sample_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "ns:cell_R3C4:item:sample_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C5/sample_vial": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "ns:cell_R4C3:item:sample_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/sample_vial/loc/cell_R4C4": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "ns:cell_R4C5:item:sample_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "sample_vial",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "task/place/cell_R1C1/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "task/place/cell_R1C2/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "op/stow/reagent_tube/loc/cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ns:cell_R1C4:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C1/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C2/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C3/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ns:cell_R2C4:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C5/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:cell_R3C1:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "ns:cell_R3C2:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "op/stow/reagent_tube/loc/cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "ns:cell_R3C4:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C5/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "op/stow/reagent_tube/loc/cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "ns:cell_R4C2:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "ns:cell_R4C3:item:reagent_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "task/place/cell_R4C4/reagent_tube": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "op/stow/reagent_tube/loc/cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C1/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ns:cell_R2C2:item:buffer_container:action:place": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C3/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C1/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C2/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ns:cell_R3C3:item:buffer_container:action:place": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C4/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "ns:cell_R4C2:item:buffer_container:action:place": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/buffer_container/loc/cell_R4C4": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "ns:cell_R4C5:item:buffer_container:action:place": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2",
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5",
+    "cell_R2C3",
+    "cell_R2C4",
+    "cell_R2C5"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2",
+    "cell_R4C1",
+    "cell_R4C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R3C4",
+    "cell_R3C5",
+    "cell_R4C3",
+    "cell_R4C4",
+    "cell_R4C5"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "sample_vial",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cellR2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cellR3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cellR4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "(row 1)": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "(rows 1-2)": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cols 4-5": [
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C4",
+   "cell_R2C5",
+   "cell_R3C4",
+   "cell_R3C5",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "units in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "compartments in column 2": [
+   "cell_R1C2",
+   "cell_R2C2",
+   "cell_R3C2",
+   "cell_R4C2"
+  ],
+  "bins in row 4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "slots in rows 1 and 2": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "bays in column 5": [
+   "cell_R1C5",
+   "cell_R2C5",
+   "cell_R3C5",
+   "cell_R4C5"
+  ],
+  "positions C1 to C3 (all rows)": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3"
+  ],
+  "lockers in row 3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "storage spaces in row 2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "containers in odd rows": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ]
+ }
+}

@@ -1,0 +1,1879 @@
+{
+ "object_locations": [
+  "dime_bin",
+  "lane_3_mid",
+  "burner_front_right",
+  "table_Q4",
+  "nickel_bin",
+  "clearingquadrantALPHA",
+  "clearingquadrantBETA",
+  "drawer_2",
+  "tire_bay_FL",
+  "quarter_bin",
+  "disposal_area",
+  "palette_well_5",
+  "penny_bin",
+  "cell_R1C2",
+  "balancer_machine",
+  "burner_back_right",
+  "reject_slot"
+ ],
+ "object_types": [
+  "cling roll",
+  "tag",
+  "grain_wheat",
+  "jacket",
+  "yellow_bead",
+  "part2",
+  "roller_pink",
+  "tire_allseason",
+  "package_fragile",
+  "token_F"
+ ],
+ "positions": {
+  "robot/pickup-tag-at-clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "move/pick/cling roll?src=tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "move/pick/tag?src=disposal_area": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "move/pick/cling roll?src=balancer_machine": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "move/pick/part2?src=quarter_bin": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "move/pick/package_fragile?src=lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "move/pick/token_F?src=burner_back_right": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-nickel_bin": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "move/pick/cling roll?src=lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "move/pick/jacket?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "robot/pickup-tire_allseason-at-table_Q4": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "move/pick/tire_allseason?src=disposal_area": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "robot/pickup-cling roll-at-quarter_bin": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "move/pick/roller_pink?src=disposal_area": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "robot/pickup-tire_allseason-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-part2-at-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "move/pick/grain_wheat?src=table_Q4": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "move/pick/cling roll?src=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "move/pick/tag?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "move/pick/cling roll?src=palette_well_5": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "move/pick/token_F?src=lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "move/pick/roller_pink?src=reject_slot": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "move/pick/token_F?src=nickel_bin": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "robot/pickup-jacket-at-reject_slot": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/pickup-cling roll-at-burner_front_right": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "robot/pickup-token_F-at-clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "move/pick/tag?src=dime_bin": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "move/pick/part2?src=nickel_bin": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=disposal_area": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-drawer_2": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "move/pick/tire_allseason?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "move/pick/package_fragile?src=clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "move/pick/tag?src=reject_slot": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-table_Q4": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "move/pick/package_fragile?src=disposal_area": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "robot/pickup-cling roll-at-clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-cling roll-at-table_Q4": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "move/pick/cling roll?src=disposal_area": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "move/pick/token_F?src=burner_front_right": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "move/pick/roller_pink?src=penny_bin": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/pick/jacket?src=burner_back_right": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "robot/pickup-roller_pink-at-tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "robot/pickup-jacket-at-tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "robot/pickup-jacket-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "robot/pickup-token_F-at-table_Q4": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "robot/pickup-part2-at-drawer_2": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "move/pick/grain_wheat?src=balancer_machine": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "robot/pickup-tag-at-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "move/pick/grain_wheat?src=reject_slot": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-burner_back_right": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-penny_bin": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/pick/roller_pink?src=nickel_bin": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "move/pick/tag?src=tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "move/pick/cling roll?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "robot/pickup-part2-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-roller_pink-at-quarter_bin": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "move/pick/tag?src=balancer_machine": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "robot/pickup-roller_pink-at-clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "move/pick/jacket?src=quarter_bin": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-burner_back_right": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "move/pick/jacket?src=clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-penny_bin": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/pick/tire_allseason?src=burner_back_right": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "move/pick/grain_wheat?src=quarter_bin": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-cling roll-at-penny_bin": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-cling roll-at-dime_bin": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "move/pick/part2?src=reject_slot": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/pickup-roller_pink-at-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "move/pick/tire_allseason?src=tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "move/pick/jacket?src=palette_well_5": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/pickup-tire_allseason-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "move/pick/token_F?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "move/pick/grain_wheat?src=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=quarter_bin": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "move/pick/jacket?src=burner_front_right": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "move/pick/token_F?src=penny_bin": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "move/pick/tire_allseason?src=lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "tire_allseason",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "move/pick/token_F?src=dime_bin": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-tag-at-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-quarter_bin": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-part2-at-burner_back_right": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "robot/pickup-roller_pink-at-table_Q4": {
+   "type": "PICK",
+   "bound_type": "roller_pink",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "robot/pickup-jacket-at-clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "move/pick/tag?src=burner_front_right": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "robot/pickup-token_F-at-reject_slot": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_wheat-at-nickel_bin": {
+   "type": "PICK",
+   "bound_type": "grain_wheat",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "robot/pickup-yellow_bead-at-burner_front_right": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "robot/pickup-package_fragile-at-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "robot/pickup-cling roll-at-burner_back_right": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "robot/pickup-part2-at-balancer_machine": {
+   "type": "PICK",
+   "bound_type": "part2",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/tag/place": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "store:cling roll:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "store:package_fragile:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "placetagdisposal_area": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "placecling rollbalancer_machine": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/yellow_bead/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "placepart2quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "store:package_fragile:lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "placetoken_Fburner_back_right": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:package_fragile:nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "placecling rolllane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "placejacketdrawer_2": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "/mnt/table_Q4/tire_allseason/place": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "placetire_allseasondisposal_area": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "store:cling roll:quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "placeroller_pinkdisposal_area": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/tire_allseason/place": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "placepart2palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "store:grain_wheat:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "placecling rollcell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "store:tag:drawer_2": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:cling roll:palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_mid/token_F/place": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/roller_pink/place": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "placetoken_Fnickel_bin": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "store:yellow_bead:drawer_2": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:jacket:reject_slot": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/burner_front_right/cling roll/place": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/token_F/place": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/tag/place": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "store:part2:nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/disposal_area/yellow_bead/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "/mnt/drawer_2/package_fragile/place": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:tire_allseason:drawer_2": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "placepackage_fragileclearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "placetagreject_slot": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "placepackage_fragiletable_Q4": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "placepackage_fragiledisposal_area": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/cling roll/place": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "placepackage_fragiledime_bin": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "store:cling roll:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "/mnt/disposal_area/cling roll/place": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "placetoken_Fburner_front_right": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "placeroller_pinkpenny_bin": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_right/jacket/place": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:roller_pink:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "placejackettire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "placejacketbalancer_machine": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "/mnt/table_Q4/token_F/place": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "/mnt/drawer_2/part2/place": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "/mnt/balancer_machine/grain_wheat/place": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/tag/place": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "store:grain_wheat:reject_slot": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_right/yellow_bead/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "/mnt/penny_bin/yellow_bead/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "placeroller_pinknickel_bin": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/tag/place": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "placecling rolldrawer_2": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/part2/place": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/roller_pink/place": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "store:tag:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "store:roller_pink:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/jacket/place": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "store:yellow_bead:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_right/package_fragile/place": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:jacket:clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "store:package_fragile:penny_bin": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "placetire_allseasonburner_back_right": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/grain_wheat/place": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "store:cling roll:penny_bin": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "store:cling roll:dime_bin": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "placepart2reject_slot": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "placeroller_pinkcell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placetire_allseasontire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_5/jacket/place": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "placetire_allseasonbalancer_machine": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "placetoken_Fdrawer_2": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/grain_wheat/place": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placeyellow_beadquarter_bin": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/burner_front_right/jacket/place": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "placetoken_Fpenny_bin": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_mid/tire_allseason/place": {
+   "type": "PLACE",
+   "bound_type": "tire_allseason",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "placetoken_Fdime_bin": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "placetagpalette_well_5": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "placeyellow_beadcell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/package_fragile/place": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "placepart2burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "store:roller_pink:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "roller_pink",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/jacket/place": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "/mnt/burner_front_right/tag/place": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "store:token_F:reject_slot": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "store:grain_wheat:nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "grain_wheat",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "placeyellow_beadburner_front_right": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C2/package_fragile/place": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_right/cling roll/place": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "placepart2balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "part2",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "clearingquadrantALPHA Overwiew": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantALPHA"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C2"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_mid"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_2"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_5"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin",
+    "nickel_bin"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin",
+    "quarter_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_right",
+    "burner_back_right"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL"
+   ]
+  },
+  "monitor balancer_machine": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "balancer_machine"
+   ]
+  },
+  "glance disposal_area": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "disposal_area"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "grain_wheat",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "part2",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "roller_pink",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "tire_allseason",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "alpha or beta clearing quadrant": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "first or second cleaning disposals": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "from any of the valid coin bins": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside the penny or nickel containers": [
+   "penny_bin",
+   "nickel_bin"
+  ],
+  "from the dime or quarter trays": [
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside any of the receptacles excluding the input": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin",
+   "reject_slot"
+  ],
+  "from the penny bin or the reject slot": [
+   "penny_bin",
+   "reject_slot"
+  ],
+  "burners on the right": [
+   "burner_front_right",
+   "burner_back_right"
+  ],
+  "processing stations": [
+   "balancer_machine",
+   "disposal_area"
+  ]
+ }
+}

@@ -1,0 +1,1248 @@
+{
+ "object_locations": [
+  "cell_R2C3",
+  "zone_014",
+  "cell_R2C5",
+  "palette_well_6",
+  "reject_bin",
+  "zone_015",
+  "zone_013",
+  "cell_R2C2",
+  "zone_016",
+  "palette_well_3",
+  "cell_R2C4",
+  "zone_011",
+  "zone_018",
+  "pass_bin",
+  "cell_R2C1",
+  "zone_017",
+  "palette_well_5",
+  "zone_010",
+  "zone_012",
+  "palette_well_4"
+ ],
+ "object_types": [
+  "concrete_mix_sack",
+  "pearl_ball",
+  "tile_J",
+  "metal_offcut",
+  "teff_kernel"
+ ],
+ "positions": {
+  "task/pick/palette_well_3/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "task/pick/zone_012/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C2/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "task/pick/zone_015/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C5/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "task/pick/zone_011/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_6/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "task/pick/pass_bin/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_5/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "task/pick/zone_012/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "task/pick/zone_013/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "task/pick/zone_016/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "task/pick/zone_017/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_6/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C5/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C4/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_6/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "task/pick/zone_013/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "task/pick/zone_016/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "task/pick/reject_bin/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "task/pick/zone_014/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_5/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_6/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "task/pick/zone_016/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "task/pick/zone_010/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C3/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "task/pick/zone_010/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/pick/reject_bin/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "task/pick/zone_011/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C4/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C4/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C3/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "task/pick/zone_010/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/pick/reject_bin/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "task/pick/zone_010/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/pick/reject_bin/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "task/pick/zone_018/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_4/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C3/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C1/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "task/pick/zone_017/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "task/pick/zone_013/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C1/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "task/pick/zone_016/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "task/pick/zone_018/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_4/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C3/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_3/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C1/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "task/pick/zone_018/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_4/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "task/pick/zone_018/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_4/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "task/pick/zone_010/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/pick/zone_012/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_3/pearl_ball": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "task/pick/zone_015/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_3/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "task/pick/pass_bin/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C1/tile_J": {
+   "type": "PICK",
+   "bound_type": "tile_J",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "task/pick/zone_012/concrete_mix_sack": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "task/pick/palette_well_5/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C5/teff_kernel": {
+   "type": "PICK",
+   "bound_type": "teff_kernel",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.palette_well_3.tile_J.release": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "metal_offcut-to-zone_012": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "concrete_mix_sack-to-cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "tile_J-to-zone_015": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "metal_offcut-to-cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.zone_011.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "teff_kernel-to-palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "$.pass_bin.tile_J.release": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "$.palette_well_5.metal_offcut.release": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "tile_J-to-zone_012": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "$.zone_013.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "$.zone_016.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.zone_017.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "concrete_mix_sack-to-palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "tile_J-to-cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.cell_R2C4.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.palette_well_6.pearl_ball.release": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "$.zone_013.pearl_ball.release": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "$.zone_016.pearl_ball.release": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.reject_bin.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "concrete_mix_sack-to-zone_014": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "$.palette_well_5.tile_J.release": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "metal_offcut-to-palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "metal_offcut-to-zone_016": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.zone_010.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "teff_kernel-to-cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "concrete_mix_sack-to-zone_010": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.reject_bin.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "$.zone_011.tile_J.release": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "pearl_ball-to-cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R2C4.metal_offcut.release": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R2C3.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "pearl_ball-to-zone_010": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "pearl_ball-to-reject_bin": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "metal_offcut-to-zone_010": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "metal_offcut-to-reject_bin": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "$.zone_018.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "teff_kernel-to-palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "pearl_ball-to-cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "$.cell_R2C1.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "tile_J-to-zone_017": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "$.zone_013.tile_J.release": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "$.cell_R2C1.pearl_ball.release": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "$.zone_016.tile_J.release": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "$.zone_018.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.palette_well_4.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "$.cell_R2C3.metal_offcut.release": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "teff_kernel-to-palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "metal_offcut-to-cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "pearl_ball-to-zone_018": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "pearl_ball-to-palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "$.zone_018.metal_offcut.release": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "$.palette_well_4.metal_offcut.release": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "tile_J-to-zone_010": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "$.zone_012.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "$.palette_well_3.pearl_ball.release": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "$.zone_015.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "$.palette_well_3.metal_offcut.release": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "$.pass_bin.concrete_mix_sack.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "tile_J-to-cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "tile_J",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "concrete_mix_sack-to-zone_012": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_sack",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "teff_kernel-to-palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "$.cell_R2C5.teff_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "teff_kernel",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010",
+    "zone_011",
+    "zone_012",
+    "zone_013",
+    "zone_014",
+    "zone_015",
+    "zone_016",
+    "zone_017",
+    "zone_018"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C3",
+    "cell_R2C4",
+    "cell_R2C5"
+   ]
+  },
+  "inspect reject_bin + pass_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_bin",
+    "pass_bin"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_3",
+    "palette_well_4",
+    "palette_well_5",
+    "palette_well_6"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "concrete_mix_sack",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tile_J",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "teff_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "zone_010:zone_018": [
+   "zone_010",
+   "zone_011",
+   "zone_012",
+   "zone_013",
+   "zone_014",
+   "zone_015",
+   "zone_016",
+   "zone_017",
+   "zone_018"
+  ],
+  "zones (13-18)": [
+   "zone_013",
+   "zone_014",
+   "zone_015",
+   "zone_016",
+   "zone_017",
+   "zone_018"
+  ],
+  "two last zones": [
+   "zone_017",
+   "zone_018"
+  ],
+  "cellR2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in row 2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "reject or pass": [
+   "reject_bin",
+   "pass_bin"
+  ],
+  "from wells 4 or 5": [
+   "palette_well_4",
+   "palette_well_5"
+  ],
+  "somewhere in the middle wells (3-6)": [
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6"
+  ]
+ }
+}

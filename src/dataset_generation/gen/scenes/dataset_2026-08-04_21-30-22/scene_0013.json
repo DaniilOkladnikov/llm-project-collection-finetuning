@@ -1,0 +1,1587 @@
+{
+ "object_locations": [
+  "dispenser_D",
+  "cell_R2C3",
+  "rack top",
+  "cell_R2C5",
+  "pos.y2.x3",
+  "pos.y2.x0",
+  "cell_R2C2",
+  "cell_R2C4",
+  "pos.y2.x2",
+  "nest_5",
+  "cell_R1C1",
+  "cell_R1C4",
+  "cell_R1C5",
+  "cell_R2C1",
+  "nest_1",
+  "cell_R1C3",
+  "cell_R1C2",
+  "dispenser_A",
+  "pos.y2.x1"
+ ],
+ "object_types": [
+  "barley_grain",
+  "tube_gray",
+  "parcel_oversized",
+  "marker_C",
+  "green_ball",
+  "part1",
+  "steel_bar",
+  "mount",
+  "scaffolding_pole"
+ ],
+ "positions": {
+  "robot/pickup-scaffolding_pole-at-nest_1": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "robot/pickup-scaffolding_pole-at-cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "get|green_ball|@|cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "get|barley_grain|@|dispenser_D": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "get|part1|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "get|barley_grain|@|pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "robot/pickup-green_ball-at-cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C3/scaffolding_pole": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "get|tube_gray|@|cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "tube_gray",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "get|parcel_oversized|@|pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "get|parcel_oversized|@|cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "get|parcel_oversized|@|cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "get|marker_C|@|cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "get|barley_grain|@|cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "robot/pickup-part1-at-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "get|mount|@|pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x0/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "get|green_ball|@|pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "get|parcel_oversized|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "task/pick/nest_1/part1": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C4/scaffolding_pole": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x0/tube_gray": {
+   "type": "PICK",
+   "bound_type": "tube_gray",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_oversized-at-rack top": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x1/mount": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "robot/pickup-part1-at-cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/pick/nest_5/marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "get|parcel_oversized|@|dispenser_D": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "robot/pickup-green_ball-at-pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "robot/pickup-tube_gray-at-rack top": {
+   "type": "PICK",
+   "bound_type": "tube_gray",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "get|barley_grain|@|cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x2/scaffolding_pole": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "robot/pickup-part1-at-pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "get|marker_C|@|cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "robot/pickup-steel_bar-at-cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_oversized-at-cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x2/green_ball": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "robot/pickup-tube_gray-at-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "tube_gray",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_oversized-at-cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "robot/pickup-marker_C-at-cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "get|tube_gray|@|cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "tube_gray",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "robot/pickup-tube_gray-at-nest_1": {
+   "type": "PICK",
+   "bound_type": "tube_gray",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "get|mount|@|pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "robot/pickup-mount-at-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "robot/pickup-barley_grain-at-cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "get|steel_bar|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "robot/pickup-tube_gray-at-cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "tube_gray",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|rack top": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "task/pick/rack top/green_ball": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "robot/pickup-part1-at-pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "robot/pickup-mount-at-cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|dispenser_A": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "task/pick/cell_R2C2/steel_bar": {
+   "type": "PICK",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "get|marker_C|@|cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/pick/dispenser_A/green_ball": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "get|green_ball|@|cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "get|barley_grain|@|rack top": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "get|marker_C|@|pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "robot/pickup-green_ball-at-pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "get|barley_grain|@|cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "get|steel_bar|@|cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "get|green_ball|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "get|marker_C|@|pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "robot/pickup-scaffolding_pole-at-nest_5": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "task/pick/nest_1/barley_grain": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "robot/pickup-green_ball-at-nest_5": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "get|part1|@|cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x1/steel_bar": {
+   "type": "PICK",
+   "bound_type": "steel_bar",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "task/pick/dispenser_D/green_ball": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C3/barley_grain": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C1/parcel_oversized": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "get|marker_C|@|cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_oversized-at-cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "get|mount|@|nest_5": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x0/part1": {
+   "type": "PICK",
+   "bound_type": "part1",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "#nest_1/#scaffolding_pole/leave": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scaffolding_pole&dest=cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#part1/leave": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#pos.y2.x1/#barley_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "#cell_R1C4/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scaffolding_pole&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R2C1/#tube_gray/leave": {
+   "type": "PLACE",
+   "bound_type": "tube_gray",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_oversized&dest=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_oversized&dest=cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=mount&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#marker_C/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#barley_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#dispenser_A/#part1/leave": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "#pos.y2.x3/#mount/leave": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "#pos.y2.x0/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "#pos.y2.x1/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#nest_1/#part1/leave": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "#cell_R2C4/#scaffolding_pole/leave": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_gray&dest=pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "tube_gray",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_oversized&dest=rack top": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=mount&dest=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=part1&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=marker_C&dest=nest_5": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "#dispenser_D/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "#pos.y2.x3/#scaffolding_pole/leave": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_gray&dest=rack top": {
+   "type": "PLACE",
+   "bound_type": "tube_gray",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#mount/leave": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R2C4/#barley_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scaffolding_pole&dest=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=part1&dest=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#marker_C/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=steel_bar&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#cell_R1C4/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "#pos.y2.x2/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "#dispenser_A/#tube_gray/leave": {
+   "type": "PLACE",
+   "bound_type": "tube_gray",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#marker_C/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_gray&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "tube_gray",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#scaffolding_pole/leave": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#nest_1/#tube_gray/leave": {
+   "type": "PLACE",
+   "bound_type": "tube_gray",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=mount&dest=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#mount/leave": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#steel_bar/leave": {
+   "type": "PLACE",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tube_gray&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "tube_gray",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#rack top/#scaffolding_pole/leave": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "#rack top/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=part1&dest=pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=mount&dest=cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#dispenser_A/#scaffolding_pole/leave": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scaffolding_pole&dest=cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#cell_R2C2/#steel_bar/leave": {
+   "type": "PLACE",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#cell_R2C4/#marker_C/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=rack top": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=marker_C&dest=pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "#pos.y2.x0/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=steel_bar&dest=cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "steel_bar",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "#pos.y2.x2/#marker_C/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "#nest_5/#scaffolding_pole/leave": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "#nest_1/#barley_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=nest_5": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#mount/leave": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#part1/leave": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=steel_bar&dest=pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "steel_bar",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "#cell_R1C3/#barley_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_oversized&dest=cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#marker_C/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R2C1/#parcel_oversized/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_oversized",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "#nest_5/#mount/leave": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "#pos.y2.x0/#part1/leave": {
+   "type": "PLACE",
+   "bound_type": "part1",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1",
+    "pos.y2.x2",
+    "pos.y2.x3"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_1",
+    "nest_5"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2",
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5",
+    "cell_R2C3",
+    "cell_R2C4",
+    "cell_R2C5"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_A"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_D"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "cart_loading_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "tube_gray",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "tube_gray",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "tube_gray",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "tube_gray",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "tube_gray",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "tube_gray",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "tube_gray",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "parcel_oversized",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "part1",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "steel_bar",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "steel_bar",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "steel_bar",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "steel_bar",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "steel_bar",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "poses with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "positions with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "outer nests (first and last)": [
+   "nest_1",
+   "nest_5"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cellR2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells with R1 or R2": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in rows 1 and 2": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in row 2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "dispensers A or D": [
+   "dispenser_A",
+   "dispenser_D"
+  ]
+ }
+}

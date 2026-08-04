@@ -1,0 +1,211 @@
+run: gpt-oss-20b-DSL_r128_a2_lr6e-05_constant_with_warmup_ep1_full_dataset
+saved: 20260802_130804  |  first 3 of 10491 training samples
+
+================================================================================
+EXAMPLE 1/3  |  2647 tokens total, 20 in OUTPUT (loss computed on these)
+================================================================================
+
+----- INPUT (fed to the model, loss masked) -----
+<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: 2024-06
+Current date: 2026-08-02
+
+Reasoning: medium
+
+# Valid channels: analysis, commentary, final. Channel must be included for every message.
+Calls to these tools must go to the commentary channel: 'functions'.<|end|><|start|>developer<|message|># Instructions
+
+You are a precise and cautious robot control assistant. Your job is to decide which tool to call next so that the robot interacts safely with objects. ALWAYS obey the rules below. NEVER call a tool if its prerequisites are not satisfied.
+
+
+# Tools
+
+## functions
+
+namespace functions {
+
+// Move the robot to the specified position.
+type move_robot_to = (_: {
+// name of the target position
+position: string
+}) => any;
+
+// Open the gripper. Make sure it isn't already open.
+type open_gripper = () => any;
+
+// Close the gripper. Make sure it is open first.
+type close_gripper = () => any;
+
+// Get the full list of available positions where the robot can go.
+type list_avaliable_robot_positions = () => any;
+
+// Get the gripper state.
+type get_gripper_state = () => any;
+
+// Get the robot's current position.
+type get_robot_position = () => any;
+
+// Detects shapes and updates their positions to exact ones for picking.
+Make sure you are in appropriate position where the shapes can be detected from.
+type locate_shapes = () => any;
+
+} // namespace functions<|end|><|start|>user<|message|>Close gripper, I am giving you chip_type_R<|end|><|start|>assistant<|message|>PROGRAM
+L1 check gripper
+L2 if MEMORY.gripper is closed:
+L3   answer_1
+L4 else:
+L5   get chip_type_R from user
+L6   answer_2
+
+MEMORY
+cursor = L1
+position = unknown
+gripper = unknown
+held = unknown
+avaliable positions = {status: "OK", content: ["picking/box_standard/tire_bay_FR", "picking/grain_teff/binB_102", "picking/label/pos.y2.x3", "picking/box_standard/slot1_4", "picking/label/drawer_4", "picking/box_standard/tire_bay_FL", "picking/black_pepper/table_Q2", "picking/black_pepper/slot3_4", "picking/chip_type_R/tire_bay_RL", "picking/label/drawer_3", "picking/chip_type_R/binA_002", "picking/veg_carrot/tire_bay_RR", "picking/grain_teff/tire_bay_RR", "picking/chip_type_R/tire_bay_FR", "picking/black_pepper/zone_008", "picking/grain_teff/table_Q2", "picking/grain_teff/slot3_4", "picking/grain_teff/station_beta", "picking/label/tire_bay_RL", "picking/chip_type_R/tire_bay_FL", "picking/veg_carrot/station_beta", "picking/veg_carrot/buffer_zone", "picking/box_standard/tire_bay_RR", "picking/chip_type_R/binB_102", "picking/grain_teff/zone_008", "picking/black_pepper/binC_202", "picking/box_standard/table_Q2", "picking/black_pepper/binA_001", "picking/label/binA_002", "picking/label/slot1_4", "picking/grain_teff/pos.y2.x3", "picking/veg_carrot/binA_001", "picking/box_standard/station_beta", "picking/veg_carrot/pos.y2.x3", "picking/grain_teff/binA_001", "picking/box_standard/buffer_zone", "picking/veg_carrot/binC_202", "picking/veg_carrot/drawer_4", "picking/grain_teff/binC_202", "picking/black_pepper/drawer_3", "picking/box_standard/slot2_4", "picking/chip_type_R/tire_bay_RR", "picking/box_standard/binA_001", "picking/box_standard/pos.y2.x3", "picking/box_standard/binC_202", "picking/box_standard/drawer_4", "picking/veg_carrot/drawer_3", "picking/grain_teff/drawer_3", "picking/chip_type_R/station_beta", "picking/chip_type_R/buffer_zone", "picking/label/tire_bay_RR", "picking/veg_carrot/tire_bay_RL", "picking/chip_type_R/slot2_4", "picking/grain_teff/table_Q4", "picking/veg_carrot/binA_002", "picking/grain_teff/binA_002", "picking/box_standard/shelf_L1_S1", "picking/chip_type_R/pos.y2.x3", "picking/label/buffer_zone", "picking/label/station_beta", "picking/veg_carrot/slot1_4", "picking/chip_type_R/binC_202", "picking/black_pepper/binB_102", "picking/grain_teff/slot1_4", "picking/label/zone_008", "picking/veg_carrot/tire_bay_FL", "picking/box_standard/table_Q4", "picking/box_standard/binA_002", "picking/label/slot2_4", "tire_bay_FR_box_standard_deposit", "ns:binB_102:item:grain_teff:action:place", "ns:pos.y2.x3:item:label:action:place", "store:box_standard:slot1_4", "store:label:drawer_4", "store:box_standard:tire_bay_FL", "ns:table_Q2:item:black_pepper:action:place", "store:black_pepper:slot3_4", "tire_bay_RL_chip_type_R_deposit", "drawer_3_label_deposit", "binA_002_chip_type_R_deposit", "store:veg_carrot:tire_bay_RR", "ns:tire_bay_RR:item:grain_teff:action:place", "ns:tire_bay_FR:item:chip_type_R:action:place", "store:black_pepper:zone_008", "ns:table_Q2:item:grain_teff:action:place", "store:grain_teff:slot3_4", "store:grain_teff:station_beta", "ns:tire_bay_RL:item:label:action:place", "ns:tire_bay_FL:item:chip_type_R:action:place", "station_beta_veg_carrot_deposit", "ns:buffer_zone:item:veg_carrot:action:place", "tire_bay_RR_box_standard_deposit", "store:chip_type_R:binB_102", "ns:zone_008:item:grain_teff:action:place", "store:black_pepper:binC_202", "ns:table_Q2:item:box_standard:action:place", "ns:binA_001:item:black_pepper:action:place", "binA_002_label_deposit", "store:label:slot1_4", "store:grain_teff:pos.y2.x3", "binA_001_veg_carrot_deposit", "station_beta_box_standard_deposit", "pos.y2.x3_veg_carrot_deposit", "store:grain_teff:binA_001", "ns:buffer_zone:item:box_standard:action:place", "binC_202_veg_carrot_deposit", "drawer_4_veg_carrot_deposit", "binC_202_grain_teff_deposit", "drawer_3_black_pepper_deposit", "ns:slot2_4:item:box_standard:action:place", "store:chip_type_R:tire_bay_RR", "binA_001_box_standard_deposit", "ns:pos.y2.x3:item:box_standard:action:place", "ns:binC_202:item:box_standard:action:place", "drawer_4_box_standard_deposit", "store:veg_carrot:drawer_3", "drawer_3_grain_teff_deposit", "ns:station_beta:item:chip_type_R:action:place", "ns:buffer_zone:item:chip_type_R:action:place", "tire_bay_RR_label_deposit", "store:veg_carrot:tire_bay_RL", "slot2_4_chip_type_R_deposit", "ns:table_Q4:item:grain_teff:action:place", "binA_002_veg_carrot_deposit", "ns:binA_002:item:grain_teff:action:place", "shelf_L1_S1_box_standard_deposit", "store:chip_type_R:pos.y2.x3", "store:label:buffer_zone", "store:label:station_beta", "store:veg_carrot:slot1_4", "ns:binC_202:item:chip_type_R:action:place", "store:black_pepper:binB_102", "ns:slot1_4:item:grain_teff:action:place", "zone_008_label_deposit", "ns:tire_bay_FL:item:veg_carrot:action:place", "table_Q4_box_standard_deposit", "store:box_standard:binA_002", "store:label:slot2_4", "table_q2_look", "table_q4_look", "slot1_OBSERVE", "slot2_OBSERVE", "slot3_OBSERVE", "binA_observe strip", "binB_observe strip", "binC_corner vantage", "look at station_beta", "look at buffer_zone", "view zone_004-zone_009", "scan pos.y2.*", "check drawer_1->drawer_5", "scanLevel shelf_L1_*", "inspect tire_bay_FL|FR|RL|RR", "home", "grid_entry_hover", "central_hub", "grid_origin_hover", "aisle_traverse", "lift_clearance"]}
+objects = ["box_standard", "grain_teff", "label", "black_pepper", "chip_type_R", "veg_carrot"]
+locations = ["table_Q2", "table_Q4", "slot1_4", "slot2_4", "slot3_4", "binA_001", "binA_002", "binB_102", "binC_202", "station_beta", "buffer_zone", "zone_008", "pos.y2.x3", "drawer_3", "drawer_4", "shelf_L1_S1", "tire_bay_FL", "tire_bay_FR", "tire_bay_RL", "tire_bay_RR"]
+observation mapping = {"table_q2_look": "table_Q2", "table_q4_look": "table_Q4", "slot1_OBSERVE": "slot1_4", "slot2_OBSERVE": "slot2_4", "slot3_OBSERVE": "slot3_4", "binA_observe strip": "binA_001", "binA_002", "binB_observe strip": "binB_102", "binC_corner vantage": "binC_202", "look at station_beta": "station_beta", "look at buffer_zone": "buffer_zone", "view zone_004-zone_009": "zone_008", "scan pos.y2.*": "pos.y2.x3", "check drawer_1->drawer_5": "drawer_3", "drawer_4", "scanLevel shelf_L1_*": "shelf_L1_S1", "inspect tire_bay_FL|FR|RL|RR": "tire_bay_FL", "tire_bay_FR", "tire_bay_RL", "tire_bay_RR"}<|end|><|start|>assistant
+
+----- OUTPUT (loss IS computed on these tokens) -----
+<|message|>RESOLUTION
+L1 check gripper
+
+TOOL CALL
+get_gripper_state()<|return|>
+
+================================================================================
+EXAMPLE 2/3  |  2423 tokens total, 58 in OUTPUT (loss computed on these)
+================================================================================
+
+----- INPUT (fed to the model, loss masked) -----
+<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: 2024-06
+Current date: 2026-08-02
+
+Reasoning: medium
+
+# Valid channels: analysis, commentary, final. Channel must be included for every message.
+Calls to these tools must go to the commentary channel: 'functions'.<|end|><|start|>developer<|message|># Instructions
+
+You are a precise and cautious robot control assistant. Your job is to decide which tool to call next so that the robot interacts safely with objects. ALWAYS obey the rules below. NEVER call a tool if its prerequisites are not satisfied.
+
+
+# Tools
+
+## functions
+
+namespace functions {
+
+// Move the robot to the specified position.
+type move_robot_to = (_: {
+// name of the target position
+position: string
+}) => any;
+
+// Open the gripper. Make sure it isn't already open.
+type open_gripper = () => any;
+
+// Close the gripper. Make sure it is open first.
+type close_gripper = () => any;
+
+// Get the full list of available positions where the robot can go.
+type list_avaliable_robot_positions = () => any;
+
+// Get the gripper state.
+type get_gripper_state = () => any;
+
+// Get the robot's current position.
+type get_robot_position = () => any;
+
+// Detects shapes and updates their positions to exact ones for picking.
+Make sure you are in appropriate position where the shapes can be detected from.
+type locate_shapes = () => any;
+
+} // namespace functions<|end|><|start|>user<|message|>Close gripper, I am giving you brush_mid<|end|><|start|>assistant<|message|>ANSWER
+I must first place what I hold<|end|><|start|>user<|message|>Pick from third bin any slot except last something that is not present in stations only<|end|><|start|>assistant<|message|>MEMORY
+cursor = done
+position = unknown
+gripper = closed
+held = unknown
+avaliable positions = {status: "OK", content: ["slot3_1_roller_orange_collect", "[station_beta][grain_rye]_PICKUP", "[station_gamma][roller_orange]_PICKUP", "[binB_104][cylinder_white]_PICKUP", "[station_alpha][brush_mid]_PICKUP", "[station_beta][parcel_medium]_PICKUP", "shelf_L1_S2_brush_mid_collect", "[shelf_L1_S2][teff_grain]_PICKUP", "station_alpha_teff_grain_collect", "[slot3_2][brush_mid]_PICKUP", "[slot3_2][teff_grain]_PICKUP", "station_beta_roller_orange_collect", "[binB_104][grain_rye]_PICKUP", "[slot3_3][brush_mid]_PICKUP", "binB_104_parcel_medium_collect", "drawer_2_teff_grain_collect", "shelf_L1_S2_fifty_cent_coin_collect", "[station_alpha][fifty_cent_coin]_PICKUP", "binB_104_roller_orange_collect", "[binA_004][brush_mid]_PICKUP", "binA_004_teff_grain_collect", "[binC_201][brush_mid]_PICKUP", "drawer_3_grain_rye_collect", "shelf_L1_S2_cylinder_white_collect", "[slot3_1][brush_mid]_PICKUP", "[station_alpha][cylinder_white]_PICKUP", "[drawer_1][fifty_cent_coin]_PICKUP", "slot3_2_fifty_cent_coin_collect", "[drawer_2][fifty_cent_coin]_PICKUP", "[slot3_3][fifty_cent_coin]_PICKUP", "shelf_L1_S2_grain_rye_collect", "[station_gamma][teff_grain]_PICKUP", "[slot3_2][cylinder_white]_PICKUP", "station_alpha_grain_rye_collect", "binA_004_fifty_cent_coin_collect", "slot3_3_cylinder_white_collect", "drawer_3_roller_orange_collect", "binA_003_brush_mid_collect", "[station_beta][brush_mid]_PICKUP", "station_beta_teff_grain_collect", "slot3_1_fifty_cent_coin_collect", "[slot3_2][grain_rye]_PICKUP", "drawer_2_grain_rye_collect", "station_gamma_fifty_cent_coin_collect", "[slot3_3][grain_rye]_PICKUP", "[shelf_L1_S2][roller_orange]_PICKUP", "[station_alpha][roller_orange]_PICKUP", "[drawer_1][parcel_medium]_PICKUP", "slot3_1_cylinder_white_collect", "slot3_3_parcel_medium_collect", "drawer_2_parcel_medium_collect", "zone_007_grain_rye_collect", "binB_104_teff_grain_collect", "[drawer_1][roller_orange]_PICKUP", "[binA_004][grain_rye]_PICKUP", "[slot3_3][roller_orange]_PICKUP", "zone_007_parcel_medium_collect", "station_beta_fifty_cent_coin_collect", "[drawer_2][roller_orange]_PICKUP", "slot3_1_grain_rye_collect", "zone_007_roller_orange_collect", "[binC_201][parcel_medium]_PICKUP", "[binA_004][roller_orange]_PICKUP", "[binA_003][cylinder_white]_PICKUP", "[station_beta][cylinder_white]_PICKUP", "[slot3_1][parcel_medium]_PICKUP", "/mnt/slot3_1/roller_orange/place", "/mnt/station_beta/grain_rye/place", "/mnt/station_gamma/roller_orange/place", "/mnt/binB_104/cylinder_white/place", "/mnt/station_alpha/brush_mid/place", "/mnt/station_beta/parcel_medium/place", "/mnt/shelf_L1_S2/brush_mid/place", "/mnt/shelf_L1_S2/teff_grain/place", "/mnt/station_alpha/teff_grain/place", "/mnt/slot3_2/brush_mid/place", "/mnt/slot3_2/teff_grain/place", "/mnt/station_beta/roller_orange/place", "/mnt/binB_104/grain_rye/place", "/mnt/slot3_3/brush_mid/place", "/mnt/binB_104/parcel_medium/place", "/mnt/drawer_2/teff_grain/place", "/mnt/shelf_L1_S2/fifty_cent_coin/place", "/mnt/station_alpha/fifty_cent_coin/place", "/mnt/binB_104/roller_orange/place", "/mnt/binA_004/brush_mid/place", "/mnt/binA_004/teff_grain/place", "/mnt/binC_201/brush_mid/place", "/mnt/drawer_3/grain_rye/place", "/mnt/shelf_L1_S2/cylinder_white/place", "/mnt/slot3_1/brush_mid/place", "/mnt/station_alpha/cylinder_white/place", "/mnt/drawer_1/fifty_cent_coin/place", "/mnt/slot3_2/fifty_cent_coin/place", "/mnt/drawer_2/fifty_cent_coin/place", "/mnt/slot3_3/fifty_cent_coin/place", "/mnt/shelf_L1_S2/grain_rye/place", "/mnt/station_gamma/teff_grain/place", "/mnt/slot3_2/cylinder_white/place", "/mnt/station_alpha/grain_rye/place", "/mnt/binA_004/fifty_cent_coin/place", "/mnt/slot3_3/cylinder_white/place", "/mnt/drawer_3/roller_orange/place", "/mnt/binA_003/brush_mid/place", "/mnt/station_beta/brush_mid/place", "/mnt/station_beta/teff_grain/place", "/mnt/slot3_1/fifty_cent_coin/place", "/mnt/slot3_2/grain_rye/place", "/mnt/drawer_2/grain_rye/place", "/mnt/station_gamma/fifty_cent_coin/place", "/mnt/slot3_3/grain_rye/place", "/mnt/shelf_L1_S2/roller_orange/place", "/mnt/station_alpha/roller_orange/place", "/mnt/drawer_1/parcel_medium/place", "/mnt/slot3_1/cylinder_white/place", "/mnt/slot3_3/parcel_medium/place", "/mnt/drawer_2/parcel_medium/place", "/mnt/zone_007/grain_rye/place", "/mnt/binB_104/teff_grain/place", "/mnt/drawer_1/roller_orange/place", "/mnt/binA_004/grain_rye/place", "/mnt/slot3_3/roller_orange/place", "/mnt/zone_007/parcel_medium/place", "/mnt/station_beta/fifty_cent_coin/place", "/mnt/drawer_2/roller_orange/place", "/mnt/slot3_1/grain_rye/place", "/mnt/zone_007/roller_orange/place", "/mnt/binC_201/parcel_medium/place", "/mnt/binA_004/roller_orange/place", "/mnt/binA_003/cylinder_white/place", "/mnt/station_beta/cylinder_white/place", "/mnt/slot3_1/parcel_medium/place", "slot3_OBSERVE", "binA_observe strip", "binB_observe strip", "binC_corner vantage", "look at station_alpha", "look at station_beta", "look at station_gamma", "view zone_004-zone_009", "check drawer_1->drawer_5", "scanLevel shelf_L1_*", "home", "grid_entry_hover", "aisle_safe_hover", "central_hub", "lift_high", "lift_low"]}
+objects = ["roller_orange", "grain_rye", "cylinder_white", "brush_mid", "parcel_medium", "teff_grain", "fifty_cent_coin"]
+locations = ["slot3_1", "slot3_2", "slot3_3", "binA_003", "binA_004", "binB_104", "binC_201", "station_alpha", "station_beta", "station_gamma", "zone_007", "drawer_1", "drawer_2", "drawer_3", "shelf_L1_S2"]
+observation mapping = {"slot3_OBSERVE": "slot3_1", "slot3_2", "slot3_3", "binA_observe strip": "binA_003", "binA_004", "binB_observe strip": "binB_104", "binC_corner vantage": "binC_201", "look at station_alpha": "station_alpha", "look at station_beta": "station_beta", "look at station_gamma": "station_gamma", "view zone_004-zone_009": "zone_007", "check drawer_1->drawer_5": "drawer_1", "drawer_2", "drawer_3", "scanLevel shelf_L1_*": "shelf_L1_S2"}<|end|><|start|>assistant
+
+----- OUTPUT (loss IS computed on these tokens) -----
+<|message|>PROGRAM
+L1 answer_1
+
+MEMORY
+cursor = L1
+third bin any slot except last = ["slot3_1", "slot3_2", "slot3_3"]
+stations only = ["station_alpha", "station_beta", "station_gamma"]<|return|>
+
+================================================================================
+EXAMPLE 3/3  |  415 tokens total, 23 in OUTPUT (loss computed on these)
+================================================================================
+
+----- INPUT (fed to the model, loss masked) -----
+<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: 2024-06
+Current date: 2026-08-02
+
+Reasoning: medium
+
+# Valid channels: analysis, commentary, final. Channel must be included for every message.
+Calls to these tools must go to the commentary channel: 'functions'.<|end|><|start|>developer<|message|># Instructions
+
+You are a precise and cautious robot control assistant. Your job is to decide which tool to call next so that the robot interacts safely with objects. ALWAYS obey the rules below. NEVER call a tool if its prerequisites are not satisfied.
+
+
+# Tools
+
+## functions
+
+namespace functions {
+
+// Move the robot to the specified position.
+type move_robot_to = (_: {
+// name of the target position
+position: string
+}) => any;
+
+// Open the gripper. Make sure it isn't already open.
+type open_gripper = () => any;
+
+// Close the gripper. Make sure it is open first.
+type close_gripper = () => any;
+
+// Get the full list of available positions where the robot can go.
+type list_avaliable_robot_positions = () => any;
+
+// Get the gripper state.
+type get_gripper_state = () => any;
+
+// Get the robot's current position.
+type get_robot_position = () => any;
+
+// Detects shapes and updates their positions to exact ones for picking.
+Make sure you are in appropriate position where the shapes can be detected from.
+type locate_shapes = () => any;
+
+} // namespace functions<|end|><|start|>user<|message|>Can I now pick something from stations only?<|end|><|start|>assistant<|message|>PROGRAM
+L1 remember avaliable positions = get positions
+L2 parse avaliable positions for objects
+L3 parse avaliable positions for locations
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
+
+MEMORY
+cursor = L1
+position = unknown
+gripper = unknown
+held = unknown<|end|><|start|>assistant
+
+----- OUTPUT (loss IS computed on these tokens) -----
+<|message|>RESOLUTION
+L1
+
+TOOL CALL
+avaliable positions = list_avaliable_robot_positions()<|return|>

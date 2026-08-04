@@ -1,0 +1,1173 @@
+{
+ "object_locations": [
+  "dime_bin",
+  "tree_1",
+  "cell_R2C3",
+  "cell_R3C1",
+  "cell_R2C5",
+  "cell_R2C1",
+  "parcelPalette-3.1.2",
+  "cell_R3C2",
+  "input_chute",
+  "cell_R3C5",
+  "tree_15",
+  "tree_11",
+  "cell_R3C3",
+  "cell_R2C2",
+  "tree_5",
+  "cell_R2C4",
+  "cell_R3C4"
+ ],
+ "object_types": [
+  "ten_cent_coin",
+  "cylinder_gray",
+  "steel_billet",
+  "mount",
+  "chip_type_S",
+  "box_medium"
+ ],
+ "positions": {
+  "get|ten_cent_coin|@|parcelPalette-3.1.2": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "get|mount|@|dime_bin": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|input_chute": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|tree_1": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "get|mount|@|parcelPalette-3.1.2": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "get|box_medium|@|cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|tree_11": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "get|box_medium|@|tree_15": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "get|box_medium|@|cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "get|box_medium|@|tree_5": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "get|box_medium|@|cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "get|mount|@|tree_11": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|input_chute": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "get|box_medium|@|cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|tree_5": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "get|box_medium|@|input_chute": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|dime_bin": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|tree_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|parcelPalette-3.1.2": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "get|cylinder_gray|@|input_chute": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "get|box_medium|@|cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|tree_5": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|tree_1": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "get|steel_billet|@|cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "get|chip_type_S|@|cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get|ten_cent_coin|@|cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "get|mount|@|cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "get|box_medium|@|tree_1": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "get|box_medium|@|cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "[parcelPalette-3.1.2][ten_cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "task/place/dime_bin/mount": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@input_chute": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "deposit_mount@cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "[cell_R2C4][chip_type_S]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C5/mount": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "deposit_mount@cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "[tree_1][cylinder_gray]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "[cell_R2C1][cylinder_gray]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C1/steel_billet": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "deposit_mount@cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "task/place/parcelPalette-3.1.2/mount": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C4/ten_cent_coin": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "[cell_R3C1][box_medium]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "deposit_ten_cent_coin@tree_11": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "[cell_R2C5][steel_billet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "task/place/tree_15/box_medium": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "[cell_R2C3][ten_cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "deposit_steel_billet@cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "[cell_R2C2][steel_billet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "deposit_box_medium@cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "deposit_box_medium@tree_5": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "[cell_R3C1][cylinder_gray]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "deposit_box_medium@cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "deposit_steel_billet@cell_R3C4": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "deposit_mount@tree_11": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C1/chip_type_S": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "task/place/input_chute/steel_billet": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C4/box_medium": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "task/place/tree_5/cylinder_gray": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_cylinder_gray@cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "task/place/cell_R2C2/cylinder_gray": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "deposit_mount@cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "deposit_box_medium@input_chute": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "deposit_cylinder_gray@cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "task/place/dime_bin/chip_type_S": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "task/place/tree_5/chip_type_S": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_ten_cent_coin@cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "deposit_steel_billet@cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "deposit_cylinder_gray@parcelPalette-3.1.2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "[cell_R3C4][cylinder_gray]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "[cell_R3C2][chip_type_S]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C3/ten_cent_coin": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "task/place/input_chute/cylinder_gray": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "deposit_box_medium@cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "[cell_R2C3][steel_billet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "[tree_5][ten_cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_ten_cent_coin@cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "[tree_1][steel_billet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "deposit_steel_billet@cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "[cell_R3C4][chip_type_S]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C2/ten_cent_coin": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "[cell_R2C2][ten_cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "task/place/cell_R3C1/mount": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "deposit_box_medium@tree_1": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "deposit_box_medium@cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "box_medium",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C3",
+    "cell_R2C4",
+    "cell_R2C5"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R3C4",
+    "cell_R3C5"
+   ]
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_5"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_15"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.1.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "box_medium",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cellR3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells in row 3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells in row 2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "from the dime bin or the input chute": [
+   "dime_bin",
+   "input_chute"
+  ],
+  "edge trees (1, 5, 11, and 15)": [
+   "tree_1",
+   "tree_5",
+   "tree_11",
+   "tree_15"
+  ]
+ }
+}

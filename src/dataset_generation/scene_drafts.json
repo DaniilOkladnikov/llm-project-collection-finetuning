@@ -3187,5 +3187,402 @@
         "sorting_table"
       ]
     }
-  }
+  },
+  {
+    "object_locations": [
+      "brick_pallet_alpha",
+      "brick_pallet_beta",
+      "cement_mixer_storage",
+      "cement_bag_pile",
+      "scaffolding_rack_left",
+      "scaffolding_rack_right",
+      "tool_shed_shelf_top",
+      "tool_shed_shelf_bottom",
+      "pipe_stack_front",
+      "pipe_stack_back"
+    ],
+    "object_types": {
+      "brick": [
+        "clay_block",
+        "masonry_unit"
+      ],
+      "cement_bag": [
+        "mortar_powder_sack",
+        "concrete_mix_bag"
+      ],
+      "scaffolding_pole": [
+        "metal_support_tube",
+        "framework_pipe"
+      ],
+      "power_drill": [
+        "rotary_hammer_drill",
+        "electric_borer"
+      ],
+      "pvc_pipe": [
+        "plastic_plumbing_tube",
+        "water_conduit"
+      ]
+    },
+    "observe_dict": {
+      "masonry_materials_viewpoint": [
+        "brick_pallet_alpha",
+        "brick_pallet_beta"
+      ],
+      "cement_station_overlook": [
+        "cement_mixer_storage",
+        "cement_bag_pile"
+      ],
+      "scaffolding_storage_inspection_point": [
+        "scaffolding_rack_left",
+        "scaffolding_rack_right"
+      ],
+      "tool_shed_interior_camera": [
+        "tool_shed_shelf_top",
+        "tool_shed_shelf_bottom"
+      ],
+      "plumbing_supplies_vantage": [
+        "pipe_stack_front",
+        "pipe_stack_back"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "battery_charging_dock",
+      "waste_disposal_dumpster"
+    ],
+    "location_names": {
+      "all_brick_pallets": [
+        "brick_pallet_alpha",
+        "brick_pallet_beta"
+      ],
+      "alpha_beta_masonry_units": [
+        "brick_pallet_alpha",
+        "brick_pallet_beta"
+      ],
+      "cement_area_storage": [
+        "cement_mixer_storage",
+        "cement_bag_pile"
+      ],
+      "powder_and_mixer_cement_zones": [
+        "cement_mixer_storage",
+        "cement_bag_pile"
+      ],
+      "both_scaffolding_racks": [
+        "scaffolding_rack_left",
+        "scaffolding_rack_right"
+      ],
+      "left_right_metal_frameworks": [
+        "scaffolding_rack_left",
+        "scaffolding_rack_right"
+      ],
+      "all_tool_shed_shelves": [
+        "tool_shed_shelf_top",
+        "tool_shed_shelf_bottom"
+      ],
+      "top_bottom_tool_racks": [
+        "tool_shed_shelf_top",
+        "tool_shed_shelf_bottom"
+      ],
+      "entire_pipe_stack": [
+        "pipe_stack_front",
+        "pipe_stack_back"
+      ],
+      "front_back_plumbing_tubes": [
+        "pipe_stack_front",
+        "pipe_stack_back"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "L1-SecA-Bay01",
+      "L1-SecA-Bay02",
+      "L1-SecB-SiloX1",
+      "L1-SecB-SiloX2",
+      "L2-SecC-RackM",
+      "L2-SecC-RackN",
+      "L2-SecC-RackO",
+      "Ext-Yard-ZoneP9",
+      "Ext-Yard-ZoneQ9",
+      "Ext-Yard-ZoneR9"
+    ],
+    "object_types": {
+      "cement_bag": [
+        "concrete_mix_sack",
+        "mortar_powder_bag"
+      ],
+      "steel_rebar": [
+        "reinforcement_steel_bar",
+        "ribbed_tension_rod"
+      ],
+      "power_drill": [
+        "rotary_hammer_drill",
+        "cordless_impact_driver"
+      ]
+    },
+    "observe_dict": {
+      "Viewpoint_Monitor_L1_SecA_Bays_01_and_02": [
+        "L1-SecA-Bay01",
+        "L1-SecA-Bay02"
+      ],
+      "Platform_Inspect_L1_SecB_Silos_X1_and_X2": [
+        "L1-SecB-SiloX1",
+        "L1-SecB-SiloX2"
+      ],
+      "Catwalk_Overlook_L2_SecC_Racks_M_N_O": [
+        "L2-SecC-RackM",
+        "L2-SecC-RackN",
+        "L2-SecC-RackO"
+      ],
+      "Crane_Camera_Ext_Yard_Zones_P9_Q9_R9": [
+        "Ext-Yard-ZoneP9",
+        "Ext-Yard-ZoneQ9",
+        "Ext-Yard-ZoneR9"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "charging_station_alpha",
+      "waste_disposal_dumpster"
+    ],
+    "location_names": {
+      "Level_1_Section_A_Material_Bays_01_and_02": [
+        "L1-SecA-Bay01",
+        "L1-SecA-Bay02"
+      ],
+      "Level_1_Section_B_Bulk_Silos_X1_and_X2": [
+        "L1-SecB-SiloX1",
+        "L1-SecB-SiloX2"
+      ],
+      "All_Level_1_Storage_Indices_01_02_X1_X2": [
+        "L1-SecA-Bay01",
+        "L1-SecA-Bay02",
+        "L1-SecB-SiloX1",
+        "L1-SecB-SiloX2"
+      ],
+      "Level_2_Steel_Racks_Indices_M_and_N": [
+        "L2-SecC-RackM",
+        "L2-SecC-RackN"
+      ],
+      "Level_2_Steel_Racks_Indices_N_and_O": [
+        "L2-SecC-RackN",
+        "L2-SecC-RackO"
+      ],
+      "All_Level_2_Section_C_Racks_Indices_M_to_O": [
+        "L2-SecC-RackM",
+        "L2-SecC-RackN",
+        "L2-SecC-RackO"
+      ],
+      "Exterior_Yard_Scaffold_Zones_Indices_P9_and_Q9": [
+        "Ext-Yard-ZoneP9",
+        "Ext-Yard-ZoneQ9"
+      ],
+      "Exterior_Yard_Scaffold_Zones_Indices_Q9_and_R9": [
+        "Ext-Yard-ZoneQ9",
+        "Ext-Yard-ZoneR9"
+      ],
+      "All_Exterior_Yard_Zones_Indices_P9_through_R9": [
+        "Ext-Yard-ZoneP9",
+        "Ext-Yard-ZoneQ9",
+        "Ext-Yard-ZoneR9"
+      ],
+      "Primary_Starting_Indices_Bays_Silos_Racks_Zones_01_X1_M_P9": [
+        "L1-SecA-Bay01",
+        "L1-SecB-SiloX1",
+        "L2-SecC-RackM",
+        "Ext-Yard-ZoneP9"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "Node10.01",
+      "Node10.02",
+      "Node10.03",
+      "Node20.01",
+      "Node20.02",
+      "Node30.01",
+      "Node30.02",
+      "Node30.03",
+      "Node40.01",
+      "Node40.02"
+    ],
+    "object_types": {
+      "optical_transceiver": [
+        "sfp_module",
+        "fiber_connector"
+      ],
+      "nvme_drive": [
+        "flash_storage",
+        "ssd_stick"
+      ],
+      "patch_cable": [
+        "ethernet_cord",
+        "network_link"
+      ],
+      "cooling_unit": [
+        "chassis_fan",
+        "heat_sink"
+      ]
+    },
+    "observe_dict": {
+      "Thermal_Camera_Scanning_Node10": [
+        "Node10.01",
+        "Node10.02",
+        "Node10.03"
+      ],
+      "Lidar_Sensor_Mapping_Node20": [
+        "Node20.01",
+        "Node20.02"
+      ],
+      "Visual_Monitor_Observing_Node30": [
+        "Node30.01",
+        "Node30.02",
+        "Node30.03"
+      ],
+      "Diagnostic_Probe_Checking_Node40": [
+        "Node40.01",
+        "Node40.02"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "recalibration_bay",
+      "docking_port"
+    ],
+    "location_names": {
+      "Subnet10": [
+        "Node10.01",
+        "Node10.02",
+        "Node10.03"
+      ],
+      "Subnet20": [
+        "Node20.01",
+        "Node20.02"
+      ],
+      "Subnet30": [
+        "Node30.01",
+        "Node30.02",
+        "Node30.03"
+      ],
+      "Subnet40": [
+        "Node40.01",
+        "Node40.02"
+      ],
+      "Nodes01": [
+        "Node10.01",
+        "Node20.01",
+        "Node30.01",
+        "Node40.01"
+      ],
+      "Nodes02": [
+        "Node10.02",
+        "Node20.02",
+        "Node30.02",
+        "Node40.02"
+      ],
+      "Nodes03": [
+        "Node10.03",
+        "Node30.03"
+      ],
+      "Subnets10_20": [
+        "Node10.01",
+        "Node10.02",
+        "Node10.03",
+        "Node20.01",
+        "Node20.02"
+      ],
+      "Subnets30_40": [
+        "Node30.01",
+        "Node30.02",
+        "Node30.03",
+        "Node40.01",
+        "Node40.02"
+      ],
+      "Nodes 01 and 03": [
+        "Node10.01",
+        "Node20.01",
+        "Node30.01",
+        "Node40.01",
+        "Node10.03",
+        "Node30.03"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+        "parcelPalette-1.1.1", "parcelPalette-1.1.2",
+        "parcelPalette-1.2.1", "parcelPalette-1.2.2",
+        "parcelPalette-1.3.1", "parcelPalette-1.3.2",
+        "parcelPalette-2.1.1", "parcelPalette-2.1.2",
+        "parcelPalette-2.2.1", "parcelPalette-2.2.2",
+        "parcelPalette-2.3.1", "parcelPalette-2.3.2",
+        "parcelPalette-3.1.1", "parcelPalette-3.1.2",
+        "parcelPalette-3.2.1", "parcelPalette-3.2.2",
+        "parcelPalette-3.3.1", "parcelPalette-3.3.2"
+    ],
+    "object_types": {
+        "tote": ["crate"],
+        "mailer": ["parcel", "padded envelope"],
+        "shrinkwrap": ["stretch film", "cling roll"]
+    },
+    "observe_dict": {
+        "eye→aisle[1.*.*]": [
+            "parcelPalette-1.1.1", "parcelPalette-1.1.2",
+            "parcelPalette-1.2.1", "parcelPalette-1.2.2",
+            "parcelPalette-1.3.1", "parcelPalette-1.3.2"
+        ],
+        "eye→aisle[2.*.*]": [
+            "parcelPalette-2.1.1", "parcelPalette-2.1.2",
+            "parcelPalette-2.2.1", "parcelPalette-2.2.2",
+            "parcelPalette-2.3.1", "parcelPalette-2.3.2"
+        ],
+        "eye→aisle[3.*.*]": [
+            "parcelPalette-3.1.1", "parcelPalette-3.1.2",
+            "parcelPalette-3.2.1", "parcelPalette-3.2.2",
+            "parcelPalette-3.3.1", "parcelPalette-3.3.2"
+        ]
+    },
+    "general_position_names": [
+        "home",
+        "dock",
+        "charge-pad"
+    ],
+    "location_names": {
+        "pallettes 1": [
+            "parcelPalette-1.1.1", "parcelPalette-1.1.2",
+            "parcelPalette-1.2.1", "parcelPalette-1.2.2",
+            "parcelPalette-1.3.1", "parcelPalette-1.3.2"
+        ],
+        "pallettes2 ": [
+            "parcelPalette-2.1.1", "parcelPalette-2.1.2",
+            "parcelPalette-2.2.1", "parcelPalette-2.2.2",
+            "parcelPalette-2.3.1", "parcelPalette-2.3.2"
+        ],
+        "pallettes3": [
+            "parcelPalette-3.1.1", "parcelPalette-3.1.2",
+            "parcelPalette-3.2.1", "parcelPalette-3.2.2",
+            "parcelPalette-3.3.1", "parcelPalette-3.3.2"
+        ],
+        "pallettes x.x.1": [
+            "parcelPalette-1.1.1", "parcelPalette-1.2.1", "parcelPalette-1.3.1",
+            "parcelPalette-2.1.1", "parcelPalette-2.2.1", "parcelPalette-2.3.1",
+            "parcelPalette-3.1.1", "parcelPalette-3.2.1", "parcelPalette-3.3.1"
+        ],
+        "Palettes tier both indices anything, last index 2]": [
+            "parcelPalette-1.1.2", "parcelPalette-1.2.2", "parcelPalette-1.3.2",
+            "parcelPalette-2.1.2", "parcelPalette-2.2.2", "parcelPalette-2.3.2",
+            "parcelPalette-3.1.2", "parcelPalette-3.2.2", "parcelPalette-3.3.2"
+        ],
+        "Palettes[1.1.*]": ["parcelPalette-1.1.1", "parcelPalette-1.1.2"],
+        "Palettesshelf - 1.2.*": ["parcelPalette-1.2.1", "parcelPalette-1.2.2"],
+        "Palettes 1st line index 1, 2nd - 3": ["parcelPalette-1.3.1", "parcelPalette-1.3.2"],
+        "Palettes 1st index 2, 2nd index 1": ["parcelPalette-2.1.1", "parcelPalette-2.1.2"],
+        "Palettes 2 something 2 something": ["parcelPalette-2.2.1", "parcelPalette-2.2.2"],
+        "Palettes block[2.3.*]": ["parcelPalette-2.3.1", "parcelPalette-2.3.2"],
+        "Palettes31": ["parcelPalette-3.1.1", "parcelPalette-3.1.2"],
+        "Palettes32.*": ["parcelPalette-3.2.1", "parcelPalette-3.2.2"],
+        "Box storages 3... ": ["parcelPalette-3.3.1", "parcelPalette-3.3.2"]
+    }
+}
 ]

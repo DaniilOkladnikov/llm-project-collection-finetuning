@@ -1,0 +1,1706 @@
+{
+ "object_locations": [
+  "collection_bin",
+  "nest_4",
+  "zone_014",
+  "zone_004",
+  "tree_4",
+  "zone_002",
+  "pos.y1.x0",
+  "pos.y1.x3",
+  "zone_016",
+  "zone_008",
+  "tree_3",
+  "tree_1",
+  "zone_018",
+  "nickel_bin",
+  "zone_006",
+  "penny_bin",
+  "zone_010",
+  "zone_012",
+  "tree_5",
+  "tree_2"
+ ],
+ "object_types": [
+  "parcel_heavy",
+  "brush_fine",
+  "sku_005",
+  "product_SKU_003",
+  "item_SKU_002",
+  "framework_pipe",
+  "steak_cut",
+  "water_conduit"
+ ],
+ "positions": {
+  "tree_3.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone_004.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_010.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_2.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "zone_016.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_016.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_008.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_016.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "tree_3.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "pos.y1.x3.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pos.y1.x3.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "penny_bin.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "pos.y1.x0.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "nickel_bin.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "zone_004.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "nest_4.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "collection_bin.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "collection_bin.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "nickel_bin.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "pos.y1.x0.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "tree_3.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone_016.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_010.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_4.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "tree_2.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "pos.y1.x3.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "zone_002.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_018.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "tree_3.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "collection_bin.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "tree_3.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "pos.y1.x0.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "zone_004.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_004.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_012.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_014.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_014.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "tree_3.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "penny_bin.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "zone_010.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_010.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_5.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "tree_1.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "zone_006.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "pos.y1.x0.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "zone_012.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "tree_5.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "nickel_bin.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "nest_4.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "nest_4.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "zone_014.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_010.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_1.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "zone_014.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "tree_5.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "zone_010.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_006.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "tree_1.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "pos.y1.x0.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "tree_4.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "zone_016.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "tree_4.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "zone_002.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_018.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_008.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_008.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "collection_bin.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "zone_016.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "nest_4.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "zone_010.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_1.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "tree_5.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "pos.y1.x0.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "collection_bin.item.sku_005.acquire": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "nickel_bin.item.water_conduit.acquire": {
+   "type": "PICK",
+   "bound_type": "water_conduit",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "zone_006.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "tree_4.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "zone_006.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_016.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_002.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "nest_4.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "zone_008.item.framework_pipe.acquire": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "pos.y1.x3.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "zone_018.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "pos.y1.x0.item.brush_fine.acquire": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pos.y1.x3.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "collection_bin.item.parcel_heavy.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_heavy",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "zone_006.item.steak_cut.acquire": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "penny_bin.item.product_SKU_003.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "collection_bin.item.item_SKU_002.acquire": {
+   "type": "PICK",
+   "bound_type": "item_SKU_002",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "tree_3:water_conduit:DROP": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/release/sku_005/to/zone_004": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone_010:water_conduit:DROP": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_2:parcel_heavy:DROP": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/release/product_SKU_003/to/zone_016": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "zone_016:framework_pipe:DROP": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "actions/release/steak_cut/to/zone_008": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_016:parcel_heavy:DROP": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/tree_3": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "pos.y1.x3:product_SKU_003:DROP": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "actions/release/framework_pipe/to/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "penny_bin:steak_cut:DROP": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "pos.y1.x0:parcel_heavy:DROP": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/nickel_bin/framework_pipe": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "zone_004:parcel_heavy:DROP": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/nest_4/water_conduit": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "DEPOSIT/collection_bin/product_SKU_003": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "actions/release/framework_pipe/to/collection_bin": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/nickel_bin/parcel_heavy": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "pos.y1.x0:item_SKU_002:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "actions/release/sku_005/to/tree_3": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone_016:steak_cut:DROP": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "actions/release/sku_005/to/zone_010": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_4/brush_fine": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_2/framework_pipe": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/steak_cut": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "actions/release/steak_cut/to/zone_002": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_018:steak_cut:DROP": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_3/framework_pipe": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/release/steak_cut/to/collection_bin": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "tree_3:parcel_heavy:DROP": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/release/product_SKU_003/to/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "actions/release/product_SKU_003/to/zone_004": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "actions/release/framework_pipe/to/zone_004": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "actions/release/water_conduit/to/zone_012": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "actions/release/item_SKU_002/to/zone_014": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/zone_014": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "actions/release/item_SKU_002/to/tree_3": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "penny_bin:water_conduit:DROP": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "actions/release/item_SKU_002/to/zone_010": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_010/brush_fine": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "actions/release/water_conduit/to/tree_5": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/tree_1": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "zone_006:sku_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x0/steak_cut": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "zone_012:brush_fine:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "tree_5:brush_fine:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/nickel_bin/steak_cut": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "nest_4:item_SKU_002:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "DEPOSIT/nest_4/brush_fine": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "actions/release/framework_pipe/to/zone_014": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "zone_010:framework_pipe:DROP": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "actions/release/product_SKU_003/to/tree_1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/release/parcel_heavy/to/zone_014": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_5/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_010/parcel_heavy": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_006:item_SKU_002:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "actions/release/parcel_heavy/to/tree_1": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x0/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "tree_4:product_SKU_003:DROP": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "zone_016:sku_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "actions/release/framework_pipe/to/tree_4": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "zone_002:brush_fine:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone_018:brush_fine:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_008/item_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_008:brush_fine:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/collection_bin": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "zone_016:water_conduit:DROP": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "nest_4:product_SKU_003:DROP": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "zone_010:steak_cut:DROP": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_1:steak_cut:DROP": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_5/parcel_heavy": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/release/water_conduit/to/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "collection_bin:sku_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/nickel_bin/water_conduit": {
+   "type": "PLACE",
+   "bound_type": "water_conduit",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "actions/release/framework_pipe/to/zone_006": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "actions/release/steak_cut/to/tree_4": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/release/parcel_heavy/to/zone_006": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/zone_016": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_016",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_002/framework_pipe": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "nest_4:steak_cut:DROP": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "actions/release/framework_pipe/to/zone_008": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "actions/release/parcel_heavy/to/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "actions/release/parcel_heavy/to/zone_018": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "actions/release/brush_fine/to/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "actions/release/item_SKU_002/to/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "collection_bin:parcel_heavy:DROP": {
+   "type": "PLACE",
+   "bound_type": "parcel_heavy",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_006/steak_cut": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "penny_bin:product_SKU_003:DROP": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/collection_bin/item_SKU_002": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_002",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_002"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004",
+    "zone_006",
+    "zone_008"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010",
+    "zone_012",
+    "zone_014",
+    "zone_016",
+    "zone_018"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x3"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_4"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin",
+    "nickel_bin"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_2",
+    "tree_3",
+    "tree_4",
+    "tree_5"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "collection_bin"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "parcel_heavy",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "item_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "water_conduit",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "even numbered zones": [
+   "zone_002",
+   "zone_004",
+   "zone_006",
+   "zone_008",
+   "zone_010",
+   "zone_012",
+   "zone_014",
+   "zone_016",
+   "zone_018"
+  ],
+  "poses with y1 x0 or y1 x3": [
+   "pos.y1.x0",
+   "pos.y1.x3"
+  ],
+  "inside the penny or nickel containers": [
+   "penny_bin",
+   "nickel_bin"
+  ],
+  "trees 1 through 5 or collection bin": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "collection_bin"
+  ],
+  "first three trees": [
+   "tree_1",
+   "tree_2",
+   "tree_3"
+  ]
+ }
+}

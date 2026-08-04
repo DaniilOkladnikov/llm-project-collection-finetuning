@@ -1,0 +1,1249 @@
+{
+ "object_locations": [
+  "palette_well_6",
+  "zone_004",
+  "parcelPalette-1.2.1",
+  "burner_back_left",
+  "zone_002",
+  "shelf_L2_S3",
+  "tree_3",
+  "zone_003",
+  "cement_bag_pile",
+  "shelf_L3_S4",
+  "tree_2",
+  "tray_infeed_slot2",
+  "parcelPalette-3.3.2",
+  "table_Q2",
+  "parcelPalette-3.3.1",
+  "parcelPalette-1.2.2",
+  "zone_006",
+  "tray_outfeed_slot1",
+  "zone_005"
+ ],
+ "object_types": [
+  "silver_pellet",
+  "ovum",
+  "bolt",
+  "cog",
+  "token_B"
+ ],
+ "positions": {
+  "op/grab/silver_pellet/loc/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/zone_005": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/tree_3": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/tree_3": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/zone_006": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/zone_006": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/tree_2": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/zone_003": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/zone_006": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/tree_2": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/zone_004": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/zone_002": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/table_Q2": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/zone_004": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/zone_005": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/table_Q2": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/tree_3": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/zone_005": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/tree_3": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/zone_006": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/zone_006": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "op/grab/bolt/loc/zone_003": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/zone_003": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "op/grab/ovum/loc/tree_2": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/zone_002": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "op/grab/token_B/loc/zone_003": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "op/grab/silver_pellet/loc/zone_002": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/table_Q2": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "op/grab/cog/loc/parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.2.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S4.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.2.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S4.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "zone.palette_well_6.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "zone.tree_3.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone.tree_3.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone.tray_outfeed_slot1.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "zone.cement_bag_pile.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.tree_2.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "zone.tray_outfeed_slot1.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "zone.zone_003.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.1.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "zone.shelf_L2_S3.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.tree_2.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "zone.tray_outfeed_slot1.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "zone.burner_back_left.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "zone.zone_004.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone.zone_002.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone.cement_bag_pile.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "zone.cement_bag_pile.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.2.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "zone.burner_back_left.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "zone.zone_004.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S4.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.1.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "zone.cement_bag_pile.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.2.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "zone.palette_well_6.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.2.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S4.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "zone.tree_3.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "zone.tray_infeed_slot2.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "zone.tree_3.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.tray_outfeed_slot1.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.1.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "zone.zone_006.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.zone_003.item.bolt.release": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone.tray_outfeed_slot1.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "zone.zone_003.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone.tree_2.item.ovum.release": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "zone.zone_002.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone.zone_003.item.token_B.release": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "zone.zone_002.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-1.2.2.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.2.item.cog.release": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot1"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_002",
+    "zone_003"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004",
+    "zone_005",
+    "zone_006"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_6"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S4"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_back_left"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_2",
+    "tree_3"
+   ]
+  },
+  "cement_station_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cement_bag_pile"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.2.2"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.3.1",
+    "parcelPalette-3.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "battery_charging_dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "infeed slot 2 or outfeed slot 1": [
+   "tray_infeed_slot2",
+   "tray_outfeed_slot1"
+  ],
+  "zones 2-6": [
+   "zone_002",
+   "zone_003",
+   "zone_004",
+   "zone_005",
+   "zone_006"
+  ],
+  "Palettesshelf - 1.2.*": [
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2"
+  ],
+  "Box storages 3... ": [
+   "parcelPalette-3.3.1",
+   "parcelPalette-3.3.2"
+  ]
+ }
+}

@@ -1,0 +1,1474 @@
+{
+ "object_locations": [
+  "binB_102",
+  "binA_004",
+  "binB_101",
+  "binB_104",
+  "bay_B",
+  "palette_well_3",
+  "bay_A",
+  "binA_002",
+  "binA_001",
+  "binA_005",
+  "pos.y0.x3",
+  "bay_C",
+  "pos.y0.x1",
+  "binA_003",
+  "pos.y0.x2",
+  "binB_103",
+  "pos.y0.x0"
+ ],
+ "object_types": [
+  "protein_tofu",
+  "dime",
+  "reagent_tube",
+  "tile_K",
+  "copper_ingot",
+  "rice_kernel",
+  "flash_storage",
+  "tire_winter",
+  "tile_G"
+ ],
+ "positions": {
+  "flash_storage-from-binB_102": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "flash_storage-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "flash_storage-from-pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "tire_winter-from-pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "reagent_tube-from-binA_002": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "tile_K-from-binA_003": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "flash_storage-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "tire_winter-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "flash_storage-from-binA_001": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "copper_ingot-from-binA_005": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "protein_tofu-from-binB_102": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "protein_tofu-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "tire_winter-from-pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "flash_storage-from-pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "tile_G-from-bay_C": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "rice_kernel-from-binB_103": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "tire_winter-from-pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "tile_G-from-pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "tile_G-from-binA_005": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "rice_kernel-from-binB_104": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "protein_tofu-from-pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "reagent_tube-from-palette_well_3": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "protein_tofu-from-binA_001": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "protein_tofu-from-pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "dime-from-binB_104": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "rice_kernel-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "protein_tofu-from-binA_003": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "reagent_tube-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "tile_K-from-pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "tile_K-from-binA_004": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "rice_kernel-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "dime-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "dime-from-pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "reagent_tube-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "reagent_tube-from-pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "rice_kernel-from-binA_001": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "dime-from-bay_A": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "rice_kernel-from-pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "dime-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "reagent_tube-from-binA_001": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "copper_ingot-from-binB_104": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "flash_storage-from-binA_005": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "tire_winter-from-pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "dime-from-pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "tire_winter-from-binA_005": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "tire_winter-from-binA_004": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "copper_ingot-from-bay_B": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "copper_ingot-from-pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "tile_G-from-binB_104": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "copper_ingot-from-bay_A": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "tile_G-from-palette_well_3": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "copper_ingot-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "protein_tofu-from-pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "protein_tofu-from-binA_004": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "copper_ingot-from-binA_001": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "protein_tofu-from-binA_005": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "copper_ingot-from-pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "tile_K-from-palette_well_3": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "tire_winter-from-binA_002": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "copper_ingot-from-pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "tile_G-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "rice_kernel-from-pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "rice_kernel-from-binA_004": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "reagent_tube-from-pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "protein_tofu-from-binA_002": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "tile_K-from-pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "flash_storage-from-binB_103": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "dime-from-binA_004": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "reagent_tube-from-binA_004": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "dime-from-binA_005": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "tile_K-from-bay_A": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "flash_storage-from-binB_104": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "tire_winter-from-palette_well_3": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "tire_winter-from-binB_104": {
+   "type": "PICK",
+   "bound_type": "tire_winter",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "rice_kernel-from-binA_002": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "store:flash_storage:binB_102": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "deposit_flash_storage@bay_B": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "store:flash_storage:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "store:tire_winter:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "store:reagent_tube:binA_002": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "store:tile_K:binA_003": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=flash_storage&dest=binB_101": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tire_winter&dest=binB_101": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=flash_storage&dest=binA_001": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "store:copper_ingot:binA_005": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=protein_tofu&dest=binB_102": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "store:protein_tofu:bay_B": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "deposit_tire_winter@pos.y0.x1": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "deposit_flash_storage@pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "store:tile_G:bay_C": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=rice_kernel&dest=binB_103": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "store:tire_winter:pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_G&dest=pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_G&dest=binA_005": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=rice_kernel&dest=binB_104": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "deposit_protein_tofu@pos.y0.x1": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=reagent_tube&dest=palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "deposit_protein_tofu@binA_001": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=protein_tofu&dest=pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "deposit_dime@binB_104": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "deposit_rice_kernel@bay_B": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=protein_tofu&dest=binA_003": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "store:reagent_tube:bay_B": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_K&dest=pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "deposit_tile_K@binA_004": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "deposit_rice_kernel@binB_101": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=dime&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=dime&dest=pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=reagent_tube&dest=binB_101": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "deposit_reagent_tube@pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "store:rice_kernel:binA_001": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "deposit_dime@bay_A": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_rice_kernel@pos.y0.x1": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "deposit_dime@binB_101": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "store:reagent_tube:binA_001": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "store:copper_ingot:binB_104": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "deposit_flash_storage@binA_005": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "store:tire_winter:pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "deposit_dime@pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tire_winter&dest=binA_005": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "store:tire_winter:binA_004": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=copper_ingot&dest=bay_B": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "store:copper_ingot:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "deposit_tile_G@binB_104": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "store:copper_ingot:bay_A": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_tile_G@palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "store:copper_ingot:binB_101": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "store:protein_tofu:pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "deposit_protein_tofu@binA_004": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=copper_ingot&dest=binA_001": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=protein_tofu&dest=binA_005": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "deposit_copper_ingot@pos.y0.x1": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "deposit_tile_K@palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "deposit_tire_winter@binA_002": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "deposit_copper_ingot@pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "deposit_tile_G@binB_101": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=rice_kernel&dest=pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=rice_kernel&dest=binA_004": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "store:reagent_tube:pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "store:protein_tofu:binA_002": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "store:tile_K:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "deposit_flash_storage@binB_103": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=dime&dest=binA_004": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "store:reagent_tube:binA_004": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "deposit_dime@binA_005": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "deposit_tile_K@bay_A": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "deposit_flash_storage@binB_104": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tire_winter&dest=palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tire_winter&dest=binB_104": {
+   "type": "PLACE",
+   "bound_type": "tire_winter",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "store:rice_kernel:binA_002": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001",
+    "binA_002",
+    "binA_003",
+    "binA_004",
+    "binA_005"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101",
+    "binB_102",
+    "binB_103",
+    "binB_104"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x0",
+    "pos.y0.x1",
+    "pos.y0.x2",
+    "pos.y0.x3"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_3"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "tire_winter",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "binA_002 to binB_102": [
+   "binA_002",
+   "binA_003",
+   "binA_004",
+   "binA_005",
+   "binB_101",
+   "binB_102"
+  ],
+  "bins from A_001 to B_102": [
+   "binA_001",
+   "binA_002",
+   "binA_003",
+   "binA_004",
+   "binA_005",
+   "binB_101",
+   "binB_102"
+  ],
+  "binA slots 1 or 2": [
+   "binA_001",
+   "binA_002"
+  ],
+  "binB any opening except last": [
+   "binB_101",
+   "binB_102",
+   "binB_103",
+   "binB_104"
+  ],
+  "first two slots of A": [
+   "binA_001",
+   "binA_002"
+  ],
+  "odd numbered slots in binA": [
+   "binA_001",
+   "binA_003",
+   "binA_005"
+  ],
+  "even numbered slots in binA": [
+   "binA_002",
+   "binA_004"
+  ],
+  "locations ending in 03": [
+   "binA_003",
+   "binB_103"
+  ],
+  "bay A/B/C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "bays A through B": [
+   "bay_A",
+   "bay_B"
+  ],
+  "outermost bays (A and C)": [
+   "bay_A",
+   "bay_C"
+  ],
+  "bays A to C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "one of the bays A through C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "any pos with y0": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y0.x2",
+   "pos.y0.x3"
+  ],
+  "poses with y0": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y0.x2",
+   "pos.y0.x3"
+  ]
+ }
+}

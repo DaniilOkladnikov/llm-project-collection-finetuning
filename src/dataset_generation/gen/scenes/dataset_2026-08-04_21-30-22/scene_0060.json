@@ -1,0 +1,1026 @@
+{
+ "object_locations": [
+  "hook_6",
+  "hook_4",
+  "shelf_L3_S3",
+  "pos.y2.x3",
+  "hook_3",
+  "hook_2",
+  "conveyor_drop_zone",
+  "shelf_L2_S3",
+  "pos.y2.x2",
+  "hook_5",
+  "hook_1",
+  "shelf_L1_S1",
+  "parcelPalette-3.3.2",
+  "tree_12",
+  "pos.y2.x0",
+  "parcelPalette-3.3.1",
+  "shelf_L2_S1",
+  "shelf_L1_S3",
+  "shelf_L3_S1",
+  "pos.y2.x1"
+ ],
+ "object_types": [
+  "oat_kernel",
+  "bracket",
+  "token_G",
+  "scaffolding_pole"
+ ],
+ "positions": {
+  "picking/scaffolding_pole/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "get|token_G|@|tree_12": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "get|token_G|@|shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "get|oat_kernel|@|shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "get|bracket|@|shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "picking/scaffolding_pole/conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "picking/bracket/shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "picking/bracket/pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_drop_zone/token_G/pick": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_drop_zone/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "get|bracket|@|shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "/mnt/pos.y2.x3/token_G/pick": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "/mnt/hook_2/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "picking/token_G/shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "get|bracket|@|hook_3": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/token_G/pick": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "get|oat_kernel|@|pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "picking/oat_kernel/shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/token_G/pick": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "picking/oat_kernel/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/bracket/pick": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "get|token_G|@|hook_2": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "/mnt/hook_2/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "picking/bracket/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "get|bracket|@|hook_2": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "get|token_G|@|hook_5": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "get|scaffolding_pole|@|hook_1": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "picking/token_G/pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S1/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "picking/bracket/parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "picking/oat_kernel/pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "/mnt/hook_6/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "get|bracket|@|shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "picking/scaffolding_pole/tree_12": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "get|token_G|@|hook_1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "/mnt/hook_1/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "picking/token_G/shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "picking/bracket/hook_4": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "picking/token_G/hook_6": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "picking/scaffolding_pole/shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "picking/bracket/hook_1": {
+   "type": "PICK",
+   "bound_type": "bracket",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "/mnt/hook_6/oat_kernel/pick": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.pos.y2.x0.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "zone.tree_12.item.token_G.release": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "token_G-to-shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.shelf_L2_S3.item.oat_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S3.item.bracket.release": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.conveyor_drop_zone.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "bracket-to-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "zone.pos.y2.x0.item.bracket.release": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.2.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "zone.conveyor_drop_zone.item.token_G.release": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "oat_kernel-to-conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "bracket-to-shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "token_G-to-pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "zone.hook_2.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S1.item.token_G.release": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "zone.hook_3.item.bracket.release": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.2.item.token_G.release": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "zone.pos.y2.x3.item.oat_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.2.item.oat_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "oat_kernel-to-shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "token_G-to-shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "oat_kernel-to-shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "bracket-to-parcelPalette-3.3.2": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "zone.hook_2.item.token_G.release": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "oat_kernel-to-hook_2": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "scaffolding_pole-to-pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "bracket-to-shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "bracket-to-hook_2": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "token_G-to-hook_5": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "zone.hook_1.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "token_G-to-pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "zone.shelf_L2_S1.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "zone.parcelPalette-3.3.1.item.bracket.release": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "zone.pos.y2.x1.item.oat_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "scaffolding_pole-to-hook_6": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "bracket-to-shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "scaffolding_pole-to-tree_12": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "zone.hook_1.item.token_G.release": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "zone.hook_1.item.oat_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "token_G-to-shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "scaffolding_pole-to-shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "bracket-to-hook_4": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "token_G-to-hook_6": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.shelf_L2_S3.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "zone.hook_1.item.bracket.release": {
+   "type": "PLACE",
+   "bound_type": "bracket",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "zone.hook_6.item.oat_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1",
+    "pos.y2.x2",
+    "pos.y2.x3"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_1",
+    "hook_2",
+    "hook_3",
+    "hook_4",
+    "hook_5",
+    "hook_6"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S3"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_12"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.3.1",
+    "parcelPalette-3.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "conveyor_wait_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "coat_room_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "bracket",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "poses with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "positions with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "any hook": [
+   "hook_1",
+   "hook_2",
+   "hook_3",
+   "hook_4",
+   "hook_5",
+   "hook_6"
+  ],
+  "odd numbered hooks": [
+   "hook_1",
+   "hook_3",
+   "hook_5"
+  ],
+  "even numbered hangers": [
+   "hook_2",
+   "hook_4",
+   "hook_6"
+  ],
+  "first three hooks": [
+   "hook_1",
+   "hook_2",
+   "hook_3"
+  ],
+  "hooks 4 through 6": [
+   "hook_4",
+   "hook_5",
+   "hook_6"
+  ],
+  "self S1 of each level": [
+   "shelf_L1_S1",
+   "shelf_L2_S1",
+   "shelf_L3_S1"
+  ],
+  "odd numbered compartments across all shelf levels": [
+   "shelf_L1_S1",
+   "shelf_L1_S3",
+   "shelf_L2_S1",
+   "shelf_L2_S3",
+   "shelf_L3_S1",
+   "shelf_L3_S3"
+  ],
+  "Box storages 3... ": [
+   "parcelPalette-3.3.1",
+   "parcelPalette-3.3.2"
+  ]
+ }
+}

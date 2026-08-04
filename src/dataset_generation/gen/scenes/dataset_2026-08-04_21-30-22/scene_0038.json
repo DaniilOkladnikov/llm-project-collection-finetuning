@@ -1,0 +1,1178 @@
+{
+ "object_locations": [
+  "pot_small",
+  "cell_R4C1",
+  "slot1_4",
+  "nest_4",
+  "pot_medium",
+  "slot2_4",
+  "pos.y2.x3",
+  "pos.y0.x3",
+  "nest_2",
+  "DEBRIScontainer",
+  "slot3_4",
+  "pos.y1.x3",
+  "zone_008"
+ ],
+ "object_types": [
+  "rook",
+  "mortar_powder_sack",
+  "horse",
+  "jacket",
+  "white_ball",
+  "stock",
+  "rubble",
+  "tile_L"
+ ],
+ "positions": {
+  "ACQUIRE/pos.y2.x3/white_ball": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x3/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/DEBRIScontainer/white_ball": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot2_4/stock": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "op/grab/jacket/loc/nest_2": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/pot_medium/stock": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_008/white_ball": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot1_4/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/DEBRIScontainer/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "op/grab/horse/loc/zone_008": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "op/grab/rubble/loc/nest_2": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot2_4/rook": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "op/grab/white_ball/loc/pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/grab/rook/loc/pot_medium": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "op/grab/mortar_powder_sack/loc/slot1_4": {
+   "type": "PICK",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot3_4/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "op/grab/jacket/loc/slot2_4": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/DEBRIScontainer/mortar_powder_sack": {
+   "type": "PICK",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "op/grab/jacket/loc/pot_medium": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "op/grab/horse/loc/pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_008/mortar_powder_sack": {
+   "type": "PICK",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y2.x3/stock": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x3/stock": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "op/grab/stock/loc/DEBRIScontainer": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C1/white_ball": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "op/grab/rubble/loc/slot2_4": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot3_4/mortar_powder_sack": {
+   "type": "PICK",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/pot_small/tile_L": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "op/grab/horse/loc/cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "op/grab/jacket/loc/pot_small": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "ACQUIRE/nest_4/white_ball": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/nest_2/white_ball": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "op/grab/tile_L/loc/pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "op/grab/tile_L/loc/slot1_4": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/DEBRIScontainer/rook": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y2.x3/tile_L": {
+   "type": "PICK",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "op/grab/horse/loc/pot_small": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "op/grab/rook/loc/zone_008": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ACQUIRE/nest_2/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/stock": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/DEBRIScontainer/jacket": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot3_4/rook": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "op/grab/white_ball/loc/slot2_4": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "op/grab/mortar_powder_sack/loc/nest_4": {
+   "type": "PICK",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/rook": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/grab/stock/loc/cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "op/grab/rubble/loc/DEBRIScontainer": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "op/grab/rubble/loc/slot1_4": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/slot2_4/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/pot_medium/white_ball": {
+   "type": "PICK",
+   "bound_type": "white_ball",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "op/grab/jacket/loc/slot3_4": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "op/grab/stock/loc/nest_4": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/nest_2/stock": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "op/grab/jacket/loc/pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/grab/rubble/loc/slot3_4": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "op/grab/rubble/loc/pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "op/grab/rook/loc/nest_4": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "op/grab/mortar_powder_sack/loc/pot_medium": {
+   "type": "PICK",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "placewhite_ballpos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "placehorsepos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "placewhite_ballDEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "placestockslot2_4": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "placejacketnest_2": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "placestockpot_medium": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "placewhite_ballzone_008": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "placehorseslot1_4": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "placehorseDEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "placehorsezone_008": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "placerubblenest_2": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "placerookslot2_4": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "placewhite_ballpos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "placerookpot_medium": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "placemortar_powder_sackslot1_4": {
+   "type": "PLACE",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "placehorseslot3_4": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "placejacketslot2_4": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "placemortar_powder_sackDEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "placejacketpot_medium": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "placehorsepos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "placemortar_powder_sackzone_008": {
+   "type": "PLACE",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "placestockpos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "placestockpos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "placestockDEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "placewhite_ballcell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "placerubbleslot2_4": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "placemortar_powder_sackslot3_4": {
+   "type": "PLACE",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "placetile_Lpot_small": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "placehorsecell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "placejacketpot_small": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "placewhite_ballnest_4": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "placewhite_ballnest_2": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "placetile_Lpos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "placetile_Lslot1_4": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "placerookDEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "placetile_Lpos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "tile_L",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "placehorsepot_small": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "placerookzone_008": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "placehorsenest_2": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "placestockpos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "placejacketDEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "placerookslot3_4": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "placewhite_ballslot2_4": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "placemortar_powder_sacknest_4": {
+   "type": "PLACE",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "placerookpos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "placestockcell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "placerubbleDEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "placerubbleslot1_4": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "placehorseslot2_4": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "placewhite_ballpot_medium": {
+   "type": "PLACE",
+   "bound_type": "white_ball",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "placejacketslot3_4": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "placestocknest_4": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "placestocknest_2": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "placejacketpos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "placerubbleslot3_4": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "placerubblepos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "placerooknest_4": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "placemortar_powder_sackpot_medium": {
+   "type": "PLACE",
+   "bound_type": "mortar_powder_sack",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "slot1_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot1_4"
+   ]
+  },
+  "slot2_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot2_4"
+   ]
+  },
+  "slot3_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot3_4"
+   ]
+  },
+  "DEBRIScontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "DEBRIScontainer"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_008"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x3"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x3"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_2",
+    "nest_4"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C1"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "mortar_powder_sack",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "mortar_powder_sack",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "mortar_powder_sack",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "mortar_powder_sack",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "mortar_powder_sack",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "mortar_powder_sack",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "white_ball",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "tile_L",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "last cells of each slot": [
+   "slot1_4",
+   "slot2_4",
+   "slot3_4"
+  ],
+  "any pos with x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "poses x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "even numbered nests": [
+   "nest_2",
+   "nest_4"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ]
+ }
+}

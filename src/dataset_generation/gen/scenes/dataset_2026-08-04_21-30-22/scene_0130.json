@@ -1,0 +1,1096 @@
+{
+ "object_locations": [
+  "tree_7",
+  "shelf_L3_S3",
+  "drawer_9",
+  "shelf_L3_S4",
+  "tree_5",
+  "Node30.02",
+  "shelf_L3_S2",
+  "Node40.02",
+  "METALcontainer",
+  "drawer_8",
+  "Node40.01",
+  "tree_12",
+  "tree_11",
+  "Node30.01",
+  "Node30.03",
+  "drawer_10",
+  "zone_006",
+  "shelf_L3_S1",
+  "tree_6"
+ ],
+ "object_types": [
+  "red_ball",
+  "grain_teff",
+  "tile_G",
+  "silver_pellet"
+ ],
+ "positions": {
+  "move/pick/red_ball?src=drawer_10": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "ns:Node30.01:item:grain_teff:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=METALcontainer": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "move/pick/tile_G?src=tree_7": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:drawer_8:item:tile_G:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "ns:drawer_10:item:silver_pellet:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S1:item:grain_teff:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "ns:Node30.03:item:tile_G:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "move/pick/red_ball?src=tree_5": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=drawer_10": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:tile_G:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "move/pick/tile_G?src=zone_006": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "move/pick/tile_G?src=tree_6": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:Node40.02:item:tile_G:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "move/pick/tile_G?src=Node40.01": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=tree_5": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tile_G&source=Node30.01": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "move/pick/red_ball?src=tree_7": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:drawer_8:item:red_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=drawer_9": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_ball&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=Node30.02": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "move/pick/red_ball?src=Node30.03": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tile_G&source=shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ns:Node30.02:item:grain_teff:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "move/pick/silver_pellet?src=tree_7": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:zone_006:item:red_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:red_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=Node30.03": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "ns:drawer_10:item:tile_G:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_G",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_ball&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "ns:Node40.01:item:red_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=tree_7": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=drawer_8": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "ns:tree_12:item:grain_teff:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:silver_pellet:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:silver_pellet:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:silver_pellet:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=Node30.03": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "ns:Node40.01:item:silver_pellet:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "move/pick/grain_teff?src=zone_006": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_ball&source=shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "move/pick/silver_pellet?src=Node30.01": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_ball&source=shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ns:METALcontainer:item:red_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:grain_teff:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:Node40.01:item:grain_teff:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "placing/red_ball/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--Node30.01": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "placing/silver_pellet/shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "placing/tile_G/tree_7": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "placing/tile_G/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "placing/silver_pellet/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "placing/tile_G/Node30.03": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "--release--red_ball--at--tree_5": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "placing/grain_teff/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "--release--tile_G--at--shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "--release--tile_G--at--zone_006": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "placing/tile_G/tree_6": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "--release--tile_G--at--Node40.02": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "placing/tile_G/Node40.01": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--tree_5": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "--release--tile_G--at--Node30.01": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "placing/red_ball/tree_7": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "placing/red_ball/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "placing/grain_teff/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "placing/red_ball/tree_12": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--Node30.02": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "--release--red_ball--at--Node30.03": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "--release--tile_G--at--shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--Node30.02": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--tree_7": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "placing/red_ball/zone_006": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--tree_12": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "--release--red_ball--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "placing/silver_pellet/Node30.03": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "placing/tile_G/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "tile_G",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "--release--red_ball--at--Node40.02": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "placing/red_ball/Node40.01": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "placing/grain_teff/tree_7": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--drawer_8": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "placing/grain_teff/tree_12": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "placing/silver_pellet/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "placing/silver_pellet/tree_11": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--tree_6": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "placing/grain_teff/Node30.03": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--Node40.01": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--zone_006": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "placing/silver_pellet/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "--release--red_ball--at--shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--Node40.02": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "--release--silver_pellet--at--Node30.01": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "--release--red_ball--at--shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--red_ball--at--METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "--release--grain_teff--at--Node40.01": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "METALcontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "METALcontainer"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_006"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_8",
+    "drawer_9",
+    "drawer_10"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S2",
+    "shelf_L3_S3",
+    "shelf_L3_S4"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01",
+    "Node30.02",
+    "Node30.03"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.01",
+    "Node40.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "tile_G",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "any of the drawers 8 through 10": [
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "within the last two drawers": [
+   "drawer_9",
+   "drawer_10"
+  ],
+  "shelf_L3 slots": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "shelf L3 bays": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "tree 5-7 or tree 11-12": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_11",
+   "tree_12"
+  ],
+  "Subnet30": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03"
+  ],
+  "Subnet40": [
+   "Node40.01",
+   "Node40.02"
+  ],
+  "Subnets30_40": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03",
+   "Node40.01",
+   "Node40.02"
+  ]
+ }
+}

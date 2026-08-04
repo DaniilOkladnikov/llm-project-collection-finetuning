@@ -1,0 +1,813 @@
+{
+ "object_locations": [
+  "table_Q4",
+  "tire_bay_FR",
+  "tire_bay_FL",
+  "zone_018",
+  "workbench_A1",
+  "table_Q1",
+  "workbench_A2",
+  "binA_001",
+  "zone_017"
+ ],
+ "object_types": [
+  "brush_fine",
+  "sku_004",
+  "screw",
+  "token_G",
+  "roller_blue",
+  "ten_cent_coin",
+  "box_domestic"
+ ],
+ "positions": {
+  "workbench_A2:box_domestic:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "workbench_A2:brush_fine:GRASP": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "workbench_A2:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "tire_bay_FR:brush_fine:GRASP": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "binA_001:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "binA_001:brush_fine:GRASP": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "tire_bay_FR:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "zone_017:ten_cent_coin:GRASP": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "workbench_A1:screw:GRASP": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "table_Q1:token_G:GRASP": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "tire_bay_FL:box_domestic:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "workbench_A1:sku_004:GRASP": {
+   "type": "PICK",
+   "bound_type": "sku_004",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "tire_bay_FL:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "tire_bay_FL:brush_fine:GRASP": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "table_Q1:ten_cent_coin:GRASP": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "workbench_A1:token_G:GRASP": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "zone_018:sku_004:GRASP": {
+   "type": "PICK",
+   "bound_type": "sku_004",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "workbench_A1:ten_cent_coin:GRASP": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "zone_017:box_domestic:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "zone_018:token_G:GRASP": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_018:ten_cent_coin:GRASP": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "zone_017:brush_fine:GRASP": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "table_Q1:box_domestic:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "tire_bay_FR:screw:GRASP": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "binA_001:screw:GRASP": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "table_Q4:sku_004:GRASP": {
+   "type": "PICK",
+   "bound_type": "sku_004",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "table_Q1:brush_fine:GRASP": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "table_Q1:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "workbench_A2:token_G:GRASP": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "workbench_A2:sku_004:GRASP": {
+   "type": "PICK",
+   "bound_type": "sku_004",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "zone_018:box_domestic:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "workbench_A1:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "binA_001:token_G:GRASP": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "binA_001:sku_004:GRASP": {
+   "type": "PICK",
+   "bound_type": "sku_004",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "zone_018:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "binA_001:ten_cent_coin:GRASP": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "tire_bay_FL:sku_004:GRASP": {
+   "type": "PICK",
+   "bound_type": "sku_004",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "tire_bay_FL:token_G:GRASP": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "table_Q4:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "tire_bay_FL:ten_cent_coin:GRASP": {
+   "type": "PICK",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[workbench_A2][box_domestic]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "[workbench_A2][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "put__roller_blue__to__workbench_A2": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "[tire_bay_FR][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "put__roller_blue__to__binA_001": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "[binA_001][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "put__roller_blue__to__tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "[zone_017][ten_cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "put__screw__to__workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "[table_Q1][token_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "put__box_domestic__to__tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[workbench_A1][sku_004]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "sku_004",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "[tire_bay_FL][roller_blue]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[tire_bay_FL][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[table_Q1][ten_cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "[workbench_A1][token_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "put__sku_004__to__zone_018": {
+   "type": "PLACE",
+   "bound_type": "sku_004",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "put__ten_cent_coin__to__workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "put__box_domestic__to__zone_017": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "[zone_018][token_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "put__ten_cent_coin__to__zone_018": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "[zone_017][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "put__box_domestic__to__table_Q1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "put__screw__to__tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "put__screw__to__binA_001": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "[table_Q4][sku_004]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "sku_004",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "[table_Q1][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "put__roller_blue__to__table_Q1": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "[workbench_A2][token_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "put__sku_004__to__workbench_A2": {
+   "type": "PLACE",
+   "bound_type": "sku_004",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "[zone_018][box_domestic]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "put__roller_blue__to__workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "[binA_001][token_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "put__sku_004__to__binA_001": {
+   "type": "PLACE",
+   "bound_type": "sku_004",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "put__roller_blue__to__zone_018": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "put__ten_cent_coin__to__binA_001": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "put__sku_004__to__tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "sku_004",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[tire_bay_FL][token_G]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[table_Q4][roller_blue]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "[tire_bay_FL][ten_cent_coin]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "ten_cent_coin",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "table_q1_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q1"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "look at workbench_A1 & workbench_A2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "workbench_A1",
+    "workbench_A2"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_017",
+    "zone_018"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_FR"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sensor_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "workbench_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sku_004",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sku_004",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "sku_004",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "sku_004",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "sku_004",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "sku_004",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "ten_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "Q1 or Q4": [
+   "table_Q1",
+   "table_Q4"
+  ],
+  "workbench A1|A2": [
+   "workbench_A1",
+   "workbench_A2"
+  ],
+  "any workbench position": [
+   "workbench_A1",
+   "workbench_A2"
+  ],
+  "two last zones": [
+   "zone_017",
+   "zone_018"
+  ],
+  "front tire bays (FL and FR)": [
+   "tire_bay_FL",
+   "tire_bay_FR"
+  ]
+ }
+}

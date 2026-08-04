@@ -1,0 +1,1981 @@
+{
+ "object_locations": [
+  "rack top",
+  "tree_7",
+  "drawer_2",
+  "drawer_4",
+  "drawer_5",
+  "drawer_3",
+  "tree_12",
+  "tree_11",
+  "drawer_1",
+  "tree_9",
+  "rack middle",
+  "rack bottom",
+  "tree_8",
+  "sorting_table",
+  "tree_10",
+  "tree_14",
+  "tree_6",
+  "tree_13",
+  "tree_15",
+  "tree_5"
+ ],
+ "object_types": [
+  "half_dollar",
+  "potato",
+  "black_pepper",
+  "cavalier",
+  "blue_bead",
+  "pawn_piece",
+  "wafer_D",
+  "brush_broad",
+  "millet_kernel"
+ ],
+ "positions": {
+  "actions/grasp/half_dollar/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/rack top": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/rack middle": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/sorting_table": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/rack middle": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/rack top": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/sorting_table": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/tree_7": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/rack middle": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/sorting_table": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/rack middle": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/sorting_table": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_D/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/sorting_table": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/rack top": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/tree_7": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_7": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/rack top": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/rack top": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_kernel/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/blue_bead/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/cavalier/from/rack bottom": {
+   "type": "PICK",
+   "bound_type": "cavalier",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/potato/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/half_dollar/from/drawer_5": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "actions/grasp/black_pepper/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/pawn_piece/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_7": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "LOWER_tree_15_half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ns:rack top:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "LOWER_drawer_4_blue_bead": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "LOWER_tree_13_potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:drawer_1:item:wafer_D:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "LOWER_rack bottom_blue_bead": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "LOWER_tree_9_cavalier": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "LOWER_drawer_5_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "ns:drawer_4:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "ns:rack middle:item:brush_broad:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "ns:drawer_5:item:brush_broad:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "ns:drawer_5:item:cavalier:action:place": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "ns:tree_10:item:half_dollar:action:place": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "LOWER_tree_6_pawn_piece": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "LOWER_tree_15_cavalier": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ns:tree_14:item:cavalier:action:place": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "LOWER_tree_10_pawn_piece": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "LOWER_sorting_table_wafer_D": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "ns:drawer_1:item:black_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "LOWER_drawer_2_blue_bead": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:rack middle:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "ns:rack top:item:wafer_D:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ns:drawer_5:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "ns:tree_5:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "LOWER_drawer_2_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "LOWER_tree_6_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "LOWER_drawer_3_half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "LOWER_tree_6_cavalier": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:tree_13:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:tree_10:item:brush_broad:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:tree_9:item:black_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:tree_10:item:cavalier:action:place": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "LOWER_drawer_3_pawn_piece": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "LOWER_drawer_2_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "LOWER_drawer_2_cavalier": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "LOWER_tree_8_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:half_dollar:action:place": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "LOWER_tree_13_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "LOWER_sorting_table_potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "LOWER_drawer_4_black_pepper": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "ns:tree_9:item:wafer_D:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:tree_13:item:brush_broad:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:tree_13:item:cavalier:action:place": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "LOWER_rack bottom_potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "ns:tree_10:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "LOWER_drawer_1_potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:wafer_D:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ns:tree_14:item:wafer_D:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ns:drawer_1:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:black_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "LOWER_tree_7_potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "LOWER_tree_12_half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "LOWER_drawer_3_blue_bead": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "LOWER_tree_12_pawn_piece": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:rack middle:item:black_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "LOWER_tree_5_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "ns:drawer_3:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:blue_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "LOWER_drawer_1_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "LOWER_drawer_1_cavalier": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ns:tree_12:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "LOWER_drawer_5_pawn_piece": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "ns:drawer_2:item:wafer_D:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "LOWER_drawer_4_half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "LOWER_drawer_3_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "ns:drawer_3:item:cavalier:action:place": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "ns:drawer_4:item:potato:action:place": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:wafer_D:action:place": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "LOWER_rack middle_wafer_D": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "LOWER_tree_12_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "LOWER_rack bottom_half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "LOWER_tree_14_pawn_piece": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "LOWER_tree_5_wafer_D": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:black_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:brush_broad:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "LOWER_tree_13_wafer_D": {
+   "type": "PLACE",
+   "bound_type": "wafer_D",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:cavalier:action:place": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "ns:rack top:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ns:tree_7:item:half_dollar:action:place": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:tree_7:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:rack bottom:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "ns:rack top:item:brush_broad:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "LOWER_rack top_cavalier": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "LOWER_tree_12_blue_bead": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "LOWER_drawer_4_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:potato:action:place": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:drawer_4:item:cavalier:action:place": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "ns:drawer_1:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "LOWER_drawer_2_half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "LOWER_rack bottom_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "LOWER_tree_9_blue_bead": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "LOWER_rack bottom_cavalier": {
+   "type": "PLACE",
+   "bound_type": "cavalier",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "LOWER_drawer_2_potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:potato:action:place": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:drawer_5:item:half_dollar:action:place": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "LOWER_tree_5_black_pepper": {
+   "type": "PLACE",
+   "bound_type": "black_pepper",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "LOWER_tree_8_pawn_piece": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "LOWER_tree_7_brush_broad": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top",
+    "rack middle",
+    "rack bottom"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_2",
+    "drawer_3",
+    "drawer_4",
+    "drawer_5"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7",
+    "tree_8",
+    "tree_9",
+    "tree_10"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12",
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "sorting_table"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "rack_approach_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "black_pepper",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "cavalier",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "wafer_D",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "97": {
+   "id": 97,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "98": {
+   "id": 98,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "99": {
+   "id": 99,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "100": {
+   "id": 100,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "101": {
+   "id": 101,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "102": {
+   "id": 102,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "103": {
+   "id": 103,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "104": {
+   "id": 104,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rack": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "rack top or rack bottom": [
+   "rack top",
+   "rack bottom"
+  ],
+  "any rack position": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "somewhere in drawers 1, 2, or 3": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3"
+  ],
+  "inside the drawers 1 through 5": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5"
+  ],
+  "one of the drawer units 1 or 2": [
+   "drawer_1",
+   "drawer_2"
+  ],
+  "either drawer 3 or drawer 4": [
+   "drawer_3",
+   "drawer_4"
+  ],
+  "tree 8-10": [
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 5-7 or tree 11-12": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_11",
+   "tree_12"
+  ],
+  "tree 6-10": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 11-15": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "trees 5 through 10": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees in the middle section (6-10)": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees 11 through 15 or the sorting table": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15",
+   "sorting_table"
+  ]
+ }
+}

@@ -6,9 +6,9 @@ import sys
 from itertools import product
 from pathlib import Path
 
-MODEL_NAMES = ["Llama-3.2-3B-Instruct"]
-R_VALUES = [64]
-ALPHA_VALUES = [1]
+MODEL_NAMES = ["gpt-oss-20b"]
+R_VALUES = [128]
+ALPHA_VALUES = [2]
 LR_VALUES = [6e-5]
 LR_METHODS = ["constant_with_warmup"]
 NUM_EPOCHS_LIST = [1]

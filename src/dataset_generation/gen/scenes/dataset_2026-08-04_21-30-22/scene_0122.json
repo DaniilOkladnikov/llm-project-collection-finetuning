@@ -1,0 +1,1105 @@
+{
+ "object_locations": [
+  "L1-SecB-SiloX2",
+  "table_Q3",
+  "binA_004",
+  "nest_4",
+  "table_Q1",
+  "L1-SecB-SiloX1",
+  "drawer_2",
+  "zone_001",
+  "nest_3",
+  "nest_2",
+  "drawer_1",
+  "table_Q2"
+ ],
+ "object_types": [
+  "tile_O",
+  "roller_purple",
+  "grain_millet",
+  "liquid_broth",
+  "chicken",
+  "metal_offcut",
+  "wheat_kernel",
+  "pepper",
+  "rucksack"
+ ],
+ "positions": {
+  "L1-SecB-SiloX2_tile_O_collect": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "binA_004_pepper_collect": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "L1-SecB-SiloX2_liquid_broth_collect": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "task/pick/binA_004/wheat_kernel": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "task/pick/table_Q3/wheat_kernel": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "task/pick/zone_001/wheat_kernel": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "task/pick/binA_004/chicken": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "task/pick/table_Q3/roller_purple": {
+   "type": "PICK",
+   "bound_type": "roller_purple",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "drawer_1_metal_offcut_collect": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "table_Q1_wheat_kernel_collect": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "table_Q2_rucksack_collect": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "binA_004_grain_millet_collect": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "nest_2_metal_offcut_collect": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "table_Q3_grain_millet_collect": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "task/pick/drawer_2/pepper": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "task/pick/table_Q2/pepper": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "table_Q2_wheat_kernel_collect": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "table_Q2_chicken_collect": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "task/pick/L1-SecB-SiloX2/pepper": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "drawer_1_tile_O_collect": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "task/pick/drawer_1/liquid_broth": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "L1-SecB-SiloX2_wheat_kernel_collect": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "task/pick/drawer_2/roller_purple": {
+   "type": "PICK",
+   "bound_type": "roller_purple",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "task/pick/zone_001/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "nest_3_chicken_collect": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "task/pick/nest_2/liquid_broth": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "task/pick/binA_004/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "table_Q3_metal_offcut_collect": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "task/pick/drawer_2/grain_millet": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "task/pick/drawer_1/rucksack": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "task/pick/nest_3/tile_O": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "nest_3_liquid_broth_collect": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "L1-SecB-SiloX2_grain_millet_collect": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "nest_4_rucksack_collect": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/pick/zone_001/tile_O": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "task/pick/nest_2/rucksack": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "binA_004_tile_O_collect": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "task/pick/binA_004/liquid_broth": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "task/pick/drawer_1/pepper": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "task/pick/table_Q3/tile_O": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "task/pick/L1-SecB-SiloX1/chicken": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "task/pick/L1-SecB-SiloX1/wheat_kernel": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "task/pick/drawer_1/wheat_kernel": {
+   "type": "PICK",
+   "bound_type": "wheat_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "task/pick/drawer_2/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "task/pick/table_Q2/metal_offcut": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "task/pick/nest_4/pepper": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/pick/nest_3/rucksack": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "L1-SecB-SiloX1_roller_purple_collect": {
+   "type": "PICK",
+   "bound_type": "roller_purple",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "drawer_1_roller_purple_collect": {
+   "type": "PICK",
+   "bound_type": "roller_purple",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "zone_001_rucksack_collect": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "task/pick/drawer_1/grain_millet": {
+   "type": "PICK",
+   "bound_type": "grain_millet",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "binA_004_rucksack_collect": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "task/pick/drawer_2/tile_O": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "task/pick/drawer_2/liquid_broth": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "table_Q2_liquid_broth_collect": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "DEPOSIT/L1-SecB-SiloX2/tile_O": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "ns:binA_004:item:pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "[L1-SecB-SiloX2][liquid_broth]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_004/wheat_kernel": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q3/wheat_kernel": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:wheat_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "[binA_004][chicken]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "ns:table_Q3:item:roller_purple:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_purple",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/metal_offcut": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ns:table_Q1:item:wheat_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "[table_Q2][rucksack]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "[binA_004][grain_millet]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "[nest_2][metal_offcut]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q3/grain_millet": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_2/pepper": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q2/pepper": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q2/wheat_kernel": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "[table_Q2][chicken]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "DEPOSIT/L1-SecB-SiloX2/pepper": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "[drawer_1][tile_O]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "[drawer_1][liquid_broth]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "[L1-SecB-SiloX2][wheat_kernel]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "ns:drawer_2:item:roller_purple:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_purple",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "ns:zone_001:item:metal_offcut:action:place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:nest_3:item:chicken:action:place": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "[nest_2][liquid_broth]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_004/metal_offcut": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q3/metal_offcut": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_2/grain_millet": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "[drawer_1][rucksack]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ns:nest_3:item:tile_O:action:place": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "DEPOSIT/nest_3/liquid_broth": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "DEPOSIT/L1-SecB-SiloX2/grain_millet": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:rucksack:action:place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_001/tile_O": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "ns:nest_2:item:rucksack:action:place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_004/tile_O": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "[binA_004][liquid_broth]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "ns:drawer_1:item:pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "[table_Q3][tile_O]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "[L1-SecB-SiloX1][chicken]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "DEPOSIT/L1-SecB-SiloX1/wheat_kernel": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/wheat_kernel": {
+   "type": "PLACE",
+   "bound_type": "wheat_kernel",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_2/metal_offcut": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q2/metal_offcut": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "[nest_3][rucksack]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "[L1-SecB-SiloX1][roller_purple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_purple",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "ns:drawer_1:item:roller_purple:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_purple",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_001/rucksack": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "zone_001",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/grain_millet": {
+   "type": "PLACE",
+   "bound_type": "grain_millet",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ns:binA_004:item:rucksack:action:place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_2/tile_O": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "[drawer_2][liquid_broth]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q2/liquid_broth": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "table_q1_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q1"
+   ]
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_004"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_001"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_2",
+    "nest_3",
+    "nest_4"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_2"
+   ]
+  },
+  "Platform_Inspect_L1_SecB_Silos_X1_and_X2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecB-SiloX1",
+    "L1-SecB-SiloX2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "roller_purple",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "roller_purple",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "roller_purple",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "roller_purple",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "grain_millet",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "wheat_kernel",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "first two quadrants": [
+   "table_Q1",
+   "table_Q2"
+  ],
+  "Q1 or Q3 positions": [
+   "table_Q1",
+   "table_Q3"
+  ],
+  "quadrants 1 through 3": [
+   "table_Q1",
+   "table_Q2",
+   "table_Q3"
+  ],
+  "even numbered nests": [
+   "nest_2",
+   "nest_4"
+  ],
+  "inner nests (2, 3, 4)": [
+   "nest_2",
+   "nest_3",
+   "nest_4"
+  ],
+  "operating nests 2 to 4": [
+   "nest_2",
+   "nest_3",
+   "nest_4"
+  ],
+  "one of the drawer units 1 or 2": [
+   "drawer_1",
+   "drawer_2"
+  ],
+  "Level_1_Section_B_Bulk_Silos_X1_and_X2": [
+   "L1-SecB-SiloX1",
+   "L1-SecB-SiloX2"
+  ]
+ }
+}

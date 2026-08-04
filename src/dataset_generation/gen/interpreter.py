@@ -122,7 +122,8 @@ class ModelState:
 class Executor:
     def __init__(self, scene: SceneModel, state: ModelState, resolver: AnswerResolver,
                  task_id: int, types: Dict[str, str], phrases: Dict[str, str],
-                 locs: Dict[str, List[str]], p_position: Optional[str] = None):
+                 locs: Dict[str, List[str]], p_position: Optional[str] = None,
+                 rescan: Optional[str] = None):
         self.scene = scene
         self.st = state
         self.resolver = resolver
@@ -131,6 +132,7 @@ class Executor:
         self.phrases = phrases
         self.locs = locs
         self.p_position = p_position
+        self.rescan = rescan
         self.steps: List[Step] = []
         self._pending: List[str] = []
         self._pending_start: Optional[int] = None
@@ -138,10 +140,47 @@ class Executor:
     # --- top-level ---------------------------------------------------------
 
     def run(self, prog: Program) -> None:
+        if self.rescan:
+            self._apply_stated_scene_change()
         try:
             self._run_nodes(prog.body)
         except _Stop:
             pass
+
+    def _apply_stated_scene_change(self) -> None:
+        """The prompt tells the model the scene changed since the last scan
+        ("I just added something to A", "Something fell").
+
+        Two things have to happen or the turn teaches the wrong lesson: the
+        world must actually change, and `observe` must be allowed to re-visit
+        poses it already explored -- otherwise the cover comes back empty and
+        the answer is computed from the stale scan.
+
+        The mutation is deterministic (first matching slot in canonical order)
+        so the trial run in generate.py and the render pass agree.
+        """
+        target = self.locs.get("A") or list(self.scene.canonical_order)
+        locs = self._canon(set(target))
+        if self.rescan == "add":
+            # If the target is wholly empty we leave it so: the user is simply
+            # wrong about the scene, which DSL.md S0 explicitly allows, and the
+            # robot must report what it sees rather than what it was told. That
+            # also keeps the `isempty` branch of task 80 reachable.
+            if any(self.scene.occupancy.get(l) is not None for l in locs):
+                for loc in locs:
+                    if self.scene.occupancy.get(loc) is None:
+                        types = self.scene.placeable_types_at(loc)
+                        if types:
+                            self.scene.occupancy[loc] = types[0]
+                            break
+        elif self.rescan == "drop":
+            for loc in locs:
+                if self.scene.occupancy.get(loc) is not None:
+                    self.scene.occupancy[loc] = None
+                    break
+        # The stale scan is no longer trustworthy: forget where we have looked
+        # so `observe` recomputes a full cover and re-runs locate_shapes.
+        self.st.explored = []
 
     def _run_nodes(self, nodes: List[Node]) -> None:
         for node in nodes:
@@ -206,12 +245,65 @@ class Executor:
         value = self._eval_expr(expr)
         self.st.vars[node.name] = value
         rendered = self._render_var(value)
-        start, lines = self._take_pending(
-            node.lineno, [f"L{node.lineno} {node.name} = {rendered}"])
+        parts = self._decompose(node, expr, rendered)
+        own = [f"L{node.lineno} {parts[0]}"] + [f"   {p}" for p in parts[1:]]
+        start, lines = self._take_pending(node.lineno, own)
         delta = {node.name: rendered}
         self.st.memory[node.name] = rendered
         self.steps.append(Step(kind="remember", start_lineno=start,
                                res_lines=lines, mem_delta=delta))
+
+    # --- expression decomposition ------------------------------------------
+
+    def _scans_subset(self, target: str) -> "OrderedDict[str,str]":
+        """``MEMORY.scans[<target>]`` -- observed slots only, canonical order."""
+        return OrderedDict((l, self.st.scans[l])
+                           for l in self._resolve_target(target)
+                           if l in self.st.scans)
+
+    def _decompose(self, node: Remember, expr: str, rendered: str) -> List[str]:
+        """Split a remember/let RHS into its constituent expressions, one
+        resolution line each, ending with the assignment.
+
+        ``first in MEMORY.scans[first box] where value is brick`` is three
+        expressions -- the subset, the filter, and the selection -- so it gets
+        three lines (DSL.md S10 / walkthroughs.md invocation 14):
+
+            L6 MEMORY.scans[first box] = {box1_1: cube, box1_2: empty}
+               MEMORY.scans[first box] where value is brick = ["box1_1"]
+               remember loc = "box1_1"
+
+        A RHS that is a single expression keeps its single line: the assignment
+        *is* that expression's line.
+        """
+        kw = "let" if node.is_let else "remember"
+        tail = f"{kw} {node.name} = {rendered}"
+        out: List[str] = []
+
+        m = re.match(r"^first in (MEMORY\.scans(?:\[(.+?)\])?)"
+                     r"\s+where value is\s+(.+)$", expr)
+        if m:
+            base, group, pred = m.group(1), m.group(2), m.group(3)
+            if group is not None:                       # 1. subset the dict
+                sub = self._scans_subset(group)
+                out.append(f"{self._subst(base)} = {jdict_bare(sub)}")
+            else:
+                sub = OrderedDict(self.st.scans)
+            keep = self._make_pred(pred)                # 2. filter by value
+            hits = [l for l, v in sub.items() if keep(v)]
+            out.append(f"{self._subst(base)} where value is "
+                       f"{self._subst(pred)} = {jlist(hits)}")
+            out.append(tail)                            # 3. first in <list>
+            return out
+
+        m = re.match(r"^first in (MEMORY\.scans\[(.+?)\])\s*$", expr)
+        if m:                                           # subset, then first-of
+            out.append(f"{self._subst(m.group(1))} = "
+                       f"{jdict_bare(self._scans_subset(m.group(2)))}")
+            out.append(tail)
+            return out
+
+        return [tail]
 
     # --- primitives --------------------------------------------------------
 

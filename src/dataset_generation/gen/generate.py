@@ -74,6 +74,29 @@ UNREACHABLE_REASONS = {
 }
 
 
+ERROR_ANSWER = "unexpected error happened, I cannot proceed"
+
+# `<call> = {status: "OK", content: <anything>}` -- only ever rewritten inside a
+# TOOL RESULTS block, never against the MEMORY copy of `avaliable positions`.
+_RESULT_RE = re.compile(r"^(?P<call>.*?=\s*)\{.*\}\s*$", re.S)
+
+
+def _errorise_tool_results(text: str) -> str:
+    """Replace the trailing TOOL RESULTS block's payloads with a failed call."""
+    head, sep, block = text.rpartition("\nTOOL RESULTS\n")
+    if not sep:
+        return text
+    lines = []
+    for line in block.split("\n"):
+        if not line.strip():
+            lines.append(line)
+            continue
+        m = _RESULT_RE.match(line)
+        lines.append(f'{m.group("call")}{{status: "ERROR", content: ""}}'
+                     if m else line)
+    return head + sep + "\n".join(lines)
+
+
 def _macro_name(macro_text: str) -> str:
     m = re.match(r"\s*([A-Za-z_]\w*)", macro_text or "")
     return m.group(1) if m else ""
@@ -244,11 +267,19 @@ class Generator:
         self.next_id = 0
         self.conv_id = 0
         self.unreachable: List[dict] = []
+        self.stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
         if out_path:
             self.out_path = out_path
+            # Keep the scenes directory tied to the dataset file it belongs to.
+            m = re.search(r"(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2})",
+                          os.path.basename(out_path))
+            if m:
+                self.stamp = m.group(1)
         else:
-            stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
-            self.out_path = os.path.join(_HERE, f"dataset_{stamp}.json")
+            self.out_path = os.path.join(_HERE, f"dataset_{self.stamp}.json")
+        self.scenes_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                       "scenes", f"dataset_{self.stamp}")
+        self.scenes: "OrderedDict[str, dict]" = OrderedDict()
         self._scene = None
         self._scene_uses = 0
         self._convs_since_save = 0
@@ -257,6 +288,27 @@ class Generator:
 
     def fresh_scene(self) -> SceneModel:
         return SceneModel(scene_generator.generate_scene(self.rng))
+
+    def register_scene(self, sm: SceneModel) -> str:
+        """Give a scene a stable id and write it out, once, the first time a
+        conversation built on it is actually committed.
+
+        Back-solving samples far more scenes than it keeps, so registering at
+        sample time would fill the directory with worlds no row references. The
+        id goes into every entry produced from the scene, so a row can always be
+        traced back to the exact world it was generated against.
+        """
+        sid = getattr(sm, "scene_id", None)
+        if sid is not None:
+            return sid
+        sid = f"scene_{len(self.scenes):04d}"
+        sm.scene_id = sid
+        self.scenes[sid] = sm.scene
+        os.makedirs(self.scenes_dir, exist_ok=True)
+        with open(os.path.join(self.scenes_dir, f"{sid}.json"),
+                  "w", encoding="utf-8") as fh:
+            json.dump(sm.scene, fh, ensure_ascii=False, indent=1)
+        return sid
 
     def scene(self, force_new=False) -> SceneModel:
         if self._scene is None or self._scene_uses > 30 or force_new:
@@ -279,7 +331,8 @@ class Generator:
                 elif k == "held":
                     st.held = v
             ex = Executor(scene, st, self.resolver, task.id, binding.types,
-                          binding.phrases, binding.locs, binding.p_position)
+                          binding.phrases, binding.locs, binding.p_position,
+                          rescan=task.rescan)
             try:
                 ex.run(prog)
             except Invalid:
@@ -518,7 +571,7 @@ class Generator:
                 snap = scene.truth_snapshot()
                 st = conv.state.copy()
                 ex = Executor(scene, st, self.resolver, tid, b.types, b.phrases,
-                              b.locs, b.p_position)
+                              b.locs, b.p_position, rescan=task.rescan)
                 try:
                     ex.run(prog)
                     ok = bool(ex.steps) and ex.steps[-1].kind == "answer"
@@ -540,16 +593,24 @@ class Generator:
             tgt = turn.get("target")
             if tgt and tgt[:3] in self.remaining and self.remaining[tgt[:3]] > 0:
                 self.remaining[tgt[:3]] -= 1
+        scene_id = self.register_scene(conv.scene)
         for seq, inv in enumerate(conv.invocations):
+            macro = inv.get("answer_macro")
             self.dataset[self.next_id] = {
                 "input": inv["input"],
                 "output": inv["output"],
                 "metadata": {
+                    "id": self.next_id,
+                    "scene_id": scene_id,
                     "conversation_id": conv.conv_id,
                     "index_in_conversation": seq,
                     "task_id": inv.get("task_id"),
                     "prompt": inv.get("prompt"),
                     "answer": inv.get("answer"),
+                    "answer_label": inv.get("answer_label"),
+                    "answer_macro": macro,
+                    "answer_macro_id": self.tf.answer_ids.get(macro),
+                    "error_injected": False,
                 },
             }
             self.next_id += 1
@@ -558,6 +619,51 @@ class Generator:
         if self._convs_since_save >= 100:
             self.save()
             self._convs_since_save = 0
+
+    # --- tool-failure injection --------------------------------------------
+
+    def inject_tool_errors(self, ratio: float = 0.10) -> int:
+        """Append tool-failure rows: every generated result carries status OK,
+        so nothing in the dataset teaches the model what to do when a call
+        fails.
+
+        Take rows whose input already ends in a TOOL RESULTS block, flip that
+        result to ``status: "ERROR"`` with empty content, and replace the target
+        output with a terminating answer. Count is ``ratio`` of the rows
+        generated so far, so the final dataset is (1 + ratio) x its size.
+        """
+        base = list(self.dataset.items())
+        eligible = [(i, r) for i, r in base if "\nTOOL RESULTS\n" in r["input"]]
+        want = int(round(ratio * len(base)))
+        if not eligible or want <= 0:
+            return 0
+        if want <= len(eligible):
+            picked = self.rng.sample(eligible, want)
+        else:                      # more wanted than distinct sources available
+            picked = eligible + [self.rng.choice(eligible)
+                                 for _ in range(want - len(eligible))]
+            print(f"  [warn] only {len(eligible)} rows carry a TOOL RESULTS "
+                  f"block; {want - len(eligible)} error rows reuse a source")
+
+        answer = self.tf.answers.get("toolerror", ERROR_ANSWER)
+        out_text = f"MEMORY\ncursor = done\n\nANSWER\n{answer}"
+        for src_id, rec in picked:
+            self.dataset[self.next_id] = {
+                "input": _errorise_tool_results(rec["input"]),
+                "output": out_text,
+                "metadata": {
+                    **rec["metadata"],
+                    "id": self.next_id,
+                    "answer": answer,
+                    "answer_label": None,
+                    "answer_macro": "toolerror",
+                    "answer_macro_id": self.tf.answer_ids.get("toolerror"),
+                    "error_injected": True,
+                    "source_id": src_id,
+                },
+            }
+            self.next_id += 1
+        return len(picked)
 
     # --- driver ------------------------------------------------------------
 
@@ -622,17 +728,31 @@ class Generator:
                 print(f"[{i+1}/{total}] covered={done}/{total} convs={self.conv_id} "
                       f"elements={self.next_id} unreachable={len(self.unreachable)} "
                       f"({el:.0f}s)")
+        self.n_errors = self.inject_tool_errors()
         self.save()
         self._report()
 
     def save(self):
         with open(self.out_path, "w", encoding="utf-8") as fh:
             json.dump(self.dataset, fh, ensure_ascii=False, indent=1)
+        if self.scenes:
+            os.makedirs(self.scenes_dir, exist_ok=True)
+            with open(os.path.join(self.scenes_dir, "index.json"),
+                      "w", encoding="utf-8") as fh:
+                json.dump({sid: {"locations": len(s["object_locations"]),
+                                 "types": len(s["object_types"]),
+                                 "positions": len(s["positions"])}
+                           for sid, s in self.scenes.items()},
+                          fh, ensure_ascii=False, indent=1)
         meta_path = self.out_path.replace(".json", "_report.json")
         with open(meta_path, "w", encoding="utf-8") as fh:
             json.dump({"unreachable": self.unreachable,
                        "conversations": self.conv_id,
-                       "elements": self.next_id}, fh, ensure_ascii=False, indent=1)
+                       "elements": self.next_id,
+                       "error_rows": getattr(self, "n_errors", 0),
+                       "scenes": len(self.scenes),
+                       "scenes_dir": self.scenes_dir}, fh,
+                      ensure_ascii=False, indent=1)
 
     def _report(self):
         done = sum(1 for t in self.targets if self.remaining[t.key] <= 0)
@@ -640,7 +760,9 @@ class Generator:
         print(f"targets covered : {done}/{len(self.targets)}")
         print(f"conversations   : {self.conv_id}")
         print(f"dataset elements: {self.next_id}")
+        print(f"  of which errors: {getattr(self, 'n_errors', 0)}")
         print(f"unreachable     : {len(self.unreachable)}")
+        print(f"scenes          : {len(self.scenes)} -> {self.scenes_dir}")
         print(f"written to      : {self.out_path}")
 
 

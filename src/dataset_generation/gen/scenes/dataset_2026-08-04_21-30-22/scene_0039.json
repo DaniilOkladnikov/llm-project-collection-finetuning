@@ -1,0 +1,955 @@
+{
+ "object_locations": [
+  "parcelPalette-2.2.2",
+  "parcelPalette-2.1.1",
+  "binC_201",
+  "bay_A",
+  "parcelPalette-2.1.2",
+  "BIN_RED_LEFT",
+  "tire_bay_FL",
+  "parcelPalette-2.3.1",
+  "parcelPalette-2.2.1",
+  "BIN_BLUE_RIGHT",
+  "bay_C",
+  "parcelPalette-2.3.2",
+  "binC_202"
+ ],
+ "object_types": [
+  "summer_tyre",
+  "box_domestic",
+  "nickel",
+  "parcel_express",
+  "spelt_kernel",
+  "veg_onion"
+ ],
+ "positions": {
+  "task/pick/bay_A/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "task/pick/binC_201/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.2.2/spelt_kernel": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "task/pick/binC_201/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "task/pick/binC_201/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/bay_A/nickel": {
+   "type": "PICK",
+   "bound_type": "nickel",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "task/pick/BIN_RED_LEFT/spelt_kernel": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.3.1/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/binC_202/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "binC_202",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.1.2/spelt_kernel": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.3.1/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "task/pick/bay_C/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.3.1/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "task/pick/binC_202/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "binC_202",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.2.1/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.1.1/spelt_kernel": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "task/pick/bay_C/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.3.1/nickel": {
+   "type": "PICK",
+   "bound_type": "nickel",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "task/pick/BIN_BLUE_RIGHT/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.1.1/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.3.2/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "task/pick/binC_202/nickel": {
+   "type": "PICK",
+   "bound_type": "nickel",
+   "bound_location": "binC_202",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.3.2/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.2.2/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.2.2/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.3.1/spelt_kernel": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "task/pick/BIN_RED_LEFT/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.2.2/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.2.2/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "task/pick/BIN_BLUE_RIGHT/nickel": {
+   "type": "PICK",
+   "bound_type": "nickel",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/spelt_kernel": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/BIN_RED_LEFT/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "task/pick/BIN_RED_LEFT/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.1.1/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "task/pick/bay_A/box_domestic": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.1.1/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.1.2/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "task/pick/bay_A/veg_onion": {
+   "type": "PICK",
+   "bound_type": "veg_onion",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "task/pick/BIN_RED_LEFT/nickel": {
+   "type": "PICK",
+   "bound_type": "nickel",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-2.1.1/parcel_express": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "task/pick/BIN_BLUE_RIGHT/spelt_kernel": {
+   "type": "PICK",
+   "bound_type": "spelt_kernel",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "task/pick/bay_A/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "actions/release/parcel_express/to/bay_A": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/stow/veg_onion/loc/binC_201": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "op/stow/spelt_kernel/loc/parcelPalette-2.2.2": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/summer_tyre/loc/binC_201": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "actions/release/parcel_express/to/binC_201": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "actions/release/veg_onion/to/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/stow/nickel/loc/bay_A": {
+   "type": "PLACE",
+   "bound_type": "nickel",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/stow/spelt_kernel/loc/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/stow/veg_onion/loc/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "op/stow/summer_tyre/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "actions/release/box_domestic/to/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/stow/veg_onion/loc/binC_202": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "binC_202",
+   "observable_locations": null
+  },
+  "op/stow/parcel_express/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/stow/spelt_kernel/loc/parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "op/stow/summer_tyre/loc/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "op/stow/veg_onion/loc/bay_C": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "op/stow/parcel_express/loc/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "actions/release/box_domestic/to/binC_202": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "binC_202",
+   "observable_locations": null
+  },
+  "actions/release/box_domestic/to/parcelPalette-2.2.1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "actions/release/spelt_kernel/to/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "op/stow/box_domestic/loc/bay_C": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "op/stow/nickel/loc/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "nickel",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "actions/release/veg_onion/to/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "actions/release/box_domestic/to/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "actions/release/box_domestic/to/parcelPalette-2.3.2": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "op/stow/nickel/loc/binC_202": {
+   "type": "PLACE",
+   "bound_type": "nickel",
+   "bound_location": "binC_202",
+   "observable_locations": null
+  },
+  "op/stow/parcel_express/loc/parcelPalette-2.3.2": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "op/stow/veg_onion/loc/parcelPalette-2.2.2": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/parcel_express/loc/parcelPalette-2.2.2": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "actions/release/spelt_kernel/to/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "op/stow/veg_onion/loc/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "actions/release/summer_tyre/to/parcelPalette-2.2.2": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/box_domestic/loc/parcelPalette-2.2.2": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "op/stow/nickel/loc/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "nickel",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "actions/release/spelt_kernel/to/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "actions/release/summer_tyre/to/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "actions/release/parcel_express/to/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/stow/veg_onion/loc/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "op/stow/box_domestic/loc/bay_A": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "actions/release/summer_tyre/to/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "actions/release/summer_tyre/to/parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "actions/release/veg_onion/to/bay_A": {
+   "type": "PLACE",
+   "bound_type": "veg_onion",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/stow/nickel/loc/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "nickel",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "actions/release/parcel_express/to/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "op/stow/spelt_kernel/loc/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "spelt_kernel",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "op/stow/summer_tyre/loc/bay_A": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "bins_observe_red": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_RED_LEFT"
+   ]
+  },
+  "bins_observe_blue": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_BLUE_RIGHT"
+   ]
+  },
+  "binC_corner vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binC_201",
+    "binC_202"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.1",
+    "parcelPalette-2.1.2",
+    "parcelPalette-2.2.1",
+    "parcelPalette-2.2.2",
+    "parcelPalette-2.3.1",
+    "parcelPalette-2.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "bin_transfer_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "nickel",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "nickel",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "nickel",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "nickel",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "nickel",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "spelt_kernel",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "veg_onion",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "any of the color bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "red or blue bin": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "all of binC": [
+   "binC_201",
+   "binC_202"
+  ],
+  "outermost bays (A and C)": [
+   "bay_A",
+   "bay_C"
+  ],
+  "pallettes2 ": [
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.1.2",
+   "parcelPalette-2.2.1",
+   "parcelPalette-2.2.2",
+   "parcelPalette-2.3.1",
+   "parcelPalette-2.3.2"
+  ],
+  "Palettes 1st index 2, 2nd index 1": [
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.1.2"
+  ],
+  "Palettes 2 something 2 something": [
+   "parcelPalette-2.2.1",
+   "parcelPalette-2.2.2"
+  ],
+  "Palettes block[2.3.*]": [
+   "parcelPalette-2.3.1",
+   "parcelPalette-2.3.2"
+  ]
+ }
+}

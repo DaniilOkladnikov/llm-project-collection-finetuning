@@ -1,0 +1,942 @@
+{
+ "object_locations": [
+  "L1-SecA-Bay02",
+  "lane_3_mid",
+  "L1-SecB-SiloX2",
+  "zone_018",
+  "L1-SecB-SiloX1",
+  "lane_3_end",
+  "L1-SecA-Bay01",
+  "drawer_8",
+  "scaffolding_rack_left",
+  "zone_017",
+  "scaffolding_rack_right",
+  "cell_R2C4",
+  "lane_3_start"
+ ],
+ "object_types": [
+  "chip_type_F",
+  "silver_bead",
+  "product_item",
+  "parcel_domestic",
+  "tile_I"
+ ],
+ "positions": {
+  "chip_type_F-from-zone_018": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "chip_type_F-from-L1-SecB-SiloX2": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "silver_bead-from-L1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_I:LOC:scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "tile_I",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "chip_type_F-from-L1-SecA-Bay01": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_item:LOC:scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_item:LOC:lane_3_end": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "CMD:GRIP:silver_bead:LOC:lane_3_start": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "product_item-from-scaffolding_rack_left": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parcel_domestic:LOC:zone_017": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "silver_bead-from-zone_018": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "CMD:GRIP:silver_bead:LOC:lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "tile_I-from-zone_017": {
+   "type": "PICK",
+   "bound_type": "tile_I",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "product_item-from-drawer_8": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parcel_domestic:LOC:L1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "parcel_domestic-from-cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_item:LOC:zone_017": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "CMD:GRIP:silver_bead:LOC:L1-SecA-Bay01": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "tile_I-from-L1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "tile_I",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "chip_type_F-from-scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "chip_type_F-from-lane_3_end": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_I:LOC:cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "tile_I",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "parcel_domestic-from-lane_3_start": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "chip_type_F-from-scaffolding_rack_left": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "product_item-from-cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "parcel_domestic-from-zone_018": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parcel_domestic:LOC:lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_I:LOC:lane_3_start": {
+   "type": "PICK",
+   "bound_type": "tile_I",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "parcel_domestic-from-L1-SecB-SiloX2": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "tile_I-from-zone_018": {
+   "type": "PICK",
+   "bound_type": "tile_I",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_F:LOC:drawer_8": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_I:LOC:lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "tile_I",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_item:LOC:lane_3_start": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "parcel_domestic-from-scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "product_item-from-zone_018": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "silver_bead-from-scaffolding_rack_right": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "chip_type_F-from-zone_017": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_item:LOC:L1-SecB-SiloX2": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "product_item-from-L1-SecA-Bay01": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_F:LOC:L1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "silver_bead-from-zone_017": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "parcel_domestic-from-L1-SecB-SiloX1": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "chip_type_F-from-lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "CMD:GRIP:parcel_domestic:LOC:lane_3_end": {
+   "type": "PICK",
+   "bound_type": "parcel_domestic",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "CMD:GRIP:silver_bead:LOC:cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "placing/chip_type_F/zone_018": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "placing/chip_type_F/L1-SecB-SiloX2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "L1-SecA-Bay02_silver_bead_deposit": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right_tile_I_deposit": {
+   "type": "PLACE",
+   "bound_type": "tile_I",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "L1-SecA-Bay01_chip_type_F_deposit": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "placing/product_item/scaffolding_rack_right": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "placing/product_item/lane_3_end": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "$.lane_3_start.silver_bead.release": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "placing/product_item/scaffolding_rack_left": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "$.zone_017.parcel_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "placing/silver_bead/zone_018": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "lane_3_mid_silver_bead_deposit": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.zone_017.tile_I.release": {
+   "type": "PLACE",
+   "bound_type": "tile_I",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "$.drawer_8.product_item.release": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "$.L1-SecA-Bay02.parcel_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.cell_R2C4.parcel_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "placing/product_item/zone_017": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "placing/silver_bead/L1-SecA-Bay01": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "placing/tile_I/L1-SecA-Bay02": {
+   "type": "PLACE",
+   "bound_type": "tile_I",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right_chip_type_F_deposit": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "lane_3_end_chip_type_F_deposit": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "cell_R2C4_tile_I_deposit": {
+   "type": "PLACE",
+   "bound_type": "tile_I",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "lane_3_start_parcel_domestic_deposit": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "placing/chip_type_F/scaffolding_rack_left": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "cell_R2C4_product_item_deposit": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "placing/parcel_domestic/zone_018": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "placing/parcel_domestic/lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.lane_3_start.tile_I.release": {
+   "type": "PLACE",
+   "bound_type": "tile_I",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "$.L1-SecB-SiloX2.parcel_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "placing/tile_I/zone_018": {
+   "type": "PLACE",
+   "bound_type": "tile_I",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "placing/chip_type_F/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "placing/tile_I/lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "tile_I",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.lane_3_start.product_item.release": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "$.scaffolding_rack_right.parcel_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "placing/product_item/zone_018": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "zone_018",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right_silver_bead_deposit": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "$.zone_017.chip_type_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "L1-SecB-SiloX2_product_item_deposit": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "L1-SecB-SiloX2",
+   "observable_locations": null
+  },
+  "placing/product_item/L1-SecA-Bay01": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "placing/chip_type_F/L1-SecA-Bay02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "$.zone_017.silver_bead.release": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "zone_017",
+   "observable_locations": null
+  },
+  "placing/parcel_domestic/L1-SecB-SiloX1": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "L1-SecB-SiloX1",
+   "observable_locations": null
+  },
+  "$.lane_3_mid.chip_type_F.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "$.lane_3_end.parcel_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "parcel_domestic",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "placing/silver_bead/cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_017",
+    "zone_018"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C4"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_mid"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_8"
+   ]
+  },
+  "scaffolding_storage_inspection_point": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "scaffolding_rack_left",
+    "scaffolding_rack_right"
+   ]
+  },
+  "Viewpoint_Monitor_L1_SecA_Bays_01_and_02": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecA-Bay01",
+    "L1-SecA-Bay02"
+   ]
+  },
+  "Platform_Inspect_L1_SecB_Silos_X1_and_X2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecB-SiloX1",
+    "L1-SecB-SiloX2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charging_station_alpha": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "parcel_domestic",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tile_I",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tile_I",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tile_I",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tile_I",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "tile_I",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tile_I",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tile_I",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "two last zones": [
+   "zone_017",
+   "zone_018"
+  ],
+  "anywhere on the lane 3": [
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "both_scaffolding_racks": [
+   "scaffolding_rack_left",
+   "scaffolding_rack_right"
+  ],
+  "left_right_metal_frameworks": [
+   "scaffolding_rack_left",
+   "scaffolding_rack_right"
+  ],
+  "Level_1_Section_A_Material_Bays_01_and_02": [
+   "L1-SecA-Bay01",
+   "L1-SecA-Bay02"
+  ],
+  "Level_1_Section_B_Bulk_Silos_X1_and_X2": [
+   "L1-SecB-SiloX1",
+   "L1-SecB-SiloX2"
+  ],
+  "All_Level_1_Storage_Indices_01_02_X1_X2": [
+   "L1-SecA-Bay01",
+   "L1-SecA-Bay02",
+   "L1-SecB-SiloX1",
+   "L1-SecB-SiloX2"
+  ]
+ }
+}

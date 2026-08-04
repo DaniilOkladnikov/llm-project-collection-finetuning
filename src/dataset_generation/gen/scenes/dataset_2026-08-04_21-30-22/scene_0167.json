@@ -1,0 +1,995 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "canvas_zone_B",
+  "parcelPalette-2.3.2",
+  "Node30.01",
+  "Node30.03",
+  "station_gamma",
+  "rack top",
+  "canvas_zone_C",
+  "rag_spot",
+  "station_alpha",
+  "binC_201",
+  "tire_rack_used",
+  "station_beta",
+  "L2-SecC-RackN",
+  "rack bottom",
+  "Node30.02"
+ ],
+ "object_types": [
+  "cover",
+  "nvme_drive",
+  "parcel_tube",
+  "support"
+ ],
+ "positions": {
+  "rack top:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "rack bottom=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "station_beta=>support=>TAKE": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "binC_201=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "rag_spot:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "rack bottom:nvme_drive:GRASP": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "canvas_zone_B:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "canvas_zone_B=>nvme_drive=>TAKE": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "Node30.02=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "rack bottom=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "Node30.02=>nvme_drive=>TAKE": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "station_alpha=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "canvas_zone_B:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "station_alpha:nvme_drive:GRASP": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "binC_201:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "station_gamma=>support=>TAKE": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "Node30.02:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "rack bottom=>support=>TAKE": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "canvas_zone_B:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "Node30.03=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "binC_201:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "Node30.03:nvme_drive:GRASP": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "parcelPalette-2.3.2=>nvme_drive=>TAKE": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "canvas_zone_C:nvme_drive:GRASP": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "tire_rack_used:nvme_drive:GRASP": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "canvas_zone_A=>nvme_drive=>TAKE": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "Node30.01:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "Node30.03:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "Node30.01:nvme_drive:GRASP": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "station_alpha:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "tire_rack_used=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "canvas_zone_A=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "station_beta=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "Node30.01=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "rag_spot=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "station_beta=>nvme_drive=>TAKE": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "parcelPalette-2.3.2=>support=>TAKE": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "rag_spot=>nvme_drive=>TAKE": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "rack top=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "canvas_zone_C=>support=>TAKE": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "rack top:nvme_drive:GRASP": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "L2-SecC-RackN=>support=>TAKE": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "station_beta=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "station_gamma:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "rag_spot=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack top/cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "LOWER_rack bottom_parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "LOWER_station_beta_support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/binC_201/parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "LOWER_rag_spot_support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack bottom/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "LOWER_canvas_zone_B_parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/canvas_zone_B/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "LOWER_Node30.02_parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "LOWER_rack bottom_cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "DEPOSIT/Node30.02/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "DEPOSIT/canvas_zone_B/cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "LOWER_binC_201_cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "LOWER_station_gamma_support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "DEPOSIT/Node30.02/cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack bottom/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "LOWER_canvas_zone_B_support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "LOWER_Node30.03_parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "LOWER_binC_201_support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "LOWER_Node30.03_nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.3.2_nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "LOWER_canvas_zone_C_nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_used/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "DEPOSIT/canvas_zone_A/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "DEPOSIT/Node30.01/parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "DEPOSIT/Node30.03/cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "LOWER_Node30.01_nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_used/cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "LOWER_canvas_zone_A_cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "LOWER_station_beta_parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "LOWER_Node30.01_cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "DEPOSIT/rag_spot/parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_beta/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.3.2_support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "DEPOSIT/rag_spot/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "LOWER_rack top_parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "LOWER_canvas_zone_C_support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "DEPOSIT/rack top/nvme_drive": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "DEPOSIT/L2-SecC-RackN/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "LOWER_station_beta_cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "LOWER_station_gamma_parcel_tube": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "DEPOSIT/rag_spot/cover": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "rag_spot",
+   "observable_locations": null
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top",
+    "rack bottom"
+   ]
+  },
+  "binC_corner vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binC_201"
+   ]
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at station_beta": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_beta"
+   ]
+  },
+  "look at station_gamma": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_gamma"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_B",
+    "canvas_zone_C"
+   ]
+  },
+  "peek water_cup & rag_spot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rag_spot"
+   ]
+  },
+  "check tire_rack_new + tire_rack_used": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_rack_used"
+   ]
+  },
+  "Catwalk_Overlook_L2_SecC_Racks_M_N_O": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L2-SecC-RackN"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01",
+    "Node30.02",
+    "Node30.03"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "cart_loading_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charging_station_alpha": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "support",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rack top or rack bottom": [
+   "rack top",
+   "rack bottom"
+  ],
+  "main processing terminals": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations only": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "somewhere on the canvas": [
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "on canvas zones A or B": [
+   "canvas_zone_A",
+   "canvas_zone_B"
+  ],
+  "on the surface areas B or C": [
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "from the outer zones (A and C)": [
+   "canvas_zone_A",
+   "canvas_zone_C"
+  ],
+  "somewhere on the canvas zones or the rag spot": [
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C",
+   "rag_spot"
+  ],
+  "Subnet30": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03"
+  ]
+ }
+}

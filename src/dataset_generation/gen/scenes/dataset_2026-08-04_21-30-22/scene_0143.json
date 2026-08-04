@@ -1,0 +1,703 @@
+{
+ "object_locations": [
+  "drawer_9",
+  "drawer_7",
+  "clearingquadrantALPHA",
+  "clearingquadrantBETA",
+  "binC_201",
+  "drawer_1",
+  "binA_001",
+  "drawer_5",
+  "drawer_3",
+  "pipe_stack_back",
+  "binB_101",
+  "pipe_stack_front"
+ ],
+ "object_types": [
+  "wafer_R",
+  "brush_thin",
+  "veg_carrot",
+  "marker_H"
+ ],
+ "positions": {
+  "[drawer_1][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "[pipe_stack_back][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "[binC_201][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "[drawer_7][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "[drawer_3][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "[drawer_3][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "[pipe_stack_back][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "[clearingquadrantALPHA][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "[drawer_7][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "[pipe_stack_back][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "[pipe_stack_front][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "[drawer_7][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "[clearingquadrantBETA][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "[binB_101][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "[binA_001][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "[drawer_5][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[clearingquadrantALPHA][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "[drawer_9][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "[clearingquadrantBETA][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "[binB_101][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "[clearingquadrantALPHA][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "[drawer_3][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "[drawer_5][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "[clearingquadrantALPHA][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "[pipe_stack_front][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "[drawer_1][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "[clearingquadrantBETA][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "[pipe_stack_back][veg_carrot]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "veg_carrot",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "[clearingquadrantBETA][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "[binB_101][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "[binB_101][wafer_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "[drawer_3][brush_thin]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pipe_stack_back/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "DEPOSIT/binC_201/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_3/marker_H": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_3/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pipe_stack_back/marker_H": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantALPHA/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/marker_H": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "DEPOSIT/pipe_stack_back/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "DEPOSIT/pipe_stack_front/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_7/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_101/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_001/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_5/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantALPHA/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_9/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_101/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantALPHA/marker_H": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_3/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_5/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantALPHA/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "DEPOSIT/pipe_stack_front/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_1/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/marker_H": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "DEPOSIT/pipe_stack_back/veg_carrot": {
+   "type": "PLACE",
+   "bound_type": "veg_carrot",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_101/marker_H": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_101/wafer_R": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_3/brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101"
+   ]
+  },
+  "binC_corner vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binC_201"
+   ]
+  },
+  "clearingquadrantALPHA Overwiew": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantALPHA"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_3",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_7",
+    "drawer_9"
+   ]
+  },
+  "plumbing_supplies_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pipe_stack_front",
+    "pipe_stack_back"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "veg_carrot",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "bins 01": [
+   "binA_001",
+   "binB_101",
+   "binC_201"
+  ],
+  "alpha or beta clearing quadrant": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "first or second cleaning disposals": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "somewhere in the odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "any odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "entire_pipe_stack": [
+   "pipe_stack_front",
+   "pipe_stack_back"
+  ],
+  "front_back_plumbing_tubes": [
+   "pipe_stack_front",
+   "pipe_stack_back"
+  ]
+ }
+}

@@ -1,0 +1,1645 @@
+{
+ "object_locations": [
+  "dime_bin",
+  "cell_R4C1",
+  "cell_R4C5",
+  "shelf_L3_S2",
+  "shelf_L2_S2",
+  "shelf_L1_S3",
+  "tire_bay_FL",
+  "cell_R4C3",
+  "shelf_L1_S2",
+  "input_chute",
+  "shelf_L2_S3",
+  "shelf_L3_S3",
+  "cell_R4C2",
+  "palette_well_8",
+  "pipe_stack_back",
+  "pipe_stack_front",
+  "cell_R4C4"
+ ],
+ "object_types": [
+  "product_item",
+  "beef",
+  "oat_grain",
+  "shrinkwrap",
+  "marker_C",
+  "apple_crimson",
+  "tube_purple",
+  "black_ball",
+  "chip_type_A"
+ ],
+ "positions": {
+  "input_chute=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "cell_R4C3=>apple_crimson=>TAKE": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "LIFT_pipe_stack_back_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "shelf_L2_S3=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S2_oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "cell_R4C3=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "shelf_L1_S3=>beef=>TAKE": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S3_oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C5_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S3_product_item": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "cell_R4C2=>beef=>TAKE": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "LIFT_input_chute_marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C1_chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "shelf_L2_S3=>marker_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "input_chute=>shrinkwrap=>TAKE": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "shelf_L3_S2=>marker_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C1_apple_crimson": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C3_marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "shelf_L3_S3=>marker_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C3_shrinkwrap": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "cell_R4C3=>black_ball=>TAKE": {
+   "type": "PICK",
+   "bound_type": "black_ball",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "LIFT_dime_bin_beef": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S3_black_ball": {
+   "type": "PICK",
+   "bound_type": "black_ball",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C1_product_item": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "shelf_L1_S3=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S2_chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S3=>apple_crimson=>TAKE": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C3_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C2_chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "LIFT_input_chute_product_item": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C2_oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "cell_R4C5=>beef=>TAKE": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "LIFT_palette_well_8_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S2_product_item": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "cell_R4C1=>shrinkwrap=>TAKE": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S2_chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "pipe_stack_front=>beef=>TAKE": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S2_oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LIFT_dime_bin_oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S2_shrinkwrap": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S2_black_ball": {
+   "type": "PICK",
+   "bound_type": "black_ball",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "cell_R4C2=>marker_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C2_shrinkwrap": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C2_black_ball": {
+   "type": "PICK",
+   "bound_type": "black_ball",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "LIFT_input_chute_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L2_S3_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S2_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "cell_R4C5=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S2_marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L3_S3_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "LIFT_dime_bin_marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "shelf_L1_S3=>product_item=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "shelf_L1_S2=>shrinkwrap=>TAKE": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LIFT_dime_bin_shrinkwrap": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "dime_bin=>black_ball=>TAKE": {
+   "type": "PICK",
+   "bound_type": "black_ball",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "LIFT_pipe_stack_back_marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "LIFT_dime_bin_tube_purple": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>shrinkwrap=>TAKE": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C5_marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "tire_bay_FL=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "tire_bay_FL=>apple_crimson=>TAKE": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "LIFT_tire_bay_FL_oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "cell_R4C4=>beef=>TAKE": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "LIFT_pipe_stack_back_apple_crimson": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "LIFT_pipe_stack_front_marker_C": {
+   "type": "PICK",
+   "bound_type": "marker_C",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L2_S2_shrinkwrap": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L2_S2_black_ball": {
+   "type": "PICK",
+   "bound_type": "black_ball",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "LIFT_input_chute_beef": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "cell_R4C5=>apple_crimson=>TAKE": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "palette_well_8=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L2_S3_beef": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C3_beef": {
+   "type": "PICK",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "pipe_stack_back=>product_item=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "cell_R4C2=>tube_purple=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "shelf_L2_S2=>tube_purple=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "pipe_stack_front=>chip_type_A=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "pipe_stack_front=>apple_crimson=>TAKE": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "LIFT_tire_bay_FL_black_ball": {
+   "type": "PICK",
+   "bound_type": "black_ball",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "shelf_L1_S2=>tube_purple=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C4_apple_crimson": {
+   "type": "PICK",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C4_oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "LIFT_input_chute_chip_type_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "LIFT_cell_R4C5_shrinkwrap": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "[input_chute][oat_grain]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "op/stow/apple_crimson/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/tube_purple/loc/pipe_stack_back": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "actions/release/oat_grain/to/shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "actions/release/oat_grain/to/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/stow/oat_grain/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "actions/release/beef/to/shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "actions/release/oat_grain/to/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "actions/release/tube_purple/to/cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "[shelf_L3_S3][product_item]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/stow/beef/loc/cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/stow/marker_C/loc/input_chute": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "[cell_R4C1][chip_type_A]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "actions/release/marker_C/to/shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "[input_chute][shrinkwrap]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "op/stow/marker_C/loc/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "[cell_R4C1][apple_crimson]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "actions/release/marker_C/to/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "[shelf_L3_S3][marker_C]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "[cell_R4C3][shrinkwrap]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "actions/release/black_ball/to/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "black_ball",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "[dime_bin][beef]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "op/stow/black_ball/loc/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "black_ball",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/stow/product_item/loc/cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "op/stow/oat_grain/loc/shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_A/loc/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "actions/release/apple_crimson/to/shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "[cell_R4C3][tube_purple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "[cell_R4C2][chip_type_A]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/stow/product_item/loc/input_chute": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "op/stow/oat_grain/loc/cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/stow/beef/loc/cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "actions/release/tube_purple/to/palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "op/stow/product_item/loc/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/stow/shrinkwrap/loc/cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "[shelf_L1_S2][chip_type_A]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "[pipe_stack_front][beef]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "op/stow/oat_grain/loc/shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "op/stow/oat_grain/loc/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "actions/release/shrinkwrap/to/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "actions/release/black_ball/to/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "black_ball",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/stow/marker_C/loc/cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "[cell_R4C2][shrinkwrap]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "actions/release/black_ball/to/cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "black_ball",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "actions/release/tube_purple/to/input_chute": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "actions/release/tube_purple/to/shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "[shelf_L3_S2][tube_purple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "[cell_R4C5][oat_grain]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "[shelf_L1_S2][marker_C]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "op/stow/tube_purple/loc/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/stow/marker_C/loc/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "actions/release/product_item/to/shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "[shelf_L1_S2][shrinkwrap]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "op/stow/shrinkwrap/loc/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "actions/release/black_ball/to/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "black_ball",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "[pipe_stack_back][marker_C]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "actions/release/tube_purple/to/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "actions/release/shrinkwrap/to/pipe_stack_back": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "[cell_R4C5][marker_C]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_A/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/stow/apple_crimson/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[tire_bay_FL][oat_grain]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/stow/beef/loc/cell_R4C4": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_A/to/pipe_stack_back": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "[pipe_stack_back][apple_crimson]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "op/stow/marker_C/loc/pipe_stack_front": {
+   "type": "PLACE",
+   "bound_type": "marker_C",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "[shelf_L2_S2][shrinkwrap]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "op/stow/black_ball/loc/shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "black_ball",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "actions/release/beef/to/input_chute": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "[cell_R4C5][apple_crimson]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_A/to/palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "actions/release/beef/to/shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "op/stow/beef/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "beef",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "actions/release/product_item/to/pipe_stack_back": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "op/stow/tube_purple/loc/cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/stow/tube_purple/loc/shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_A/to/pipe_stack_front": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "op/stow/apple_crimson/loc/pipe_stack_front": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "actions/release/black_ball/to/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "black_ball",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "[shelf_L1_S2][tube_purple]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "tube_purple",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "[cell_R4C4][apple_crimson]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "apple_crimson",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "[cell_R4C4][oat_grain]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "[input_chute][chip_type_A]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "actions/release/shrinkwrap/to/cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C1",
+    "cell_R4C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C3",
+    "cell_R4C4",
+    "cell_R4C5"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_8"
+   ]
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S2",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2",
+    "shelf_L3_S3"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL"
+   ]
+  },
+  "plumbing_supplies_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pipe_stack_front",
+    "pipe_stack_back"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "beef",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "marker_C",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "apple_crimson",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "tube_purple",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "black_ball",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "black_ball",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "black_ball",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "black_ball",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "black_ball",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "black_ball",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "black_ball",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "cells in row 4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "from the dime bin or the input chute": [
+   "dime_bin",
+   "input_chute"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ],
+  "entire_pipe_stack": [
+   "pipe_stack_front",
+   "pipe_stack_back"
+  ],
+  "front_back_plumbing_tubes": [
+   "pipe_stack_front",
+   "pipe_stack_back"
+  ]
+ }
+}

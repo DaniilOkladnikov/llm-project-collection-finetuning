@@ -1,0 +1,1165 @@
+{
+ "object_locations": [
+  "hook_6",
+  "hook_4",
+  "tray_infeed_slot1",
+  "hook_5",
+  "hook_1",
+  "tray_outfeed_slot2",
+  "tire_rack_used",
+  "hook_3",
+  "penny_bin",
+  "hook_2",
+  "disposal_area",
+  "reject_slot",
+  "tire_rack_new"
+ ],
+ "object_types": [
+  "five_cent_coin",
+  "box_perishable",
+  "silver_bead",
+  "amaranth_kernel",
+  "seasoning_salt",
+  "flash_storage",
+  "bolt"
+ ],
+ "positions": {
+  "get|amaranth_kernel|@|hook_2": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "ns:disposal_area:item:flash_storage:action:pick": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "get|flash_storage|@|tray_outfeed_slot2": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "ns:disposal_area:item:amaranth_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "ns:hook_5:item:five_cent_coin:action:pick": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "get|silver_bead|@|tire_rack_used": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "get|flash_storage|@|hook_5": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "get|bolt|@|reject_slot": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "get|five_cent_coin|@|tray_infeed_slot1": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "get|five_cent_coin|@|hook_4": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "get|flash_storage|@|penny_bin": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "get|flash_storage|@|hook_4": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "ns:tray_infeed_slot1:item:flash_storage:action:pick": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "ns:penny_bin:item:amaranth_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "ns:tray_infeed_slot1:item:amaranth_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "ns:hook_1:item:five_cent_coin:action:pick": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "ns:hook_3:item:seasoning_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "ns:tire_rack_new:item:silver_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "get|bolt|@|tire_rack_used": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "ns:hook_1:item:flash_storage:action:pick": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "ns:tire_rack_new:item:seasoning_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "ns:hook_1:item:amaranth_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "get|flash_storage|@|hook_6": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ns:hook_2:item:silver_bead:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "ns:hook_3:item:bolt:action:pick": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "ns:reject_slot:item:amaranth_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "get|bolt|@|tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "ns:hook_2:item:seasoning_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "get|silver_bead|@|hook_5": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "get|seasoning_salt|@|tray_outfeed_slot2": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "ns:tire_rack_used:item:five_cent_coin:action:pick": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "ns:hook_2:item:bolt:action:pick": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "get|silver_bead|@|hook_4": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "ns:hook_5:item:seasoning_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "get|flash_storage|@|tire_rack_used": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "get|amaranth_kernel|@|tire_rack_used": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "ns:disposal_area:item:bolt:action:pick": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "ns:tray_infeed_slot1:item:seasoning_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "get|seasoning_salt|@|hook_4": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "get|silver_bead|@|hook_1": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "ns:hook_3:item:five_cent_coin:action:pick": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "get|five_cent_coin|@|tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "ns:disposal_area:item:box_perishable:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "ns:hook_3:item:amaranth_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "ns:tray_outfeed_slot2:item:box_perishable:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "get|bolt|@|tray_infeed_slot1": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "get|silver_bead|@|hook_6": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ns:hook_1:item:seasoning_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "get|bolt|@|hook_4": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "get|bolt|@|hook_6": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "get|amaranth_kernel|@|tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "get|silver_bead|@|reject_slot": {
+   "type": "PICK",
+   "bound_type": "silver_bead",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "get|seasoning_salt|@|hook_6": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "get|box_perishable|@|tray_infeed_slot1": {
+   "type": "PICK",
+   "bound_type": "box_perishable",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "ns:hook_1:item:bolt:action:pick": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "get|five_cent_coin|@|hook_2": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "get|five_cent_coin|@|disposal_area": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "ns:tray_outfeed_slot2:item:five_cent_coin:action:pick": {
+   "type": "PICK",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:amaranth_kernel:LOC:hook_2": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:flash_storage:LOC:disposal_area": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "op/stow/flash_storage/loc/tray_outfeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:amaranth_kernel:LOC:disposal_area": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:five_cent_coin:LOC:hook_5": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:silver_bead:LOC:tire_rack_used": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "op/stow/flash_storage/loc/hook_5": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/stow/five_cent_coin/loc/tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "op/stow/five_cent_coin/loc/hook_4": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "penny_bin:flash_storage:DROP": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "hook_4:flash_storage:DROP": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "op/stow/flash_storage/loc/tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:amaranth_kernel:LOC:penny_bin": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "tray_infeed_slot1:amaranth_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "op/stow/five_cent_coin/loc/hook_1": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "op/stow/seasoning_salt/loc/hook_3": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:silver_bead:LOC:tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:bolt:LOC:tire_rack_used": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "hook_1:flash_storage:DROP": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:seasoning_salt:LOC:tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/stow/amaranth_kernel/loc/hook_1": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "hook_6:flash_storage:DROP": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:silver_bead:LOC:hook_2": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/hook_3": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "op/stow/amaranth_kernel/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:bolt:LOC:tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "hook_2:seasoning_salt:DROP": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "hook_5:silver_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "op/stow/seasoning_salt/loc/tray_outfeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "op/stow/five_cent_coin/loc/tire_rack_used": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/hook_2": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "op/stow/silver_bead/loc/hook_4": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "hook_5:seasoning_salt:DROP": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "tire_rack_used:flash_storage:DROP": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "op/stow/amaranth_kernel/loc/tire_rack_used": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:bolt:LOC:disposal_area": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "op/stow/seasoning_salt/loc/tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "hook_4:seasoning_salt:DROP": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "hook_1:silver_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:five_cent_coin:LOC:hook_3": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "tire_rack_new:five_cent_coin:DROP": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "disposal_area:box_perishable:DROP": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "op/stow/amaranth_kernel/loc/hook_3": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "op/stow/box_perishable/loc/tray_outfeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "hook_6:silver_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "op/stow/seasoning_salt/loc/hook_1": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:bolt:LOC:hook_4": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:bolt:LOC:hook_6": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "tire_rack_new:amaranth_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "op/stow/silver_bead/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "silver_bead",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/stow/seasoning_salt/loc/hook_6": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:box_perishable:LOC:tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "box_perishable",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "hook_1:bolt:DROP": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:five_cent_coin:LOC:hook_2": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "disposal_area:five_cent_coin:DROP": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "op/stow/five_cent_coin/loc/tray_outfeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "five_cent_coin",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot1"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot2"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_1",
+    "hook_2",
+    "hook_3",
+    "hook_4",
+    "hook_5",
+    "hook_6"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "check tire_rack_new + tire_rack_used": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_rack_new",
+    "tire_rack_used"
+   ]
+  },
+  "glance disposal_area": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "disposal_area"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "coat_room_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "five_cent_coin",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "box_perishable",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "silver_bead",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "infeed slot 1 or outfeed slot 2": [
+   "tray_infeed_slot1",
+   "tray_outfeed_slot2"
+  ],
+  "any hook": [
+   "hook_1",
+   "hook_2",
+   "hook_3",
+   "hook_4",
+   "hook_5",
+   "hook_6"
+  ],
+  "odd numbered hooks": [
+   "hook_1",
+   "hook_3",
+   "hook_5"
+  ],
+  "even numbered hangers": [
+   "hook_2",
+   "hook_4",
+   "hook_6"
+  ],
+  "first three hooks": [
+   "hook_1",
+   "hook_2",
+   "hook_3"
+  ],
+  "hooks 4 through 6": [
+   "hook_4",
+   "hook_5",
+   "hook_6"
+  ],
+  "from the penny bin or the reject slot": [
+   "penny_bin",
+   "reject_slot"
+  ],
+  "tire_rack new & used": [
+   "tire_rack_new",
+   "tire_rack_used"
+  ],
+  "storage or disposal areas": [
+   "tire_rack_new",
+   "tire_rack_used",
+   "disposal_area"
+  ]
+ }
+}

@@ -1,0 +1,932 @@
+{
+ "object_locations": [
+  "tree_8",
+  "cell_R4C1",
+  "cell_R4C5",
+  "packing_table",
+  "tree_10",
+  "tree_7",
+  "shipping_dock",
+  "cell_R4C3",
+  "pot_large",
+  "pot_medium",
+  "tree_6",
+  "cell_R4C2",
+  "tree_9",
+  "tree_5",
+  "cell_R4C4"
+ ],
+ "object_types": [
+  "chip_type_R",
+  "grain_amaranth",
+  "cling roll",
+  "apple_granny",
+  "package_small"
+ ],
+ "positions": {
+  "shipping_dock=>chip_type_R=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "tree_7=>package_small=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C3/chip_type_R": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "tree_7=>cling roll=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "shipping_dock=>cling roll=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "ns:shipping_dock:item:apple_granny:action:pick": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "cell_R4C5=>package_small=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C5/chip_type_R": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_5/grain_amaranth": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "tree_6=>chip_type_R=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/packing_table/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "tree_10=>package_small=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:pot_medium:item:cling roll:action:pick": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "packing_table=>chip_type_R=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "tree_10=>chip_type_R=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:cell_R4C3:item:apple_granny:action:pick": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C5/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:cling roll:action:pick": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:apple_granny:action:pick": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "tree_9=>cling roll=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "tree_9=>apple_granny=>TAKE": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:chip_type_R:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/packing_table/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "tree_10=>cling roll=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_7/grain_amaranth": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ACQUIRE/shipping_dock/grain_amaranth": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "pot_large=>package_small=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "ns:cell_R4C2:item:apple_granny:action:pick": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "ns:pot_medium:item:grain_amaranth:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:cling roll:action:pick": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:apple_granny:action:pick": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_6/grain_amaranth": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "cell_R4C1=>chip_type_R=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "ns:tree_5:item:chip_type_R:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "cell_R4C4=>chip_type_R=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "packing_table=>grain_amaranth=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "tree_10=>grain_amaranth=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C4/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_5/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_5/apple_granny": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C1/apple_granny": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/grain_amaranth": {
+   "type": "PICK",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "cell_R4C4=>cling roll=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/shipping_dock": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "placing/package_small/tree_7": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "placing/cling roll/tree_7": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "placing/cling roll/shipping_dock": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "placing/apple_granny/shipping_dock": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "placing/package_small/cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/tree_5": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/tree_6": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "placing/package_small/packing_table": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "placing/package_small/tree_10": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "placing/cling roll/pot_medium": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/packing_table": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/tree_10": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "placing/apple_granny/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "placing/cling roll/cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "placing/cling roll/tree_6": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "placing/apple_granny/tree_6": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "placing/cling roll/tree_9": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "placing/apple_granny/tree_9": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/tree_8": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "placing/cling roll/packing_table": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "placing/cling roll/tree_10": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "placing/package_small/tree_8": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/tree_7": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/shipping_dock": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "shipping_dock",
+   "observable_locations": null
+  },
+  "placing/package_small/pot_large": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "placing/apple_granny/cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/pot_medium": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "placing/cling roll/tree_8": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "placing/apple_granny/tree_8": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/tree_6": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/tree_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "placing/chip_type_R/cell_R4C4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/packing_table": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/tree_10": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "placing/package_small/cell_R4C4": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "placing/cling roll/tree_5": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "placing/apple_granny/tree_5": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "placing/apple_granny/cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "placing/grain_amaranth/tree_8": {
+   "type": "PLACE",
+   "bound_type": "grain_amaranth",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "placing/cling roll/cell_R4C4": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C1",
+    "cell_R4C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C3",
+    "cell_R4C4",
+    "cell_R4C5"
+   ]
+  },
+  "observe packing_table + shipping_dock": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "packing_table",
+    "shipping_dock"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_medium",
+    "pot_large"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7",
+    "tree_8",
+    "tree_9",
+    "tree_10"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "grain_amaranth",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "cells in row 4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "packing or shipping areas": [
+   "packing_table",
+   "shipping_dock"
+  ],
+  "medium or large pot": [
+   "pot_medium",
+   "pot_large"
+  ],
+  "tree 8-10": [
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 6-10": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees 5 through 10": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees in the middle section (6-10)": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ]
+ }
+}

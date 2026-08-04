@@ -1,0 +1,910 @@
+{
+ "object_locations": [
+  "cooling_rack",
+  "bay_B",
+  "hook_5",
+  "station_gamma",
+  "drawer_2",
+  "tree_14",
+  "dispenser_B",
+  "station_alpha",
+  "zone_003",
+  "zone_004",
+  "tree_13",
+  "tree_15",
+  "station_beta",
+  "binA_003",
+  "dispenser_A",
+  "binB_103"
+ ],
+ "object_types": [
+  "reinforcement_steel_bar",
+  "stock",
+  "chip_type_F",
+  "probe"
+ ],
+ "positions": {
+  "chip_type_F-from-binB_103": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_F--at--station_beta": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_F--at--zone_004": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "--grasp--reinforcement_steel_bar--at--zone_004": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "probe-from-dispenser_B": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_F--at--bay_B": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "--grasp--reinforcement_steel_bar--at--drawer_2": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "chip_type_F-from-station_gamma": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_F--at--hook_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "--grasp--stock--at--zone_004": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_F--at--cooling_rack": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "--grasp--stock--at--drawer_2": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "--grasp--reinforcement_steel_bar--at--bay_B": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "chip_type_F-from-binA_003": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "chip_type_F-from-tree_13": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "chip_type_F-from-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "reinforcement_steel_bar-from-station_gamma": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "--grasp--reinforcement_steel_bar--at--hook_5": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "probe-from-zone_004": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "probe-from-drawer_2": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "--grasp--stock--at--bay_B": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "reinforcement_steel_bar-from-binA_003": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "--grasp--reinforcement_steel_bar--at--tree_13": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "reinforcement_steel_bar-from-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "--grasp--probe--at--station_beta": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_F--at--dispenser_B": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "stock-from-station_gamma": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "stock-from-cooling_rack": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "--grasp--stock--at--tree_14": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "--grasp--stock--at--zone_003": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "stock-from-station_alpha": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "--grasp--probe--at--bay_B": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "--grasp--stock--at--binA_003": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "--grasp--stock--at--tree_13": {
+   "type": "PICK",
+   "bound_type": "stock",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "--grasp--probe--at--station_gamma": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "probe-from-hook_5": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "probe-from-tree_15": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "probe-from-tree_13": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "--grasp--probe--at--binA_003": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "probe-from-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_F--at--drawer_2": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/binB_103": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_beta/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_004/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "actions/release/reinforcement_steel_bar/to/zone_004": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_B/probe": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/bay_B": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "actions/release/reinforcement_steel_bar/to/drawer_2": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_gamma/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/hook_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_004/stock": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "DEPOSIT/cooling_rack/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_2/stock": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/release/reinforcement_steel_bar/to/bay_B": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/binA_003": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/tree_13": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_A/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/release/reinforcement_steel_bar/to/station_gamma": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "actions/release/reinforcement_steel_bar/to/hook_5": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_004/probe": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "actions/release/probe/to/drawer_2": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/bay_B/stock": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_003/reinforcement_steel_bar": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_13/reinforcement_steel_bar": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_A/reinforcement_steel_bar": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/release/probe/to/station_beta": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/dispenser_B/chip_type_F": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/release/stock/to/station_gamma": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "DEPOSIT/cooling_rack/stock": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "actions/release/stock/to/tree_14": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_003/stock": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "zone_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/stock": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "DEPOSIT/bay_B/probe": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_003/stock": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "actions/release/stock/to/tree_13": {
+   "type": "PLACE",
+   "bound_type": "stock",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_gamma/probe": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "actions/release/probe/to/hook_5": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "actions/release/probe/to/tree_15": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_13/probe": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/release/probe/to/binA_003": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "actions/release/probe/to/dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_F/to/drawer_2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_003"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_103"
+   ]
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at station_beta": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_beta"
+   ]
+  },
+  "look at station_gamma": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_gamma"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_003"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_5"
+   ]
+  },
+  "check cooling_rack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cooling_rack"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_A",
+    "dispenser_B"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_2"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "loading_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "stock",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "probe",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "locations ending in 03": [
+   "binA_003",
+   "binB_103"
+  ],
+  "main processing terminals": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations only": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "dispensers A or B": [
+   "dispenser_A",
+   "dispenser_B"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ]
+ }
+}

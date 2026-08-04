@@ -1,0 +1,1908 @@
+{
+ "object_locations": [
+  "tire_bay_RL",
+  "tree_4",
+  "tire_bay_RR",
+  "pos.y2.x2",
+  "canvas_zone_B",
+  "tree_14",
+  "tree_15",
+  "shelf_L3_S4",
+  "pos.y0.x0",
+  "tire_bay_FR",
+  "zone_014",
+  "tire_bay_FL",
+  "dispenser_B",
+  "cell_R4C3",
+  "tree_12",
+  "balancer_machine",
+  "cell_R1C5",
+  "tree_13",
+  "penny_bin",
+  "reject_slot"
+ ],
+ "object_types": [
+  "network_link",
+  "ribbed_tension_rod",
+  "table_salt",
+  "chicken",
+  "corn_grain",
+  "rice_kernel",
+  "zinc_ingot",
+  "cling roll",
+  "chip_type_D"
+ ],
+ "positions": {
+  "ACQUIRE/tire_bay_RR/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#chicken/take": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_4/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#dispenser_B/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#balancer_machine/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_4/rice_kernel": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/penny_bin/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#table_salt/take": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#tire_bay_FR/#corn_grain/take": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_FR/rice_kernel": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "#penny_bin/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_13/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#tree_13/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_4/ribbed_tension_rod": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x0/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "#reject_slot/#chip_type_D/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#pos.y2.x2/#network_link/take": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "#tire_bay_FR/#ribbed_tension_rod/take": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_15/ribbed_tension_rod": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ACQUIRE/reject_slot/rice_kernel": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "ACQUIRE/balancer_machine/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "#tree_4/#table_salt/take": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#network_link/take": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_RL/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#tree_13/#table_salt/take": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#shelf_L3_S4/#network_link/take": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_FL/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "#tire_bay_RR/#corn_grain/take": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#tire_bay_RR/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#network_link/take": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/balancer_machine/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_FL/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_RL/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#tire_bay_FL/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/balancer_machine/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "#dispenser_B/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/penny_bin/ribbed_tension_rod": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "#balancer_machine/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "#tree_12/#zinc_ingot/take": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#tire_bay_FR/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "#tree_15/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "#tire_bay_FL/#ribbed_tension_rod/take": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "#pos.y0.x0/#table_salt/take": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "#pos.y2.x2/#table_salt/take": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#dispenser_B/#ribbed_tension_rod/take": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/balancer_machine/ribbed_tension_rod": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#chicken/take": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_RR/table_salt": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_014/chicken": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_FL/table_salt": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C5/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#tree_4/#network_link/take": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#table_salt/take": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_014/cling roll": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x0/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "#tree_14/#zinc_ingot/take": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#pos.y0.x0/#corn_grain/take": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_FR/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "#tree_15/#network_link/take": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#zinc_ingot/take": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#tree_13/#network_link/take": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#chip_type_D/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#tree_4/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x0/ribbed_tension_rod": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#zinc_ingot/take": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_13/chicken": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#tire_bay_RR/#chicken/take": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#corn_grain/take": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C5/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#tree_13/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#balancer_machine/#chicken/take": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "ACQUIRE/reject_slot/chicken": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R4C3/ribbed_tension_rod": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#reject_slot/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#tree_4/#zinc_ingot/take": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#tree_15/#corn_grain/take": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_RL/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/rice_kernel": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C5/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_RR/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#reject_slot/#zinc_ingot/take": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_014/chip_type_D": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C5/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "#pos.y2.x2/#chicken/take": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#zone_014/#corn_grain/take": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_RL/ribbed_tension_rod": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#zone_014/#rice_kernel/take": {
+   "type": "PICK",
+   "bound_type": "rice_kernel",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "ACQUIRE/tire_bay_FR/table_salt": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "#tree_14/#table_salt/take": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#pos.y0.x0/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "#pos.y2.x2/#cling roll/take": {
+   "type": "PICK",
+   "bound_type": "cling roll",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cling roll:LOC:tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/stow/chicken/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/tree_4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cling roll:LOC:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/tree_4": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_D:LOC:penny_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/penny_bin": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "op/stow/corn_grain/loc/tree_13": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/tree_13": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:ribbed_tension_rod:LOC:tree_4": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "op/stow/network_link/loc/pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:ribbed_tension_rod:LOC:tree_15": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/stow/zinc_ingot/loc/balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:table_salt:LOC:tree_4": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "op/stow/network_link/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/tree_13": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/stow/network_link/loc/canvas_zone_B": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "op/stow/corn_grain/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:rice_kernel:LOC:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/penny_bin": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:rice_kernel:LOC:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:zinc_ingot:LOC:tree_12": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cling roll:LOC:tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/tree_15": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:ribbed_tension_rod:LOC:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/canvas_zone_B": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:ribbed_tension_rod:LOC:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "op/stow/chicken/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/stow/chicken/loc/zone_014": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:table_salt:LOC:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "op/stow/network_link/loc/tree_4": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "op/stow/table_salt/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/zone_014": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_type_D:LOC:pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "op/stow/zinc_ingot/loc/tree_14": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:tree_15": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/stow/zinc_ingot/loc/canvas_zone_B": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:tree_13": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cling roll:LOC:tree_4": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:zinc_ingot:LOC:cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chicken:LOC:tree_13": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "op/stow/chicken/loc/tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cling roll:LOC:tree_13": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chicken:LOC:balancer_machine": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "balancer_machine",
+   "observable_locations": null
+  },
+  "op/stow/chicken/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/stow/zinc_ingot/loc/tree_4": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "op/stow/corn_grain/loc/tree_15": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/stow/corn_grain/loc/canvas_zone_B": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/canvas_zone_B": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "op/stow/network_link/loc/tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/stow/zinc_ingot/loc/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_D/loc/zone_014": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "op/stow/corn_grain/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chicken:LOC:pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:network_link:LOC:dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/corn_grain/loc/zone_014": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/stow/rice_kernel/loc/zone_014": {
+   "type": "PLACE",
+   "bound_type": "rice_kernel",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:table_salt:LOC:tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:table_salt:LOC:tree_14": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:cling roll:LOC:pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "op/stow/cling roll/loc/pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "cling roll",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_014"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x0"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C5"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C3"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_B"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_B"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S4"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_FR",
+    "tire_bay_RL",
+    "tire_bay_RR"
+   ]
+  },
+  "monitor balancer_machine": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "balancer_machine"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_4"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_12",
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "rice_kernel",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "cling roll",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "97": {
+   "id": 97,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from the penny bin or the reject slot": [
+   "penny_bin",
+   "reject_slot"
+  ],
+  "tire_bay FL/FR/RL/RR": [
+   "tire_bay_FL",
+   "tire_bay_FR",
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "front tire bays (FL and FR)": [
+   "tire_bay_FL",
+   "tire_bay_FR"
+  ],
+  "rear tire bays (RL and RR)": [
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "tire bays on the left (FL and RL)": [
+   "tire_bay_FL",
+   "tire_bay_RL"
+  ],
+  "tire bays on the right (FR and RR)": [
+   "tire_bay_FR",
+   "tire_bay_RR"
+  ],
+  "any tire bay or the balancer": [
+   "tire_bay_FL",
+   "tire_bay_FR",
+   "tire_bay_RL",
+   "tire_bay_RR",
+   "balancer_machine"
+  ],
+  "tire bay FL or RR": [
+   "tire_bay_FL",
+   "tire_bay_RR"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ]
+ }
+}

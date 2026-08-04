@@ -1,0 +1,766 @@
+{
+ "object_locations": [
+  "dispenser_D",
+  "table_Q4",
+  "cell_R2C3",
+  "dispenser_B",
+  "station_alpha",
+  "buffer_zone",
+  "table_Q2",
+  "nest_5",
+  "BIN_RED_LEFT",
+  "conveyor_pick_zone",
+  "tree_15",
+  "BIN_BLUE_RIGHT"
+ ],
+ "object_types": [
+  "prelate",
+  "white_bead",
+  "tile_O",
+  "rice_grain"
+ ],
+ "positions": {
+  "CMD:GRIP:tile_O:LOC:buffer_zone": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:rice_grain:LOC:BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "rice_grain",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=prelate&source=BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "CMD:GRIP:white_bead:LOC:nest_5": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_O:LOC:BIN_RED_LEFT": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "CMD:GRIP:white_bead:LOC:tree_15": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=prelate&source=cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "seize_rice_grain@cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "rice_grain",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:white_bead:LOC:dispenser_D": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_O:LOC:table_Q4": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tile_O&source=nest_5": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rice_grain&source=table_Q2": {
+   "type": "PICK",
+   "bound_type": "rice_grain",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:prelate:LOC:BIN_RED_LEFT": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=prelate&source=table_Q2": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_O:LOC:dispenser_D": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "seize_rice_grain@buffer_zone": {
+   "type": "PICK",
+   "bound_type": "rice_grain",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "seize_prelate@buffer_zone": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:white_bead:LOC:station_alpha": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "CMD:GRIP:white_bead:LOC:conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:rice_grain:LOC:nest_5": {
+   "type": "PICK",
+   "bound_type": "rice_grain",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=prelate&source=nest_5": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "seize_white_bead@dispenser_B": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rice_grain&source=dispenser_D": {
+   "type": "PICK",
+   "bound_type": "rice_grain",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "seize_prelate@dispenser_D": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "seize_tile_O@station_alpha": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_O:LOC:dispenser_B": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "CMD:GRIP:white_bead:LOC:BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rice_grain&source=conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "rice_grain",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tile_O&source=BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "seize_white_bead@table_Q2": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "seize_tile_O@cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "seize_prelate@dispenser_B": {
+   "type": "PICK",
+   "bound_type": "prelate",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "seize_white_bead@BIN_RED_LEFT": {
+   "type": "PICK",
+   "bound_type": "white_bead",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tile_O&source=table_Q2": {
+   "type": "PICK",
+   "bound_type": "tile_O",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "placing/tile_O/buffer_zone": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "BIN_BLUE_RIGHT:rice_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "rice_grain",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "BIN_BLUE_RIGHT:prelate:DROP": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "nest_5:white_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:BIN_RED_LEFT:item:tile_O:action:place": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:white_bead:action:place": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "placing/prelate/cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ns:cell_R2C3:item:rice_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "rice_grain",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "placing/white_bead/dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ns:table_Q4:item:tile_O:action:place": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:tile_O:action:place": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "placing/rice_grain/table_Q2": {
+   "type": "PLACE",
+   "bound_type": "rice_grain",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "placing/prelate/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "ns:table_Q2:item:prelate:action:place": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "placing/tile_O/dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "buffer_zone:rice_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "rice_grain",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "ns:buffer_zone:item:prelate:action:place": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "station_alpha:white_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone:white_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:rice_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "rice_grain",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "nest_5:prelate:DROP": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "placing/white_bead/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ns:dispenser_D:item:rice_grain:action:place": {
+   "type": "PLACE",
+   "bound_type": "rice_grain",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ns:dispenser_D:item:prelate:action:place": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "placing/tile_O/station_alpha": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "ns:dispenser_B:item:tile_O:action:place": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "placing/white_bead/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "placing/rice_grain/conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "rice_grain",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "placing/tile_O/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "table_Q2:white_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "cell_R2C3:tile_O:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "dispenser_B:prelate:DROP": {
+   "type": "PLACE",
+   "bound_type": "prelate",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT:white_bead:DROP": {
+   "type": "PLACE",
+   "bound_type": "white_bead",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "table_Q2:tile_O:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_O",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "bins_observe_red": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_RED_LEFT"
+   ]
+  },
+  "bins_observe_blue": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_BLUE_RIGHT"
+   ]
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at buffer_zone": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "buffer_zone"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_5"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C3"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_B"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_D"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_15"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_safe_drop": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "conveyor_wait_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "prelate",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "white_bead",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "tile_O",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "rice_grain",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "rice_grain",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "rice_grain",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "rice_grain",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "rice_grain",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "rice_grain",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "rice_grain",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "Q2 or Q4 positions": [
+   "table_Q2",
+   "table_Q4"
+  ],
+  "bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "any of the color bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "red or blue bin": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "first station or in buffer zone": [
+   "station_alpha",
+   "buffer_zone"
+  ],
+  "somewhere in dispensers B or D": [
+   "dispenser_B",
+   "dispenser_D"
+  ]
+ }
+}

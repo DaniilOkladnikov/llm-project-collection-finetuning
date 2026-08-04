@@ -1,0 +1,1740 @@
+{
+ "object_locations": [
+  "shelf_L3_S2",
+  "shelf_L1_S4",
+  "shelf_L1_S1",
+  "shelf_L3_S3",
+  "parcelPalette-1.1.2",
+  "pos.y1.x2",
+  "pos.y1.x0",
+  "pos.y1.x3",
+  "pos.y1.x1",
+  "shelf_L2_S3",
+  "brick_pallet_alpha",
+  "parcelPalette-1.1.1",
+  "shelf_L2_S1",
+  "shelf_L1_S3",
+  "shelf_L1_S2",
+  "shelf_L3_S1",
+  "brick_pallet_beta",
+  "shelf_L3_S4",
+  "shelf_L2_S4",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "coin_quarter",
+  "copper_ingot",
+  "parcel_hazmat",
+  "wafer_J",
+  "brush_wide",
+  "debris",
+  "wafer_I",
+  "wafer_S"
+ ],
+ "positions": {
+  "task/pick/shelf_L2_S1/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_beta/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S4/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S1/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x1/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S3/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.2/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_alpha/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_beta/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_beta/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_beta/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S1/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S4/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S1/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S4/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.2/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S4/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S1/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x3/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S1/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S1/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x3/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x2/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S4/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S1/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S1/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S1/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x1/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x3/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S1/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.1/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S1/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S1/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.1/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x1/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S3/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S4/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x3/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S1/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S3/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.2/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x0/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.1/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x3/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S4/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S4/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S4/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.1/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.1/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_alpha/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_beta/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x2/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x2/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x0/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/parcel_hazmat": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x2/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S3/wafer_J": {
+   "type": "PICK",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x1/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S4/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/brush_wide": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S1/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S1/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x1/wafer_S": {
+   "type": "PICK",
+   "bound_type": "wafer_S",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "task/pick/brick_pallet_alpha/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "task/pick/parcelPalette-1.1.2/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x0/wafer_I": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "task/pick/pos.y1.x2/copper_ingot": {
+   "type": "PICK",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "robot/dropoff-brush_wide-at-shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "robot/dropoff-copper_ingot-at-shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "actions/release/copper_ingot/to/brick_pallet_beta": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "op/stow/wafer_S/loc/shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/stow/wafer_I/loc/shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/stow/copper_ingot/loc/pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "robot/dropoff-copper_ingot-at-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "op/stow/coin_quarter/loc/shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "op/stow/wafer_J/loc/parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "robot/dropoff-debris-at-brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "op/stow/wafer_J/loc/brick_pallet_beta": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "actions/release/debris/to/shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/dropoff-debris-at-brick_pallet_beta": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "op/stow/wafer_S/loc/shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "actions/release/wafer_S/to/brick_pallet_beta": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "robot/dropoff-brush_wide-at-shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/stow/brush_wide/loc/shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "actions/release/coin_quarter/to/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "actions/release/wafer_I/to/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/stow/parcel_hazmat/loc/shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_I-at-shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "robot/dropoff-copper_ingot-at-parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_S-at-shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "op/stow/coin_quarter/loc/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "op/stow/parcel_hazmat/loc/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "robot/dropoff-coin_quarter-at-shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "actions/release/brush_wide/to/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/stow/brush_wide/loc/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "op/stow/wafer_I/loc/pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "actions/release/brush_wide/to/shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/stow/wafer_I/loc/shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/stow/brush_wide/loc/shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/stow/wafer_J/loc/shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "robot/dropoff-parcel_hazmat-at-shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/stow/wafer_I/loc/pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "op/stow/wafer_S/loc/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "actions/release/parcel_hazmat/to/shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "actions/release/brush_wide/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "actions/release/copper_ingot/to/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "op/stow/wafer_S/loc/shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/stow/parcel_hazmat/loc/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "op/stow/coin_quarter/loc/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "robot/dropoff-brush_wide-at-pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "op/stow/brush_wide/loc/shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "actions/release/coin_quarter/to/shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/stow/copper_ingot/loc/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "op/stow/coin_quarter/loc/shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "actions/release/parcel_hazmat/to/shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "actions/release/parcel_hazmat/to/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "actions/release/parcel_hazmat/to/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "actions/release/debris/to/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_I-at-parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "op/stow/debris/loc/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "robot/dropoff-copper_ingot-at-parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_J-at-pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "op/stow/brush_wide/loc/shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "actions/release/brush_wide/to/shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/stow/parcel_hazmat/loc/shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "robot/dropoff-coin_quarter-at-shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/stow/debris/loc/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "actions/release/parcel_hazmat/to/brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "op/stow/brush_wide/loc/brick_pallet_beta": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "actions/release/wafer_J/to/pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "actions/release/copper_ingot/to/shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "op/stow/parcel_hazmat/loc/pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "robot/dropoff-copper_ingot-at-pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "op/stow/parcel_hazmat/loc/shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "actions/release/wafer_S/to/pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_J-at-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "wafer_J",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "actions/release/debris/to/pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "op/stow/copper_ingot/loc/shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/stow/debris/loc/shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/stow/brush_wide/loc/shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "op/stow/wafer_I/loc/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "robot/dropoff-copper_ingot-at-shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "actions/release/wafer_S/to/pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "wafer_S",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "robot/dropoff-coin_quarter-at-brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "robot/dropoff-coin_quarter-at-parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "op/stow/wafer_I/loc/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "op/stow/copper_ingot/loc/pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "copper_ingot",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "robot/dropoff-debris-at-shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x1",
+    "pos.y1.x2",
+    "pos.y1.x3"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2",
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S2",
+    "shelf_L2_S3",
+    "shelf_L2_S4"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S2",
+    "shelf_L3_S3",
+    "shelf_L3_S4"
+   ]
+  },
+  "masonry_materials_viewpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "brick_pallet_alpha",
+    "brick_pallet_beta"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "copper_ingot",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "wafer_J",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "wafer_S",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "poses with y1": [
+   "pos.y1.x0",
+   "pos.y1.x1",
+   "pos.y1.x2",
+   "pos.y1.x3"
+  ],
+  "poses with y1 x0 or y1 x3": [
+   "pos.y1.x0",
+   "pos.y1.x3"
+  ],
+  "shelf_L1 slots": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf_L2 slots": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelf_L3 slots": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "any shelf compartment": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4",
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "self S1 of each level": [
+   "shelf_L1_S1",
+   "shelf_L2_S1",
+   "shelf_L3_S1"
+  ],
+  "shelf S4 of each level": [
+   "shelf_L1_S4",
+   "shelf_L2_S4",
+   "shelf_L3_S4"
+  ],
+  "level 1 or level 2 of the shelfs": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelfs level 2 or level 3 positions": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4",
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "first two cells on each shelf level": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L3_S1",
+   "shelf_L3_S2"
+  ],
+  "last two units on each shelf level": [
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S3",
+   "shelf_L2_S4",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "odd numbered compartments across all shelf levels": [
+   "shelf_L1_S1",
+   "shelf_L1_S3",
+   "shelf_L2_S1",
+   "shelf_L2_S3",
+   "shelf_L3_S1",
+   "shelf_L3_S3"
+  ],
+  "even numbered positions across all shelf levels": [
+   "shelf_L1_S2",
+   "shelf_L1_S4",
+   "shelf_L2_S2",
+   "shelf_L2_S4",
+   "shelf_L3_S2",
+   "shelf_L3_S4"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ],
+  "shelf L1 compartments": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf L2 positions": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelf L3 bays": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "all_brick_pallets": [
+   "brick_pallet_alpha",
+   "brick_pallet_beta"
+  ],
+  "alpha_beta_masonry_units": [
+   "brick_pallet_alpha",
+   "brick_pallet_beta"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ]
+ }
+}

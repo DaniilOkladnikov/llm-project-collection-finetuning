@@ -18,7 +18,44 @@ GGUF_DIR = Path("D:/MyLLMs/gguf")
 MERGED_TEMP_DIR = Path("D:/MyLLMs/_merged_temp")
 CONVERT_SCRIPT = Path("C:/Users/okladnik/Documents/llama.cpp/convert_hf_to_gguf.py")
 MERGE_SCRIPT = Path(__file__).parent / "merge_adapter.py"
-QUANT_METHOD = "q8_0"
+
+# A merge can pull a multi-GB base model over the network before it even starts
+# (the 16-bit base repo is usually not the one cached by training), then
+# dequantize and write tens of GB back to disk. 10 minutes is nowhere near
+# enough for a 20B model; this is a hang guard, not a progress budget.
+MERGE_TIMEOUT_SECONDS = 3 * 60 * 60
+
+# Per-family quantization. Llama adapters convert to q8_0, gpt-oss keeps its
+# native MXFP4 experts, everything else falls back to bf16.
+LLAMA_QUANT_METHOD = "q8_0"
+GPT_OSS_QUANT_METHOD = "mxfp4"
+DEFAULT_QUANT_METHOD = "bf16"
+
+# These name the output file but are not all valid --outtype values.
+# convert_hf_to_gguf.py has no mxfp4 outtype and needs none: it reads the
+# mxfp4 quantization_config out of the merged model and repacks the expert
+# tensors to GGML MXFP4 itself, leaving --outtype to decide only what is left
+# (attention, embeddings, norms). Asking for mxfp4 there is an argparse error.
+CONVERTER_OUTTYPE = {GPT_OSS_QUANT_METHOD: "bf16"}
+
+
+def is_llama_model(name: str) -> bool:
+    """Family detection by name. Adapter dirs are prefixed with the short model
+    name (e.g. 'Llama-3.2-3B-...' or 'gpt-oss-20b-...')."""
+    return "llama" in name.lower()
+
+
+def is_gpt_oss_model(name: str) -> bool:
+    """Family detection by name. Adapter dirs prefixed with 'gpt-oss-20b-...'."""
+    return "gpt-oss" in name.lower()
+
+
+def quant_method_for(name: str) -> str:
+    if is_llama_model(name):
+        return LLAMA_QUANT_METHOD
+    if is_gpt_oss_model(name):
+        return GPT_OSS_QUANT_METHOD
+    return DEFAULT_QUANT_METHOD
 
 
 def merge_adapter(adapter_path: Path, output_dir: Path) -> bool:
@@ -37,7 +74,7 @@ def merge_adapter(adapter_path: Path, output_dir: Path) -> bool:
     print(f"  Command: {' '.join(cmd)}\n")
 
     try:
-        result = subprocess.run(cmd, check=False, timeout=600)
+        result = subprocess.run(cmd, check=False, timeout=MERGE_TIMEOUT_SECONDS)
     except subprocess.TimeoutExpired:
         print("  MERGE TIMED OUT\n")
         return False
@@ -61,12 +98,13 @@ def convert_to_gguf(merged_model_path: Path, adapter_name: str,
         print(f"  Already exists: {out_file.name} — skipping")
         return "skipped"
 
+    outtype = CONVERTER_OUTTYPE.get(quant_method, quant_method)
     cmd = [
         sys.executable,
         str(CONVERT_SCRIPT),
         str(merged_model_path),
         "--outfile", str(out_file),
-        "--outtype", quant_method,
+        "--outtype", outtype,
     ]
 
     print(f"  Converting -> {out_file.name} ({quant_method}) ...")
@@ -121,7 +159,8 @@ def main():
     for i, adapter in enumerate(adapters, 1):
         print(f"[{i}/{len(adapters)}] {adapter.name}")
 
-        out_file = args.output_dir / f"{adapter.name}_{QUANT_METHOD}.gguf"
+        quant_method = quant_method_for(adapter.name)
+        out_file = args.output_dir / f"{adapter.name}_{quant_method}.gguf"
         if out_file.exists():
             print(f"  Already exists: {out_file.name} — skipping\n")
             skipped += 1
@@ -140,7 +179,7 @@ def main():
             continue
 
         # Phase 2: Convert merged model to q8_0 GGUF
-        status = convert_to_gguf(MERGED_TEMP_DIR, adapter.name, args.output_dir, QUANT_METHOD)
+        status = convert_to_gguf(MERGED_TEMP_DIR, adapter.name, args.output_dir, quant_method)
         if status == "ok":
             ok += 1
         elif status == "skipped":

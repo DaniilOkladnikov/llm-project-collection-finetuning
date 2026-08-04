@@ -1,0 +1,1719 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "cell_R2C5",
+  "tree_4",
+  "pos.y2.x3",
+  "burner_back_right",
+  "burner_front_left",
+  "canvas_zone_B",
+  "lane_2_end",
+  "tree_14",
+  "lane_1_start",
+  "parcelPalette-2.3.1",
+  "parcelPalette-2.3.2",
+  "tree_2",
+  "tree_12",
+  "drawer_1",
+  "tree_8",
+  "tree_10",
+  "tree_6",
+  "tree_13",
+  "zone_005"
+ ],
+ "object_types": [
+  "wafer_M",
+  "plastic_plumbing_tube",
+  "poultry",
+  "protein_tofu",
+  "cylinder_cyan",
+  "all_season_tyre",
+  "millet_grain",
+  "corn_grain"
+ ],
+ "positions": {
+  "ACQUIRE/lane_2_end/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/tree_4": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_005/millet_grain": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_cyan/from/tree_2": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/all_season_tyre/from/parcelPalette-2.3.2": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_cyan/from/cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_M/from/zone_005": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_back_right/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "actions/grasp/protein_tofu/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_4/poultry": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_cyan/from/parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_left/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_M/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "actions/grasp/protein_tofu/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_1/plastic_plumbing_tube": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/protein_tofu/from/parcelPalette-2.3.2": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "actions/grasp/all_season_tyre/from/cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_cyan/from/zone_005": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_M/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_14/cylinder_cyan": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/cylinder_cyan": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/protein_tofu/from/cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/burner_back_right": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "actions/grasp/protein_tofu/from/parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "actions/grasp/all_season_tyre/from/zone_005": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_left/millet_grain": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_back_right/poultry": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_6/cylinder_cyan": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_12/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_M/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "actions/grasp/all_season_tyre/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/poultry/from/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/lane_2_end": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_2_end/millet_grain": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_14/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/all_season_tyre/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_10/all_season_tyre": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/poultry/from/lane_2_end": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/zone_005": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_cyan/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_M/from/burner_back_right": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_2/poultry": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/parcelPalette-2.3.1/corn_grain": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/poultry": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_13/plastic_plumbing_tube": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_12/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "actions/grasp/all_season_tyre/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/all_season_tyre/from/burner_front_left": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_cyan/from/pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "actions/grasp/protein_tofu/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/poultry/from/tree_12": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y2.x3/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/parcelPalette-2.3.2": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_A/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_4/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/tree_10": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_13/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_left/protein_tofu": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y2.x3/all_season_tyre": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "actions/grasp/corn_grain/from/canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "actions/grasp/poultry/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_2/millet_grain": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/millet_grain/from/cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "millet_grain",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_back_right/plastic_plumbing_tube": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "ACQUIRE/canvas_zone_B/poultry": {
+   "type": "PICK",
+   "bound_type": "poultry",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_M/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "actions/grasp/plastic_plumbing_tube/from/burner_front_left": {
+   "type": "PICK",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "actions/grasp/wafer_M/from/parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_1/all_season_tyre": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#lane_2_end/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "#tree_4/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#zone_005/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#tree_2/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.2/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "#cell_R2C5/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#zone_005/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#burner_back_right/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "#drawer_1/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#tree_4/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.1/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "#burner_front_left/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "#tree_14/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#tree_12/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#lane_1_start/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#drawer_1/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.2/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "#cell_R2C5/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#tree_12/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#zone_005/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#tree_10/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "#tree_10/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "#tree_14/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_8/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#tree_8/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "#cell_R2C5/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#burner_back_right/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.1/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "#zone_005/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#burner_front_left/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "#burner_back_right/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#tree_6/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#tree_12/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#lane_1_start/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.1/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#lane_1_start/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#tree_8/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#tree_6/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#lane_2_end/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "#lane_2_end/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "#tree_14/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_6/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#tree_8/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "#tree_10/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "#lane_2_end/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "#zone_005/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#lane_1_start/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#drawer_1/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#cell_R2C5/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#burner_back_right/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "#tree_2/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.1/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "#cell_R2C5/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#tree_13/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#lane_1_start/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#tree_12/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#tree_13/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#burner_front_left/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "#pos.y2.x3/#cylinder_cyan/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_cyan",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "#tree_10/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "#tree_12/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#pos.y2.x3/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.2/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#tree_4/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#tree_10/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "#pos.y2.x3/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "#tree_13/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#burner_front_left/#protein_tofu/leave": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "#pos.y2.x3/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#corn_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#tree_14/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_2/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "#cell_R2C5/#millet_grain/leave": {
+   "type": "PLACE",
+   "bound_type": "millet_grain",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#burner_back_right/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "#canvas_zone_B/#poultry/leave": {
+   "type": "PLACE",
+   "bound_type": "poultry",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "#drawer_1/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "#cell_R2C5/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "#burner_front_left/#plastic_plumbing_tube/leave": {
+   "type": "PLACE",
+   "bound_type": "plastic_plumbing_tube",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "#parcelPalette-2.3.1/#wafer_M/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "#drawer_1/#all_season_tyre/leave": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_005"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x3"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C5"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_2_end"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_B"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_back_right"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_2",
+    "tree_4"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_8",
+    "tree_10"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_12",
+    "tree_13",
+    "tree_14"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.3.1",
+    "parcelPalette-2.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "plastic_plumbing_tube",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "poultry",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "cylinder_cyan",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "millet_grain",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "on canvas zones A or B": [
+   "canvas_zone_A",
+   "canvas_zone_B"
+  ],
+  "front_left or back_right burner": [
+   "burner_front_left",
+   "burner_back_right"
+  ],
+  "even numbered trees": [
+   "tree_2",
+   "tree_4",
+   "tree_6",
+   "tree_8",
+   "tree_10",
+   "tree_12",
+   "tree_14"
+  ],
+  "Palettes block[2.3.*]": [
+   "parcelPalette-2.3.1",
+   "parcelPalette-2.3.2"
+  ]
+ }
+}

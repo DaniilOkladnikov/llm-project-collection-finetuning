@@ -1,0 +1,731 @@
+{
+ "object_locations": [
+  "input_chute",
+  "penny_bin",
+  "nickel_bin",
+  "dime_bin",
+  "quarter_bin",
+  "reject_slot"
+ ],
+ "object_types": [
+  "coin_penny",
+  "coin_nickel",
+  "coin_dime",
+  "coin_quarter",
+  "coin_half_dollar",
+  "coin_dollar"
+ ],
+ "positions": {
+  "picking/coin_penny/input_chute": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "penny_bin_coin_penny_collect": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "picking/coin_penny/nickel_bin": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "picking/coin_penny/dime_bin": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "picking/coin_penny/quarter_bin": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "picking/coin_penny/reject_slot": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "picking/coin_nickel/input_chute": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#penny_bin/#coin_nickel/take": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "#nickel_bin/#coin_nickel/take": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "dime_bin_coin_nickel_collect": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "picking/coin_nickel/quarter_bin": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "#reject_slot/#coin_nickel/take": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#input_chute/#coin_dime/take": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#penny_bin/#coin_dime/take": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "nickel_bin_coin_dime_collect": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "dime_bin_coin_dime_collect": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "quarter_bin_coin_dime_collect": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "picking/coin_dime/reject_slot": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "picking/coin_quarter/input_chute": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#penny_bin/#coin_quarter/take": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "picking/coin_quarter/nickel_bin": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "#dime_bin/#coin_quarter/take": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "quarter_bin_coin_quarter_collect": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "reject_slot_coin_quarter_collect": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "picking/coin_half_dollar/input_chute": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "penny_bin_coin_half_dollar_collect": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "#nickel_bin/#coin_half_dollar/take": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "#dime_bin/#coin_half_dollar/take": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "quarter_bin_coin_half_dollar_collect": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "#reject_slot/#coin_half_dollar/take": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "input_chute_coin_dollar_collect": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#penny_bin/#coin_dollar/take": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "#nickel_bin/#coin_dollar/take": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "picking/coin_dollar/dime_bin": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "#quarter_bin/#coin_dollar/take": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "picking/coin_dollar/reject_slot": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--release--coin_penny--at--input_chute": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "--release--coin_penny--at--penny_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_penny/to/nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_penny/to/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "--release--coin_penny--at--quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "--release--coin_penny--at--reject_slot": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/input_chute/coin_nickel/place": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "/mnt/penny_bin/coin_nickel/place": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_nickel/to/nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/coin_nickel/place": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "--release--coin_nickel--at--quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "--release--coin_nickel--at--reject_slot": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--release--coin_dime--at--input_chute": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "actions/release/coin_dime/to/penny_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "--release--coin_dime--at--nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_dime/to/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "--release--coin_dime--at--quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/coin_dime/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "actions/release/coin_quarter/to/input_chute": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "actions/release/coin_quarter/to/penny_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_quarter/to/nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_quarter/to/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/coin_quarter/place": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/coin_quarter/place": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/input_chute/coin_half_dollar/place": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "actions/release/coin_half_dollar/to/penny_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_half_dollar/to/nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_half_dollar/to/dime_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/coin_half_dollar/place": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "actions/release/coin_half_dollar/to/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/input_chute/coin_dollar/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "--release--coin_dollar--at--penny_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "/mnt/nickel_bin/coin_dollar/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/coin_dollar/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "--release--coin_dollar--at--quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/coin_dollar/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin",
+    "nickel_bin"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin",
+    "quarter_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from any of the valid coin bins": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "somewhere in the input or reject slots": [
+   "input_chute",
+   "reject_slot"
+  ],
+  "inside the penny or nickel containers": [
+   "penny_bin",
+   "nickel_bin"
+  ],
+  "from the dime or quarter trays": [
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "anywhere in the system": [
+   "input_chute",
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin",
+   "reject_slot"
+  ],
+  "from the input chute or the quarter bin": [
+   "input_chute",
+   "quarter_bin"
+  ],
+  "inside any of the receptacles excluding the input": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin",
+   "reject_slot"
+  ],
+  "from the penny bin or the reject slot": [
+   "penny_bin",
+   "reject_slot"
+  ],
+  "from the dime bin or the input chute": [
+   "dime_bin",
+   "input_chute"
+  ]
+ }
+}

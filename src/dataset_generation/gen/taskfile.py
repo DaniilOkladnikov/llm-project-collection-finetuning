@@ -78,6 +78,8 @@ class Task:
     program_text: str                       # de-indented raw pseudo-code
     state_change: Dict[str, str] = field(default_factory=dict)
     comes_only_after: List[MacroSig] = field(default_factory=list)
+    rescan: Optional[str] = None            # 'add' | 'drop': prompt states the
+                                            # scene changed -> force a re-observe
     ast: object = None                      # filled in by program.parse_program
 
     @property
@@ -87,22 +89,40 @@ class Task:
 
 @dataclass
 class TaskFile:
-    answers: Dict[str, str]
+    answers: Dict[str, str]                 # macro signature -> template
     tasks: Dict[int, Task]
+    answer_ids: Dict[str, int] = field(default_factory=dict)   # macro NAME -> id
 
 
 # --- answers parsing --------------------------------------------------------
 
+# Legacy form:  "macro": "template"
 _ANSWER_RE = re.compile(r'^\s*"((?:[^"\\]|\\.)*)"\s*:\s*"((?:[^"\\]|\\.)*)"\s*(#.*)?$')
+# Current form: "macro": {id: N, text: "template"}
+_ANSWER_ID_RE = re.compile(
+    r'^\s*"((?:[^"\\]|\\.)*)"\s*:\s*\{\s*id\s*:\s*(\d+)\s*,\s*'
+    r'text\s*:\s*"((?:[^"\\]|\\.)*)"\s*\}\s*(#.*)?$')
 
 
-def _parse_answers(lines: List[str]) -> Dict[str, str]:
+def _parse_answers(lines: List[str]) -> Tuple[Dict[str, str], Dict[str, int]]:
+    """Return (signature -> template, macro-name -> id).
+
+    Ids are declared in tasks.yaml so they stay stable across regenerations; a
+    macro written in the legacy id-less form simply has no id.
+    """
     out: Dict[str, str] = {}
+    ids: Dict[str, int] = {}
     for line in lines:
+        m = _ANSWER_ID_RE.match(line)
+        if m:
+            sig, aid, template = m.group(1), int(m.group(2)), m.group(3)
+            out[sig] = template
+            ids[parse_macro_sig(sig).name] = aid
+            continue
         m = _ANSWER_RE.match(line)
         if m:
             out[m.group(1)] = m.group(2)
-    return out
+    return out, ids
 
 
 # --- program extraction -----------------------------------------------------
@@ -185,7 +205,7 @@ def load_task_file(path: str = TASKS_PATH) -> TaskFile:
     answer_lines = lines[:tasks_idx]
     body = lines[tasks_idx + 1:]
 
-    answers = _parse_answers(answer_lines)
+    answers, answer_ids = _parse_answers(answer_lines)
 
     header_re = re.compile(r"^\s{1,4}(\d+):\s*$")
     blocks: List[Tuple[int, List[str]]] = []
@@ -208,13 +228,17 @@ def load_task_file(path: str = TASKS_PATH) -> TaskFile:
         prompts: List[str] = []
         state_change: Dict[str, str] = {}
         coa: List[MacroSig] = []
+        rescan: Optional[str] = None
         program_text = ""
 
         i = 0
         while i < len(blk):
             line = blk[i]
             s = line.strip()
-            if s.startswith("prompts:"):
+            if s.startswith("rescan:"):
+                rescan = re.sub(r"\s*#.*$", "", s[len("rescan:"):]).strip() or None
+                i += 1
+            elif s.startswith("prompts:"):
                 prompts = _parse_prompts(s[len("prompts:"):])
                 i += 1
             elif s.startswith("state_change:"):
@@ -249,9 +273,10 @@ def load_task_file(path: str = TASKS_PATH) -> TaskFile:
             program_text=program_text,
             state_change=state_change,
             comes_only_after=coa,
+            rescan=rescan,
         )
 
-    return TaskFile(answers=answers, tasks=tasks)
+    return TaskFile(answers=answers, tasks=tasks, answer_ids=answer_ids)
 
 
 if __name__ == "__main__":

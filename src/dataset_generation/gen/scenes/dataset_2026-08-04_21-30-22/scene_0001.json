@@ -1,0 +1,1681 @@
+{
+ "object_locations": [
+  "tree_8",
+  "lane_3_mid",
+  "collection_bin",
+  "cooling_rack",
+  "nest_4",
+  "clearingquadrantBETA",
+  "lane_3_end",
+  "furnace_mouth",
+  "inspection_pad",
+  "burner_back_left",
+  "packing_table",
+  "burner_back_right",
+  "conveyor_drop_zone",
+  "shelf_L2_S4",
+  "lane_3_start"
+ ],
+ "object_types": [
+  "corn_kernel",
+  "box_domestic",
+  "chip_type_B",
+  "brush_thin",
+  "tile_K",
+  "tile_R",
+  "cylinder_black",
+  "ribbed_tension_rod",
+  "grain_sorghum",
+  "king"
+ ],
+ "positions": {
+  "op/grab/ribbed_tension_rod/loc/inspection_pad": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "op/grab/grain_sorghum/loc/furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "op/grab/corn_kernel/loc/inspection_pad": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/tree_8": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_black/loc/cooling_rack": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "CMD:GRIP:cylinder_black:LOC:burner_back_right": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_black/loc/nest_4": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_black/loc/furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "op/grab/grain_sorghum/loc/packing_table": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "op/grab/ribbed_tension_rod/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/box_domestic/loc/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/corn_kernel/loc/tree_8": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_domestic:LOC:lane_3_start": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/tree_8": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:cooling_rack": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "op/grab/box_domestic/loc/lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "op/grab/king/loc/furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "op/grab/brush_thin/loc/lane_3_end": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "op/grab/brush_thin/loc/nest_4": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/box_domestic/loc/clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_B/loc/conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_domestic:LOC:inspection_pad": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/cooling_rack": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_R:LOC:burner_back_right": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "op/grab/grain_sorghum/loc/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/king/loc/burner_back_right": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_R:LOC:nest_4": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "op/grab/ribbed_tension_rod/loc/cooling_rack": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "CMD:GRIP:ribbed_tension_rod:LOC:burner_back_right": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "op/grab/brush_thin/loc/burner_back_right": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_domestic:LOC:tree_8": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_B/loc/cooling_rack": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_B:LOC:burner_back_right": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:ribbed_tension_rod:LOC:nest_4": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "op/grab/ribbed_tension_rod/loc/lane_3_end": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "CMD:GRIP:grain_sorghum:LOC:shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:cylinder_black:LOC:burner_back_left": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/ribbed_tension_rod/loc/furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_black/loc/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_K:LOC:cooling_rack": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "op/grab/corn_kernel/loc/lane_3_end": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_B/loc/furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/lane_3_end": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/nest_4": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "op/grab/king/loc/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/king/loc/lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:packing_table": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:lane_3_start": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/brush_thin/loc/lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_B/loc/lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "op/grab/king/loc/collection_bin": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "CMD:GRIP:ribbed_tension_rod:LOC:collection_bin": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "op/grab/brush_thin/loc/collection_bin": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_B/loc/collection_bin": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_B:LOC:clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_domestic:LOC:conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_black/loc/inspection_pad": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "op/grab/corn_kernel/loc/burner_back_right": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_domestic:LOC:cooling_rack": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "op/grab/box_domestic/loc/burner_back_right": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/brush_thin/loc/inspection_pad": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/packing_table": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "CMD:GRIP:ribbed_tension_rod:LOC:burner_back_left": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "CMD:GRIP:king:LOC:tree_8": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:burner_back_left": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_B/loc/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tile_R:LOC:clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:packing_table": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:lane_3_start": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "op/grab/corn_kernel/loc/lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_domestic:LOC:packing_table": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_B:LOC:shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "op/grab/grain_sorghum/loc/conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "op/grab/box_domestic/loc/collection_bin": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "op/grab/tile_R/loc/inspection_pad": {
+   "type": "PICK",
+   "bound_type": "tile_R",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "CMD:GRIP:cylinder_black:LOC:conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "cylinder_black",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "LOWER_inspection_pad_ribbed_tension_rod": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "LOWER_inspection_pad_corn_kernel": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "LOWER_tree_8_tile_R": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_cylinder_black": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "--release--cylinder_black--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "LOWER_conveyor_drop_zone_brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--release--cylinder_black--at--nest_4": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_cylinder_black": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "--release--grain_sorghum--at--packing_table": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "--release--ribbed_tension_rod--at--shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "LOWER_burner_back_left_box_domestic": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "LOWER_tree_8_corn_kernel": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "--release--tile_K--at--tree_8": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_king": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--lane_3_end": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "LOWER_nest_4_brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "LOWER_shelf_L2_S4_tile_K": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--release--chip_type_B--at--conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--inspection_pad": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "--release--tile_R--at--cooling_rack": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "--release--tile_R--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_start_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "--release--king--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "LOWER_nest_4_tile_R": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "--release--ribbed_tension_rod--at--cooling_rack": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "--release--ribbed_tension_rod--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--tile_R--at--furnace_mouth": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "LOWER_burner_back_right_brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--tree_8": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_chip_type_B": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "--release--chip_type_B--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--ribbed_tension_rod--at--nest_4": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "--release--ribbed_tension_rod--at--lane_3_end": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "--release--grain_sorghum--at--shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "--release--cylinder_black--at--burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_ribbed_tension_rod": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "--release--cylinder_black--at--lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_tile_K": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_end_corn_kernel": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_chip_type_B": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_end_tile_K": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "--release--tile_K--at--nest_4": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_start_king": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "--release--king--at--lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--packing_table": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_mid_brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_mid_chip_type_B": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "LOWER_collection_bin_king": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "LOWER_collection_bin_ribbed_tension_rod": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "LOWER_collection_bin_brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "LOWER_collection_bin_chip_type_B": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "--release--chip_type_B--at--clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--release--cylinder_black--at--inspection_pad": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "--release--corn_kernel--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_box_domestic": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "LOWER_burner_back_right_box_domestic": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "LOWER_burner_back_left_tile_R": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--inspection_pad": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "--release--tile_R--at--packing_table": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_start_tile_R": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "--release--tile_R--at--lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "LOWER_burner_back_left_ribbed_tension_rod": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "LOWER_tree_8_king": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "LOWER_burner_back_left_brush_thin": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_start_chip_type_B": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "--release--tile_R--at--clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--release--corn_kernel--at--packing_table": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "LOWER_lane_3_start_corn_kernel": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "--release--tile_K--at--burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--release--corn_kernel--at--lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--packing_table": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "--release--chip_type_B--at--shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "--release--tile_K--at--lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "LOWER_conveyor_drop_zone_grain_sorghum": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--release--corn_kernel--at--clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--release--box_domestic--at--collection_bin": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "LOWER_inspection_pad_tile_R": {
+   "type": "PLACE",
+   "bound_type": "tile_R",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "LOWER_conveyor_drop_zone_cylinder_black": {
+   "type": "PLACE",
+   "bound_type": "cylinder_black",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "inspection_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "inspection_pad"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_4"
+   ]
+  },
+  "monitor furnace_mouth": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "furnace_mouth"
+   ]
+  },
+  "check cooling_rack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cooling_rack"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_mid"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S4"
+   ]
+  },
+  "observe packing_table + shipping_dock": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "packing_table"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_back_left",
+    "burner_back_right"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_8"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "collection_bin"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "loading_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "tile_R",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "cylinder_black",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "king",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "drop zone or inspection pad": [
+   "conveyor_drop_zone",
+   "inspection_pad"
+  ],
+  "furnace & cooling": [
+   "furnace_mouth",
+   "cooling_rack"
+  ],
+  "anywhere on the lane 3": [
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "back burners": [
+   "burner_back_left",
+   "burner_back_right"
+  ]
+ }
+}

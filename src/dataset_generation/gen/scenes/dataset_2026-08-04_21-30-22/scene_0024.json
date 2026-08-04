@@ -1,0 +1,1260 @@
+{
+ "object_locations": [
+  "parcelPalette-3.3.1",
+  "finished_stack",
+  "collection_bin",
+  "lane_3_end",
+  "shelf_L1_S4",
+  "quarter_bin",
+  "cell_R2C1",
+  "pos.y2.x3",
+  "pos.y0.x3",
+  "tire_rack_used",
+  "tire_rack_new",
+  "shelf_L3_S4",
+  "pos.y1.x3",
+  "ingot_queue",
+  "cell_R2C4",
+  "shelf_L2_S4",
+  "drawer_6"
+ ],
+ "object_types": [
+  "hex_nut",
+  "box_small",
+  "parcel_express",
+  "sorghum_kernel",
+  "pvc_pipe",
+  "table_salt",
+  "roller_red"
+ ],
+ "positions": {
+  "--grasp--box_small--at--drawer_6": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "ns:lane_3_end:item:table_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:pvc_pipe:GRASP": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "--grasp--parcel_express--at--parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "ns:ingot_queue:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "--grasp--sorghum_kernel--at--cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "ingot_queue:pvc_pipe:GRASP": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "ns:drawer_6:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--drawer_6": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "ns:cell_R2C1:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ns:cell_R2C1:item:hex_nut:action:pick": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "--grasp--sorghum_kernel--at--pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--lane_3_end": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "tire_rack_new:sorghum_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "pos.y2.x3:hex_nut:GRASP": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "--grasp--box_small--at--cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:sorghum_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:hex_nut:GRASP": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "tire_rack_used:box_small:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "--grasp--roller_red--at--tire_rack_used": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "cell_R2C4:roller_red:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "ns:collection_bin:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "--grasp--parcel_express--at--cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "--grasp--box_small--at--cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--collection_bin": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "ns:pos.y2.x3:item:table_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "--grasp--sorghum_kernel--at--ingot_queue": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "--grasp--box_small--at--pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "tire_rack_used:parcel_express:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "ns:pos.y1.x3:item:table_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "ns:cell_R2C4:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "--grasp--roller_red--at--pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1:hex_nut:GRASP": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "ns:pos.y2.x3:item:box_small:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "tire_rack_used:pvc_pipe:GRASP": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "finished_stack:pvc_pipe:GRASP": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:table_salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ns:quarter_bin:item:table_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:table_salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:box_small:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:pos.y1.x3:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "--grasp--sorghum_kernel--at--drawer_6": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "cell_R2C1:pvc_pipe:GRASP": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ns:collection_bin:item:table_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "ns:pos.y2.x3:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "--grasp--box_small--at--collection_bin": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S4:item:table_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:box_small:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "--grasp--roller_red--at--shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:pos.y0.x3:item:box_small:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1:table_salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "ns:ingot_queue:item:table_salt:action:pick": {
+   "type": "PICK",
+   "bound_type": "table_salt",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "--grasp--box_small--at--ingot_queue": {
+   "type": "PICK",
+   "bound_type": "box_small",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1:roller_red:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S4:item:parcel_express:action:pick": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:pvc_pipe:GRASP": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "--grasp--parcel_express--at--pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "parcel_express",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_6/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_3_end/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S4/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-3.3.1/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "DEPOSIT/ingot_queue/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C4/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/ingot_queue/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_6/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_6/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C1/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C1/hex_nut": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_3_end/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_new/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/hex_nut": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C4/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L1_S4/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L3_S4/hex_nut": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_used/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_used/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C4/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/collection_bin/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C4/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C1/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "DEPOSIT/collection_bin/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/ingot_queue/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_used/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C4/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-3.3.1/hex_nut": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_used/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "DEPOSIT/finished_stack/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L3_S4/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/quarter_bin/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L1_S4/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L1_S4/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/drawer_6/sorghum_kernel": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C1/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "DEPOSIT/collection_bin/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/collection_bin/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S4/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S4/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/tire_rack_new/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S4/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x3/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L1_S4/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-3.3.1/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "DEPOSIT/ingot_queue/table_salt": {
+   "type": "PLACE",
+   "bound_type": "table_salt",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "DEPOSIT/ingot_queue/box_small": {
+   "type": "PLACE",
+   "bound_type": "box_small",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "DEPOSIT/parcelPalette-3.3.1/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L2_S4/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/shelf_L1_S4/pvc_pipe": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x3/parcel_express": {
+   "type": "PLACE",
+   "bound_type": "parcel_express",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x3"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x3"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C1"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C4"
+   ]
+  },
+  "scan ingot_queue": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "ingot_queue"
+   ]
+  },
+  "view finished_stack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "finished_stack"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_end"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_6"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "quarter_bin"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S4"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S4"
+   ]
+  },
+  "check tire_rack_new + tire_rack_used": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_rack_new",
+    "tire_rack_used"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "collection_bin"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.3.1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "heat_safe_distance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "loading_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "box_small",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_express",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "table_salt",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "any pos with x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "poses x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "queue & stack": [
+   "ingot_queue",
+   "finished_stack"
+  ],
+  "shelf S4 of each level": [
+   "shelf_L1_S4",
+   "shelf_L2_S4",
+   "shelf_L3_S4"
+  ],
+  "tire_rack new & used": [
+   "tire_rack_new",
+   "tire_rack_used"
+  ]
+ }
+}

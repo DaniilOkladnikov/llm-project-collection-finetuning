@@ -1,0 +1,498 @@
+{
+ "object_locations": [
+  "METALcontainer",
+  "DEBRIScontainer",
+  "ELECTRONICcontainer",
+  "clearingquadrantALPHA",
+  "clearingquadrantBETA",
+  "clearingquadrantGAMMA",
+  "clearingquadrantDELTA"
+ ],
+ "object_types": [
+  "electronic part",
+  "debris",
+  "metal scrap"
+ ],
+ "positions": {
+  "METALcontainer.item.electronic part.acquire": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "task/pick/DEBRIScontainer/electronic part": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ELECTRONICcontainer.item.electronic part.acquire": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "seize_electronic part@clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "seize_electronic part@clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "clearingquadrantGAMMA.item.electronic part.acquire": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantGAMMA",
+   "observable_locations": null
+  },
+  "seize_electronic part@clearingquadrantDELTA": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantDELTA",
+   "observable_locations": null
+  },
+  "METALcontainer.item.debris.acquire": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "seize_debris@DEBRIScontainer": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ELECTRONICcontainer.item.debris.acquire": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "task/pick/clearingquadrantALPHA/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "seize_debris@clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "clearingquadrantGAMMA.item.debris.acquire": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantGAMMA",
+   "observable_locations": null
+  },
+  "task/pick/clearingquadrantDELTA/debris": {
+   "type": "PICK",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantDELTA",
+   "observable_locations": null
+  },
+  "METALcontainer.item.metal scrap.acquire": {
+   "type": "PICK",
+   "bound_type": "metal scrap",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "DEBRIScontainer.item.metal scrap.acquire": {
+   "type": "PICK",
+   "bound_type": "metal scrap",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "ELECTRONICcontainer.item.metal scrap.acquire": {
+   "type": "PICK",
+   "bound_type": "metal scrap",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "seize_metal scrap@clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "seize_metal scrap@clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "task/pick/clearingquadrantGAMMA/metal scrap": {
+   "type": "PICK",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantGAMMA",
+   "observable_locations": null
+  },
+  "clearingquadrantDELTA.item.metal scrap.acquire": {
+   "type": "PICK",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantDELTA",
+   "observable_locations": null
+  },
+  "DEPOSIT/METALcontainer/electronic part": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/DEBRIScontainer/electronic part": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/ELECTRONICcontainer/electronic part": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantALPHA/electronic part": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/electronic part": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantGAMMA/electronic part": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantGAMMA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantDELTA/electronic part": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "clearingquadrantDELTA",
+   "observable_locations": null
+  },
+  "DEPOSIT/METALcontainer/debris": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/DEBRIScontainer/debris": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/ELECTRONICcontainer/debris": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantALPHA/debris": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/debris": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantGAMMA/debris": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantGAMMA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantDELTA/debris": {
+   "type": "PLACE",
+   "bound_type": "debris",
+   "bound_location": "clearingquadrantDELTA",
+   "observable_locations": null
+  },
+  "DEPOSIT/METALcontainer/metal scrap": {
+   "type": "PLACE",
+   "bound_type": "metal scrap",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/DEBRIScontainer/metal scrap": {
+   "type": "PLACE",
+   "bound_type": "metal scrap",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/ELECTRONICcontainer/metal scrap": {
+   "type": "PLACE",
+   "bound_type": "metal scrap",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantALPHA/metal scrap": {
+   "type": "PLACE",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantBETA/metal scrap": {
+   "type": "PLACE",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantGAMMA/metal scrap": {
+   "type": "PLACE",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantGAMMA",
+   "observable_locations": null
+  },
+  "DEPOSIT/clearingquadrantDELTA/metal scrap": {
+   "type": "PLACE",
+   "bound_type": "metal scrap",
+   "bound_location": "clearingquadrantDELTA",
+   "observable_locations": null
+  },
+  "METALcontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "METALcontainer"
+   ]
+  },
+  "DEBRIScontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "DEBRIScontainer"
+   ]
+  },
+  "ELECTRONICcontainerView": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "ELECTRONICcontainer"
+   ]
+  },
+  "clearingquadrantALPHA Overwiew": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantALPHA"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "clearingquadrantGAMMA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantGAMMA"
+   ]
+  },
+  "clearingquadrantDELTA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantDELTA"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "debris",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "metal scrap",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "metal scrap",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "metal scrap",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "metal scrap",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "metal scrap",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "metal scrap",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "metal scrap",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "containers": [
+   "METALcontainer",
+   "DEBRIScontainer",
+   "ELECTRONICcontainer"
+  ],
+  "clearing_quadrants": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA",
+   "clearingquadrantGAMMA",
+   "clearingquadrantDELTA"
+  ],
+  "conductive material storage": [
+   "METALcontainer",
+   "ELECTRONICcontainer"
+  ],
+  "non-electronic waste containers": [
+   "METALcontainer",
+   "DEBRIScontainer"
+  ],
+  "boxes": [
+   "METALcontainer",
+   "DEBRIScontainer",
+   "ELECTRONICcontainer"
+  ],
+  "storages": [
+   "METALcontainer",
+   "DEBRIScontainer",
+   "ELECTRONICcontainer"
+  ],
+  "one of the caskets": [
+   "METALcontainer",
+   "DEBRIScontainer",
+   "ELECTRONICcontainer"
+  ],
+  "clearing area": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA",
+   "clearingquadrantGAMMA",
+   "clearingquadrantDELTA"
+  ],
+  "alpha or beta quadrant": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "alpha gamma or delta clearing site": [
+   "clearingquadrantALPHA",
+   "clearingquadrantGAMMA",
+   "clearingquadrantDELTA"
+  ],
+  "first or second cleaning disposals": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ]
+ }
+}

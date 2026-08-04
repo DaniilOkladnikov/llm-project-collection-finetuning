@@ -1,0 +1,1139 @@
+{
+ "object_locations": [
+  "cell_R3C1",
+  "shelf_L1_S3",
+  "shelf_L1_S4",
+  "cell_R3C4",
+  "shelf_L1_S1",
+  "shelf_L1_S2",
+  "cell_R3C2",
+  "zone_006",
+  "burner_back_left",
+  "cell_R3C5",
+  "silo_1",
+  "cell_R3C3",
+  "packing_table",
+  "silo_2",
+  "burner_front_left",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "package_large",
+  "parcel",
+  "penny",
+  "cylinder_green",
+  "rubble",
+  "winter_tire"
+ ],
+ "positions": {
+  "picking/winter_tire/silo_1": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "picking/rubble/cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "picking/package_large/cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "picking/rubble/silo_1": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "picking/parcel/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "picking/winter_tire/silo_2": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "picking/winter_tire/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "picking/penny/shelf_L1_S2": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "picking/rubble/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "picking/penny/cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "picking/winter_tire/cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "picking/penny/cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "picking/rubble/cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/silo_1": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "picking/parcel/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "picking/penny/burner_front_left": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/burner_front_left": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "picking/parcel/zone_006": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/rubble/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "picking/package_large/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "picking/winter_tire/zone_006": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/rubble/zone_006": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/package_large/shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "picking/parcel/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "picking/parcel/cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "picking/parcel/packing_table": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "picking/winter_tire/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "picking/winter_tire/packing_table": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "picking/rubble/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "picking/parcel/shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "picking/rubble/cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "picking/rubble/packing_table": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "picking/penny/zone_006": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/zone_006": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "picking/penny/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "picking/parcel/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "picking/winter_tire/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "picking/winter_tire/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "picking/penny/cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "picking/rubble/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "picking/cylinder_green/burner_back_left": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "picking/rubble/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "picking/package_large/silo_1": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "picking/parcel/shelf_L1_S2": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "picking/penny/shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "picking/parcel/silo_1": {
+   "type": "PICK",
+   "bound_type": "parcel",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "picking/rubble/cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "picking/package_large/silo_2": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "picking/penny/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "penny",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "picking/winter_tire/cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|silo_1": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C3/rubble/place": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "set|package_large|@|cell_R3C4": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "set|cylinder_green|@|shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/silo_1/rubble/place": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C2/parcel/place": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|silo_2": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S2/penny/place": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C2/rubble/place": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "set|penny|@|cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "set|cylinder_green|@|cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C4/winter_tire/place": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "set|penny|@|cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C4/rubble/place": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "set|cylinder_green|@|silo_1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/parcel/place": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "set|cylinder_green|@|cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "set|penny|@|burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "set|cylinder_green|@|burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "set|parcel|@|zone_006": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "set|rubble|@|shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C2/cylinder_green/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "set|package_large|@|burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/zone_006/winter_tire/place": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "set|rubble|@|zone_006": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S2/package_large/place": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/parcel/place": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "set|parcel|@|cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "set|parcel|@|packing_table": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C4/cylinder_green/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|packing_table": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "set|rubble|@|burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S2/parcel/place": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C5/rubble/place": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "set|rubble|@|packing_table": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "/mnt/zone_006/penny/place": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "/mnt/zone_006/cylinder_green/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "set|penny|@|burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/parcel/place": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "set|penny|@|cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "set|rubble|@|shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/cylinder_green/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "set|rubble|@|shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/silo_1/package_large/place": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "set|parcel|@|shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "set|penny|@|shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "set|parcel|@|silo_1": {
+   "type": "PLACE",
+   "bound_type": "parcel",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "set|rubble|@|cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "rubble",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "/mnt/silo_2/package_large/place": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "set|penny|@|shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "penny",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "set|winter_tire|@|cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_006"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R3C4",
+    "cell_R3C5"
+   ]
+  },
+  "checkLevel silo_1": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_1"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2",
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2"
+   ]
+  },
+  "observe packing_table + shipping_dock": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "packing_table"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_back_left"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "hopper_fill": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "parcel",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "penny",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "rubble",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells in row 3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "from any of the silos 1 or 2": [
+   "silo_1",
+   "silo_2"
+  ],
+  "within any of the first two silos": [
+   "silo_1",
+   "silo_2"
+  ],
+  "shelf_L1 slots": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf level L1 slots or the packing table": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "packing_table"
+  ],
+  "shelf L1 compartments": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "burners on the left": [
+   "burner_front_left",
+   "burner_back_left"
+  ]
+ }
+}

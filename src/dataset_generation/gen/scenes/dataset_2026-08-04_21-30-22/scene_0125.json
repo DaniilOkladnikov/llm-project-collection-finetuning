@@ -1,0 +1,1249 @@
+{
+ "object_locations": [
+  "dime_bin",
+  "drawer_9",
+  "slot1_2",
+  "drawer_10",
+  "cart front",
+  "BIN_RED_LEFT",
+  "drawer_8",
+  "input_chute",
+  "WASTE_CHUTE",
+  "tree_2",
+  "slot1_1"
+ ],
+ "object_types": [
+  "rucksack",
+  "product_SKU_003",
+  "cylinder_green",
+  "flash_storage",
+  "coin_dime",
+  "gold_ball",
+  "padded envelope",
+  "box_express",
+  "reinforcement_steel_bar",
+  "rook"
+ ],
+ "positions": {
+  "drawer_8:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT:gold_ball:GRASP": {
+   "type": "PICK",
+   "bound_type": "gold_ball",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "input_chute:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "dime_bin:box_express:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "drawer_8:padded envelope:GRASP": {
+   "type": "PICK",
+   "bound_type": "padded envelope",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "WASTE_CHUTE:padded envelope:GRASP": {
+   "type": "PICK",
+   "bound_type": "padded envelope",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "slot1_1:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "slot1_2:padded envelope:GRASP": {
+   "type": "PICK",
+   "bound_type": "padded envelope",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "WASTE_CHUTE:rook:GRASP": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "drawer_10:gold_ball:GRASP": {
+   "type": "PICK",
+   "bound_type": "gold_ball",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "tree_2:flash_storage:GRASP": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "slot1_2:rook:GRASP": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT:rucksack:GRASP": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "drawer_9:flash_storage:GRASP": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "input_chute:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "drawer_8:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "dime_bin:cylinder_green:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "dime_bin:gold_ball:GRASP": {
+   "type": "PICK",
+   "bound_type": "gold_ball",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "slot1_2:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "tree_2:cylinder_green:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "drawer_8:box_express:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "drawer_10:rucksack:GRASP": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "drawer_9:cylinder_green:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "slot1_1:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "tree_2:gold_ball:GRASP": {
+   "type": "PICK",
+   "bound_type": "gold_ball",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "drawer_10:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "input_chute:flash_storage:GRASP": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "WASTE_CHUTE:flash_storage:GRASP": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "drawer_8:flash_storage:GRASP": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "slot1_1:rook:GRASP": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "dime_bin:rucksack:GRASP": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "cart front:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "dime_bin:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "cart front:padded envelope:GRASP": {
+   "type": "PICK",
+   "bound_type": "padded envelope",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "drawer_9:rucksack:GRASP": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "WASTE_CHUTE:cylinder_green:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "slot1_1:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "drawer_8:cylinder_green:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "drawer_10:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "tree_2:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "drawer_9:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "drawer_10:padded envelope:GRASP": {
+   "type": "PICK",
+   "bound_type": "padded envelope",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "cart front:rook:GRASP": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "drawer_8:gold_ball:GRASP": {
+   "type": "PICK",
+   "bound_type": "gold_ball",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT:box_express:GRASP": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "dime_bin:padded envelope:GRASP": {
+   "type": "PICK",
+   "bound_type": "padded envelope",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "slot1_1:flash_storage:GRASP": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "drawer_10:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "drawer_9:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "drawer_8:rucksack:GRASP": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "input_chute:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "dime_bin:rook:GRASP": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "tree_2:coin_dime:GRASP": {
+   "type": "PICK",
+   "bound_type": "coin_dime",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "drawer_8:reinforcement_steel_bar:GRASP": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "slot1_1:cylinder_green:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "slot1_2:rucksack:GRASP": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "tree_2:rook:GRASP": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "slot1_1:gold_ball:GRASP": {
+   "type": "PICK",
+   "bound_type": "gold_ball",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "tree_2:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "cart front:cylinder_green:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "drawer_9:product_SKU_003:GRASP": {
+   "type": "PICK",
+   "bound_type": "product_SKU_003",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "/mnt/drawer_8/coin_dime/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "/mnt/BIN_RED_LEFT/gold_ball/place": {
+   "type": "PLACE",
+   "bound_type": "gold_ball",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "store:coin_dime:input_chute": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/box_express/place": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "store:padded envelope:drawer_8": {
+   "type": "PLACE",
+   "bound_type": "padded envelope",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "store:padded envelope:WASTE_CHUTE": {
+   "type": "PLACE",
+   "bound_type": "padded envelope",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "/mnt/slot1_1/reinforcement_steel_bar/place": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/slot1_2/padded envelope/place": {
+   "type": "PLACE",
+   "bound_type": "padded envelope",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "/mnt/WASTE_CHUTE/rook/place": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "store:gold_ball:drawer_10": {
+   "type": "PLACE",
+   "bound_type": "gold_ball",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/flash_storage/place": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "store:rook:slot1_2": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "/mnt/BIN_RED_LEFT/rucksack/place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "store:flash_storage:drawer_9": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "/mnt/input_chute/product_SKU_003/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "store:product_SKU_003:drawer_8": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "/mnt/BIN_RED_LEFT/reinforcement_steel_bar/place": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "store:cylinder_green:dime_bin": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "store:gold_ball:dime_bin": {
+   "type": "PLACE",
+   "bound_type": "gold_ball",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "store:product_SKU_003:slot1_2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/cylinder_green/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/drawer_8/box_express/place": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "/mnt/drawer_10/rucksack/place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "store:cylinder_green:drawer_9": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "store:coin_dime:slot1_1": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/gold_ball/place": {
+   "type": "PLACE",
+   "bound_type": "gold_ball",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/drawer_10/reinforcement_steel_bar/place": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "/mnt/input_chute/flash_storage/place": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "store:flash_storage:WASTE_CHUTE": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "store:coin_dime:BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "/mnt/drawer_8/flash_storage/place": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "store:rook:slot1_1": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/rucksack/place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/cart front/coin_dime/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/reinforcement_steel_bar/place": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/cart front/padded envelope/place": {
+   "type": "PLACE",
+   "bound_type": "padded envelope",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "/mnt/drawer_9/rucksack/place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "store:cylinder_green:WASTE_CHUTE": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "WASTE_CHUTE",
+   "observable_locations": null
+  },
+  "store:product_SKU_003:slot1_1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/drawer_8/cylinder_green/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "/mnt/drawer_10/coin_dime/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/reinforcement_steel_bar/place": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "store:reinforcement_steel_bar:drawer_9": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "store:padded envelope:drawer_10": {
+   "type": "PLACE",
+   "bound_type": "padded envelope",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "store:rook:cart front": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "store:gold_ball:drawer_8": {
+   "type": "PLACE",
+   "bound_type": "gold_ball",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "/mnt/BIN_RED_LEFT/product_SKU_003/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "/mnt/BIN_RED_LEFT/box_express/place": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/padded envelope/place": {
+   "type": "PLACE",
+   "bound_type": "padded envelope",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/slot1_1/flash_storage/place": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/drawer_10/product_SKU_003/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "/mnt/drawer_9/coin_dime/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "store:rucksack:drawer_8": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "/mnt/input_chute/reinforcement_steel_bar/place": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/rook/place": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/coin_dime/place": {
+   "type": "PLACE",
+   "bound_type": "coin_dime",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "store:reinforcement_steel_bar:drawer_8": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "store:cylinder_green:slot1_1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/slot1_2/rucksack/place": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/rook/place": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/slot1_1/gold_ball/place": {
+   "type": "PLACE",
+   "bound_type": "gold_ball",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/product_SKU_003/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "store:cylinder_green:cart front": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "cart front",
+   "observable_locations": null
+  },
+  "store:product_SKU_003:drawer_9": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_003",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "bins_observe_red": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_RED_LEFT"
+   ]
+  },
+  "chute_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "WASTE_CHUTE"
+   ]
+  },
+  "cart_overhead_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cart front"
+   ]
+  },
+  "slot1_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot1_1",
+    "slot1_2"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_8",
+    "drawer_9",
+    "drawer_10"
+   ]
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_safe_drop": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "cart_loading_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "product_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "coin_dime",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "gold_ball",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "gold_ball",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "gold_ball",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "gold_ball",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "gold_ball",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "gold_ball",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "padded envelope",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "padded envelope",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "padded envelope",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "padded envelope",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "padded envelope",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "padded envelope",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "rook",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "red bin or waste chute": [
+   "BIN_RED_LEFT",
+   "WASTE_CHUTE"
+  ],
+  "slot1 bins 1 or 2": [
+   "slot1_1",
+   "slot1_2"
+  ],
+  "any of the drawers 8 through 10": [
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "within the last two drawers": [
+   "drawer_9",
+   "drawer_10"
+  ],
+  "from the dime bin or the input chute": [
+   "dime_bin",
+   "input_chute"
+  ]
+ }
+}

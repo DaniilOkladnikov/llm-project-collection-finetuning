@@ -1,0 +1,1000 @@
+{
+ "object_locations": [
+  "slot1_2",
+  "zone_009",
+  "nest_4",
+  "zone_011",
+  "nest_5",
+  "cell_R1C5",
+  "zone_008",
+  "tree_6",
+  "burner_back_left",
+  "zone_010",
+  "burner_front_left",
+  "slot1_1"
+ ],
+ "object_types": [
+  "roller_white",
+  "seasoning_salt",
+  "chip_E",
+  "package_standard",
+  "support",
+  "chip_type_H",
+  "allseason_tire"
+ ],
+ "positions": {
+  "#nest_5/#chip_type_H/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "zone_011:roller_white:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "#zone_008/#support/take": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "#burner_front_left/#allseason_tire/take": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "tree_6:seasoning_salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#zone_008/#package_standard/take": {
+   "type": "PICK",
+   "bound_type": "package_standard",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "nest_4:allseason_tire:GRASP": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "nest_5:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "burner_back_left:seasoning_salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "nest_4:chip_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "#zone_011/#allseason_tire/take": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "#slot1_1/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#zone_010/#roller_white/take": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#zone_011/#chip_E/take": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_009:roller_white:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "#zone_011/#chip_type_H/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_008:seasoning_salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "#tree_6/#roller_white/take": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#nest_4/#support/take": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "slot1_1:roller_white:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#zone_011/#support/take": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_009:allseason_tire:GRASP": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "#nest_5/#seasoning_salt/take": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "#zone_008/#roller_white/take": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "tree_6:allseason_tire:GRASP": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "zone_010:chip_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#tree_6/#chip_E/take": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#zone_010/#chip_type_H/take": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "tree_6:chip_type_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "burner_back_left:chip_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_left:chip_type_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "slot1_2:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "#nest_5/#roller_white/take": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "slot1_1:chip_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#support/take": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "slot1_1:chip_type_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "zone_008:allseason_tire:GRASP": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_011:seasoning_salt:GRASP": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "zone_009:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "#slot1_2/#package_standard/take": {
+   "type": "PICK",
+   "bound_type": "package_standard",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "zone_008:chip_E:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_010:support:GRASP": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_008:chip_type_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "nest_5:allseason_tire:GRASP": {
+   "type": "PICK",
+   "bound_type": "allseason_tire",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "nest_4:roller_white:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "zone_010:package_standard:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_standard",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "#tree_6/#package_standard/take": {
+   "type": "PICK",
+   "bound_type": "package_standard",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "burner_front_left:roller_white:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_white",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "#zone_009/#package_standard/take": {
+   "type": "PICK",
+   "bound_type": "package_standard",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "#slot1_1/#support/take": {
+   "type": "PICK",
+   "bound_type": "support",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:chip_type_H:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "task/place/zone_011/roller_white": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:zone_008:item:support:action:place": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "task/place/burner_front_left/allseason_tire": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:seasoning_salt:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:zone_008:item:package_standard:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_standard",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "task/place/nest_4/allseason_tire": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:support:action:place": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/seasoning_salt": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:chip_E:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/place/zone_011/allseason_tire": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "task/place/slot1_1/seasoning_salt": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:roller_white:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:chip_E:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:roller_white:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:chip_type_H:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "task/place/zone_008/seasoning_salt": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "task/place/tree_6/roller_white": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "task/place/nest_4/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/place/slot1_1/roller_white": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "task/place/zone_011/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:allseason_tire:action:place": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "task/place/nest_5/seasoning_salt": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "task/place/zone_008/roller_white": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:allseason_tire:action:place": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "task/place/zone_010/chip_E": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/place/tree_6/chip_E": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:zone_010:item:chip_type_H:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:chip_type_H:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/chip_E": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/chip_type_H": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "ns:slot1_2:item:support:action:place": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:roller_white:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "task/place/slot1_1/chip_E": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "ns:cell_R1C5:item:support:action:place": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ns:slot1_1:item:chip_type_H:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "ns:zone_008:item:allseason_tire:action:place": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:zone_011:item:seasoning_salt:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "zone_011",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:support:action:place": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ns:slot1_2:item:package_standard:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_standard",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "task/place/zone_008/chip_E": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "task/place/zone_010/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/place/zone_008/chip_type_H": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:allseason_tire:action:place": {
+   "type": "PLACE",
+   "bound_type": "allseason_tire",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:roller_white:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "task/place/zone_010/package_standard": {
+   "type": "PLACE",
+   "bound_type": "package_standard",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "task/place/tree_6/package_standard": {
+   "type": "PLACE",
+   "bound_type": "package_standard",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "task/place/burner_front_left/roller_white": {
+   "type": "PLACE",
+   "bound_type": "roller_white",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ns:zone_009:item:package_standard:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_standard",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "task/place/slot1_1/support": {
+   "type": "PLACE",
+   "bound_type": "support",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "slot1_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot1_1",
+    "slot1_2"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_008",
+    "zone_009"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010",
+    "zone_011"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_4",
+    "nest_5"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C5"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_back_left"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "roller_white",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "package_standard",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "package_standard",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "package_standard",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "package_standard",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "package_standard",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "support",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "allseason_tire",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "slot1 bins 1 or 2": [
+   "slot1_1",
+   "slot1_2"
+  ],
+  "008-011 zones": [
+   "zone_008",
+   "zone_009",
+   "zone_010",
+   "zone_011"
+  ],
+  "last two nests": [
+   "nest_4",
+   "nest_5"
+  ],
+  "burners on the left": [
+   "burner_front_left",
+   "burner_back_left"
+  ]
+ }
+}

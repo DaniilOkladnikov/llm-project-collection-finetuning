@@ -1,0 +1,1409 @@
+{
+ "object_locations": [
+  "table_Q4",
+  "tree_7",
+  "parcelPalette-1.1.2",
+  "tree_9",
+  "tree_3",
+  "tree_1",
+  "table_Q3",
+  "parcelPalette-2.1.1",
+  "tree_15",
+  "binA_004",
+  "tree_5",
+  "binA_002",
+  "drawer_1",
+  "tree_11",
+  "pos.y0.x2",
+  "pos.y1.x1",
+  "parcelPalette-1.1.1",
+  "parcelPalette-1.2.2",
+  "tree_13"
+ ],
+ "object_types": [
+  "chip_type_L",
+  "tile_Q",
+  "lady_piece",
+  "cylinder_blue",
+  "brush_broad",
+  "chip_type_E",
+  "rucksack"
+ ],
+ "positions": {
+  "seize_lady_piece@parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "seize_chip_type_E@binA_002": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/tree_1": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_L/from/binA_004": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_3": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "seize_chip_type_L@table_Q3": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "seize_rucksack@tree_1": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/grasp/rucksack/from/binA_002": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_L/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "seize_tile_Q@parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "seize_cylinder_blue@table_Q3": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "seize_brush_broad@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_brush_broad@table_Q3": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "seize_chip_type_L@tree_9": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_L/from/tree_1": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "seize_tile_Q@tree_15": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/binA_002": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_1": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "seize_lady_piece@tree_15": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "seize_tile_Q@tree_13": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_Q/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/table_Q4": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/tree_5": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_L/from/parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "seize_chip_type_E@parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "seize_chip_type_E@parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "actions/grasp/rucksack/from/table_Q4": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "seize_tile_Q@parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_L/from/table_Q4": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "seize_chip_type_E@tree_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "seize_rucksack@drawer_1": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "seize_rucksack@tree_13": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "seize_chip_type_L@parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "seize_lady_piece@tree_7": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_blue/from/table_Q4": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_Q/from/pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_Q/from/tree_3": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "seize_tile_Q@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_lady_piece@pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "seize_lady_piece@tree_3": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/grasp/rucksack/from/parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "actions/grasp/cylinder_blue/from/tree_15": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "seize_brush_broad@tree_5": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/tree_7": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_broad/from/tree_13": {
+   "type": "PICK",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/grasp/rucksack/from/tree_7": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_Q/from/binA_002": {
+   "type": "PICK",
+   "bound_type": "tile_Q",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "seize_cylinder_blue@drawer_1": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "seize_chip_type_E@pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/tree_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "seize_chip_type_E@table_Q3": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "seize_chip_type_E@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_rucksack@tree_3": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "seize_chip_type_L@parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "actions/grasp/lady_piece/from/tree_1": {
+   "type": "PICK",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "seize_rucksack@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "actions/grasp/rucksack/from/table_Q3": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "actions/grasp/rucksack/from/pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "rucksack",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/tree_9": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/grasp/chip_type_E/from/tree_11": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/release/lady_piece/to/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_E/to/binA_002": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "tree_1:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "binA_004:chip_type_L:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/tree_3": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_L/to/table_Q3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "actions/release/rucksack/to/tree_1": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/release/rucksack/to/binA_002": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "pos.y0.x2:brush_broad:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "tree_11:chip_type_L:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "actions/release/tile_Q/to/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "table_Q3:cylinder_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/table_Q3": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_L/to/tree_9": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_E/to/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "tree_1:chip_type_L:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "tree_15:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/binA_002": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "tree_1:brush_broad:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "actions/release/lady_piece/to/tree_15": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "tree_13:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "tree_5:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "tree_13:lady_piece:DROP": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "table_Q4:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "actions/release/lady_piece/to/tree_5": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_L/to/parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_E/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "table_Q4:rucksack:DROP": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "tree_15:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_E/to/tree_13": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_L/to/table_Q4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2:lady_piece:DROP": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_E/to/tree_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "actions/release/rucksack/to/drawer_1": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "tree_13:rucksack:DROP": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_L/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "actions/release/lady_piece/to/tree_7": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "table_Q4:cylinder_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "pos.y0.x2:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "tree_3:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "pos.y1.x1:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pos.y0.x2:lady_piece:DROP": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "tree_3:lady_piece:DROP": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2:rucksack:DROP": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "actions/release/lady_piece/to/pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "tree_15:cylinder_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "actions/release/brush_broad/to/tree_5": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "drawer_1:brush_broad:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "tree_7:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "tree_13:brush_broad:DROP": {
+   "type": "PLACE",
+   "bound_type": "brush_broad",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "tree_7:rucksack:DROP": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "binA_002:tile_Q:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_Q",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "tree_9:lady_piece:DROP": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "actions/release/lady_piece/to/tree_11": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "drawer_1:cylinder_blue:DROP": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_E/to/pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "tree_3:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "table_Q3:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "pos.y1.x1:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "actions/release/rucksack/to/tree_3": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.2:chip_type_L:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "tree_1:lady_piece:DROP": {
+   "type": "PLACE",
+   "bound_type": "lady_piece",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "pos.y1.x1:rucksack:DROP": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "table_Q3:rucksack:DROP": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "actions/release/rucksack/to/pos.y0.x2": {
+   "type": "PLACE",
+   "bound_type": "rucksack",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "tree_9:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "tree_11:chip_type_E:DROP": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_002",
+    "binA_004"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x2"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x1"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_3",
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_7",
+    "tree_9"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_13",
+    "tree_15"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2",
+    "parcelPalette-1.2.2"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "tile_Q",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "lady_piece",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "brush_broad",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "rucksack",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "last two quadrants": [
+   "table_Q3",
+   "table_Q4"
+  ],
+  "even numbered slots in binA": [
+   "binA_002",
+   "binA_004"
+  ],
+  "odd numbered trees": [
+   "tree_1",
+   "tree_3",
+   "tree_5",
+   "tree_7",
+   "tree_9",
+   "tree_11",
+   "tree_13",
+   "tree_15"
+  ],
+  "edge trees (1, 5, 11, and 15)": [
+   "tree_1",
+   "tree_5",
+   "tree_11",
+   "tree_15"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ]
+ }
+}

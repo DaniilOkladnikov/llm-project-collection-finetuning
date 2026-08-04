@@ -1,0 +1,1472 @@
+{
+ "object_locations": [
+  "slot_primary",
+  "slot_secondary",
+  "slot_tertiary",
+  "reject_tray"
+ ],
+ "object_types": [
+  "chip_type_A",
+  "chip_type_B",
+  "chip_type_C",
+  "chip_type_D",
+  "chip_type_E",
+  "chip_type_F",
+  "chip_type_G",
+  "chip_type_H",
+  "chip_type_I",
+  "chip_type_J",
+  "chip_type_K",
+  "chip_type_L",
+  "chip_type_M",
+  "chip_type_N",
+  "chip_type_O",
+  "chip_type_P",
+  "chip_type_Q",
+  "chip_type_R",
+  "chip_type_S",
+  "chip_type_T"
+ ],
+ "positions": {
+  "slot_primary_chip_type_A_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_A]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_A_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_A_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_A",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_B_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "[slot_tertiary][chip_type_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_B_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_B",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_C_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_C]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_C_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "[reject_tray][chip_type_C]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_D]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_D_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_D_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "[reject_tray][chip_type_D]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_D",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_E]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_E_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_E_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_E_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_F]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_F_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_F_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_F_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_F",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_G]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_G_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "[slot_tertiary][chip_type_G]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "[reject_tray][chip_type_G]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "[slot_tertiary][chip_type_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_H_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_H",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_I_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_I",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_I_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_I",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "[slot_tertiary][chip_type_I]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_I",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "[reject_tray][chip_type_I]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_I",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_J_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_J_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_J_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_J_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_J",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_K_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_K]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "[slot_tertiary][chip_type_K]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_K_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_L_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_L_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_L_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_L_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_L",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_M_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_M_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_M_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "[reject_tray][chip_type_M]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_N_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_N]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_N_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_N_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_O]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_O_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_O_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_O_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_P]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_P]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_P_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "[reject_tray][chip_type_P]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "[slot_primary][chip_type_Q]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_Q]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_Q_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_Q_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_R_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_R_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "[slot_tertiary][chip_type_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "[reject_tray][chip_type_R]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_S_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[slot_secondary][chip_type_S]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary_chip_type_S_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_S_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary_chip_type_T_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary_chip_type_T_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "[slot_tertiary][chip_type_T]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray_chip_type_T_collect": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_A=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_A=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_A=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_A=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_A",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_B=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_B=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_B=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_B=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_B",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_C=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_C=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_C=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_C=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_D=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_D=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_D=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_D=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_D",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_F=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_F=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_F=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_F=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_F",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_G=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_G=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_G=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_G=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_H=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_H=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_H=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_H=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_H",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_I=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_I",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_I=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_I",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_I=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_I",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_I=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_I",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_J=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_J=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_J=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_J=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_J",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_K=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_K=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_K=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_K=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_L=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_L=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_L=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_L=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_L",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_M=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_M=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_M=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_M=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_N=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_O=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_O=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_O=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_O=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_P=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_P=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_P=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_P=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_Q=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_Q=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_Q=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_Q=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_R=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_R=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_R=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_R=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_S=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_S=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_S=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_S=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "slot_primary=>chip_type_T=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "slot_secondary=>chip_type_T=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "slot_tertiary=>chip_type_T=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "slot_tertiary",
+   "observable_locations": null
+  },
+  "reject_tray=>chip_type_T=>PUT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "reject_tray",
+   "observable_locations": null
+  },
+  "inspect:slot_primary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_primary"
+   ]
+  },
+  "inspect:slot_secondary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_secondary"
+   ]
+  },
+  "inspect:slot_tertiary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_tertiary"
+   ]
+  },
+  "check reject_tray": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_tray"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_type_A",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_B",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_type_D",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_type_F",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "chip_type_H",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "chip_type_I",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "chip_type_I",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "chip_type_I",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "chip_type_I",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_J",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chip_type_L",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "slots primary/secondary/tertiary": [
+   "slot_primary",
+   "slot_secondary",
+   "slot_tertiary"
+  ],
+  "valid output storages": [
+   "slot_primary",
+   "slot_secondary",
+   "slot_tertiary"
+  ],
+  "any of the system nodes": [
+   "slot_primary",
+   "slot_secondary",
+   "slot_tertiary",
+   "reject_tray"
+  ],
+  "one of the standard slots": [
+   "slot_primary",
+   "slot_secondary",
+   "slot_tertiary"
+  ],
+  "first or second area": [
+   "slot_primary",
+   "slot_secondary"
+  ],
+  "third or second area": [
+   "slot_tertiary",
+   "slot_secondary"
+  ],
+  "third or second area or trash": [
+   "slot_tertiary",
+   "slot_secondary",
+   "reject_tray"
+  ]
+ }
+}

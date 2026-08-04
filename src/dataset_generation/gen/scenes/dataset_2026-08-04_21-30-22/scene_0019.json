@@ -1,0 +1,1348 @@
+{
+ "object_locations": [
+  "shelf_L3_S2",
+  "binC_201",
+  "binA_002",
+  "shelf_L3_S3",
+  "binA_005",
+  "tree_12",
+  "binB_101",
+  "tree_11",
+  "shelf_L2_S3",
+  "sorting_table",
+  "binB_102",
+  "shelf_L1_S3",
+  "tree_14",
+  "binA_001",
+  "shelf_L1_S2",
+  "tree_13",
+  "tree_15",
+  "binA_004",
+  "binA_003",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "rye_kernel",
+  "power_drill",
+  "test_tube",
+  "roller_red",
+  "tube_magenta",
+  "millet_kernel"
+ ],
+ "positions": {
+  "binA_003:roller_red:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "shelf_L3_S3:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_14/test_tube": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:millet_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:rye_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "binA_002:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "ACQUIRE/binA_001/test_tube": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S3/rye_kernel": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/binC_201/test_tube": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_11/rye_kernel": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:rye_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "tree_13:test_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:binA_003:item:test_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "tree_12:power_drill:GRASP": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S3:item:power_drill:action:pick": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "binA_002:rye_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "ns:tree_12:item:roller_red:action:pick": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "binA_005:power_drill:GRASP": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_12/tube_magenta": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:power_drill:GRASP": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "binA_005:tube_magenta:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "tree_12:test_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:power_drill:action:pick": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:roller_red:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_11/tube_magenta": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "shelf_L3_S3:tube_magenta:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L1_S2/millet_kernel": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "binA_002:power_drill:GRASP": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_11/roller_red": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:millet_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ACQUIRE/binA_004/test_tube": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "binA_002:tube_magenta:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:roller_red:action:pick": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "ns:binB_101:item:millet_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:power_drill:GRASP": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:rye_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "ns:binA_002:item:roller_red:action:pick": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "tree_11:test_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ACQUIRE/binA_003/millet_kernel": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "ns:tree_13:item:millet_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:test_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "tree_15:rye_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ACQUIRE/binC_201/millet_kernel": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:binA_002:item:test_tube:action:pick": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L2_S2/roller_red": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ns:binC_201:item:rye_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:tree_13:item:rye_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "binA_003:rye_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "ns:binB_102:item:power_drill:action:pick": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L2_S2/test_tube": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "binB_102:roller_red:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "ns:binB_102:item:tube_magenta:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "ns:binC_201:item:power_drill:action:pick": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "tree_14:power_drill:GRASP": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:tube_magenta:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "ns:binB_101:item:roller_red:action:pick": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "binA_001:power_drill:GRASP": {
+   "type": "PICK",
+   "bound_type": "power_drill",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "ns:binB_101:item:tube_magenta:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:roller_red:action:pick": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_14/tube_magenta": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_12/rye_kernel": {
+   "type": "PICK",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:binA_001:item:roller_red:action:pick": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "ns:binA_003:item:tube_magenta:action:pick": {
+   "type": "PICK",
+   "bound_type": "tube_magenta",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_11/millet_kernel": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:test_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/place/binA_003/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "--release--millet_kernel--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:tree_14:item:test_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:rye_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "ns:binA_002:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "ns:binA_001:item:test_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "--release--rye_kernel--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/place/binC_201/test_tube": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "--release--rye_kernel--at--tree_11": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "--release--rye_kernel--at--sorting_table": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "--release--test_tube--at--tree_13": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:binA_003:item:test_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "ns:tree_12:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "task/place/shelf_L1_S3/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "--release--rye_kernel--at--binA_002": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "--release--roller_red--at--tree_12": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "task/place/binA_005/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "task/place/tree_12/tube_magenta": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "task/place/shelf_L2_S3/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "task/place/binA_005/tube_magenta": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "binA_005",
+   "observable_locations": null
+  },
+  "ns:tree_12:item:test_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "--release--power_drill--at--tree_11": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S2:item:roller_red:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/place/tree_11/tube_magenta": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "task/place/shelf_L3_S3/tube_magenta": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/place/shelf_L1_S2/millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/place/binA_002/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "task/place/tree_11/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "task/place/binA_004/test_tube": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "ns:binA_002:item:tube_magenta:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "task/place/sorting_table/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "task/place/binB_101/millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "--release--power_drill--at--shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S2:item:rye_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "--release--roller_red--at--binA_002": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "task/place/tree_11/test_tube": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "task/place/binA_003/millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "task/place/tree_13/millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:shelf_L3_S3:item:test_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ns:tree_15:item:rye_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "ns:binC_201:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:binA_002:item:test_tube:action:place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "task/place/shelf_L2_S2/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "--release--rye_kernel--at--binC_201": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "--release--rye_kernel--at--tree_13": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "ns:binA_003:item:rye_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "task/place/binB_102/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "--release--test_tube--at--shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "ns:binB_102:item:roller_red:action:place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "task/place/shelf_L1_S3/millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/place/binB_102/tube_magenta": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "binB_102",
+   "observable_locations": null
+  },
+  "--release--power_drill--at--binC_201": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "task/place/tree_14/power_drill": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "--release--tube_magenta--at--shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/place/binB_101/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ns:binA_001:item:power_drill:action:place": {
+   "type": "PLACE",
+   "bound_type": "power_drill",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "task/place/binB_101/tube_magenta": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "task/place/tree_15/roller_red": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "--release--tube_magenta--at--tree_14": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "task/place/shelf_L2_S3/millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "--release--rye_kernel--at--tree_12": {
+   "type": "PLACE",
+   "bound_type": "rye_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "--release--roller_red--at--binA_001": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "--release--tube_magenta--at--binA_003": {
+   "type": "PLACE",
+   "bound_type": "tube_magenta",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:millet_kernel:action:place": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "--release--test_tube--at--shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001",
+    "binA_002",
+    "binA_003",
+    "binA_004",
+    "binA_005"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101",
+    "binB_102"
+   ]
+  },
+  "binC_corner vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binC_201"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S2",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2",
+    "shelf_L3_S3"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12",
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "sorting_table"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "rye_kernel",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "power_drill",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "tube_magenta",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "binA_002 to binB_102": [
+   "binA_002",
+   "binA_003",
+   "binA_004",
+   "binA_005",
+   "binB_101",
+   "binB_102"
+  ],
+  "bins from A_001 to B_102": [
+   "binA_001",
+   "binA_002",
+   "binA_003",
+   "binA_004",
+   "binA_005",
+   "binB_101",
+   "binB_102"
+  ],
+  "binA slots 1 or 2": [
+   "binA_001",
+   "binA_002"
+  ],
+  "first two slots of A": [
+   "binA_001",
+   "binA_002"
+  ],
+  "odd numbered slots in binA": [
+   "binA_001",
+   "binA_003",
+   "binA_005"
+  ],
+  "even numbered slots in binA": [
+   "binA_002",
+   "binA_004"
+  ],
+  "bins 01": [
+   "binA_001",
+   "binB_101",
+   "binC_201"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ],
+  "tree 11-15": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "trees 11 through 15 or the sorting table": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15",
+   "sorting_table"
+  ]
+ }
+}

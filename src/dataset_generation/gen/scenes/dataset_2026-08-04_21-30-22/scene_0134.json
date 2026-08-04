@@ -1,0 +1,605 @@
+{
+ "object_locations": [
+  "pot_small",
+  "shelf_L1_S3",
+  "shelf_L1_S4",
+  "shelf_L1_S1",
+  "shelf_L1_S2",
+  "pot_medium",
+  "Node20.02",
+  "bin_floor",
+  "packing_table",
+  "Node20.01"
+ ],
+ "object_types": [
+  "quarter",
+  "cement_bag",
+  "chip_type_K",
+  "castle"
+ ],
+ "positions": {
+  "LIFT_shelf_L1_S2_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S2_chip_type_K": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LIFT_Node20.01_quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "LIFT_Node20.01_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "LIFT_pot_medium_castle": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "LIFT_bin_floor_chip_type_K": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S4_chip_type_K": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "LIFT_pot_small_castle": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "LIFT_Node20.02_quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "LIFT_Node20.02_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "LIFT_pot_medium_quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S4_castle": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "LIFT_pot_medium_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S3_chip_type_K": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S1_castle": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "LIFT_pot_medium_chip_type_K": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "LIFT_pot_small_quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "LIFT_pot_small_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S2_castle": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "LIFT_packing_table_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "LIFT_pot_small_chip_type_K": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "LIFT_Node20.01_castle": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S4_quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S4_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S1_quarter": {
+   "type": "PICK",
+   "bound_type": "quarter",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S1_cement_bag": {
+   "type": "PICK",
+   "bound_type": "cement_bag",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "LIFT_Node20.02_castle": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "LIFT_shelf_L1_S1_chip_type_K": {
+   "type": "PICK",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "actions/release/cement_bag/to/shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:chip_type_K:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "actions/release/quarter/to/Node20.01": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "actions/release/cement_bag/to/Node20.01": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "actions/release/castle/to/pot_medium": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:chip_type_K:bin_floor": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "store:chip_type_K:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "actions/release/castle/to/pot_small": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "actions/release/quarter/to/Node20.02": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "actions/release/cement_bag/to/Node20.02": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "store:quarter:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:castle:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:cement_bag:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:chip_type_K:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:castle:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:chip_type_K:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "actions/release/quarter/to/pot_small": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "actions/release/cement_bag/to/pot_small": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:castle:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:cement_bag:packing_table": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_K/to/pot_small": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:castle:Node20.01": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "actions/release/quarter/to/shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:cement_bag:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:quarter:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "quarter",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:cement_bag:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "cement_bag",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "actions/release/castle/to/Node20.02": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "actions/release/chip_type_K/to/shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_K",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "look at bin_floor": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bin_floor"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2",
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "observe packing_table + shipping_dock": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "packing_table"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.01",
+    "Node20.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "coat_room_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "quarter",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cement_bag",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_K",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "castle",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "ground receptacle": [
+   "bin_floor"
+  ],
+  "shelf_L1 slots": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf level L1 slots or the packing table": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "packing_table"
+  ],
+  "shelf L1 compartments": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ],
+  "Subnet20": [
+   "Node20.01",
+   "Node20.02"
+  ]
+ }
+}

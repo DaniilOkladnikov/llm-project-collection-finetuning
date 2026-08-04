@@ -1,0 +1,1025 @@
+{
+ "object_locations": [
+  "sorting_table",
+  "lane_2_start",
+  "collection_bin",
+  "Node30.01",
+  "Node30.03",
+  "palette_well_1",
+  "shelf_L1_S3",
+  "shelf_L1_S4",
+  "lane_1_start",
+  "Node30.02",
+  "shelf_L3_S4",
+  "shelf_L2_S4",
+  "lane_3_start"
+ ],
+ "object_types": [
+  "stretch film",
+  "module1",
+  "silver_ball",
+  "tile_K",
+  "tile_P",
+  "wafer_B",
+  "med_bottle"
+ ],
+ "positions": {
+  "op/grab/wafer_B/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "[lane_1_start][med_bottle]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "op/grab/med_bottle/loc/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "[shelf_L3_S4][module1]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/module1/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S3:item:med_bottle:action:pick": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "ns:lane_2_start:item:wafer_B:action:pick": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "op/grab/tile_P/loc/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "[shelf_L1_S3][wafer_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "[shelf_L2_S4][module1]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/silver_ball/loc/shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ns:lane_2_start:item:stretch film:action:pick": {
+   "type": "PICK",
+   "bound_type": "stretch film",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "ns:lane_1_start:item:tile_K:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "ns:collection_bin:item:silver_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "[shelf_L1_S3][tile_P]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "ns:sorting_table:item:silver_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/Node30.03": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "op/grab/silver_ball/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "[palette_well_1][tile_K]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/med_bottle/loc/sorting_table": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "[shelf_L1_S3][tile_K]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "[Node30.03][tile_P]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "op/grab/tile_K/loc/Node30.03": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "op/grab/module1/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "[lane_3_start][wafer_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/module1/loc/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "[lane_3_start][tile_P]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "op/grab/module1/loc/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "ns:Node30.01:item:tile_K:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "[Node30.02][silver_ball]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "ns:palette_well_1:item:module1:action:pick": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/med_bottle/loc/collection_bin": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "[lane_3_start][tile_K]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_K",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "[shelf_L3_S4][wafer_B]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S3:item:module1:action:pick": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/grab/module1/loc/Node30.03": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "[shelf_L2_S4][med_bottle]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:lane_2_start:item:silver_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "[shelf_L3_S4][tile_P]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/collection_bin": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "[shelf_L1_S3][silver_ball]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S4:item:tile_P:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_P",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "op/grab/stretch film/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "stretch film",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/module1/loc/sorting_table": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "op/grab/stretch film/loc/collection_bin": {
+   "type": "PICK",
+   "bound_type": "stretch film",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "ns:shelf_L2_S4:item:stretch film:action:pick": {
+   "type": "PICK",
+   "bound_type": "stretch film",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "ns:Node30.01:item:module1:action:pick": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/med_bottle/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "op/grab/silver_ball/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "silver_ball",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/med_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/med_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S4/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/med_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/tile_P/place": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S4/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S4/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/stretch film/place": {
+   "type": "PLACE",
+   "bound_type": "stretch film",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/tile_K/place": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "/mnt/collection_bin/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/tile_K/place": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/tile_P/place": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/Node30.03/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S4/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_1/tile_K/place": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/med_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/tile_K/place": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/Node30.03/tile_P/place": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "/mnt/Node30.03/tile_K/place": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_start/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_start/tile_P/place": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/tile_K/place": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_1/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/collection_bin/med_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "/mnt/lane_3_start/tile_K/place": {
+   "type": "PLACE",
+   "bound_type": "tile_K",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S4/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/Node30.03/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S4/med_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S4/tile_P/place": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "/mnt/collection_bin/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/tile_P/place": {
+   "type": "PLACE",
+   "bound_type": "tile_P",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S4/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/stretch film/place": {
+   "type": "PLACE",
+   "bound_type": "stretch film",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/sorting_table/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "/mnt/collection_bin/stretch film/place": {
+   "type": "PLACE",
+   "bound_type": "stretch film",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S4/stretch film/place": {
+   "type": "PLACE",
+   "bound_type": "stretch film",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/module1/place": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/med_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/silver_ball/place": {
+   "type": "PLACE",
+   "bound_type": "silver_ball",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start",
+    "lane_2_start",
+    "lane_3_start"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_1"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S4"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S4"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "collection_bin",
+    "sorting_table"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01",
+    "Node30.02",
+    "Node30.03"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "stretch film",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "stretch film",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "stretch film",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "stretch film",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "silver_ball",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "tile_K",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tile_P",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "start zones": [
+   "lane_1_start",
+   "lane_2_start",
+   "lane_3_start"
+  ],
+  "shelf S4 of each level": [
+   "shelf_L1_S4",
+   "shelf_L2_S4",
+   "shelf_L3_S4"
+  ],
+  "collection or sorting areas": [
+   "collection_bin",
+   "sorting_table"
+  ],
+  "Subnet30": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03"
+  ]
+ }
+}

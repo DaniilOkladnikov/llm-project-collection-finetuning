@@ -1,0 +1,1440 @@
+{
+ "object_locations": [
+  "lane_2_start",
+  "lane_2_mid",
+  "shelf_L3_S2",
+  "tree_7",
+  "shelf_L1_S4",
+  "shelf_L1_S1",
+  "tree_9",
+  "packing_table",
+  "tree_8",
+  "shelf_L2_S1",
+  "tree_10",
+  "lane_2_end",
+  "shelf_L1_S3",
+  "shelf_L1_S2",
+  "tree_6",
+  "shelf_L3_S1",
+  "tree_5",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "box_tube",
+  "dime",
+  "farro_kernel",
+  "widget",
+  "cylinder_purple",
+  "pepper",
+  "marker_E",
+  "marker_H"
+ ],
+ "positions": {
+  "tree_9.item.dime.acquire": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "op/grab/marker_E/loc/tree_7": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "op/grab/farro_kernel/loc/lane_2_mid": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "shelf_L3_S2.item.farro_kernel.acquire": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/grab/dime/loc/tree_6": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "shelf_L3_S2.item.widget.acquire": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "[tree_9][farro_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "[tree_7][box_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "packing_table.item.dime.acquire": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "tree_6.item.farro_kernel.acquire": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.marker_H.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "tree_9.item.cylinder_purple.acquire": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "op/grab/marker_E/loc/shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/grab/widget/loc/tree_6": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[tree_6][cylinder_purple]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[packing_table][farro_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "op/grab/pepper/loc/tree_10": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "op/grab/marker_E/loc/tree_9": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "[packing_table][widget]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "tree_6.item.marker_E.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[tree_8][dime]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "[tree_10][widget]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "[tree_10][cylinder_purple]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "op/grab/marker_H/loc/shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "op/grab/box_tube/loc/tree_9": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "shelf_L3_S1.item.farro_kernel.acquire": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_purple/loc/shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "[tree_10][marker_E]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "tree_6.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "shelf_L1_S4.item.dime.acquire": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/dime/loc/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "shelf_L3_S1.item.widget.acquire": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_purple/loc/shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "shelf_L3_S1.item.pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/grab/widget/loc/tree_8": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "tree_8.item.cylinder_purple.acquire": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "[tree_10][box_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "[lane_2_end][farro_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "shelf_L1_S1.item.farro_kernel.acquire": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "shelf_L1_S4.item.pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S2.item.dime.acquire": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "[lane_2_end][pepper]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "op/grab/marker_E/loc/shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "tree_6.item.marker_H.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "[shelf_L1_S4][widget]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/marker_H/loc/tree_9": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "[shelf_L1_S1][cylinder_purple]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/grab/marker_E/loc/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/grab/marker_E/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/box_tube/loc/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "op/grab/box_tube/loc/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "op/grab/marker_H/loc/shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "[tree_5][farro_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/dime/loc/shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "[shelf_L3_S1][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "tree_5.item.cylinder_purple.acquire": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "shelf_L1_S1.item.marker_H.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "tree_5.item.marker_E.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_E",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/widget/loc/shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.cylinder_purple.acquire": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "[tree_7][dime]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "[shelf_L2_S1][pepper]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "lane_2_start.item.farro_kernel.acquire": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "op/grab/dime/loc/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "[shelf_L1_S2][marker_H]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "[lane_2_start][widget]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "widget",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "[tree_7][farro_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "op/grab/pepper/loc/lane_2_start": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "shelf_L1_S3.item.farro_kernel.acquire": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_purple/loc/tree_7": {
+   "type": "PICK",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "shelf_L3_S2.item.dime.acquire": {
+   "type": "PICK",
+   "bound_type": "dime",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "tree_5.item.marker_H.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/tree_7/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_mid/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S2/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S2/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/tree_7/box_tube/place": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "/mnt/packing_table/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S1/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S2/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/packing_table/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_10/pepper/place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/packing_table/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "packing_table",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/tree_8/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "/mnt/tree_10/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "/mnt/tree_10/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S2/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/box_tube/place": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S1/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S2/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_10/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/box_tube/place": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S1/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S1/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S1/pepper/place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "/mnt/tree_8/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "/mnt/tree_8/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "/mnt/tree_10/box_tube/place": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_end/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/pepper/place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S2/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_end/pepper/place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S2/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_6/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/tree_9/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/box_tube/place": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/box_tube/place": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S2/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_5/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S1/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S1/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "/mnt/tree_5/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/tree_5/marker_E/place": {
+   "type": "PLACE",
+   "bound_type": "marker_E",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S1/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S1/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/tree_7/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L2_S1/pepper/place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S2/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/widget/place": {
+   "type": "PLACE",
+   "bound_type": "widget",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/tree_7/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_start/pepper/place": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/farro_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/tree_7/cylinder_purple/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_purple",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L3_S2/dime/place": {
+   "type": "PLACE",
+   "bound_type": "dime",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "/mnt/tree_5/marker_H/place": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_2_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_2_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_2_mid"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2",
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S2"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S2"
+   ]
+  },
+  "observe packing_table + shipping_dock": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "packing_table"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7",
+    "tree_8",
+    "tree_9",
+    "tree_10"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "dime",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "widget",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "cylinder_purple",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "marker_E",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "second lane assembly": [
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end"
+  ],
+  "anywhere on the lane 2": [
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end"
+  ],
+  "shelf_L1 slots": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "self S1 of each level": [
+   "shelf_L1_S1",
+   "shelf_L2_S1",
+   "shelf_L3_S1"
+  ],
+  "first two cells on each shelf level": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L3_S1",
+   "shelf_L3_S2"
+  ],
+  "shelf level L1 slots or the packing table": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "packing_table"
+  ],
+  "shelf L1 compartments": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "tree 8-10": [
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 6-10": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees 5 through 10": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees in the middle section (6-10)": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ]
+ }
+}

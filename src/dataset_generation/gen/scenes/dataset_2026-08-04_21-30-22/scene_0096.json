@@ -1,0 +1,502 @@
+{
+ "object_locations": [
+  "furnace_mouth",
+  "ingot_queue",
+  "cooling_rack",
+  "finished_stack"
+ ],
+ "object_types": [
+  "iron_ingot",
+  "steel_billet",
+  "copper_bar",
+  "aluminum_rod",
+  "titanium_block",
+  "zinc_slab"
+ ],
+ "positions": {
+  "actions/grasp/iron_ingot/from/furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "$.ingot_queue.iron_ingot.grab": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "actions/grasp/iron_ingot/from/cooling_rack": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "$.finished_stack.iron_ingot.grab": {
+   "type": "PICK",
+   "bound_type": "iron_ingot",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "$.furnace_mouth.steel_billet.grab": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "actions/grasp/steel_billet/from/ingot_queue": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "$.cooling_rack.steel_billet.grab": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "$.finished_stack.steel_billet.grab": {
+   "type": "PICK",
+   "bound_type": "steel_billet",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "$.furnace_mouth.copper_bar.grab": {
+   "type": "PICK",
+   "bound_type": "copper_bar",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "$.ingot_queue.copper_bar.grab": {
+   "type": "PICK",
+   "bound_type": "copper_bar",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "$.cooling_rack.copper_bar.grab": {
+   "type": "PICK",
+   "bound_type": "copper_bar",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "$.finished_stack.copper_bar.grab": {
+   "type": "PICK",
+   "bound_type": "copper_bar",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "$.furnace_mouth.aluminum_rod.grab": {
+   "type": "PICK",
+   "bound_type": "aluminum_rod",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "actions/grasp/aluminum_rod/from/ingot_queue": {
+   "type": "PICK",
+   "bound_type": "aluminum_rod",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "$.cooling_rack.aluminum_rod.grab": {
+   "type": "PICK",
+   "bound_type": "aluminum_rod",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "actions/grasp/aluminum_rod/from/finished_stack": {
+   "type": "PICK",
+   "bound_type": "aluminum_rod",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "$.furnace_mouth.titanium_block.grab": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "actions/grasp/titanium_block/from/ingot_queue": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "actions/grasp/titanium_block/from/cooling_rack": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "actions/grasp/titanium_block/from/finished_stack": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "$.furnace_mouth.zinc_slab.grab": {
+   "type": "PICK",
+   "bound_type": "zinc_slab",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "actions/grasp/zinc_slab/from/ingot_queue": {
+   "type": "PICK",
+   "bound_type": "zinc_slab",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "actions/grasp/zinc_slab/from/cooling_rack": {
+   "type": "PICK",
+   "bound_type": "zinc_slab",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "actions/grasp/zinc_slab/from/finished_stack": {
+   "type": "PICK",
+   "bound_type": "zinc_slab",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "placeiron_ingotfurnace_mouth": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "iron_ingot-to-ingot_queue": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_iron_ingot": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "LOWER_finished_stack_iron_ingot": {
+   "type": "PLACE",
+   "bound_type": "iron_ingot",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_steel_billet": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "placesteel_billetingot_queue": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_steel_billet": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "steel_billet-to-finished_stack": {
+   "type": "PLACE",
+   "bound_type": "steel_billet",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_copper_bar": {
+   "type": "PLACE",
+   "bound_type": "copper_bar",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "placecopper_baringot_queue": {
+   "type": "PLACE",
+   "bound_type": "copper_bar",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_copper_bar": {
+   "type": "PLACE",
+   "bound_type": "copper_bar",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "placecopper_barfinished_stack": {
+   "type": "PLACE",
+   "bound_type": "copper_bar",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_aluminum_rod": {
+   "type": "PLACE",
+   "bound_type": "aluminum_rod",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "aluminum_rod-to-ingot_queue": {
+   "type": "PLACE",
+   "bound_type": "aluminum_rod",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "aluminum_rod-to-cooling_rack": {
+   "type": "PLACE",
+   "bound_type": "aluminum_rod",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "LOWER_finished_stack_aluminum_rod": {
+   "type": "PLACE",
+   "bound_type": "aluminum_rod",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "placetitanium_blockfurnace_mouth": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "titanium_block-to-ingot_queue": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_titanium_block": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "placetitanium_blockfinished_stack": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "LOWER_furnace_mouth_zinc_slab": {
+   "type": "PLACE",
+   "bound_type": "zinc_slab",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "LOWER_ingot_queue_zinc_slab": {
+   "type": "PLACE",
+   "bound_type": "zinc_slab",
+   "bound_location": "ingot_queue",
+   "observable_locations": null
+  },
+  "LOWER_cooling_rack_zinc_slab": {
+   "type": "PLACE",
+   "bound_type": "zinc_slab",
+   "bound_location": "cooling_rack",
+   "observable_locations": null
+  },
+  "zinc_slab-to-finished_stack": {
+   "type": "PLACE",
+   "bound_type": "zinc_slab",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "monitor furnace_mouth": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "furnace_mouth"
+   ]
+  },
+  "scan ingot_queue": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "ingot_queue"
+   ]
+  },
+  "check cooling_rack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cooling_rack"
+   ]
+  },
+  "view finished_stack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "finished_stack"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "heat_safe_distance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "loading_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "iron_ingot",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "steel_billet",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "copper_bar",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "copper_bar",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "copper_bar",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "copper_bar",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "aluminum_rod",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "aluminum_rod",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "aluminum_rod",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "aluminum_rod",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "zinc_slab",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "zinc_slab",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "zinc_slab",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "zinc_slab",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "furnace & cooling": [
+   "furnace_mouth",
+   "cooling_rack"
+  ],
+  "queue & stack": [
+   "ingot_queue",
+   "finished_stack"
+  ],
+  "entire production line": [
+   "ingot_queue",
+   "furnace_mouth",
+   "cooling_rack",
+   "finished_stack"
+  ],
+  "furnace or stack": [
+   "furnace_mouth",
+   "finished_stack"
+  ]
+ }
+}

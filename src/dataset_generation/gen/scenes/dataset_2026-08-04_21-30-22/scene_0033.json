@@ -1,0 +1,943 @@
+{
+ "object_locations": [
+  "binB_101",
+  "nest_5",
+  "shelf_L3_S2",
+  "Ext-Yard-ZoneQ9",
+  "lane_1_start",
+  "nest_3",
+  "nest_1",
+  "shelf_L3_S1",
+  "Ext-Yard-ZoneP9",
+  "shelf_L3_S3",
+  "pos.y1.x0",
+  "slot3_1",
+  "zone_013",
+  "bay_C",
+  "shelf_L3_S4",
+  "overflow_rack"
+ ],
+ "object_types": [
+  "chip_F",
+  "mount",
+  "vial",
+  "tote",
+  "package_large"
+ ],
+ "positions": {
+  "seize_chip_F@overflow_rack": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "seize_chip_F@nest_1": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "seize_vial@shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "seize_package_large@lane_1_start": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "seize_mount@slot3_1": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "seize_tote@nest_3": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "seize_package_large@nest_3": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "seize_mount@binB_101": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "seize_vial@nest_5": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "seize_tote@zone_013": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "seize_package_large@zone_013": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "seize_chip_F@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_chip_F@shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "seize_package_large@bay_C": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "seize_vial@binB_101": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "seize_package_large@overflow_rack": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "seize_package_large@nest_1": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "seize_tote@nest_1": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "seize_mount@nest_3": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "seize_tote@Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "seize_package_large@shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "seize_package_large@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_mount@zone_013": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "seize_tote@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_mount@bay_C": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "seize_mount@nest_1": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "seize_mount@Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "seize_package_large@shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "seize_chip_F@nest_5": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "seize_vial@zone_013": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "seize_tote@shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "seize_tote@shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "seize_mount@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_vial@bay_C": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "seize_package_large@shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "seize_vial@overflow_rack": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "seize_vial@shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "seize_vial@shelf_L3_S3": {
+   "type": "PICK",
+   "bound_type": "vial",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "seize_mount@shelf_L3_S4": {
+   "type": "PICK",
+   "bound_type": "mount",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "seize_tote@binB_101": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "seize_tote@Ext-Yard-ZoneP9": {
+   "type": "PICK",
+   "bound_type": "tote",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "seize_chip_F@nest_3": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "seize_chip_F@zone_013": {
+   "type": "PICK",
+   "bound_type": "chip_F",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "--release--chip_F--at--overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "--release--chip_F--at--nest_1": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "placevialshelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--package_large--at--lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "--release--mount--at--slot3_1": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "--release--tote--at--nest_3": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "placepackage_largenest_3": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "placemountbinB_101": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "--release--vial--at--nest_5": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "--release--tote--at--zone_013": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "--release--package_large--at--zone_013": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "placechip_Fpos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "--release--chip_F--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "placepackage_largebay_C": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "placevialbinB_101": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "--release--package_large--at--overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "--release--package_large--at--nest_1": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "placetotenest_1": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "placemountnest_3": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "--release--tote--at--Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "--release--package_large--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "--release--package_large--at--pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "placemountzone_013": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "--release--tote--at--pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "placemountbay_C": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "placemountnest_1": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "--release--mount--at--Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "placepackage_largeshelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "placechip_Fnest_5": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "placevialzone_013": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "--release--tote--at--shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "--release--tote--at--shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--mount--at--pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "--release--vial--at--bay_C": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "--release--package_large--at--shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "package_large",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "--release--vial--at--overflow_rack": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "overflow_rack",
+   "observable_locations": null
+  },
+  "--release--vial--at--shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "--release--vial--at--shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "vial",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "placemountshelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "mount",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "placetotebinB_101": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "placetoteExt-Yard-ZoneP9": {
+   "type": "PLACE",
+   "bound_type": "tote",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "--release--chip_F--at--nest_3": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "placechip_Fzone_013": {
+   "type": "PLACE",
+   "bound_type": "chip_F",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "slot3_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot3_1"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_013"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "peek overflow_rack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "overflow_rack"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_1",
+    "nest_3",
+    "nest_5"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S2",
+    "shelf_L3_S3",
+    "shelf_L3_S4"
+   ]
+  },
+  "Crane_Camera_Ext_Yard_Zones_P9_Q9_R9": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Ext-Yard-ZoneP9",
+    "Ext-Yard-ZoneQ9"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charging_station_alpha": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_F",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "mount",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "vial",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tote",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "package_large",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "bay C and overflow rack": [
+   "bay_C",
+   "overflow_rack"
+  ],
+  "odd numbered nests": [
+   "nest_1",
+   "nest_3",
+   "nest_5"
+  ],
+  "outer nests (first and last)": [
+   "nest_1",
+   "nest_5"
+  ],
+  "shelf_L3 slots": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "shelf L3 bays": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "Exterior_Yard_Scaffold_Zones_Indices_P9_and_Q9": [
+   "Ext-Yard-ZoneP9",
+   "Ext-Yard-ZoneQ9"
+  ]
+ }
+}

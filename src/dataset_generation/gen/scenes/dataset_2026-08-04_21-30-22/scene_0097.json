@@ -1,0 +1,1295 @@
+{
+ "object_locations": [
+  "dispenser_D",
+  "cell_R2C5",
+  "dispenser_B",
+  "pos.y1.x2",
+  "silo_2",
+  "burner_front_left",
+  "tree_8",
+  "burner_front_right",
+  "BIN_RED_LEFT",
+  "dispenser_C",
+  "dispenser_A"
+ ],
+ "object_types": [
+  "framework_pipe",
+  "parcel_fragile",
+  "wafer_M",
+  "specimen_vial",
+  "package_small",
+  "cylinder_pink",
+  "blue_ball",
+  "horse",
+  "summer_tire",
+  "parcel_tube"
+ ],
+ "positions": {
+  "ACQUIRE/dispenser_D/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/framework_pipe": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_C/framework_pipe": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/framework_pipe": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_C/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x2/framework_pipe": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/blue_ball": {
+   "type": "PICK",
+   "bound_type": "blue_ball",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_D/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/blue_ball": {
+   "type": "PICK",
+   "bound_type": "blue_ball",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x2/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x2/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_left/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x2/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/BIN_RED_LEFT/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/blue_ball": {
+   "type": "PICK",
+   "bound_type": "blue_ball",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_right/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_D/specimen_vial": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ACQUIRE/BIN_RED_LEFT/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_right/blue_ball": {
+   "type": "PICK",
+   "bound_type": "blue_ball",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_right/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_right/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_D/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/specimen_vial": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/specimen_vial": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/specimen_vial": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_left/specimen_vial": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_C/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/horse": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/framework_pipe": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_left/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R2C5/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_C/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_D/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ACQUIRE/BIN_RED_LEFT/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "ACQUIRE/BIN_RED_LEFT/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x2/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/summer_tire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x2/wafer_M": {
+   "type": "PICK",
+   "bound_type": "wafer_M",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/blue_ball": {
+   "type": "PICK",
+   "bound_type": "blue_ball",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_C/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "ACQUIRE/silo_2/package_small": {
+   "type": "PICK",
+   "bound_type": "package_small",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "ACQUIRE/tree_8/cylinder_pink": {
+   "type": "PICK",
+   "bound_type": "cylinder_pink",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_B/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ACQUIRE/burner_front_right/parcel_fragile": {
+   "type": "PICK",
+   "bound_type": "parcel_fragile",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ACQUIRE/dispenser_A/framework_pipe": {
+   "type": "PICK",
+   "bound_type": "framework_pipe",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_tube&dest=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=framework_pipe&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=framework_pipe&dest=dispenser_C": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=framework_pipe&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_small&dest=dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=dispenser_C": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=framework_pipe&dest=pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=blue_ball&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "blue_ball",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_tube&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_tube&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=blue_ball&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "blue_ball",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=horse&dest=tree_8": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_tube&dest=pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=tree_8": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=blue_ball&dest=dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "blue_ball",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=specimen_vial&dest=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_small&dest=BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=blue_ball&dest=burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "blue_ball",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_tube&dest=burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=horse&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=specimen_vial&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=specimen_vial&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=specimen_vial&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=horse&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=specimen_vial&dest=burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=horse&dest=dispenser_C": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=horse&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_M&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=framework_pipe&dest=tree_8": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_M&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_M&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_M&dest=dispenser_C": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_small&dest=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_tube&dest=BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=summer_tire&dest=tree_8": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wafer_M&dest=pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "wafer_M",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_small&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=blue_ball&dest=tree_8": {
+   "type": "PLACE",
+   "bound_type": "blue_ball",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_small&dest=dispenser_C": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=package_small&dest=silo_2": {
+   "type": "PLACE",
+   "bound_type": "package_small",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_pink&dest=tree_8": {
+   "type": "PLACE",
+   "bound_type": "cylinder_pink",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=parcel_fragile&dest=burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "parcel_fragile",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=framework_pipe&dest=dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "framework_pipe",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "bins_observe_red": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_RED_LEFT"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C5"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_A",
+    "dispenser_B"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_C",
+    "dispenser_D"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "view burner_front_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_front_right"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_8"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "bin_transfer_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "auger_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "hopper_fill": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "framework_pipe",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "parcel_fragile",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "wafer_M",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "package_small",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "cylinder_pink",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "blue_ball",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "blue_ball",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "blue_ball",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "blue_ball",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "blue_ball",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "dispensers A or B": [
+   "dispenser_A",
+   "dispenser_B"
+  ],
+  "dispensers C or D": [
+   "dispenser_C",
+   "dispenser_D"
+  ],
+  "dispensers B or C": [
+   "dispenser_B",
+   "dispenser_C"
+  ],
+  "dispensers A or D": [
+   "dispenser_A",
+   "dispenser_D"
+  ],
+  "dispensers A, B, or C": [
+   "dispenser_A",
+   "dispenser_B",
+   "dispenser_C"
+  ],
+  "dispensers B, C, or D": [
+   "dispenser_B",
+   "dispenser_C",
+   "dispenser_D"
+  ],
+  "dispensers A or C": [
+   "dispenser_A",
+   "dispenser_C"
+  ],
+  "somewhere in dispensers B or D": [
+   "dispenser_B",
+   "dispenser_D"
+  ],
+  "front burners": [
+   "burner_front_left",
+   "burner_front_right"
+  ]
+ }
+}

@@ -1,0 +1,1044 @@
+{
+ "object_locations": [
+  "burner_back_right",
+  "tree_7",
+  "drawer_2",
+  "tree_14",
+  "palette_well_6",
+  "canvas_zone_C",
+  "tree_6",
+  "tree_13",
+  "palette_well_8",
+  "burner_back_left",
+  "tree_15",
+  "tree_12",
+  "tree_11",
+  "tree_5",
+  "palette_well_7"
+ ],
+ "object_types": [
+  "cylinder_green",
+  "chip_type_Q",
+  "corn_kernel",
+  "buffer_vessel",
+  "knight",
+  "product_SKU_004"
+ ],
+ "positions": {
+  "CMD:GRIP:product_SKU_004:LOC:burner_back_left": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get|product_SKU_004|@|drawer_2": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_Q:LOC:tree_15": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "get|knight|@|tree_7": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "get|knight|@|tree_12": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "get|knight|@|palette_well_6": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|tree_7": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:tree_5": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:cylinder_green:LOC:tree_14": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|tree_12": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "get|chip_type_Q|@|burner_back_right": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_Q:LOC:tree_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|palette_well_6": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "get|chip_type_Q|@|tree_13": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_004:LOC:tree_6": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "get|buffer_vessel|@|tree_15": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "CMD:GRIP:knight:LOC:canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:buffer_vessel:LOC:tree_13": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "get|knight|@|burner_back_left": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|tree_11": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_Q:LOC:tree_12": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:burner_back_left": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get|knight|@|drawer_2": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_004:LOC:tree_5": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:cylinder_green:LOC:tree_12": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_004:LOC:tree_13": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "get|cylinder_green|@|palette_well_6": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|palette_well_8": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_Q:LOC:palette_well_7": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_Q:LOC:canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:buffer_vessel:LOC:tree_12": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "get|chip_type_Q|@|tree_11": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "get|cylinder_green|@|tree_6": {
+   "type": "PICK",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "get|buffer_vessel|@|canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "get|chip_type_Q|@|burner_back_left": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get|product_SKU_004|@|tree_7": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "get|product_SKU_004|@|tree_12": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "get|buffer_vessel|@|tree_11": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "CMD:GRIP:knight:LOC:tree_15": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_Q:LOC:palette_well_8": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:buffer_vessel:LOC:tree_6": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "CMD:GRIP:buffer_vessel:LOC:burner_back_left": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "get|knight|@|burner_back_right": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "CMD:GRIP:knight:LOC:tree_14": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "get|product_SKU_004|@|palette_well_7": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:tree_15": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:tree_14": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "get|product_SKU_004|@|canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:buffer_vessel:LOC:palette_well_8": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:corn_kernel:LOC:burner_back_right": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "get|corn_kernel|@|tree_13": {
+   "type": "PICK",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=drawer_2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=tree_15": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=tree_7": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=tree_12": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=tree_7": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=tree_5": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_green&dest=tree_14": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=tree_12": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=tree_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=tree_13": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=tree_6": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=tree_15": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=tree_13": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=tree_11": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=tree_12": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=drawer_2": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=tree_5": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_green&dest=tree_12": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=tree_13": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_green&dest=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=tree_12": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=tree_11": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_green&dest=tree_6": {
+   "type": "PLACE",
+   "bound_type": "cylinder_green",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=tree_7": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=tree_12": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=tree_11": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=tree_15": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_Q&dest=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=tree_6": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=tree_14": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=tree_15": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=tree_14": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_SKU_004&dest=canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=buffer_vessel&dest=palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=corn_kernel&dest=tree_13": {
+   "type": "PLACE",
+   "bound_type": "corn_kernel",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_2"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_6",
+    "palette_well_7",
+    "palette_well_8"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_C"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_back_left",
+    "burner_back_right"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12",
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "cylinder_green",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "corn_kernel",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from the last three wells or canvas zone C": [
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8",
+   "canvas_zone_C"
+  ],
+  "back burners": [
+   "burner_back_left",
+   "burner_back_right"
+  ],
+  "tree 5-7 or tree 11-12": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_11",
+   "tree_12"
+  ],
+  "tree 11-15": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ]
+ }
+}

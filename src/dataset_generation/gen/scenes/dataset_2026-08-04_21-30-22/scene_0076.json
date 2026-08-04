@@ -1,0 +1,1255 @@
+{
+ "object_locations": [
+  "table_Q4",
+  "lane_2_mid",
+  "rack top",
+  "drawer_3",
+  "burner_back_right",
+  "conveyor_drop_zone",
+  "burner_front_left",
+  "drawer_9",
+  "shelf_L2_S1",
+  "clearingquadrantALPHA",
+  "clearingquadrantBETA",
+  "cell_R1C1",
+  "lane_1_start",
+  "palette_well_5",
+  "conveyor_pick_zone",
+  "palette_well_4"
+ ],
+ "object_types": [
+  "cylinder_magenta",
+  "spelt_grain",
+  "box_international",
+  "green_ball",
+  "cable",
+  "chicken"
+ ],
+ "positions": {
+  "/mnt/drawer_3/cable/pick": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "rack top=>cylinder_magenta=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "#lane_1_start/#cable/take": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "/mnt/table_Q4/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "#drawer_9/#spelt_grain/take": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "clearingquadrantBETA=>cylinder_magenta=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "lane_2_mid=>chicken=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "#lane_2_mid/#green_ball/take": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "#palette_well_5/#spelt_grain/take": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#green_ball/take": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/box_international/pick": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "drawer_9=>cylinder_magenta=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/spelt_grain/pick": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "drawer_3=>spelt_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "cell_R1C1=>cable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#burner_front_left/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone=>green_ball=>TAKE": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_drop_zone/box_international/pick": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>cable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_pick_zone/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "palette_well_4=>box_international=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#green_ball/take": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/box_international/pick": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#rack top/#green_ball/take": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "/mnt/rack top/box_international/pick": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/spelt_grain/pick": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_4/cable/pick": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "table_Q4=>green_ball=>TAKE": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "#table_Q4/#box_international/take": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#box_international/take": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/lane_2_mid/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "/mnt/rack top/cable/pick": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone=>spelt_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "burner_back_right=>chicken=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "#table_Q4/#cable/take": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#cable/take": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#burner_back_right/#box_international/take": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#spelt_grain/take": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#palette_well_5/#chicken/take": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "/mnt/drawer_9/green_ball/pick": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone=>cylinder_magenta=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "/mnt/drawer_9/box_international/pick": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "#conveyor_pick_zone/#box_international/take": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>chicken=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "rack top=>spelt_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "/mnt/drawer_3/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>green_ball=>TAKE": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>box_international=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "/mnt/lane_1_start/chicken/pick": {
+   "type": "PICK",
+   "bound_type": "chicken",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "#palette_well_4/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#spelt_grain/take": {
+   "type": "PICK",
+   "bound_type": "spelt_grain",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/drawer_3/box_international/pick": {
+   "type": "PICK",
+   "bound_type": "box_international",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "clearingquadrantALPHA=>cylinder_magenta=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone=>green_ball=>TAKE": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "/mnt/burner_front_left/cable/pick": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "placecabledrawer_3": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=rack top": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placecablelane_1_start": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "placecylinder_magentatable_Q4": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=spelt_grain&dest=drawer_9": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "placechickenlane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "placegreen_balllane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=spelt_grain&dest=palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placebox_internationalcell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placecylinder_magentadrawer_9": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "placespelt_grainlane_1_start": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=spelt_grain&dest=drawer_3": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "placecablecell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "placegreen_ballconveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "placebox_internationalconveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "placechickenclearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "placegreen_ballrack top": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=rack top": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placespelt_graincell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=table_Q4": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "placebox_internationaltable_Q4": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chicken&dest=clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "placecylinder_magentalane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "placecablerack top": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=spelt_grain&dest=conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "placecylinder_magentacell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placechickenburner_back_right": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=table_Q4": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=clearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=spelt_grain&dest=clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "placechickenpalette_well_5": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "placegreen_balldrawer_9": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "placecylinder_magentaconveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=drawer_9": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "placebox_internationalconveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "placechickenshelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "placespelt_grainrack top": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "placechickendrawer_3": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "placechickenlane_1_start": {
+   "type": "PLACE",
+   "bound_type": "chicken",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "placecylinder_magentapalette_well_4": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "placespelt_grainclearingquadrantBETA": {
+   "type": "PLACE",
+   "bound_type": "spelt_grain",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=box_international&dest=drawer_3": {
+   "type": "PLACE",
+   "bound_type": "box_international",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cylinder_magenta&dest=clearingquadrantALPHA": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=green_ball&dest=conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top"
+   ]
+  },
+  "clearingquadrantALPHA Overwiew": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantALPHA"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_2_mid"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_3"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_9"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_4",
+    "palette_well_5"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_back_right"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "conveyor_wait_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "spelt_grain",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "box_international",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chicken",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "alpha or beta clearing quadrant": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "first or second cleaning disposals": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "from wells 4 or 5": [
+   "palette_well_4",
+   "palette_well_5"
+  ],
+  "front_left or back_right burner": [
+   "burner_front_left",
+   "burner_back_right"
+  ]
+ }
+}

@@ -1,0 +1,1784 @@
+{
+ "object_locations": [
+  "pos.y0.x0",
+  "pos.y0.x1",
+  "pos.y0.x2",
+  "pos.y0.x3",
+  "pos.y1.x0",
+  "pos.y1.x1",
+  "pos.y1.x2",
+  "pos.y1.x3",
+  "pos.y2.x0",
+  "pos.y2.x1",
+  "pos.y2.x2",
+  "pos.y2.x3"
+ ],
+ "object_types": [
+  "token_A",
+  "token_B",
+  "token_C",
+  "token_D",
+  "token_E",
+  "token_F",
+  "token_G",
+  "token_H"
+ ],
+ "positions": {
+  "seize_token_A@pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_A:LOC:pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_A:LOC:pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "seize_token_A@pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "seize_token_B@pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_token_B@pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "seize_token_B@pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "seize_token_B@pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_B:LOC:pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_C:LOC:pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "seize_token_C@pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "seize_token_C@pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_C:LOC:pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_C:LOC:pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_token_C@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_token_C@pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_C:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_C:LOC:pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "seize_token_C@pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "seize_token_C@pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "seize_token_C@pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "seize_token_D@pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_D:LOC:pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_D:LOC:pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_D:LOC:pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "seize_token_D@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_D:LOC:pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_D:LOC:pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_D:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "seize_token_D@pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "seize_token_D@pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_D:LOC:pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "seize_token_D@pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "seize_token_E@pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_E:LOC:pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_E:LOC:pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "seize_token_E@pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "seize_token_E@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_E:LOC:pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_E:LOC:pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "seize_token_E@pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "seize_token_E@pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_E:LOC:pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "seize_token_E@pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_E:LOC:pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_F:LOC:pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_F:LOC:pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_F:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "seize_token_F@pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "seize_token_G@pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "seize_token_G@pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_token_G@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_token_G@pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "seize_token_G@pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_G:LOC:pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "seize_token_G@pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y0.x1": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y0.x2": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_H:LOC:pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_H:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_H:LOC:pos.y2.x0": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y2.x1": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "seize_token_H@pos.y2.x2": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:token_H:LOC:pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x0_token_A": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x1_token_A": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "pos.y0.x2_token_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "pos.y0.x3_token_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "pos.y1.x0_token_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x1/token_A": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x2_token_A": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "pos.y1.x3_token_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x0/token_A": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "pos.y2.x1_token_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x2/token_A": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x3_token_A": {
+   "type": "PLACE",
+   "bound_type": "token_A",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "pos.y0.x0_token_B_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x1_token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x2/token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x3_token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x0_token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pos.y1.x1_token_B_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pos.y1.x2_token_B_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x3_token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x0_token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x2/token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x3_token_B": {
+   "type": "PLACE",
+   "bound_type": "token_B",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "pos.y0.x0_token_C_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x1_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x2_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x3_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x0_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x1/token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x2/token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x3_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x0_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x1_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x2_token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/token_C": {
+   "type": "PLACE",
+   "bound_type": "token_C",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x0/token_D": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "pos.y0.x1_token_D_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x2/token_D": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x3/token_D": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "pos.y1.x0_token_D_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x1/token_D": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pos.y1.x2_token_D_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "pos.y1.x3_token_D_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pos.y2.x0_token_D_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/token_D": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x2_token_D": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x3_token_D": {
+   "type": "PLACE",
+   "bound_type": "token_D",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x0/token_E": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x1_token_E": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "pos.y0.x2_token_E_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x3/token_E": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x0_token_E": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pos.y1.x1_token_E_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pos.y1.x2_token_E_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "pos.y1.x3_token_E_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pos.y2.x0_token_E_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/token_E": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x2/token_E": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x3_token_E": {
+   "type": "PLACE",
+   "bound_type": "token_E",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x0_token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x1_token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x2/token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x3/token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "pos.y1.x0_token_F_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x1/token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pos.y1.x2_token_F_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "pos.y1.x3_token_F_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x0_token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x2_token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x3_token_F": {
+   "type": "PLACE",
+   "bound_type": "token_F",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x0/token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "pos.y0.x1_token_G_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x2/token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "pos.y0.x3_token_G_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "pos.y1.x0_token_G_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pos.y1.x1_token_G_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pos.y1.x2_token_G_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x3/token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x0/token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "pos.y2.x1_token_G_deposit": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x2/token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x0/token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x1_token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y0.x2_token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y0.x3/token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x0_token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y1.x1/token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x2_token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x3_token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x0_token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x2/token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x3_token_H": {
+   "type": "PLACE",
+   "bound_type": "token_H",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x0",
+    "pos.y0.x1",
+    "pos.y0.x2",
+    "pos.y0.x3"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x1",
+    "pos.y1.x2",
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1",
+    "pos.y2.x2",
+    "pos.y2.x3"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "token_A",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "token_B",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "token_C",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "token_D",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "token_E",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "token_F",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "token_H",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rightmost column (x3)": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "row y0 (top track)": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y0.x2",
+   "pos.y0.x3"
+  ],
+  "pos with y0": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y0.x2",
+   "pos.y0.x3"
+  ],
+  "pos with y1": [
+   "pos.y1.x0",
+   "pos.y1.x1",
+   "pos.y1.x2",
+   "pos.y1.x3"
+  ],
+  "pos with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "column x0 (left wall)": [
+   "pos.y0.x0",
+   "pos.y1.x0",
+   "pos.y2.x0"
+  ],
+  "even columns (x0 and x2)": [
+   "pos.y0.x0",
+   "pos.y1.x0",
+   "pos.y2.x0",
+   "pos.y0.x2",
+   "pos.y1.x2",
+   "pos.y2.x2"
+  ],
+  "positions where y equals 2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "outer ends of row y1": [
+   "pos.y1.x0",
+   "pos.y1.x3"
+  ],
+  "column x3 (right wall)": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "(columns x0 and x1)": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y1.x0",
+   "pos.y1.x1",
+   "pos.y2.x0",
+   "pos.y2.x1"
+  ]
+ }
+}

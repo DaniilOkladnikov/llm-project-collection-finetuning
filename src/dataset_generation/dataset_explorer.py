@@ -1,15 +1,18 @@
 """GUI explorer for the finetuning dataset.
 
 Browse the input/output pairs in ``datasets/dataset.json`` one conversation at
-a time.
+a time, or switch to a flat "token view" that walks every invocation ordered by
+``llama_tokens`` descending (ignoring conversation boundaries).
 
 Keys
 ----
-Right   next conversation (random, or forward through history after going back)
-Left    previous conversation (walks back through visited history)
-Down    next invocation in the current conversation
-Up      previous invocation in the current conversation
-Escape  quit
+Right   next conversation / next pair in token view
+Left    previous conversation / previous pair in token view
+Down    next invocation in the current conversation / next pair in token view
+Up      previous invocation in the current conversation / previous pair
+T       toggle token view (all pairs, most llama_tokens first)
+H       show a histogram of llama_tokens across the whole dataset
+Escape  quit (or close the histogram window)
 
 Run with::
 
@@ -28,7 +31,7 @@ from pathlib import Path
 from tkinter import font as tkfont
 from typing import Any
 
-DEFAULT_DATASET = Path(__file__).parent / "datasets" / "dataset_2026-07-31_15-10-47.json"
+DEFAULT_DATASET = Path(__file__).parent.parent / "finetuning" / "datasets" / "dataset_2026-08-04_21-30-22.json"
 
 BG = "#1e1f26"
 PANEL = "#262832"
@@ -69,6 +72,13 @@ class DatasetExplorer:
         self.cursor = -1
         self.unseen: list[int] = []
         self.invocation_index = 0
+
+        # "conversation" walks conversations; "token" walks every invocation
+        # flattened and sorted by llama_tokens descending.
+        self.mode = "conversation"
+        self.flat: list[Invocation] = []
+        self.flat_index = 0
+        self._hist_window: tk.Toplevel | None = None
 
         root.title("Dataset Explorer")
         root.geometry("1500x900")
@@ -114,6 +124,14 @@ class DatasetExplorer:
             padx=12,
         ).pack(side="right")
 
+        self.mode_button_text = tk.StringVar(value="Token view  (T)")
+        self._make_button(
+            header, textvariable=self.mode_button_text, command=self.toggle_mode
+        ).pack(side="right", padx=(0, 6), pady=6)
+        self._make_button(
+            header, text="Histogram  (H)", command=self.show_histogram
+        ).pack(side="right", padx=(0, 6), pady=6)
+
         meta_frame = tk.Frame(self.root, bg=BG, padx=10, pady=6)
         meta_frame.pack(side="top", fill="x")
         meta_container, self.meta = self._make_text(meta_frame, height=7, wrap="word")
@@ -134,11 +152,10 @@ class DatasetExplorer:
         self.input_text = self._make_pane(panes, "INPUT")
         self.output_text = self._make_pane(panes, "OUTPUT")
 
+        self.footer_text = tk.StringVar()
         footer = tk.Label(
             self.root,
-            text="  ← / →  conversation (forward = random)"
-            "      ↑ / ↓  invocation in conversation"
-            "      Esc  quit",
+            textvariable=self.footer_text,
             bg=PANEL,
             fg=MUTED,
             font=self.ui,
@@ -146,6 +163,39 @@ class DatasetExplorer:
             pady=6,
         )
         footer.pack(side="bottom", fill="x")
+        self._update_footer()
+
+    def _update_footer(self) -> None:
+        if self.mode == "token":
+            self.footer_text.set(
+                "  ← ↑ / → ↓  prev / next pair (llama_tokens descending)"
+                "      T  back to conversation view"
+                "      H  histogram      Esc  quit"
+            )
+        else:
+            self.footer_text.set(
+                "  ← / →  conversation (forward = random)"
+                "      ↑ / ↓  invocation in conversation"
+                "      T  token view      H  histogram      Esc  quit"
+            )
+
+    def _make_button(self, parent: tk.Widget, **kwargs: Any) -> tk.Button:
+        return tk.Button(
+            parent,
+            bg=BG,
+            fg=FG,
+            activebackground=ACCENT,
+            activeforeground=BG,
+            font=self.ui,
+            relief="flat",
+            bd=0,
+            highlightthickness=0,
+            padx=12,
+            pady=4,
+            takefocus=0,
+            cursor="hand2",
+            **kwargs,
+        )
 
     def _make_pane(self, parent: tk.PanedWindow, title: str) -> tk.Text:
         frame = tk.Frame(parent, bg=BG)
@@ -190,12 +240,40 @@ class DatasetExplorer:
         return container, text
 
     def _bind_keys(self) -> None:
-        self.root.bind("<Right>", lambda _e: self.next_conversation())
-        self.root.bind("<Left>", lambda _e: self.previous_conversation())
-        self.root.bind("<Down>", lambda _e: self.step_invocation(1))
-        self.root.bind("<Up>", lambda _e: self.step_invocation(-1))
+        self.root.bind("<Right>", lambda _e: self._forward())
+        self.root.bind("<Left>", lambda _e: self._backward())
+        self.root.bind("<Down>", lambda _e: self._step_down())
+        self.root.bind("<Up>", lambda _e: self._step_up())
+        self.root.bind("<t>", lambda _e: self.toggle_mode())
+        self.root.bind("<T>", lambda _e: self.toggle_mode())
+        self.root.bind("<h>", lambda _e: self.show_histogram())
+        self.root.bind("<H>", lambda _e: self.show_histogram())
         self.root.bind("<Escape>", lambda _e: self.root.destroy())
         self.root.focus_set()
+
+    def _forward(self) -> None:
+        if self.mode == "token":
+            self.step_flat(1)
+        else:
+            self.next_conversation()
+
+    def _backward(self) -> None:
+        if self.mode == "token":
+            self.step_flat(-1)
+        else:
+            self.previous_conversation()
+
+    def _step_down(self) -> None:
+        if self.mode == "token":
+            self.step_flat(1)
+        else:
+            self.step_invocation(1)
+
+    def _step_up(self) -> None:
+        if self.mode == "token":
+            self.step_flat(-1)
+        else:
+            self.step_invocation(-1)
 
     # ------------------------------------------------------------------- data
 
@@ -212,6 +290,12 @@ class DatasetExplorer:
         if not conversations:
             self.status.set("Dataset is empty")
             return
+        self.flat = sorted(
+            (inv for conv in conversations for inv in conv),
+            key=lambda e: e["metadata"].get("llama_tokens", 0),
+            reverse=True,
+        )
+        self.flat_index = 0
         self.unseen = list(range(len(conversations)))
         random.shuffle(self.unseen)
         self.next_conversation()
@@ -249,9 +333,34 @@ class DatasetExplorer:
             self.invocation_index = new_index
             self.render()
 
+    def step_flat(self, delta: int) -> None:
+        if not self.flat:
+            return
+        new_index = self.flat_index + delta
+        if 0 <= new_index < len(self.flat):
+            self.flat_index = new_index
+            self.render()
+
+    def toggle_mode(self) -> None:
+        if not self.conversations:
+            return
+        self.mode = "token" if self.mode == "conversation" else "conversation"
+        self.mode_button_text.set(
+            "Conversation view  (T)" if self.mode == "token" else "Token view  (T)"
+        )
+        self._update_footer()
+        self.render()
+        self.root.focus_set()
+
     # ----------------------------------------------------------------- render
 
     def render(self) -> None:
+        if self.mode == "token":
+            self._render_flat()
+        else:
+            self._render_conversation()
+
+    def _render_conversation(self) -> None:
         conversation = self.conversations[self.history[self.cursor]]
         entry = conversation[self.invocation_index]
         metadata = entry["metadata"]
@@ -265,10 +374,87 @@ class DatasetExplorer:
             f"   ·   {len(self.conversations)} conversations"
             f"   ·   {len(self.unseen)} unseen"
         )
+        self._show_entry(entry)
 
-        self._set_metadata(metadata)
+    def _render_flat(self) -> None:
+        entry = self.flat[self.flat_index]
+        metadata = entry["metadata"]
+
+        self.status.set(
+            f"Token view   ·   {metadata.get('llama_tokens', '?')} llama_tokens"
+            f"   ·   conversation {metadata['conversation_id']}"
+        )
+        self.position.set(
+            f"pair {self.flat_index + 1} / {len(self.flat)}"
+            f"   ·   sorted by llama_tokens ↓"
+        )
+        self._show_entry(entry)
+
+    def _show_entry(self, entry: Invocation) -> None:
+        self._set_metadata(entry["metadata"])
         self._set_text(self.input_text, entry["input"])
         self._set_text(self.output_text, entry["output"])
+
+    def show_histogram(self) -> None:
+        if not self.flat:
+            return
+        if self._hist_window is not None and self._hist_window.winfo_exists():
+            self._hist_window.deiconify()
+            self._hist_window.lift()
+            self._hist_window.focus_set()
+            return
+        try:
+            import statistics
+
+            from matplotlib.backends.backend_tkagg import (
+                FigureCanvasTkAgg,
+                NavigationToolbar2Tk,
+            )
+            from matplotlib.figure import Figure
+        except Exception as exc:  # surface in the UI rather than crash the app
+            self.status.set(f"Histogram unavailable: {exc}")
+            return
+
+        tokens = [e["metadata"].get("llama_tokens", 0) for e in self.flat]
+
+        win = tk.Toplevel(self.root)
+        win.title("llama_tokens histogram")
+        win.geometry("960x640")
+        win.configure(bg=BG)
+        self._hist_window = win
+
+        fig = Figure(figsize=(9.6, 6.4), dpi=100, facecolor=BG)
+        ax = fig.add_subplot(111)
+        ax.set_facecolor(PANEL)
+        ax.hist(tokens, bins=80, color=ACCENT, edgecolor=BG, linewidth=0.4)
+
+        mean = statistics.fmean(tokens)
+        median = statistics.median(tokens)
+        ax.axvline(mean, color=VALUE, linestyle="--", linewidth=1.3, label=f"mean {mean:.0f}")
+        ax.axvline(median, color=KEY, linestyle="--", linewidth=1.3, label=f"median {median:.0f}")
+
+        ax.set_title(
+            f"llama_tokens across {len(tokens)} invocations"
+            f"   (min {min(tokens)}, max {max(tokens)})",
+            color=FG,
+        )
+        ax.set_xlabel("llama_tokens", color=FG)
+        ax.set_ylabel("invocations", color=FG)
+        ax.tick_params(colors=MUTED)
+        for spine in ax.spines.values():
+            spine.set_color(MUTED)
+        ax.legend(facecolor=PANEL, edgecolor=MUTED, labelcolor=FG)
+        fig.tight_layout()
+
+        canvas = FigureCanvasTkAgg(fig, master=win)
+        canvas.draw()
+        toolbar = NavigationToolbar2Tk(canvas, win, pack_toolbar=False)
+        toolbar.update()
+        toolbar.pack(side="bottom", fill="x")
+        canvas.get_tk_widget().pack(side="top", fill="both", expand=True)
+
+        win.bind("<Escape>", lambda _e: win.destroy())
+        win.protocol("WM_DELETE_WINDOW", win.destroy)
 
     def _set_metadata(self, metadata: dict[str, Any]) -> None:
         self.meta.configure(state="normal")

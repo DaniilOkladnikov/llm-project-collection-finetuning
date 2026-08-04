@@ -1,0 +1,816 @@
+{
+ "object_locations": [
+  "table_Q4",
+  "silo_3",
+  "DEBRIScontainer",
+  "silo_2",
+  "table_Q2",
+  "tray_infeed_slot1",
+  "station_gamma",
+  "slot_primary",
+  "tray_outfeed_slot1",
+  "input_chute",
+  "reject_slot"
+ ],
+ "object_types": [
+  "product_SKU_005",
+  "seasoning_salt",
+  "coin_half_dollar",
+  "titanium_ingot",
+  "roller_cyan"
+ ],
+ "positions": {
+  "table_Q4.item.coin_half_dollar.acquire": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot1.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "tray_infeed_slot1.item.roller_cyan.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "silo_3.item.roller_cyan.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "get__product_SKU_005__from__input_chute": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "silo_2.item.roller_cyan.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "get__titanium_ingot__from__reject_slot": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "input_chute.item.titanium_ingot.acquire": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "get__coin_half_dollar__from__tray_infeed_slot1": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "get__coin_half_dollar__from__silo_3": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "get__product_SKU_005__from__tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "get__coin_half_dollar__from__silo_2": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot1.item.titanium_ingot.acquire": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "get__seasoning_salt__from__table_Q2": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "slot_primary.item.coin_half_dollar.acquire": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "reject_slot.item.roller_cyan.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "get__coin_half_dollar__from__reject_slot": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot1.item.roller_cyan.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "table_Q4.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "table_Q2.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "get__product_SKU_005__from__DEBRIScontainer": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "tray_infeed_slot1.item.titanium_ingot.acquire": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "table_Q2.item.titanium_ingot.acquire": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "get__coin_half_dollar__from__tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "get__seasoning_salt__from__tray_infeed_slot1": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "get__seasoning_salt__from__silo_3": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "get__titanium_ingot__from__table_Q4": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "table_Q2.item.roller_cyan.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "get__seasoning_salt__from__silo_2": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "get__roller_cyan__from__DEBRIScontainer": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "slot_primary.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "station_gamma.item.titanium_ingot.acquire": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "silo_3.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "get__coin_half_dollar__from__DEBRIScontainer": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "reject_slot.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "silo_2.item.product_SKU_005.acquire": {
+   "type": "PICK",
+   "bound_type": "product_SKU_005",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "silo_3.item.titanium_ingot.acquire": {
+   "type": "PICK",
+   "bound_type": "titanium_ingot",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "table_Q4.item.roller_cyan.acquire": {
+   "type": "PICK",
+   "bound_type": "roller_cyan",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "actions/release/seasoning_salt/to/tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "zone.tray_infeed_slot1.item.roller_cyan.release": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "[silo_3][roller_cyan]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "actions/release/product_SKU_005/to/input_chute": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "[silo_2][roller_cyan]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[reject_slot][titanium_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "actions/release/titanium_ingot/to/input_chute": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "[tray_infeed_slot1][coin_half_dollar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "zone.silo_3.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "actions/release/product_SKU_005/to/tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "actions/release/coin_half_dollar/to/silo_2": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "[tray_outfeed_slot1][titanium_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "actions/release/seasoning_salt/to/table_Q2": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "actions/release/coin_half_dollar/to/slot_primary": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "[reject_slot][roller_cyan]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "actions/release/coin_half_dollar/to/reject_slot": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "zone.tray_outfeed_slot1.item.roller_cyan.release": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "[table_Q4][seasoning_salt]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "zone.table_Q2.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "actions/release/product_SKU_005/to/DEBRIScontainer": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "actions/release/titanium_ingot/to/tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "actions/release/titanium_ingot/to/table_Q2": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "zone.tray_outfeed_slot1.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "[tray_infeed_slot1][seasoning_salt]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "zone.silo_3.item.seasoning_salt.release": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.titanium_ingot.release": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "actions/release/roller_cyan/to/table_Q2": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "[silo_2][seasoning_salt]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "zone.DEBRIScontainer.item.roller_cyan.release": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "[slot_primary][seasoning_salt]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "zone.station_gamma.item.titanium_ingot.release": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "zone.silo_3.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "[DEBRIScontainer][coin_half_dollar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "DEBRIScontainer",
+   "observable_locations": null
+  },
+  "[reject_slot][seasoning_salt]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "zone.silo_2.item.product_SKU_005.release": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_005",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "actions/release/titanium_ingot/to/silo_3": {
+   "type": "PLACE",
+   "bound_type": "titanium_ingot",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "zone.table_Q4.item.roller_cyan.release": {
+   "type": "PLACE",
+   "bound_type": "roller_cyan",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot1"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot1"
+   ]
+  },
+  "DEBRIScontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "DEBRIScontainer"
+   ]
+  },
+  "look at station_gamma": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_gamma"
+   ]
+  },
+  "inspect:slot_primary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_primary"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "checkLevel silo_3": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_3"
+   ]
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "auger_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "hopper_fill": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "product_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "titanium_ingot",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "roller_cyan",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "Q2 or Q4 positions": [
+   "table_Q2",
+   "table_Q4"
+  ],
+  "slot 1 of each tray": [
+   "tray_infeed_slot1",
+   "tray_outfeed_slot1"
+  ],
+  "inside the tanks 2 or 3": [
+   "silo_2",
+   "silo_3"
+  ],
+  "from the last two silos": [
+   "silo_2",
+   "silo_3"
+  ],
+  "somewhere in the input or reject slots": [
+   "input_chute",
+   "reject_slot"
+  ]
+ }
+}

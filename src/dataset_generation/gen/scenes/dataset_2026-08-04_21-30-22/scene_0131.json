@@ -1,0 +1,738 @@
+{
+ "object_locations": [
+  "slot1_2",
+  "chess_c1",
+  "tire_bay_FL",
+  "tray_outfeed_slot2",
+  "slot1_1",
+  "scaffolding_rack_left",
+  "chess_d1",
+  "chess_b1",
+  "chess_a1",
+  "drawer_5",
+  "drawer_3",
+  "bin_floor",
+  "bay_C",
+  "disposal_area",
+  "countertop"
+ ],
+ "object_types": [
+  "coin_penny",
+  "ssd_stick",
+  "summer_tyre",
+  "grain_corn"
+ ],
+ "positions": {
+  "task/pick/bin_floor/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "task/pick/countertop/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/chess_a1/ssd_stick": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "task/pick/bin_floor/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "task/pick/countertop/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "task/pick/scaffolding_rack_left/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "task/pick/bay_C/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/chess_b1/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "task/pick/bin_floor/ssd_stick": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "task/pick/countertop/ssd_stick": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "task/pick/chess_c1/coin_penny": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "task/pick/chess_d1/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "task/pick/slot1_2/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "task/pick/scaffolding_rack_left/ssd_stick": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/ssd_stick": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/chess_b1/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "task/pick/chess_c1/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "task/pick/chess_a1/coin_penny": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "task/pick/drawer_5/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "task/pick/countertop/coin_penny": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "task/pick/slot1_1/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "task/pick/chess_c1/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "task/pick/bin_floor/coin_penny": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "task/pick/scaffolding_rack_left/coin_penny": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "task/pick/disposal_area/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "task/pick/tray_outfeed_slot2/grain_corn": {
+   "type": "PICK",
+   "bound_type": "grain_corn",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "task/pick/tire_bay_FL/coin_penny": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "task/pick/drawer_3/coin_penny": {
+   "type": "PICK",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "task/pick/chess_c1/ssd_stick": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "task/pick/disposal_area/summer_tyre": {
+   "type": "PICK",
+   "bound_type": "summer_tyre",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "store:grain_corn:bin_floor": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "store:grain_corn:countertop": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "op/stow/grain_corn/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "store:ssd_stick:chess_a1": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "store:summer_tyre:bin_floor": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "op/stow/summer_tyre/loc/countertop": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "set|summer_tyre|@|scaffolding_rack_left": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "op/stow/grain_corn/loc/bay_C": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "op/stow/summer_tyre/loc/tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "store:grain_corn:chess_b1": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "set|ssd_stick|@|bin_floor": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "op/stow/ssd_stick/loc/countertop": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "op/stow/coin_penny/loc/chess_c1": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "op/stow/grain_corn/loc/chess_d1": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "store:grain_corn:slot1_2": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "store:ssd_stick:scaffolding_rack_left": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "store:ssd_stick:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "store:summer_tyre:chess_b1": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "store:grain_corn:chess_c1": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "op/stow/coin_penny/loc/chess_a1": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "store:grain_corn:drawer_5": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|countertop": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "set|summer_tyre|@|slot1_1": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "op/stow/summer_tyre/loc/chess_c1": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "store:coin_penny:bin_floor": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "bin_floor",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|scaffolding_rack_left": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "set|grain_corn|@|disposal_area": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "store:grain_corn:tray_outfeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "grain_corn",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "set|coin_penny|@|drawer_3": {
+   "type": "PLACE",
+   "bound_type": "coin_penny",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "set|ssd_stick|@|chess_c1": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "store:summer_tyre:disposal_area": {
+   "type": "PLACE",
+   "bound_type": "summer_tyre",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot2"
+   ]
+  },
+  "slot1_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot1_1",
+    "slot1_2"
+   ]
+  },
+  "queenside_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "chess_a1",
+    "chess_b1",
+    "chess_c1",
+    "chess_d1"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "look at bin_floor": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bin_floor"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_3",
+    "drawer_5"
+   ]
+  },
+  "glance countertop": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "countertop"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL"
+   ]
+  },
+  "glance disposal_area": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "disposal_area"
+   ]
+  },
+  "scaffolding_storage_inspection_point": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "scaffolding_rack_left"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "piece_safe_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "battery_charging_dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "coin_penny",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "summer_tyre",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "grain_corn",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "slot1 bins 1 or 2": [
+   "slot1_1",
+   "slot1_2"
+  ],
+  "queenside": [
+   "chess_a1",
+   "chess_b1",
+   "chess_c1",
+   "chess_d1"
+  ],
+  "ground receptacle": [
+   "bin_floor"
+  ],
+  "somewhere on the top of the counter": [
+   "countertop"
+  ],
+  "the drawer 5 or the countertop": [
+   "drawer_5",
+   "countertop"
+  ]
+ }
+}

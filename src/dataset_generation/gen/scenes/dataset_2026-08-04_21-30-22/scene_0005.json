@@ -1,0 +1,2083 @@
+{
+ "object_locations": [
+  "cell_R2C5",
+  "station_alpha",
+  "zone_013",
+  "station_beta",
+  "cell_R2C2",
+  "cell_R2C4",
+  "conveyor_drop_zone",
+  "palette_well_2",
+  "cell_R1C3",
+  "cell_R1C2",
+  "cell_R2C3",
+  "sink_basin",
+  "prep_board",
+  "cell_R1C1",
+  "station_gamma",
+  "cell_R1C4",
+  "cell_R1C5",
+  "cell_R2C1",
+  "conveyor_pick_zone"
+ ],
+ "object_types": [
+  "wafer_Q",
+  "package_hazmat",
+  "silver_pellet",
+  "jacket",
+  "box_domestic",
+  "vegetable_onion",
+  "half_dollar",
+  "buffer_container",
+  "item_SKU_003",
+  "chip_type_N"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=zone_013": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=sink_basin": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=sink_basin": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=sink_basin": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=zone_013": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=palette_well_2": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=zone_013": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=jacket&source=cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_hazmat&source=cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=sink_basin": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_domestic&source=conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=vegetable_onion&source=cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=half_dollar&source=cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=zone_013": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_Q&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=item_SKU_003&source=prep_board": {
+   "type": "PICK",
+   "bound_type": "item_SKU_003",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=buffer_container&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=silver_pellet&source=cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "placebuffer_containerconveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/chip_type_N": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "zone.cell_R2C5.item.box_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "zone.station_alpha.item.jacket.release": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "DEPOSIT/conveyor_pick_zone/wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "placechip_type_Ncell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/package_hazmat": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "placehalf_dollarstation_alpha": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C4/jacket": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/prep_board/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "placebox_domesticzone_013": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C4/wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C5/half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placeitem_SKU_003cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/palette_well_2/wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "placevegetable_onioncell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "zone.cell_R2C1.item.wafer_Q.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "zone.conveyor_drop_zone.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C3/box_domestic": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.cell_R1C5.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placeitem_SKU_003station_gamma": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "DEPOSIT/prep_board/package_hazmat": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "placehalf_dollarprep_board": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "placebuffer_containercell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "placebuffer_containerpalette_well_2": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "placeitem_SKU_003cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C1/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "placebuffer_containerstation_beta": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/prep_board/silver_pellet": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "DEPOSIT/sink_basin/package_hazmat": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "DEPOSIT/sink_basin/half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C4/chip_type_N": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "zone.cell_R2C4.item.jacket.release": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "zone.cell_R2C4.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "zone.cell_R2C4.item.half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "placehalf_dollarcell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "zone.palette_well_2.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "zone.palette_well_2.item.half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "placebuffer_containercell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C3/item_SKU_003": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "placechip_type_Nconveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "placepackage_hazmatcell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "zone.cell_R1C3.item.box_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "zone.station_beta.item.wafer_Q.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_gamma/vegetable_onion": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "zone.station_beta.item.half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/prep_board/chip_type_N": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "zone.palette_well_2.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "zone.station_gamma.item.chip_type_N.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "DEPOSIT/prep_board/jacket": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "zone.station_gamma.item.jacket.release": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "placesilver_pelletcell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "zone.station_gamma.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "zone.sink_basin.item.vegetable_onion.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "placewafer_Qcell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C3/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.cell_R1C2.item.wafer_Q.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/conveyor_pick_zone/vegetable_onion": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "zone.cell_R2C2.item.item_SKU_003.release": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "placepackage_hazmatcell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C2/half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.conveyor_pick_zone.item.chip_type_N.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "placejacketconveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "placesilver_pelletstation_gamma": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "placeitem_SKU_003zone_013": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "placevegetable_onioncell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "zone.palette_well_2.item.vegetable_onion.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "zone.cell_R1C4.item.wafer_Q.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C4/item_SKU_003": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C1/chip_type_N": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placesilver_pelletcell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/palette_well_2/chip_type_N": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "zone.cell_R1C5.item.box_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placeitem_SKU_003cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R2C2/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "placepackage_hazmatcell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.cell_R2C3.item.half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_beta/chip_type_N": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_beta/jacket": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_013/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "placevegetable_onioncell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C2/vegetable_onion": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.cell_R2C2.item.chip_type_N.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "placebox_domesticprep_board": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "zone.station_gamma.item.box_domestic.release": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "zone.cell_R2C2.item.jacket.release": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C2/jacket": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "zone.cell_R2C2.item.package_hazmat.release": {
+   "type": "PLACE",
+   "bound_type": "package_hazmat",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "zone.cell_R2C2.item.half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "zone.station_alpha.item.item_SKU_003.release": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "DEPOSIT/sink_basin/box_domestic": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "zone.cell_R1C5.item.wafer_Q.release": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/conveyor_pick_zone/box_domestic": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "zone.cell_R2C3.item.vegetable_onion.release": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.cell_R2C2.item.silver_pellet.release": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "DEPOSIT/conveyor_drop_zone/wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "zone.conveyor_drop_zone.item.item_SKU_003.release": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C3/wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C3/half_dollar": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "placesilver_pelletzone_013": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "zone_013",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C4/silver_pellet": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "DEPOSIT/station_alpha/buffer_container": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "DEPOSIT/prep_board/wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "zone.prep_board.item.item_SKU_003.release": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_003",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "placebuffer_containercell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C3/silver_pellet": {
+   "type": "PLACE",
+   "bound_type": "silver_pellet",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at station_beta": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_beta"
+   ]
+  },
+  "look at station_gamma": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_gamma"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_013"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2",
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5",
+    "cell_R2C3",
+    "cell_R2C4",
+    "cell_R2C5"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_2"
+   ]
+  },
+  "look at prep_board & sink_basin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "prep_board",
+    "sink_basin"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "package_hazmat",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "silver_pellet",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "item_SKU_003",
+   "location": "UNDEFINED"
+  },
+  "97": {
+   "id": 97,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "98": {
+   "id": 98,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "99": {
+   "id": 99,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "100": {
+   "id": 100,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "101": {
+   "id": 101,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "102": {
+   "id": 102,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "103": {
+   "id": 103,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "104": {
+   "id": 104,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "105": {
+   "id": 105,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "106": {
+   "id": 106,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "107": {
+   "id": 107,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "main processing terminals": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations only": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cellR2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells with R1 or R2": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in rows 1 and 2": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in row 2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "prep board or sink": [
+   "prep_board",
+   "sink_basin"
+  ],
+  "the sink or the prep board": [
+   "sink_basin",
+   "prep_board"
+  ]
+ }
+}

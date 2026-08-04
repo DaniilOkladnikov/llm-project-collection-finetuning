@@ -1,0 +1,1834 @@
+{
+ "object_locations": [
+  "palette_well_6",
+  "quarter_bin",
+  "palette_well_3",
+  "palette_well_1",
+  "palette_well_2",
+  "palette_well_4",
+  "Node20.01",
+  "dime_bin",
+  "Node10.01",
+  "tire_bay_FL",
+  "Node40.01",
+  "nickel_bin",
+  "Node30.01",
+  "cell_R1C1",
+  "palette_well_5",
+  "tool_shed_shelf_bottom",
+  "palette_well_8",
+  "penny_bin",
+  "palette_well_7",
+  "reject_slot"
+ ],
+ "object_types": [
+  "egg_unit",
+  "chip_type_O",
+  "wafer_I",
+  "titanium_block",
+  "roller_black",
+  "brush_wide",
+  "package_envelope",
+  "product_SKU_001",
+  "corn_grain",
+  "chip_G"
+ ],
+ "positions": {
+  "$.tool_shed_shelf_bottom.brush_wide.grab": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_4/corn_grain/pick": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "$.quarter_bin.egg_unit.grab": {
+   "type": "PICK",
+   "bound_type": "egg_unit",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "op/grab/titanium_block/loc/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "$.tool_shed_shelf_bottom.chip_type_O.grab": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "op/grab/roller_black/loc/Node20.01": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.reject_slot.brush_wide.grab": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/chip_G/loc/Node10.01": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "op/grab/package_envelope/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "$.palette_well_1.roller_black.grab": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/wafer_I/loc/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_O/loc/palette_well_2": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/titanium_block/pick": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "$.quarter_bin.brush_wide.grab": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "$.tool_shed_shelf_bottom.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "op/grab/corn_grain/loc/reject_slot": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/chip_G/loc/penny_bin": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "op/grab/roller_black/loc/Node10.01": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "op/grab/titanium_block/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/package_envelope/loc/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "$.nickel_bin.package_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/wafer_I/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/titanium_block/loc/Node20.01": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.palette_well_7.chip_G.grab": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "op/grab/egg_unit/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "egg_unit",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/product_SKU_001/loc/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "$.palette_well_3.wafer_I.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/chip_type_O/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/grab/chip_G/loc/Node40.01": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "$.quarter_bin.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "op/grab/titanium_block/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/wafer_I/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/palette_well_8": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "op/grab/corn_grain/loc/tool_shed_shelf_bottom": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "$.palette_well_5.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "$.tire_bay_FL.corn_grain.grab": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_1/egg_unit/pick": {
+   "type": "PICK",
+   "bound_type": "egg_unit",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/wafer_I/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_4/titanium_block/pick": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "/mnt/nickel_bin/chip_type_O/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/wafer_I/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "$.dime_bin.titanium_block.grab": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "/mnt/nickel_bin/corn_grain/pick": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "$.palette_well_1.brush_wide.grab": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_O/loc/palette_well_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/chip_G/pick": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/product_SKU_001/pick": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "$.reject_slot.titanium_block.grab": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "$.penny_bin.wafer_I.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/wafer_I/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "op/grab/roller_black/loc/tool_shed_shelf_bottom": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "$.Node20.01.egg_unit.grab": {
+   "type": "PICK",
+   "bound_type": "egg_unit",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.tool_shed_shelf_bottom.wafer_I.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/product_SKU_001/pick": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_6/package_envelope/pick": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "op/grab/chip_G/loc/quarter_bin": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_5/corn_grain/pick": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "$.reject_slot.egg_unit.grab": {
+   "type": "PICK",
+   "bound_type": "egg_unit",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_O/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/wafer_I/loc/reject_slot": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "op/grab/product_SKU_001/loc/palette_well_1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_O/loc/palette_well_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "$.palette_well_5.chip_G.grab": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "/mnt/nickel_bin/roller_black/pick": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/roller_black/pick": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "op/grab/corn_grain/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/product_SKU_001/pick": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "$.Node20.01.chip_type_O.grab": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/corn_grain/pick": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "op/grab/chip_G/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_1/chip_type_O/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "$.Node20.01.corn_grain.grab": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "op/grab/brush_wide/loc/Node10.01": {
+   "type": "PICK",
+   "bound_type": "brush_wide",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/chip_G/pick": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "$.dime_bin.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.titanium_block.grab": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.palette_well_2.titanium_block.grab": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/chip_type_O/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/wafer_I/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_I",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_7/package_envelope/pick": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "$.palette_well_2.package_envelope.grab": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "/mnt/nickel_bin/titanium_block/pick": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "op/grab/corn_grain/loc/palette_well_6": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "op/grab/chip_G/loc/Node20.01": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "$.Node30.01.roller_black.grab": {
+   "type": "PICK",
+   "bound_type": "roller_black",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_O/loc/palette_well_4": {
+   "type": "PICK",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "$.reject_slot.product_SKU_001.grab": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/egg_unit/pick": {
+   "type": "PICK",
+   "bound_type": "egg_unit",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "op/grab/titanium_block/loc/quarter_bin": {
+   "type": "PICK",
+   "bound_type": "titanium_block",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_7/product_SKU_001/pick": {
+   "type": "PICK",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "$.palette_well_6.chip_G.grab": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "$.palette_well_1.chip_G.grab": {
+   "type": "PICK",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "robot/dropoff-brush_wide-at-tool_shed_shelf_bottom": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/brush_wide/place": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_4/corn_grain/place": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "robot/dropoff-egg_unit-at-quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "egg_unit",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-tool_shed_shelf_bottom": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/roller_black/place": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-brush_wide-at-reject_slot": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/chip_G/place": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-package_envelope-at-tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "robot/dropoff-roller_black-at-palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_5/wafer_I/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_2/chip_type_O/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/brush_wide/place": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-product_SKU_001-at-tool_shed_shelf_bottom": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "robot/dropoff-corn_grain-at-reject_slot": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_G-at-penny_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-roller_black-at-Node10.01": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_8/package_envelope/place": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/dropoff-package_envelope-at-nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_I-at-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/titanium_block/place": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_G-at-palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "robot/dropoff-egg_unit-at-palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "egg_unit",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_8/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/wafer_I/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_G-at-Node40.01": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/wafer_I/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_8/brush_wide/place": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/dropoff-corn_grain-at-tool_shed_shelf_bottom": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_5/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/corn_grain/place": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_1/egg_unit/place": {
+   "type": "PLACE",
+   "bound_type": "egg_unit",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_I-at-palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_4/titanium_block/place": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/wafer_I/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-dime_bin": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-corn_grain-at-nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-brush_wide-at-palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_5/chip_type_O/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_G-at-cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-reject_slot": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/penny_bin/wafer_I/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "penny_bin",
+   "observable_locations": null
+  },
+  "/mnt/dime_bin/wafer_I/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-roller_black-at-tool_shed_shelf_bottom": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/egg_unit/place": {
+   "type": "PLACE",
+   "bound_type": "egg_unit",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_I-at-tool_shed_shelf_bottom": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-package_envelope-at-palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_G-at-quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_5/corn_grain/place": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/dropoff-egg_unit-at-reject_slot": {
+   "type": "PLACE",
+   "bound_type": "egg_unit",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/wafer_I/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_1/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_5/chip_G/place": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "/mnt/nickel_bin/roller_black/place": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "/mnt/quarter_bin/roller_black/place": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-corn_grain-at-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-Node20.01": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/corn_grain/place": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/chip_G/place": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "/mnt/Node20.01/corn_grain/place": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/brush_wide/place": {
+   "type": "PLACE",
+   "bound_type": "brush_wide",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_3/chip_G/place": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "robot/dropoff-product_SKU_001-at-dime_bin": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "dime_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-palette_well_2": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-Node40.01": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-wafer_I-at-tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "wafer_I",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "robot/dropoff-package_envelope-at-palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_2/package_envelope/place": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "palette_well_2",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-nickel_bin": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "nickel_bin",
+   "observable_locations": null
+  },
+  "robot/dropoff-corn_grain-at-palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_G-at-Node20.01": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-roller_black-at-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "roller_black",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_type_O-at-palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_O",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/egg_unit/place": {
+   "type": "PLACE",
+   "bound_type": "egg_unit",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "robot/dropoff-titanium_block-at-quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "titanium_block",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_7/product_SKU_001/place": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_001",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "robot/dropoff-chip_G-at-palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "/mnt/palette_well_1/chip_G/place": {
+   "type": "PLACE",
+   "bound_type": "chip_G",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_1",
+    "palette_well_2",
+    "palette_well_3",
+    "palette_well_4",
+    "palette_well_5",
+    "palette_well_6",
+    "palette_well_7",
+    "palette_well_8"
+   ]
+  },
+  "scan penny_bin & nickel_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "penny_bin",
+    "nickel_bin"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dime_bin",
+    "quarter_bin"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL"
+   ]
+  },
+  "tool_shed_interior_camera": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tool_shed_shelf_bottom"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.01"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.01"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.01"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "egg_unit",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "egg_unit",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "egg_unit",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "egg_unit",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "egg_unit",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "egg_unit",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "chip_type_O",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "wafer_I",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "titanium_block",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "roller_black",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "brush_wide",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "product_SKU_001",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "chip_G",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "any of the palette wells": [
+   "palette_well_1",
+   "palette_well_2",
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8"
+  ],
+  "inside wells 1 through 4": [
+   "palette_well_1",
+   "palette_well_2",
+   "palette_well_3",
+   "palette_well_4"
+  ],
+  "inside wells 5 through 8": [
+   "palette_well_5",
+   "palette_well_6",
+   "palette_well_7",
+   "palette_well_8"
+  ],
+  "from any of the odd numbered wells": [
+   "palette_well_1",
+   "palette_well_3",
+   "palette_well_5",
+   "palette_well_7"
+  ],
+  "from any of the even numbered wells": [
+   "palette_well_2",
+   "palette_well_4",
+   "palette_well_6",
+   "palette_well_8"
+  ],
+  "from wells 4 or 5": [
+   "palette_well_4",
+   "palette_well_5"
+  ],
+  "in any of the wells 1, 4, or 8": [
+   "palette_well_1",
+   "palette_well_4",
+   "palette_well_8"
+  ],
+  "somewhere in the middle wells (3-6)": [
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6"
+  ],
+  "from any of the valid coin bins": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside the penny or nickel containers": [
+   "penny_bin",
+   "nickel_bin"
+  ],
+  "from the dime or quarter trays": [
+   "dime_bin",
+   "quarter_bin"
+  ],
+  "inside any of the receptacles excluding the input": [
+   "penny_bin",
+   "nickel_bin",
+   "dime_bin",
+   "quarter_bin",
+   "reject_slot"
+  ],
+  "from the penny bin or the reject slot": [
+   "penny_bin",
+   "reject_slot"
+  ],
+  "Nodes01": [
+   "Node10.01",
+   "Node20.01",
+   "Node30.01",
+   "Node40.01"
+  ]
+ }
+}

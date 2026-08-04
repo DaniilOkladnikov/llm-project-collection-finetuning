@@ -1,0 +1,775 @@
+{
+ "object_locations": [
+  "slot1_2",
+  "Node10.01",
+  "slot1_4",
+  "slot2_1",
+  "Node30.01",
+  "station_alpha",
+  "Node20.02",
+  "Node40.01",
+  "slot2_2",
+  "slot1_3",
+  "buffer_zone",
+  "Node20.01",
+  "slot1_1"
+ ],
+ "object_types": [
+  "network_link",
+  "rye_grain",
+  "parcel_tube",
+  "product_item"
+ ],
+ "positions": {
+  "Node20.02_rye_grain_collect": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "station_alpha=>rye_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "task/pick/Node10.01/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "Node30.01_network_link_collect": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "task/pick/Node40.01/network_link": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "slot1_3_network_link_collect": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "slot1_3",
+   "observable_locations": null
+  },
+  "task/pick/slot1_2/rye_grain": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "Node20.02=>product_item=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "slot2_1=>network_link=>TAKE": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "task/pick/Node20.02/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "task/pick/slot2_2/rye_grain": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "station_alpha_parcel_tube_collect": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "station_alpha_product_item_collect": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "task/pick/Node10.01/rye_grain": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "task/pick/Node30.01/rye_grain": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "task/pick/Node40.01/rye_grain": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "slot1_2_parcel_tube_collect": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "slot1_2_product_item_collect": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "slot1_1=>rye_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "slot2_2_product_item_collect": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "slot1_4_rye_grain_collect": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "task/pick/slot2_2/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "task/pick/slot2_1/rye_grain": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "Node40.01_product_item_collect": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "task/pick/Node30.01/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "task/pick/Node10.01/product_item": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "task/pick/Node30.01/product_item": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "task/pick/slot1_1/product_item": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "slot1_4_product_item_collect": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "Node20.02=>network_link=>TAKE": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "station_alpha=>network_link=>TAKE": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "buffer_zone=>parcel_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "task/pick/slot2_1/parcel_tube": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "buffer_zone=>product_item=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "Node20.01=>rye_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "slot1_2=>network_link=>TAKE": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "slot2_2=>network_link=>TAKE": {
+   "type": "PICK",
+   "bound_type": "network_link",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "placerye_grainNode20.02": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "store:rye_grain:station_alpha": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "placenetwork_linkNode10.01": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "placenetwork_linkNode30.01": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "placenetwork_linkNode40.01": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "store:network_link:slot1_3": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "slot1_3",
+   "observable_locations": null
+  },
+  "placerye_grainslot1_2": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "store:product_item:Node20.02": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "store:network_link:slot2_1": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "placeparcel_tubeNode20.02": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "store:rye_grain:slot2_2": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "placeparcel_tubestation_alpha": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "placeproduct_itemstation_alpha": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "placerye_grainNode10.01": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "store:rye_grain:Node30.01": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "store:rye_grain:Node40.01": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "placeparcel_tubeslot1_2": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "store:product_item:slot1_2": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "placerye_grainslot1_1": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "store:product_item:slot2_2": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "placerye_grainslot1_4": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "store:parcel_tube:slot2_2": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "placerye_grainslot2_1": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "placeproduct_itemNode40.01": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "store:parcel_tube:Node30.01": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "store:product_item:Node10.01": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "placeproduct_itemNode30.01": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "placeproduct_itemslot1_1": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "store:product_item:slot1_4": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "slot1_4",
+   "observable_locations": null
+  },
+  "store:network_link:Node20.02": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "store:network_link:station_alpha": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "placeparcel_tubebuffer_zone": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "store:parcel_tube:slot2_1": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "slot2_1",
+   "observable_locations": null
+  },
+  "placeproduct_itembuffer_zone": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "store:rye_grain:Node20.01": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "store:network_link:slot1_2": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "slot1_2",
+   "observable_locations": null
+  },
+  "placenetwork_linkslot2_2": {
+   "type": "PLACE",
+   "bound_type": "network_link",
+   "bound_location": "slot2_2",
+   "observable_locations": null
+  },
+  "slot1_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot1_1",
+    "slot1_2",
+    "slot1_3",
+    "slot1_4"
+   ]
+  },
+  "slot2_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot2_1",
+    "slot2_2"
+   ]
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at buffer_zone": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "buffer_zone"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.01"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.01",
+    "Node20.02"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.01"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "network_link",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "slot1_1 to slot2_2": [
+   "slot1_1",
+   "slot1_2",
+   "slot1_3",
+   "slot1_4",
+   "slot2_1",
+   "slot2_2"
+  ],
+  "slot1 bins 1 or 2": [
+   "slot1_1",
+   "slot1_2"
+  ],
+  "first station or in buffer zone": [
+   "station_alpha",
+   "buffer_zone"
+  ],
+  "Subnet20": [
+   "Node20.01",
+   "Node20.02"
+  ],
+  "Nodes01": [
+   "Node10.01",
+   "Node20.01",
+   "Node30.01",
+   "Node40.01"
+  ]
+ }
+}

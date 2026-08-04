@@ -1,0 +1,1057 @@
+{
+ "object_locations": [
+  "tree_1",
+  "workbench_A1",
+  "Node30.01",
+  "workbench_A2",
+  "Node30.03",
+  "rack top",
+  "tire_bay_RR",
+  "rack middle",
+  "rack bottom",
+  "tree_2",
+  "Node30.02",
+  "tree_3"
+ ],
+ "object_types": [
+  "wafer_K",
+  "cordless_impact_driver",
+  "steel_block",
+  "bean_curd",
+  "onion",
+  "chip_type_E",
+  "steak_cut"
+ ],
+ "positions": {
+  "op/grab/bean_curd/loc/rack top": {
+   "type": "PICK",
+   "bound_type": "bean_curd",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ns:tree_1:item:chip_type_E:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "ns:tree_1:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "ns:Node30.01:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "ns:tree_1:item:cordless_impact_driver:action:pick": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/Node30.03": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "/mnt/workbench_A1/steak_cut/pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/tree_3": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "op/grab/bean_curd/loc/rack bottom": {
+   "type": "PICK",
+   "bound_type": "bean_curd",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "ns:tree_1:item:wafer_K:action:pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/rack middle/chip_type_E/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "/mnt/tree_2/bean_curd/pick": {
+   "type": "PICK",
+   "bound_type": "bean_curd",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "/mnt/tree_1/steel_block/pick": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/steel_block/pick": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/steak_cut/loc/rack top": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "op/grab/cordless_impact_driver/loc/rack middle": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/bean_curd/pick": {
+   "type": "PICK",
+   "bound_type": "bean_curd",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/rack top/cordless_impact_driver/pick": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "ns:rack middle:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "ns:tree_3:item:onion:action:pick": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "/mnt/rack top/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_E/loc/workbench_A2": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "/mnt/workbench_A2/cordless_impact_driver/pick": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "ns:tree_2:item:chip_type_E:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "ns:rack bottom:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/rack top": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "op/grab/onion/loc/tree_1": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/onion/pick": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/workbench_A2/wafer_K/pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "ns:tree_2:item:cordless_impact_driver:action:pick": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "op/grab/bean_curd/loc/Node30.03": {
+   "type": "PICK",
+   "bound_type": "bean_curd",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/chip_type_E/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "op/grab/onion/loc/workbench_A1": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "ns:tree_2:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "ns:Node30.02:item:steak_cut:action:pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/steak_cut/pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/cordless_impact_driver/pick": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/cordless_impact_driver/pick": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "ns:rack bottom:item:steel_block:action:pick": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "ns:Node30.02:item:wafer_K:action:pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "ns:tire_bay_RR:item:wafer_K:action:pick": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/bean_curd/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "bean_curd",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/rack middle/onion/pick": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "ns:tree_2:item:steel_block:action:pick": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "ns:rack top:item:onion:action:pick": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "op/grab/bean_curd/loc/workbench_A1": {
+   "type": "PICK",
+   "bound_type": "bean_curd",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "/mnt/Node30.03/cordless_impact_driver/pick": {
+   "type": "PICK",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "ns:tree_3:item:chip_type_E:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/steel_block/pick": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/tree_3/steak_cut/pick": {
+   "type": "PICK",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "op/grab/wafer_K/loc/tree_3": {
+   "type": "PICK",
+   "bound_type": "wafer_K",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|bean_curd|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "bean_curd",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|chip_type_E|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|Node30.01": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|steel_block|@|Node30.03": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "set|steel_block|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|bean_curd|@|rack bottom": {
+   "type": "PLACE",
+   "bound_type": "bean_curd",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|wafer_K|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|wafer_K|@|Node30.01": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "set|chip_type_E|@|rack middle": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "set|bean_curd|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "bean_curd",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|steel_block|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|steel_block|@|Node30.01": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|rack middle": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "set|bean_curd|@|tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "bean_curd",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|rack middle": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "set|onion|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|wafer_K|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|chip_type_E|@|workbench_A2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|workbench_A2": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "set|chip_type_E|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|rack bottom": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|steel_block|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|onion|@|tree_1": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "set|onion|@|Node30.01": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "set|wafer_K|@|workbench_A2": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|bean_curd|@|Node30.03": {
+   "type": "PLACE",
+   "bound_type": "bean_curd",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "set|chip_type_E|@|Node30.02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "set|onion|@|workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|Node30.02": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|Node30.02": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "set|steel_block|@|rack bottom": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|wafer_K|@|Node30.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "set|wafer_K|@|tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "set|bean_curd|@|Node30.01": {
+   "type": "PLACE",
+   "bound_type": "bean_curd",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "set|onion|@|rack middle": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "set|steel_block|@|tree_2": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "set|onion|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|bean_curd|@|workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "bean_curd",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "set|cordless_impact_driver|@|Node30.03": {
+   "type": "PLACE",
+   "bound_type": "cordless_impact_driver",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "set|chip_type_E|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_E",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|steel_block|@|Node30.02": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "set|steel_block|@|tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "set|steak_cut|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "steak_cut",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "set|wafer_K|@|tree_3": {
+   "type": "PLACE",
+   "bound_type": "wafer_K",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "look at workbench_A1 & workbench_A2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "workbench_A1",
+    "workbench_A2"
+   ]
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top",
+    "rack middle",
+    "rack bottom"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_RR"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_2",
+    "tree_3"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01",
+    "Node30.02",
+    "Node30.03"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sensor_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "workbench_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "rack_approach_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "wafer_K",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cordless_impact_driver",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "bean_curd",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "bean_curd",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "bean_curd",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "bean_curd",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "bean_curd",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "bean_curd",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "bean_curd",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_E",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "steak_cut",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "workbench A1|A2": [
+   "workbench_A1",
+   "workbench_A2"
+  ],
+  "any workbench position": [
+   "workbench_A1",
+   "workbench_A2"
+  ],
+  "rack": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "rack top or rack bottom": [
+   "rack top",
+   "rack bottom"
+  ],
+  "any rack position": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "first three trees": [
+   "tree_1",
+   "tree_2",
+   "tree_3"
+  ],
+  "Subnet30": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03"
+  ]
+ }
+}

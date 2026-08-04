@@ -1,0 +1,1365 @@
+{
+ "object_locations": [
+  "shelf_L2_S1",
+  "tire_bay_FR",
+  "tire_bay_RL",
+  "shelf_L1_S3",
+  "shelf_L1_S4",
+  "tire_bay_FL",
+  "shelf_L1_S1",
+  "shelf_L1_S2",
+  "ELECTRONICcontainer",
+  "METALcontainer",
+  "brick_pallet_alpha",
+  "tire_bay_RR",
+  "tire_rack_new",
+  "brick_pallet_beta",
+  "shelf_L2_S3",
+  "shelf_L2_S4",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "screw",
+  "cable",
+  "cover",
+  "masonry_unit",
+  "grain_sorghum",
+  "flash_storage",
+  "tile_H"
+ ],
+ "positions": {
+  "--grasp--cover--at--METALcontainer": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "tire_bay_FL=>cable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "--grasp--masonry_unit--at--shelf_L1_S2": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "--grasp--flash_storage--at--shelf_L1_S2": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S3=>screw=>TAKE": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_H/from/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "--grasp--screw--at--brick_pallet_beta": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "actions/grasp/cable/from/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "--grasp--grain_sorghum--at--brick_pallet_alpha": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "tire_bay_RL=>grain_sorghum=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "shelf_L1_S3=>cable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "--grasp--tile_H--at--shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "brick_pallet_alpha=>masonry_unit=>TAKE": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "--grasp--cable--at--shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "--grasp--masonry_unit--at--tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "brick_pallet_alpha=>flash_storage=>TAKE": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "--grasp--masonry_unit--at--shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--brick_pallet_alpha": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "tire_bay_RR=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "ELECTRONICcontainer=>screw=>TAKE": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "brick_pallet_alpha=>tile_H=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "--grasp--screw--at--shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "actions/grasp/screw/from/METALcontainer": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "shelf_L1_S4=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "tire_bay_FL=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "--grasp--grain_sorghum--at--shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "--grasp--screw--at--shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "--grasp--tile_H--at--tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "--grasp--masonry_unit--at--shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "--grasp--cable--at--tire_rack_new": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "actions/grasp/cover/from/shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "actions/grasp/cover/from/brick_pallet_beta": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "--grasp--tile_H--at--METALcontainer": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/cable/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_H/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/cable/from/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "--grasp--cable--at--METALcontainer": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/cover/from/shelf_L2_S3": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_H/from/shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_H/from/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "--grasp--flash_storage--at--shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "shelf_L1_S2=>cable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_H/from/shelf_L1_S2": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "--grasp--screw--at--tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "ELECTRONICcontainer=>grain_sorghum=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "shelf_L1_S4=>grain_sorghum=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "tire_bay_FR=>cable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tire_rack_new=>flash_storage=>TAKE": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "--grasp--flash_storage--at--shelf_L2_S2": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "tire_bay_FL=>screw=>TAKE": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "actions/grasp/grain_sorghum/from/shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "tire_rack_new=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "--grasp--masonry_unit--at--ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "--grasp--flash_storage--at--ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "--grasp--flash_storage--at--shelf_L1_S4": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "--grasp--masonry_unit--at--METALcontainer": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "--grasp--flash_storage--at--METALcontainer": {
+   "type": "PICK",
+   "bound_type": "flash_storage",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_H/from/shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "tire_bay_RL=>tile_H=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "shelf_L1_S2=>grain_sorghum=>TAKE": {
+   "type": "PICK",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "actions/grasp/cable/from/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "tire_bay_RR=>tile_H=>TAKE": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "shelf_L1_S3=>screw=>TAKE": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "actions/grasp/masonry_unit/from/shelf_L2_S4": {
+   "type": "PICK",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "actions/grasp/cover/from/ELECTRONICcontainer": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "--grasp--cable--at--shelf_L2_S1": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "--grasp--cable--at--brick_pallet_alpha": {
+   "type": "PICK",
+   "bound_type": "cable",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "store:cover:METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "store:masonry_unit:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=flash_storage&dest=shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:tile_H:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=brick_pallet_beta": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "store:cable:tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "store:grain_sorghum:brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_sorghum&dest=tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "store:cable:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_H&dest=shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:masonry_unit:brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:masonry_unit:tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "store:flash_storage:brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=masonry_unit&dest=shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "store:cover:brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cover&dest=tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_H&dest=brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "store:screw:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:screw:METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "store:cover:shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "store:cover:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:cover:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "store:grain_sorghum:shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_H&dest=tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "store:masonry_unit:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "store:cover:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:cover:brick_pallet_beta": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "brick_pallet_beta",
+   "observable_locations": null
+  },
+  "store:tile_H:METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "store:cable:ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "store:tile_H:ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:cable:METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "store:cover:shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:tile_H:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_H&dest=shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:flash_storage:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:tile_H:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_sorghum&dest=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_sorghum&dest=shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:cable:tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=flash_storage&dest=tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=flash_storage&dest=shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:screw:tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_sorghum&dest=shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cover&dest=tire_rack_new": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=masonry_unit&dest=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=flash_storage&dest=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "store:flash_storage:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=masonry_unit&dest=METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "store:flash_storage:METALcontainer": {
+   "type": "PLACE",
+   "bound_type": "flash_storage",
+   "bound_location": "METALcontainer",
+   "observable_locations": null
+  },
+  "store:tile_H:shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_H&dest=tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=grain_sorghum&dest=shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "grain_sorghum",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cable&dest=tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=tile_H&dest=tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:masonry_unit:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "masonry_unit",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=cover&dest=ELECTRONICcontainer": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "ELECTRONICcontainer",
+   "observable_locations": null
+  },
+  "store:cable:shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "store:cable:brick_pallet_alpha": {
+   "type": "PLACE",
+   "bound_type": "cable",
+   "bound_location": "brick_pallet_alpha",
+   "observable_locations": null
+  },
+  "METALcontainerLook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "METALcontainer"
+   ]
+  },
+  "ELECTRONICcontainerView": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "ELECTRONICcontainer"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2",
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S2",
+    "shelf_L2_S3",
+    "shelf_L2_S4"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_FR",
+    "tire_bay_RL",
+    "tire_bay_RR"
+   ]
+  },
+  "check tire_rack_new + tire_rack_used": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_rack_new"
+   ]
+  },
+  "masonry_materials_viewpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "brick_pallet_alpha",
+    "brick_pallet_beta"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "cable",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "masonry_unit",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "grain_sorghum",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "flash_storage",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "conductive material storage": [
+   "METALcontainer",
+   "ELECTRONICcontainer"
+  ],
+  "shelf_L1 slots": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf_L2 slots": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "level 1 or level 2 of the shelfs": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelf L1 compartments": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf L2 positions": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "tire_bay FL/FR/RL/RR": [
+   "tire_bay_FL",
+   "tire_bay_FR",
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "front tire bays (FL and FR)": [
+   "tire_bay_FL",
+   "tire_bay_FR"
+  ],
+  "rear tire bays (RL and RR)": [
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "tire bays on the left (FL and RL)": [
+   "tire_bay_FL",
+   "tire_bay_RL"
+  ],
+  "tire bays on the right (FR and RR)": [
+   "tire_bay_FR",
+   "tire_bay_RR"
+  ],
+  "new rack or any bay": [
+   "tire_rack_new",
+   "tire_bay_FL",
+   "tire_bay_FR",
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "tire bay FL or RR": [
+   "tire_bay_FL",
+   "tire_bay_RR"
+  ],
+  "all_brick_pallets": [
+   "brick_pallet_alpha",
+   "brick_pallet_beta"
+  ],
+  "alpha_beta_masonry_units": [
+   "brick_pallet_alpha",
+   "brick_pallet_beta"
+  ]
+ }
+}

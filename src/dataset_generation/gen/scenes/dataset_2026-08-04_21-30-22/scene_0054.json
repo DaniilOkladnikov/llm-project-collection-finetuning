@@ -1,0 +1,1620 @@
+{
+ "object_locations": [
+  "pot_small",
+  "parcelPalette-1.2.2",
+  "palette_well_1",
+  "tire_bay_RL",
+  "prep_board",
+  "pot_large",
+  "pot_medium",
+  "parcelPalette-1.1.2",
+  "parcelPalette-1.2.1",
+  "palette_well_8",
+  "tire_bay_RR",
+  "palette_well_4",
+  "parcelPalette-1.3.1",
+  "parcelPalette-1.1.1",
+  "parcelPalette-1.3.2"
+ ],
+ "object_types": [
+  "product_SKU_004",
+  "package_medium",
+  "brush_thin",
+  "chip_A",
+  "product_item",
+  "summer_tire",
+  "wafer_E",
+  "cylinder_magenta",
+  "box_fragile",
+  "reinforcement_steel_bar"
+ ],
+ "positions": {
+  "#parcelPalette-1.2.1/#brush_thin/take": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#palette_well_4/#box_fragile/take": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "product_SKU_004-from-parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "product_item-from-parcelPalette-1.3.2": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#summer_tire/take": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_fragile:LOC:prep_board": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#reinforcement_steel_bar/take": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.1/#summer_tire/take": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#palette_well_8/#wafer_E/take": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "cylinder_magenta-from-tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_fragile:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "product_SKU_004-from-parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "brush_thin-from-palette_well_4": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#product_SKU_004/take": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reinforcement_steel_bar:LOC:tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_A:LOC:parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "chip_A",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "summer_tire-from-palette_well_4": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "product_item-from-parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#palette_well_1/#chip_A/take": {
+   "type": "PICK",
+   "bound_type": "chip_A",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "#pot_large/#product_item/take": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "summer_tire-from-prep_board": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reinforcement_steel_bar:LOC:pot_medium": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "CMD:GRIP:cylinder_magenta:LOC:parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#palette_well_8/#box_fragile/take": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_A:LOC:pot_small": {
+   "type": "PICK",
+   "bound_type": "chip_A",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#product_item/take": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#package_medium/take": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "product_item-from-parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:summer_tire:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_item:LOC:palette_well_1": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.2.2/#wafer_E/take": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "reinforcement_steel_bar-from-pot_large": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "cylinder_magenta-from-palette_well_1": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#reinforcement_steel_bar/take": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:summer_tire:LOC:palette_well_8": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "#pot_medium/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#wafer_E/take": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_SKU_004:LOC:parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#wafer_E/take": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "package_medium-from-parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:summer_tire:LOC:parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#brush_thin/take": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "brush_thin-from-tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#package_medium/take": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "product_SKU_004-from-pot_small": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reinforcement_steel_bar:LOC:pot_small": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "summer_tire-from-parcelPalette-1.3.2": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:palette_well_1": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "#pot_small/#wafer_E/take": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "product_SKU_004-from-palette_well_4": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "reinforcement_steel_bar-from-palette_well_4": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "#pot_medium/#package_medium/take": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_fragile:LOC:parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "product_SKU_004-from-prep_board": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:cylinder_magenta:LOC:parcelPalette-1.1.2": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:palette_well_8": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_fragile:LOC:tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "cylinder_magenta-from-parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_A:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "chip_A",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "brush_thin-from-pot_large": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "CMD:GRIP:summer_tire:LOC:parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "#pot_medium/#box_fragile/take": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "brush_thin-from-parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:product_item:LOC:palette_well_4": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "cylinder_magenta-from-pot_small": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "CMD:GRIP:summer_tire:LOC:pot_large": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.2/#wafer_E/take": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#summer_tire/take": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_thin:LOC:palette_well_1": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#summer_tire/take": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#prep_board/#cylinder_magenta/take": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "#palette_well_4/#wafer_E/take": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.1.1/#chip_A/take": {
+   "type": "PICK",
+   "bound_type": "chip_A",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#chip_A/take": {
+   "type": "PICK",
+   "bound_type": "chip_A",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "#pot_small/#package_medium/take": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "summer_tire-from-pot_small": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "wafer_E-from-prep_board": {
+   "type": "PICK",
+   "bound_type": "wafer_E",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "product_SKU_004-from-parcelPalette-1.3.2": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#tire_bay_RR/#product_SKU_004/take": {
+   "type": "PICK",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reinforcement_steel_bar:LOC:parcelPalette-1.3.2": {
+   "type": "PICK",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#prep_board/#package_medium/take": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "#pot_small/#box_fragile/take": {
+   "type": "PICK",
+   "bound_type": "box_fragile",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "put__brush_thin__to__parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "--release--box_fragile--at--palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "--release--product_SKU_004--at--parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "--release--product_item--at--parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "put__summer_tire__to__parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "put__box_fragile__to__prep_board": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--release--reinforcement_steel_bar--at--parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "put__summer_tire__to__parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "--release--wafer_E--at--palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "put__cylinder_magenta__to__tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "--release--box_fragile--at--tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "put__product_SKU_004__to__parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "put__product_SKU_004__to__tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "put__reinforcement_steel_bar__to__tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "put__chip_A__to__parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "chip_A",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "put__summer_tire__to__palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "--release--product_item--at--parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "--release--chip_A--at--palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "chip_A",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "--release--product_item--at--pot_large": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "put__summer_tire__to__prep_board": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--release--reinforcement_steel_bar--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "put__box_fragile__to__palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "--release--chip_A--at--pot_small": {
+   "type": "PLACE",
+   "bound_type": "chip_A",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "put__product_item__to__parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "put__package_medium__to__parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "put__product_item__to__parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "--release--summer_tire--at--tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "put__product_item__to__palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "put__wafer_E__to__parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "put__reinforcement_steel_bar__to__pot_large": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "put__cylinder_magenta__to__palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "put__reinforcement_steel_bar__to__parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "--release--summer_tire--at--palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--wafer_E--at--parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "put__product_SKU_004__to__parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "--release--wafer_E--at--tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "put__package_medium__to__parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "put__summer_tire__to__parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "--release--package_medium--at--tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "put__product_SKU_004__to__pot_small": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "put__reinforcement_steel_bar__to__pot_small": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--summer_tire--at--parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "--release--package_medium--at--palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "put__wafer_E__to__pot_small": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--product_SKU_004--at--palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "put__reinforcement_steel_bar__to__palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "put__package_medium__to__pot_medium": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--box_fragile--at--parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "put__product_SKU_004__to__prep_board": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "put__box_fragile__to__tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "--release--chip_A--at--tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "chip_A",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "put__brush_thin__to__pot_large": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "put__summer_tire__to__parcelPalette-1.2.2": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "--release--box_fragile--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "--release--product_item--at--palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--pot_small": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--summer_tire--at--pot_large": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "put__wafer_E__to__parcelPalette-1.1.2": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "parcelPalette-1.1.2",
+   "observable_locations": null
+  },
+  "--release--summer_tire--at--parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "--release--brush_thin--at--palette_well_1": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "--release--summer_tire--at--tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "put__cylinder_magenta__to__prep_board": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "put__package_medium__to__parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "put__wafer_E__to__palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "put__chip_A__to__parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "chip_A",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "put__chip_A__to__parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "chip_A",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "put__package_medium__to__pot_small": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--summer_tire--at--pot_small": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--wafer_E--at--prep_board": {
+   "type": "PLACE",
+   "bound_type": "wafer_E",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--release--product_SKU_004--at--parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "--release--product_SKU_004--at--tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_004",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "--release--reinforcement_steel_bar--at--parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "reinforcement_steel_bar",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "put__package_medium__to__prep_board": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "put__box_fragile__to__pot_small": {
+   "type": "PLACE",
+   "bound_type": "box_fragile",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_1",
+    "palette_well_4",
+    "palette_well_8"
+   ]
+  },
+  "look at prep_board & sink_basin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "prep_board"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium",
+    "pot_large"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_RL",
+    "tire_bay_RR"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.1.2",
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.2.2",
+    "parcelPalette-1.3.1",
+    "parcelPalette-1.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "product_SKU_004",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_A",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_A",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_A",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_A",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_A",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "chip_A",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "wafer_E",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "box_fragile",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "reinforcement_steel_bar",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "in any of the wells 1, 4, or 8": [
+   "palette_well_1",
+   "palette_well_4",
+   "palette_well_8"
+  ],
+  "pot small|medium|large": [
+   "pot_small",
+   "pot_medium",
+   "pot_large"
+  ],
+  "any pot or the prep board": [
+   "pot_small",
+   "pot_medium",
+   "pot_large",
+   "prep_board"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ],
+  "medium or large pot": [
+   "pot_medium",
+   "pot_large"
+  ],
+  "rear tire bays (RL and RR)": [
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "pallettes 1": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2",
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2",
+   "parcelPalette-1.3.1",
+   "parcelPalette-1.3.2"
+  ],
+  "Palettes[1.1.*]": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.1.2"
+  ],
+  "Palettesshelf - 1.2.*": [
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2"
+  ],
+  "Palettes 1st line index 1, 2nd - 3": [
+   "parcelPalette-1.3.1",
+   "parcelPalette-1.3.2"
+  ]
+ }
+}

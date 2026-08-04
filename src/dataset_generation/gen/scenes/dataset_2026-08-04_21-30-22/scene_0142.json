@@ -1,0 +1,176 @@
+{
+ "object_locations": [
+  "nest_1",
+  "nest_2",
+  "nest_3",
+  "nest_4",
+  "nest_5"
+ ],
+ "object_types": [
+  "egg"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=egg&source=nest_1": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=egg&source=nest_2": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=egg&source=nest_3": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/nest_4/egg/pick": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "/mnt/nest_5/egg/pick": {
+   "type": "PICK",
+   "bound_type": "egg",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "actions/release/egg/to/nest_1": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "nest_1",
+   "observable_locations": null
+  },
+  "actions/release/egg/to/nest_2": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "actions/release/egg/to/nest_3": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "actions/release/egg/to/nest_4": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "actions/release/egg/to/nest_5": {
+   "type": "PLACE",
+   "bound_type": "egg",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_1",
+    "nest_2",
+    "nest_3",
+    "nest_4",
+    "nest_5"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "egg",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "egg",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "any nest": [
+   "nest_1",
+   "nest_2",
+   "nest_3",
+   "nest_4",
+   "nest_5"
+  ],
+  "odd numbered nests": [
+   "nest_1",
+   "nest_3",
+   "nest_5"
+  ],
+  "even numbered nests": [
+   "nest_2",
+   "nest_4"
+  ],
+  "first three nests": [
+   "nest_1",
+   "nest_2",
+   "nest_3"
+  ],
+  "last two units": [
+   "nest_4",
+   "nest_5"
+  ],
+  "nests except the first": [
+   "nest_2",
+   "nest_3",
+   "nest_4",
+   "nest_5"
+  ],
+  "outer boxes (first and last)": [
+   "nest_1",
+   "nest_5"
+  ],
+  "inner slots (2, 3, 4)": [
+   "nest_2",
+   "nest_3",
+   "nest_4"
+  ],
+  "operating positions 2 to 4": [
+   "nest_2",
+   "nest_3",
+   "nest_4"
+  ]
+ }
+}

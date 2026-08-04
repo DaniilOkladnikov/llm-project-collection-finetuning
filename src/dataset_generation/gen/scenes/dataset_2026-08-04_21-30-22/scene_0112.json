@@ -1,0 +1,1193 @@
+{
+ "object_locations": [
+  "silo_3",
+  "cell_R2C4",
+  "drawer_9",
+  "drawer_7",
+  "cell_R3C1",
+  "cell_R3C2",
+  "dispenser_C",
+  "cell_R3C3",
+  "zone_010",
+  "dispenser_A",
+  "cell_R2C3",
+  "hook_5",
+  "drawer_4",
+  "drawer_5",
+  "drawer_3",
+  "cell_R3C5",
+  "drawer_1",
+  "cell_R3C4",
+  "shelf_L1_S3",
+  "palette_well_8"
+ ],
+ "object_types": [
+  "parcel_envelope",
+  "brush_thin",
+  "coin_half_dollar",
+  "tile_A",
+  "corn_grain"
+ ],
+ "positions": {
+  "robot/pickup-tile_A-at-hook_5": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-drawer_4": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-drawer_5": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-drawer_7": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-hook_5": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-dispenser_C": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-drawer_5": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-zone_010": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-silo_3": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-hook_5": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-drawer_1": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-dispenser_C": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-palette_well_8": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-drawer_3": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-drawer_9": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-drawer_9": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-drawer_7": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-drawer_5": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "robot/pickup-coin_half_dollar-at-drawer_7": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-drawer_3": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-shelf_L1_S3": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-hook_5": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-drawer_7": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-cell_R2C4": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-silo_3": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-drawer_1": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-drawer_9": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-drawer_5": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-zone_010": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-dispenser_A": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-zone_010": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "robot/pickup-parcel_envelope-at-cell_R3C5": {
+   "type": "PICK",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "robot/pickup-tile_A-at-drawer_4": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "robot/pickup-brush_thin-at-cell_R3C4": {
+   "type": "PICK",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "robot/pickup-corn_grain-at-cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "tile_A-to-hook_5": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "tile_A-to-cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:coin_half_dollar:LOC:drawer_4": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "tile_A-to-cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "coin_half_dollar-to-cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "parcel_envelope-to-drawer_5": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:drawer_7": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "coin_half_dollar-to-hook_5": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tile_A:LOC:dispenser_C": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tile_A:LOC:dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "corn_grain-to-drawer_5": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_envelope:LOC:cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:coin_half_dollar:LOC:cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "brush_thin-to-zone_010": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "coin_half_dollar-to-silo_3": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:coin_half_dollar:LOC:dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_envelope:LOC:hook_5": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:coin_half_dollar:LOC:drawer_1": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:coin_half_dollar:LOC:dispenser_C": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "corn_grain-to-cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "brush_thin-to-cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "tile_A-to-shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_envelope:LOC:cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:palette_well_8": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "coin_half_dollar-to-drawer_3": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "parcel_envelope-to-drawer_9": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "corn_grain-to-dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "parcel_envelope-to-dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "corn_grain-to-drawer_9": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "parcel_envelope-to-cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tile_A:LOC:drawer_7": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "coin_half_dollar-to-shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:drawer_5": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:coin_half_dollar:LOC:drawer_7": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:drawer_3": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_envelope:LOC:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "tile_A-to-cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "brush_thin-to-cell_R3C1": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:hook_5": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_envelope:LOC:drawer_7": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "parcel_envelope-to-cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:silo_3": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "silo_3",
+   "observable_locations": null
+  },
+  "brush_thin-to-drawer_1": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:drawer_9": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "brush_thin-to-cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tile_A:LOC:drawer_5": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "parcel_envelope-to-zone_010": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:brush_thin:LOC:dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:corn_grain:LOC:zone_010": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:parcel_envelope:LOC:cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "parcel_envelope",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "tile_A-to-drawer_4": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "brush_thin-to-cell_R3C4": {
+   "type": "PLACE",
+   "bound_type": "brush_thin",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "corn_grain-to-cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "corn_grain",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C3",
+    "cell_R2C4"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R3C4",
+    "cell_R3C5"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_5"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_A"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_C"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_3",
+    "drawer_4",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_7",
+    "drawer_9"
+   ]
+  },
+  "checkLevel silo_3": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_3"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_8"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S3"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "coat_room_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stringing_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "auger_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "hopper_fill": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "parcel_envelope",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "brush_thin",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "corn_grain",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells in row 3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "dispensers A or C": [
+   "dispenser_A",
+   "dispenser_C"
+  ],
+  "somewhere in the odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "either drawer 3 or drawer 4": [
+   "drawer_3",
+   "drawer_4"
+  ],
+  "any odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ]
+ }
+}

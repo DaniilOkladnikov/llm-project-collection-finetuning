@@ -1,0 +1,1750 @@
+{
+ "object_locations": [
+  "L1-SecA-Bay02",
+  "parcelPalette-2.2.1",
+  "parcelPalette-1.2.1",
+  "chess_g1",
+  "chess_e1",
+  "parcelPalette-3.2.1",
+  "pos.y1.x2",
+  "pos.y1.x0",
+  "chess_h1",
+  "burner_back_right",
+  "chess_f1",
+  "parcelPalette-1.3.1",
+  "parcelPalette-1.1.1",
+  "parcelPalette-3.3.1",
+  "pos.y1.x3",
+  "pos.y1.x1",
+  "burner_front_right",
+  "parcelPalette-2.1.1",
+  "parcelPalette-3.1.1",
+  "parcelPalette-2.3.1"
+ ],
+ "object_types": [
+  "yellow_bead",
+  "steel_rebar",
+  "grain_teff",
+  "phial",
+  "wafer_G",
+  "module1",
+  "apple_granny",
+  "box_overnight",
+  "optical_transceiver"
+ ],
+ "positions": {
+  "pickupyellow_beadpos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pickupapple_grannychess_e1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverL1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarL1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverpos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarpos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pickupmodule1parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupmodule1parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "pickupmodule1chess_g1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffparcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannypos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pickupgrain_teffparcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffburner_back_right": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverparcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "pickupmodule1chess_f1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "pickupapple_grannypos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarparcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupmodule1pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverparcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarparcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarchess_g1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "pickupmodule1L1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "pickupyellow_beadchess_h1": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarpos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "pickupapple_grannyparcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupyellow_beadpos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pickupwafer_GparcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannychess_g1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffpos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannyparcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "pickupwafer_Gburner_back_right": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarchess_h1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffpos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarpos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pickupapple_grannyparcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannychess_f1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "pickupapple_grannychess_h1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightchess_e1": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "pickupapple_grannyburner_front_right": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "pickupyellow_beadparcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffparcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupmodule1parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightpos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarparcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffparcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffchess_f1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightpos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pickupyellow_beadparcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffchess_h1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverparcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannyparcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "pickupwafer_GparcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffL1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarparcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannyparcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarparcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "pickupwafer_Gchess_g1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightparcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannyparcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "pickupwafer_GparcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "pickupwafer_Gchess_f1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "pickupphialpos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "pickupwafer_Gchess_h1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightchess_f1": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "pickupphialpos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverparcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "pickupyellow_beadchess_e1": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffparcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "pickupgrain_teffpos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "grain_teff",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightparcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "pickupphialchess_h1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "pickupwafer_GparcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "pickupyellow_beadpos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "pickupwafer_Gpos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "pickupbox_overnightparcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightparcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "pickupbox_overnightparcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "pickupmodule1parcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "pickupyellow_beadparcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pickupwafer_Gpos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "wafer_G",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "pickupmodule1burner_front_right": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "pickupsteel_rebarparcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "pickupphialparcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "pickupapple_grannyparcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "pickupyellow_beadL1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "pickupmodule1pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x0_yellow_bead": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "chess_e1_apple_granny_deposit": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "actions/release/optical_transceiver/to/L1-SecA-Bay02": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "L1-SecA-Bay02_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x0_optical_transceiver": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "actions/release/steel_rebar/to/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "actions/release/module1/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.1_module1_deposit": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/release/module1/to/chess_g1": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.3.1_grain_teff": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "actions/release/apple_granny/to/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "parcelPalette-3.1.1_grain_teff_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "LOWER_burner_back_right_grain_teff": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.1.1_optical_transceiver": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "chess_f1_module1_deposit": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "pos.y1.x3_apple_granny_deposit": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "actions/release/steel_rebar/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x1_module1": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-1.3.1_optical_transceiver": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.3.1_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/release/steel_rebar/to/chess_g1": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "L1-SecA-Bay02_module1_deposit": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "LOWER_chess_h1_yellow_bead": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "actions/release/phial/to/parcelPalette-3.2.1": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x2_steel_rebar": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "actions/release/apple_granny/to/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "pos.y1.x1_yellow_bead_deposit": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.3.1_wafer_G": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "actions/release/apple_granny/to/chess_g1": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "pos.y1.x0_grain_teff_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-1.2.1_phial": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.1_apple_granny": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "actions/release/wafer_G/to/burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.2.1_phial": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "actions/release/steel_rebar/to/chess_h1": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "actions/release/grain_teff/to/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "actions/release/steel_rebar/to/pos.y1.x1": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.3.1_apple_granny": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "actions/release/apple_granny/to/chess_f1": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "LOWER_chess_h1_apple_granny": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "actions/release/box_overnight/to/chess_e1": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "burner_front_right_apple_granny_deposit": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.1.1_yellow_bead": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.1.1_grain_teff_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "actions/release/module1/to/parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "pos.y1.x0_box_overnight_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.1.1_steel_rebar": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "actions/release/grain_teff/to/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "actions/release/phial/to/parcelPalette-3.3.1": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "LOWER_chess_f1_grain_teff": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x3_box_overnight": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.2.1_yellow_bead": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "actions/release/grain_teff/to/chess_h1": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1_optical_transceiver_deposit": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1_apple_granny_deposit": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-1.1.1_wafer_G": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "LOWER_L1-SecA-Bay02_grain_teff": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "actions/release/steel_rebar/to/parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-1.3.1_apple_granny": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.1_steel_rebar_deposit": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "LOWER_chess_g1_wafer_G": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-1.1.1_box_overnight": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.1_apple_granny_deposit": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.3.1_wafer_G": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "LOWER_chess_f1_wafer_G": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "actions/release/phial/to/pos.y1.x0": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "chess_h1_wafer_G_deposit": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "actions/release/box_overnight/to/chess_f1": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x3_phial": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "actions/release/optical_transceiver/to/parcelPalette-3.3.1": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "chess_e1_yellow_bead_deposit": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-1.1.1_phial": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_grain_teff_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "actions/release/phial/to/parcelPalette-3.1.1": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "pos.y1.x1_grain_teff_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_teff",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1_box_overnight_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "LOWER_chess_h1_phial": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "actions/release/wafer_G/to/parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "actions/release/yellow_bead/to/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x2_wafer_G": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "actions/release/box_overnight/to/parcelPalette-3.2.1": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1_box_overnight_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-2.2.1_box_overnight": {
+   "type": "PLACE",
+   "bound_type": "box_overnight",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.1.1_module1_deposit": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-1.1.1_yellow_bead": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x1_wafer_G": {
+   "type": "PLACE",
+   "bound_type": "wafer_G",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1_phial_deposit": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "actions/release/module1/to/burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.1_steel_rebar": {
+   "type": "PLACE",
+   "bound_type": "steel_rebar",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "actions/release/phial/to/parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1_apple_granny_deposit": {
+   "type": "PLACE",
+   "bound_type": "apple_granny",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "actions/release/yellow_bead/to/L1-SecA-Bay02": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "actions/release/module1/to/pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "kingside_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "chess_e1",
+    "chess_f1",
+    "chess_g1",
+    "chess_h1"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x1",
+    "pos.y1.x2",
+    "pos.y1.x3"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_right",
+    "burner_back_right"
+   ]
+  },
+  "Viewpoint_Monitor_L1_SecA_Bays_01_and_02": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecA-Bay02"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.3.1"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.1",
+    "parcelPalette-2.2.1",
+    "parcelPalette-2.3.1"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.1.1",
+    "parcelPalette-3.2.1",
+    "parcelPalette-3.3.1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "piece_safe_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "steel_rebar",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "grain_teff",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "wafer_G",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "apple_granny",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "box_overnight",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "kingside": [
+   "chess_e1",
+   "chess_f1",
+   "chess_g1",
+   "chess_h1"
+  ],
+  "poses with y1": [
+   "pos.y1.x0",
+   "pos.y1.x1",
+   "pos.y1.x2",
+   "pos.y1.x3"
+  ],
+  "poses with y1 x0 or y1 x3": [
+   "pos.y1.x0",
+   "pos.y1.x3"
+  ],
+  "burners on the right": [
+   "burner_front_right",
+   "burner_back_right"
+  ],
+  "pallettes x.x.1": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.3.1",
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.2.1",
+   "parcelPalette-2.3.1",
+   "parcelPalette-3.1.1",
+   "parcelPalette-3.2.1",
+   "parcelPalette-3.3.1"
+  ]
+ }
+}

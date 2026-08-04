@@ -1,0 +1,1127 @@
+{
+ "object_locations": [
+  "tree_1",
+  "tire_bay_FR",
+  "pipe_stack_back",
+  "bay_A",
+  "lane_1_start",
+  "cell_R4C3",
+  "shelf_L3_S1",
+  "tire_bay_RR",
+  "tree_15",
+  "lane_1_end",
+  "tree_11",
+  "lane_1_mid",
+  "tree_5",
+  "pipe_stack_front"
+ ],
+ "object_types": [
+  "sorghum_grain",
+  "item_SKU_005",
+  "probe",
+  "quinoa_kernel",
+  "tile_S",
+  "medium_brush",
+  "pepper"
+ ],
+ "positions": {
+  "op/grab/pepper/loc/lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "op/grab/tile_S/loc/pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "tile_S",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/lane_1_end": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/bay_A": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "op/grab/item_SKU_005/loc/tree_1": {
+   "type": "PICK",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/pipe_stack_front": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/tree_15": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/item_SKU_005/loc/shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "item_SKU_005",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/grab/pepper/loc/tree_1": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/tree_11": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/tree_15": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/tree_1": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "op/grab/probe/loc/tree_11": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "op/grab/pepper/loc/shelf_L3_S1": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "op/grab/tile_S/loc/lane_1_end": {
+   "type": "PICK",
+   "bound_type": "tile_S",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "op/grab/probe/loc/tree_1": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "op/grab/item_SKU_005/loc/tree_15": {
+   "type": "PICK",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/grab/tile_S/loc/pipe_stack_front": {
+   "type": "PICK",
+   "bound_type": "tile_S",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "op/grab/pepper/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/tile_S/loc/bay_A": {
+   "type": "PICK",
+   "bound_type": "tile_S",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/tree_11": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "op/grab/tile_S/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "tile_S",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/item_SKU_005/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/tree_1": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "op/grab/probe/loc/pipe_stack_front": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/tree_15": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/bay_A": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "op/grab/item_SKU_005/loc/lane_1_start": {
+   "type": "PICK",
+   "bound_type": "item_SKU_005",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/tree_11": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "op/grab/tile_S/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "tile_S",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/medium_brush/loc/tree_1": {
+   "type": "PICK",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/probe/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/probe/loc/tree_15": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "op/grab/tile_S/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "tile_S",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/item_SKU_005/loc/cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "item_SKU_005",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/grab/quinoa_kernel/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/probe/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "probe",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_grain/loc/pipe_stack_front": {
+   "type": "PICK",
+   "bound_type": "sorghum_grain",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "op/grab/pepper/loc/pipe_stack_back": {
+   "type": "PICK",
+   "bound_type": "pepper",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "op/grab/item_SKU_005/loc/tree_11": {
+   "type": "PICK",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "lane_1_mid:pepper:DROP": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "pipe_stack_back:tile_S:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_S",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "lane_1_end:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "bay_A:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "pipe_stack_back:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "tree_1:item_SKU_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "pipe_stack_front:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "tire_bay_FR:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tree_15:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "lane_1_mid:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "cell_R4C3:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "tree_5:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:item_SKU_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_005",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "tree_1:pepper:DROP": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "tree_11:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "tire_bay_FR:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tree_15:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "tree_1:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "tree_5:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "lane_1_start:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "tree_11:probe:DROP": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:pepper:DROP": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "lane_1_end:tile_S:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_S",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "tree_1:probe:DROP": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "tree_15:item_SKU_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "pipe_stack_front:tile_S:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_S",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "lane_1_mid:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "lane_1_start:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "pipe_stack_back:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "tire_bay_FR:pepper:DROP": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "bay_A:tile_S:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_S",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "tree_11:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "lane_1_mid:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "tire_bay_FR:tile_S:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_S",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tire_bay_RR:item_SKU_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "tree_1:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "pipe_stack_front:probe:DROP": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "tree_15:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "bay_A:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "lane_1_start:item_SKU_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_005",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "tree_11:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "tree_5:tile_S:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_S",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "tire_bay_FR:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tree_1:medium_brush:DROP": {
+   "type": "PLACE",
+   "bound_type": "medium_brush",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "tree_5:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "tire_bay_FR:probe:DROP": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tree_15:probe:DROP": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "tire_bay_RR:tile_S:DROP": {
+   "type": "PLACE",
+   "bound_type": "tile_S",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "cell_R4C3:item_SKU_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_005",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "tire_bay_RR:quinoa_kernel:DROP": {
+   "type": "PLACE",
+   "bound_type": "quinoa_kernel",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "tree_5:probe:DROP": {
+   "type": "PLACE",
+   "bound_type": "probe",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "pipe_stack_front:sorghum_grain:DROP": {
+   "type": "PLACE",
+   "bound_type": "sorghum_grain",
+   "bound_location": "pipe_stack_front",
+   "observable_locations": null
+  },
+  "pipe_stack_back:pepper:DROP": {
+   "type": "PLACE",
+   "bound_type": "pepper",
+   "bound_location": "pipe_stack_back",
+   "observable_locations": null
+  },
+  "tree_11:item_SKU_005:DROP": {
+   "type": "PLACE",
+   "bound_type": "item_SKU_005",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C3"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_mid"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FR",
+    "tire_bay_RR"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_5"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_15"
+   ]
+  },
+  "plumbing_supplies_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pipe_stack_front",
+    "pipe_stack_back"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "battery_charging_dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "sorghum_grain",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "item_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "item_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "item_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "item_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "item_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "item_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "item_SKU_005",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "probe",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "quinoa_kernel",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tile_S",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "tile_S",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "tile_S",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tile_S",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "tile_S",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "tile_S",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tile_S",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "medium_brush",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "pepper",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "somewhere on the lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "tire bays on the right (FR and RR)": [
+   "tire_bay_FR",
+   "tire_bay_RR"
+  ],
+  "edge trees (1, 5, 11, and 15)": [
+   "tree_1",
+   "tree_5",
+   "tree_11",
+   "tree_15"
+  ],
+  "entire_pipe_stack": [
+   "pipe_stack_front",
+   "pipe_stack_back"
+  ],
+  "front_back_plumbing_tubes": [
+   "pipe_stack_front",
+   "pipe_stack_back"
+  ]
+ }
+}

@@ -1,0 +1,1045 @@
+{
+ "object_locations": [
+  "L1-SecA-Bay01",
+  "zone_004",
+  "chess_d1",
+  "chess_b1",
+  "chess_a1",
+  "chess_g1",
+  "chess_e1",
+  "cell_R1C2",
+  "chess_h1",
+  "chess_f1",
+  "zone_008",
+  "zone_009",
+  "chess_c1",
+  "cell_R1C1",
+  "cell_R1C4",
+  "cell_R1C5",
+  "zone_006",
+  "zone_007",
+  "cell_R1C3",
+  "zone_005"
+ ],
+ "object_types": [
+  "waste_matter",
+  "red_bead",
+  "pvc_pipe",
+  "yellow_ball"
+ ],
+ "positions": {
+  "LIFT_zone_008_yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_005/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "LIFT_L1-SecA-Bay01_yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "LIFT_zone_008_red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "LIFT_chess_a1_pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C2/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/L1-SecA-Bay01/red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_g1/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "LIFT_zone_007_waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_a1/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_e1/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_e1/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_a1/red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "LIFT_zone_007_pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "LIFT_chess_f1_waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "LIFT_chess_g1_yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C2/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_h1/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_f1/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C5/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "LIFT_chess_d1_waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_e1/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C4/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "LIFT_zone_007_yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_e1/red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C1/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_f1/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_007/red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ACQUIRE/chess_d1/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C4/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "LIFT_chess_b1_pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "LIFT_chess_f1_red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_006/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "LIFT_chess_h1_red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C5/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C3/waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C4/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C5/red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C4/red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C3/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "LIFT_cell_R1C1_yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "LIFT_zone_006_red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "LIFT_chess_c1_waste_matter": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_008/pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_004/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "LIFT_L1-SecA-Bay01_pvc_pipe": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "ACQUIRE/cell_R1C3/yellow_ball": {
+   "type": "PICK",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "LIFT_zone_004_red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "LIFT_cell_R1C3_red_bead": {
+   "type": "PICK",
+   "bound_type": "red_bead",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "/mnt/zone_008/yellow_ball/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone_005=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecA-Bay01/yellow_ball/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "/mnt/zone_008/red_bead/place": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "/mnt/chess_a1/pvc_pipe/place": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "cell_R1C2=>waste_matter=>PUT": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/L1-SecA-Bay01/red_bead/place": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "/mnt/chess_g1/pvc_pipe/place": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "zone_007=>waste_matter=>PUT": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "chess_a1=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "/mnt/chess_e1/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "chess_e1=>pvc_pipe=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "chess_a1=>red_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "/mnt/zone_007/pvc_pipe/place": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "/mnt/chess_f1/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "/mnt/chess_g1/yellow_ball/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "cell_R1C2=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "/mnt/chess_h1/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "/mnt/chess_f1/pvc_pipe/place": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "chess_d1=>waste_matter=>PUT": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "chess_e1=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C4/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "zone_007=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "chess_e1=>red_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C1/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/chess_f1/yellow_ball/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "/mnt/zone_007/red_bead/place": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_009=>waste_matter=>PUT": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "/mnt/chess_d1/pvc_pipe/place": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "cell_R1C4=>pvc_pipe=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "chess_b1=>pvc_pipe=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "/mnt/chess_f1/red_bead/place": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "/mnt/zone_006/pvc_pipe/place": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "/mnt/chess_h1/red_bead/place": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "cell_R1C5=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C4/yellow_ball/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "cell_R1C5=>red_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "cell_R1C4=>red_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/pvc_pipe/place": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "cell_R1C1=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "zone_006=>red_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "/mnt/chess_c1/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "/mnt/zone_009/yellow_ball/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_009=>red_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone_008=>pvc_pipe=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "/mnt/zone_004/yellow_ball/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "L1-SecA-Bay01=>pvc_pipe=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "cell_R1C3=>yellow_ball=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_ball",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "zone_004=>red_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/red_bead/place": {
+   "type": "PLACE",
+   "bound_type": "red_bead",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "kingside_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "chess_e1",
+    "chess_f1",
+    "chess_g1",
+    "chess_h1"
+   ]
+  },
+  "queenside_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "chess_a1",
+    "chess_b1",
+    "chess_c1",
+    "chess_d1"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004",
+    "zone_005",
+    "zone_006",
+    "zone_007",
+    "zone_008",
+    "zone_009"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "Viewpoint_Monitor_L1_SecA_Bays_01_and_02": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecA-Bay01"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "red_bead",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "yellow_ball",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "kingside": [
+   "chess_e1",
+   "chess_f1",
+   "chess_g1",
+   "chess_h1"
+  ],
+  "queenside": [
+   "chess_a1",
+   "chess_b1",
+   "chess_c1",
+   "chess_d1"
+  ],
+  "zone_004->zone_009": [
+   "zone_004",
+   "zone_005",
+   "zone_006",
+   "zone_007",
+   "zone_008",
+   "zone_009"
+  ],
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ]
+ }
+}

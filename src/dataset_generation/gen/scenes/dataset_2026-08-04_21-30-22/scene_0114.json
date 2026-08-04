@@ -1,0 +1,1252 @@
+{
+ "object_locations": [
+  "parcelPalette-1.2.1",
+  "parcelPalette-3.2.1",
+  "parcelPalette-2.1.1",
+  "scaffolding_rack_left",
+  "slot3_1",
+  "parcelPalette-2.3.1",
+  "cell_R1C3",
+  "cell_R1C2",
+  "Node40.02",
+  "parcelPalette-2.2.1",
+  "Node40.01",
+  "scaffolding_rack_right",
+  "parcelPalette-1.3.1",
+  "parcelPalette-1.1.1",
+  "parcelPalette-3.3.1",
+  "shelf_L2_S1",
+  "cell_R1C1",
+  "parcelPalette-3.1.1",
+  "cell_R1C4",
+  "cell_R1C5"
+ ],
+ "object_types": [
+  "product_SKU_002",
+  "box_domestic",
+  "cylinder_red",
+  "blue_bead",
+  "coin_nickel"
+ ],
+ "positions": {
+  "--grasp--box_domestic--at--parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "seize_box_domestic@parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "seize_cylinder_red@cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right=>cylinder_red=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "scaffolding_rack_right=>coin_nickel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1=>coin_nickel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>cylinder_red=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "cell_R1C2=>box_domestic=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "seize_product_SKU_002@parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>coin_nickel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1=>box_domestic=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "--grasp--cylinder_red--at--parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "seize_product_SKU_002@parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "shelf_L2_S1=>box_domestic=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "seize_cylinder_red@parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "slot3_1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "--grasp--cylinder_red--at--parcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "--grasp--product_SKU_002--at--parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.1.1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "--grasp--blue_bead--at--cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "seize_box_domestic@parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "cell_R1C2=>product_SKU_002=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "seize_coin_nickel@cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "--grasp--product_SKU_002--at--parcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "cell_R1C5=>cylinder_red=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "--grasp--cylinder_red--at--cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "scaffolding_rack_left=>product_SKU_002=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "seize_blue_bead@parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "cell_R1C1=>cylinder_red=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "cell_R1C5=>box_domestic=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "seize_product_SKU_002@parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-1.2.1=>product_SKU_002=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "--grasp--box_domestic--at--cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "seize_product_SKU_002@parcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "--grasp--cylinder_red--at--Node40.02": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "Node40.01=>cylinder_red=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "cell_R1C1=>box_domestic=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--Node40.02": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--Node40.01": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "seize_cylinder_red@cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "cell_R1C5=>product_SKU_002=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--parcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "--grasp--product_SKU_002--at--cell_R1C4": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "cell_R1C1=>blue_bead=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "cell_R1C3=>box_domestic=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "cell_R1C1=>product_SKU_002=>TAKE": {
+   "type": "PICK",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "seize_blue_bead@Node40.02": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "seize_blue_bead@cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "blue_bead",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1=>coin_nickel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "seize_cylinder_red@parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "--grasp--coin_nickel--at--parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "--grasp--cylinder_red--at--parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1=>box_domestic=>TAKE": {
+   "type": "PICK",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/parcelPalette-3.3.1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/scaffolding_rack_right": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/scaffolding_rack_right": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "scaffolding_rack_right",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/parcelPalette-3.2.1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "placing/blue_bead/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/parcelPalette-3.2.1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "placing/blue_bead/parcelPalette-3.3.1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "placing/blue_bead/slot3_1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/parcelPalette-2.2.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "placing/blue_bead/parcelPalette-3.1.1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "placing/blue_bead/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/cell_R1C2": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "placing/blue_bead/parcelPalette-3.2.1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/parcelPalette-3.2.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/scaffolding_rack_left": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "scaffolding_rack_left",
+   "observable_locations": null
+  },
+  "placing/blue_bead/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placing/blue_bead/parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "placing/blue_bead/parcelPalette-2.2.1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/parcelPalette-1.2.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/parcelPalette-2.2.1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/Node40.02": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/Node40.01": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "placing/box_domestic/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/Node40.02": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/Node40.01": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/parcelPalette-2.2.1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/cell_R1C4": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "placing/blue_bead/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "placing/product_SKU_002/cell_R1C1": {
+   "type": "PLACE",
+   "bound_type": "product_SKU_002",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "placing/blue_bead/Node40.02": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "placing/blue_bead/cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "blue_bead",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "placing/coin_nickel/parcelPalette-1.1.1": {
+   "type": "PLACE",
+   "bound_type": "coin_nickel",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "placing/cylinder_red/parcelPalette-3.3.1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_red",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "placing/box_domestic/parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "box_domestic",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "slot3_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot3_1"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1"
+   ]
+  },
+  "scaffolding_storage_inspection_point": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "scaffolding_rack_left",
+    "scaffolding_rack_right"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.01",
+    "Node40.02"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1",
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.3.1"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.1",
+    "parcelPalette-2.2.1",
+    "parcelPalette-2.3.1"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.1.1",
+    "parcelPalette-3.2.1",
+    "parcelPalette-3.3.1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "product_SKU_002",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "box_domestic",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cylinder_red",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "blue_bead",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "coin_nickel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "both_scaffolding_racks": [
+   "scaffolding_rack_left",
+   "scaffolding_rack_right"
+  ],
+  "left_right_metal_frameworks": [
+   "scaffolding_rack_left",
+   "scaffolding_rack_right"
+  ],
+  "Subnet40": [
+   "Node40.01",
+   "Node40.02"
+  ],
+  "pallettes x.x.1": [
+   "parcelPalette-1.1.1",
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.3.1",
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.2.1",
+   "parcelPalette-2.3.1",
+   "parcelPalette-3.1.1",
+   "parcelPalette-3.2.1",
+   "parcelPalette-3.3.1"
+  ]
+ }
+}

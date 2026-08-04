@@ -1,0 +1,1236 @@
+{
+ "object_locations": [
+  "nest_4",
+  "bay_B",
+  "shelf_L1_S3",
+  "shelf_L1_S4",
+  "bay_A",
+  "shelf_L1_S1",
+  "shelf_L1_S2",
+  "zone_004",
+  "nest_3",
+  "conveyor_pick_zone",
+  "nest_2",
+  "Node40.01",
+  "cell_R2C2",
+  "conveyor_drop_zone"
+ ],
+ "object_types": [
+  "green_ball",
+  "broad_brush",
+  "chip_type_C",
+  "tofu",
+  "scaffolding_pole",
+  "red_ball",
+  "cord",
+  "brush_medium"
+ ],
+ "positions": {
+  "/mnt/nest_3/tofu/pick": {
+   "type": "PICK",
+   "bound_type": "tofu",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/green_ball/pick": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/tofu/pick": {
+   "type": "PICK",
+   "bound_type": "tofu",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S2/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "/mnt/bay_A/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/chip_type_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C2/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "/mnt/zone_004/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "/mnt/nest_4/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_drop_zone/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "/mnt/zone_004/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "/mnt/nest_3/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/zone_004/brush_medium/pick": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C2/brush_medium/pick": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/tofu/pick": {
+   "type": "PICK",
+   "bound_type": "tofu",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/nest_2/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/chip_type_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/bay_B/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "/mnt/bay_A/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "/mnt/nest_3/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/green_ball/pick": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/bay_A/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S2/chip_type_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/tofu/pick": {
+   "type": "PICK",
+   "bound_type": "tofu",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/brush_medium/pick": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/tofu/pick": {
+   "type": "PICK",
+   "bound_type": "tofu",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C2/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "/mnt/nest_4/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_drop_zone/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "/mnt/zone_004/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "/mnt/bay_A/brush_medium/pick": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C2/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "/mnt/nest_4/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "/mnt/nest_4/brush_medium/pick": {
+   "type": "PICK",
+   "bound_type": "brush_medium",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "/mnt/bay_A/tofu/pick": {
+   "type": "PICK",
+   "bound_type": "tofu",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "/mnt/nest_2/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "/mnt/nest_2/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "/mnt/nest_2/chip_type_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "/mnt/nest_3/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_pick_zone/broad_brush/pick": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_pick_zone/chip_type_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "/mnt/zone_004/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "/mnt/nest_3/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_drop_zone/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C2/tofu/pick": {
+   "type": "PICK",
+   "bound_type": "tofu",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "/mnt/nest_3/chip_type_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S4/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/scaffolding_pole/pick": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/bay_B/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S3/chip_type_C/pick": {
+   "type": "PICK",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S2/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "/mnt/bay_A/cord/pick": {
+   "type": "PICK",
+   "bound_type": "cord",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "/mnt/conveyor_pick_zone/green_ball/pick": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "/mnt/shelf_L1_S1/red_ball/pick": {
+   "type": "PICK",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.nest_3.item.tofu.release": {
+   "type": "PLACE",
+   "bound_type": "tofu",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S3.item.green_ball.release": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S3.item.tofu.release": {
+   "type": "PLACE",
+   "bound_type": "tofu",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S2.item.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "zone.bay_A.item.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "$.Node40.01.chip_type_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "zone.zone_004.item.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.Node40.01.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "$.nest_4.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "$.conveyor_drop_zone.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "$.zone_004.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.nest_3.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "zone.zone_004.item.brush_medium.release": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.brush_medium.release": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.Node40.01.tofu.release": {
+   "type": "PLACE",
+   "bound_type": "tofu",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S3.item.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.nest_2.item.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.chip_type_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "$.bay_B.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "$.bay_A.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "$.nest_3.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S4.item.green_ball.release": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "$.bay_A.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S2.item.chip_type_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S3.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S4.tofu.release": {
+   "type": "PLACE",
+   "bound_type": "tofu",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.brush_medium.release": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.Node40.01.item.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S1.tofu.release": {
+   "type": "PLACE",
+   "bound_type": "tofu",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "zone.nest_4.item.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "$.conveyor_drop_zone.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "zone.zone_004.item.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "$.bay_A.brush_medium.release": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "zone.nest_4.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "$.nest_4.brush_medium.release": {
+   "type": "PLACE",
+   "bound_type": "brush_medium",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "zone.bay_A.item.tofu.release": {
+   "type": "PLACE",
+   "bound_type": "tofu",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "zone.nest_2.item.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "zone.Node40.01.item.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "$.nest_2.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "$.nest_2.chip_type_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "nest_2",
+   "observable_locations": null
+  },
+  "$.nest_3.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "zone.conveyor_pick_zone.item.broad_brush.release": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "$.conveyor_pick_zone.chip_type_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "$.zone_004.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "zone_004",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S1.item.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "zone.nest_3.item.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "$.conveyor_drop_zone.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "zone.cell_R2C2.item.tofu.release": {
+   "type": "PLACE",
+   "bound_type": "tofu",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.nest_3.chip_type_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S4.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S3.scaffolding_pole.release": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.bay_B.item.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S3.chip_type_C.release": {
+   "type": "PLACE",
+   "bound_type": "chip_type_C",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "zone.shelf_L1_S2.item.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "zone.bay_A.item.cord.release": {
+   "type": "PLACE",
+   "bound_type": "cord",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "zone.conveyor_pick_zone.item.green_ball.release": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "$.shelf_L1_S1.red_ball.release": {
+   "type": "PLACE",
+   "bound_type": "red_ball",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_004"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_2",
+    "nest_3",
+    "nest_4"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C2"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2",
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.01"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "chip_type_C",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "tofu",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "tofu",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "tofu",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "tofu",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "tofu",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "tofu",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "tofu",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "red_ball",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "cord",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "brush_medium",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "bays A through B": [
+   "bay_A",
+   "bay_B"
+  ],
+  "even numbered nests": [
+   "nest_2",
+   "nest_4"
+  ],
+  "inner nests (2, 3, 4)": [
+   "nest_2",
+   "nest_3",
+   "nest_4"
+  ],
+  "operating nests 2 to 4": [
+   "nest_2",
+   "nest_3",
+   "nest_4"
+  ],
+  "shelf_L1 slots": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf L1 compartments": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ]
+ }
+}

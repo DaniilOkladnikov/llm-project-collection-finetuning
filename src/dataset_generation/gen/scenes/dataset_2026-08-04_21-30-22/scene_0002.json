@@ -1,0 +1,1485 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "tire_bay_FR",
+  "Node10.01",
+  "Node30.01",
+  "Node40.02",
+  "Node30.03",
+  "tire_bay_RL",
+  "tire_bay_FL",
+  "canvas_zone_C",
+  "Node40.01",
+  "tire_bay_RR",
+  "Node30.02",
+  "pos.y0.x0"
+ ],
+ "object_types": [
+  "red_pellet",
+  "steel_block",
+  "wafer_B",
+  "package_domestic",
+  "broad_brush",
+  "chip_type_R",
+  "medication_bottle",
+  "cylinder_blue",
+  "chip_type_N",
+  "sfp_module"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=Node40.01": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_B&source=tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/broad_brush/loc/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/Node30.03": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_N/loc/Node10.01": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "op/grab/package_domestic/loc/canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "package_domestic",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_domestic&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "package_domestic",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_pellet&source=Node40.01": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=broad_brush&source=pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "op/grab/sfp_module/loc/pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_domestic&source=Node30.01": {
+   "type": "PICK",
+   "bound_type": "package_domestic",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sfp_module&source=tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=steel_block&source=pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sfp_module&source=tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=Node30.03": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_R/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/sfp_module/loc/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/grab/red_pellet/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "op/grab/package_domestic/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "package_domestic",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cylinder_blue&source=canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "op/grab/red_pellet/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cylinder_blue&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "op/grab/red_pellet/loc/Node30.03": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_N/loc/Node40.01": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "op/grab/medication_bottle/loc/pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_pellet&source=canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sfp_module&source=tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/grab/wafer_B/loc/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_N/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_pellet&source=pos.y0.x0": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=broad_brush&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "op/grab/sfp_module/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=steel_block&source=Node10.01": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=steel_block&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_blue/loc/Node40.01": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_N/loc/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_B&source=Node10.01": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=red_pellet&source=canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=wafer_B&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "wafer_B",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sfp_module&source=tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/red_pellet/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_R&source=tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_blue/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "op/grab/medication_bottle/loc/Node40.02": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=Node30.01": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/red_pellet/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "op/grab/sfp_module/loc/Node10.01": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "op/grab/package_domestic/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "package_domestic",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/cylinder_blue/loc/canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "cylinder_blue",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_R&source=Node10.01": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_R&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "op/grab/package_domestic/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "package_domestic",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_N&source=canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "op/grab/steel_block/loc/Node40.01": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_N/loc/Node30.01": {
+   "type": "PICK",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "op/grab/red_pellet/loc/Node10.01": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "op/grab/red_pellet/loc/Node40.02": {
+   "type": "PICK",
+   "bound_type": "red_pellet",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=package_domestic&source=canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "package_domestic",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=medication_bottle&source=Node30.02": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "op/grab/broad_brush/loc/tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "broad_brush",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=steel_block&source=tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_R/loc/Node30.02": {
+   "type": "PICK",
+   "bound_type": "chip_type_R",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "#Node40.01/#medication_bottle/leave": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "wafer_B-to-tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_A/broad_brush/place": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "steel_block-to-canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#Node30.03/#wafer_B/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "wafer_B-to-canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/chip_type_N/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "chip_type_N-to-Node40.02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#package_domestic/leave": {
+   "type": "PLACE",
+   "bound_type": "package_domestic",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "/mnt/Node40.02/package_domestic/place": {
+   "type": "PLACE",
+   "bound_type": "package_domestic",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/red_pellet/place": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "broad_brush-to-pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "sfp_module-to-pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "package_domestic-to-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "package_domestic",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/sfp_module/place": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "steel_block-to-pos.y0.x0": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "#tire_bay_FL/#sfp_module/leave": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "medication_bottle-to-Node30.03": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "chip_type_R-to-tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "sfp_module-to-canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/red_pellet/place": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "steel_block-to-canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/package_domestic/place": {
+   "type": "PLACE",
+   "bound_type": "package_domestic",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#cylinder_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/red_pellet/place": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "#Node40.02/#cylinder_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#wafer_B/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "red_pellet-to-Node30.03": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "Node30.03",
+   "observable_locations": null
+  },
+  "/mnt/Node30.01/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/chip_type_N/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "#pos.y0.x0/#medication_bottle/leave": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "red_pellet-to-canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/medication_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#sfp_module/leave": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FR/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "/mnt/Node30.02/steel_block/place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "steel_block-to-tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_A/medication_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RL/wafer_B/place": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "chip_type_N-to-tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/pos.y0.x0/red_pellet/place": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "chip_type_N-to-tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/Node40.02/broad_brush/place": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "#Node30.01/#sfp_module/leave": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "steel_block-to-Node10.01": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "#Node40.02/#steel_block/leave": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/cylinder_blue/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "#canvas_zone_A/#chip_type_N/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "#Node10.01/#wafer_B/leave": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "#canvas_zone_C/#red_pellet/leave": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "wafer_B-to-Node40.02": {
+   "type": "PLACE",
+   "bound_type": "wafer_B",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "#tire_bay_FR/#sfp_module/leave": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "red_pellet-to-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RL/medication_bottle/place": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#tire_bay_FR/#steel_block/leave": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "chip_type_R-to-tire_bay_RL": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "cylinder_blue-to-tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "medication_bottle-to-canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "medication_bottle-to-Node40.02": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "medication_bottle-to-Node30.01": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "#Node30.02/#red_pellet/leave": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "sfp_module-to-Node10.01": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "package_domestic-to-tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "package_domestic",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/canvas_zone_A/cylinder_blue/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_blue",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "chip_type_R-to-Node10.01": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "chip_type_R-to-Node40.02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "package_domestic-to-tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "package_domestic",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "chip_type_N-to-canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "/mnt/Node40.01/steel_block/place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "#Node30.01/#chip_type_N/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_N",
+   "bound_location": "Node30.01",
+   "observable_locations": null
+  },
+  "red_pellet-to-Node10.01": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "#Node40.02/#red_pellet/leave": {
+   "type": "PLACE",
+   "bound_type": "red_pellet",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "package_domestic-to-canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "package_domestic",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "medication_bottle-to-Node30.02": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "#tire_bay_RR/#broad_brush/leave": {
+   "type": "PLACE",
+   "bound_type": "broad_brush",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/steel_block/place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "chip_type_R-to-Node30.02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_R",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x0"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_C"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_FR",
+    "tire_bay_RL",
+    "tire_bay_RR"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.01"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.01",
+    "Node30.02",
+    "Node30.03"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.01",
+    "Node40.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "red_pellet",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_B",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "package_domestic",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "package_domestic",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "package_domestic",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "package_domestic",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "package_domestic",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "package_domestic",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "package_domestic",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "broad_brush",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_type_R",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "cylinder_blue",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "chip_type_N",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "from the outer zones (A and C)": [
+   "canvas_zone_A",
+   "canvas_zone_C"
+  ],
+  "tire_bay FL/FR/RL/RR": [
+   "tire_bay_FL",
+   "tire_bay_FR",
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "front tire bays (FL and FR)": [
+   "tire_bay_FL",
+   "tire_bay_FR"
+  ],
+  "rear tire bays (RL and RR)": [
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "tire bays on the left (FL and RL)": [
+   "tire_bay_FL",
+   "tire_bay_RL"
+  ],
+  "tire bays on the right (FR and RR)": [
+   "tire_bay_FR",
+   "tire_bay_RR"
+  ],
+  "tire bay FL or RR": [
+   "tire_bay_FL",
+   "tire_bay_RR"
+  ],
+  "Subnet30": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03"
+  ],
+  "Subnet40": [
+   "Node40.01",
+   "Node40.02"
+  ],
+  "Subnets30_40": [
+   "Node30.01",
+   "Node30.02",
+   "Node30.03",
+   "Node40.01",
+   "Node40.02"
+  ]
+ }
+}

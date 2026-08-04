@@ -1,0 +1,1262 @@
+{
+ "object_locations": [
+  "L1-SecA-Bay02",
+  "cell_R4C1",
+  "dispenser_D",
+  "cell_R2C3",
+  "tire_bay_RL",
+  "tire_bay_FL",
+  "L1-SecA-Bay01",
+  "dispenser_B",
+  "cell_R4C3",
+  "cell_R4C2",
+  "cell_R2C2",
+  "cell_R3C1",
+  "cell_R1C1",
+  "cell_R2C1",
+  "cell_R3C2",
+  "dispenser_C",
+  "cell_R1C3",
+  "cell_R1C2",
+  "cell_R3C3"
+ ],
+ "object_types": [
+  "electronic part",
+  "pill_bottle",
+  "winter_tire",
+  "shrinkwrap",
+  "tile_E",
+  "onion"
+ ],
+ "positions": {
+  "op/grab/electronic part/loc/cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "actions/grasp/electronic part/from/cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/winter_tire/loc/cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/shrinkwrap/loc/cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/grab/winter_tire/loc/cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "actions/grasp/pill_bottle/from/cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/grab/shrinkwrap/loc/cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "op/grab/shrinkwrap/loc/cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "op/grab/pill_bottle/loc/cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "op/grab/winter_tire/loc/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "op/grab/onion/loc/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "actions/grasp/onion/from/cell_R2C2": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "op/grab/winter_tire/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "actions/grasp/onion/from/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "actions/grasp/electronic part/from/cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "actions/grasp/pill_bottle/from/L1-SecA-Bay01": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "actions/grasp/shrinkwrap/from/dispenser_D": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "op/grab/onion/loc/cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "actions/grasp/electronic part/from/dispenser_C": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "actions/grasp/electronic part/from/cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "actions/grasp/shrinkwrap/from/cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "op/grab/tile_E/loc/cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "actions/grasp/pill_bottle/from/cell_R3C3": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "op/grab/electronic part/loc/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "actions/grasp/shrinkwrap/from/cell_R4C1": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "actions/grasp/shrinkwrap/from/dispenser_C": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "op/grab/shrinkwrap/loc/cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "op/grab/onion/loc/L1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "op/grab/pill_bottle/loc/cell_R1C2": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "actions/grasp/shrinkwrap/from/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "op/grab/electronic part/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "actions/grasp/tile_E/from/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/grab/pill_bottle/loc/cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "actions/grasp/pill_bottle/from/tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "op/grab/winter_tire/loc/cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "actions/grasp/onion/from/cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "onion",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "actions/grasp/shrinkwrap/from/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "actions/grasp/pill_bottle/from/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/grab/electronic part/loc/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/grab/tile_E/loc/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/grab/shrinkwrap/loc/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "actions/grasp/pill_bottle/from/dispenser_B": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/grab/tile_E/loc/cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/grab/electronic part/loc/L1-SecA-Bay02": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "op/grab/shrinkwrap/loc/cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "op/grab/pill_bottle/loc/cell_R4C3": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "actions/grasp/winter_tire/from/cell_R3C1": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "op/grab/shrinkwrap/loc/cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "actions/grasp/pill_bottle/from/cell_R1C1": {
+   "type": "PICK",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "op/grab/electronic part/loc/cell_R2C3": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "op/grab/electronic part/loc/cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "op/grab/tile_E/loc/cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "cell_R2C1=>electronic part=>PUT": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "cell_R2C1=>tile_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "cell_R1C3=>electronic part=>PUT": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R4C1/#winter_tire/leave": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "cell_R1C3=>tile_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#shrinkwrap/leave": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#winter_tire/leave": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "cell_R4C2=>pill_bottle=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "zone.cell_R2C1.item.shrinkwrap.release": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "zone.cell_R1C3.item.shrinkwrap.release": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "zone.cell_R2C1.item.pill_bottle.release": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "cell_R2C2=>winter_tire=>PUT": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "zone.cell_R3C2.item.winter_tire.release": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#tile_E/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.tire_bay_RL.item.onion.release": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "cell_R2C2=>onion=>PUT": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "#tire_bay_FL/#winter_tire/leave": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "tire_bay_FL=>onion=>PUT": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "zone.cell_R3C1.item.electronic part.release": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "zone.L1-SecA-Bay01.item.pill_bottle.release": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "L1-SecA-Bay01",
+   "observable_locations": null
+  },
+  "dispenser_B=>winter_tire=>PUT": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#tile_E/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "dispenser_D=>shrinkwrap=>PUT": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "cell_R3C3=>tile_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "#cell_R4C1/#tile_E/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "zone.cell_R4C3.item.onion.release": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#dispenser_C/#electronic part/leave": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#electronic part/leave": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#cell_R3C3/#shrinkwrap/leave": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "cell_R1C2=>tile_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "cell_R3C3=>pill_bottle=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "cell_R3C2=>electronic part=>PUT": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "cell_R3C2=>tile_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "zone.cell_R4C1.item.shrinkwrap.release": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "tire_bay_RL=>tile_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "zone.dispenser_C.item.shrinkwrap.release": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dispenser_C",
+   "observable_locations": null
+  },
+  "zone.cell_R1C2.item.shrinkwrap.release": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "L1-SecA-Bay02=>onion=>PUT": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "#cell_R1C2/#pill_bottle/leave": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#winter_tire/leave": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.cell_R3C2.item.shrinkwrap.release": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "zone.tire_bay_FL.item.electronic part.release": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "zone.tire_bay_FL.item.tile_E.release": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "cell_R3C2=>pill_bottle=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "zone.tire_bay_RL.item.pill_bottle.release": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#winter_tire/leave": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "zone.cell_R4C2.item.onion.release": {
+   "type": "PLACE",
+   "bound_type": "onion",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#tire_bay_FL/#shrinkwrap/leave": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "tire_bay_FL=>pill_bottle=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "dispenser_B=>electronic part=>PUT": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "zone.dispenser_B.item.tile_E.release": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "dispenser_B=>shrinkwrap=>PUT": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "#dispenser_B/#pill_bottle/leave": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "cell_R4C3=>tile_E=>PUT": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "zone.L1-SecA-Bay02.item.electronic part.release": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "L1-SecA-Bay02",
+   "observable_locations": null
+  },
+  "#cell_R4C3/#shrinkwrap/leave": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "zone.cell_R4C3.item.pill_bottle.release": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "#cell_R3C1/#winter_tire/leave": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#shrinkwrap/leave": {
+   "type": "PLACE",
+   "bound_type": "shrinkwrap",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R1C1/#pill_bottle/leave": {
+   "type": "PLACE",
+   "bound_type": "pill_bottle",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "#cell_R2C3/#electronic part/leave": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.cell_R4C2.item.electronic part.release": {
+   "type": "PLACE",
+   "bound_type": "electronic part",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#tile_E/leave": {
+   "type": "PLACE",
+   "bound_type": "tile_E",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2",
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R2C3"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2",
+    "cell_R4C1",
+    "cell_R4C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R4C3"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_B"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_C",
+    "dispenser_D"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_RL"
+   ]
+  },
+  "Viewpoint_Monitor_L1_SecA_Bays_01_and_02": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L1-SecA-Bay01",
+    "L1-SecA-Bay02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stringing_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "electronic part",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "pill_bottle",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "shrinkwrap",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "tile_E",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "onion",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "onion",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cells in Column2": [
+   "cell_R1C2",
+   "cell_R2C2",
+   "cell_R3C2",
+   "cell_R4C2"
+  ],
+  "cells C1 to C3 (all rows)": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3"
+  ],
+  "dispensers C or D": [
+   "dispenser_C",
+   "dispenser_D"
+  ],
+  "dispensers B or C": [
+   "dispenser_B",
+   "dispenser_C"
+  ],
+  "dispensers B, C, or D": [
+   "dispenser_B",
+   "dispenser_C",
+   "dispenser_D"
+  ],
+  "somewhere in dispensers B or D": [
+   "dispenser_B",
+   "dispenser_D"
+  ],
+  "tire bays on the left (FL and RL)": [
+   "tire_bay_FL",
+   "tire_bay_RL"
+  ],
+  "Level_1_Section_A_Material_Bays_01_and_02": [
+   "L1-SecA-Bay01",
+   "L1-SecA-Bay02"
+  ]
+ }
+}

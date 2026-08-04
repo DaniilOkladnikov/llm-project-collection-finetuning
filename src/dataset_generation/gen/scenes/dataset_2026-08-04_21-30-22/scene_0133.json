@@ -1,0 +1,995 @@
+{
+ "object_locations": [
+  "pass_bin",
+  "table_Q3",
+  "bay_B",
+  "table_Q1",
+  "shelf_L3_S2",
+  "cell_R2C5",
+  "bay_A",
+  "canvas_zone_C",
+  "tray_outfeed_slot1",
+  "reject_bin",
+  "slot2_4",
+  "pos.y1.x2",
+  "tray_infeed_slot2",
+  "table_Q2"
+ ],
+ "object_types": [
+  "locknut",
+  "med_bottle",
+  "chip_D",
+  "grain_buckwheat",
+  "tile_N"
+ ],
+ "positions": {
+  "get__grain_buckwheat__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "get__grain_buckwheat__from__bay_A": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "get__locknut__from__pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "get__chip_D__from__table_Q2": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "get__tile_N__from__bay_B": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "get__med_bottle__from__table_Q3": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "get__tile_N__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "[table_Q1][chip_D]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "get__med_bottle__from__tray_outfeed_slot1": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "[shelf_L3_S2][med_bottle]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "[slot2_4][locknut]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "[bay_A][tile_N]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "[table_Q3][locknut]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "[canvas_zone_C][locknut]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "ns:table_Q1:item:med_bottle:action:pick": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "[pos.y1.x2][grain_buckwheat]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "[bay_B][chip_D]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "[pass_bin][chip_D]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "get__chip_D__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:chip_D:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:reject_bin:item:locknut:action:pick": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "ns:table_Q1:item:locknut:action:pick": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "[cell_R2C5][tile_N]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:table_Q2:item:med_bottle:action:pick": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "ns:slot2_4:item:grain_buckwheat:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "ns:pos.y1.x2:item:tile_N:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:chip_D:action:pick": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "[tray_outfeed_slot1][grain_buckwheat]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "[table_Q2][locknut]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "ns:reject_bin:item:grain_buckwheat:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "[pos.y1.x2][chip_D]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "get__med_bottle__from__bay_B": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "[bay_A][med_bottle]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "[table_Q3][tile_N]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:locknut:action:pick": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "get__locknut__from__tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "ns:table_Q2:item:grain_buckwheat:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "get__locknut__from__bay_A": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "[table_Q1][tile_N]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "tile_N",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:med_bottle:action:pick": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:pass_bin:item:locknut:action:pick": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "[tray_outfeed_slot1][chip_D]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "get__chip_D__from__shelf_L3_S2": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "get__chip_D__from__reject_bin": {
+   "type": "PICK",
+   "bound_type": "chip_D",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "[pos.y1.x2][med_bottle]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "med_bottle",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "get__locknut__from__cell_R2C5": {
+   "type": "PICK",
+   "bound_type": "locknut",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "put__grain_buckwheat__to__tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "put__grain_buckwheat__to__bay_A": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "put__locknut__to__pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "put__chip_D__to__table_Q2": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "put__tile_N__to__bay_B": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__table_Q3": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "put__tile_N__to__tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "put__chip_D__to__table_Q1": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "put__locknut__to__slot2_4": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "put__tile_N__to__bay_A": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "put__locknut__to__table_Q3": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "put__locknut__to__canvas_zone_C": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__table_Q1": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "put__grain_buckwheat__to__pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "put__chip_D__to__bay_B": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "put__chip_D__to__pass_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "put__chip_D__to__tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "put__chip_D__to__bay_A": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "put__locknut__to__reject_bin": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "put__locknut__to__table_Q1": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "put__tile_N__to__cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__table_Q2": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "put__grain_buckwheat__to__slot2_4": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "put__tile_N__to__pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "put__chip_D__to__cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "put__grain_buckwheat__to__tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__locknut__to__table_Q2": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "put__grain_buckwheat__to__reject_bin": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "put__chip_D__to__pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__bay_B": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__bay_A": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "put__tile_N__to__table_Q3": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "put__locknut__to__bay_B": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "put__locknut__to__tray_infeed_slot2": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "put__grain_buckwheat__to__table_Q2": {
+   "type": "PLACE",
+   "bound_type": "grain_buckwheat",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "put__locknut__to__bay_A": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "put__tile_N__to__table_Q1": {
+   "type": "PLACE",
+   "bound_type": "tile_N",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "put__locknut__to__pass_bin": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "put__chip_D__to__tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "put__chip_D__to__shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "put__chip_D__to__reject_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_D",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "put__med_bottle__to__pos.y1.x2": {
+   "type": "PLACE",
+   "bound_type": "med_bottle",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "put__locknut__to__cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "locknut",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "table_q1_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q1"
+   ]
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot1"
+   ]
+  },
+  "slot2_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot2_4"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C5"
+   ]
+  },
+  "inspect reject_bin + pass_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_bin",
+    "pass_bin"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_C"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "locknut",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "med_bottle",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "chip_D",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "grain_buckwheat",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tile_N",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "first two quadrants": [
+   "table_Q1",
+   "table_Q2"
+  ],
+  "Q1 or Q3 positions": [
+   "table_Q1",
+   "table_Q3"
+  ],
+  "quadrants 1 through 3": [
+   "table_Q1",
+   "table_Q2",
+   "table_Q3"
+  ],
+  "infeed slot 2 or outfeed slot 1": [
+   "tray_infeed_slot2",
+   "tray_outfeed_slot1"
+  ],
+  "bays A through B": [
+   "bay_A",
+   "bay_B"
+  ],
+  "reject or pass": [
+   "reject_bin",
+   "pass_bin"
+  ]
+ }
+}

@@ -1,0 +1,949 @@
+{
+ "object_locations": [
+  "sorting_table",
+  "collection_bin",
+  "shelf_L3_S2",
+  "shelf_L1_S3",
+  "lane_1_start",
+  "quarter_bin",
+  "shelf_L2_S3",
+  "shelf_L1_S2",
+  "cell_R3C2",
+  "zone_005",
+  "shelf_L3_S3",
+  "conveyor_pick_zone",
+  "lane_1_end",
+  "lane_1_mid",
+  "conveyor_drop_zone",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "chip_E",
+  "cylinder_magenta",
+  "fastener",
+  "protein_chicken",
+  "tube_cyan"
+ ],
+ "positions": {
+  "task/pick/collection_bin/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "task/pick/sorting_table/fastener": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "task/pick/conveyor_drop_zone/fastener": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/pick/lane_1_start/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/fastener": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/lane_1_mid/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/zone_005/fastener": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S3/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/quarter_bin/fastener": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "task/pick/collection_bin/fastener": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S3/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/sorting_table/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "task/pick/conveyor_pick_zone/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/fastener": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/pick/conveyor_drop_zone/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S3/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/conveyor_drop_zone/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/lane_1_mid/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "task/pick/lane_1_end/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "task/pick/zone_005/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "task/pick/quarter_bin/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L3_S2/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S3/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "task/pick/zone_005/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "task/pick/sorting_table/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "task/pick/collection_bin/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L1_S2/tube_cyan": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "task/pick/conveyor_drop_zone/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "task/pick/shelf_L2_S2/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "task/pick/conveyor_drop_zone/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "task/pick/cell_R3C2/protein_chicken": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "task/pick/lane_1_end/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "task/pick/zone_005/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "task/pick/quarter_bin/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "task/pick/collection_bin/chip_E": {
+   "type": "PICK",
+   "bound_type": "chip_E",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "task/pick/quarter_bin/cylinder_magenta": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--collection_bin": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:fastener:LOC:sorting_table": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "--release--fastener--at--conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "placechip_Eshelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "--release--tube_cyan--at--lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "--release--fastener--at--shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--lane_1_mid": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:tube_cyan:LOC:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:fastener:LOC:zone_005": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "placeprotein_chickenshelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:protein_chicken:LOC:shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "placefastenerquarter_bin": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "--release--fastener--at--collection_bin": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "placeprotein_chickenshelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "placetube_cyanshelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "--release--tube_cyan--at--sorting_table": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "--release--chip_E--at--conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:fastener:LOC:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:protein_chicken:LOC:conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--release--chip_E--at--shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:protein_chicken:LOC:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "placetube_cyanconveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--release--tube_cyan--at--shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "--release--cylinder_magenta--at--lane_1_mid": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:protein_chicken:LOC:lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--zone_005": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--quarter_bin": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "placechip_Eshelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "placecylinder_magentashelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "placetube_cyanzone_005": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_E:LOC:sorting_table": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "sorting_table",
+   "observable_locations": null
+  },
+  "--release--tube_cyan--at--collection_bin": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "placeprotein_chickenshelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "--release--tube_cyan--at--shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "placechip_Econveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:chip_E:LOC:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "placecylinder_magentaconveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "CMD:UNGRIP:protein_chicken:LOC:cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "placechip_Elane_1_end": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "placechip_Ezone_005": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "placechip_Equarter_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "placechip_Ecollection_bin": {
+   "type": "PLACE",
+   "bound_type": "chip_E",
+   "bound_location": "collection_bin",
+   "observable_locations": null
+  },
+  "placecylinder_magentaquarter_bin": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "quarter_bin",
+   "observable_locations": null
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_005"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C2"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_mid"
+   ]
+  },
+  "scan dime_bin & quarter_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "quarter_bin"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S2",
+    "shelf_L1_S3"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S2",
+    "shelf_L2_S3"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S2",
+    "shelf_L3_S3"
+   ]
+  },
+  "look at collection_bin & sorting_table": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "collection_bin",
+    "sorting_table"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "chip_E",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "somewhere on the lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ],
+  "collection or sorting areas": [
+   "collection_bin",
+   "sorting_table"
+  ]
+ }
+}

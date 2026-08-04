@@ -1,0 +1,1457 @@
+{
+ "object_locations": [
+  "palette_well_6",
+  "pos.y2.x3",
+  "pos.y1.x3",
+  "palette_well_3",
+  "drawer_small_parts",
+  "parcelPalette-2.1.1",
+  "parcelPalette-2.3.1",
+  "palette_well_4",
+  "parcelPalette-2.3.2",
+  "parcelPalette-2.1.2",
+  "dispenser_B",
+  "parcelPalette-2.2.1",
+  "parcelPalette-3.3.1",
+  "parcelPalette-2.2.2",
+  "workbench_A1",
+  "station_gamma",
+  "tray_infeed_slot1",
+  "Ext-Yard-ZoneQ9",
+  "palette_well_5",
+  "pos.y0.x3"
+ ],
+ "object_types": [
+  "ovum",
+  "grain_rice",
+  "hex_nut",
+  "tag",
+  "module1",
+  "pearl_ball",
+  "box_large"
+ ],
+ "positions": {
+  "--grasp--module1--at--palette_well_4": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "--grasp--tag--at--pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "--grasp--ovum--at--parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "ns:palette_well_4:item:tag:action:pick": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "ns:drawer_small_parts:item:box_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "ns:palette_well_4:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "--grasp--ovum--at--parcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "ns:palette_well_3:item:module1:action:pick": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--hex_nut--at--Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "--grasp--module1--at--parcelPalette-2.1.2": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "--grasp--ovum--at--palette_well_6": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "robot/pickup-hex_nut-at-parcelPalette-2.3.2": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "ns:drawer_small_parts:item:hex_nut:action:pick": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "--grasp--box_large--at--pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "--grasp--pearl_ball--at--palette_well_5": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-2.1.1:item:module1:action:pick": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "--grasp--grain_rice--at--pos.y0.x3": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-2.1.1:item:tag:action:pick": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "ns:pos.y0.x3:item:module1:action:pick": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ns:palette_well_4:item:box_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "--grasp--box_large--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "robot/pickup-ovum-at-Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "ns:station_gamma:item:tag:action:pick": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "--grasp--hex_nut--at--parcelPalette-2.2.2": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "--grasp--hex_nut--at--workbench_A1": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "--grasp--tag--at--parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_rice-at-parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "robot/pickup-pearl_ball-at-parcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "ns:tray_infeed_slot1:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "robot/pickup-pearl_ball-at-palette_well_6": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "robot/pickup-pearl_ball-at-dispenser_B": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ns:pos.y0.x3:item:box_large:action:pick": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "--grasp--module1--at--palette_well_5": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "--grasp--box_large--at--parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "--grasp--ovum--at--parcelPalette-2.2.2": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "--grasp--ovum--at--workbench_A1": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "robot/pickup-ovum-at-pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "robot/pickup-tag-at-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/pickup-ovum-at-pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "--grasp--hex_nut--at--parcelPalette-2.1.2": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "--grasp--box_large--at--parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "--grasp--pearl_ball--at--Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "--grasp--pearl_ball--at--parcelPalette-2.3.2": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_rice-at-parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "--grasp--hex_nut--at--parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "--grasp--tag--at--parcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "robot/pickup-ovum-at-palette_well_3": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "ns:palette_well_6:item:module1:action:pick": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "ns:palette_well_6:item:tag:action:pick": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "robot/pickup-pearl_ball-at-parcelPalette-2.2.2": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "ns:tray_infeed_slot1:item:hex_nut:action:pick": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-2.1.1:item:ovum:action:pick": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "--grasp--pearl_ball--at--pos.y2.x3": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "robot/pickup-module1-at-Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "--grasp--ovum--at--station_gamma": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "--grasp--tag--at--Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "--grasp--ovum--at--parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-2.3.2:item:grain_rice:action:pick": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "robot/pickup-grain_rice-at-Ext-Yard-ZoneQ9": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "--grasp--module1--at--drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "robot/pickup-hex_nut-at-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "robot/pickup-tag-at-drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "--grasp--box_large--at--dispenser_B": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "robot/pickup-pearl_ball-at-palette_well_3": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--box_large--at--parcelPalette-2.2.1": {
+   "type": "PICK",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-2.1.2:item:pearl_ball:action:pick": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "robot/pickup-hex_nut-at-parcelPalette-2.3.1": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "robot/pickup-ovum-at-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "ovum",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "--grasp--module1--at--workbench_A1": {
+   "type": "PICK",
+   "bound_type": "module1",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "--grasp--pearl_ball--at--parcelPalette-2.1.1": {
+   "type": "PICK",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "--grasp--tag--at--pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "tag",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "ns:dispenser_B:item:hex_nut:action:pick": {
+   "type": "PICK",
+   "bound_type": "hex_nut",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "palette_well_4_module1_deposit": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "pos.y2.x3_tag_deposit": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "store:ovum:parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "store:tag:palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "store:box_large:drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "store:grain_rice:palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.1_ovum_deposit": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "store:module1:palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneQ9_hex_nut_deposit": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "store:module1:parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "store:ovum:palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "parcelPalette-2.3.2_hex_nut_deposit": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "drawer_small_parts_hex_nut_deposit": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "store:box_large:pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "palette_well_5_pearl_ball_deposit": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1_module1_deposit": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "store:grain_rice:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1_tag_deposit": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "store:module1:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "store:box_large:palette_well_4": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "palette_well_4",
+   "observable_locations": null
+  },
+  "palette_well_3_box_large_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneQ9_ovum_deposit": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "store:tag:station_gamma": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "store:hex_nut:parcelPalette-2.2.2": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "store:hex_nut:workbench_A1": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1_tag_deposit": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1_grain_rice_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.1_pearl_ball_deposit": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "store:grain_rice:tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "palette_well_6_pearl_ball_deposit": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "store:pearl_ball:dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "store:box_large:pos.y0.x3": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "store:module1:palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1_box_large_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.2_ovum_deposit": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "workbench_A1_ovum_deposit": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "pos.y2.x3_ovum_deposit": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "store:tag:palette_well_5": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "store:ovum:pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "store:hex_nut:parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1_box_large_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneQ9_pearl_ball_deposit": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "parcelPalette-2.3.2_pearl_ball_deposit": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "parcelPalette-2.3.1_grain_rice_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.1_hex_nut_deposit": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.1_tag_deposit": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "store:ovum:palette_well_3": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "store:module1:palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "store:tag:palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "store:pearl_ball:parcelPalette-2.2.2": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.2.2",
+   "observable_locations": null
+  },
+  "store:hex_nut:tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "store:ovum:parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "pos.y2.x3_pearl_ball_deposit": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "store:module1:Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "store:ovum:station_gamma": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "store:tag:Ext-Yard-ZoneQ9": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1_ovum_deposit": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-2.3.2_grain_rice_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "parcelPalette-2.3.2",
+   "observable_locations": null
+  },
+  "Ext-Yard-ZoneQ9_grain_rice_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "Ext-Yard-ZoneQ9",
+   "observable_locations": null
+  },
+  "store:module1:drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "palette_well_5_hex_nut_deposit": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "drawer_small_parts_tag_deposit": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "dispenser_B_box_large_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "palette_well_3_pearl_ball_deposit": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "parcelPalette-2.2.1_box_large_deposit": {
+   "type": "PLACE",
+   "bound_type": "box_large",
+   "bound_location": "parcelPalette-2.2.1",
+   "observable_locations": null
+  },
+  "store:pearl_ball:parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "store:hex_nut:parcelPalette-2.3.1": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "parcelPalette-2.3.1",
+   "observable_locations": null
+  },
+  "palette_well_5_ovum_deposit": {
+   "type": "PLACE",
+   "bound_type": "ovum",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "workbench_A1_module1_deposit": {
+   "type": "PLACE",
+   "bound_type": "module1",
+   "bound_location": "workbench_A1",
+   "observable_locations": null
+  },
+  "store:pearl_ball:parcelPalette-2.1.1": {
+   "type": "PLACE",
+   "bound_type": "pearl_ball",
+   "bound_location": "parcelPalette-2.1.1",
+   "observable_locations": null
+  },
+  "store:tag:pos.y1.x3": {
+   "type": "PLACE",
+   "bound_type": "tag",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "store:hex_nut:dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "hex_nut",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "look at workbench_A1 & workbench_A2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "workbench_A1"
+   ]
+  },
+  "peek drawer_small_parts": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_small_parts"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot1"
+   ]
+  },
+  "look at station_gamma": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_gamma"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x3"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x3"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_B"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_3",
+    "palette_well_4",
+    "palette_well_5",
+    "palette_well_6"
+   ]
+  },
+  "Crane_Camera_Ext_Yard_Zones_P9_Q9_R9": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Ext-Yard-ZoneQ9"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.1",
+    "parcelPalette-2.1.2",
+    "parcelPalette-2.2.1",
+    "parcelPalette-2.2.2",
+    "parcelPalette-2.3.1",
+    "parcelPalette-2.3.2"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.3.1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "ovum",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "hex_nut",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tag",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "module1",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "pearl_ball",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "box_large",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "workbench A1 or the drawer": [
+   "workbench_A1",
+   "drawer_small_parts"
+  ],
+  "any pos with x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "poses x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "from wells 4 or 5": [
+   "palette_well_4",
+   "palette_well_5"
+  ],
+  "somewhere in the middle wells (3-6)": [
+   "palette_well_3",
+   "palette_well_4",
+   "palette_well_5",
+   "palette_well_6"
+  ],
+  "pallettes2 ": [
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.1.2",
+   "parcelPalette-2.2.1",
+   "parcelPalette-2.2.2",
+   "parcelPalette-2.3.1",
+   "parcelPalette-2.3.2"
+  ],
+  "Palettes 1st index 2, 2nd index 1": [
+   "parcelPalette-2.1.1",
+   "parcelPalette-2.1.2"
+  ],
+  "Palettes 2 something 2 something": [
+   "parcelPalette-2.2.1",
+   "parcelPalette-2.2.2"
+  ],
+  "Palettes block[2.3.*]": [
+   "parcelPalette-2.3.1",
+   "parcelPalette-2.3.2"
+  ]
+ }
+}

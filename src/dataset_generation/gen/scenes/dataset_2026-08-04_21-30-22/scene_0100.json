@@ -1,0 +1,1796 @@
+{
+ "object_locations": [
+  "finished_stack",
+  "binB_101",
+  "hook_6",
+  "hook_5",
+  "hook_4",
+  "zone_010",
+  "zone_002",
+  "furnace_mouth",
+  "pos.y0.x3",
+  "conveyor_pick_zone",
+  "Node40.01",
+  "shelf_L3_S3",
+  "lane_1_end",
+  "pos.y0.x1",
+  "pos.y0.x2",
+  "conveyor_drop_zone",
+  "pos.y0.x0"
+ ],
+ "object_types": [
+  "clay_block",
+  "buffer_vessel",
+  "concrete_mix_bag",
+  "package_oversized",
+  "brush_fine",
+  "reagent_tube",
+  "zinc_ingot",
+  "coin_quarter",
+  "coin_half_dollar",
+  "marker_F"
+ ],
+ "positions": {
+  "ACQUIRE/zone_010/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_1_end/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_1_end/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/binB_101/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ACQUIRE/Node40.01/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x1/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "ACQUIRE/binB_101/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x1/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_4/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/furnace_mouth/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "ACQUIRE/finished_stack/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_010/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/Node40.01/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/conveyor_pick_zone/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x2/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x1/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_4/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_1_end/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/Node40.01/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "ACQUIRE/finished_stack/reagent_tube": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "ACQUIRE/furnace_mouth/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_002/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ACQUIRE/binB_101/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_002/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_1_end/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x1/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_5/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/binB_101/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/reagent_tube": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x1/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_4/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_5/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_010/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/Node40.01/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x2/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_002/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ACQUIRE/conveyor_drop_zone/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_010/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/conveyor_drop_zone/buffer_vessel": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "ACQUIRE/Node40.01/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_1_end/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/binB_101/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x1/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "ACQUIRE/binB_101/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x2/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_1_end/reagent_tube": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_4/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/furnace_mouth/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/furnace_mouth/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/buffer_vessel": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/conveyor_pick_zone/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "ACQUIRE/furnace_mouth/reagent_tube": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_6/reagent_tube": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_002/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x2/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_010/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S3/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/finished_stack/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_5/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/finished_stack/coin_quarter": {
+   "type": "PICK",
+   "bound_type": "coin_quarter",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_5/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_5/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x0/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "ACQUIRE/lane_1_end/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_5/buffer_vessel": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_010/concrete_mix_bag": {
+   "type": "PICK",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x3/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x0/buffer_vessel": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "ACQUIRE/binB_101/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x0/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x1/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "ACQUIRE/hook_4/marker_F": {
+   "type": "PICK",
+   "bound_type": "marker_F",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x2/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S3/brush_fine": {
+   "type": "PICK",
+   "bound_type": "brush_fine",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x2/buffer_vessel": {
+   "type": "PICK",
+   "bound_type": "buffer_vessel",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/finished_stack/coin_half_dollar": {
+   "type": "PICK",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "ACQUIRE/shelf_L3_S3/package_oversized": {
+   "type": "PICK",
+   "bound_type": "package_oversized",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y0.x2/reagent_tube": {
+   "type": "PICK",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_010/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "ACQUIRE/finished_stack/clay_block": {
+   "type": "PICK",
+   "bound_type": "clay_block",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "ACQUIRE/Node40.01/zinc_ingot": {
+   "type": "PICK",
+   "bound_type": "zinc_ingot",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.coin_quarter.release": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x3.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "[lane_1_end][zinc_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "[lane_1_end][coin_quarter]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "[binB_101][zinc_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "zone.Node40.01.item.concrete_mix_bag.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "[pos.y0.x1][zinc_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "[binB_101][coin_quarter]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x1.item.coin_quarter.release": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "zone.hook_4.item.coin_quarter.release": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "zone.furnace_mouth.item.zinc_ingot.release": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "[finished_stack][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.Node40.01.item.package_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "zone.hook_6.item.coin_quarter.release": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "[conveyor_pick_zone][coin_quarter]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x2.item.marker_F.release": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x1.item.concrete_mix_bag.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "[hook_4][concrete_mix_bag]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "zone.lane_1_end.item.package_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "[Node40.01][clay_block]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "zone.finished_stack.item.reagent_tube.release": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "zone.furnace_mouth.item.concrete_mix_bag.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "zone.hook_6.item.concrete_mix_bag.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.zone_002.item.zinc_ingot.release": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "[binB_101][package_oversized]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "zone.zone_002.item.coin_quarter.release": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone.lane_1_end.item.clay_block.release": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x1.item.package_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "[pos.y0.x3][marker_F]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "zone.hook_5.item.zinc_ingot.release": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "zone.binB_101.item.clay_block.release": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x3.item.reagent_tube.release": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "zone.hook_6.item.package_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x1.item.clay_block.release": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "zone.hook_4.item.clay_block.release": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "[hook_5][coin_quarter]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "zone.hook_6.item.clay_block.release": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.zone_010.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "[Node40.01][coin_half_dollar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "[pos.y0.x2][zinc_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "zone.zone_002.item.package_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "zone.conveyor_drop_zone.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "[zone_010][marker_F]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.conveyor_drop_zone.item.buffer_vessel.release": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "zone.Node40.01.item.marker_F.release": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "[lane_1_end][coin_half_dollar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "[binB_101][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x1.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "zone.binB_101.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x2.item.concrete_mix_bag.release": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "[lane_1_end][reagent_tube]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "[hook_4][coin_half_dollar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "[pos.y0.x3][zinc_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "zone.furnace_mouth.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "[hook_6][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x3.item.coin_quarter.release": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "zone.furnace_mouth.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "[hook_6][coin_half_dollar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.hook_6.item.buffer_vessel.release": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.conveyor_pick_zone.item.marker_F.release": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "[furnace_mouth][reagent_tube]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "[hook_6][reagent_tube]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "hook_6",
+   "observable_locations": null
+  },
+  "zone.zone_002.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "zone_002",
+   "observable_locations": null
+  },
+  "[pos.y0.x2][clay_block]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "[zone_010][zinc_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.shelf_L3_S3.item.clay_block.release": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "zone.finished_stack.item.zinc_ingot.release": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "zone.hook_5.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "[finished_stack][coin_quarter]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_quarter",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "zone.hook_5.item.coin_half_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "[hook_5][package_oversized]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x0.item.brush_fine.release": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "[lane_1_end][marker_F]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "[hook_5][buffer_vessel]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "[zone_010][concrete_mix_bag]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "concrete_mix_bag",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "[pos.y0.x3][clay_block]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "[pos.y0.x0][buffer_vessel]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "zone.binB_101.item.marker_F.release": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "[pos.y0.x0][marker_F]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x0",
+   "observable_locations": null
+  },
+  "[pos.y0.x1][marker_F]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "pos.y0.x1",
+   "observable_locations": null
+  },
+  "[hook_4][marker_F]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "marker_F",
+   "bound_location": "hook_4",
+   "observable_locations": null
+  },
+  "zone.pos.y0.x2.item.package_oversized.release": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "[shelf_L3_S3][brush_fine]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "brush_fine",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "[pos.y0.x2][buffer_vessel]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "buffer_vessel",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "[finished_stack][coin_half_dollar]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "coin_half_dollar",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "[shelf_L3_S3][package_oversized]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "package_oversized",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "[pos.y0.x2][reagent_tube]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "reagent_tube",
+   "bound_location": "pos.y0.x2",
+   "observable_locations": null
+  },
+  "[zone_010][clay_block]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.finished_stack.item.clay_block.release": {
+   "type": "PLACE",
+   "bound_type": "clay_block",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "[Node40.01][zinc_ingot]_PUTDOWN": {
+   "type": "PLACE",
+   "bound_type": "zinc_ingot",
+   "bound_location": "Node40.01",
+   "observable_locations": null
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101"
+   ]
+  },
+  "view zone_001 zone_002 zone_003": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_002"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x0",
+    "pos.y0.x1",
+    "pos.y0.x2",
+    "pos.y0.x3"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_4",
+    "hook_5",
+    "hook_6"
+   ]
+  },
+  "monitor furnace_mouth": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "furnace_mouth"
+   ]
+  },
+  "view finished_stack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "finished_stack"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_end"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S3"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.01"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "conveyor_wait_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "heat_safe_distance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "clay_block",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "buffer_vessel",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "concrete_mix_bag",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "package_oversized",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "brush_fine",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "reagent_tube",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "zinc_ingot",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "coin_quarter",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "coin_half_dollar",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "marker_F",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "any pos with y0": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y0.x2",
+   "pos.y0.x3"
+  ],
+  "poses with y0": [
+   "pos.y0.x0",
+   "pos.y0.x1",
+   "pos.y0.x2",
+   "pos.y0.x3"
+  ],
+  "hooks 4 through 6": [
+   "hook_4",
+   "hook_5",
+   "hook_6"
+  ],
+  "furnace or stack": [
+   "furnace_mouth",
+   "finished_stack"
+  ]
+ }
+}

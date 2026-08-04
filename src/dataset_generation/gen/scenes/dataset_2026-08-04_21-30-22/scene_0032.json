@@ -1,0 +1,1384 @@
+{
+ "object_locations": [
+  "palette_well_3",
+  "slot3_2",
+  "clearingquadrantBETA",
+  "clearingquadrantALPHA",
+  "tray_infeed_slot2",
+  "slot3_3",
+  "slot3_1",
+  "input_chute",
+  "inspection_pad",
+  "cell_R4C2",
+  "conveyor_drop_zone",
+  "reject_slot"
+ ],
+ "object_types": [
+  "pvc_pipe",
+  "marker_A",
+  "cover",
+  "sovereign",
+  "seasoning_salt",
+  "roller_blue",
+  "parcel_overnight",
+  "chip_type_P",
+  "castle"
+ ],
+ "positions": {
+  "--grasp--castle--at--slot3_3": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--inspection_pad": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_P--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--input_chute": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--slot3_3": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--slot3_3": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--inspection_pad": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--slot3_1": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--slot3_2": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--slot3_2": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--inspection_pad": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--slot3_1": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--slot3_1": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--slot3_2": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_P--at--tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "--grasp--parcel_overnight--at--cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--input_chute": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--input_chute": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--parcel_overnight--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--slot3_3": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "--grasp--parcel_overnight--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--parcel_overnight--at--clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "--grasp--parcel_overnight--at--slot3_3": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--slot3_3": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--inspection_pad": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--grasp--parcel_overnight--at--tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_P--at--slot3_2": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_P--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--grasp--castle--at--slot3_1": {
+   "type": "PICK",
+   "bound_type": "castle",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "--grasp--sovereign--at--tray_infeed_slot2": {
+   "type": "PICK",
+   "bound_type": "sovereign",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "--grasp--pvc_pipe--at--cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "--grasp--marker_A--at--slot3_1": {
+   "type": "PICK",
+   "bound_type": "marker_A",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_P--at--cell_R4C2": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_P--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--chip_type_P--at--clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "chip_type_P",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--reject_slot": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--input_chute": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "--grasp--parcel_overnight--at--input_chute": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "--grasp--cover--at--palette_well_3": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "--grasp--roller_blue--at--clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#slot3_3/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "#reject_slot/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#inspection_pad/#seasoning_salt/leave": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#chip_type_P/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#pvc_pipe/leave": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#reject_slot/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#input_chute/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#cover/leave": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#cover/leave": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#slot3_3/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#slot3_3/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "#inspection_pad/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "#slot3_1/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#slot3_2/#seasoning_salt/leave": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "#slot3_2/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "#inspection_pad/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "#slot3_1/#pvc_pipe/leave": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#slot3_1/#cover/leave": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#slot3_2/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#chip_type_P/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#parcel_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#conveyor_drop_zone/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "#conveyor_drop_zone/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#reject_slot/#pvc_pipe/leave": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#conveyor_drop_zone/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "#input_chute/#pvc_pipe/leave": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#input_chute/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#reject_slot/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#reject_slot/#parcel_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#palette_well_3/#seasoning_salt/leave": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#seasoning_salt/leave": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#slot3_3/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "#palette_well_3/#parcel_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#parcel_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#slot3_3/#parcel_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "#slot3_3/#cover/leave": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "#reject_slot/#cover/leave": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#palette_well_3/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "#inspection_pad/#pvc_pipe/leave": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "inspection_pad",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#palette_well_3/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#seasoning_salt/leave": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#parcel_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#slot3_2/#chip_type_P/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "#reject_slot/#chip_type_P/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#slot3_1/#castle/leave": {
+   "type": "PLACE",
+   "bound_type": "castle",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#tray_infeed_slot2/#sovereign/leave": {
+   "type": "PLACE",
+   "bound_type": "sovereign",
+   "bound_location": "tray_infeed_slot2",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#pvc_pipe/leave": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#slot3_1/#marker_A/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_A",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "#cell_R4C2/#chip_type_P/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "#conveyor_drop_zone/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "#conveyor_drop_zone/#cover/leave": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "#palette_well_3/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#palette_well_3/#chip_type_P/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "#clearingquadrantALPHA/#chip_type_P/leave": {
+   "type": "PLACE",
+   "bound_type": "chip_type_P",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "#reject_slot/#seasoning_salt/leave": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#input_chute/#seasoning_salt/leave": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#input_chute/#parcel_overnight/leave": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "input_chute",
+   "observable_locations": null
+  },
+  "#palette_well_3/#cover/leave": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "#clearingquadrantBETA/#roller_blue/leave": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot2"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "inspection_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "inspection_pad"
+   ]
+  },
+  "slot3_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot3_1",
+    "slot3_2",
+    "slot3_3"
+   ]
+  },
+  "clearingquadrantALPHA Overwiew": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantALPHA"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C2"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_3"
+   ]
+  },
+  "watch input_chute": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "input_chute"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "conveyor_wait_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "marker_A",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "sovereign",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chip_type_P",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "castle",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "castle",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "drop zone or inspection pad": [
+   "conveyor_drop_zone",
+   "inspection_pad"
+  ],
+  "third bin any slot except last": [
+   "slot3_1",
+   "slot3_2",
+   "slot3_3"
+  ],
+  "alpha or beta clearing quadrant": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "first or second cleaning disposals": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "somewhere in the input or reject slots": [
+   "input_chute",
+   "reject_slot"
+  ]
+ }
+}

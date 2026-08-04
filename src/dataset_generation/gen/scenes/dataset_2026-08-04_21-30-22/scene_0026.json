@@ -1,0 +1,1699 @@
+{
+ "object_locations": [
+  "pot_small",
+  "pot_medium",
+  "pot_large",
+  "burner_front_left",
+  "burner_front_right",
+  "burner_back_left",
+  "burner_back_right",
+  "prep_board",
+  "sink_basin"
+ ],
+ "object_types": [
+  "vegetable_carrot",
+  "vegetable_potato",
+  "vegetable_onion",
+  "vegetable_celery",
+  "protein_chicken",
+  "protein_beef",
+  "protein_tofu",
+  "seasoning_salt",
+  "seasoning_pepper",
+  "liquid_broth"
+ ],
+ "positions": {
+  "--grasp--vegetable_carrot--at--pot_small": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_carrot--at--pot_medium": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "pot_large.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_carrot--at--burner_front_left": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "burner_front_right.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_carrot--at--burner_back_left": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_right.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "prep_board.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "sink_basin.item.vegetable_carrot.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "pot_small.item.vegetable_potato.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_potato--at--pot_medium": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "pot_large.item.vegetable_potato.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "burner_front_left.item.vegetable_potato.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "burner_front_right.item.vegetable_potato.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "burner_back_left.item.vegetable_potato.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_right.item.vegetable_potato.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "prep_board.item.vegetable_potato.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_potato--at--sink_basin": {
+   "type": "PICK",
+   "bound_type": "vegetable_potato",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "pot_small.item.vegetable_onion.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium.item.vegetable_onion.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "pot_large.item.vegetable_onion.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_onion--at--burner_front_left": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_onion--at--burner_front_right": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_onion--at--burner_back_left": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_onion--at--burner_back_right": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "prep_board.item.vegetable_onion.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "sink_basin.item.vegetable_onion.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_onion",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_celery--at--pot_small": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_celery--at--pot_medium": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "pot_large.item.vegetable_celery.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "burner_front_left.item.vegetable_celery.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_celery--at--burner_front_right": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "burner_back_left.item.vegetable_celery.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_right.item.vegetable_celery.acquire": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_celery--at--prep_board": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--grasp--vegetable_celery--at--sink_basin": {
+   "type": "PICK",
+   "bound_type": "vegetable_celery",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "pot_small.item.protein_chicken.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium.item.protein_chicken.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--grasp--protein_chicken--at--pot_large": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "--grasp--protein_chicken--at--burner_front_left": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--grasp--protein_chicken--at--burner_front_right": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--grasp--protein_chicken--at--burner_back_left": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_right.item.protein_chicken.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--grasp--protein_chicken--at--prep_board": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "sink_basin.item.protein_chicken.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_chicken",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "pot_small.item.protein_beef.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium.item.protein_beef.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--grasp--protein_beef--at--pot_large": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "--grasp--protein_beef--at--burner_front_left": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--grasp--protein_beef--at--burner_front_right": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--grasp--protein_beef--at--burner_back_left": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_right.item.protein_beef.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "prep_board.item.protein_beef.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "sink_basin.item.protein_beef.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_beef",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--protein_tofu--at--pot_small": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium.item.protein_tofu.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "pot_large.item.protein_tofu.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "burner_front_left.item.protein_tofu.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--grasp--protein_tofu--at--burner_front_right": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--grasp--protein_tofu--at--burner_back_left": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--grasp--protein_tofu--at--burner_back_right": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "prep_board.item.protein_tofu.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "sink_basin.item.protein_tofu.acquire": {
+   "type": "PICK",
+   "bound_type": "protein_tofu",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--pot_small": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--pot_large": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--burner_front_left": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--burner_front_right": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "burner_back_left.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_right.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_salt--at--prep_board": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "sink_basin.item.seasoning_salt.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_salt",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_pepper--at--pot_small": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium.item.seasoning_pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_pepper--at--pot_large": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "burner_front_left.item.seasoning_pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "burner_front_right.item.seasoning_pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "burner_back_left.item.seasoning_pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "burner_back_right.item.seasoning_pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "prep_board.item.seasoning_pepper.acquire": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "--grasp--seasoning_pepper--at--sink_basin": {
+   "type": "PICK",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--grasp--liquid_broth--at--pot_small": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium.item.liquid_broth.acquire": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "pot_large.item.liquid_broth.acquire": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "burner_front_left.item.liquid_broth.acquire": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--grasp--liquid_broth--at--burner_front_right": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--grasp--liquid_broth--at--burner_back_left": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--grasp--liquid_broth--at--burner_back_right": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "prep_board.item.liquid_broth.acquire": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "sink_basin.item.liquid_broth.acquire": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "task/place/pot_small/vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--vegetable_carrot--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--vegetable_carrot--at--pot_large": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "ns:burner_front_left:item:vegetable_carrot:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ns:burner_front_right:item:vegetable_carrot:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--release--vegetable_carrot--at--burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--release--vegetable_carrot--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "ns:prep_board:item:vegetable_carrot:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "task/place/sink_basin/vegetable_carrot": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "ns:pot_small:item:vegetable_potato:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--vegetable_potato--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--vegetable_potato--at--pot_large": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "task/place/burner_front_left/vegetable_potato": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--release--vegetable_potato--at--burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/vegetable_potato": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "task/place/burner_back_right/vegetable_potato": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--vegetable_potato--at--prep_board": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "ns:sink_basin:item:vegetable_potato:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_potato",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--release--vegetable_onion--at--pot_small": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/place/pot_medium/vegetable_onion": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "ns:pot_large:item:vegetable_onion:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "ns:burner_front_left:item:vegetable_onion:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ns:burner_front_right:item:vegetable_onion:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ns:burner_back_left:item:vegetable_onion:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "ns:burner_back_right:item:vegetable_onion:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "ns:prep_board:item:vegetable_onion:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "task/place/sink_basin/vegetable_onion": {
+   "type": "PLACE",
+   "bound_type": "vegetable_onion",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "ns:pot_small:item:vegetable_celery:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "ns:pot_medium:item:vegetable_celery:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "ns:pot_large:item:vegetable_celery:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "task/place/burner_front_left/vegetable_celery": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--release--vegetable_celery--at--burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/vegetable_celery": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--release--vegetable_celery--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "task/place/prep_board/vegetable_celery": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "ns:sink_basin:item:vegetable_celery:action:place": {
+   "type": "PLACE",
+   "bound_type": "vegetable_celery",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--pot_small": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--pot_large": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "ns:burner_front_left:item:protein_chicken:action:place": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "task/place/burner_front_right/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "ns:burner_back_right:item:protein_chicken:action:place": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--protein_chicken--at--prep_board": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "task/place/sink_basin/protein_chicken": {
+   "type": "PLACE",
+   "bound_type": "protein_chicken",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "task/place/pot_small/protein_beef": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--protein_beef--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--protein_beef--at--pot_large": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "--release--protein_beef--at--burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ns:burner_front_right:item:protein_beef:action:place": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/protein_beef": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--release--protein_beef--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "task/place/prep_board/protein_beef": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "task/place/sink_basin/protein_beef": {
+   "type": "PLACE",
+   "bound_type": "protein_beef",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--release--protein_tofu--at--pot_small": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "--release--protein_tofu--at--pot_medium": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "--release--protein_tofu--at--pot_large": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "task/place/burner_front_left/protein_tofu": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "--release--protein_tofu--at--burner_front_right": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "task/place/burner_back_left/protein_tofu": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "ns:burner_back_right:item:protein_tofu:action:place": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--protein_tofu--at--prep_board": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "task/place/sink_basin/protein_tofu": {
+   "type": "PLACE",
+   "bound_type": "protein_tofu",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "ns:pot_small:item:seasoning_salt:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/place/pot_medium/seasoning_salt": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "ns:pot_large:item:seasoning_salt:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "ns:burner_front_left:item:seasoning_salt:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "task/place/burner_front_right/seasoning_salt": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--release--seasoning_salt--at--burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "task/place/burner_back_right/seasoning_salt": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--seasoning_salt--at--prep_board": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "ns:sink_basin:item:seasoning_salt:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_salt",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "--release--seasoning_pepper--at--pot_small": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/place/pot_medium/seasoning_pepper": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "ns:pot_large:item:seasoning_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "--release--seasoning_pepper--at--burner_front_left": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "task/place/burner_front_right/seasoning_pepper": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "ns:burner_back_left:item:seasoning_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--release--seasoning_pepper--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "ns:prep_board:item:seasoning_pepper:action:place": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "task/place/sink_basin/seasoning_pepper": {
+   "type": "PLACE",
+   "bound_type": "seasoning_pepper",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "ns:pot_small:item:liquid_broth:action:place": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/place/pot_medium/liquid_broth": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "ns:pot_large:item:liquid_broth:action:place": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "ns:burner_front_left:item:liquid_broth:action:place": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_front_left",
+   "observable_locations": null
+  },
+  "ns:burner_front_right:item:liquid_broth:action:place": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_front_right",
+   "observable_locations": null
+  },
+  "--release--liquid_broth--at--burner_back_left": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "--release--liquid_broth--at--burner_back_right": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "burner_back_right",
+   "observable_locations": null
+  },
+  "--release--liquid_broth--at--prep_board": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "ns:sink_basin:item:liquid_broth:action:place": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "sink_basin",
+   "observable_locations": null
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_front_right",
+    "burner_back_left",
+    "burner_back_right"
+   ]
+  },
+  "look at prep_board & sink_basin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "prep_board",
+    "sink_basin"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium",
+    "pot_large"
+   ]
+  },
+  "view burner_front_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_front_left",
+    "burner_front_right"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "vegetable_potato",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "vegetable_onion",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "vegetable_celery",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "protein_chicken",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "protein_beef",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "protein_tofu",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "seasoning_salt",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "seasoning_pepper",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "pot small|medium|large": [
+   "pot_small",
+   "pot_medium",
+   "pot_large"
+  ],
+  "burner front+back": [
+   "burner_front_left",
+   "burner_front_right",
+   "burner_back_left",
+   "burner_back_right"
+  ],
+  "front burners": [
+   "burner_front_left",
+   "burner_front_right"
+  ],
+  "back burners": [
+   "burner_back_left",
+   "burner_back_right"
+  ],
+  "burners on the left": [
+   "burner_front_left",
+   "burner_back_left"
+  ],
+  "burners on the right": [
+   "burner_front_right",
+   "burner_back_right"
+  ],
+  "prep and cleaning area": [
+   "prep_board",
+   "sink_basin"
+  ],
+  "any pot or the prep board": [
+   "pot_small",
+   "pot_medium",
+   "pot_large",
+   "prep_board"
+  ],
+  "anywhere in the kitchen": [
+   "pot_small",
+   "pot_medium",
+   "pot_large",
+   "burner_front_left",
+   "burner_front_right",
+   "burner_back_left",
+   "burner_back_right",
+   "prep_board",
+   "sink_basin"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ],
+  "medium or large pot": [
+   "pot_medium",
+   "pot_large"
+  ],
+  "any burner or the sink": [
+   "burner_front_left",
+   "burner_front_right",
+   "burner_back_left",
+   "burner_back_right",
+   "sink_basin"
+  ],
+  "front_left or back_right burner": [
+   "burner_front_left",
+   "burner_back_right"
+  ],
+  "the sink or the prep board": [
+   "sink_basin",
+   "prep_board"
+  ]
+ }
+}

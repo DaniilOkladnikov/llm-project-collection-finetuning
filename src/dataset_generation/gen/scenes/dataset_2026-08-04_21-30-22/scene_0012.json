@@ -1,0 +1,918 @@
+{
+ "object_locations": [
+  "tire_bay_RL",
+  "tire_bay_FL",
+  "cell_R1C5",
+  "parcelPalette-3.3.2",
+  "tire_bay_RR",
+  "pos.y1.x2",
+  "pos.y1.x0",
+  "pos.y1.x3",
+  "pos.y1.x1",
+  "reject_slot",
+  "parcelPalette-3.3.1"
+ ],
+ "object_types": [
+  "metal_offcut",
+  "tube_red",
+  "clear_ball",
+  "gizmo",
+  "roller_gray",
+  "tube_yellow"
+ ],
+ "positions": {
+  "#pos.y1.x1/#gizmo/take": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "--grasp--metal_offcut--at--parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "#pos.y1.x2/#clear_ball/take": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:clear_ball:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#reject_slot/#clear_ball/take": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "#pos.y1.x0/#tube_red/take": {
+   "type": "PICK",
+   "bound_type": "tube_red",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "#tire_bay_RR/#metal_offcut/take": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#metal_offcut/take": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "CMD:GRIP:gizmo:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "#cell_R1C5/#clear_ball/take": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "--grasp--metal_offcut--at--pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "#pos.y1.x1/#clear_ball/take": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "--grasp--tube_yellow--at--parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:gizmo:LOC:parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_offcut:LOC:reject_slot": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_gray:LOC:tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#parcelPalette-3.3.2/#tube_red/take": {
+   "type": "PICK",
+   "bound_type": "tube_red",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_offcut:LOC:cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "--grasp--clear_ball--at--pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_gray:LOC:pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_gray:LOC:tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "--grasp--metal_offcut--at--pos.y1.x1": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "#pos.y1.x3/#clear_ball/take": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "--grasp--tube_yellow--at--parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_gray:LOC:reject_slot": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--metal_offcut--at--pos.y1.x0": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "--grasp--clear_ball--at--parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_gray:LOC:cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "--grasp--tube_yellow--at--tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#tire_bay_RL/#gizmo/take": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#tire_bay_RR/#gizmo/take": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_yellow:LOC:pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_yellow:LOC:tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "CMD:GRIP:gizmo:LOC:pos.y1.x2": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "--grasp--tube_red--at--tire_bay_RL": {
+   "type": "PICK",
+   "bound_type": "tube_red",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "#pos.y1.x0/#roller_gray/take": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_yellow:LOC:tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "--grasp--metal_offcut--at--parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "metal_offcut",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "#reject_slot/#gizmo/take": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "CMD:GRIP:clear_ball:LOC:parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "clear_ball",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "#reject_slot/#tube_yellow/take": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "CMD:GRIP:gizmo:LOC:cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "gizmo",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:roller_gray:LOC:pos.y1.x3": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:tube_red:LOC:reject_slot": {
+   "type": "PICK",
+   "bound_type": "tube_red",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "--grasp--roller_gray--at--parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "roller_gray",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x1/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.1/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x2/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x0/tube_red/place": {
+   "type": "PLACE",
+   "bound_type": "tube_red",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RL/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x3/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x2/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x1/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/tube_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RL/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/tube_red/place": {
+   "type": "PLACE",
+   "bound_type": "tube_red",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x0/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x2/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x1/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "pos.y1.x1",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x3/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.1/tube_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x0/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RL/tube_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RL/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x2/tube_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/tube_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x2/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "pos.y1.x2",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RL/tube_red/place": {
+   "type": "PLACE",
+   "bound_type": "tube_red",
+   "bound_location": "tire_bay_RL",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x0/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "pos.y1.x0",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_FL/tube_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/metal_offcut/place": {
+   "type": "PLACE",
+   "bound_type": "metal_offcut",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.1/clear_ball/place": {
+   "type": "PLACE",
+   "bound_type": "clear_ball",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/tube_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/gizmo/place": {
+   "type": "PLACE",
+   "bound_type": "gizmo",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/pos.y1.x3/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "/mnt/reject_slot/tube_red/place": {
+   "type": "PLACE",
+   "bound_type": "tube_red",
+   "bound_location": "reject_slot",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/roller_gray/place": {
+   "type": "PLACE",
+   "bound_type": "roller_gray",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x0",
+    "pos.y1.x1",
+    "pos.y1.x2",
+    "pos.y1.x3"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C5"
+   ]
+  },
+  "peek reject_slot": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_slot"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_RL",
+    "tire_bay_RR"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.3.1",
+    "parcelPalette-3.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sorting_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "metal_offcut",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "tube_red",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "tube_red",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "tube_red",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "tube_red",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "clear_ball",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "gizmo",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "roller_gray",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "poses with y1": [
+   "pos.y1.x0",
+   "pos.y1.x1",
+   "pos.y1.x2",
+   "pos.y1.x3"
+  ],
+  "poses with y1 x0 or y1 x3": [
+   "pos.y1.x0",
+   "pos.y1.x3"
+  ],
+  "rear tire bays (RL and RR)": [
+   "tire_bay_RL",
+   "tire_bay_RR"
+  ],
+  "tire bays on the left (FL and RL)": [
+   "tire_bay_FL",
+   "tire_bay_RL"
+  ],
+  "tire bay FL or RR": [
+   "tire_bay_FL",
+   "tire_bay_RR"
+  ],
+  "Box storages 3... ": [
+   "parcelPalette-3.3.1",
+   "parcelPalette-3.3.2"
+  ]
+ }
+}

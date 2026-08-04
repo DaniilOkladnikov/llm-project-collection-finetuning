@@ -1,0 +1,1251 @@
+{
+ "object_locations": [
+  "tree_7",
+  "tree_9",
+  "palette_well_3",
+  "palette_well_1",
+  "cell_R3C2",
+  "dispenser_A",
+  "tree_5",
+  "dispenser_D",
+  "nest_4",
+  "prep_board",
+  "shelf_L1_S1",
+  "parcelPalette-1.1.1",
+  "tree_8",
+  "nest_5",
+  "tree_10",
+  "tree_6",
+  "palette_well_5",
+  "palette_well_8",
+  "palette_well_7"
+ ],
+ "object_types": [
+  "pawn_piece",
+  "cog",
+  "chip_type_G",
+  "tube_yellow",
+  "steel_block",
+  "all_season_tyre"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=cog&source=tree_8": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "pawn_piece-from-prep_board": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "get__tube_yellow__from__tree_9": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "pawn_piece-from-dispenser_D": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=palette_well_1": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_G&source=tree_8": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tube_yellow&source=tree_6": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "all_season_tyre-from-palette_well_7": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "get__pawn_piece__from__tree_5": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "get__cog__from__nest_5": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "steel_block-from-tree_6": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "get__chip_type_G__from__nest_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cog&source=parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "get__pawn_piece__from__palette_well_5": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tube_yellow&source=palette_well_8": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "get__cog__from__dispenser_D": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=steel_block&source=tree_9": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "all_season_tyre-from-tree_9": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_G&source=parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=tree_10": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "get__cog__from__dispenser_A": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "chip_type_G-from-tree_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "cog-from-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get__tube_yellow__from__shelf_L1_S1": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "get__chip_type_G__from__dispenser_A": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=pawn_piece&source=palette_well_1": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_G&source=nest_4": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "get__chip_type_G__from__cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "steel_block-from-tree_8": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "tube_yellow-from-nest_5": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "steel_block-from-palette_well_3": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=tree_8": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tube_yellow&source=parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cog&source=tree_7": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "tube_yellow-from-tree_5": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "get__steel_block__from__prep_board": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "get__all_season_tyre__from__prep_board": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_G&source=palette_well_1": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "get__all_season_tyre__from__nest_5": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "steel_block-from-parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cog&source=palette_well_7": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "tube_yellow-from-palette_well_5": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=tube_yellow&source=nest_4": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "get__all_season_tyre__from__parcelPalette-1.1.1": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "get__pawn_piece__from__palette_well_8": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "tube_yellow-from-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "get__all_season_tyre__from__dispenser_D": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cog&source=tree_9": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "get__cog__from__tree_6": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=all_season_tyre&source=dispenser_A": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=steel_block&source=dispenser_A": {
+   "type": "PICK",
+   "bound_type": "steel_block",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "get__chip_type_G__from__tree_6": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "chip_type_G-from-tree_9": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=pawn_piece&source=tree_8": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=pawn_piece&source=palette_well_3": {
+   "type": "PICK",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "get__cog__from__tree_10": {
+   "type": "PICK",
+   "bound_type": "cog",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "get__tube_yellow__from__tree_7": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "all_season_tyre-from-cell_R3C2": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_G&source=tree_10": {
+   "type": "PICK",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "tube_yellow-from-palette_well_1": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:prep_board:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "ns:tree_9:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:dispenser_D:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ns:palette_well_1:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:palette_well_7:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "ns:tree_5:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ns:palette_well_5:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "ns:palette_well_8:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "ns:dispenser_D:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ns:tree_9:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:tree_9:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ns:tree_10:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:dispenser_A:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ns:tree_5:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "ns:cell_R3C2:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ns:shelf_L1_S1:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "ns:dispenser_A:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ns:palette_well_1:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ns:cell_R3C2:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:palette_well_3:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ns:tree_7:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:tree_5:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "ns:prep_board:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "ns:prep_board:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "prep_board",
+   "observable_locations": null
+  },
+  "ns:palette_well_1:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ns:palette_well_7:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "ns:palette_well_5:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "palette_well_5",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-1.1.1:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-1.1.1",
+   "observable_locations": null
+  },
+  "ns:palette_well_8:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_8",
+   "observable_locations": null
+  },
+  "ns:cell_R3C2:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ns:dispenser_D:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ns:tree_9:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:dispenser_A:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ns:dispenser_A:item:steel_block:action:place": {
+   "type": "PLACE",
+   "bound_type": "steel_block",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:tree_9:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "ns:tree_8:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:palette_well_3:item:pawn_piece:action:place": {
+   "type": "PLACE",
+   "bound_type": "pawn_piece",
+   "bound_location": "palette_well_3",
+   "observable_locations": null
+  },
+  "ns:tree_10:item:cog:action:place": {
+   "type": "PLACE",
+   "bound_type": "cog",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:tree_7:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "ns:cell_R3C2:item:all_season_tyre:action:place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "ns:tree_10:item:chip_type_G:action:place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_G",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:palette_well_1:item:tube_yellow:action:place": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "palette_well_1",
+   "observable_locations": null
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_4",
+    "nest_5"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C2"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_A"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_D"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_1",
+    "palette_well_3",
+    "palette_well_5",
+    "palette_well_7",
+    "palette_well_8"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1"
+   ]
+  },
+  "look at prep_board & sink_basin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "prep_board"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7",
+    "tree_8",
+    "tree_9",
+    "tree_10"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.1.1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_high": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "pawn_piece",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cog",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_type_G",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "steel_block",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "last two nests": [
+   "nest_4",
+   "nest_5"
+  ],
+  "dispensers A or D": [
+   "dispenser_A",
+   "dispenser_D"
+  ],
+  "from any of the odd numbered wells": [
+   "palette_well_1",
+   "palette_well_3",
+   "palette_well_5",
+   "palette_well_7"
+  ],
+  "tree 8-10": [
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 6-10": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees 5 through 10": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees in the middle section (6-10)": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ]
+ }
+}

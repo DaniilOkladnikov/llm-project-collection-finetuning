@@ -1,0 +1,1285 @@
+{
+ "object_locations": [
+  "cell_R4C1",
+  "cell_R2C3",
+  "cell_R2C5",
+  "cell_R4C3",
+  "cell_R4C2",
+  "cell_R3C5",
+  "cell_R2C2",
+  "cell_R2C4",
+  "cell_R3C4",
+  "cell_R4C4",
+  "cell_R4C5",
+  "cell_R3C1",
+  "cell_R1C4",
+  "cell_R1C1",
+  "cell_R1C5",
+  "cell_R2C1",
+  "cell_R3C2",
+  "cell_R1C3",
+  "cell_R1C2",
+  "cell_R3C3"
+ ],
+ "object_types": [
+  "sample_ampoule",
+  "green_apple",
+  "component1",
+  "cylinder_magenta",
+  "tube_white",
+  "buffer_container"
+ ],
+ "positions": {
+  "/mnt/cell_R2C3/tube_white/pick": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "$.cell_R4C4.sample_ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C2/sample_ampoule/pick": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.tube_white.grab": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "$.cell_R2C1.tube_white.grab": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/tube_white/pick": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C5/buffer_container/pick": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R4C3/green_apple/pick": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C4/component1/pick": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.component1.grab": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C4/green_apple/pick": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R3C4.sample_ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R4C5.component1.grab": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "$.cell_R4C5.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.cylinder_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "$.cell_R2C5.cylinder_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.cell_R1C5.sample_ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.cylinder_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.component1.grab": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R4C4/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.cylinder_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.cell_R2C1.component1.grab": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C2/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C4/sample_ampoule/pick": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.sample_ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "$.cell_R3C1.buffer_container.grab": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "$.cell_R3C4.cylinder_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.sample_ampoule.grab": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C3/tube_white/pick": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "$.cell_R3C3.buffer_container.grab": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "$.cell_R4C4.tube_white.grab": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C5/tube_white/pick": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R4C1/buffer_container/pick": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C5/buffer_container/pick": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R4C2/sample_ampoule/pick": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C2/tube_white/pick": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C1/sample_ampoule/pick": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/sample_ampoule/pick": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.cell_R4C4.buffer_container.grab": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C4/tube_white/pick": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.cylinder_magenta.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C4/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R3C4.buffer_container.grab": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C3/green_apple/pick": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C3/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C2/component1/pick": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C5/cylinder_magenta/pick": {
+   "type": "PICK",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C5/green_apple/pick": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.green_apple.grab": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C1/sample_ampoule/pick": {
+   "type": "PICK",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R4C4/green_apple/pick": {
+   "type": "PICK",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "$.cell_R3C2.component1.grab": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "$.cell_R2C4.tube_white.grab": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.tube_white.grab": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C5.buffer_container.grab": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "$.cell_R4C3.buffer_container.grab": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.tube_white.grab": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R4C5/tube_white/pick": {
+   "type": "PICK",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.buffer_container.grab": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R3C4/component1/pick": {
+   "type": "PICK",
+   "bound_type": "component1",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "/mnt/cell_R2C4/buffer_container/pick": {
+   "type": "PICK",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "set|sample_ampoule|@|cell_R4C4": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.sample_ampoule.release": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.tube_white.release": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "set|buffer_container|@|cell_R3C5": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "set|green_apple|@|cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "set|component1|@|cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "set|green_apple|@|cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R3C4.sample_ampoule.release": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R4C5.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "set|green_apple|@|cell_R4C5": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "$.cell_R2C5.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.cell_R1C5.sample_ampoule.release": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "$.cell_R1C2.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R1C2",
+   "observable_locations": null
+  },
+  "set|component1|@|cell_R4C2": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "$.cell_R4C4.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "set|component1|@|cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "set|cylinder_magenta|@|cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "set|sample_ampoule|@|cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.sample_ampoule.release": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "$.cell_R3C1.buffer_container.release": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "$.cell_R3C4.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.sample_ampoule.release": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "set|buffer_container|@|cell_R3C3": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "$.cell_R4C4.tube_white.release": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.buffer_container.release": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "set|buffer_container|@|cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.cell_R4C2.sample_ampoule.release": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R4C2",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "set|sample_ampoule|@|cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "set|sample_ampoule|@|cell_R1C3": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "$.cell_R4C4.buffer_container.release": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R3C4": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "set|cylinder_magenta|@|cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "set|buffer_container|@|cell_R3C4": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "$.cell_R4C1.green_apple.release": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "$.cell_R3C3.green_apple.release": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R3C3",
+   "observable_locations": null
+  },
+  "set|cylinder_magenta|@|cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.cell_R3C5.cylinder_magenta.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_magenta",
+   "bound_location": "cell_R3C5",
+   "observable_locations": null
+  },
+  "$.cell_R2C5.green_apple.release": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "$.cell_R2C2.green_apple.release": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "$.cell_R3C1.sample_ampoule.release": {
+   "type": "PLACE",
+   "bound_type": "sample_ampoule",
+   "bound_location": "cell_R3C1",
+   "observable_locations": null
+  },
+  "$.cell_R4C4.green_apple.release": {
+   "type": "PLACE",
+   "bound_type": "green_apple",
+   "bound_location": "cell_R4C4",
+   "observable_locations": null
+  },
+  "set|component1|@|cell_R3C2": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R3C2",
+   "observable_locations": null
+  },
+  "set|tube_white|@|cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C4.tube_white.release": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R1C4",
+   "observable_locations": null
+  },
+  "$.cell_R1C5.buffer_container.release": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "set|buffer_container|@|cell_R4C3": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R4C3",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.tube_white.release": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.cell_R4C5.tube_white.release": {
+   "type": "PLACE",
+   "bound_type": "tube_white",
+   "bound_location": "cell_R4C5",
+   "observable_locations": null
+  },
+  "$.cell_R1C1.buffer_container.release": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R1C1",
+   "observable_locations": null
+  },
+  "$.cell_R3C4.component1.release": {
+   "type": "PLACE",
+   "bound_type": "component1",
+   "bound_location": "cell_R3C4",
+   "observable_locations": null
+  },
+  "set|buffer_container|@|cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "buffer_container",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C1",
+    "cell_R1C2",
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3",
+    "cell_R1C4",
+    "cell_R1C5",
+    "cell_R2C3",
+    "cell_R2C4",
+    "cell_R2C5"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C1",
+    "cell_R3C2",
+    "cell_R4C1",
+    "cell_R4C2"
+   ]
+  },
+  "check cell_R3C3->C5 cell_R4C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R3C3",
+    "cell_R3C4",
+    "cell_R3C5",
+    "cell_R4C3",
+    "cell_R4C4",
+    "cell_R4C5"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "sample_ampoule",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "green_apple",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "component1",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "cylinder_magenta",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "tube_white",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "buffer_container",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "cellR1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cellR2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cellR3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cellR4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "cells of row R1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells with R1 or R2": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cell with column 4 or 5": [
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C4",
+   "cell_R2C5",
+   "cell_R3C4",
+   "cell_R3C5",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "cells in row 1": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5"
+  ],
+  "cells in Column2": [
+   "cell_R1C2",
+   "cell_R2C2",
+   "cell_R3C2",
+   "cell_R4C2"
+  ],
+  "cells in row 4": [
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3",
+   "cell_R4C4",
+   "cell_R4C5"
+  ],
+  "cells in rows 1 and 2": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in column 5": [
+   "cell_R1C5",
+   "cell_R2C5",
+   "cell_R3C5",
+   "cell_R4C5"
+  ],
+  "cells C1 to C3 (all rows)": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R4C1",
+   "cell_R4C2",
+   "cell_R4C3"
+  ],
+  "cells in row 3": [
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ],
+  "cells in row 2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in odd rows": [
+   "cell_R1C1",
+   "cell_R1C2",
+   "cell_R1C3",
+   "cell_R1C4",
+   "cell_R1C5",
+   "cell_R3C1",
+   "cell_R3C2",
+   "cell_R3C3",
+   "cell_R3C4",
+   "cell_R3C5"
+  ]
+ }
+}

@@ -1,0 +1,335 @@
+{
+ "object_locations": [
+  "lane_1_start",
+  "lane_1_mid",
+  "lane_1_end",
+  "lane_2_start",
+  "lane_2_mid",
+  "lane_2_end",
+  "lane_3_start",
+  "lane_3_mid",
+  "lane_3_end",
+  "reject_bin",
+  "pass_bin"
+ ],
+ "object_types": [
+  "product_unit"
+ ],
+ "positions": {
+  "lane_1_start.item.product_unit.acquire": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "get|product_unit|@|lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "get|product_unit|@|lane_1_end": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "lane_2_start.item.product_unit.acquire": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "actions/grasp/product_unit/from/lane_2_mid": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "actions/grasp/product_unit/from/lane_2_end": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "actions/grasp/product_unit/from/lane_3_start": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "get|product_unit|@|lane_3_mid": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "lane_3_end.item.product_unit.acquire": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "get|product_unit|@|reject_bin": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "pass_bin.item.product_unit.acquire": {
+   "type": "PICK",
+   "bound_type": "product_unit",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "zone.lane_1_start.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "robot/dropoff-product_unit-at-lane_1_mid": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "zone.lane_1_end.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "zone.lane_2_start.item.product_unit.release": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "robot/dropoff-product_unit-at-lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=lane_2_end": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "robot/dropoff-product_unit-at-lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "robot/dropoff-product_unit-at-lane_3_end": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "robot/dropoff-product_unit-at-reject_bin": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=product_unit&dest=pass_bin": {
+   "type": "PLACE",
+   "bound_type": "product_unit",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start",
+    "lane_2_start",
+    "lane_3_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_end",
+    "lane_2_end",
+    "lane_3_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_mid",
+    "lane_2_mid",
+    "lane_3_mid"
+   ]
+  },
+  "inspect reject_bin + pass_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_bin",
+    "pass_bin"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "product_unit",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "start zones": [
+   "lane_1_start",
+   "lane_2_start",
+   "lane_3_start"
+  ],
+  "one of the central lane sections": [
+   "lane_1_mid",
+   "lane_2_mid",
+   "lane_3_mid"
+  ],
+  "any of the end sections": [
+   "lane_1_end",
+   "lane_2_end",
+   "lane_3_end"
+  ],
+  "one of the final collection containers": [
+   "reject_bin",
+   "pass_bin"
+  ],
+  "track 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "second track assembly": [
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end"
+  ],
+  "somewhere on the Lanes 1 or 3": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end",
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "any of location on the lanes": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end",
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end",
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "somewhere on the conveyor 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "anywhere on the conveyor 3": [
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "anywhere on the conveyor 2": [
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end"
+  ]
+ }
+}

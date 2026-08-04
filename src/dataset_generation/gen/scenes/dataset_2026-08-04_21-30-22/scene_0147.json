@@ -1,0 +1,1393 @@
+{
+ "object_locations": [
+  "pot_small",
+  "tree_7",
+  "tree_4",
+  "drawer_3",
+  "tree_12",
+  "tree_11",
+  "tree_9",
+  "parcelPalette-1.3.1",
+  "tree_3",
+  "tree_8",
+  "tree_1",
+  "tree_10",
+  "tree_14",
+  "pot_medium",
+  "tree_13",
+  "tree_6",
+  "tree_15",
+  "tree_5",
+  "tree_2",
+  "parcelPalette-1.3.2"
+ ],
+ "object_types": [
+  "ssd_stick",
+  "box_standard",
+  "horse",
+  "marker_H",
+  "green_ball",
+  "titanium_slab"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=box_standard&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_4": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=parcelPalette-1.3.2": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=pot_medium": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=pot_medium": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_15": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=drawer_3": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_14": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_11": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_7": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=titanium_slab&source=tree_14": {
+   "type": "PICK",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_9": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_2": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=titanium_slab&source=tree_5": {
+   "type": "PICK",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_5": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=pot_small": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=titanium_slab&source=parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "titanium_slab",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=tree_10": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=pot_small": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_1": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=pot_medium": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_10": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=titanium_slab&source=parcelPalette-1.3.2": {
+   "type": "PICK",
+   "bound_type": "titanium_slab",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=drawer_3": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_11": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=tree_2": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_9": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_7": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=tree_5": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_8": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=tree_4": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_10": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=titanium_slab&source=tree_7": {
+   "type": "PICK",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=titanium_slab&source=drawer_3": {
+   "type": "PICK",
+   "bound_type": "titanium_slab",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=titanium_slab&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_7": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_3": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=pot_medium": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=tree_14": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=tree_7": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=tree_15": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_15": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_14": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_6": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_8": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=tree_13": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=tree_12": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=pot_small": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=tree_2": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_4": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_13": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_2": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=tree_5": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ssd_stick&source=tree_10": {
+   "type": "PICK",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=box_standard&source=drawer_3": {
+   "type": "PICK",
+   "bound_type": "box_standard",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_15": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=green_ball&source=parcelPalette-1.3.2": {
+   "type": "PICK",
+   "bound_type": "green_ball",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=pot_small": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=tree_1": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=tree_5": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=parcelPalette-1.3.1": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "deposit_box_standard@tree_12": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@tree_4": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "#tree_12/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.2/#marker_H/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "deposit_box_standard@pot_medium": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "#pot_medium/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "#tree_15/#ssd_stick/leave": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "deposit_marker_H@drawer_3": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@tree_14": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_11/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "deposit_marker_H@tree_7": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "deposit_titanium_slab@tree_14": {
+   "type": "PLACE",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_12/#marker_H/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "deposit_green_ball@tree_9": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@tree_2": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "deposit_titanium_slab@tree_5": {
+   "type": "PLACE",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@tree_5": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_box_standard@pot_small": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "deposit_titanium_slab@parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "titanium_slab",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "deposit_box_standard@tree_10": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "deposit_green_ball@pot_small": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "deposit_green_ball@tree_1": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "#pot_medium/#marker_H/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "deposit_green_ball@tree_10": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "deposit_titanium_slab@parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "titanium_slab",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "#drawer_3/#ssd_stick/leave": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "deposit_marker_H@tree_11": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "#parcelPalette-1.3.1/#horse/leave": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "#tree_2/#horse/leave": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "#tree_9/#marker_H/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_9",
+   "observable_locations": null
+  },
+  "#tree_7/#ssd_stick/leave": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "deposit_horse@tree_5": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "#tree_8/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "#tree_12/#ssd_stick/leave": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#tree_4/#box_standard/leave": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "deposit_marker_H@tree_10": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "deposit_titanium_slab@tree_7": {
+   "type": "PLACE",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "deposit_titanium_slab@drawer_3": {
+   "type": "PLACE",
+   "bound_type": "titanium_slab",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "#tree_12/#titanium_slab/leave": {
+   "type": "PLACE",
+   "bound_type": "titanium_slab",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "deposit_green_ball@tree_7": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@tree_3": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_3",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@pot_medium": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "#tree_14/#box_standard/leave": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_7/#horse/leave": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "deposit_box_standard@tree_15": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "#tree_15/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "#tree_14/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "#tree_6/#ssd_stick/leave": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "#tree_8/#marker_H/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "deposit_box_standard@tree_13": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#tree_12/#horse/leave": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "#pot_small/#ssd_stick/leave": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "#tree_2/#box_standard/leave": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "deposit_marker_H@tree_4": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "deposit_green_ball@tree_13": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_13",
+   "observable_locations": null
+  },
+  "#tree_2/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "#tree_5/#green_ball/leave": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_ssd_stick@tree_10": {
+   "type": "PLACE",
+   "bound_type": "ssd_stick",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "deposit_box_standard@drawer_3": {
+   "type": "PLACE",
+   "bound_type": "box_standard",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "deposit_marker_H@tree_15": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_15",
+   "observable_locations": null
+  },
+  "deposit_green_ball@parcelPalette-1.3.2": {
+   "type": "PLACE",
+   "bound_type": "green_ball",
+   "bound_location": "parcelPalette-1.3.2",
+   "observable_locations": null
+  },
+  "deposit_horse@pot_small": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "deposit_horse@tree_1": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "tree_1",
+   "observable_locations": null
+  },
+  "#tree_5/#marker_H/leave": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_marker_H@parcelPalette-1.3.1": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "parcelPalette-1.3.1",
+   "observable_locations": null
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_3"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_1",
+    "tree_2",
+    "tree_3",
+    "tree_4",
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7",
+    "tree_8",
+    "tree_9",
+    "tree_10"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12",
+    "tree_13",
+    "tree_14",
+    "tree_15"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.3.1",
+    "parcelPalette-1.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "ssd_stick",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "box_standard",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "green_ball",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "titanium_slab",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "titanium_slab",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "titanium_slab",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "titanium_slab",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "titanium_slab",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "titanium_slab",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "titanium_slab",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ],
+  "tree 1-7": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_6",
+   "tree_7"
+  ],
+  "tree 8-10": [
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 1-5 or tree 6-10": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 5-7 or tree 11-12": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_11",
+   "tree_12"
+  ],
+  "tree 3-5 or tree 13": [
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_13"
+  ],
+  "tree 1-3 or tree 12-15": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "tree 6-10": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "tree 11-15": [
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "any tree in the orchard": [
+   "tree_1",
+   "tree_2",
+   "tree_3",
+   "tree_4",
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10",
+   "tree_11",
+   "tree_12",
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "odd numbered trees": [
+   "tree_1",
+   "tree_3",
+   "tree_5",
+   "tree_7",
+   "tree_9",
+   "tree_11",
+   "tree_13",
+   "tree_15"
+  ],
+  "even numbered trees": [
+   "tree_2",
+   "tree_4",
+   "tree_6",
+   "tree_8",
+   "tree_10",
+   "tree_12",
+   "tree_14"
+  ],
+  "first three trees": [
+   "tree_1",
+   "tree_2",
+   "tree_3"
+  ],
+  "last three trees": [
+   "tree_13",
+   "tree_14",
+   "tree_15"
+  ],
+  "trees 5 through 10": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "trees in the middle section (6-10)": [
+   "tree_6",
+   "tree_7",
+   "tree_8",
+   "tree_9",
+   "tree_10"
+  ],
+  "edge trees (1, 5, 11, and 15)": [
+   "tree_1",
+   "tree_5",
+   "tree_11",
+   "tree_15"
+  ],
+  "Palettes 1st line index 1, 2nd - 3": [
+   "parcelPalette-1.3.1",
+   "parcelPalette-1.3.2"
+  ]
+ }
+}

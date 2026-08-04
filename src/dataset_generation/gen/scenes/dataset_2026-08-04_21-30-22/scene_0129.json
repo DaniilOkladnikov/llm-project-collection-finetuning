@@ -1,0 +1,1967 @@
+{
+ "object_locations": [
+  "tire_bay_FR",
+  "rack top",
+  "drawer_2",
+  "tire_bay_FL",
+  "drawer_4",
+  "tree_7",
+  "drawer_8",
+  "Ext-Yard-ZoneP9",
+  "drawer_5",
+  "drawer_3",
+  "tree_12",
+  "drawer_1",
+  "tree_11",
+  "rack bottom",
+  "drawer_9",
+  "drawer_7",
+  "drawer_10",
+  "tree_6",
+  "tree_5",
+  "drawer_6"
+ ],
+ "object_types": [
+  "tube_cyan",
+  "scrap_metal",
+  "wafer_R",
+  "sorghum_kernel",
+  "optical_transceiver",
+  "chip_type_S",
+  "chip_type_T",
+  "tube_yellow",
+  "parcel_overnight"
+ ],
+ "positions": {
+  "tree_11:scrap_metal:GRASP": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_T/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/tree_11": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "tree_11:sorghum_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/tree_11": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "tree_11:wafer_R:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "drawer_7:chip_type_T:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "drawer_10:chip_type_S:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "drawer_4:optical_transceiver:GRASP": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "pickupoptical_transceivertire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/scrap_metal/loc/drawer_1": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "pickupchip_type_Ttree_6": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "pickupparcel_overnightdrawer_1": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "pickuptube_cyandrawer_10": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverdrawer_9": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "op/grab/tube_yellow/loc/drawer_3": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "drawer_10:wafer_R:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "op/grab/scrap_metal/loc/drawer_8": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "pickupchip_type_Sdrawer_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "op/grab/scrap_metal/loc/tree_12": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/drawer_3": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "drawer_8:parcel_overnight:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "pickupsorghum_kerneltree_12": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "drawer_10:chip_type_T:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "pickupparcel_overnighttree_12": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "drawer_3:tube_cyan:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "op/grab/optical_transceiver/loc/tree_6": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "pickupchip_type_Ttree_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "drawer_5:scrap_metal:GRASP": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "op/grab/optical_transceiver/loc/drawer_2": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "pickuptube_cyantree_11": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "pickupscrap_metalrack top": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "drawer_4:scrap_metal:GRASP": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/rack top": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/rack top": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "drawer_4:chip_type_S:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "pickupsorghum_kerneldrawer_4": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/drawer_4": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "rack bottom:scrap_metal:GRASP": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "drawer_9:scrap_metal:GRASP": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverExt-Yard-ZoneP9": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/rack bottom": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "op/grab/tube_yellow/loc/drawer_9": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "rack bottom:parcel_overnight:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "op/grab/tube_yellow/loc/tree_7": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "pickupchip_type_Stree_7": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "pickuptube_cyandrawer_1": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "tree_7:sorghum_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "tree_7:parcel_overnight:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "pickupwafer_Rrack bottom": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/drawer_8": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "drawer_1:wafer_R:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "tree_11:optical_transceiver:GRASP": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "pickuptube_cyandrawer_8": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "drawer_1:chip_type_T:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "op/grab/tube_cyan/loc/tree_12": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "op/grab/tube_yellow/loc/drawer_2": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "drawer_8:wafer_R:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_T/loc/drawer_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "pickuptube_yellowdrawer_5": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "drawer_5:chip_type_S:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pickupparcel_overnightdrawer_5": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverdrawer_10": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "tire_bay_FR:scrap_metal:GRASP": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/scrap_metal/loc/Ext-Yard-ZoneP9": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "tire_bay_FR:parcel_overnight:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "pickuptube_yellowdrawer_6": {
+   "type": "PICK",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "rack top:tube_cyan:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "drawer_6:sorghum_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "op/grab/optical_transceiver/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "pickupparcel_overnightdrawer_6": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "drawer_4:tube_cyan:GRASP": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/drawer_9": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "pickupwafer_Rdrawer_5": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "op/grab/optical_transceiver/loc/tire_bay_FL": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "drawer_3:optical_transceiver:GRASP": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "op/grab/wafer_R/loc/drawer_4": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "pickupwafer_RExt-Yard-ZoneP9": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "op/grab/wafer_R/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/sorghum_kernel/loc/drawer_7": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "drawer_7:chip_type_S:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/drawer_7": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "rack bottom:chip_type_T:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "pickupchip_type_Stree_6": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "pickupparcel_overnighttree_6": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/drawer_2": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/drawer_2": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "pickupwafer_Rdrawer_7": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "drawer_10:sorghum_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/drawer_10": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "tree_6:wafer_R:GRASP": {
+   "type": "PICK",
+   "bound_type": "wafer_R",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "op/grab/optical_transceiver/loc/rack bottom": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "pickuptube_cyandrawer_5": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_S/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/parcel_overnight/loc/tree_5": {
+   "type": "PICK",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "op/grab/tube_cyan/loc/tire_bay_FR": {
+   "type": "PICK",
+   "bound_type": "tube_cyan",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "op/grab/optical_transceiver/loc/tree_7": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "op/grab/chip_type_T/loc/drawer_5": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "pickupoptical_transceiverdrawer_8": {
+   "type": "PICK",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|tree_11": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "set|chip_type_T|@|tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@tree_11": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "deposit_sorghum_kernel@tree_11": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|tree_11": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@tree_11": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "deposit_chip_type_T@drawer_7": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|drawer_10": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "deposit_optical_transceiver@drawer_4": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "set|optical_transceiver|@|tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|drawer_1": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "set|chip_type_T|@|tree_6": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|drawer_1": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "deposit_tube_cyan@drawer_10": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "set|optical_transceiver|@|drawer_9": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "set|tube_yellow|@|drawer_3": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@drawer_10": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|drawer_8": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|drawer_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "deposit_scrap_metal@tree_12": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|drawer_3": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@drawer_8": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "set|sorghum_kernel|@|tree_12": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "deposit_chip_type_T@drawer_10": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@tree_12": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "deposit_tube_cyan@drawer_3": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "set|optical_transceiver|@|tree_6": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "set|chip_type_T|@|tree_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|drawer_5": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "deposit_optical_transceiver@drawer_2": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "set|tube_cyan|@|tree_11": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|drawer_4": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|rack top": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@drawer_4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "set|sorghum_kernel|@|drawer_4": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@drawer_4": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "deposit_scrap_metal@rack bottom": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|drawer_9": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "set|optical_transceiver|@|Ext-Yard-ZoneP9": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@rack bottom": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|tube_yellow|@|drawer_9": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|rack bottom": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|tube_yellow|@|tree_7": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|tree_7": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "deposit_tube_cyan@drawer_1": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "set|sorghum_kernel|@|tree_7": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|tree_7": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "set|wafer_R|@|rack bottom": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|drawer_8": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@drawer_1": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "deposit_optical_transceiver@tree_11": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "deposit_tube_cyan@drawer_8": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "set|chip_type_T|@|drawer_1": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "deposit_tube_cyan@tree_12": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "deposit_tube_yellow@drawer_2": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@drawer_8": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "set|chip_type_T|@|drawer_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "deposit_tube_yellow@drawer_5": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@drawer_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@drawer_5": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "deposit_optical_transceiver@drawer_10": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "set|scrap_metal|@|tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "deposit_scrap_metal@Ext-Yard-ZoneP9": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "set|tube_yellow|@|drawer_6": {
+   "type": "PLACE",
+   "bound_type": "tube_yellow",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "deposit_tube_cyan@rack top": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "set|sorghum_kernel|@|drawer_6": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "set|optical_transceiver|@|tree_5": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|drawer_6": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "deposit_tube_cyan@drawer_4": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|drawer_9": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@drawer_5": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "deposit_optical_transceiver@tire_bay_FL": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tire_bay_FL",
+   "observable_locations": null
+  },
+  "set|optical_transceiver|@|drawer_3": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@drawer_4": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@Ext-Yard-ZoneP9": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "Ext-Yard-ZoneP9",
+   "observable_locations": null
+  },
+  "set|wafer_R|@|tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "deposit_sorghum_kernel@drawer_7": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@drawer_7": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "set|parcel_overnight|@|drawer_7": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "set|chip_type_T|@|rack bottom": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@tree_6": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@tree_6": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "set|chip_type_S|@|drawer_2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@drawer_2": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "deposit_wafer_R@drawer_7": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "set|sorghum_kernel|@|drawer_10": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@drawer_10": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "set|wafer_R|@|tree_6": {
+   "type": "PLACE",
+   "bound_type": "wafer_R",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "deposit_optical_transceiver@rack bottom": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "set|tube_cyan|@|drawer_5": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "deposit_chip_type_S@tree_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_S",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "deposit_parcel_overnight@tree_5": {
+   "type": "PLACE",
+   "bound_type": "parcel_overnight",
+   "bound_location": "tree_5",
+   "observable_locations": null
+  },
+  "set|tube_cyan|@|tire_bay_FR": {
+   "type": "PLACE",
+   "bound_type": "tube_cyan",
+   "bound_location": "tire_bay_FR",
+   "observable_locations": null
+  },
+  "set|optical_transceiver|@|tree_7": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "tree_7",
+   "observable_locations": null
+  },
+  "deposit_chip_type_T@drawer_5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "deposit_optical_transceiver@drawer_8": {
+   "type": "PLACE",
+   "bound_type": "optical_transceiver",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top",
+    "rack bottom"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_2",
+    "drawer_3",
+    "drawer_4",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_6",
+    "drawer_7",
+    "drawer_8",
+    "drawer_9",
+    "drawer_10"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_FL",
+    "tire_bay_FR"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_5"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_7"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11",
+    "tree_12"
+   ]
+  },
+  "Crane_Camera_Ext_Yard_Zones_P9_Q9_R9": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Ext-Yard-ZoneP9"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "rack_approach_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "orchard_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charging_station_alpha": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "tube_cyan",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "wafer_R",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "optical_transceiver",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "chip_type_S",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "tube_yellow",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "97": {
+   "id": 97,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "98": {
+   "id": 98,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "99": {
+   "id": 99,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "100": {
+   "id": 100,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  },
+  "101": {
+   "id": 101,
+   "type": "parcel_overnight",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rack top or rack bottom": [
+   "rack top",
+   "rack bottom"
+  ],
+  "any of the drawers": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "somewhere in drawers 1, 2, or 3": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3"
+  ],
+  "any of the drawers 8 through 10": [
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "one of the middle drawers": [
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7"
+  ],
+  "somewhere in the odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "any of the drawers 1 or 10": [
+   "drawer_1",
+   "drawer_10"
+  ],
+  "inside the drawers 1 through 5": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5"
+  ],
+  "within any of the drawers 6 to 10": [
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "one of the drawer units 1 or 2": [
+   "drawer_1",
+   "drawer_2"
+  ],
+  "within the last two drawers": [
+   "drawer_9",
+   "drawer_10"
+  ],
+  "either drawer 3 or drawer 4": [
+   "drawer_3",
+   "drawer_4"
+  ],
+  "any odd numbered drawers": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "front tire bays (FL and FR)": [
+   "tire_bay_FL",
+   "tire_bay_FR"
+  ],
+  "tree 5-7 or tree 11-12": [
+   "tree_5",
+   "tree_6",
+   "tree_7",
+   "tree_11",
+   "tree_12"
+  ]
+ }
+}

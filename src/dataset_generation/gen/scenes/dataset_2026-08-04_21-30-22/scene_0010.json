@@ -1,0 +1,1243 @@
+{
+ "object_locations": [
+  "drawer_9",
+  "drawer_7",
+  "lane_2_mid",
+  "drawer_10",
+  "dispenser_B",
+  "BIN_RED_LEFT",
+  "drawer_8",
+  "hook_3",
+  "silo_1",
+  "BIN_BLUE_RIGHT",
+  "dispenser_A",
+  "silo_2",
+  "drawer_6"
+ ],
+ "object_types": [
+  "knapsack",
+  "ribbed_tension_rod",
+  "specimen_vial",
+  "cylinder_yellow",
+  "marker_H",
+  "summer_tire",
+  "bolt",
+  "barley_grain",
+  "chip_type_T"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=ribbed_tension_rod&source=drawer_8": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "drawer_6.item.marker_H.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=hook_3": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "silo_2.item.marker_H.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=summer_tire&source=silo_2": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "dispenser_A.item.summer_tire.acquire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=bolt&source=dispenser_B": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=bolt&source=drawer_8": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "lane_2_mid.item.ribbed_tension_rod.acquire": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=ribbed_tension_rod&source=drawer_7": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=drawer_9": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "drawer_9.item.chip_type_T.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "dispenser_A.item.barley_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "dispenser_A.item.chip_type_T.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cylinder_yellow&source=drawer_10": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=drawer_6": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=summer_tire&source=dispenser_B": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=drawer_8": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=drawer_10": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "drawer_10.item.knapsack.acquire": {
+   "type": "PICK",
+   "bound_type": "knapsack",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=drawer_7": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "silo_1.item.cylinder_yellow.acquire": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=summer_tire&source=lane_2_mid": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "drawer_7.item.summer_tire.acquire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cylinder_yellow&source=drawer_6": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=drawer_8": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "drawer_8.item.chip_type_T.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "silo_1.item.knapsack.acquire": {
+   "type": "PICK",
+   "bound_type": "knapsack",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT.item.ribbed_tension_rod.acquire": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cylinder_yellow&source=drawer_9": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=dispenser_B": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "dispenser_B.item.chip_type_T.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=marker_H&source=BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT.item.bolt.acquire": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=silo_2": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "dispenser_A.item.specimen_vial.acquire": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=drawer_6": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=drawer_7": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_T&source=drawer_7": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=lane_2_mid": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "lane_2_mid.item.chip_type_T.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "drawer_10.item.ribbed_tension_rod.acquire": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "hook_3.item.summer_tire.acquire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "BIN_BLUE_RIGHT.item.chip_type_T.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=cylinder_yellow&source=dispenser_B": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=summer_tire&source=BIN_RED_LEFT": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=dispenser_B": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=drawer_8": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "hook_3.item.barley_grain.acquire": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "dispenser_A.item.ribbed_tension_rod.acquire": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=lane_2_mid": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "drawer_10.item.summer_tire.acquire": {
+   "type": "PICK",
+   "bound_type": "summer_tire",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=knapsack&source=lane_2_mid": {
+   "type": "PICK",
+   "bound_type": "knapsack",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=specimen_vial&source=drawer_7": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=bolt&source=drawer_9": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=knapsack&source=drawer_7": {
+   "type": "PICK",
+   "bound_type": "knapsack",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "silo_2.item.bolt.acquire": {
+   "type": "PICK",
+   "bound_type": "bolt",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "BIN_RED_LEFT.item.chip_type_T.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_T",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "BIN_BLUE_RIGHT.item.specimen_vial.acquire": {
+   "type": "PICK",
+   "bound_type": "specimen_vial",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=knapsack&source=BIN_BLUE_RIGHT": {
+   "type": "PICK",
+   "bound_type": "knapsack",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "drawer_9.item.marker_H.acquire": {
+   "type": "PICK",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "dispenser_B.item.ribbed_tension_rod.acquire": {
+   "type": "PICK",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "op/stow/marker_H/loc/drawer_6": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/hook_3": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "op/stow/marker_H/loc/silo_2": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/silo_2": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_yellow/loc/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/drawer_6": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/marker_H/loc/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "op/stow/knapsack/loc/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "knapsack",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "op/stow/marker_H/loc/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_yellow/loc/silo_1": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_yellow/loc/drawer_6": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "op/stow/knapsack/loc/silo_1": {
+   "type": "PLACE",
+   "bound_type": "knapsack",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_yellow/loc/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/marker_H/loc/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/silo_2": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/drawer_6": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/hook_3": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "op/stow/cylinder_yellow/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/drawer_8": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/hook_3": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/dispenser_A": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "dispenser_A",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/summer_tire/loc/drawer_10": {
+   "type": "PLACE",
+   "bound_type": "summer_tire",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "op/stow/knapsack/loc/lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "knapsack",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "op/stow/knapsack/loc/drawer_7": {
+   "type": "PLACE",
+   "bound_type": "knapsack",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "op/stow/bolt/loc/silo_2": {
+   "type": "PLACE",
+   "bound_type": "bolt",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_T/loc/BIN_RED_LEFT": {
+   "type": "PLACE",
+   "bound_type": "chip_type_T",
+   "bound_location": "BIN_RED_LEFT",
+   "observable_locations": null
+  },
+  "op/stow/specimen_vial/loc/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "specimen_vial",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "op/stow/knapsack/loc/BIN_BLUE_RIGHT": {
+   "type": "PLACE",
+   "bound_type": "knapsack",
+   "bound_location": "BIN_BLUE_RIGHT",
+   "observable_locations": null
+  },
+  "op/stow/marker_H/loc/drawer_9": {
+   "type": "PLACE",
+   "bound_type": "marker_H",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "op/stow/ribbed_tension_rod/loc/dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "ribbed_tension_rod",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "bins_observe_red": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_RED_LEFT"
+   ]
+  },
+  "bins_observe_blue": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "BIN_BLUE_RIGHT"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_3"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_2_mid"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_A",
+    "dispenser_B"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_6",
+    "drawer_7",
+    "drawer_8",
+    "drawer_9",
+    "drawer_10"
+   ]
+  },
+  "checkLevel silo_1": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_1"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_safe_drop": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "coat_room_entry": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stringing_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "knapsack",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "knapsack",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "knapsack",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "knapsack",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "knapsack",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "ribbed_tension_rod",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "specimen_vial",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "marker_H",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "summer_tire",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "bolt",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "chip_type_T",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "any of the color bins": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "red or blue bin": [
+   "BIN_RED_LEFT",
+   "BIN_BLUE_RIGHT"
+  ],
+  "dispensers A or B": [
+   "dispenser_A",
+   "dispenser_B"
+  ],
+  "any of the drawers 8 through 10": [
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "within any of the drawers 6 to 10": [
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "within the last two drawers": [
+   "drawer_9",
+   "drawer_10"
+  ],
+  "from any of the silos 1 or 2": [
+   "silo_1",
+   "silo_2"
+  ],
+  "within any of the first two silos": [
+   "silo_1",
+   "silo_2"
+  ]
+ }
+}

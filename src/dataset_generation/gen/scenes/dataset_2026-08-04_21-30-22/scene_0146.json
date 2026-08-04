@@ -1,0 +1,1154 @@
+{
+ "object_locations": [
+  "lane_2_start",
+  "lane_3_mid",
+  "table_Q4",
+  "lane_2_mid",
+  "cell_R4C1",
+  "lane_3_end",
+  "tire_bay_RR",
+  "lane_1_end",
+  "conveyor_drop_zone",
+  "table_Q3",
+  "lane_2_end",
+  "table_Q1",
+  "lane_1_start",
+  "binB_101",
+  "lane_1_mid",
+  "lane_3_start",
+  "tray_infeed_slot1",
+  "cell_R2C1",
+  "tray_outfeed_slot1",
+  "conveyor_pick_zone"
+ ],
+ "object_types": [
+  "half_dollar",
+  "cover",
+  "blue_pellet",
+  "parcel_perishable"
+ ],
+ "positions": {
+  "lane_1_end=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "blue_pellet-from-table_Q4": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-binB_101": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "tray_infeed_slot1=>half_dollar=>TAKE": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "table_Q4:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "tray_infeed_slot1=>parcel_perishable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "tire_bay_RR:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "tray_infeed_slot1=>blue_pellet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "cell_R4C1=>blue_pellet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "blue_pellet-from-lane_3_end": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "cover-from-tray_infeed_slot1": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "lane_2_start:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "cover-from-lane_3_end": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "tire_bay_RR=>blue_pellet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "cover-from-tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone=>blue_pellet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "conveyor_pick_zone:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "table_Q3=>half_dollar=>TAKE": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "lane_2_mid:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "lane_1_start:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "lane_1_mid:blue_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "table_Q3=>parcel_perishable=>TAKE": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "blue_pellet-from-table_Q3": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "half_dollar-from-table_Q1": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "cover-from-lane_1_mid": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "lane_3_start=>half_dollar=>TAKE": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "half_dollar-from-cell_R2C1": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "cover-from-table_Q3": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-table_Q1": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot1=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "lane_3_mid:half_dollar:GRASP": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-lane_3_start": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "table_Q1:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "lane_3_start=>blue_pellet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "cell_R2C1=>blue_pellet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone=>blue_pellet=>TAKE": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "lane_3_mid:parcel_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "lane_1_end=>half_dollar=>TAKE": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "lane_3_mid:blue_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "half_dollar-from-lane_2_end": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "lane_3_start=>cover=>TAKE": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "lane_3_mid:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "conveyor_drop_zone:cover:GRASP": {
+   "type": "PICK",
+   "bound_type": "cover",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "parcel_perishable-from-lane_1_end": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "half_dollar-from-table_Q4": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "binB_101=>half_dollar=>TAKE": {
+   "type": "PICK",
+   "bound_type": "half_dollar",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "table_Q4:parcel_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_perishable",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "store:cover:lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "store:blue_pellet:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:binB_101": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "store:half_dollar:tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "store:cover:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "store:half_dollar:tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "store:blue_pellet:tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "store:blue_pellet:cell_R4C1": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "cell_R4C1",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "store:blue_pellet:lane_3_end": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "store:cover:tray_infeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "store:half_dollar:lane_2_start": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "store:cover:lane_3_end": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "store:blue_pellet:tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "store:cover:tire_bay_RR": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "store:blue_pellet:conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "store:cover:conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "store:half_dollar:table_Q3": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:lane_1_mid": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "store:half_dollar:lane_2_mid": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_2_mid",
+   "observable_locations": null
+  },
+  "store:cover:lane_1_start": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "lane_1_start",
+   "observable_locations": null
+  },
+  "store:blue_pellet:lane_1_mid": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:table_Q3": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "store:blue_pellet:table_Q3": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "store:half_dollar:table_Q1": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "store:cover:lane_1_mid": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "lane_1_mid",
+   "observable_locations": null
+  },
+  "store:half_dollar:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "store:half_dollar:cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "store:cover:table_Q3": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "table_Q3",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:table_Q1": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "store:cover:tray_outfeed_slot1": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "tray_outfeed_slot1",
+   "observable_locations": null
+  },
+  "store:half_dollar:lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "store:cover:table_Q1": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "table_Q1",
+   "observable_locations": null
+  },
+  "store:blue_pellet:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "store:blue_pellet:cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "store:blue_pellet:conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "store:half_dollar:lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "store:blue_pellet:lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "store:half_dollar:lane_2_end": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "lane_2_end",
+   "observable_locations": null
+  },
+  "store:cover:lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "store:cover:lane_3_mid": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "store:cover:conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "cover",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:lane_1_end": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "lane_1_end",
+   "observable_locations": null
+  },
+  "store:half_dollar:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "store:half_dollar:binB_101": {
+   "type": "PLACE",
+   "bound_type": "half_dollar",
+   "bound_location": "binB_101",
+   "observable_locations": null
+  },
+  "store:parcel_perishable:table_Q4": {
+   "type": "PLACE",
+   "bound_type": "parcel_perishable",
+   "bound_location": "table_Q4",
+   "observable_locations": null
+  },
+  "table_q1_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q1"
+   ]
+  },
+  "table_q3_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q3"
+   ]
+  },
+  "table_q4_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q4"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot1"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot1"
+   ]
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_101"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C1"
+   ]
+  },
+  "check cell_R3C1 cell_R3C2 cell_R4C1 cell_R4C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R4C1"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_start",
+    "lane_2_start",
+    "lane_3_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_end",
+    "lane_2_end",
+    "lane_3_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_1_mid",
+    "lane_2_mid",
+    "lane_3_mid"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_RR"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_clearance_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "conveyor_wait_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "half_dollar",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cover",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "parcel_perishable",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "last two quadrants": [
+   "table_Q3",
+   "table_Q4"
+  ],
+  "Q1 or Q3 positions": [
+   "table_Q1",
+   "table_Q3"
+  ],
+  "Q1 or Q4": [
+   "table_Q1",
+   "table_Q4"
+  ],
+  "slot 1 of each tray": [
+   "tray_infeed_slot1",
+   "tray_outfeed_slot1"
+  ],
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "start zones": [
+   "lane_1_start",
+   "lane_2_start",
+   "lane_3_start"
+  ],
+  "one of the central lane sections": [
+   "lane_1_mid",
+   "lane_2_mid",
+   "lane_3_mid"
+  ],
+  "any of the end sections": [
+   "lane_1_end",
+   "lane_2_end",
+   "lane_3_end"
+  ],
+  "lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "second lane assembly": [
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end"
+  ],
+  "somewhere on the Lanes 1 or 3": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end",
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "any of location on the lanes": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end",
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end",
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "somewhere on the lane 1": [
+   "lane_1_start",
+   "lane_1_mid",
+   "lane_1_end"
+  ],
+  "anywhere on the lane 3": [
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ],
+  "anywhere on the lane 2": [
+   "lane_2_start",
+   "lane_2_mid",
+   "lane_2_end"
+  ]
+ }
+}

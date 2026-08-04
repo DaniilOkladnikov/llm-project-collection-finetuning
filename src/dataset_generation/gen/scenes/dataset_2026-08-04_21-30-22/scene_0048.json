@@ -1,0 +1,1478 @@
+{
+ "object_locations": [
+  "pos.y2.x2",
+  "shelf_L2_S1",
+  "Node10.01",
+  "pos.y2.x1",
+  "Node10.02",
+  "shelf_L2_S3",
+  "Node10.03",
+  "Node20.02",
+  "pos.y2.x3",
+  "silo_1",
+  "shelf_L2_S4",
+  "pos.y2.x0",
+  "zone_012",
+  "palette_well_7",
+  "silo_2",
+  "Node20.01",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "electric_borer",
+  "blue_pellet",
+  "potato",
+  "jacket",
+  "chip_type_Q",
+  "parcel_hazmat",
+  "box_tube"
+ ],
+ "positions": {
+  "zone_012.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "shelf_L2_S4.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "silo_1.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "pos.y2.x2.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "silo_1.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "shelf_L2_S4.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "Node10.02.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "Node10.01.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "zone_012.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "pos.y2.x1.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "Node10.03.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "Node20.02.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "silo_2.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "Node10.03.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "silo_1.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "pos.y2.x1.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "pos.y2.x2.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "pos.y2.x2.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "pos.y2.x3.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "pos.y2.x2.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "Node20.01.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "Node20.02.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "silo_2.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "Node20.02.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "shelf_L2_S3.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "palette_well_7.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "Node10.03.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "silo_2.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "silo_2.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "Node10.01.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "shelf_L2_S4.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "palette_well_7.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "shelf_L2_S3.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "Node20.02.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S3.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "Node10.01.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "pos.y2.x0.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "pos.y2.x0.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "Node10.02.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "Node20.01.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "pos.y2.x2.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "Node10.02.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "palette_well_7.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "Node10.01.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "pos.y2.x1.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "pos.y2.x0.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "Node10.01.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "Node10.02.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "Node10.02.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "pos.y2.x3.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.potato.acquire": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "Node10.02.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "Node10.01.item.chip_type_Q.acquire": {
+   "type": "PICK",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "zone_012.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "shelf_L2_S4.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "Node20.02.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "shelf_L2_S2.item.blue_pellet.acquire": {
+   "type": "PICK",
+   "bound_type": "blue_pellet",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "silo_1.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "pos.y2.x1.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "Node20.01.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "pos.y2.x2.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "shelf_L2_S4.item.parcel_hazmat.acquire": {
+   "type": "PICK",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "zone_012.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "silo_1.item.jacket.acquire": {
+   "type": "PICK",
+   "bound_type": "jacket",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "palette_well_7.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "shelf_L2_S3.item.electric_borer.acquire": {
+   "type": "PICK",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L2_S1.item.box_tube.acquire": {
+   "type": "PICK",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@zone_012": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "blue_pellet-to-shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-silo_1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "potato-to-silo_1": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "chip_type_Q-to-shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "deposit_electric_borer@Node10.02": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "jacket-to-shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "electric_borer-to-Node10.01": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "blue_pellet-to-zone_012": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@Node10.03": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "deposit_jacket@Node20.02": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@silo_2": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "potato-to-Node10.03": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "deposit_blue_pellet@silo_1": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "blue_pellet-to-pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "deposit_blue_pellet@pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "deposit_jacket@pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "electric_borer-to-shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "electric_borer-to-pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "chip_type_Q-to-pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "chip_type_Q-to-Node20.01": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-Node20.02": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "deposit_blue_pellet@silo_2": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "potato-to-Node20.02": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "deposit_blue_pellet@shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "jacket-to-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "deposit_jacket@palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "chip_type_Q-to-Node10.03": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "deposit_chip_type_Q@silo_2": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "deposit_box_tube@silo_2": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "silo_2",
+   "observable_locations": null
+  },
+  "deposit_box_tube@Node10.01": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "deposit_electric_borer@shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "deposit_chip_type_Q@Node20.02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "potato-to-shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "box_tube-to-shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "deposit_jacket@Node10.01": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "deposit_potato@pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "jacket-to-Node10.02": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "deposit_electric_borer@Node20.01": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "electric_borer-to-pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@Node10.02": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "chip_type_Q-to-palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "deposit_jacket@shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@Node10.01": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "deposit_electric_borer@pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "blue_pellet-to-pos.y2.x0": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "deposit_potato@Node10.01": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "potato-to-Node10.02": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "blue_pellet-to-Node10.02": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "deposit_electric_borer@shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "parcel_hazmat-to-pos.y2.x3": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "potato-to-shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "chip_type_Q-to-Node10.02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "deposit_chip_type_Q@Node10.01": {
+   "type": "PLACE",
+   "bound_type": "chip_type_Q",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "box_tube-to-zone_012": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "deposit_jacket@shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "deposit_electric_borer@Node20.02": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "blue_pellet-to-shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "blue_pellet",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "box_tube-to-silo_1": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "deposit_box_tube@pos.y2.x1": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "box_tube-to-Node20.01": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "Node20.01",
+   "observable_locations": null
+  },
+  "deposit_box_tube@pos.y2.x2": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "deposit_parcel_hazmat@shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "parcel_hazmat",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "deposit_jacket@zone_012": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "deposit_jacket@silo_1": {
+   "type": "PLACE",
+   "bound_type": "jacket",
+   "bound_location": "silo_1",
+   "observable_locations": null
+  },
+  "electric_borer-to-palette_well_7": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "palette_well_7",
+   "observable_locations": null
+  },
+  "deposit_electric_borer@shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "electric_borer",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "deposit_box_tube@shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "box_tube",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_012"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1",
+    "pos.y2.x2",
+    "pos.y2.x3"
+   ]
+  },
+  "checkLevel silo_1": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_1"
+   ]
+  },
+  "checkLevel silo_2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "silo_2"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_7"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S2",
+    "shelf_L2_S3",
+    "shelf_L2_S4"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.01",
+    "Node10.02",
+    "Node10.03"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.01",
+    "Node20.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "auger_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "easel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_traverse": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "electric_borer",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "blue_pellet",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "jacket",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "chip_type_Q",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "parcel_hazmat",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "box_tube",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "poses with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "positions with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "from any of the silos 1 or 2": [
+   "silo_1",
+   "silo_2"
+  ],
+  "within any of the first two silos": [
+   "silo_1",
+   "silo_2"
+  ],
+  "shelf_L2 slots": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelf L2 positions": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "Subnet10": [
+   "Node10.01",
+   "Node10.02",
+   "Node10.03"
+  ],
+  "Subnet20": [
+   "Node20.01",
+   "Node20.02"
+  ],
+  "Subnets10_20": [
+   "Node10.01",
+   "Node10.02",
+   "Node10.03",
+   "Node20.01",
+   "Node20.02"
+  ]
+ }
+}

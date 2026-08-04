@@ -1,0 +1,1009 @@
+{
+ "object_locations": [
+  "chess_a1",
+  "chess_b1",
+  "chess_c1",
+  "chess_d1",
+  "chess_e1",
+  "chess_f1",
+  "chess_g1",
+  "chess_h1",
+  "captured pieces"
+ ],
+ "object_types": [
+  "pawn",
+  "rook",
+  "knight",
+  "bishop",
+  "queen",
+  "king"
+ ],
+ "positions": {
+  "pawn-from-chess_a1": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "$.chess_b1.pawn.grab": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "$.chess_c1.pawn.grab": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "pawn-from-chess_d1": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "$.chess_e1.pawn.grab": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "$.chess_f1.pawn.grab": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "pawn-from-chess_g1": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "$.chess_h1.pawn.grab": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "$.captured pieces.pawn.grab": {
+   "type": "PICK",
+   "bound_type": "pawn",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "rook-from-chess_a1": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "rook-from-chess_b1": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "$.chess_c1.rook.grab": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "rook-from-chess_d1": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "$.chess_e1.rook.grab": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "$.chess_f1.rook.grab": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "rook-from-chess_g1": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "rook-from-chess_h1": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "$.captured pieces.rook.grab": {
+   "type": "PICK",
+   "bound_type": "rook",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "knight-from-chess_a1": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "$.chess_b1.knight.grab": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "knight-from-chess_c1": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "knight-from-chess_d1": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "$.chess_e1.knight.grab": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "$.chess_f1.knight.grab": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "$.chess_g1.knight.grab": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "$.chess_h1.knight.grab": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "$.captured pieces.knight.grab": {
+   "type": "PICK",
+   "bound_type": "knight",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "$.chess_a1.bishop.grab": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "$.chess_b1.bishop.grab": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "$.chess_c1.bishop.grab": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "$.chess_d1.bishop.grab": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "$.chess_e1.bishop.grab": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "bishop-from-chess_f1": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "bishop-from-chess_g1": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "$.chess_h1.bishop.grab": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "bishop-from-captured pieces": {
+   "type": "PICK",
+   "bound_type": "bishop",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "queen-from-chess_a1": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "$.chess_b1.queen.grab": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "$.chess_c1.queen.grab": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "$.chess_d1.queen.grab": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "queen-from-chess_e1": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "$.chess_f1.queen.grab": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "$.chess_g1.queen.grab": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "$.chess_h1.queen.grab": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "queen-from-captured pieces": {
+   "type": "PICK",
+   "bound_type": "queen",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "king-from-chess_a1": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "$.chess_b1.king.grab": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "king-from-chess_c1": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "$.chess_d1.king.grab": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "king-from-chess_e1": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "$.chess_f1.king.grab": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "king-from-chess_g1": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "$.chess_h1.king.grab": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "king-from-captured pieces": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "put__pawn__to__chess_a1": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "put__pawn__to__chess_b1": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "put__pawn__to__chess_c1": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=pawn&dest=chess_d1": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "chess_e1=>pawn=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "chess_f1=>pawn=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "put__pawn__to__chess_g1": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=pawn&dest=chess_h1": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "captured pieces=>pawn=>PUT": {
+   "type": "PLACE",
+   "bound_type": "pawn",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "chess_a1=>rook=>PUT": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=rook&dest=chess_b1": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "chess_c1=>rook=>PUT": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=rook&dest=chess_d1": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "put__rook__to__chess_e1": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "put__rook__to__chess_f1": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=rook&dest=chess_g1": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "chess_h1=>rook=>PUT": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "captured pieces=>rook=>PUT": {
+   "type": "PLACE",
+   "bound_type": "rook",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=chess_a1": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "put__knight__to__chess_b1": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "put__knight__to__chess_c1": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=chess_d1": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "chess_e1=>knight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=chess_f1": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "chess_g1=>knight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=knight&dest=chess_h1": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "captured pieces=>knight=>PUT": {
+   "type": "PLACE",
+   "bound_type": "knight",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "put__bishop__to__chess_a1": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "chess_b1=>bishop=>PUT": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "chess_c1=>bishop=>PUT": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=bishop&dest=chess_d1": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "put__bishop__to__chess_e1": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "put__bishop__to__chess_f1": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "chess_g1=>bishop=>PUT": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=bishop&dest=chess_h1": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "captured pieces=>bishop=>PUT": {
+   "type": "PLACE",
+   "bound_type": "bishop",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "put__queen__to__chess_a1": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=queen&dest=chess_b1": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "chess_c1=>queen=>PUT": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "chess_d1=>queen=>PUT": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=queen&dest=chess_e1": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "chess_f1=>queen=>PUT": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "chess_g1=>queen=>PUT": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=queen&dest=chess_h1": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "put__queen__to__captured pieces": {
+   "type": "PLACE",
+   "bound_type": "queen",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "chess_a1=>king=>PUT": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_a1",
+   "observable_locations": null
+  },
+  "chess_b1=>king=>PUT": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_b1",
+   "observable_locations": null
+  },
+  "chess_c1=>king=>PUT": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_c1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=king&dest=chess_d1": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_d1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=king&dest=chess_e1": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_e1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=king&dest=chess_f1": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_f1",
+   "observable_locations": null
+  },
+  "put__king__to__chess_g1": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_g1",
+   "observable_locations": null
+  },
+  "chess_h1=>king=>PUT": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "chess_h1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=king&dest=captured pieces": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "captured pieces",
+   "observable_locations": null
+  },
+  "captured pieces look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "captured pieces"
+   ]
+  },
+  "kingside_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "chess_e1",
+    "chess_f1",
+    "chess_g1",
+    "chess_h1"
+   ]
+  },
+  "queenside_vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "chess_a1",
+    "chess_b1",
+    "chess_c1",
+    "chess_d1"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "board_center_overlook": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "piece_safe_lift": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "pawn",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "rook",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "knight",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "bishop",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "queen",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "king",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "kingside": [
+   "chess_e1",
+   "chess_f1",
+   "chess_g1",
+   "chess_h1"
+  ],
+  "queenside": [
+   "chess_a1",
+   "chess_b1",
+   "chess_c1",
+   "chess_d1"
+  ]
+ }
+}

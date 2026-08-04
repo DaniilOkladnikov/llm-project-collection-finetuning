@@ -1,0 +1,834 @@
+{
+ "object_locations": [
+  "canvas_zone_A",
+  "canvas_zone_B",
+  "Node40.02",
+  "station_gamma",
+  "canvas_zone_C",
+  "hook_1",
+  "station_alpha",
+  "Node10.02",
+  "hook_2",
+  "Node20.02",
+  "hook_3",
+  "station_beta",
+  "Node30.02"
+ ],
+ "object_types": [
+  "horse",
+  "fastener",
+  "rye_grain",
+  "grain_rice",
+  "winter_tire"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=Node20.02": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=fastener&source=Node10.02": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=hook_2": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=Node30.02": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=Node20.02": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=fastener&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=fastener&source=hook_2": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=Node10.02": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=hook_3": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=canvas_zone_C": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=hook_1": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=Node30.02": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=canvas_zone_B": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=Node10.02": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=hook_3": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=fastener&source=hook_1": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=fastener&source=Node30.02": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=winter_tire&source=station_beta": {
+   "type": "PICK",
+   "bound_type": "winter_tire",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=station_gamma": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=fastener&source=station_alpha": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=grain_rice&source=Node10.02": {
+   "type": "PICK",
+   "bound_type": "grain_rice",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=canvas_zone_A": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=hook_1": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=rye_grain&source=Node30.02": {
+   "type": "PICK",
+   "bound_type": "rye_grain",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=fastener&source=Node40.02": {
+   "type": "PICK",
+   "bound_type": "fastener",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=horse&source=Node10.02": {
+   "type": "PICK",
+   "bound_type": "horse",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "op/stow/rye_grain/loc/Node20.02": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "op/stow/fastener/loc/Node10.02": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "op/stow/grain_rice/loc/station_beta": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "task/place/station_alpha/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "task/place/hook_2/grain_rice": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "task/place/Node30.02/winter_tire": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "op/stow/winter_tire/loc/Node20.02": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "task/place/station_beta/fastener": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "task/place/station_gamma/grain_rice": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "task/place/station_alpha/winter_tire": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "task/place/canvas_zone_C/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "task/place/hook_2/fastener": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "hook_2",
+   "observable_locations": null
+  },
+  "task/place/canvas_zone_A/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/stow/horse/loc/station_gamma": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "task/place/Node10.02/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "task/place/hook_3/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "task/place/canvas_zone_C/winter_tire": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "canvas_zone_C",
+   "observable_locations": null
+  },
+  "task/place/hook_1/grain_rice": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "task/place/Node30.02/grain_rice": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "task/place/canvas_zone_B/horse": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "canvas_zone_B",
+   "observable_locations": null
+  },
+  "op/stow/winter_tire/loc/Node40.02": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "task/place/canvas_zone_A/winter_tire": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "task/place/station_beta/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "op/stow/grain_rice/loc/station_alpha": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "task/place/Node10.02/winter_tire": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "op/stow/winter_tire/loc/hook_3": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "op/stow/fastener/loc/hook_1": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "op/stow/fastener/loc/Node30.02": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "task/place/station_beta/winter_tire": {
+   "type": "PLACE",
+   "bound_type": "winter_tire",
+   "bound_location": "station_beta",
+   "observable_locations": null
+  },
+  "task/place/station_gamma/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "station_gamma",
+   "observable_locations": null
+  },
+  "op/stow/fastener/loc/station_alpha": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "task/place/Node40.02/grain_rice": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "op/stow/grain_rice/loc/Node10.02": {
+   "type": "PLACE",
+   "bound_type": "grain_rice",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "op/stow/horse/loc/canvas_zone_A": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "canvas_zone_A",
+   "observable_locations": null
+  },
+  "op/stow/horse/loc/Node40.02": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "task/place/hook_1/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "task/place/Node30.02/rye_grain": {
+   "type": "PLACE",
+   "bound_type": "rye_grain",
+   "bound_location": "Node30.02",
+   "observable_locations": null
+  },
+  "op/stow/fastener/loc/Node40.02": {
+   "type": "PLACE",
+   "bound_type": "fastener",
+   "bound_location": "Node40.02",
+   "observable_locations": null
+  },
+  "task/place/Node10.02/horse": {
+   "type": "PLACE",
+   "bound_type": "horse",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at station_beta": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_beta"
+   ]
+  },
+  "look at station_gamma": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_gamma"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_1",
+    "hook_2",
+    "hook_3"
+   ]
+  },
+  "look at canvas_zone_A canvas_zone_B canvas_zone_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "canvas_zone_A",
+    "canvas_zone_B",
+    "canvas_zone_C"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.02"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.02"
+   ]
+  },
+  "Visual_Monitor_Observing_Node30": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node30.02"
+   ]
+  },
+  "Diagnostic_Probe_Checking_Node40": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node40.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dip_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "horse",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "fastener",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "rye_grain",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "grain_rice",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "winter_tire",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "main processing terminals": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations only": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "stations": [
+   "station_alpha",
+   "station_beta",
+   "station_gamma"
+  ],
+  "first three hooks": [
+   "hook_1",
+   "hook_2",
+   "hook_3"
+  ],
+  "somewhere on the canvas": [
+   "canvas_zone_A",
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "on canvas zones A or B": [
+   "canvas_zone_A",
+   "canvas_zone_B"
+  ],
+  "on the surface areas B or C": [
+   "canvas_zone_B",
+   "canvas_zone_C"
+  ],
+  "from the outer zones (A and C)": [
+   "canvas_zone_A",
+   "canvas_zone_C"
+  ],
+  "Nodes02": [
+   "Node10.02",
+   "Node20.02",
+   "Node30.02",
+   "Node40.02"
+  ]
+ }
+}

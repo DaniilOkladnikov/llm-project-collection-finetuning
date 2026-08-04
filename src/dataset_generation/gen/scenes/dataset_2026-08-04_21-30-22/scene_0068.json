@@ -1,0 +1,1345 @@
+{
+ "object_locations": [
+  "clearingquadrantALPHA",
+  "clearingquadrantBETA",
+  "parcelPalette-3.1.1",
+  "drawer_2",
+  "slot_primary",
+  "parcelPalette-3.2.2",
+  "L2-SecC-RackO",
+  "slot_secondary",
+  "parcelPalette-3.3.2",
+  "parcelPalette-3.2.1",
+  "L2-SecC-RackN",
+  "parcelPalette-3.1.2",
+  "parcelPalette-3.3.1"
+ ],
+ "object_types": [
+  "yellow_bead",
+  "product_item",
+  "phial",
+  "token_G",
+  "wafer_Q",
+  "liquid_broth",
+  "package_fragile",
+  "cylinder_yellow",
+  "sfp_module",
+  "grain_rye"
+ ],
+ "positions": {
+  "wafer_Q-from-parcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.2.liquid_broth.grab": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.1.product_item.grab": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "$.clearingquadrantALPHA.liquid_broth.grab": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "move/pick/cylinder_yellow?src=parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.1.wafer_Q.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.1.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "cylinder_yellow-from-clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.wafer_Q.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "grain_rye-from-parcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "liquid_broth-from-clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "grain_rye-from-slot_secondary": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "sfp_module-from-L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "move/pick/grain_rye?src=parcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "move/pick/product_item?src=L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.1.liquid_broth.grab": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "sfp_module-from-parcelPalette-3.2.2": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "cylinder_yellow-from-parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "move/pick/token_G?src=L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "move/pick/sfp_module?src=parcelPalette-3.3.2": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "phial-from-L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "grain_rye-from-parcelPalette-3.1.2": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "sfp_module-from-clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "yellow_bead-from-clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "move/pick/liquid_broth?src=parcelPalette-3.1.1": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "move/pick/phial?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "phial-from-parcelPalette-3.2.2": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.2.phial.grab": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "liquid_broth-from-slot_secondary": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "move/pick/package_fragile?src=drawer_2": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.2.token_G.grab": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "move/pick/cylinder_yellow?src=parcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "move/pick/phial?src=clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.2.package_fragile.grab": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "move/pick/token_G?src=clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "cylinder_yellow-from-slot_primary": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.1.sfp_module.grab": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.cylinder_yellow.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "$.clearingquadrantALPHA.package_fragile.grab": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=slot_secondary": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "yellow_bead-from-parcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "move/pick/liquid_broth?src=L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "liquid_broth",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.2.wafer_Q.grab": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.1.phial.grab": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "move/pick/yellow_bead?src=parcelPalette-3.1.2": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "$.L2-SecC-RackN.grain_rye.grab": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "$.L2-SecC-RackO.yellow_bead.grab": {
+   "type": "PICK",
+   "bound_type": "yellow_bead",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "sfp_module-from-slot_secondary": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "move/pick/wafer_Q?src=clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "sfp_module-from-parcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.2.product_item.grab": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.3.1.package_fragile.grab": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.1.token_G.grab": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "sfp_module-from-parcelPalette-3.1.2": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "$.slot_primary.sfp_module.grab": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "$.L2-SecC-RackO.sfp_module.grab": {
+   "type": "PICK",
+   "bound_type": "sfp_module",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "move/pick/grain_rye?src=parcelPalette-3.2.2": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "wafer_Q-from-clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "phial-from-slot_secondary": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "move/pick/grain_rye?src=clearingquadrantALPHA": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "phial-from-parcelPalette-3.2.1": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.phial.grab": {
+   "type": "PICK",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.2.1.package_fragile.grab": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "move/pick/wafer_Q?src=parcelPalette-3.3.1": {
+   "type": "PICK",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "$.clearingquadrantBETA.product_item.grab": {
+   "type": "PICK",
+   "bound_type": "product_item",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "move/pick/cylinder_yellow?src=L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "move/pick/token_G?src=L2-SecC-RackO": {
+   "type": "PICK",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "$.parcelPalette-3.1.2.package_fragile.grab": {
+   "type": "PICK",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "grain_rye-from-clearingquadrantBETA": {
+   "type": "PICK",
+   "bound_type": "grain_rye",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.1_wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "LOWER_L2-SecC-RackN_yellow_bead": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/liquid_broth/place": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.1.1/product_item/place": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/liquid_broth/place": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.3.2_cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1=>wafer_Q=>PUT": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.1/grain_rye/place": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "LOWER_clearingquadrantALPHA_cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.2_wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.1_grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "LOWER_clearingquadrantBETA_liquid_broth": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "LOWER_slot_secondary_grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "L2-SecC-RackN=>sfp_module=>PUT": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1=>grain_rye=>PUT": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "/mnt/L2-SecC-RackO/product_item/place": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.1=>liquid_broth=>PUT": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.2.2_sfp_module": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.3.1_cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "LOWER_L2-SecC-RackN_token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.2/sfp_module/place": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/L2-SecC-RackN/phial/place": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.2_grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "clearingquadrantALPHA=>sfp_module=>PUT": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantBETA/yellow_bead/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.1_liquid_broth": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "drawer_2=>phial=>PUT": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.2/phial/place": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "parcelPalette-3.3.2=>phial=>PUT": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "LOWER_slot_secondary_liquid_broth": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "LOWER_drawer_2_package_fragile": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.3.2_token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "parcelPalette-3.3.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.1/cylinder_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/phial/place": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.2/package_fragile/place": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/token_G/place": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "/mnt/slot_primary/cylinder_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.1/sfp_module/place": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.2_cylinder_yellow": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "LOWER_clearingquadrantALPHA_package_fragile": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "slot_secondary=>yellow_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.1/yellow_bead/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "L2-SecC-RackO=>liquid_broth=>PUT": {
+   "type": "PLACE",
+   "bound_type": "liquid_broth",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.2=>wafer_Q=>PUT": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.3.1/phial/place": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.1.2=>yellow_bead=>PUT": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "LOWER_L2-SecC-RackN_grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "/mnt/L2-SecC-RackO/yellow_bead/place": {
+   "type": "PLACE",
+   "bound_type": "yellow_bead",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "LOWER_slot_secondary_sfp_module": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "LOWER_clearingquadrantALPHA_wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.1=>sfp_module=>PUT": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.2.2=>product_item=>PUT": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.3.1_package_fragile": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.1_token_G": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "parcelPalette-3.1.1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.1.2/sfp_module/place": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "slot_primary=>sfp_module=>PUT": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "L2-SecC-RackO=>sfp_module=>PUT": {
+   "type": "PLACE",
+   "bound_type": "sfp_module",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.2.2_grain_rye": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "parcelPalette-3.2.2",
+   "observable_locations": null
+  },
+  "LOWER_clearingquadrantBETA_wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "LOWER_slot_secondary_phial": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "slot_secondary",
+   "observable_locations": null
+  },
+  "/mnt/clearingquadrantALPHA/grain_rye/place": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "clearingquadrantALPHA",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.2.1_phial": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "parcelPalette-3.1.2=>phial=>PUT": {
+   "type": "PLACE",
+   "bound_type": "phial",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-3.2.1/package_fragile/place": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.2.1",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.3.1_wafer_Q": {
+   "type": "PLACE",
+   "bound_type": "wafer_Q",
+   "bound_location": "parcelPalette-3.3.1",
+   "observable_locations": null
+  },
+  "LOWER_clearingquadrantBETA_product_item": {
+   "type": "PLACE",
+   "bound_type": "product_item",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "/mnt/L2-SecC-RackN/cylinder_yellow/place": {
+   "type": "PLACE",
+   "bound_type": "cylinder_yellow",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "L2-SecC-RackO=>token_G=>PUT": {
+   "type": "PLACE",
+   "bound_type": "token_G",
+   "bound_location": "L2-SecC-RackO",
+   "observable_locations": null
+  },
+  "LOWER_parcelPalette-3.1.2_package_fragile": {
+   "type": "PLACE",
+   "bound_type": "package_fragile",
+   "bound_location": "parcelPalette-3.1.2",
+   "observable_locations": null
+  },
+  "clearingquadrantBETA=>grain_rye=>PUT": {
+   "type": "PLACE",
+   "bound_type": "grain_rye",
+   "bound_location": "clearingquadrantBETA",
+   "observable_locations": null
+  },
+  "clearingquadrantALPHA Overwiew": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantALPHA"
+   ]
+  },
+  "clearingquadrantBETA Overview": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "clearingquadrantBETA"
+   ]
+  },
+  "inspect:slot_primary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_primary"
+   ]
+  },
+  "inspect:slot_secondary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_secondary"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_2"
+   ]
+  },
+  "Catwalk_Overlook_L2_SecC_Racks_M_N_O": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L2-SecC-RackN",
+    "L2-SecC-RackO"
+   ]
+  },
+  "eye→aisle[3.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-3.1.1",
+    "parcelPalette-3.1.2",
+    "parcelPalette-3.2.1",
+    "parcelPalette-3.2.2",
+    "parcelPalette-3.3.1",
+    "parcelPalette-3.3.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "yellow_bead",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "product_item",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "phial",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "token_G",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "wafer_Q",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "liquid_broth",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "package_fragile",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "cylinder_yellow",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "sfp_module",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "grain_rye",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "alpha or beta clearing quadrant": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "first or second cleaning disposals": [
+   "clearingquadrantALPHA",
+   "clearingquadrantBETA"
+  ],
+  "first or second slots": [
+   "slot_primary",
+   "slot_secondary"
+  ],
+  "Level_2_Steel_Racks_Indices_N_and_O": [
+   "L2-SecC-RackN",
+   "L2-SecC-RackO"
+  ],
+  "pallettes3": [
+   "parcelPalette-3.1.1",
+   "parcelPalette-3.1.2",
+   "parcelPalette-3.2.1",
+   "parcelPalette-3.2.2",
+   "parcelPalette-3.3.1",
+   "parcelPalette-3.3.2"
+  ],
+  "Palettes31": [
+   "parcelPalette-3.1.1",
+   "parcelPalette-3.1.2"
+  ],
+  "Palettes32.*": [
+   "parcelPalette-3.2.1",
+   "parcelPalette-3.2.2"
+  ],
+  "Box storages 3... ": [
+   "parcelPalette-3.3.1",
+   "parcelPalette-3.3.2"
+  ]
+ }
+}

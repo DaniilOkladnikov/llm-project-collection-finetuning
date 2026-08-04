@@ -1,0 +1,1053 @@
+{
+ "object_locations": [
+  "tree_8",
+  "tool_shed_shelf_top",
+  "bay_B",
+  "tree_10",
+  "zone_014",
+  "bay_A",
+  "tree_14",
+  "tree_2",
+  "tree_4",
+  "tree_6",
+  "tool_shed_shelf_bottom",
+  "conveyor_pick_zone",
+  "tree_12",
+  "bay_C",
+  "conveyor_drop_zone"
+ ],
+ "object_types": [
+  "reagent_vial",
+  "brush_mid",
+  "package_medium",
+  "package_envelope",
+  "box_express"
+ ],
+ "positions": {
+  "actions/grasp/package_envelope/from/bay_B": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_express:LOC:tree_14": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:tool_shed_shelf_bottom": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/package_envelope/from/bay_A": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_mid/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_mid:LOC:tree_10": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_envelope:LOC:tree_14": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_mid/from/conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:bay_C": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:tree_12": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_express:LOC:tool_shed_shelf_bottom": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_envelope:LOC:tree_2": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:bay_C": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_mid:LOC:tree_8": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/reagent_vial/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "actions/grasp/package_medium/from/zone_014": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:tree_10": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_mid/from/bay_B": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_mid:LOC:bay_A": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:tree_10": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_envelope:LOC:tree_12": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:tree_8": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_mid/from/tree_14": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "actions/grasp/package_envelope/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_express:LOC:tree_6": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:tree_8": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "actions/grasp/reagent_vial/from/tree_4": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_express:LOC:tree_10": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "actions/grasp/reagent_vial/from/bay_B": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_express:LOC:conveyor_drop_zone": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "actions/grasp/package_medium/from/tree_4": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/grasp/package_envelope/from/tree_6": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_mid:LOC:tool_shed_shelf_bottom": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "actions/grasp/package_medium/from/bay_B": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_mid:LOC:conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:bay_A": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/tree_8": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:brush_mid:LOC:tree_12": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_envelope:LOC:tree_8": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "CMD:GRIP:box_express:LOC:tree_4": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/bay_B": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "actions/grasp/brush_mid/from/bay_C": {
+   "type": "PICK",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:tool_shed_shelf_top": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "tool_shed_shelf_top",
+   "observable_locations": null
+  },
+  "actions/grasp/reagent_vial/from/tool_shed_shelf_bottom": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_envelope:LOC:tree_4": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:package_medium:LOC:tree_2": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "actions/grasp/box_express/from/bay_A": {
+   "type": "PICK",
+   "bound_type": "box_express",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:conveyor_pick_zone": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "--release--package_envelope--at--bay_B": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "task/place/tree_14/box_express": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_bottom:item:package_medium:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "--release--package_envelope--at--bay_A": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "task/place/tree_6/brush_mid": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "task/place/tree_10/brush_mid": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "--release--package_envelope--at--tree_14": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ns:conveyor_drop_zone:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "task/place/bay_C/reagent_vial": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "task/place/tree_12/package_medium": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_bottom:item:box_express:action:place": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "--release--package_envelope--at--tree_2": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "task/place/bay_C/package_medium": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "--release--brush_mid--at--tree_8": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "--release--reagent_vial--at--tree_6": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ns:zone_014:item:package_medium:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "zone_014",
+   "observable_locations": null
+  },
+  "--release--reagent_vial--at--tree_10": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:bay_B:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "task/place/bay_C/box_express": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "--release--brush_mid--at--bay_A": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "--release--package_medium--at--tree_10": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "ns:tree_12:item:package_envelope:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "ns:conveyor_drop_zone:item:package_medium:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "--release--reagent_vial--at--tree_8": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:tree_14:item:brush_mid:action:place": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_14",
+   "observable_locations": null
+  },
+  "ns:bay_C:item:package_envelope:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:tree_6:item:box_express:action:place": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "--release--package_medium--at--tree_8": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:tree_4:item:reagent_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "--release--box_express--at--tree_10": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "tree_10",
+   "observable_locations": null
+  },
+  "task/place/bay_B/reagent_vial": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "--release--box_express--at--conveyor_drop_zone": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "conveyor_drop_zone",
+   "observable_locations": null
+  },
+  "ns:tree_4:item:package_medium:action:place": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "task/place/tree_6/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "task/place/tool_shed_shelf_bottom/brush_mid": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "task/place/bay_B/package_medium": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "--release--brush_mid--at--conveyor_pick_zone": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "task/place/bay_A/package_medium": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "task/place/tree_8/box_express": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "--release--brush_mid--at--tree_12": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "tree_12",
+   "observable_locations": null
+  },
+  "task/place/tree_8/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_8",
+   "observable_locations": null
+  },
+  "ns:tree_4:item:box_express:action:place": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "task/place/bay_B/box_express": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "task/place/bay_C/brush_mid": {
+   "type": "PLACE",
+   "bound_type": "brush_mid",
+   "bound_location": "bay_C",
+   "observable_locations": null
+  },
+  "ns:tool_shed_shelf_top:item:reagent_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "tool_shed_shelf_top",
+   "observable_locations": null
+  },
+  "task/place/tool_shed_shelf_bottom/reagent_vial": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "tool_shed_shelf_bottom",
+   "observable_locations": null
+  },
+  "--release--package_envelope--at--tree_4": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "--release--package_medium--at--tree_2": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "ns:bay_A:item:box_express:action:place": {
+   "type": "PLACE",
+   "bound_type": "box_express",
+   "bound_location": "bay_A",
+   "observable_locations": null
+  },
+  "ns:conveyor_pick_zone:item:reagent_vial:action:place": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "conveyor_pick_zone",
+   "observable_locations": null
+  },
+  "conveyor_pick_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_pick_zone"
+   ]
+  },
+  "conveyor_drop_watchpoint": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "conveyor_drop_zone"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_014"
+   ]
+  },
+  "glance@bay_A": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_A"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "glance@bay_C": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_C"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_2",
+    "tree_4"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6",
+    "tree_8",
+    "tree_10"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_12",
+    "tree_14"
+   ]
+  },
+  "tool_shed_interior_camera": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tool_shed_shelf_top",
+    "tool_shed_shelf_bottom"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "brush_mid",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "box_express",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "conveyor_zones": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "anywhere along the conveyor": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "pick or drop zone": [
+   "conveyor_pick_zone",
+   "conveyor_drop_zone"
+  ],
+  "bay A/B/C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "bays A through B": [
+   "bay_A",
+   "bay_B"
+  ],
+  "outermost bays (A and C)": [
+   "bay_A",
+   "bay_C"
+  ],
+  "bays A to C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "one of the bays A through C": [
+   "bay_A",
+   "bay_B",
+   "bay_C"
+  ],
+  "even numbered trees": [
+   "tree_2",
+   "tree_4",
+   "tree_6",
+   "tree_8",
+   "tree_10",
+   "tree_12",
+   "tree_14"
+  ],
+  "all_tool_shed_shelves": [
+   "tool_shed_shelf_top",
+   "tool_shed_shelf_bottom"
+  ],
+  "top_bottom_tool_racks": [
+   "tool_shed_shelf_top",
+   "tool_shed_shelf_bottom"
+  ]
+ }
+}

@@ -1,0 +1,1440 @@
+{
+ "object_locations": [
+  "pos.y2.x2",
+  "pot_small",
+  "table_Q2",
+  "lane_2_start",
+  "tray_infeed_slot1",
+  "tray_outfeed_slot2",
+  "pot_medium",
+  "pot_large",
+  "tree_2",
+  "pos.y2.x3",
+  "furnace_mouth",
+  "cell_R1C3",
+  "zone_005",
+  "pos.y2.x0",
+  "binA_003",
+  "pos.y2.x1",
+  "zone_012",
+  "binB_103"
+ ],
+ "object_types": [
+  "sku_005",
+  "package_envelope",
+  "chip_C",
+  "potato",
+  "oat_grain",
+  "package_tube",
+  "amaranth_kernel"
+ ],
+ "positions": {
+  "task/pick/tray_outfeed_slot2/package_envelope": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "[zone_012][potato]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "cell_R1C3=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot2=>amaranth_kernel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "[pot_large][package_envelope]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "task/pick/zone_012/package_envelope": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "zone_005=>chip_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "pos.y2.x3=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[tree_2][potato]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "[binA_003][potato]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "[zone_012][amaranth_kernel]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "pos.y2.x3=>chip_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "task/pick/pot_large/chip_C": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "pos.y2.x1=>package_envelope=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "pos.y2.x2=>package_envelope=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x1/amaranth_kernel": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "[zone_005][sku_005]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot2=>chip_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "[cell_R1C3][package_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "furnace_mouth=>potato=>TAKE": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "pot_large=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "[pot_small][oat_grain]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/pick/lane_2_start/potato": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "[table_Q2][package_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "task/pick/furnace_mouth/package_envelope": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot2=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "[pos.y2.x3][package_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[pos.y2.x1][chip_C]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "lane_2_start=>package_envelope=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "[zone_005][package_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "lane_2_start=>amaranth_kernel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "task/pick/table_Q2/oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "[tray_infeed_slot1][sku_005]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "tree_2=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "pos.y2.x1=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "[pos.y2.x0][potato]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "tray_outfeed_slot2=>package_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "zone_005=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "binB_103=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "furnace_mouth=>chip_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "pos.y2.x0=>amaranth_kernel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "pos.y2.x0=>package_envelope=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "task/pick/tray_outfeed_slot2/oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "furnace_mouth=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "[pos.y2.x2][package_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "cell_R1C3=>potato=>TAKE": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/pick/lane_2_start/sku_005": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "tray_infeed_slot1=>package_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "binA_003=>package_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "pos.y2.x1=>package_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "task/pick/zone_012/oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "task/pick/pot_small/amaranth_kernel": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/pick/tray_infeed_slot1/oat_grain": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "task/pick/zone_005/potato": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "pot_medium=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x3/package_envelope": {
+   "type": "PICK",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "[pos.y2.x0][chip_C]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "tree_2=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "pos.y2.x1=>oat_grain=>TAKE": {
+   "type": "PICK",
+   "bound_type": "oat_grain",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "furnace_mouth=>package_tube=>TAKE": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/pick/pos.y2.x0/sku_005": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "[pot_small][chip_C]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_large=>potato=>TAKE": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "[lane_2_start][package_tube]_PICKUP": {
+   "type": "PICK",
+   "bound_type": "package_tube",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "task/pick/tray_outfeed_slot2/potato": {
+   "type": "PICK",
+   "bound_type": "potato",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "binB_103=>amaranth_kernel=>TAKE": {
+   "type": "PICK",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "task/pick/cell_R1C3/chip_C": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "pot_small=>sku_005=>TAKE": {
+   "type": "PICK",
+   "bound_type": "sku_005",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "table_Q2=>chip_C=>TAKE": {
+   "type": "PICK",
+   "bound_type": "chip_C",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_outfeed_slot2/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "task/place/zone_012/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "task/place/cell_R1C3/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/place/tray_outfeed_slot2/amaranth_kernel": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "task/place/pot_large/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_012/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_005/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "task/place/tree_2/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "task/place/binA_003/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_012/amaranth_kernel": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "task/place/pos.y2.x3/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "task/place/pot_large/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "task/place/pos.y2.x2/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "task/place/pos.y2.x1/amaranth_kernel": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_005/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_outfeed_slot2/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C3/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "DEPOSIT/furnace_mouth/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/place/pot_large/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "task/place/pot_small/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/place/lane_2_start/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "task/place/table_Q2/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "DEPOSIT/furnace_mouth/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/place/tray_outfeed_slot2/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_2_start/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_005/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_2_start/amaranth_kernel": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "task/place/table_Q2/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_infeed_slot1/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_2/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x0/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_outfeed_slot2/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_005/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_103/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "task/place/furnace_mouth/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/place/pos.y2.x0/amaranth_kernel": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x0/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "task/place/tray_outfeed_slot2/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "DEPOSIT/furnace_mouth/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "task/place/pos.y2.x2/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "pos.y2.x2",
+   "observable_locations": null
+  },
+  "task/place/cell_R1C3/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "task/place/lane_2_start/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_infeed_slot1/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "DEPOSIT/binA_003/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "binA_003",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x1/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/zone_012/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "zone_012",
+   "observable_locations": null
+  },
+  "DEPOSIT/pot_small/amaranth_kernel": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_infeed_slot1/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "tray_infeed_slot1",
+   "observable_locations": null
+  },
+  "task/place/zone_005/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "task/place/pot_medium/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x3/package_envelope": {
+   "type": "PLACE",
+   "bound_type": "package_envelope",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "task/place/pos.y2.x0/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "DEPOSIT/tree_2/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "tree_2",
+   "observable_locations": null
+  },
+  "task/place/pos.y2.x1/oat_grain": {
+   "type": "PLACE",
+   "bound_type": "oat_grain",
+   "bound_location": "pos.y2.x1",
+   "observable_locations": null
+  },
+  "DEPOSIT/furnace_mouth/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "DEPOSIT/pos.y2.x0/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "pos.y2.x0",
+   "observable_locations": null
+  },
+  "task/place/pot_small/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "task/place/pot_large/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "pot_large",
+   "observable_locations": null
+  },
+  "DEPOSIT/lane_2_start/package_tube": {
+   "type": "PLACE",
+   "bound_type": "package_tube",
+   "bound_location": "lane_2_start",
+   "observable_locations": null
+  },
+  "DEPOSIT/tray_outfeed_slot2/potato": {
+   "type": "PLACE",
+   "bound_type": "potato",
+   "bound_location": "tray_outfeed_slot2",
+   "observable_locations": null
+  },
+  "DEPOSIT/binB_103/amaranth_kernel": {
+   "type": "PLACE",
+   "bound_type": "amaranth_kernel",
+   "bound_location": "binB_103",
+   "observable_locations": null
+  },
+  "DEPOSIT/cell_R1C3/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "DEPOSIT/pot_small/sku_005": {
+   "type": "PLACE",
+   "bound_type": "sku_005",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "DEPOSIT/table_Q2/chip_C": {
+   "type": "PLACE",
+   "bound_type": "chip_C",
+   "bound_location": "table_Q2",
+   "observable_locations": null
+  },
+  "table_q2_look": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "table_Q2"
+   ]
+  },
+  "infeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_infeed_slot1"
+   ]
+  },
+  "outfeed_observe": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tray_outfeed_slot2"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_003"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_103"
+   ]
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_005"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_012"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x0",
+    "pos.y2.x1",
+    "pos.y2.x2",
+    "pos.y2.x3"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3"
+   ]
+  },
+  "monitor furnace_mouth": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "furnace_mouth"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_2_start"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium",
+    "pot_large"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "tray_scan_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_origin_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "heat_safe_distance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "loading_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stove_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "prep_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "sku_005",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "package_envelope",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "chip_C",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "potato",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "oat_grain",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "package_tube",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "amaranth_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "infeed slot 1 or outfeed slot 2": [
+   "tray_infeed_slot1",
+   "tray_outfeed_slot2"
+  ],
+  "locations ending in 03": [
+   "binA_003",
+   "binB_103"
+  ],
+  "poses with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "positions with y2": [
+   "pos.y2.x0",
+   "pos.y2.x1",
+   "pos.y2.x2",
+   "pos.y2.x3"
+  ],
+  "pot small|medium|large": [
+   "pot_small",
+   "pot_medium",
+   "pot_large"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ],
+  "medium or large pot": [
+   "pot_medium",
+   "pot_large"
+  ]
+ }
+}

@@ -1,0 +1,918 @@
+{
+ "object_locations": [
+  "lane_3_mid",
+  "nest_4",
+  "nest_5",
+  "binB_104",
+  "hook_5",
+  "lane_3_end",
+  "binC_201",
+  "hook_1",
+  "palette_well_6",
+  "parcelPalette-2.1.2",
+  "cell_R2C5",
+  "hook_3",
+  "binA_004",
+  "lane_3_start"
+ ],
+ "object_types": [
+  "wire",
+  "nut",
+  "screw",
+  "scrap_metal",
+  "chassis_fan"
+ ],
+ "positions": {
+  "binB_104_nut_collect": {
+   "type": "PICK",
+   "bound_type": "nut",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "binA_004_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.2_nut_collect": {
+   "type": "PICK",
+   "bound_type": "nut",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "nest_5_chassis_fan_collect": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "hook_5_chassis_fan_collect": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "nest_5_nut_collect": {
+   "type": "PICK",
+   "bound_type": "nut",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "lane_3_start_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "hook_3_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "cell_R2C5_chassis_fan_collect": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "binB_104_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "binC_201_chassis_fan_collect": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "hook_3_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "lane_3_mid_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "nest_4_chassis_fan_collect": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "hook_5_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "nest_5_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "hook_1_nut_collect": {
+   "type": "PICK",
+   "bound_type": "nut",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "binB_104_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.2_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "binB_104_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "nest_5_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "parcelPalette-2.1.2_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "palette_well_6_chassis_fan_collect": {
+   "type": "PICK",
+   "bound_type": "chassis_fan",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "cell_R2C5_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "nest_5_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "binC_201_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "hook_5_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "lane_3_end_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "nest_4_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "hook_1_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "cell_R2C5_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "binC_201_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "cell_R2C5_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "nest_4_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "binC_201_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "lane_3_end_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "nest_4_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "palette_well_6_wire_collect": {
+   "type": "PICK",
+   "bound_type": "wire",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "hook_1_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "lane_3_start_nut_collect": {
+   "type": "PICK",
+   "bound_type": "nut",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "lane_3_mid_nut_collect": {
+   "type": "PICK",
+   "bound_type": "nut",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "palette_well_6_screw_collect": {
+   "type": "PICK",
+   "bound_type": "screw",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "binA_004_scrap_metal_collect": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "ns:binB_104:item:nut:action:place": {
+   "type": "PLACE",
+   "bound_type": "nut",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "ns:binA_004:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=nut&dest=parcelPalette-2.1.2": {
+   "type": "PLACE",
+   "bound_type": "nut",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chassis_fan&dest=nest_5": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chassis_fan&dest=hook_5": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=nut&dest=nest_5": {
+   "type": "PLACE",
+   "bound_type": "nut",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scrap_metal&dest=lane_3_start": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "ns:hook_3:item:scrap_metal:action:place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chassis_fan&dest=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wire&dest=binB_104": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chassis_fan&dest=binC_201": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:hook_3:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "hook_3",
+   "observable_locations": null
+  },
+  "ns:lane_3_mid:item:scrap_metal:action:place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:chassis_fan:action:place": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wire&dest=hook_5": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wire&dest=nest_5": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:hook_1:item:nut:action:place": {
+   "type": "PLACE",
+   "bound_type": "nut",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scrap_metal&dest=binB_104": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-2.1.2:item:scrap_metal:action:place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "ns:binB_104:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "binB_104",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scrap_metal&dest=nest_5": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:parcelPalette-2.1.2:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "parcelPalette-2.1.2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chassis_fan&dest=palette_well_6": {
+   "type": "PLACE",
+   "bound_type": "chassis_fan",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:wire:action:place": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:nest_5:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "nest_5",
+   "observable_locations": null
+  },
+  "ns:binC_201:item:wire:action:place": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scrap_metal&dest=hook_5": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "hook_5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wire&dest=lane_3_end": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wire&dest=nest_4": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=wire&dest=hook_1": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:scrap_metal:action:place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:binC_201:item:scrap_metal:action:place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:nest_4:item:scrap_metal:action:place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ns:binC_201:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "binC_201",
+   "observable_locations": null
+  },
+  "ns:lane_3_end:item:scrap_metal:action:place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "lane_3_end",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=nest_4": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "nest_4",
+   "observable_locations": null
+  },
+  "ns:palette_well_6:item:wire:action:place": {
+   "type": "PLACE",
+   "bound_type": "wire",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=screw&dest=hook_1": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "hook_1",
+   "observable_locations": null
+  },
+  "ns:lane_3_start:item:nut:action:place": {
+   "type": "PLACE",
+   "bound_type": "nut",
+   "bound_location": "lane_3_start",
+   "observable_locations": null
+  },
+  "ns:lane_3_mid:item:nut:action:place": {
+   "type": "PLACE",
+   "bound_type": "nut",
+   "bound_location": "lane_3_mid",
+   "observable_locations": null
+  },
+  "ns:palette_well_6:item:screw:action:place": {
+   "type": "PLACE",
+   "bound_type": "screw",
+   "bound_location": "palette_well_6",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=scrap_metal&dest=binA_004": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "binA_004",
+   "observable_locations": null
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_004"
+   ]
+  },
+  "binB_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binB_104"
+   ]
+  },
+  "binC_corner vantage": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binC_201"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_4",
+    "nest_5"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C5"
+   ]
+  },
+  "look at hook_1|hook_2|hook_3|hook_4|hook_5|hook_6": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "hook_1",
+    "hook_3",
+    "hook_5"
+   ]
+  },
+  "view lane_*_start": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_start"
+   ]
+  },
+  "view lane_*_end": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_end"
+   ]
+  },
+  "view lane_*_mid": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "lane_3_mid"
+   ]
+  },
+  "scan palette_well_1->palette_well_8": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "palette_well_6"
+   ]
+  },
+  "eye→aisle[2.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-2.1.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "divert_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "wire",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "nut",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "nut",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "nut",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "nut",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "nut",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "nut",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "screw",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "chassis_fan",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "last but one cells of each bin": [
+   "binA_004",
+   "binB_104",
+   "binC_201"
+  ],
+  "last two nests": [
+   "nest_4",
+   "nest_5"
+  ],
+  "odd numbered hooks": [
+   "hook_1",
+   "hook_3",
+   "hook_5"
+  ],
+  "anywhere on the lane 3": [
+   "lane_3_start",
+   "lane_3_mid",
+   "lane_3_end"
+  ]
+ }
+}

@@ -1,0 +1,969 @@
+{
+ "object_locations": [
+  "Node10.01",
+  "finished_stack",
+  "drawer_small_parts",
+  "parcelPalette-1.2.2",
+  "binA_002",
+  "binA_001",
+  "Node10.02",
+  "Node10.03",
+  "slot3_1",
+  "furnace_mouth",
+  "parcelPalette-1.2.1",
+  "burner_back_left",
+  "tire_bay_RR",
+  "zone_015",
+  "cell_R1C3"
+ ],
+ "object_types": [
+  "all_season_tyre",
+  "test_tube",
+  "roller_red",
+  "scrap_metal",
+  "waste_matter"
+ ],
+ "positions": {
+  "seize_scrap_metal@drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "seize_test_tube@Node10.03": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@finished_stack": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "seize_roller_red@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@Node10.02": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@binA_002": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "seize_test_tube@tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "seize_test_tube@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "seize_waste_matter@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@finished_stack": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "seize_test_tube@parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "seize_waste_matter@parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@Node10.02": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@Node10.01": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@burner_back_left": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@zone_015": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "seize_roller_red@drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "seize_roller_red@Node10.01": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "seize_roller_red@binA_002": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "seize_roller_red@cell_R1C3": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "seize_roller_red@slot3_1": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "seize_test_tube@drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@binA_001": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@slot3_1": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "seize_waste_matter@drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@zone_015": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "seize_test_tube@Node10.01": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "seize_roller_red@parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "roller_red",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "seize_waste_matter@Node10.01": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@Node10.03": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "seize_waste_matter@binA_002": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "seize_test_tube@parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "seize_waste_matter@parcelPalette-1.2.2": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@slot3_1": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@binA_001": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "seize_scrap_metal@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "scrap_metal",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "seize_test_tube@zone_015": {
+   "type": "PICK",
+   "bound_type": "test_tube",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "seize_waste_matter@zone_015": {
+   "type": "PICK",
+   "bound_type": "waste_matter",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@tire_bay_RR": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@furnace_mouth": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "seize_all_season_tyre@parcelPalette-1.2.1": {
+   "type": "PICK",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "/mnt/drawer_small_parts/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "/mnt/Node10.03/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "/mnt/finished_stack/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "/mnt/furnace_mouth/roller_red/place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "/mnt/Node10.02/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "/mnt/binA_002/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/furnace_mouth/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "/mnt/drawer_small_parts/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "/mnt/furnace_mouth/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "/mnt/finished_stack/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.1/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.1/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "/mnt/Node10.02/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "Node10.02",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "/mnt/burner_back_left/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "burner_back_left",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "/mnt/zone_015/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "/mnt/drawer_small_parts/roller_red/place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.2/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/roller_red/place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "/mnt/binA_002/roller_red/place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C3/roller_red/place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "cell_R1C3",
+   "observable_locations": null
+  },
+  "/mnt/slot3_1/roller_red/place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "/mnt/drawer_small_parts/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "/mnt/binA_001/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "/mnt/slot3_1/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "/mnt/drawer_small_parts/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "/mnt/zone_015/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.2/roller_red/place": {
+   "type": "PLACE",
+   "bound_type": "roller_red",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "/mnt/Node10.01/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "Node10.01",
+   "observable_locations": null
+  },
+  "/mnt/Node10.03/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "Node10.03",
+   "observable_locations": null
+  },
+  "/mnt/binA_002/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "binA_002",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.2/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.2/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "parcelPalette-1.2.2",
+   "observable_locations": null
+  },
+  "/mnt/slot3_1/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "/mnt/binA_001/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "binA_001",
+   "observable_locations": null
+  },
+  "/mnt/furnace_mouth/scrap_metal/place": {
+   "type": "PLACE",
+   "bound_type": "scrap_metal",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "/mnt/zone_015/test_tube/place": {
+   "type": "PLACE",
+   "bound_type": "test_tube",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "/mnt/zone_015/waste_matter/place": {
+   "type": "PLACE",
+   "bound_type": "waste_matter",
+   "bound_location": "zone_015",
+   "observable_locations": null
+  },
+  "/mnt/tire_bay_RR/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "tire_bay_RR",
+   "observable_locations": null
+  },
+  "/mnt/furnace_mouth/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "furnace_mouth",
+   "observable_locations": null
+  },
+  "/mnt/parcelPalette-1.2.1/all_season_tyre/place": {
+   "type": "PLACE",
+   "bound_type": "all_season_tyre",
+   "bound_location": "parcelPalette-1.2.1",
+   "observable_locations": null
+  },
+  "peek drawer_small_parts": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_small_parts"
+   ]
+  },
+  "slot3_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot3_1"
+   ]
+  },
+  "binA_observe strip": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "binA_001",
+    "binA_002"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_015"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C3"
+   ]
+  },
+  "monitor furnace_mouth": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "furnace_mouth"
+   ]
+  },
+  "view finished_stack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "finished_stack"
+   ]
+  },
+  "watch burner_front_left burner_front_right burner_back_left burner_back_right": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "burner_back_left"
+   ]
+  },
+  "inspect tire_bay_FL|FR|RL|RR": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_bay_RR"
+   ]
+  },
+  "Thermal_Camera_Scanning_Node10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node10.01",
+    "Node10.02",
+    "Node10.03"
+   ]
+  },
+  "eye→aisle[1.*.*]": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "parcelPalette-1.2.1",
+    "parcelPalette-1.2.2"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charge-pad": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "workbench_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_entry_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "aisle_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "heat_safe_distance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "loading_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "wheel_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "all_season_tyre",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "test_tube",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "roller_red",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "scrap_metal",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "waste_matter",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "binA slots 1 or 2": [
+   "binA_001",
+   "binA_002"
+  ],
+  "first two slots of A": [
+   "binA_001",
+   "binA_002"
+  ],
+  "furnace or stack": [
+   "furnace_mouth",
+   "finished_stack"
+  ],
+  "Subnet10": [
+   "Node10.01",
+   "Node10.02",
+   "Node10.03"
+  ],
+  "Palettesshelf - 1.2.*": [
+   "parcelPalette-1.2.1",
+   "parcelPalette-1.2.2"
+  ]
+ }
+}

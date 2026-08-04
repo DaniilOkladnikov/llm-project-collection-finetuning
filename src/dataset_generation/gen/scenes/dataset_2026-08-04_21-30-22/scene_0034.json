@@ -1,0 +1,1152 @@
+{
+ "object_locations": [
+  "pass_bin",
+  "dispenser_D",
+  "cell_R2C3",
+  "cell_R2C5",
+  "cell_R2C1",
+  "dispenser_B",
+  "station_alpha",
+  "slot_primary",
+  "reject_bin",
+  "Node20.02",
+  "buffer_zone",
+  "tree_11",
+  "cell_R2C2",
+  "cell_R2C4"
+ ],
+ "object_types": [
+  "sorghum_kernel",
+  "barley_kernel",
+  "coin_dollar",
+  "pvc_pipe",
+  "package_medium",
+  "nvme_drive",
+  "tile_H"
+ ],
+ "positions": {
+  "ns:pass_bin:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "ns:buffer_zone:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "ns:station_alpha:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "ns:station_alpha:item:tile_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "ns:dispenser_B:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ns:pass_bin:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "ns:cell_R2C4:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:dispenser_B:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:station_alpha:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "ns:cell_R2C2:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "ns:pass_bin:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:cell_R2C1:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:dispenser_D:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ns:reject_bin:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:tile_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:cell_R2C4:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "ns:buffer_zone:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "ns:Node20.02:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "ns:dispenser_B:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ns:cell_R2C3:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ns:dispenser_B:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ns:station_alpha:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "ns:cell_R2C3:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ns:cell_R2C1:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ns:buffer_zone:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "ns:dispenser_B:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "ns:pass_bin:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "ns:dispenser_D:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:reject_bin:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "ns:cell_R2C4:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "ns:buffer_zone:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:cell_R2C3:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ns:pass_bin:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "ns:cell_R2C1:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ns:cell_R2C3:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ns:cell_R2C4:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "ns:pass_bin:item:tile_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "ns:cell_R2C1:item:pvc_pipe:action:pick": {
+   "type": "PICK",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "ns:tree_11:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "ns:buffer_zone:item:nvme_drive:action:pick": {
+   "type": "PICK",
+   "bound_type": "nvme_drive",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "ns:pass_bin:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "ns:slot_primary:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "ns:Node20.02:item:sorghum_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "ns:cell_R2C3:item:barley_kernel:action:pick": {
+   "type": "PICK",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:cell_R2C2:item:tile_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "ns:cell_R2C5:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "ns:cell_R2C2:item:package_medium:action:pick": {
+   "type": "PICK",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "ns:Node20.02:item:tile_H:action:pick": {
+   "type": "PICK",
+   "bound_type": "tile_H",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "ns:Node20.02:item:coin_dollar:action:pick": {
+   "type": "PICK",
+   "bound_type": "coin_dollar",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "put__nvme_drive__to__pass_bin": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "zone.buffer_zone.item.barley_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "put__coin_dollar__to__station_alpha": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "move/place/tile_H?dst=station_alpha": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "put__coin_dollar__to__dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "move/place/pvc_pipe?dst=pass_bin": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "move/place/sorghum_kernel?dst=cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "move/place/nvme_drive?dst=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "put__package_medium__to__dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "put__sorghum_kernel__to__tree_11": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "zone.station_alpha.item.package_medium.release": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "put__nvme_drive__to__cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "move/place/barley_kernel?dst=pass_bin": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "put__pvc_pipe__to__cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "move/place/sorghum_kernel?dst=cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "zone.tree_11.item.coin_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "move/place/barley_kernel?dst=dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "move/place/coin_dollar?dst=reject_bin": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "put__tile_H__to__tree_11": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "move/place/barley_kernel?dst=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "move/place/package_medium?dst=cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "move/place/sorghum_kernel?dst=buffer_zone": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "zone.Node20.02.item.pvc_pipe.release": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "zone.dispenser_B.item.nvme_drive.release": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "put__coin_dollar__to__cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.dispenser_B.item.pvc_pipe.release": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "put__pvc_pipe__to__station_alpha": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "station_alpha",
+   "observable_locations": null
+  },
+  "move/place/package_medium?dst=cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "put__package_medium__to__cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "zone.buffer_zone.item.coin_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "put__barley_kernel__to__dispenser_B": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "dispenser_B",
+   "observable_locations": null
+  },
+  "put__sorghum_kernel__to__pass_bin": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "put__sorghum_kernel__to__dispenser_D": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "dispenser_D",
+   "observable_locations": null
+  },
+  "zone.tree_11.item.nvme_drive.release": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "move/place/nvme_drive?dst=reject_bin": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "reject_bin",
+   "observable_locations": null
+  },
+  "move/place/pvc_pipe?dst=cell_R2C4": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "put__package_medium__to__buffer_zone": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "zone.tree_11.item.pvc_pipe.release": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "move/place/nvme_drive?dst=cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.pass_bin.item.coin_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "put__nvme_drive__to__cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "put__pvc_pipe__to__cell_R2C3": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "zone.cell_R2C4.item.barley_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R2C4",
+   "observable_locations": null
+  },
+  "move/place/tile_H?dst=pass_bin": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "move/place/pvc_pipe?dst=cell_R2C1": {
+   "type": "PLACE",
+   "bound_type": "pvc_pipe",
+   "bound_location": "cell_R2C1",
+   "observable_locations": null
+  },
+  "move/place/barley_kernel?dst=tree_11": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "tree_11",
+   "observable_locations": null
+  },
+  "put__nvme_drive__to__buffer_zone": {
+   "type": "PLACE",
+   "bound_type": "nvme_drive",
+   "bound_location": "buffer_zone",
+   "observable_locations": null
+  },
+  "zone.pass_bin.item.package_medium.release": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "pass_bin",
+   "observable_locations": null
+  },
+  "zone.slot_primary.item.sorghum_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "slot_primary",
+   "observable_locations": null
+  },
+  "zone.Node20.02.item.sorghum_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "sorghum_kernel",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "zone.cell_R2C3.item.barley_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "barley_kernel",
+   "bound_location": "cell_R2C3",
+   "observable_locations": null
+  },
+  "move/place/coin_dollar?dst=cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "put__tile_H__to__cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "put__package_medium__to__cell_R2C5": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C5",
+   "observable_locations": null
+  },
+  "move/place/package_medium?dst=cell_R2C2": {
+   "type": "PLACE",
+   "bound_type": "package_medium",
+   "bound_location": "cell_R2C2",
+   "observable_locations": null
+  },
+  "move/place/tile_H?dst=Node20.02": {
+   "type": "PLACE",
+   "bound_type": "tile_H",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "zone.Node20.02.item.coin_dollar.release": {
+   "type": "PLACE",
+   "bound_type": "coin_dollar",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "look at station_alpha": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "station_alpha"
+   ]
+  },
+  "look at buffer_zone": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "buffer_zone"
+   ]
+  },
+  "inspect:slot_primary": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot_primary"
+   ]
+  },
+  "check cell_R1C1 cell_R1C2 cell_R2C1 cell_R2C2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C1",
+    "cell_R2C2"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R2C3",
+    "cell_R2C4",
+    "cell_R2C5"
+   ]
+  },
+  "inspect reject_bin + pass_bin": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "reject_bin",
+    "pass_bin"
+   ]
+  },
+  "look at dispenser_A & dispenser_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_B"
+   ]
+  },
+  "look at dispenser_C & dispenser_D": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "dispenser_D"
+   ]
+  },
+  "scan tree_11->tree_15": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_11"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "plate_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "inspection_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "stringing_station": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "recalibration_bay": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "sorghum_kernel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "barley_kernel",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "coin_dollar",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "pvc_pipe",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "package_medium",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "nvme_drive",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "tile_H",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "first station or in buffer zone": [
+   "station_alpha",
+   "buffer_zone"
+  ],
+  "cellR2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "cells in row 2": [
+   "cell_R2C1",
+   "cell_R2C2",
+   "cell_R2C3",
+   "cell_R2C4",
+   "cell_R2C5"
+  ],
+  "reject or pass": [
+   "reject_bin",
+   "pass_bin"
+  ],
+  "somewhere in dispensers B or D": [
+   "dispenser_B",
+   "dispenser_D"
+  ]
+ }
+}

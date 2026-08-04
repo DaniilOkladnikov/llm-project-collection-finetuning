@@ -1,0 +1,2012 @@
+{
+ "object_locations": [
+  "pot_small",
+  "shelf_L3_S2",
+  "rack top",
+  "drawer_2",
+  "shelf_L1_S4",
+  "shelf_L1_S1",
+  "shelf_L3_S3",
+  "drawer_3",
+  "rack middle",
+  "drawer_1",
+  "rack bottom",
+  "shelf_L2_S3",
+  "shelf_L2_S1",
+  "shelf_L1_S3",
+  "shelf_L1_S2",
+  "pot_medium",
+  "shelf_L3_S1",
+  "shelf_L3_S4",
+  "shelf_L2_S4",
+  "shelf_L2_S2"
+ ],
+ "object_types": [
+  "farro_kernel",
+  "parcel_tube",
+  "pearl_pellet",
+  "scaffolding_pole",
+  "king",
+  "chip_H",
+  "clear_bead",
+  "roller_blue",
+  "vegetable_carrot"
+ ],
+ "positions": {
+  "shelf_L3_S2:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "pot_small:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "pot_small:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_small:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "rack top:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "rack middle:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "rack bottom:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "drawer_1:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "pot_small:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "pot_medium:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "drawer_2:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "shelf_L3_S3:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "pot_medium:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S1:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "rack top:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "shelf_L3_S3:clear_bead:GRASP": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L3_S3:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S1:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "drawer_3:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "pot_medium:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "drawer_2:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "pot_small:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:clear_bead:GRASP": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "drawer_2:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "rack top:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "rack middle:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "shelf_L2_S1:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "drawer_3:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:clear_bead:GRASP": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S1:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "pot_medium:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "rack bottom:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "rack bottom:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:clear_bead:GRASP": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S1:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "rack top:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "pot_medium:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L1_S2:parcel_tube:GRASP": {
+   "type": "PICK",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S1:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "pot_medium:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "pot_medium:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "shelf_L2_S3:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S2:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "shelf_L2_S2:clear_bead:GRASP": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "rack bottom:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "drawer_1:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "shelf_L1_S4:pearl_pellet:GRASP": {
+   "type": "PICK",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "drawer_2:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "rack middle:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "rack middle:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "pot_medium:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "shelf_L2_S1:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "drawer_3:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:farro_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "shelf_L2_S1:clear_bead:GRASP": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "drawer_3:clear_bead:GRASP": {
+   "type": "PICK",
+   "bound_type": "clear_bead",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "pot_small:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "shelf_L1_S1:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:scaffolding_pole:GRASP": {
+   "type": "PICK",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "shelf_L2_S4:vegetable_carrot:GRASP": {
+   "type": "PICK",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "rack middle:roller_blue:GRASP": {
+   "type": "PICK",
+   "bound_type": "roller_blue",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "shelf_L1_S3:king:GRASP": {
+   "type": "PICK",
+   "bound_type": "king",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "shelf_L3_S4:chip_H:GRASP": {
+   "type": "PICK",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:pot_small": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "store:king:pot_small": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:farro_kernel:pot_small": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:rack top": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "store:farro_kernel:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:rack middle": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:rack bottom": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:drawer_1": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:king:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:pot_small": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:chip_H:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:drawer_2": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:roller_blue:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:parcel_tube:rack top": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "store:clear_bead:shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "store:roller_blue:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:shelf_L3_S3": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L3_S3",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:king:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:farro_kernel:shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "store:roller_blue:drawer_3": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:farro_kernel:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:parcel_tube:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:parcel_tube:drawer_2": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:chip_H:pot_small": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:clear_bead:shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:roller_blue:shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "store:chip_H:drawer_2": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:roller_blue:rack top": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:rack middle": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:drawer_3": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "store:clear_bead:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:king:shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "store:farro_kernel:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:roller_blue:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:roller_blue:shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:rack bottom": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "store:king:rack bottom": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "store:clear_bead:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L3_S1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L3_S1",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:rack top": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "rack top",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:parcel_tube:shelf_L1_S2": {
+   "type": "PLACE",
+   "bound_type": "parcel_tube",
+   "bound_location": "shelf_L1_S2",
+   "observable_locations": null
+  },
+  "store:roller_blue:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:roller_blue:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "store:king:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:farro_kernel:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:farro_kernel:shelf_L2_S3": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L2_S3",
+   "observable_locations": null
+  },
+  "store:king:shelf_L3_S2": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "shelf_L3_S2",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:clear_bead:shelf_L2_S2": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S2",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:rack bottom": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "rack bottom",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:drawer_1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "store:pearl_pellet:shelf_L1_S4": {
+   "type": "PLACE",
+   "bound_type": "pearl_pellet",
+   "bound_location": "shelf_L1_S4",
+   "observable_locations": null
+  },
+  "store:king:drawer_2": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:king:rack middle": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "store:farro_kernel:rack middle": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:pot_medium": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "pot_medium",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "store:roller_blue:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "store:chip_H:drawer_3": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "store:king:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "store:farro_kernel:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "farro_kernel",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "store:clear_bead:shelf_L2_S1": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "shelf_L2_S1",
+   "observable_locations": null
+  },
+  "store:clear_bead:drawer_3": {
+   "type": "PLACE",
+   "bound_type": "clear_bead",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "store:roller_blue:pot_small": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "pot_small",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L1_S1": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L1_S1",
+   "observable_locations": null
+  },
+  "store:scaffolding_pole:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "scaffolding_pole",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:vegetable_carrot:shelf_L2_S4": {
+   "type": "PLACE",
+   "bound_type": "vegetable_carrot",
+   "bound_location": "shelf_L2_S4",
+   "observable_locations": null
+  },
+  "store:roller_blue:rack middle": {
+   "type": "PLACE",
+   "bound_type": "roller_blue",
+   "bound_location": "rack middle",
+   "observable_locations": null
+  },
+  "store:king:shelf_L1_S3": {
+   "type": "PLACE",
+   "bound_type": "king",
+   "bound_location": "shelf_L1_S3",
+   "observable_locations": null
+  },
+  "store:chip_H:shelf_L3_S4": {
+   "type": "PLACE",
+   "bound_type": "chip_H",
+   "bound_location": "shelf_L3_S4",
+   "observable_locations": null
+  },
+  "rack_inventory_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "rack top",
+    "rack middle",
+    "rack bottom"
+   ]
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_2",
+    "drawer_3"
+   ]
+  },
+  "scanLevel shelf_L1_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L1_S1",
+    "shelf_L1_S2",
+    "shelf_L1_S3",
+    "shelf_L1_S4"
+   ]
+  },
+  "scanLevel shelf_L2_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L2_S1",
+    "shelf_L2_S2",
+    "shelf_L2_S3",
+    "shelf_L2_S4"
+   ]
+  },
+  "scanLevel shelf_L3_*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "shelf_L3_S1",
+    "shelf_L3_S2",
+    "shelf_L3_S3",
+    "shelf_L3_S4"
+   ]
+  },
+  "glance pot_small pot_medium pot_large": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pot_small",
+    "pot_medium"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_low": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sink_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "farro_kernel",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "parcel_tube",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "pearl_pellet",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "scaffolding_pole",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "king",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "58": {
+   "id": 58,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "59": {
+   "id": 59,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "60": {
+   "id": 60,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "61": {
+   "id": 61,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "62": {
+   "id": 62,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "63": {
+   "id": 63,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "64": {
+   "id": 64,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "65": {
+   "id": 65,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "66": {
+   "id": 66,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "67": {
+   "id": 67,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "68": {
+   "id": 68,
+   "type": "chip_H",
+   "location": "UNDEFINED"
+  },
+  "69": {
+   "id": 69,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "70": {
+   "id": 70,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "71": {
+   "id": 71,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "72": {
+   "id": 72,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "73": {
+   "id": 73,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "74": {
+   "id": 74,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "75": {
+   "id": 75,
+   "type": "clear_bead",
+   "location": "UNDEFINED"
+  },
+  "76": {
+   "id": 76,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "77": {
+   "id": 77,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "78": {
+   "id": 78,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "79": {
+   "id": 79,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "80": {
+   "id": 80,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "81": {
+   "id": 81,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "82": {
+   "id": 82,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "83": {
+   "id": 83,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "84": {
+   "id": 84,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "85": {
+   "id": 85,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "86": {
+   "id": 86,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "87": {
+   "id": 87,
+   "type": "roller_blue",
+   "location": "UNDEFINED"
+  },
+  "88": {
+   "id": 88,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "89": {
+   "id": 89,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "90": {
+   "id": 90,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "91": {
+   "id": 91,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "92": {
+   "id": 92,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "93": {
+   "id": 93,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "94": {
+   "id": 94,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "95": {
+   "id": 95,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "96": {
+   "id": 96,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "97": {
+   "id": 97,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "98": {
+   "id": 98,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "99": {
+   "id": 99,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "100": {
+   "id": 100,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "101": {
+   "id": 101,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  },
+  "102": {
+   "id": 102,
+   "type": "vegetable_carrot",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "rack": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "rack top or rack bottom": [
+   "rack top",
+   "rack bottom"
+  ],
+  "any rack position": [
+   "rack top",
+   "rack middle",
+   "rack bottom"
+  ],
+  "somewhere in drawers 1, 2, or 3": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3"
+  ],
+  "one of the drawer units 1 or 2": [
+   "drawer_1",
+   "drawer_2"
+  ],
+  "shelf_L1 slots": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf_L2 slots": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelf_L3 slots": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "any shelf compartment": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4",
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "self S1 of each level": [
+   "shelf_L1_S1",
+   "shelf_L2_S1",
+   "shelf_L3_S1"
+  ],
+  "shelf S4 of each level": [
+   "shelf_L1_S4",
+   "shelf_L2_S4",
+   "shelf_L3_S4"
+  ],
+  "level 1 or level 2 of the shelfs": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelfs level 2 or level 3 positions": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4",
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "first two cells on each shelf level": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L3_S1",
+   "shelf_L3_S2"
+  ],
+  "last two units on each shelf level": [
+   "shelf_L1_S3",
+   "shelf_L1_S4",
+   "shelf_L2_S3",
+   "shelf_L2_S4",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "odd numbered compartments across all shelf levels": [
+   "shelf_L1_S1",
+   "shelf_L1_S3",
+   "shelf_L2_S1",
+   "shelf_L2_S3",
+   "shelf_L3_S1",
+   "shelf_L3_S3"
+  ],
+  "even numbered positions across all shelf levels": [
+   "shelf_L1_S2",
+   "shelf_L1_S4",
+   "shelf_L2_S2",
+   "shelf_L2_S4",
+   "shelf_L3_S2",
+   "shelf_L3_S4"
+  ],
+  "bays S2 and S3 of each shelf level": [
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L3_S2",
+   "shelf_L3_S3"
+  ],
+  "shelf L1 compartments": [
+   "shelf_L1_S1",
+   "shelf_L1_S2",
+   "shelf_L1_S3",
+   "shelf_L1_S4"
+  ],
+  "shelf L2 positions": [
+   "shelf_L2_S1",
+   "shelf_L2_S2",
+   "shelf_L2_S3",
+   "shelf_L2_S4"
+  ],
+  "shelf L3 bays": [
+   "shelf_L3_S1",
+   "shelf_L3_S2",
+   "shelf_L3_S3",
+   "shelf_L3_S4"
+  ],
+  "small or medium pot": [
+   "pot_small",
+   "pot_medium"
+  ]
+ }
+}

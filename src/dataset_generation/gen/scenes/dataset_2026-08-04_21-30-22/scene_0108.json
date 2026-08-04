@@ -1,0 +1,377 @@
+{
+ "object_locations": [
+  "drawer_1",
+  "drawer_2",
+  "drawer_3",
+  "drawer_4",
+  "drawer_5",
+  "drawer_6",
+  "drawer_7",
+  "drawer_8",
+  "drawer_9",
+  "drawer_10",
+  "countertop"
+ ],
+ "object_types": [
+  "medication_bottle"
+ ],
+ "positions": {
+  "actions/grasp/medication_bottle/from/drawer_1": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "actions/grasp/medication_bottle/from/drawer_2": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "actions/grasp/medication_bottle/from/drawer_3": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "actions/grasp/medication_bottle/from/drawer_4": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "$.drawer_5.medication_bottle.grab": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "$.drawer_6.medication_bottle.grab": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "actions/grasp/medication_bottle/from/drawer_7": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "actions/grasp/medication_bottle/from/drawer_8": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "actions/grasp/medication_bottle/from/drawer_9": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "$.drawer_10.medication_bottle.grab": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "$.countertop.medication_bottle.grab": {
+   "type": "PICK",
+   "bound_type": "medication_bottle",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "ns:drawer_1:item:medication_bottle:action:place": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_1",
+   "observable_locations": null
+  },
+  "put__medication_bottle__to__drawer_2": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_2",
+   "observable_locations": null
+  },
+  "store:medication_bottle:drawer_3": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_3",
+   "observable_locations": null
+  },
+  "put__medication_bottle__to__drawer_4": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_4",
+   "observable_locations": null
+  },
+  "put__medication_bottle__to__drawer_5": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_5",
+   "observable_locations": null
+  },
+  "store:medication_bottle:drawer_6": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "store:medication_bottle:drawer_7": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "ns:drawer_8:item:medication_bottle:action:place": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "ns:drawer_9:item:medication_bottle:action:place": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "put__medication_bottle__to__drawer_10": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "store:medication_bottle:countertop": {
+   "type": "PLACE",
+   "bound_type": "medication_bottle",
+   "bound_location": "countertop",
+   "observable_locations": null
+  },
+  "check drawer_1->drawer_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_1",
+    "drawer_2",
+    "drawer_3",
+    "drawer_4",
+    "drawer_5"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_6",
+    "drawer_7",
+    "drawer_8",
+    "drawer_9",
+    "drawer_10"
+   ]
+  },
+  "glance countertop": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "countertop"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "medication_bottle",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "any of the compartments": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "somewhere on the work surface": [
+   "countertop"
+  ],
+  "one of the upper bins": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5"
+  ],
+  "any of the lower slots": [
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "somewhere in trays 1, 2, or 3": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3"
+  ],
+  "any of the units 8 through 10": [
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "one of the middle containers": [
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7"
+  ],
+  "anywhere in the cabinet or on the surface": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10",
+   "countertop"
+  ],
+  "somewhere in the odd numbered bins": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "any of the compartments 1 or 10": [
+   "drawer_1",
+   "drawer_10"
+  ],
+  "inside the drawers 1 through 5": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5"
+  ],
+  "within any of the compartments 6 to 10": [
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "the drawer 5 or the countertop": [
+   "drawer_5",
+   "countertop"
+  ],
+  "one of the storage units 1 or 2": [
+   "drawer_1",
+   "drawer_2"
+  ],
+  "within the last two trays": [
+   "drawer_9",
+   "drawer_10"
+  ],
+  "either drawer 3 or drawer 4": [
+   "drawer_3",
+   "drawer_4"
+  ],
+  "any odd numbered slot": [
+   "drawer_1",
+   "drawer_3",
+   "drawer_5",
+   "drawer_7",
+   "drawer_9"
+  ],
+  "any place within the entire cabinet": [
+   "drawer_1",
+   "drawer_2",
+   "drawer_3",
+   "drawer_4",
+   "drawer_5",
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ]
+ }
+}

@@ -235,7 +235,8 @@ class Conversation:
                 self.state.held = v
 
         ex = Executor(self.scene, self.state, self.resolver, task.id,
-                      types, phrases, locs, p_position)
+                      types, phrases, locs, p_position,
+                      rescan=getattr(task, "rescan", None))
         ex.run(prog)
         steps = ex.steps
         target = steps[-1].target if steps and steps[-1].kind == "answer" else None
@@ -261,6 +262,8 @@ class Conversation:
             self._render_step(step, next_cursor)
 
         answer_text = steps[-1].answer_text if target else self.last_answer
+        macro = target[3] if target else None
+        macro_name = self.resolver.macro_name(macro) if macro else None
         self.history.append((user_msg, answer_text))
         self.turns.append({"task_id": task.id, "prompt": user_msg,
                            "answer": answer_text, "target": target})
@@ -268,6 +271,8 @@ class Conversation:
             inv["task_id"] = task.id
             inv["prompt"] = user_msg
             inv["answer"] = answer_text
+            inv["answer_label"] = target[1] if target else None
+            inv["answer_macro"] = macro_name
         return target, ex
 
     def _prelude_done(self) -> bool:

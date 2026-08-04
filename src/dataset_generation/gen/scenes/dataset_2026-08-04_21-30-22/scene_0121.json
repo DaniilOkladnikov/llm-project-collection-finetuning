@@ -1,0 +1,1130 @@
+{
+ "object_locations": [
+  "drawer_small_parts",
+  "slot3_2",
+  "workbench_A2",
+  "cell_R1C5",
+  "L2-SecC-RackM",
+  "slot3_3",
+  "slot3_1",
+  "nest_3",
+  "tree_4",
+  "slot2_4",
+  "Node20.02",
+  "cement_bag_pile",
+  "L2-SecC-RackN",
+  "slot3_4",
+  "slot2_3",
+  "slot1_1"
+ ],
+ "object_types": [
+  "chip_type_M",
+  "metal_support_tube",
+  "reagent_vial",
+  "barley_grain",
+  "sprocket",
+  "oat_kernel"
+ ],
+ "positions": {
+  "api/v1/manipulate?action=acquire&item=sprocket&source=L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=oat_kernel&source=slot3_3": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=metal_support_tube&source=slot3_1": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=reagent_vial&source=nest_3": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=slot1_1": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_M&source=L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "CMD:GRIP:chip_type_M:LOC:slot1_1": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=reagent_vial&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=reagent_vial&source=slot2_4": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_M&source=cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_M&source=slot2_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot2_3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_support_tube:LOC:L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_support_tube:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=oat_kernel&source=drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "CMD:GRIP:barley_grain:LOC:L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_support_tube:LOC:nest_3": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=metal_support_tube&source=slot2_4": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "CMD:GRIP:oat_kernel:LOC:slot1_1": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=workbench_A2": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_support_tube:LOC:cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:slot2_3": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot2_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=reagent_vial&source=slot1_1": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:barley_grain:LOC:slot3_3": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:barley_grain:LOC:cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:barley_grain:LOC:slot2_4": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=metal_support_tube&source=slot3_2": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_support_tube:LOC:drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=metal_support_tube&source=L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=slot3_2": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=oat_kernel&source=slot3_4": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=drawer_small_parts": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "CMD:GRIP:sprocket:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=metal_support_tube&source=slot1_1": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=metal_support_tube&source=slot2_3": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot2_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=barley_grain&source=L2-SecC-RackN": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_support_tube:LOC:cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:workbench_A2": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_M&source=Node20.02": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "CMD:GRIP:sprocket:LOC:nest_3": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=slot3_3": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_M&source=nest_3": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:slot3_1": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "CMD:GRIP:barley_grain:LOC:cement_bag_pile": {
+   "type": "PICK",
+   "bound_type": "barley_grain",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=sprocket&source=slot2_4": {
+   "type": "PICK",
+   "bound_type": "sprocket",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=metal_support_tube&source=tree_4": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_M&source=cell_R1C5": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "CMD:GRIP:metal_support_tube:LOC:slot3_4": {
+   "type": "PICK",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=oat_kernel&source=L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "CMD:GRIP:reagent_vial:LOC:L2-SecC-RackM": {
+   "type": "PICK",
+   "bound_type": "reagent_vial",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=acquire&item=chip_type_M&source=slot3_2": {
+   "type": "PICK",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "CMD:GRIP:oat_kernel:LOC:Node20.02": {
+   "type": "PICK",
+   "bound_type": "oat_kernel",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "op/stow/sprocket/loc/L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=oat_kernel&dest=slot3_3": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=metal_support_tube&dest=slot3_1": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "/mnt/nest_3/reagent_vial/place": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "op/stow/sprocket/loc/slot1_1": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_M/loc/L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "/mnt/slot1_1/chip_type_M/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/reagent_vial/place": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=reagent_vial&dest=slot2_4": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_M/loc/cement_bag_pile": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_M&dest=slot2_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot2_3",
+   "observable_locations": null
+  },
+  "op/stow/metal_support_tube/loc/L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "/mnt/Node20.02/metal_support_tube/place": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=oat_kernel&dest=drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "op/stow/metal_support_tube/loc/nest_3": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=reagent_vial&dest=L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "/mnt/slot2_4/metal_support_tube/place": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "/mnt/slot1_1/oat_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "/mnt/workbench_A2/sprocket/place": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "/mnt/cell_R1C5/metal_support_tube/place": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "op/stow/reagent_vial/loc/slot2_3": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot2_3",
+   "observable_locations": null
+  },
+  "/mnt/slot1_1/reagent_vial/place": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "op/stow/barley_grain/loc/slot3_3": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/slot2_4/barley_grain/place": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=metal_support_tube&dest=slot3_2": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "/mnt/drawer_small_parts/metal_support_tube/place": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=sprocket&dest=L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "/mnt/L2-SecC-RackN/metal_support_tube/place": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "/mnt/slot3_2/barley_grain/place": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "/mnt/slot3_4/oat_kernel/place": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=drawer_small_parts": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "drawer_small_parts",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=sprocket&dest=Node20.02": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "/mnt/slot1_1/metal_support_tube/place": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot1_1",
+   "observable_locations": null
+  },
+  "op/stow/metal_support_tube/loc/slot2_3": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot2_3",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=barley_grain&dest=L2-SecC-RackN": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "L2-SecC-RackN",
+   "observable_locations": null
+  },
+  "op/stow/metal_support_tube/loc/cement_bag_pile": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "op/stow/reagent_vial/loc/workbench_A2": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "workbench_A2",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_M&dest=Node20.02": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=sprocket&dest=nest_3": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "/mnt/slot3_3/sprocket/place": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "slot3_3",
+   "observable_locations": null
+  },
+  "op/stow/chip_type_M/loc/nest_3": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "nest_3",
+   "observable_locations": null
+  },
+  "op/stow/reagent_vial/loc/slot3_1": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "slot3_1",
+   "observable_locations": null
+  },
+  "/mnt/cement_bag_pile/barley_grain/place": {
+   "type": "PLACE",
+   "bound_type": "barley_grain",
+   "bound_location": "cement_bag_pile",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=sprocket&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/slot2_4/sprocket/place": {
+   "type": "PLACE",
+   "bound_type": "sprocket",
+   "bound_location": "slot2_4",
+   "observable_locations": null
+  },
+  "op/stow/metal_support_tube/loc/tree_4": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "tree_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=chip_type_M&dest=cell_R1C5": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "cell_R1C5",
+   "observable_locations": null
+  },
+  "/mnt/slot3_4/metal_support_tube/place": {
+   "type": "PLACE",
+   "bound_type": "metal_support_tube",
+   "bound_location": "slot3_4",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=oat_kernel&dest=L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "api/v1/manipulate?action=deposit&item=reagent_vial&dest=L2-SecC-RackM": {
+   "type": "PLACE",
+   "bound_type": "reagent_vial",
+   "bound_location": "L2-SecC-RackM",
+   "observable_locations": null
+  },
+  "/mnt/slot3_2/chip_type_M/place": {
+   "type": "PLACE",
+   "bound_type": "chip_type_M",
+   "bound_location": "slot3_2",
+   "observable_locations": null
+  },
+  "op/stow/oat_kernel/loc/Node20.02": {
+   "type": "PLACE",
+   "bound_type": "oat_kernel",
+   "bound_location": "Node20.02",
+   "observable_locations": null
+  },
+  "look at workbench_A1 & workbench_A2": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "workbench_A2"
+   ]
+  },
+  "peek drawer_small_parts": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_small_parts"
+   ]
+  },
+  "slot1_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot1_1"
+   ]
+  },
+  "slot2_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot2_3",
+    "slot2_4"
+   ]
+  },
+  "slot3_OBSERVE": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "slot3_1",
+    "slot3_2",
+    "slot3_3",
+    "slot3_4"
+   ]
+  },
+  "locate nests": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "nest_3"
+   ]
+  },
+  "check cell_R1C3->C5 cell_R2C3->C5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cell_R1C5"
+   ]
+  },
+  "scan tree_1->tree_5": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_4"
+   ]
+  },
+  "cement_station_overlook": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "cement_bag_pile"
+   ]
+  },
+  "Catwalk_Overlook_L2_SecC_Racks_M_N_O": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "L2-SecC-RackM",
+    "L2-SecC-RackN"
+   ]
+  },
+  "Lidar_Sensor_Mapping_Node20": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "Node20.02"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "sensor_safe_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "workbench_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "gentle_approach": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "pipette_ready": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "battery_charging_dock": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "waste_disposal_dumpster": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "charging_station_alpha": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "docking_port": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "chip_type_M",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "metal_support_tube",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "reagent_vial",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "barley_grain",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "sprocket",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "oat_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "workbench A2 or the small parts drawer": [
+   "workbench_A2",
+   "drawer_small_parts"
+  ],
+  "slot2_3 to slot3_4": [
+   "slot2_3",
+   "slot2_4",
+   "slot3_1",
+   "slot3_2",
+   "slot3_3",
+   "slot3_4"
+  ],
+  "third bin any slot except last": [
+   "slot3_1",
+   "slot3_2",
+   "slot3_3"
+  ],
+  "Level_2_Steel_Racks_Indices_M_and_N": [
+   "L2-SecC-RackM",
+   "L2-SecC-RackN"
+  ]
+ }
+}

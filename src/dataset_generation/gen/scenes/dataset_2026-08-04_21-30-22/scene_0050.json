@@ -1,0 +1,1204 @@
+{
+ "object_locations": [
+  "finished_stack",
+  "pos.y2.x3",
+  "disposal_area",
+  "pos.y1.x3",
+  "drawer_9",
+  "drawer_7",
+  "bay_B",
+  "zone_010",
+  "drawer_8",
+  "zone_008",
+  "zone_009",
+  "drawer_10",
+  "zone_006",
+  "zone_007",
+  "tree_6",
+  "tire_rack_used",
+  "pos.y0.x3",
+  "tire_rack_new",
+  "zone_005",
+  "drawer_6"
+ ],
+ "object_types": [
+  "grain_spelt",
+  "tile_A",
+  "cylinder_gray",
+  "package_perishable",
+  "millet_kernel"
+ ],
+ "positions": {
+  "$.zone_006.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "$.tree_6.millet_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/millet_kernel": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.zone_009.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.drawer_9.grain_spelt.grab": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "$.finished_stack.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "tree_6:cylinder_gray:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "$.pos.y2.x3.package_perishable.grab": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_9/tile_A": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "$.zone_007.grain_spelt.grab": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "$.pos.y2.x3.millet_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "$.pos.y2.x3.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "$.zone_008.millet_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "$.zone_005.millet_kernel.grab": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ACQUIRE/disposal_area/package_perishable": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_10/package_perishable": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "drawer_8:grain_spelt:GRASP": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "$.zone_008.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "drawer_7:grain_spelt:GRASP": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "drawer_10:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_8/tile_A": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/bay_B/cylinder_gray": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "$.disposal_area.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "tire_rack_used:grain_spelt:GRASP": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "$.pos.y0.x3.tile_A.grab": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "$.pos.y0.x3.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "tree_6:grain_spelt:GRASP": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_009/grain_spelt": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.drawer_9.package_perishable.grab": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "zone_010:tile_A:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "drawer_6:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "$.zone_009.tile_A.grab": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "$.zone_007.package_perishable.grab": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "$.drawer_9.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y1.x3/grain_spelt": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "$.drawer_6.cylinder_gray.grab": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "$.pos.y2.x3.grain_spelt.grab": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_10/tile_A": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_007/millet_kernel": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "$.pos.y1.x3.tile_A.grab": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "zone_007:cylinder_gray:GRASP": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "$.zone_005.grain_spelt.grab": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "drawer_8:package_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/pos.y2.x3/tile_A": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "tire_rack_new:tile_A:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "ACQUIRE/zone_006/package_perishable": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "$.disposal_area.grain_spelt.grab": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_8/millet_kernel": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_10/grain_spelt": {
+   "type": "PICK",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "$.zone_005.tile_A.grab": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "ACQUIRE/drawer_8/cylinder_gray": {
+   "type": "PICK",
+   "bound_type": "cylinder_gray",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "tire_rack_used:package_perishable:GRASP": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "zone_006:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "$.zone_009.package_perishable.grab": {
+   "type": "PICK",
+   "bound_type": "package_perishable",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "tire_rack_used:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "disposal_area:tile_A:GRASP": {
+   "type": "PICK",
+   "bound_type": "tile_A",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "zone_010:millet_kernel:GRASP": {
+   "type": "PICK",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone_006_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone.tree_6.item.millet_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "zone_009_millet_kernel_deposit": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.zone_009.item.cylinder_gray.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.drawer_9.item.grain_spelt.release": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "finished_stack_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "finished_stack",
+   "observable_locations": null
+  },
+  "tree_6_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "pos.y2.x3_package_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "drawer_9_tile_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "zone_007_grain_spelt_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "LOWER_pos.y2.x3_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "pos.y2.x3_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "LOWER_zone_008_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.millet_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "LOWER_disposal_area_package_perishable": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "LOWER_drawer_10_package_perishable": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "drawer_8_grain_spelt_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "zone_008_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_008",
+   "observable_locations": null
+  },
+  "zone.drawer_7.item.grain_spelt.release": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_7",
+   "observable_locations": null
+  },
+  "LOWER_drawer_10_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "drawer_8_tile_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "zone.bay_B.item.cylinder_gray.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "bay_B",
+   "observable_locations": null
+  },
+  "zone.disposal_area.item.cylinder_gray.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "LOWER_tire_rack_used_grain_spelt": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "pos.y0.x3_tile_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "pos.y0.x3_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "pos.y0.x3",
+   "observable_locations": null
+  },
+  "LOWER_tree_6_grain_spelt": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "tree_6",
+   "observable_locations": null
+  },
+  "LOWER_zone_009_grain_spelt": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "zone.drawer_9.item.package_perishable.release": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "LOWER_zone_010_tile_A": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "zone.drawer_6.item.millet_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "zone.zone_009.item.tile_A.release": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "LOWER_zone_007_package_perishable": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "LOWER_drawer_9_cylinder_gray": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "drawer_9",
+   "observable_locations": null
+  },
+  "zone.pos.y1.x3.item.grain_spelt.release": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "zone.drawer_6.item.cylinder_gray.release": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "drawer_6",
+   "observable_locations": null
+  },
+  "zone.pos.y2.x3.item.grain_spelt.release": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "LOWER_drawer_10_tile_A": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "zone.zone_007.item.millet_kernel.release": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "LOWER_pos.y1.x3_tile_A": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "pos.y1.x3",
+   "observable_locations": null
+  },
+  "zone_007_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "zone_007",
+   "observable_locations": null
+  },
+  "zone_005_grain_spelt_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "drawer_8_package_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "zone.pos.y2.x3.item.tile_A.release": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "pos.y2.x3",
+   "observable_locations": null
+  },
+  "zone.tire_rack_new.item.tile_A.release": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "tire_rack_new",
+   "observable_locations": null
+  },
+  "zone_006_package_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "disposal_area_grain_spelt_deposit": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "LOWER_drawer_8_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "LOWER_drawer_10_grain_spelt": {
+   "type": "PLACE",
+   "bound_type": "grain_spelt",
+   "bound_location": "drawer_10",
+   "observable_locations": null
+  },
+  "zone.zone_005.item.tile_A.release": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "zone_005",
+   "observable_locations": null
+  },
+  "drawer_8_cylinder_gray_deposit": {
+   "type": "PLACE",
+   "bound_type": "cylinder_gray",
+   "bound_location": "drawer_8",
+   "observable_locations": null
+  },
+  "zone.tire_rack_used.item.package_perishable.release": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "LOWER_zone_006_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_006",
+   "observable_locations": null
+  },
+  "zone_009_package_perishable_deposit": {
+   "type": "PLACE",
+   "bound_type": "package_perishable",
+   "bound_location": "zone_009",
+   "observable_locations": null
+  },
+  "tire_rack_used_millet_kernel_deposit": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "tire_rack_used",
+   "observable_locations": null
+  },
+  "disposal_area_tile_A_deposit": {
+   "type": "PLACE",
+   "bound_type": "tile_A",
+   "bound_location": "disposal_area",
+   "observable_locations": null
+  },
+  "LOWER_zone_010_millet_kernel": {
+   "type": "PLACE",
+   "bound_type": "millet_kernel",
+   "bound_location": "zone_010",
+   "observable_locations": null
+  },
+  "view zone_004-zone_009": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_005",
+    "zone_006",
+    "zone_007",
+    "zone_008",
+    "zone_009"
+   ]
+  },
+  "view zone_010-zone_018": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "zone_010"
+   ]
+  },
+  "glance@bay_B": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "bay_B"
+   ]
+  },
+  "scan pos.y0.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y0.x3"
+   ]
+  },
+  "scan pos.y1.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y1.x3"
+   ]
+  },
+  "scan pos.y2.*": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "pos.y2.x3"
+   ]
+  },
+  "view finished_stack": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "finished_stack"
+   ]
+  },
+  "check drawer_6->drawer_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "drawer_6",
+    "drawer_7",
+    "drawer_8",
+    "drawer_9",
+    "drawer_10"
+   ]
+  },
+  "check tire_rack_new + tire_rack_used": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tire_rack_new",
+    "tire_rack_used"
+   ]
+  },
+  "glance disposal_area": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "disposal_area"
+   ]
+  },
+  "scan tree_6->tree_10": {
+   "type": "OBSERVE",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": [
+    "tree_6"
+   ]
+  },
+  "home": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "central_hub": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "transfer_midpoint": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "grid_center_hover": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "heat_safe_distance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "loading_position": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "dispensing_window": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "lift_clearance": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  },
+  "collection_point": {
+   "type": "GENERAL",
+   "bound_type": null,
+   "bound_location": null,
+   "observable_locations": null
+  }
+ },
+ "robot_start": {
+  "position": "home",
+  "gripper_open": 1
+ },
+ "objects": {
+  "1": {
+   "id": 1,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "2": {
+   "id": 2,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "3": {
+   "id": 3,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "4": {
+   "id": 4,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "5": {
+   "id": 5,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "6": {
+   "id": 6,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "7": {
+   "id": 7,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "8": {
+   "id": 8,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "9": {
+   "id": 9,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "10": {
+   "id": 10,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "11": {
+   "id": 11,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "12": {
+   "id": 12,
+   "type": "grain_spelt",
+   "location": "UNDEFINED"
+  },
+  "13": {
+   "id": 13,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "14": {
+   "id": 14,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "15": {
+   "id": 15,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "16": {
+   "id": 16,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "17": {
+   "id": 17,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "18": {
+   "id": 18,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "19": {
+   "id": 19,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "20": {
+   "id": 20,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "21": {
+   "id": 21,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "22": {
+   "id": 22,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "23": {
+   "id": 23,
+   "type": "tile_A",
+   "location": "UNDEFINED"
+  },
+  "24": {
+   "id": 24,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "25": {
+   "id": 25,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "26": {
+   "id": 26,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "27": {
+   "id": 27,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "28": {
+   "id": 28,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "29": {
+   "id": 29,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "30": {
+   "id": 30,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "31": {
+   "id": 31,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "32": {
+   "id": 32,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "33": {
+   "id": 33,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "34": {
+   "id": 34,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "35": {
+   "id": 35,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "36": {
+   "id": 36,
+   "type": "cylinder_gray",
+   "location": "UNDEFINED"
+  },
+  "37": {
+   "id": 37,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "38": {
+   "id": 38,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "39": {
+   "id": 39,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "40": {
+   "id": 40,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "41": {
+   "id": 41,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "42": {
+   "id": 42,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "43": {
+   "id": 43,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "44": {
+   "id": 44,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "45": {
+   "id": 45,
+   "type": "package_perishable",
+   "location": "UNDEFINED"
+  },
+  "46": {
+   "id": 46,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "47": {
+   "id": 47,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "48": {
+   "id": 48,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "49": {
+   "id": 49,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "50": {
+   "id": 50,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "51": {
+   "id": 51,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "52": {
+   "id": 52,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "53": {
+   "id": 53,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "54": {
+   "id": 54,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "55": {
+   "id": 55,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "56": {
+   "id": 56,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  },
+  "57": {
+   "id": 57,
+   "type": "millet_kernel",
+   "location": "UNDEFINED"
+  }
+ },
+ "location_names": {
+  "zone_005 to zone_010": [
+   "zone_005",
+   "zone_006",
+   "zone_007",
+   "zone_008",
+   "zone_009",
+   "zone_010"
+  ],
+  "any pos with x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "poses x3": [
+   "pos.y0.x3",
+   "pos.y1.x3",
+   "pos.y2.x3"
+  ],
+  "any of the drawers 8 through 10": [
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "within any of the drawers 6 to 10": [
+   "drawer_6",
+   "drawer_7",
+   "drawer_8",
+   "drawer_9",
+   "drawer_10"
+  ],
+  "within the last two drawers": [
+   "drawer_9",
+   "drawer_10"
+  ],
+  "tire_rack new & used": [
+   "tire_rack_new",
+   "tire_rack_used"
+  ],
+  "storage or disposal areas": [
+   "tire_rack_new",
+   "tire_rack_used",
+   "disposal_area"
+  ]
+ }
+}
