@@ -42,12 +42,16 @@ per invocation. `metadata` holds `conversation_id`, `index_in_conversation`
 
 ## Semantics honored
 
-* Turn 1 emits the fixed *parse* program (get positions / parse objects / parse
-  locations / parse user) first; turns 2–3 skip it (that state is already in
-  memory) and fold the new parse-user bindings into the real program's first
-  MEMORY delta.
-* Turn 1 gets a freely back-solved state; turns 2–3 accept whatever the prior
+* Every turn opens with a *parse* program of its own, before the program that
+  answers the message. Turn 1 emits the full one (get positions / parse objects /
+  parse locations / parse observation mapping / parse user); turns 2+ emit just
+  `L1 parse user`, since the scene is already in memory but the new message is
+  not.
+* Turn 1 gets a freely back-solved state; turns 2+ accept whatever the prior
   turn left (their answer is constrained by that carried state).
+* A conversation runs to `TURNS_PER_CONVERSATION` (5) turns and lives in exactly
+  one scene. A `canthelp` turn ends the conversation, so a shorter conversation
+  is always one that refused.
 * A resolution chunk ends at the first primitive requiring a tool call or a
   memory write; multi-tool primitives are emitted one op at a time.
 * `remember key = tool()` appends `key = result` to MEMORY (no `TOOL RESULTS`);

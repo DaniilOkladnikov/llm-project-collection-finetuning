@@ -76,6 +76,14 @@ UNREACHABLE_REASONS = {
 
 ERROR_ANSWER = "unexpected error happened, I cannot proceed"
 
+# Every conversation runs to this many turns, unless a turn refuses ("canthelp"):
+# a refusal ends the conversation there.
+TURNS_PER_CONVERSATION = 5
+# Chance that a filler turn is drawn from the canthelp pool (and so ends the
+# conversation). Roughly half the task file is canthelp, so drawing filler
+# uniformly would make refusals half of all turns.
+CANTHELP_FILLER_P = 0.15
+
 # `<call> = {status: "OK", content: <anything>}` -- only ever rewritten inside a
 # TOOL RESULTS block, never against the MEMORY copy of `avaliable positions`.
 _RESULT_RE = re.compile(r"^(?P<call>.*?=\s*)\{.*\}\s*$", re.S)
@@ -281,8 +289,8 @@ class Generator:
                                        "scenes", f"dataset_{self.stamp}")
         self.scenes: "OrderedDict[str, dict]" = OrderedDict()
         self._scene = None
-        self._scene_uses = 0
         self._convs_since_save = 0
+        self._short_convs = 0        # conversations that ended before 5 turns
 
     # --- scene pool --------------------------------------------------------
 
@@ -311,10 +319,15 @@ class Generator:
         return sid
 
     def scene(self, force_new=False) -> SceneModel:
-        if self._scene is None or self._scene_uses > 30 or force_new:
+        """The scene the conversation currently being built lives in.
+
+        One conversation, one world: ``commit`` drops the cached scene, so no
+        two committed conversations ever share a scene (or a ``scene_id``).
+        Failed back-solving attempts do re-use it -- they produce no rows, and
+        building a fresh scene per attempt would cost far more than it buys.
+        """
+        if self._scene is None or force_new:
             self._scene = self.fresh_scene()
-            self._scene_uses = 0
-        self._scene_uses += 1
         return self._scene
 
     # --- trials ------------------------------------------------------------
@@ -445,12 +458,11 @@ class Generator:
                 prompts.append(rng.choice(t3.prompts))
             elif p == "position":
                 t8 = self.tf.tasks[8]
+                # P is any position in the scene (pick / place / observe /
+                # general, home included) -- sample_bindings draws it uniformly.
                 b = sample_bindings(scene, ["P"], rng)
                 if b is None:
                     return None
-                if rng.random() < 0.5 and scene.home():   # sometimes target home
-                    b.p_position = scene.home()
-                    b.phrases["P"] = scene.home()
                 specs.append((t8, self.progs[8], b, {}))
                 prompts.append(render_prompt(rng.choice(t8.prompts), b))
 
@@ -478,7 +490,11 @@ class Generator:
         coa_names = {s.name for s in task.comes_only_after}
 
         # clean primers: each binds X and A and can produce the named macro.
-        if "picked" in coa_names:
+        if "placed" in coa_names:
+            # task 4 states the held type, so the primer is guaranteed to have
+            # something to place; apply_state then arranges a placeable slot.
+            pid, occ_choices = 4, ["A_empty", "sparse", "random"]
+        elif "picked" in coa_names:
             pid, occ_choices = 1, ["X_in_A"]
         elif "locof" in coa_names and "thereis" not in coa_names:
             pid, occ_choices = 16, ["X_in_A"]
@@ -525,10 +541,36 @@ class Generator:
             tb.locs["A"] = [loc]
             tb.phrases["A"] = "where you got it"
 
+        # task 204 ("pick it back"): "it" is the slot just placed into, and the
+        # object is whatever the primer actually put down -- parse user binds
+        # the phrase to that location, and the program picks from there.
+        if task.id == 204:
+            if not pex.last_place:
+                return None
+            ptype, ploc = pex.last_place
+            tb.locs["A"] = [ploc]
+            tb.phrases["A"] = "it"
+            tb.types["X"] = ptype
+            tb.phrases["X"] = ptype
+
         template = rng.choice(task.prompts)
-        specs = [(ptask, pprog, pb, psc),
-                 (task, prog, tb, resolve_statechange(task, tb))]
-        prompts = [render_prompt(ptemplate, pb), render_prompt(template, tb)]
+        specs = [(ptask, pprog, pb, psc)]
+        prompts = [render_prompt(ptemplate, pb)]
+
+        # Answers that require a busy gripper (task 204's `mustplace`) need a
+        # turn between primer and target that closes it: after a place it is
+        # open, so task 2 ("close gripper, I am giving you X") always applies.
+        if _macro_name(target.macro) == "mustplace":
+            t2 = self.tf.tasks[2]
+            b2 = Binding()
+            ht = rng.choice(scene.pickable_types or ["object"])
+            b2.types["X"] = ht
+            b2.phrases["X"] = ht
+            specs.append((t2, self.progs[2], b2, {}))
+            prompts.append(render_prompt(rng.choice(t2.prompts), b2))
+
+        specs.append((task, prog, tb, resolve_statechange(task, tb)))
+        prompts.append(render_prompt(template, tb))
         return specs, prompts, setup
 
     # --- render + commit ---------------------------------------------------
@@ -542,25 +584,31 @@ class Generator:
                           sc, first_turn=(i == 0))
         return conv
 
-    def _maybe_extend(self, conv: Conversation):
-        """Append 0-2 further valid turns that accept the carried state, so
-        conversations span 1-3 turns as specified. Extra turns never use a
-        state-change (turns 2+ accept whatever state the prior turn left) and
-        never a comes-only-after task (those need a specific qualifying prior)."""
+    def _extend_to_length(self, conv: Conversation):
+        """Append further valid turns until the conversation is
+        ``TURNS_PER_CONVERSATION`` long, or a turn refuses.
+
+        A refusal ends the conversation: once the robot answers "I can't assist
+        with this", the exchange is over, so a canthelp turn is always the last
+        one (and a back-solved conversation that already ends in one is left
+        alone). Filler turns never carry a state-change (turns 2+ accept
+        whatever state the prior turn left) and are never comes-only-after tasks
+        (those need a specific qualifying prior)."""
         rng = self.rng
-        n_extra = rng.choices([0, 1, 2], weights=[0.45, 0.4, 0.15])[0]
-        n_extra = min(n_extra, 3 - len(conv.turns))   # conversations span 1-3 turns
-        if n_extra <= 0:
+        if conv.turns and self.tf.tasks[conv.turns[-1]["task_id"]].is_canthelp:
+            self._short_convs += 1
             return
         scene = conv.scene
-        cand_ids = [tid for tid, t in self.tf.tasks.items()
-                    if not t.comes_only_after and not t.state_change]
-        for _ in range(n_extra):
-            rng.shuffle(cand_ids)
-            appended = False
-            for tid in cand_ids[:30]:
-                task = self.tf.tasks[tid]
-                prog = self.progs[tid]
+        actionable = [tid for tid, t in self.tf.tasks.items()
+                      if not t.comes_only_after and not t.state_change
+                      and not t.is_canthelp and t.prompts]
+        refusals = [tid for tid, t in self.tf.tasks.items()
+                    if t.is_canthelp and t.prompts]
+
+        def try_append(tid: int) -> bool:
+            task = self.tf.tasks[tid]
+            prog = self.progs[tid]
+            for _try in range(3):
                 template = rng.choice(task.prompts)
                 tokens = used_tokens(template, task.program_text)
                 b = sample_bindings(scene, tokens, rng,
@@ -583,10 +631,27 @@ class Generator:
                 conv.add_turn(task, prog, render_prompt(template, b), b.types,
                               b.phrases, b.locs, b.p_position, b.parse_user_delta(),
                               {}, first_turn=False)
-                appended = True
-                break
-            if not appended:
-                break
+                return True
+            return False
+
+        while len(conv.turns) < TURNS_PER_CONVERSATION:
+            if refusals and rng.random() < CANTHELP_FILLER_P:
+                if try_append(rng.choice(refusals)):
+                    break                      # the refusal ends the conversation
+            rng.shuffle(actionable)
+            appended = False
+            for tid in actionable:
+                if try_append(tid):
+                    appended = True
+                    break
+            if appended:
+                continue
+            # Nothing actionable fits the carried state: close with a refusal.
+            if refusals:
+                try_append(rng.choice(refusals))
+            break
+        if len(conv.turns) < TURNS_PER_CONVERSATION:
+            self._short_convs += 1
 
     def commit(self, conv: Conversation):
         for turn in conv.turns:
@@ -594,6 +659,7 @@ class Generator:
             if tgt and tgt[:3] in self.remaining and self.remaining[tgt[:3]] > 0:
                 self.remaining[tgt[:3]] -= 1
         scene_id = self.register_scene(conv.scene)
+        self._scene = None                 # next conversation gets its own world
         for seq, inv in enumerate(conv.invocations):
             macro = inv.get("answer_macro")
             self.dataset[self.next_id] = {
@@ -720,7 +786,7 @@ class Generator:
                               f"{need - self.remaining[target.key]}/{need}")
                     self.remaining[target.key] = 0
                     break
-                self._maybe_extend(conv)
+                self._extend_to_length(conv)
                 self.commit(conv)
             done = sum(1 for t in self.targets if self.remaining[t.key] <= 0)
             if (i + 1) % 10 == 0 or i + 1 == total:
@@ -748,6 +814,8 @@ class Generator:
         with open(meta_path, "w", encoding="utf-8") as fh:
             json.dump({"unreachable": self.unreachable,
                        "conversations": self.conv_id,
+                       "turns_per_conversation": TURNS_PER_CONVERSATION,
+                       "short_conversations": self._short_convs,
                        "elements": self.next_id,
                        "error_rows": getattr(self, "n_errors", 0),
                        "scenes": len(self.scenes),
@@ -759,6 +827,8 @@ class Generator:
         print("\n===== DONE =====")
         print(f"targets covered : {done}/{len(self.targets)}")
         print(f"conversations   : {self.conv_id}")
+        print(f"  ended early    : {self._short_convs} "
+              f"(< {TURNS_PER_CONVERSATION} turns)")
         print(f"dataset elements: {self.next_id}")
         print(f"  of which errors: {getattr(self, 'n_errors', 0)}")
         print(f"unreachable     : {len(self.unreachable)}")

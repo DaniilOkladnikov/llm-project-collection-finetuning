@@ -30,6 +30,19 @@ class Ctx:
     mem: Dict[str, str] = field(default_factory=dict)        # memory vars -> value
     scans: Dict[str, str] = field(default_factory=dict)      # loc -> type|'empty'
     home: str = "home"
+    # (object, location) of the pick / place this turn actually executed, recorded
+    # by the interpreter at execution time. Answers are resolved after the state
+    # has already moved on, and the post-action state cannot name the object: a
+    # pick leaves scans[loc] == 'empty' and a place leaves held == 'none'.
+    last_pick: Optional[Tuple[str, str]] = None
+    last_place: Optional[Tuple[str, str]] = None
+
+
+# Macros that report a completed manipulation. Their first formal is the object
+# moved, which must come from the recorded action -- neither the post-action
+# state nor the task-time binding of X is the object that actually moved (the
+# gripper may have been carrying something from an earlier turn).
+_ACTION_MACROS = {"picked": "last_pick", "placed": "last_place"}
 
 
 def _parse_sig(sig: str) -> Tuple[str, List[str]]:
@@ -83,9 +96,13 @@ class AnswerResolver:
             # empty argument means "in the whole scene"
             return "There is no empty space anywhere"
 
+        action = getattr(ctx, _ACTION_MACROS[name]) if name in _ACTION_MACROS else None
+
         out = template
         for i, formal in enumerate(formals):
-            if i < len(args):
+            if i == 0 and action is not None:
+                value = action[0]
+            elif i < len(args):
                 value = self._resolve_value(formal, args[i], ctx)
             else:
                 value = ""

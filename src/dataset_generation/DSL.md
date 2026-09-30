@@ -209,6 +209,8 @@ Further:
 
 parse user primitive saves to memory how user named entities of the scene: positions, locations and objects. No resolution.
 
+Every user message is parsed, not just the first one: a new message opens with its own program before the program that answers it. On the first message that program is the full parse program above; afterwards the scene is already in memory, so it is just `L1 parse user`.
+
 #### Moving actions
 
 | `go to <P>` | `move_robot_to(position=<Position>)` | position = (position(P)) <- converts position-alike P to a real position name | — |

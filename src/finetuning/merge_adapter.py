@@ -24,6 +24,35 @@ import traceback
 from pathlib import Path
 
 
+def alias_v5_tokenizer_class() -> None:
+    """Teach transformers 4.x the tokenizer class name transformers 5.x writes.
+
+    The gpt-oss adapters were trained under transformers 5.x, which renamed the
+    fast-tokenizer class `PreTrainedTokenizerFast` -> `TokenizersBackend` and
+    records that name in `tokenizer_config.json`. This venv is pinned to
+    transformers <5, so AutoTokenizer resolves `tokenizer_class` against a 4.x
+    namespace that has never heard of it and dies with "Tokenizer class
+    TokenizersBackend does not exist or is not currently imported" -- inside
+    unsloth's loader, before a single weight is merged. (The Llama adapters
+    predate that rename and load untouched.)
+
+    Only the class *name* changed; both classes are thin wrappers that delegate
+    to the same `tokenizer.json`, so binding the 5.x name to the 4.x class loads
+    the tokenizer exactly as trained. `tokenizer_class_from_name` falls back to
+    an attribute lookup on the `transformers` module itself, which is why
+    setting the attribute is enough to make the lookup succeed.
+
+    Aliasing here rather than rewriting each adapter's `tokenizer_config.json`
+    keeps the training artifacts as they were written -- the next run from the
+    5.x training environment would reintroduce the name anyway.
+    """
+    import transformers
+    from transformers import PreTrainedTokenizerFast
+
+    if not hasattr(transformers, "TokenizersBackend"):
+        transformers.TokenizersBackend = PreTrainedTokenizerFast
+
+
 def is_gpt_oss_adapter(adapter_path: Path) -> bool:
     """Whether this adapter was trained on a gpt-oss base. Family detection by the
     base model recorded in adapter_config.json rather than the adapter dir name,
@@ -46,6 +75,10 @@ def main():
         sys.exit(1)
 
     from unsloth import FastLanguageModel
+
+    # Must run before the load below -- unsloth reaches AutoTokenizer through its
+    # own processor helper, so there is no hook once from_pretrained is underway.
+    alias_v5_tokenizer_class()
 
     is_gpt_oss = is_gpt_oss_adapter(args.adapter_path)
 

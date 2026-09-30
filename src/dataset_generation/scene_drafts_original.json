@@ -2996,5 +2996,53 @@
             "sorting_table"
          ]
       }
+   },
+   {
+      "object_locations": [
+         "box1_11",
+         "box1_12",
+         "box1_21",
+         "box1_22",
+         "box2_11",
+         "box2_12",
+         "box2_21",
+         "box2_22"
+      ],
+      "object_types": [
+         "cube",
+         "sphere"
+      ],
+      "observe_dict": {
+         "observe_box1": [
+            "box1_11",
+            "box1_12",
+            "box1_21",
+            "box1_22"
+         ],
+         "observe_box2": [
+            "box2_11",
+            "box2_12",
+            "box2_21",
+            "box2_22"
+         ]
+      },
+      "general_position_names": [
+         "home",
+         "rome"
+      ],
+      "location_names": {
+         "box1": [
+            "box1_11",
+            "box1_12",
+            "box1_21",
+            "box1_22"
+         ],
+         "box2": [
+            "box2_11",
+            "box2_12",
+            "box2_21",
+            "box2_22"
+         ]
+      }
    }
 ]

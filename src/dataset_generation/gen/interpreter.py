@@ -136,6 +136,9 @@ class Executor:
         self.steps: List[Step] = []
         self._pending: List[str] = []
         self._pending_start: Optional[int] = None
+        # what this turn's pick / place actually moved, for answer rendering
+        self.last_pick: Optional[Tuple[str, str]] = None
+        self.last_place: Optional[Tuple[str, str]] = None
 
     # --- top-level ---------------------------------------------------------
 
@@ -391,6 +394,7 @@ class Executor:
             raise Invalid(f"no pick position for {occ}@{loc}")
         res = [f"L{node.lineno} pick location = {q(loc)}",
                f"   pick object = {occ}"]
+        self.last_pick = (occ, loc)
         move = ToolOp(call=f"{TOOL_NAMES['move']}(position={q(pick_pos)})",
                       result=f"{TOOL_NAMES['move']}(position={q(pick_pos)}) = {wrap(q(''))}",
                       mem_after={"position": q(pick_pos)})
@@ -422,6 +426,7 @@ class Executor:
         if place_pos is None:
             raise Invalid(f"no place position for {t}@{loc}")
         res = [f"L{node.lineno} L = {q(loc)}", f"   X = held = {t}"]
+        self.last_place = (t, loc)
         move = ToolOp(call=f"{TOOL_NAMES['move']}(position={q(place_pos)})",
                       result=f"{TOOL_NAMES['move']}(position={q(place_pos)}) = {wrap(q(''))}",
                       mem_after={"position": q(place_pos)})
@@ -558,7 +563,8 @@ class Executor:
         if "X" not in types and self.st.held not in ("none", "unknown"):
             types["X"] = self.st.held
         return Ctx(types=types, phrases=dict(self.phrases),
-                   locs=dict(self.locs), mem=mem, scans=scans, home=self.scene.home() or "home")
+                   locs=dict(self.locs), mem=mem, scans=scans, home=self.scene.home() or "home",
+                   last_pick=self.last_pick, last_place=self.last_place)
 
     def _subst(self, text: str) -> str:
         from gen.program import substitute

@@ -204,7 +204,7 @@ L4
 
 MEMORY
 cursor = L5
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 ```
 
 ---
@@ -230,7 +230,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 
 RESOLUTION
 L4
@@ -270,7 +270,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -326,7 +326,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -372,7 +372,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -422,7 +422,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -471,7 +471,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -525,7 +525,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 brick = cube
 first box = ["box1_1", "box1_2"]
 
@@ -864,7 +864,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 
 RESOLUTION
 L4 
@@ -906,7 +906,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 brick = cube
 second compartment of first box = ["box1_2"]
 
@@ -965,7 +965,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 
 RESOLUTION
 L4
@@ -1005,7 +1005,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1045,7 +1045,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1083,7 +1083,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1126,7 +1126,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1168,7 +1168,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 
@@ -1210,7 +1210,7 @@ avaliable positions = {status: OK, content:["pick_cube_box1_1", "pick_cube_box1_
 "pick_cube_box2_1", "pick_cube_box2_2", "place_cube_box2_1", "place_cube_box2_2", "observe_box2"]}
 objects = ["cube"]
 locations = ["box1_1", "box1_2", "box2_1", "box2_2"]
-observation mapping = {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}
+observation mapping = {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
 the first box = ["box1_1", "box1_2"]
 the second box = ["box2_1", "box2_2"]
 

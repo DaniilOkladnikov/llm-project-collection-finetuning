@@ -327,17 +327,20 @@ def _generate_mixed(
     # Step 1: locations.
     chosen_locs = _choose_locations(all_groups, rng)
 
-    # Step 2: 4-10 object types, each rendered as its canonical name or a synonym.
-    n_types = rng.randint(4, min(10, len(all_types)))
+    # Step 2: 2-10 object types, each rendered as its canonical name or a synonym.
+    # Two is the floor: a task binding both X and W needs two distinct types.
+    n_types = rng.randint(2, min(10, len(all_types)))
     types = [
         _choose_type_name(type_names[canonical], rng)
         for canonical in rng.sample(all_types, n_types)
     ]
 
-    # Step 3: which (type, loc) pairs get pick+place positions.
+    # Step 3: which (type, loc) pairs get pick+place positions. The seed is a
+    # full 4x4 block where the scene is big enough for one, and everything the
+    # scene has otherwise.
     pairs: set = set()
-    t4 = rng.sample(types, 4)
-    l4 = rng.sample(chosen_locs, 4)
+    t4 = rng.sample(types, min(4, len(types)))
+    l4 = rng.sample(chosen_locs, min(4, len(chosen_locs)))
     for t in t4:
         for l in l4:
             pairs.add((t, l))
@@ -371,11 +374,16 @@ def _generate_mixed(
         objects_by_type[obj_type] += 1
 
     # Step 5: observe positions (smallest cover, trimmed to scene) + location_names.
+    # The order *inside* a card is shuffled (never the order of the cards): a
+    # card's location list is the order locate_shapes reports its slots in, so
+    # leaving the draft order would make that order predictable from the
+    # location names alone, across every scene that shares them.
     chosen_set = set(chosen_locs)
     cover = _min_observe_cover(chosen_locs, all_observe, rng)
     observe_positions: Dict[str, Any] = {}
     for name, obs_locs in cover:
         trimmed = [loc for loc in obs_locs if loc in chosen_set]
+        rng.shuffle(trimmed)
         _add_position(observe_positions, name, _observe_entry(trimmed))
 
     location_names = _covered_location_names(drafts, chosen_set)

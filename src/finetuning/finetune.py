@@ -30,7 +30,7 @@ from datetime import datetime
 import torch
 import wandb
 from datasets import Dataset
-from transformers import AutoTokenizer, TrainingArguments, TrainerCallback
+from transformers import AutoProcessor, AutoTokenizer, TrainingArguments, TrainerCallback
 from unsloth import UnslothTrainer
 from unsloth.chat_templates import get_chat_template
 
@@ -44,7 +44,7 @@ DTYPE = None
 LOAD_IN_4BIT = False
 LOAD_IN_8BIT = True
 SAVE_BASE = "D:/MyLLMs"
-DATASET_PATH = "./datasets/dataset_2026-07-31_15-10-47.json"
+DATASET_PATH = "./datasets/dataset_2026-09-26_15-33-31.json"
 DATASET_NAME = DATASET_PATH
 # Any single record (one LLM invocation) that renders to more tokens than this
 # is dropped on its own; the other records of its conversation are kept.
@@ -347,11 +347,12 @@ with open('instruction_message.txt') as f:
     instruction_message = f.read()
 
 
-def build_train_dataset(tok):
+def build_train_dataset(tok, model_name):
     """Load the dataset, drop over-long records, sample, and measure.
 
-    A record's context length is its fully-rendered length in tokens (system
-    message + tools + conversation so far + output). Each record over
+    A record's context length is its length in tokens exactly as it is trained
+    on (system message + tools + conversation so far + output, see
+    render_example). Each record over
     MAX_CONTEXT_TOKENS is dropped on its own; every other record of its
     conversation is kept as long as it fits. Records are filtered
     independently, so which records of a conversation survive does not depend
@@ -366,19 +367,14 @@ def build_train_dataset(tok):
     records = [item for _, item in sorted(raw_dataset.items(), key=lambda kv: int(kv[0]))]
     print(f"\nLoaded records: {len(records)}")
 
-    system_part = {"role": "system", "content": instruction_message}
     lengths = []
 
     for r in records:
         convo = parse_conversation(r["input"], r["output"])
-        full_text = tok.apply_chat_template(
-            [system_part] + convo,
-            tokenize=False,
-            add_generation_prompt=False,
-            tools=tools,
+        prompt_ids, target_ids = tokenize_example(
+            tok, model_name, convo, tools, instruction_message
         )
-        length = len(tok(full_text, add_special_tokens=False)["input_ids"])
-        lengths.append(length)
+        lengths.append(len(prompt_ids) + len(target_ids))
 
     total_conversations = len({r["metadata"]["conversation_id"] for r in records})
     print(f"Token lengths over {len(lengths)} records: max={max(lengths)} "
@@ -426,10 +422,19 @@ def is_gpt_oss_model(model_name):
     return "gpt-oss" in model_name.lower()
 
 
-def make_lora_targets(model_name):
-    """(target_modules, target_parameters) to pass to get_peft_model.
+def is_gemma4_model(model_name):
+    """Whether this is a Gemma 4 model, matched purely by name."""
+    return "gemma-4" in model_name.lower()
 
-    target_parameters is forced empty for gpt-oss. Left at None, unsloth derives
+
+def make_lora_kwargs(model_name):
+    """The family-specific part of the get_peft_model call.
+
+    Returned as kwargs rather than a fixed tuple because the three families need
+    different arguments: the name-list families pass target_modules, while Gemma 4
+    must pass none of it and select layers with unsloth's flags instead.
+
+    gpt-oss forces target_parameters empty. Left at None, unsloth derives
     ["mlp.experts.gate_up_proj", "mlp.experts.down_proj"] from the MLP names in
     target_modules -- but those are the fused nn.Parameters of the *unquantized*
     model, which the bnb-4bit repo does not have. PEFT then matches nothing and
@@ -437,8 +442,51 @@ def make_lora_targets(model_name):
     separately", which they are not: runs before this trained attention only.
     """
     if is_gpt_oss_model(model_name):
-        return GPT_OSS_TARGET_MODULES, []
-    return LLAMA_TARGET_MODULES, None
+        return {"target_modules": GPT_OSS_TARGET_MODULES, "target_parameters": []}
+    if is_gemma4_model(model_name):
+        # Gemma 4 gets unsloth's own recipe: target_modules and target_parameters
+        # are deliberately left unset so get_peft_model derives them itself. A
+        # hand-written name list breaks here because:
+        #   1. Gemma4ClippableLinear wraps nn.Linear and PEFT cannot inject into it
+        #      (huggingface/peft#3129); unsloth patches LoraModel._create_and_replace
+        #      to redirect onto the inner .linear child, but only on this path.
+        #   2. E2B carries both a vision and an audio encoder (vision_config and
+        #      audio_config are both present) whose projections reuse the same
+        #      q_proj/gate_proj names, so a bare list leaks LoRA into them. The
+        #      flags below are what scope it to the language tower.
+        # E2B itself is dense -- its config reports enable_moe_block=False, so the
+        # Gemma4TextExperts path is dormant and the fused-nn.Parameter trap that
+        # silently left gpt-oss's experts untrained does not apply. Leaving
+        # target_parameters unset keeps that correct anyway if a genuinely MoE
+        # Gemma 4 (26B-A4B) is ever added to the grid: unsloth then populates it
+        # via get_moe_target_parameters instead of matching nothing.
+        return {
+            "finetune_language_layers":   True,
+            "finetune_attention_modules": True,
+            "finetune_mlp_modules":       True,
+            "finetune_vision_layers":     False,
+            "finetune_audio_layers":      False,
+        }
+    return {"target_modules": LLAMA_TARGET_MODULES, "target_parameters": None}
+
+
+def as_tokenizer(obj):
+    """Unwrap a multimodal processor into the tokenizer the rest of this file wants.
+
+    Gemma 4 is a multimodal checkpoint, so AutoProcessor -- and unsloth's loader,
+    which delegates multimodal architectures to FastModel -- hand back a processor
+    rather than a tokenizer. Everything downstream calls tok(...),
+    tok.apply_chat_template(...) and tok.save_pretrained(...), so unwrap to the
+    inner tokenizer and carry the chat template across: on a multimodal repo the
+    template ships with the processor, not with the tokenizer. A plain tokenizer
+    passes through untouched.
+    """
+    tok = getattr(obj, "tokenizer", None)
+    if tok is None:
+        return obj
+    if getattr(tok, "chat_template", None) is None:
+        tok.chat_template = getattr(obj, "chat_template", None)
+    return tok
 
 
 def make_tokenizer(model_name):
@@ -450,6 +498,8 @@ def make_tokenizer(model_name):
     For Llama models the project's custom template is forced on; other models
     keep the built-in template that ships with their tokenizer.
     """
+    if is_gemma4_model(model_name):
+        return as_tokenizer(AutoProcessor.from_pretrained(f"unsloth/{model_name}"))
     tok = AutoTokenizer.from_pretrained(f"unsloth/{model_name}")
     if is_llama_model(model_name):
         tok = get_chat_template(tok, chat_template="llama-3.1")
@@ -457,7 +507,78 @@ def make_tokenizer(model_name):
     return tok
 
 
-def make_formatting_func(tok, tool_list, instr_message, max_seq_len):
+# What closes a finished model turn in Gemma 4's template. The template folds
+# consecutive assistant messages into one turn, so a DSL continuation is
+# trained -- and prompted by the testbench (its GEMMA continue_turn_suffix) --
+# with the model turn left open on the block state, this cut off the end.
+GEMMA4_TURN_END = "<turn|>\n"
+
+
+def render_example(tok, model_name, convo, tool_list, instr_message):
+    """Split one training conversation into (prompt_text, target_text).
+
+    The single source of the train format: prompt_text is exactly what the
+    model is prompted with at inference, target_text is everything loss is
+    computed on -- the record's "output" and the turn end that follows it.
+
+    Normally that is the prompt rendered with a generation header and the rest
+    of the full rendering after it. Gemma 4 is the exception whenever the
+    output continues an assistant state (almost every record): its template
+    merges the two into one turn, trimmed and glued with no separator, so the
+    full rendering does not start with the generation-header prompt and the
+    split would land inside the output. There the prompt is the state's own
+    turn left open, and the output goes after it on a blank line, the way the
+    state's blocks are already separated.
+
+    The chat template emits bos_token itself, so nothing adds one again.
+    """
+    messages = [{"role": "system", "content": instr_message}] + convo
+    render = lambda msgs, gen: tok.apply_chat_template(
+        msgs,
+        tokenize=False,
+        add_generation_prompt=gen,
+        tools=tool_list,
+        enable_thinking=False,
+    )
+    context, output = messages[:-1], messages[-1]["content"]
+
+    if is_gemma4_model(model_name) and context[-1]["role"] == "assistant":
+        closed = render(context, False)
+        if not closed.endswith(GEMMA4_TURN_END):
+            raise ValueError(
+                f"{model_name}: the template did not close the state's turn with "
+                f"{GEMMA4_TURN_END!r}, so it cannot be left open"
+            )
+        # Trimmed as the template trims every model message it renders.
+        return closed[:-len(GEMMA4_TURN_END)], "\n\n" + output.strip() + GEMMA4_TURN_END
+
+    prompt_text = render(context, True)
+    full_text = render(messages, False)
+    if not full_text.startswith(prompt_text):
+        # The loss mask would start inside the output rather than at it --
+        # what silently cost the first Gemma 4 run its block headers.
+        raise ValueError(
+            f"{model_name}: the chat template's full rendering does not start "
+            f"with its generation prompt, so prompt and target cannot be split"
+        )
+    return prompt_text, full_text[len(prompt_text):]
+
+
+def tokenize_example(tok, model_name, convo, tool_list, instr_message):
+    """(prompt_ids, target_ids) for one conversation.
+
+    Tokenized separately rather than as one string, as at inference: llama.cpp
+    tokenizes the prompt on its own and the model produces the rest, so no
+    token may straddle the boundary.
+    """
+    prompt_text, target_text = render_example(
+        tok, model_name, convo, tool_list, instr_message
+    )
+    ids = lambda text: tok(text, add_special_tokens=False)["input_ids"]
+    return ids(prompt_text), ids(target_text)
+
+
+def make_formatting_func(tok, model_name, tool_list, instr_message, max_seq_len):
     """Factory that returns a formatting function bound to the given tokenizer.
 
     Everything up to and including the generation header is masked out: loss is
@@ -471,49 +592,21 @@ def make_formatting_func(tok, tool_list, instr_message, max_seq_len):
         all_attention_mask = []
         all_labels = []
 
-        system_part = {"role": "system", "content": instr_message}
-
         for convo in convos:
-            new_convo = [system_part] + convo
-
-            # The chat template emits bos_token itself, so don't add it again.
-            prompt_text = tok.apply_chat_template(
-                new_convo[:-1],
-                tokenize=False,
-                add_generation_prompt=True,
-                tools=tool_list
+            prompt_ids, target_ids = tokenize_example(
+                tok, model_name, convo, tool_list, instr_message
             )
-            prompt_len = len(tok(
-                prompt_text,
-                truncation=True,
-                max_length=max_seq_len,
-                add_special_tokens=False,
-                return_tensors=None
-            )["input_ids"])
+            input_ids = prompt_ids + target_ids
 
-            full_text = tok.apply_chat_template(
-                new_convo,
-                tokenize=False,
-                add_generation_prompt=False,
-                tools=tool_list
-            )
-            full_tokens = tok(
-                full_text,
-                truncation=True,
-                max_length=max_seq_len,
-                add_special_tokens=False,
-                return_tensors=None
-            )
-            input_ids = full_tokens["input_ids"]
-
-            # Truncation ate the whole target -- nothing to learn from.
-            if prompt_len >= len(input_ids):
+            # Truncating would cut into the target; max_seq_len is measured from
+            # this same split, so this only fires if the two ever disagree.
+            if len(input_ids) > max_seq_len:
                 continue
 
-            labels = [-100] * prompt_len + input_ids[prompt_len:]
+            labels = [-100] * len(prompt_ids) + target_ids
 
             all_input_ids.append(input_ids)
-            all_attention_mask.append(full_tokens["attention_mask"])
+            all_attention_mask.append([1] * len(input_ids))
             all_labels.append(labels)
 
         return {
@@ -626,6 +719,11 @@ def make_short_name(model_name):
     name = model_name
     for suffix in ["-Instruct-unsloth-bnb-4bit", "-Instruct-bnb-8bit", "-Instruct", "-unsloth-bnb-4bit", "-bnb-8bit"]:
         name = name.replace(suffix, "")
+    # Gemma's instruction-tuned marker ('gemma-4-E2B-it' -> 'gemma-4-E2B').
+    # Stripped as a true suffix rather than added to the list above, where a bare
+    # "-it" would corrupt any name containing those letters mid-string.
+    if name.endswith("-it"):
+        name = name[: -len("-it")]
     for prefix in ["Meta-"]:
         if name.startswith(prefix):
             name = name[len(prefix):]
@@ -654,25 +752,30 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
 
     # Filtering is by rendered token count, so it needs the tokenizer -- which
     # is also how the context window gets sized to the data instead of a guess.
-    raw_train_dataset, max_seq_length = build_train_dataset(make_tokenizer(model_name))
+    raw_train_dataset, max_seq_length = build_train_dataset(make_tokenizer(model_name), model_name)
     print(f"max_seq_length set to {max_seq_length}")
 
-    # Llama uses the project's 8-bit setup (LOAD_IN_* above); gpt-oss and any
-    # other model ship pre-quantized and load in 4-bit.
+    # Llama uses the project's 8-bit setup (LOAD_IN_* above); gpt-oss, Gemma 4 and
+    # any other model ship pre-quantized and load in 4-bit.
     extra_model_kwargs = {}
     if is_llama_model(model_name):
         load_in_4bit, load_in_8bit = LOAD_IN_4BIT, LOAD_IN_8BIT
     else:
         load_in_4bit, load_in_8bit = True, False
-        # gpt-oss's attention sinks default to torch flex_attention. Without a
-        # FlashAttention2 build (unavailable on this Windows setup), the backward
-        # falls back to torch's eager sdpa_dense_backward kernel, which has a bf16
-        # bug: softmax scores get cast to the bf16 query dtype while grad_out
-        # stays fp32, so the final matmul mixes Float and BFloat16 and raises
-        # "expected scalar type Float but found BFloat16". Forcing eager attention
-        # avoids that path -- gpt-oss's eager_attention_forward implements sinks
-        # correctly, so this is numerically sound, just slower than flex/FA2.
-        extra_model_kwargs["attn_implementation"] = "eager"
+        if is_gpt_oss_model(model_name):
+            # gpt-oss's attention sinks default to torch flex_attention. Without a
+            # FlashAttention2 build (unavailable on this Windows setup), the backward
+            # falls back to torch's eager sdpa_dense_backward kernel, which has a bf16
+            # bug: softmax scores get cast to the bf16 query dtype while grad_out
+            # stays fp32, so the final matmul mixes Float and BFloat16 and raises
+            # "expected scalar type Float but found BFloat16". Forcing eager attention
+            # avoids that path -- gpt-oss's eager_attention_forward implements sinks
+            # correctly, so this is numerically sound, just slower than flex/FA2.
+            #
+            # Scoped to gpt-oss on purpose: this used to apply to every non-Llama
+            # model, which would needlessly drop Gemma 4 off unsloth's own attention
+            # path. Gemma 4 has no sinks and no such bug.
+            extra_model_kwargs["attn_implementation"] = "eager"
 
     model, tokenizer = FastLanguageModel.from_pretrained(
         model_name=f"unsloth/{model_name}",
@@ -683,12 +786,11 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
         full_finetuning=False,
         **extra_model_kwargs,
     )
-    target_modules, target_parameters = make_lora_targets(model_name)
+    # Multimodal checkpoints (Gemma 4) hand back a processor here, not a tokenizer.
+    tokenizer = as_tokenizer(tokenizer)
     model = FastLanguageModel.get_peft_model(
         model,
         r=r,
-        target_modules=target_modules,
-        target_parameters=target_parameters,
         lora_alpha=alpha * r,
         lora_dropout=0,
         bias="none",
@@ -696,15 +798,31 @@ def run_training(model_name, r, alpha, lr, lr_method, num_epochs, save_adapter_p
         random_state=12345,
         use_rslora=False,
         loftq_config=None,
+        **make_lora_kwargs(model_name),
     )
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     print(f"Trainable LoRA parameters: {trainable_params:,}")
+    # Which modules LoRA actually landed on. Worth printing every run: a silently
+    # attention-only attach is how the gpt-oss MoE experts went untrained, and the
+    # towers must stay absent for Gemma 4 (see make_lora_kwargs). MoE experts are
+    # adapted as nn.Parameters rather than modules, so they show up in the count
+    # above rather than in this list.
+    lora_names = [name for name, _ in model.named_modules() if ".lora_A" in name]
+    adapted = sorted({name.rsplit(".lora_A", 1)[0].split(".")[-1] for name in lora_names})
+    print(f"LoRA attached to {len(lora_names)} modules: {adapted}")
+    leaked = sorted({
+        name.rsplit(".lora_A", 1)[0]
+        for name in lora_names if "vision" in name or "audio" in name
+    })
+    if leaked:
+        print(f"WARNING: LoRA leaked into non-language towers "
+              f"({len(leaked)} modules), e.g. {leaked[:3]}")
 
     if is_llama_model(model_name):
         tokenizer = get_chat_template(tokenizer, chat_template="llama-3.1")
         tokenizer.chat_template = llama31_cot_template
 
-    formatting_func = make_formatting_func(tokenizer, tools, instruction_message, max_seq_length)
+    formatting_func = make_formatting_func(tokenizer, model_name, tools, instruction_message, max_seq_length)
     tok_train = raw_train_dataset.map(
         formatting_func,
         batched=True,

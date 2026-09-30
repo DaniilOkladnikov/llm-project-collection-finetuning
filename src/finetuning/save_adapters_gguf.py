@@ -193,5 +193,21 @@ def main():
     print(f"\nSummary: {ok} converted, {skipped} skipped, {failed} failed")
 
 
+def main2():
+    model_path = "D:/MyLLMs/test/Xiaomi-Robotics-1-RoboCasa365"
+    cmd = [
+            sys.executable,
+            str(CONVERT_SCRIPT),
+            str(model_path),
+            "--outfile", str("D:/MyLLMs/test/Xiaomi-Robotics-1-RoboCasa365.gguf"),
+            "--outtype", "q8_0",
+        ]
+    print(f"  Command: {' '.join(cmd)}\n")
+
+    result = subprocess.run(cmd, check=False)
+    if result.returncode != 0:
+        print(f"  FAILED (exit code {result.returncode})\n")
+        return "failed"
+    
 if __name__ == "__main__":
     main()

@@ -1,0 +1,169 @@
+run: gemma-4-E2B-DSL_r64_a2_lr6e-05_constant_with_warmup_ep1_full_dataset
+saved: 20260929_181721  |  first 3 of 30238 training samples
+
+================================================================================
+EXAMPLE 1/3  |  1896 tokens total, 83 in OUTPUT (loss computed on these)
+================================================================================
+
+----- INPUT (fed to the model, loss masked) -----
+<bos><|turn>system
+You are a precise and cautious robot control assistant. Your job is to decide which tool to call next so that the robot interacts safely with objects. ALWAYS obey the rules below. NEVER call a tool if its prerequisites are not satisfied.<|tool>declaration:move_robot_to{description:<|"|>Move the robot to the specified position.<|"|>,parameters:{properties:{position:{description:<|"|>name of the target position<|"|>,type:<|"|>STRING<|"|>}},required:[<|"|>position<|"|>],type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:open_gripper{description:<|"|>Open the gripper. Make sure it isn't already open.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:close_gripper{description:<|"|>Close the gripper. Make sure it is open first.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:list_avaliable_robot_positions{description:<|"|>Get the full list of available positions where the robot can go.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:get_gripper_state{description:<|"|>Get the gripper state.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:get_robot_position{description:<|"|>Get the robot's current position.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:locate_shapes{description:<|"|>Detects shapes and updates their positions to exact ones for picking.
+Make sure you are in appropriate position where the shapes can be detected from.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><turn|>
+<|turn>user
+You are holding white_pellet right now - place it in chiller_06<turn|>
+<|turn>model
+PROGRAM
+L1 observe chiller_06
+L2 remember loc = first in MEMORY.scans[chiller_06] where value is empty
+L3 if loc is not none:
+L4   place in loc
+L5   answer_2
+L6 else:
+L7   answer_3
+
+MEMORY
+cursor = L2
+position = "chiller_cam_05_to_09"
+gripper = closed
+held = white_pellet
+avaliable positions = {status: "OK", content: ["actions/grasp/framework_pipe/from/cell_R3C3", "actions/grasp/white_pellet/from/tree_10", "actions/grasp/white_pellet/from/chiller_07", "actions/grasp/framework_pipe/from/chiller_07", "actions/grasp/framework_pipe/from/tree_10", "actions/grasp/white_pellet/from/palette_well_1", "actions/grasp/framework_pipe/from/palette_well_1", "actions/grasp/white_pellet/from/chiller_05", "actions/grasp/framework_pipe/from/tree_7", "actions/grasp/white_pellet/from/tree_8", "actions/grasp/white_pellet/from/chiller_09", "actions/grasp/framework_pipe/from/chiller_08", "actions/grasp/white_pellet/from/silo_3", "actions/grasp/framework_pipe/from/chiller_05", "actions/grasp/framework_pipe/from/tree_9", "actions/grasp/white_pellet/from/chiller_06", "actions/grasp/framework_pipe/from/chiller_09", "actions/grasp/white_pellet/from/drawer_small_parts", "actions/grasp/white_pellet/from/workbench_A1", "actions/grasp/framework_pipe/from/tree_6", "actions/grasp/framework_pipe/from/silo_2", "actions/grasp/framework_pipe/from/drawer_small_parts", "actions/grasp/white_pellet/from/cell_R3C3", "actions/grasp/framework_pipe/from/workbench_A1", "put__framework_pipe__to__cell_R3C3", "put__white_pellet__to__tree_10", "put__white_pellet__to__chiller_07", "put__framework_pipe__to__chiller_07", "put__framework_pipe__to__tree_10", "put__white_pellet__to__palette_well_1", "put__framework_pipe__to__palette_well_1", "put__white_pellet__to__chiller_05", "put__framework_pipe__to__tree_7", "put__white_pellet__to__tree_8", "put__white_pellet__to__chiller_09", "put__framework_pipe__to__chiller_08", "put__white_pellet__to__silo_3", "put__framework_pipe__to__chiller_05", "put__framework_pipe__to__tree_9", "put__white_pellet__to__chiller_06", "put__framework_pipe__to__chiller_09", "put__white_pellet__to__drawer_small_parts", "put__white_pellet__to__workbench_A1", "put__framework_pipe__to__tree_6", "put__framework_pipe__to__silo_2", "put__framework_pipe__to__drawer_small_parts", "put__white_pellet__to__cell_R3C3", "put__framework_pipe__to__workbench_A1", "look at workbench_A1 & workbench_A2", "peek drawer_small_parts", "check cell_R3C3->C5 cell_R4C3->C5", "checkLevel silo_2", "checkLevel silo_3", "scan palette_well_1->palette_well_8", "scan tree_6->tree_10", "chiller_cam_05_to_09", "home", "workbench_center_hover", "restock_trolley_bay", "plate_hover", "auger_position", "hopper_fill", "orchard_entry"]}
+objects = ["framework_pipe", "white_pellet"]
+locations = ["workbench_A1", "drawer_small_parts", "cell_R3C3", "silo_2", "silo_3", "palette_well_1", "tree_10", "tree_9", "tree_7", "tree_8", "tree_6", "chiller_09", "chiller_07", "chiller_06", "chiller_08", "chiller_05"]
+observation mapping = {"look at workbench_A1 & workbench_A2": ["workbench_A1"], "peek drawer_small_parts": ["drawer_small_parts"], "check cell_R3C3->C5 cell_R4C3->C5": ["cell_R3C3"], "checkLevel silo_2": ["silo_2"], "checkLevel silo_3": ["silo_3"], "scan palette_well_1->palette_well_8": ["palette_well_1"], "scan tree_6->tree_10": ["tree_10", "tree_9", "tree_7", "tree_8", "tree_6"], "chiller_cam_05_to_09": ["chiller_09", "chiller_07", "chiller_06", "chiller_08", "chiller_05"]}
+chiller_06 = ["chiller_06"]
+explored observation positions = ["chiller_cam_05_to_09"]
+scans = {chiller_09: empty, chiller_07: empty, chiller_06: empty, chiller_08: empty, chiller_05: framework_pipe}
+
+RESOLUTION
+L1 observation positions = ["chiller_cam_05_to_09"]
+
+TOOL CALL
+move_robot_to(position="chiller_cam_05_to_09")
+locate_shapes()
+
+----- OUTPUT (loss IS computed on these tokens) -----
+
+
+RESOLUTION
+L2 MEMORY.scans[chiller_06] = {chiller_06: empty}
+   MEMORY.scans[chiller_06] where value is empty = ["chiller_06"]
+   remember loc = "chiller_06"
+
+MEMORY
+loc = "chiller_06"
+cursor = L3<turn|>
+
+
+================================================================================
+EXAMPLE 2/3  |  1838 tokens total, 168 in OUTPUT (loss computed on these)
+================================================================================
+
+----- INPUT (fed to the model, loss masked) -----
+<bos><|turn>system
+You are a precise and cautious robot control assistant. Your job is to decide which tool to call next so that the robot interacts safely with objects. ALWAYS obey the rules below. NEVER call a tool if its prerequisites are not satisfied.<|tool>declaration:move_robot_to{description:<|"|>Move the robot to the specified position.<|"|>,parameters:{properties:{position:{description:<|"|>name of the target position<|"|>,type:<|"|>STRING<|"|>}},required:[<|"|>position<|"|>],type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:open_gripper{description:<|"|>Open the gripper. Make sure it isn't already open.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:close_gripper{description:<|"|>Close the gripper. Make sure it is open first.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:list_avaliable_robot_positions{description:<|"|>Get the full list of available positions where the robot can go.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:get_gripper_state{description:<|"|>Get the gripper state.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:get_robot_position{description:<|"|>Get the robot's current position.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:locate_shapes{description:<|"|>Detects shapes and updates their positions to exact ones for picking.
+Make sure you are in appropriate position where the shapes can be detected from.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><turn|>
+<|turn>user
+What objects are in reject_bin?<turn|>
+<|turn>model
+ANSWER
+reject_bin is empty<turn|>
+<|turn>user
+Must you place what you are holding first to pick from reject or pass?<turn|>
+<|turn>model
+ANSWER
+I must first place what I hold<turn|>
+<|turn>user
+Place what is in your gripper at reject_bin, falling back to lineA_seg06<turn|>
+<|turn>model
+ANSWER
+I don't know what I'm holding<turn|>
+<|turn>user
+In case there is an tap_coupler in pass_bin, transfer it to lineA_seg06<turn|>
+<|turn>model
+PROGRAM
+L1 parse user
+
+MEMORY
+cursor = done
+position = "inspect reject_bin + pass_bin"
+gripper = closed
+held = unknown
+avaliable positions = {status: "OK", content: ["ACQUIRE/Node30.03/package_overnight", "ACQUIRE/dime_bin/package_overnight", "[input_chute][package_overnight]_PICKUP", "ACQUIRE/HB-B2-R/tap_coupler", "ACQUIRE/pallet_1x3/tap_coupler", "ACQUIRE/pallet_2x3/package_overnight", "ACQUIRE/Node30.02/package_overnight", "ACQUIRE/pallet_1x3/package_overnight", "--grasp--tap_coupler--at--peg_r1c3", "--grasp--tap_coupler--at--reject_bin", "[HB-B2-R][package_overnight]_PICKUP", "[pass_bin][tap_coupler]_PICKUP", "[Node30.01][package_overnight]_PICKUP", "ACQUIRE/lineA_seg06/tap_coupler", "--grasp--tap_coupler--at--dime_bin", "--grasp--package_overnight--at--lineA_seg06", "--grasp--tap_coupler--at--st5_buf2", "ACQUIRE/pallet_4x3/package_overnight", "[nest_4][package_overnight]_PICKUP", "[pallet_3x3][tap_coupler]_PICKUP", "robot/dropoff-package_overnight-at-Node30.03", "--release--package_overnight--at--dime_bin", "placepackage_overnightinput_chute", "robot/dropoff-tap_coupler-at-HB-B2-R", "robot/dropoff-tap_coupler-at-pallet_1x3", "placepackage_overnightpallet_2x3", "robot/dropoff-package_overnight-at-Node30.02", "--release--package_overnight--at--pallet_1x3", "placetap_couplerpeg_r1c3", "placetap_couplerreject_bin", "placepackage_overnightHB-B2-R", "placetap_couplerpass_bin", "--release--package_overnight--at--Node30.01", "--release--tap_coupler--at--lineA_seg06", "placetap_couplerdime_bin", "robot/dropoff-package_overnight-at-lineA_seg06", "--release--tap_coupler--at--st5_buf2", "--release--package_overnight--at--pallet_4x3", "placepackage_overnightnest_4", "robot/dropoff-tap_coupler-at-pallet_3x3", "locate nests", "inspect reject_bin + pass_bin", "watch input_chute", "scan dime_bin & quarter_bin", "Visual_Monitor_Observing_Node30", "mast_scan_aisle_B", "inspect_st5", "overhead_lineA_seg04_to_06", "row_cam_r1", "palletizer_cam_yx3", "home", "tool_change_dock", "maintenance_pit_edge", "palletizer_gate", "recalibration_bay", "docking_port"]}
+objects = ["package_overnight", "tap_coupler"]
+locations = ["nest_4", "reject_bin", "pass_bin", "input_chute", "dime_bin", "Node30.02", "Node30.01", "Node30.03", "HB-B2-R", "st5_buf2", "lineA_seg06", "peg_r1c3", "pallet_1x3", "pallet_3x3", "pallet_4x3", "pallet_2x3"]
+observation mapping = {"locate nests": ["nest_4"], "inspect reject_bin + pass_bin": ["reject_bin", "pass_bin"], "watch input_chute": ["input_chute"], "scan dime_bin & quarter_bin": ["dime_bin"], "Visual_Monitor_Observing_Node30": ["Node30.02", "Node30.01", "Node30.03"], "mast_scan_aisle_B": ["HB-B2-R"], "inspect_st5": ["st5_buf2"], "overhead_lineA_seg04_to_06": ["lineA_seg06"], "row_cam_r1": ["peg_r1c3"], "palletizer_cam_yx3": ["pallet_1x3", "pallet_3x3", "pallet_4x3", "pallet_2x3"]}
+reject_bin = ["reject_bin"]
+explored observation positions = ["inspect reject_bin + pass_bin"]
+scans = {reject_bin: empty, pass_bin: empty}
+reject or pass = ["reject_bin", "pass_bin"]
+lineA_seg06 = ["lineA_seg06"]
+pass_bin = ["pass_bin"]
+
+RESOLUTION
+L1
+
+----- OUTPUT (loss IS computed on these tokens) -----
+
+
+PROGRAM
+L1 check gripper
+L2 if gripper is closed:
+L3   answer_1
+L4 observe pass_bin
+L5 remember loc = first in MEMORY.scans[pass_bin] where value is tap_coupler
+L6 if loc is not none:
+L7   pick from loc
+L8 else:
+L9   answer_2
+L10 observe lineA_seg06
+L11 remember loc = first in MEMORY.scans[lineA_seg06] where value is empty
+L12 if loc is not none:
+L13   place in loc
+L14   answer_2
+L15 else:
+L16   answer_3
+
+MEMORY
+cursor = L1<turn|>
+
+
+================================================================================
+EXAMPLE 3/3  |  3006 tokens total, 13 in OUTPUT (loss computed on these)
+================================================================================
+
+----- INPUT (fed to the model, loss masked) -----
+<bos><|turn>system
+You are a precise and cautious robot control assistant. Your job is to decide which tool to call next so that the robot interacts safely with objects. ALWAYS obey the rules below. NEVER call a tool if its prerequisites are not satisfied.<|tool>declaration:move_robot_to{description:<|"|>Move the robot to the specified position.<|"|>,parameters:{properties:{position:{description:<|"|>name of the target position<|"|>,type:<|"|>STRING<|"|>}},required:[<|"|>position<|"|>],type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:open_gripper{description:<|"|>Open the gripper. Make sure it isn't already open.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:close_gripper{description:<|"|>Close the gripper. Make sure it is open first.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:list_avaliable_robot_positions{description:<|"|>Get the full list of available positions where the robot can go.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:get_gripper_state{description:<|"|>Get the gripper state.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:get_robot_position{description:<|"|>Get the robot's current position.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><|tool>declaration:locate_shapes{description:<|"|>Detects shapes and updates their positions to exact ones for picking.
+Make sure you are in appropriate position where the shapes can be detected from.<|"|>,parameters:{type:<|"|>OBJECT<|"|>}}<tool|><turn|>
+<|turn>user
+Place what you're holding somewhere.<turn|>
+<|turn>model
+PROGRAM
+L1 remember avaliable positions = get positions
+L2 parse avaliable positions for objects
+L3 parse avaliable positions for locations
+L4 parse avaliable positions, locations for observation mapping
+L5 parse user
+
+MEMORY
+cursor = L5
+position = unknown
+gripper = unknown
+held = unknown
+avaliable positions = {status: "OK", content: ["get__chip_type_T__from__pallet_alpha_second", "get__bearing_pack__from__tree_14", "move/pick/chip_type_T?src=tree_7", "move/pick/chip_type_T?src=pallet_alpha_third", "move/pick/roller_green?src=tree_1", "move/pick/item_SKU_001?src=tree_1", "move/pick/blue_ball?src=tree_3", "move/pick/chip_type_T?src=burner_front_right", "get__blue_ball__from__burner_front_left", "get__blue_ball__from__tree_14", "get__box_small__from__tree_12", "move/pick/item_SKU_001?src=tree_13", "move/pick/blue_ball?src=tree_10", "move/pick/box_small?src=pallet_alpha_first", "move/pick/box_small?src=tree_4", "get__chip_type_T__from__tree_8", "get__item_SKU_001__from__tree_4", "move/pick/bearing_pack?src=pallet_alpha_second", "move/pick/bearing_pack?src=tree_7", "get__box_small__from__tree_3", "get__roller_green__from__tree_4", "get__item_SKU_001__from__pallet_alpha_first", "move/pick/bearing_pack?src=burner_front_right", "move/pick/chip_type_T?src=tree_6", "get__box_small__from__tree_10", "move/pick/item_SKU_001?src=burner_front_left", "get__box_small__from__tree_14", "get__bearing_pack__from__tree_5", "move/pick/roller_green?src=tree_3", "move/pick/bearing_pack?src=tree_9", "move/pick/roller_green?src=burner_front_left", "move/pick/blue_ball?src=tree_11", "get__item_SKU_001__from__tree_10", "move/pick/blue_ball?src=burner_front_right", "get__blue_ball__from__tree_5", "get__roller_green__from__tree_10", "get__blue_ball__from__tree_9", "get__box_small__from__pallet_alpha_second", "move/pick/item_SKU_001?src=tree_15", "move/pick/box_small?src=pallet_alpha_third", "get__bearing_pack__from__tree_1", "move/pick/box_small?src=burner_front_right", "get__box_small__from__tree_11", "move/pick/item_SKU_001?src=pallet_alpha_second", "get__blue_ball__from__tree_6", "move/pick/chip_type_T?src=tree_3", "get__box_small__from__tree_5", "move/pick/item_SKU_001?src=burner_front_right", "move/pick/item_SKU_001?src=tree_11", "get__roller_green__from__tree_11", "get__chip_type_T__from__burner_front_left", "get__chip_type_T__from__tree_10", "get__roller_green__from__burner_front_right", "get__bearing_pack__from__tree_13", "get__roller_green__from__tree_5", "move/pick/item_SKU_001?src=tree_5", "get__bearing_pack__from__pallet_alpha_first", "move/pick/bearing_pack?src=tree_4", "move/pick/blue_ball?src=tree_13", "get__box_small__from__tree_6", "get__item_SKU_001__from__tree_6", "get__blue_ball__from__tree_2", "get__bearing_pack__from__burner_front_left", "move/pick/bearing_pack?src=tree_10", "actions/release/chip_type_T/to/pallet_alpha_second", "actions/release/bearing_pack/to/tree_14", "actions/release/chip_type_T/to/tree_7", "actions/release/chip_type_T/to/pallet_alpha_third", "actions/release/roller_green/to/tree_1", "actions/release/item_SKU_001/to/tree_1", "actions/release/blue_ball/to/tree_3", "actions/release/chip_type_T/to/burner_front_right", "actions/release/blue_ball/to/burner_front_left", "actions/release/blue_ball/to/tree_14", "actions/release/box_small/to/tree_12", "actions/release/item_SKU_001/to/tree_13", "actions/release/blue_ball/to/tree_10", "actions/release/box_small/to/pallet_alpha_first", "actions/release/box_small/to/tree_4", "actions/release/chip_type_T/to/tree_8", "actions/release/item_SKU_001/to/tree_4", "actions/release/bearing_pack/to/pallet_alpha_second", "actions/release/bearing_pack/to/tree_7", "actions/release/box_small/to/tree_3", "actions/release/roller_green/to/tree_4", "actions/release/item_SKU_001/to/pallet_alpha_first", "actions/release/bearing_pack/to/burner_front_right", "actions/release/chip_type_T/to/tree_6", "actions/release/box_small/to/tree_10", "actions/release/item_SKU_001/to/burner_front_left", "actions/release/box_small/to/tree_14", "actions/release/bearing_pack/to/tree_5", "actions/release/roller_green/to/tree_3", "actions/release/bearing_pack/to/tree_9", "actions/release/roller_green/to/burner_front_left", "actions/release/blue_ball/to/tree_11", "actions/release/item_SKU_001/to/tree_10", "actions/release/blue_ball/to/burner_front_right", "actions/release/blue_ball/to/tree_5", "actions/release/roller_green/to/tree_10", "actions/release/blue_ball/to/tree_9", "actions/release/box_small/to/pallet_alpha_second", "actions/release/item_SKU_001/to/tree_15", "actions/release/box_small/to/pallet_alpha_third", "actions/release/bearing_pack/to/tree_1", "actions/release/box_small/to/burner_front_right", "actions/release/box_small/to/tree_11", "actions/release/item_SKU_001/to/pallet_alpha_second", "actions/release/blue_ball/to/tree_6", "actions/release/chip_type_T/to/tree_3", "actions/release/box_small/to/tree_5", "actions/release/item_SKU_001/to/burner_front_right", "actions/release/item_SKU_001/to/tree_11", "actions/release/roller_green/to/tree_11", "actions/release/chip_type_T/to/burner_front_left", "actions/release/chip_type_T/to/tree_10", "actions/release/roller_green/to/burner_front_right", "actions/release/bearing_pack/to/tree_13", "actions/release/roller_green/to/tree_5", "actions/release/item_SKU_001/to/tree_5", "actions/release/bearing_pack/to/pallet_alpha_first", "actions/release/bearing_pack/to/tree_4", "actions/release/blue_ball/to/tree_13", "actions/release/box_small/to/tree_6", "actions/release/item_SKU_001/to/tree_6", "actions/release/blue_ball/to/tree_2", "actions/release/bearing_pack/to/burner_front_left", "actions/release/bearing_pack/to/tree_10", "watch burner_front_left burner_front_right burner_back_left burner_back_right", "scan tree_1->tree_5", "scan tree_6->tree_10", "scan tree_11->tree_15", "gantry_view_alpha_bravo", "home", "forklift_lane_wait", "stove_approach", "sink_position", "prep_station", "orchard_entry"]}
+objects = ["chip_type_T", "bearing_pack", "roller_green", "item_SKU_001", "blue_ball", "box_small"]
+locations = ["burner_front_left", "burner_front_right", "tree_3", "tree_4", "tree_1", "tree_5", "tree_2", "tree_7", "tree_6", "tree_9", "tree_10", "tree_8", "tree_12", "tree_14", "tree_11", "tree_15", "tree_13", "pallet_alpha_second", "pallet_alpha_third", "pallet_alpha_first"]
+observation mapping = {"watch burner_front_left burner_front_right burner_back_left burner_back_right": ["burner_front_left", "burner_front_right"], "scan tree_1->tree_5": ["tree_3", "tree_4", "tree_1", "tree_5", "tree_2"], "scan tree_6->tree_10": ["tree_7", "tree_6", "tree_9", "tree_10", "tree_8"], "scan tree_11->tree_15": ["tree_12", "tree_14", "tree_11", "tree_15", "tree_13"], "gantry_view_alpha_bravo": ["pallet_alpha_second", "pallet_alpha_third", "pallet_alpha_first"]}
+
+RESOLUTION
+L4
+
+----- OUTPUT (loss IS computed on these tokens) -----
+
+
+RESOLUTION
+L5
+
+MEMORY
+cursor = done<turn|>
+

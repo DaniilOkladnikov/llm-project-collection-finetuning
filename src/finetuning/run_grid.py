@@ -6,8 +6,8 @@ import sys
 from itertools import product
 from pathlib import Path
 
-MODEL_NAMES = ["gpt-oss-20b"]
-R_VALUES = [128]
+MODEL_NAMES = ["gemma-4-E2B-it"]
+R_VALUES = [64]
 ALPHA_VALUES = [2]
 LR_VALUES = [6e-5]
 LR_METHODS = ["constant_with_warmup"]
@@ -23,6 +23,11 @@ def make_short_name(model_name):
     name = model_name
     for suffix in ["-Instruct-unsloth-bnb-4bit", "-Instruct-bnb-8bit", "-Instruct", "-unsloth-bnb-4bit", "-bnb-8bit"]:
         name = name.replace(suffix, "")
+    # Gemma's instruction-tuned marker ('gemma-4-E2B-it' -> 'gemma-4-E2B').
+    # Stripped as a true suffix rather than added to the list above, where a bare
+    # "-it" would corrupt any name containing those letters mid-string.
+    if name.endswith("-it"):
+        name = name[: -len("-it")]
     for prefix in ["Meta-"]:
         if name.startswith(prefix):
             name = name[len(prefix):]

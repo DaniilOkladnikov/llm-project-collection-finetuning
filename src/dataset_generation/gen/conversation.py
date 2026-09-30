@@ -24,6 +24,11 @@ PARSE_PROGRAM_BLOCK = (
     "L5 parse user"
 )
 
+# Turns 2+: the scene has already been parsed and is in memory, but the new user
+# message has not been. Every new message gets its own parse-user program before
+# the program that answers it.
+PARSE_USER_PROGRAM_BLOCK = "PROGRAM\nL1 parse user"
+
 
 class Conversation:
     def __init__(self, scene: SceneModel, resolver: AnswerResolver, conv_id: int):
@@ -122,13 +127,18 @@ class Conversation:
         return objects, locations
 
     def _render_observation_mapping(self) -> str:
-        """observation mapping = dict of observe pose -> its observable locations,
-        rendered per the spec e.g.
-        {"observe_box1": "box1_1", "box1_2", "observe_box2": "box2_1", "box2_2"}."""
+        """observation mapping = dict of observe pose -> its observable locations:
+        {"observe_box1": ["box1_1", "box1_2"], "observe_box2": ["box2_1", "box2_2"]}
+
+        The value is always a list, even for a pose that sees a single location
+        (DSL.md 2.4 -- "dict of observation position: locations list"). Joining a
+        multi-location value with bare commas instead would splice its tail into
+        the enclosing dict as key-less entries, making the whole block unparsable.
+        """
         parts: List[str] = []
         for name, locs in self.scene.observe_positions():
             ordered = self.scene.order(locs)
-            parts.append(q(name) + ": " + ", ".join(q(l) for l in ordered))
+            parts.append(q(name) + ": " + jlist(ordered))
         return "{" + ", ".join(parts) + "}"
 
     def _render_parse_prelude(self, parse_user_delta: dict, statechange_delta: dict):
@@ -168,6 +178,27 @@ class Conversation:
             delta[k] = v
         self._emit({"resolution": "RESOLUTION\nL5", "memory": delta})
         self.state.parsed = True
+
+    # --- parse user (turns 2+) --------------------------------------------
+
+    def _render_parse_user(self, parse_user_delta: dict, statechange_delta: dict):
+        """The one-line parse program a new user message opens with.
+
+        Positions, objects, locations and the observation mapping are already in
+        memory from turn 1's prelude, so only `parse user` is re-run -- but it is
+        re-run *as a program*, not folded into the next program's first MEMORY
+        delta: binding the new message's phrases is a step the model performs,
+        not state it is handed.
+        """
+        self._emit({"program": PARSE_USER_PROGRAM_BLOCK,
+                    "memory": OrderedDict({"cursor": "L1"})})
+        delta = OrderedDict()
+        delta["cursor"] = "done"
+        for k, v in parse_user_delta.items():
+            delta[k] = v
+        for k, v in statechange_delta.items():
+            delta[k] = v
+        self._emit({"resolution": "RESOLUTION\nL1", "memory": delta})
 
     # --- step rendering ----------------------------------------------------
 
@@ -246,15 +277,11 @@ class Conversation:
 
         if first_turn and not self._prelude_done():
             self._render_parse_prelude(parse_user_delta, statechange_delta)
-            real_init = OrderedDict({"cursor": "L1"})
         else:
-            real_init = OrderedDict({"cursor": "L1"})
-            for k, v in statechange_delta.items():
-                real_init[k] = v
-            for k, v in parse_user_delta.items():
-                real_init[k] = v
+            self._render_parse_user(parse_user_delta, statechange_delta)
 
-        self._emit({"program": program_real, "memory": real_init})
+        self._emit({"program": program_real,
+                    "memory": OrderedDict({"cursor": "L1"})})
 
         for i, step in enumerate(steps):
             nxt = steps[i + 1].start_lineno if i + 1 < len(steps) else None

@@ -3511,78 +3511,2382 @@
   },
   {
     "object_locations": [
-        "parcelPalette-1.1.1", "parcelPalette-1.1.2",
-        "parcelPalette-1.2.1", "parcelPalette-1.2.2",
-        "parcelPalette-1.3.1", "parcelPalette-1.3.2",
-        "parcelPalette-2.1.1", "parcelPalette-2.1.2",
-        "parcelPalette-2.2.1", "parcelPalette-2.2.2",
-        "parcelPalette-2.3.1", "parcelPalette-2.3.2",
-        "parcelPalette-3.1.1", "parcelPalette-3.1.2",
-        "parcelPalette-3.2.1", "parcelPalette-3.2.2",
-        "parcelPalette-3.3.1", "parcelPalette-3.3.2"
+      "parcelPalette-1.1.1",
+      "parcelPalette-1.1.2",
+      "parcelPalette-1.2.1",
+      "parcelPalette-1.2.2",
+      "parcelPalette-1.3.1",
+      "parcelPalette-1.3.2",
+      "parcelPalette-2.1.1",
+      "parcelPalette-2.1.2",
+      "parcelPalette-2.2.1",
+      "parcelPalette-2.2.2",
+      "parcelPalette-2.3.1",
+      "parcelPalette-2.3.2",
+      "parcelPalette-3.1.1",
+      "parcelPalette-3.1.2",
+      "parcelPalette-3.2.1",
+      "parcelPalette-3.2.2",
+      "parcelPalette-3.3.1",
+      "parcelPalette-3.3.2"
     ],
     "object_types": {
-        "tote": ["crate"],
-        "mailer": ["parcel", "padded envelope"],
-        "shrinkwrap": ["stretch film", "cling roll"]
+      "tote": [
+        "crate"
+      ],
+      "mailer": [
+        "parcel",
+        "padded envelope"
+      ],
+      "shrinkwrap": [
+        "stretch film",
+        "cling roll"
+      ]
     },
     "observe_dict": {
-        "eye→aisle[1.*.*]": [
-            "parcelPalette-1.1.1", "parcelPalette-1.1.2",
-            "parcelPalette-1.2.1", "parcelPalette-1.2.2",
-            "parcelPalette-1.3.1", "parcelPalette-1.3.2"
-        ],
-        "eye→aisle[2.*.*]": [
-            "parcelPalette-2.1.1", "parcelPalette-2.1.2",
-            "parcelPalette-2.2.1", "parcelPalette-2.2.2",
-            "parcelPalette-2.3.1", "parcelPalette-2.3.2"
-        ],
-        "eye→aisle[3.*.*]": [
-            "parcelPalette-3.1.1", "parcelPalette-3.1.2",
-            "parcelPalette-3.2.1", "parcelPalette-3.2.2",
-            "parcelPalette-3.3.1", "parcelPalette-3.3.2"
-        ]
+      "eye→aisle[1.*.*]": [
+        "parcelPalette-1.1.1",
+        "parcelPalette-1.1.2",
+        "parcelPalette-1.2.1",
+        "parcelPalette-1.2.2",
+        "parcelPalette-1.3.1",
+        "parcelPalette-1.3.2"
+      ],
+      "eye→aisle[2.*.*]": [
+        "parcelPalette-2.1.1",
+        "parcelPalette-2.1.2",
+        "parcelPalette-2.2.1",
+        "parcelPalette-2.2.2",
+        "parcelPalette-2.3.1",
+        "parcelPalette-2.3.2"
+      ],
+      "eye→aisle[3.*.*]": [
+        "parcelPalette-3.1.1",
+        "parcelPalette-3.1.2",
+        "parcelPalette-3.2.1",
+        "parcelPalette-3.2.2",
+        "parcelPalette-3.3.1",
+        "parcelPalette-3.3.2"
+      ]
     },
     "general_position_names": [
-        "home",
-        "dock",
-        "charge-pad"
+      "home",
+      "dock",
+      "charge-pad"
     ],
     "location_names": {
-        "pallettes 1": [
-            "parcelPalette-1.1.1", "parcelPalette-1.1.2",
-            "parcelPalette-1.2.1", "parcelPalette-1.2.2",
-            "parcelPalette-1.3.1", "parcelPalette-1.3.2"
-        ],
-        "pallettes2 ": [
-            "parcelPalette-2.1.1", "parcelPalette-2.1.2",
-            "parcelPalette-2.2.1", "parcelPalette-2.2.2",
-            "parcelPalette-2.3.1", "parcelPalette-2.3.2"
-        ],
-        "pallettes3": [
-            "parcelPalette-3.1.1", "parcelPalette-3.1.2",
-            "parcelPalette-3.2.1", "parcelPalette-3.2.2",
-            "parcelPalette-3.3.1", "parcelPalette-3.3.2"
-        ],
-        "pallettes x.x.1": [
-            "parcelPalette-1.1.1", "parcelPalette-1.2.1", "parcelPalette-1.3.1",
-            "parcelPalette-2.1.1", "parcelPalette-2.2.1", "parcelPalette-2.3.1",
-            "parcelPalette-3.1.1", "parcelPalette-3.2.1", "parcelPalette-3.3.1"
-        ],
-        "Palettes tier both indices anything, last index 2]": [
-            "parcelPalette-1.1.2", "parcelPalette-1.2.2", "parcelPalette-1.3.2",
-            "parcelPalette-2.1.2", "parcelPalette-2.2.2", "parcelPalette-2.3.2",
-            "parcelPalette-3.1.2", "parcelPalette-3.2.2", "parcelPalette-3.3.2"
-        ],
-        "Palettes[1.1.*]": ["parcelPalette-1.1.1", "parcelPalette-1.1.2"],
-        "Palettesshelf - 1.2.*": ["parcelPalette-1.2.1", "parcelPalette-1.2.2"],
-        "Palettes 1st line index 1, 2nd - 3": ["parcelPalette-1.3.1", "parcelPalette-1.3.2"],
-        "Palettes 1st index 2, 2nd index 1": ["parcelPalette-2.1.1", "parcelPalette-2.1.2"],
-        "Palettes 2 something 2 something": ["parcelPalette-2.2.1", "parcelPalette-2.2.2"],
-        "Palettes block[2.3.*]": ["parcelPalette-2.3.1", "parcelPalette-2.3.2"],
-        "Palettes31": ["parcelPalette-3.1.1", "parcelPalette-3.1.2"],
-        "Palettes32.*": ["parcelPalette-3.2.1", "parcelPalette-3.2.2"],
-        "Box storages 3... ": ["parcelPalette-3.3.1", "parcelPalette-3.3.2"]
+      "pallettes 1": [
+        "parcelPalette-1.1.1",
+        "parcelPalette-1.1.2",
+        "parcelPalette-1.2.1",
+        "parcelPalette-1.2.2",
+        "parcelPalette-1.3.1",
+        "parcelPalette-1.3.2"
+      ],
+      "pallettes2 ": [
+        "parcelPalette-2.1.1",
+        "parcelPalette-2.1.2",
+        "parcelPalette-2.2.1",
+        "parcelPalette-2.2.2",
+        "parcelPalette-2.3.1",
+        "parcelPalette-2.3.2"
+      ],
+      "pallettes3": [
+        "parcelPalette-3.1.1",
+        "parcelPalette-3.1.2",
+        "parcelPalette-3.2.1",
+        "parcelPalette-3.2.2",
+        "parcelPalette-3.3.1",
+        "parcelPalette-3.3.2"
+      ],
+      "pallettes x.x.1": [
+        "parcelPalette-1.1.1",
+        "parcelPalette-1.2.1",
+        "parcelPalette-1.3.1",
+        "parcelPalette-2.1.1",
+        "parcelPalette-2.2.1",
+        "parcelPalette-2.3.1",
+        "parcelPalette-3.1.1",
+        "parcelPalette-3.2.1",
+        "parcelPalette-3.3.1"
+      ],
+      "Palettes tier both indices anything, last index 2]": [
+        "parcelPalette-1.1.2",
+        "parcelPalette-1.2.2",
+        "parcelPalette-1.3.2",
+        "parcelPalette-2.1.2",
+        "parcelPalette-2.2.2",
+        "parcelPalette-2.3.2",
+        "parcelPalette-3.1.2",
+        "parcelPalette-3.2.2",
+        "parcelPalette-3.3.2"
+      ],
+      "Palettes[1.1.*]": [
+        "parcelPalette-1.1.1",
+        "parcelPalette-1.1.2"
+      ],
+      "Palettesshelf - 1.2.*": [
+        "parcelPalette-1.2.1",
+        "parcelPalette-1.2.2"
+      ],
+      "Palettes 1st line index 1, 2nd - 3": [
+        "parcelPalette-1.3.1",
+        "parcelPalette-1.3.2"
+      ],
+      "Palettes 1st index 2, 2nd index 1": [
+        "parcelPalette-2.1.1",
+        "parcelPalette-2.1.2"
+      ],
+      "Palettes 2 something 2 something": [
+        "parcelPalette-2.2.1",
+        "parcelPalette-2.2.2"
+      ],
+      "Palettes block[2.3.*]": [
+        "parcelPalette-2.3.1",
+        "parcelPalette-2.3.2"
+      ],
+      "Palettes31": [
+        "parcelPalette-3.1.1",
+        "parcelPalette-3.1.2"
+      ],
+      "Palettes32.*": [
+        "parcelPalette-3.2.1",
+        "parcelPalette-3.2.2"
+      ],
+      "Box storages 3... ": [
+        "parcelPalette-3.3.1",
+        "parcelPalette-3.3.2"
+      ]
     }
-}
+  },
+  {
+    "object_locations": [
+      "HB-A1-L",
+      "HB-A1-R",
+      "HB-A2-L",
+      "HB-A2-R",
+      "HB-B1-L",
+      "HB-B1-R",
+      "HB-B2-L",
+      "HB-B2-R",
+      "HB-C1-L",
+      "HB-C1-R",
+      "HB-C2-L",
+      "HB-C2-R"
+    ],
+    "object_types": {
+      "crate_sealed": [
+        "sealed crate",
+        "closed crate"
+      ],
+      "drum_blue": [
+        "blue drum"
+      ],
+      "wrap_roll": [
+        "roll of wrap",
+        "shrink roll"
+      ],
+      "empty_tote": [
+        "spare tote"
+      ]
+    },
+    "observe_dict": {
+      "mast_scan_aisle_A": [
+        "HB-A1-L",
+        "HB-A1-R",
+        "HB-A2-L",
+        "HB-A2-R"
+      ],
+      "mast_scan_aisle_B": [
+        "HB-B1-L",
+        "HB-B1-R",
+        "HB-B2-L",
+        "HB-B2-R"
+      ],
+      "mast_scan_aisle_C": [
+        "HB-C1-L",
+        "HB-C1-R",
+        "HB-C2-L",
+        "HB-C2-R"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "mast_dock",
+      "wrap_station_wait"
+    ],
+    "location_names": {
+      "aisle A": [
+        "HB-A1-L",
+        "HB-A1-R",
+        "HB-A2-L",
+        "HB-A2-R"
+      ],
+      "aisle B": [
+        "HB-B1-L",
+        "HB-B1-R",
+        "HB-B2-L",
+        "HB-B2-R"
+      ],
+      "aisle C": [
+        "HB-C1-L",
+        "HB-C1-R",
+        "HB-C2-L",
+        "HB-C2-R"
+      ],
+      "ground level": [
+        "HB-A1-L",
+        "HB-A1-R",
+        "HB-B1-L",
+        "HB-B1-R",
+        "HB-C1-L",
+        "HB-C1-R"
+      ],
+      "upper level": [
+        "HB-A2-L",
+        "HB-A2-R",
+        "HB-B2-L",
+        "HB-B2-R",
+        "HB-C2-L",
+        "HB-C2-R"
+      ],
+      "left faces": [
+        "HB-A1-L",
+        "HB-A2-L",
+        "HB-B1-L",
+        "HB-B2-L",
+        "HB-C1-L",
+        "HB-C2-L"
+      ],
+      "right faces": [
+        "HB-A1-R",
+        "HB-A2-R",
+        "HB-B1-R",
+        "HB-B2-R",
+        "HB-C1-R",
+        "HB-C2-R"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "pallet_alpha_first",
+      "pallet_alpha_second",
+      "pallet_alpha_third",
+      "pallet_bravo_first",
+      "pallet_bravo_second",
+      "pallet_bravo_third",
+      "pallet_charlie_first",
+      "pallet_charlie_second",
+      "pallet_charlie_third",
+      "pallet_delta_first",
+      "pallet_delta_second",
+      "pallet_delta_third"
+    ],
+    "object_types": {
+      "keg_steel": [
+        "steel keg"
+      ],
+      "wire_spool": [
+        "spool of wire"
+      ],
+      "pellet_bag": [
+        "bag of pellets"
+      ],
+      "strap_kit": [
+        "strapping kit"
+      ]
+    },
+    "observe_dict": {
+      "gantry_view_alpha_bravo": [
+        "pallet_alpha_first",
+        "pallet_alpha_second",
+        "pallet_alpha_third",
+        "pallet_bravo_first",
+        "pallet_bravo_second",
+        "pallet_bravo_third"
+      ],
+      "gantry_view_charlie_delta": [
+        "pallet_charlie_first",
+        "pallet_charlie_second",
+        "pallet_charlie_third",
+        "pallet_delta_first",
+        "pallet_delta_second",
+        "pallet_delta_third"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "pallet_walkway",
+      "forklift_lane_wait"
+    ],
+    "location_names": {
+      "alpha column": [
+        "pallet_alpha_first",
+        "pallet_alpha_second",
+        "pallet_alpha_third"
+      ],
+      "bravo column": [
+        "pallet_bravo_first",
+        "pallet_bravo_second",
+        "pallet_bravo_third"
+      ],
+      "charlie column": [
+        "pallet_charlie_first",
+        "pallet_charlie_second",
+        "pallet_charlie_third"
+      ],
+      "delta column": [
+        "pallet_delta_first",
+        "pallet_delta_second",
+        "pallet_delta_third"
+      ],
+      "the front row": [
+        "pallet_alpha_first",
+        "pallet_bravo_first",
+        "pallet_charlie_first",
+        "pallet_delta_first"
+      ],
+      "the middle row": [
+        "pallet_alpha_second",
+        "pallet_bravo_second",
+        "pallet_charlie_second",
+        "pallet_delta_second"
+      ],
+      "the back row": [
+        "pallet_alpha_third",
+        "pallet_bravo_third",
+        "pallet_charlie_third",
+        "pallet_delta_third"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "st10_north",
+      "st10_south",
+      "st20_north",
+      "st20_south",
+      "st30_north",
+      "st30_south",
+      "st40_north",
+      "st40_south",
+      "st50_north",
+      "st50_south"
+    ],
+    "object_types": {
+      "rotor_disc": [
+        "rotor"
+      ],
+      "stator_ring": [
+        "stator"
+      ],
+      "shaft_pin": [
+        "pin shaft"
+      ],
+      "bearing_pack": [
+        "pack of bearings"
+      ]
+    },
+    "observe_dict": {
+      "line_cam_st10_st20": [
+        "st10_north",
+        "st10_south",
+        "st20_north",
+        "st20_south"
+      ],
+      "line_cam_st30_st40": [
+        "st30_north",
+        "st30_south",
+        "st40_north",
+        "st40_south"
+      ],
+      "line_cam_st50": [
+        "st50_north",
+        "st50_south"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "st05_gate",
+      "plc_cabinet_front"
+    ],
+    "location_names": {
+      "station ten": [
+        "st10_north",
+        "st10_south"
+      ],
+      "station twenty": [
+        "st20_north",
+        "st20_south"
+      ],
+      "station thirty": [
+        "st30_north",
+        "st30_south"
+      ],
+      "station forty": [
+        "st40_north",
+        "st40_south"
+      ],
+      "station fifty": [
+        "st50_north",
+        "st50_south"
+      ],
+      "the north rail": [
+        "st10_north",
+        "st20_north",
+        "st30_north",
+        "st40_north",
+        "st50_north"
+      ],
+      "the south rail": [
+        "st10_south",
+        "st20_south",
+        "st30_south",
+        "st40_south",
+        "st50_south"
+      ],
+      "early stations": [
+        "st10_north",
+        "st10_south",
+        "st20_north",
+        "st20_south"
+      ],
+      "late stations": [
+        "st40_north",
+        "st40_south",
+        "st50_north",
+        "st50_south"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "GRO.1.a",
+      "GRO.1.b",
+      "GRO.2.a",
+      "GRO.2.b",
+      "FRZ.1.a",
+      "FRZ.1.b",
+      "FRZ.2.a",
+      "FRZ.2.b",
+      "DRY.1.a",
+      "DRY.1.b",
+      "DRY.2.a",
+      "DRY.2.b"
+    ],
+    "object_types": {
+      "can_flat": [
+        "flat of cans"
+      ],
+      "cereal_carton": [
+        "carton of cereal"
+      ],
+      "frozen_pizza_box": [
+        "pizza box"
+      ],
+      "oat_sack": [
+        "sack of oats"
+      ]
+    },
+    "observe_dict": {
+      "stockroom_cam_GRO": [
+        "GRO.1.a",
+        "GRO.1.b",
+        "GRO.2.a",
+        "GRO.2.b"
+      ],
+      "stockroom_cam_FRZ": [
+        "FRZ.1.a",
+        "FRZ.1.b",
+        "FRZ.2.a",
+        "FRZ.2.b"
+      ],
+      "stockroom_cam_DRY": [
+        "DRY.1.a",
+        "DRY.1.b",
+        "DRY.2.a",
+        "DRY.2.b"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "DRY.entry",
+      "stockroom_door_inside"
+    ],
+    "location_names": {
+      "grocery bays": [
+        "GRO.1.a",
+        "GRO.1.b",
+        "GRO.2.a",
+        "GRO.2.b"
+      ],
+      "freezer bays": [
+        "FRZ.1.a",
+        "FRZ.1.b",
+        "FRZ.2.a",
+        "FRZ.2.b"
+      ],
+      "dry goods bays": [
+        "DRY.1.a",
+        "DRY.1.b",
+        "DRY.2.a",
+        "DRY.2.b"
+      ],
+      "the a-shelves": [
+        "GRO.1.a",
+        "GRO.2.a",
+        "FRZ.1.a",
+        "FRZ.2.a",
+        "DRY.1.a",
+        "DRY.2.a"
+      ],
+      "the b-shelves": [
+        "GRO.1.b",
+        "GRO.2.b",
+        "FRZ.1.b",
+        "FRZ.2.b",
+        "DRY.1.b",
+        "DRY.2.b"
+      ],
+      "rack one bays": [
+        "GRO.1.a",
+        "GRO.1.b",
+        "FRZ.1.a",
+        "FRZ.1.b",
+        "DRY.1.a",
+        "DRY.1.b"
+      ],
+      "rack two bays": [
+        "GRO.2.a",
+        "GRO.2.b",
+        "FRZ.2.a",
+        "FRZ.2.b",
+        "DRY.2.a",
+        "DRY.2.b"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "rackA_L1_P1",
+      "rackA_L1_P2",
+      "rackA_L2_P1",
+      "rackA_L2_P2",
+      "rackA_L3_P1",
+      "rackA_L3_P2",
+      "rackB_L1_P1",
+      "rackB_L1_P2",
+      "rackB_L2_P1",
+      "rackB_L2_P2",
+      "rackB_L3_P1",
+      "rackB_L3_P2"
+    ],
+    "object_types": {
+      "crate": [
+        "wooden_crate"
+      ],
+      "drum": [
+        "barrel"
+      ],
+      "spool": [
+        "cable_reel"
+      ],
+      "pallet_carton": [
+        "carton"
+      ]
+    },
+    "observe_dict": {
+      "scan_rackL1": [
+        "rackA_L1_P1",
+        "rackA_L1_P2",
+        "rackB_L1_P1",
+        "rackB_L1_P2"
+      ],
+      "scan_rackL2": [
+        "rackA_L2_P1",
+        "rackA_L2_P2",
+        "rackB_L2_P1",
+        "rackB_L2_P2"
+      ],
+      "scan_rackL3": [
+        "rackA_L3_P1",
+        "rackA_L3_P2",
+        "rackB_L3_P1",
+        "rackB_L3_P2"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "rome",
+      "pallet_scale_spot"
+    ],
+    "location_names": {
+      "rack A": [
+        "rackA_L1_P1",
+        "rackA_L1_P2",
+        "rackA_L2_P1",
+        "rackA_L2_P2",
+        "rackA_L3_P1",
+        "rackA_L3_P2"
+      ],
+      "rack B": [
+        "rackB_L1_P1",
+        "rackB_L1_P2",
+        "rackB_L2_P1",
+        "rackB_L2_P2",
+        "rackB_L3_P1",
+        "rackB_L3_P2"
+      ],
+      "level 1 of rack A": [
+        "rackA_L1_P1",
+        "rackA_L1_P2"
+      ],
+      "level 3 of rack B": [
+        "rackB_L3_P1",
+        "rackB_L3_P2"
+      ],
+      "the first pallet slot on every level of rack A": [
+        "rackA_L1_P1",
+        "rackA_L2_P1",
+        "rackA_L3_P1"
+      ],
+      "level 2 slots of both racks": [
+        "rackA_L2_P1",
+        "rackA_L2_P2",
+        "rackB_L2_P1",
+        "rackB_L2_P2"
+      ],
+      "second pallet slots of rack B": [
+        "rackB_L1_P2",
+        "rackB_L2_P2",
+        "rackB_L3_P2"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "Z1-A1-B01",
+      "Z1-A1-B02",
+      "Z1-A1-B03",
+      "Z1-A2-B01",
+      "Z1-A2-B02",
+      "Z1-A2-B03",
+      "Z2-A1-B01",
+      "Z2-A1-B02",
+      "Z2-A1-B03",
+      "Z2-A2-B01",
+      "Z2-A2-B02",
+      "Z2-A2-B03"
+    ],
+    "object_types": {
+      "tote": [
+        "tub"
+      ],
+      "keg": [],
+      "sack": [
+        "grain_bag"
+      ],
+      "shrink_pack": [
+        "wrapped_pack"
+      ]
+    },
+    "observe_dict": {
+      "aerial_Z1-A1": [
+        "Z1-A1-B01",
+        "Z1-A1-B02",
+        "Z1-A1-B03"
+      ],
+      "aerial_Z1-A2": [
+        "Z1-A2-B01",
+        "Z1-A2-B02",
+        "Z1-A2-B03"
+      ],
+      "aerial_Z2-A1": [
+        "Z2-A1-B01",
+        "Z2-A1-B02",
+        "Z2-A1-B03"
+      ],
+      "aerial_Z2-A2": [
+        "Z2-A2-B01",
+        "Z2-A2-B02",
+        "Z2-A2-B03"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "dock_lane_wait",
+      "battery_swap_bay"
+    ],
+    "location_names": {
+      "zone 1": [
+        "Z1-A1-B01",
+        "Z1-A1-B02",
+        "Z1-A1-B03",
+        "Z1-A2-B01",
+        "Z1-A2-B02",
+        "Z1-A2-B03"
+      ],
+      "zone 2": [
+        "Z2-A1-B01",
+        "Z2-A1-B02",
+        "Z2-A1-B03",
+        "Z2-A2-B01",
+        "Z2-A2-B02",
+        "Z2-A2-B03"
+      ],
+      "aisle 1 of zone 1": [
+        "Z1-A1-B01",
+        "Z1-A1-B02",
+        "Z1-A1-B03"
+      ],
+      "aisle 2 of zone 2": [
+        "Z2-A2-B01",
+        "Z2-A2-B02",
+        "Z2-A2-B03"
+      ],
+      "the first bin of every aisle": [
+        "Z1-A1-B01",
+        "Z1-A2-B01",
+        "Z2-A1-B01",
+        "Z2-A2-B01"
+      ],
+      "bins 02 and 03 of zone 1 aisle 1": [
+        "Z1-A1-B02",
+        "Z1-A1-B03"
+      ],
+      "aisle 2 bins in both zones": [
+        "Z1-A2-B01",
+        "Z1-A2-B02",
+        "Z1-A2-B03",
+        "Z2-A2-B01",
+        "Z2-A2-B02",
+        "Z2-A2-B03"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "st1_buf1",
+      "st1_buf2",
+      "st2_buf1",
+      "st2_buf2",
+      "st3_buf1",
+      "st3_buf2",
+      "st4_buf1",
+      "st4_buf2",
+      "st5_buf1",
+      "st5_buf2"
+    ],
+    "object_types": {
+      "gear_blank": [
+        "gear"
+      ],
+      "axle_rod": [
+        "rod"
+      ],
+      "housing_shell": [
+        "casing"
+      ],
+      "fastener_kit": [
+        "screw_kit"
+      ]
+    },
+    "observe_dict": {
+      "inspect_st1": [
+        "st1_buf1",
+        "st1_buf2"
+      ],
+      "inspect_st2": [
+        "st2_buf1",
+        "st2_buf2"
+      ],
+      "inspect_st3": [
+        "st3_buf1",
+        "st3_buf2"
+      ],
+      "inspect_st4": [
+        "st4_buf1",
+        "st4_buf2"
+      ],
+      "inspect_st5": [
+        "st5_buf1",
+        "st5_buf2"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "rome",
+      "tool_change_dock"
+    ],
+    "location_names": {
+      "station 1": [
+        "st1_buf1",
+        "st1_buf2"
+      ],
+      "station 5": [
+        "st5_buf1",
+        "st5_buf2"
+      ],
+      "odd numbered stations": [
+        "st1_buf1",
+        "st1_buf2",
+        "st3_buf1",
+        "st3_buf2",
+        "st5_buf1",
+        "st5_buf2"
+      ],
+      "the first buffer of each station": [
+        "st1_buf1",
+        "st2_buf1",
+        "st3_buf1",
+        "st4_buf1",
+        "st5_buf1"
+      ],
+      "stations 1 through 3": [
+        "st1_buf1",
+        "st1_buf2",
+        "st2_buf1",
+        "st2_buf2",
+        "st3_buf1",
+        "st3_buf2"
+      ],
+      "the second buffer of station 4": [
+        "st4_buf2"
+      ],
+      "the last two stations": [
+        "st4_buf1",
+        "st4_buf2",
+        "st5_buf1",
+        "st5_buf2"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "lineA_seg01",
+      "lineA_seg02",
+      "lineA_seg03",
+      "lineA_seg04",
+      "lineA_seg05",
+      "lineA_seg06",
+      "lineB_seg07",
+      "lineB_seg08",
+      "lineB_seg09",
+      "lineB_seg10",
+      "lineB_seg11",
+      "lineB_seg12"
+    ],
+    "object_types": {
+      "pcb_board": [
+        "circuit_board"
+      ],
+      "chip_tray": [],
+      "solder_spool": [
+        "solder_reel"
+      ],
+      "heatsink": [
+        "cooler_fin"
+      ]
+    },
+    "observe_dict": {
+      "overhead_lineA_seg01_to_03": [
+        "lineA_seg01",
+        "lineA_seg02",
+        "lineA_seg03"
+      ],
+      "overhead_lineA_seg04_to_06": [
+        "lineA_seg04",
+        "lineA_seg05",
+        "lineA_seg06"
+      ],
+      "overhead_lineB_seg07_to_09": [
+        "lineB_seg07",
+        "lineB_seg08",
+        "lineB_seg09"
+      ],
+      "overhead_lineB_seg10_to_12": [
+        "lineB_seg10",
+        "lineB_seg11",
+        "lineB_seg12"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "maintenance_pit_edge"
+    ],
+    "location_names": {
+      "line A": [
+        "lineA_seg01",
+        "lineA_seg02",
+        "lineA_seg03",
+        "lineA_seg04",
+        "lineA_seg05",
+        "lineA_seg06"
+      ],
+      "line B": [
+        "lineB_seg07",
+        "lineB_seg08",
+        "lineB_seg09",
+        "lineB_seg10",
+        "lineB_seg11",
+        "lineB_seg12"
+      ],
+      "the first three segments of line A": [
+        "lineA_seg01",
+        "lineA_seg02",
+        "lineA_seg03"
+      ],
+      "segments 10 through 12": [
+        "lineB_seg10",
+        "lineB_seg11",
+        "lineB_seg12"
+      ],
+      "even numbered segments of line A": [
+        "lineA_seg02",
+        "lineA_seg04",
+        "lineA_seg06"
+      ],
+      "the final segment of each line": [
+        "lineA_seg06",
+        "lineB_seg12"
+      ],
+      "segments 05 through 08": [
+        "lineA_seg05",
+        "lineA_seg06",
+        "lineB_seg07",
+        "lineB_seg08"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "sh1_bc1",
+      "sh2_bc1",
+      "sh3_bc1",
+      "sh4_bc1",
+      "sh1_bc2",
+      "sh2_bc2",
+      "sh3_bc2",
+      "sh4_bc2",
+      "sh1_bc3",
+      "sh2_bc3",
+      "sh3_bc3",
+      "sh4_bc3"
+    ],
+    "object_types": {
+      "novel": [
+        "paperback"
+      ],
+      "photo_album": [
+        "album"
+      ],
+      "binder": [
+        "ring_binder"
+      ],
+      "plant_pot": [
+        "flowerpot"
+      ]
+    },
+    "observe_dict": {
+      "face_bc1": [
+        "sh1_bc1",
+        "sh2_bc1",
+        "sh3_bc1",
+        "sh4_bc1"
+      ],
+      "face_bc2": [
+        "sh1_bc2",
+        "sh2_bc2",
+        "sh3_bc2",
+        "sh4_bc2"
+      ],
+      "face_bc3": [
+        "sh1_bc3",
+        "sh2_bc3",
+        "sh3_bc3",
+        "sh4_bc3"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "hallway_hover"
+    ],
+    "location_names": {
+      "bookcase 1": [
+        "sh1_bc1",
+        "sh2_bc1",
+        "sh3_bc1",
+        "sh4_bc1"
+      ],
+      "bookcase 2": [
+        "sh1_bc2",
+        "sh2_bc2",
+        "sh3_bc2",
+        "sh4_bc2"
+      ],
+      "bookcase 3": [
+        "sh1_bc3",
+        "sh2_bc3",
+        "sh3_bc3",
+        "sh4_bc3"
+      ],
+      "shelf 1 of every bookcase": [
+        "sh1_bc1",
+        "sh1_bc2",
+        "sh1_bc3"
+      ],
+      "shelves 3 and 4 of bookcase 2": [
+        "sh3_bc2",
+        "sh4_bc2"
+      ],
+      "shelf 4 of bookcase 3": [
+        "sh4_bc3"
+      ],
+      "shelves 1 and 2 of the middle bookcase": [
+        "sh1_bc2",
+        "sh2_bc2"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "peg_r1c1",
+      "peg_r1c2",
+      "peg_r1c3",
+      "peg_r1c4",
+      "peg_r1c5",
+      "peg_r2c1",
+      "peg_r2c2",
+      "peg_r2c3",
+      "peg_r2c4",
+      "peg_r2c5"
+    ],
+    "object_types": {
+      "hammer": [
+        "claw_hammer"
+      ],
+      "wrench": [
+        "spanner"
+      ],
+      "tape_roll": [
+        "duct_tape"
+      ],
+      "drill_bit_box": [
+        "bit_box"
+      ]
+    },
+    "observe_dict": {
+      "row_cam_r1": [
+        "peg_r1c1",
+        "peg_r1c2",
+        "peg_r1c3",
+        "peg_r1c4",
+        "peg_r1c5"
+      ],
+      "row_cam_r2": [
+        "peg_r2c1",
+        "peg_r2c2",
+        "peg_r2c3",
+        "peg_r2c4",
+        "peg_r2c5"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "rome",
+      "garage_door_spot"
+    ],
+    "location_names": {
+      "row 1 of the pegboard": [
+        "peg_r1c1",
+        "peg_r1c2",
+        "peg_r1c3",
+        "peg_r1c4",
+        "peg_r1c5"
+      ],
+      "row 2 of the pegboard": [
+        "peg_r2c1",
+        "peg_r2c2",
+        "peg_r2c3",
+        "peg_r2c4",
+        "peg_r2c5"
+      ],
+      "column 3 of the pegboard": [
+        "peg_r1c3",
+        "peg_r2c3"
+      ],
+      "the first two columns": [
+        "peg_r1c1",
+        "peg_r1c2",
+        "peg_r2c1",
+        "peg_r2c2"
+      ],
+      "the corner pegs": [
+        "peg_r1c1",
+        "peg_r1c5",
+        "peg_r2c1",
+        "peg_r2c5"
+      ],
+      "the last column": [
+        "peg_r1c5",
+        "peg_r2c5"
+      ],
+      "row 1 columns 2 through 4": [
+        "peg_r1c2",
+        "peg_r1c3",
+        "peg_r1c4"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "a1b1s1",
+      "a1b1s2",
+      "a1b1s3",
+      "a1b2s1",
+      "a1b2s2",
+      "a1b2s3",
+      "a2b1s1",
+      "a2b1s2",
+      "a2b1s3",
+      "a2b2s1",
+      "a2b2s2",
+      "a2b2s3"
+    ],
+    "object_types": {
+      "cereal_box": [
+        "cereal"
+      ],
+      "milk_carton": [
+        "milk"
+      ],
+      "soup_can": [
+        "tin_can"
+      ],
+      "jam_jar": [
+        "jar"
+      ]
+    },
+    "observe_dict": {
+      "cam_a1": [
+        "a1b1s1",
+        "a1b1s2",
+        "a1b1s3",
+        "a1b2s1",
+        "a1b2s2",
+        "a1b2s3"
+      ],
+      "cam_a2b1": [
+        "a2b1s1",
+        "a2b1s2",
+        "a2b1s3"
+      ],
+      "cam_a2b2": [
+        "a2b2s1",
+        "a2b2s2",
+        "a2b2s3"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "checkout_wait_spot"
+    ],
+    "location_names": {
+      "aisle 1": [
+        "a1b1s1",
+        "a1b1s2",
+        "a1b1s3",
+        "a1b2s1",
+        "a1b2s2",
+        "a1b2s3"
+      ],
+      "aisle 2": [
+        "a2b1s1",
+        "a2b1s2",
+        "a2b1s3",
+        "a2b2s1",
+        "a2b2s2",
+        "a2b2s3"
+      ],
+      "bay 2 of aisle 1": [
+        "a1b2s1",
+        "a1b2s2",
+        "a1b2s3"
+      ],
+      "bay 1 of aisle 2": [
+        "a2b1s1",
+        "a2b1s2",
+        "a2b1s3"
+      ],
+      "shelf 1 spots across aisle 2": [
+        "a2b1s1",
+        "a2b2s1"
+      ],
+      "every shelf 3 spot": [
+        "a1b1s3",
+        "a1b2s3",
+        "a2b1s3",
+        "a2b2s3"
+      ],
+      "aisle 1 bay 1 shelves 1 and 2": [
+        "a1b1s1",
+        "a1b1s2"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "chiller_05",
+      "chiller_06",
+      "chiller_07",
+      "chiller_08",
+      "chiller_09",
+      "chiller_10",
+      "chiller_11",
+      "chiller_12",
+      "chiller_13",
+      "chiller_14"
+    ],
+    "object_types": {
+      "yogurt_cup": [
+        "yogurt"
+      ],
+      "butter_block": [
+        "butter"
+      ],
+      "cheese_wheel": [],
+      "juice_bottle": [
+        "juice"
+      ]
+    },
+    "observe_dict": {
+      "chiller_cam_05_to_09": [
+        "chiller_05",
+        "chiller_06",
+        "chiller_07",
+        "chiller_08",
+        "chiller_09"
+      ],
+      "chiller_cam_10_to_14": [
+        "chiller_10",
+        "chiller_11",
+        "chiller_12",
+        "chiller_13",
+        "chiller_14"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "rome",
+      "restock_trolley_bay"
+    ],
+    "location_names": {
+      "the chiller wall": [
+        "chiller_05",
+        "chiller_06",
+        "chiller_07",
+        "chiller_08",
+        "chiller_09",
+        "chiller_10",
+        "chiller_11",
+        "chiller_12",
+        "chiller_13",
+        "chiller_14"
+      ],
+      "chillers 05 through 09": [
+        "chiller_05",
+        "chiller_06",
+        "chiller_07",
+        "chiller_08",
+        "chiller_09"
+      ],
+      "chillers 10 through 14": [
+        "chiller_10",
+        "chiller_11",
+        "chiller_12",
+        "chiller_13",
+        "chiller_14"
+      ],
+      "even numbered chillers": [
+        "chiller_06",
+        "chiller_08",
+        "chiller_10",
+        "chiller_12",
+        "chiller_14"
+      ],
+      "odd numbered chillers": [
+        "chiller_05",
+        "chiller_07",
+        "chiller_09",
+        "chiller_11",
+        "chiller_13"
+      ],
+      "the first chiller": [
+        "chiller_05"
+      ],
+      "chillers below 08": [
+        "chiller_05",
+        "chiller_06",
+        "chiller_07"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "ph1A",
+      "ph1B",
+      "ph1C",
+      "ph1D",
+      "ph2A",
+      "ph2B",
+      "ph2C",
+      "ph2D",
+      "ph3A",
+      "ph3B",
+      "ph3C",
+      "ph3D"
+    ],
+    "object_types": {
+      "parcel_small": [
+        "small_parcel"
+      ],
+      "parcel_large": [
+        "large_parcel"
+      ],
+      "envelope_stack": [
+        "letter_bundle"
+      ],
+      "postal_tube": [
+        "mailing_tube"
+      ]
+    },
+    "observe_dict": {
+      "scan_ph1": [
+        "ph1A",
+        "ph1B",
+        "ph1C",
+        "ph1D"
+      ],
+      "scan_ph2": [
+        "ph2A",
+        "ph2B",
+        "ph2C",
+        "ph2D"
+      ],
+      "scan_ph3": [
+        "ph3A",
+        "ph3B",
+        "ph3C",
+        "ph3D"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "franking_desk_wait"
+    ],
+    "location_names": {
+      "row 1 of the pigeonhole wall": [
+        "ph1A",
+        "ph1B",
+        "ph1C",
+        "ph1D"
+      ],
+      "row 3 of the pigeonhole wall": [
+        "ph3A",
+        "ph3B",
+        "ph3C",
+        "ph3D"
+      ],
+      "column A of the pigeonhole wall": [
+        "ph1A",
+        "ph2A",
+        "ph3A"
+      ],
+      "columns C and D of row 2": [
+        "ph2C",
+        "ph2D"
+      ],
+      "the corner holes": [
+        "ph1A",
+        "ph1D",
+        "ph3A",
+        "ph3D"
+      ],
+      "rows 1 and 2": [
+        "ph1A",
+        "ph1B",
+        "ph1C",
+        "ph1D",
+        "ph2A",
+        "ph2B",
+        "ph2C",
+        "ph2D"
+      ],
+      "column D": [
+        "ph1D",
+        "ph2D",
+        "ph3D"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "bank1_d01",
+      "bank1_d02",
+      "bank1_d03",
+      "bank1_d04",
+      "bank1_d05",
+      "bank2_d06",
+      "bank2_d07",
+      "bank2_d08",
+      "bank2_d09",
+      "bank2_d10"
+    ],
+    "object_types": {
+      "padded_mailer": [
+        "bubble_mailer"
+      ],
+      "box_flat": [
+        "flatpack"
+      ],
+      "registered_letter": [],
+      "parcel_medium": [
+        "medium_parcel"
+      ]
+    },
+    "observe_dict": {
+      "front_bank1": [
+        "bank1_d01",
+        "bank1_d02",
+        "bank1_d03",
+        "bank1_d04",
+        "bank1_d05"
+      ],
+      "front_bank2": [
+        "bank2_d06",
+        "bank2_d07",
+        "bank2_d08",
+        "bank2_d09",
+        "bank2_d10"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "loading_van_spot"
+    ],
+    "location_names": {
+      "bank 1": [
+        "bank1_d01",
+        "bank1_d02",
+        "bank1_d03",
+        "bank1_d04",
+        "bank1_d05"
+      ],
+      "bank 2": [
+        "bank2_d06",
+        "bank2_d07",
+        "bank2_d08",
+        "bank2_d09",
+        "bank2_d10"
+      ],
+      "doors 01 through 03": [
+        "bank1_d01",
+        "bank1_d02",
+        "bank1_d03"
+      ],
+      "doors 08 through 10": [
+        "bank2_d08",
+        "bank2_d09",
+        "bank2_d10"
+      ],
+      "odd numbered doors": [
+        "bank1_d01",
+        "bank1_d03",
+        "bank1_d05",
+        "bank2_d07",
+        "bank2_d09"
+      ],
+      "the last door of each bank": [
+        "bank1_d05",
+        "bank2_d10"
+      ],
+      "doors 04 through 07": [
+        "bank1_d04",
+        "bank1_d05",
+        "bank2_d06",
+        "bank2_d07"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "bfill_st010",
+      "bfill_st020",
+      "bfill_st030",
+      "bfill_st040",
+      "bcap_st110",
+      "bcap_st120",
+      "bcap_st130",
+      "bcap_st140",
+      "bpack_st210",
+      "bpack_st220",
+      "bpack_st230",
+      "bpack_st240"
+    ],
+    "object_types": {
+      "glass_bottle": [
+        "flask bottle"
+      ],
+      "pet_bottle": [
+        "plastic bottle"
+      ],
+      "crown_cap": [
+        "bottle cap"
+      ],
+      "label_roll": [
+        "sticker roll"
+      ]
+    },
+    "observe_dict": {
+      "scan_bfill_stations": [
+        "bfill_st010",
+        "bfill_st020",
+        "bfill_st030",
+        "bfill_st040"
+      ],
+      "scan_bcap_stations": [
+        "bcap_st110",
+        "bcap_st120",
+        "bcap_st130",
+        "bcap_st140"
+      ],
+      "scan_bpack_stations": [
+        "bpack_st210",
+        "bpack_st220",
+        "bpack_st230",
+        "bpack_st240"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "cip_dock"
+    ],
+    "location_names": {
+      "the filling stations": [
+        "bfill_st010",
+        "bfill_st020",
+        "bfill_st030",
+        "bfill_st040"
+      ],
+      "the capping stations": [
+        "bcap_st110",
+        "bcap_st120",
+        "bcap_st130",
+        "bcap_st140"
+      ],
+      "the packing stations": [
+        "bpack_st210",
+        "bpack_st220",
+        "bpack_st230",
+        "bpack_st240"
+      ],
+      "stations numbered below 100": [
+        "bfill_st010",
+        "bfill_st020",
+        "bfill_st030",
+        "bfill_st040"
+      ],
+      "stations numbered 200 or higher": [
+        "bpack_st210",
+        "bpack_st220",
+        "bpack_st230",
+        "bpack_st240"
+      ],
+      "the first station of each bottling zone": [
+        "bfill_st010",
+        "bcap_st110",
+        "bpack_st210"
+      ],
+      "the last station of each bottling zone": [
+        "bfill_st040",
+        "bcap_st140",
+        "bpack_st240"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "cellar_b11",
+      "cellar_b12",
+      "cellar_b13",
+      "cellar_b21",
+      "cellar_b22",
+      "cellar_b23",
+      "cellar_b31",
+      "cellar_b32",
+      "cellar_b33",
+      "cellar_b41",
+      "cellar_b42",
+      "cellar_b43"
+    ],
+    "object_types": {
+      "steel_keg": [
+        "keg"
+      ],
+      "oak_cask": [
+        "cask",
+        "barrel"
+      ],
+      "co2_canister": [
+        "gas cartridge"
+      ],
+      "tap_coupler": [
+        "keg coupler"
+      ]
+    },
+    "observe_dict": {
+      "cellar_scan_b1": [
+        "cellar_b11",
+        "cellar_b12",
+        "cellar_b13"
+      ],
+      "cellar_scan_b2": [
+        "cellar_b21",
+        "cellar_b22",
+        "cellar_b23"
+      ],
+      "cellar_scan_b3": [
+        "cellar_b31",
+        "cellar_b32",
+        "cellar_b33"
+      ],
+      "cellar_scan_b4": [
+        "cellar_b41",
+        "cellar_b42",
+        "cellar_b43"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "cellar_ramp"
+    ],
+    "location_names": {
+      "keg bay one": [
+        "cellar_b11",
+        "cellar_b12",
+        "cellar_b13"
+      ],
+      "keg bay four": [
+        "cellar_b41",
+        "cellar_b42",
+        "cellar_b43"
+      ],
+      "keg bays three and four": [
+        "cellar_b31",
+        "cellar_b32",
+        "cellar_b33",
+        "cellar_b41",
+        "cellar_b42",
+        "cellar_b43"
+      ],
+      "the first slot of every keg bay": [
+        "cellar_b11",
+        "cellar_b21",
+        "cellar_b31",
+        "cellar_b41"
+      ],
+      "the deepest slot of every keg bay": [
+        "cellar_b13",
+        "cellar_b23",
+        "cellar_b33",
+        "cellar_b43"
+      ],
+      "the middle slots of keg bays one and two": [
+        "cellar_b12",
+        "cellar_b22"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "trim_op11",
+      "trim_op12",
+      "trim_op21",
+      "trim_op22",
+      "trim_op31",
+      "trim_op32",
+      "trim_op41",
+      "trim_op42",
+      "trim_op51",
+      "trim_op52"
+    ],
+    "object_types": {
+      "door_seal": [
+        "rubber seal"
+      ],
+      "wiring_loom": [
+        "wire harness"
+      ],
+      "trim_clip": [
+        "fastener clip"
+      ],
+      "mirror_shell": [
+        "mirror housing"
+      ]
+    },
+    "observe_dict": {
+      "trimline_scan_op1": [
+        "trim_op11",
+        "trim_op12"
+      ],
+      "trimline_scan_op2": [
+        "trim_op21",
+        "trim_op22"
+      ],
+      "trimline_scan_op3": [
+        "trim_op31",
+        "trim_op32"
+      ],
+      "trimline_scan_op4": [
+        "trim_op41",
+        "trim_op42"
+      ],
+      "trimline_scan_op5": [
+        "trim_op51",
+        "trim_op52"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "andon_board_spot"
+    ],
+    "location_names": {
+      "the left side of the trim line": [
+        "trim_op11",
+        "trim_op21",
+        "trim_op31",
+        "trim_op41",
+        "trim_op51"
+      ],
+      "the right side of the trim line": [
+        "trim_op12",
+        "trim_op22",
+        "trim_op32",
+        "trim_op42",
+        "trim_op52"
+      ],
+      "both racks of trim station three": [
+        "trim_op31",
+        "trim_op32"
+      ],
+      "trim stations one and two": [
+        "trim_op11",
+        "trim_op12",
+        "trim_op21",
+        "trim_op22"
+      ],
+      "the racks of the final trim station": [
+        "trim_op51",
+        "trim_op52"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "paint_pos01",
+      "paint_pos02",
+      "paint_pos03",
+      "paint_pos04",
+      "paint_pos05",
+      "paint_pos06",
+      "paint_pos07",
+      "paint_pos08",
+      "paint_pos09",
+      "paint_pos10",
+      "paint_pos11",
+      "paint_pos12"
+    ],
+    "object_types": {
+      "primer_can": [
+        "primer tin"
+      ],
+      "clearcoat_can": [
+        "lacquer tin"
+      ],
+      "masking_roll": [
+        "tape roll"
+      ],
+      "spray_nozzle": [
+        "gun nozzle"
+      ]
+    },
+    "observe_dict": {
+      "paint_cam_pos01_to_06": [
+        "paint_pos01",
+        "paint_pos02",
+        "paint_pos03",
+        "paint_pos04",
+        "paint_pos05",
+        "paint_pos06"
+      ],
+      "paint_cam_pos07_to_12": [
+        "paint_pos07",
+        "paint_pos08",
+        "paint_pos09",
+        "paint_pos10",
+        "paint_pos11",
+        "paint_pos12"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "paint_booth_door"
+    ],
+    "location_names": {
+      "the first quarter of the carousel": [
+        "paint_pos01",
+        "paint_pos02",
+        "paint_pos03"
+      ],
+      "the last quarter of the carousel": [
+        "paint_pos10",
+        "paint_pos11",
+        "paint_pos12"
+      ],
+      "every third carousel position": [
+        "paint_pos03",
+        "paint_pos06",
+        "paint_pos09",
+        "paint_pos12"
+      ],
+      "carousel positions six and twelve": [
+        "paint_pos06",
+        "paint_pos12"
+      ],
+      "the two carousel positions after position ten": [
+        "paint_pos11",
+        "paint_pos12"
+      ],
+      "the opposite pair of carousel positions two and eight": [
+        "paint_pos02",
+        "paint_pos08"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "vial_0101",
+      "vial_0102",
+      "vial_0103",
+      "vial_0104",
+      "vial_0201",
+      "vial_0202",
+      "vial_0203",
+      "vial_0204",
+      "vial_0301",
+      "vial_0302",
+      "vial_0303",
+      "vial_0304"
+    ],
+    "object_types": {
+      "vial": [
+        "ampoule",
+        "phial"
+      ],
+      "rubber_stopper": [
+        "bung"
+      ],
+      "flip_cap": [
+        "crimp cap"
+      ],
+      "diluent_bottle": [
+        "solvent bottle"
+      ]
+    },
+    "observe_dict": {
+      "vial_scope_0101_to_0104": [
+        "vial_0101",
+        "vial_0102",
+        "vial_0103",
+        "vial_0104"
+      ],
+      "vial_scope_02": [
+        "vial_0201",
+        "vial_0202",
+        "vial_0203",
+        "vial_0204"
+      ],
+      "vial_scope_03": [
+        "vial_0301",
+        "vial_0302",
+        "vial_0303",
+        "vial_0304"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "airlock_pass"
+    ],
+    "location_names": {
+      "vial tray one": [
+        "vial_0101",
+        "vial_0102",
+        "vial_0103",
+        "vial_0104"
+      ],
+      "vial tray two": [
+        "vial_0201",
+        "vial_0202",
+        "vial_0203",
+        "vial_0204"
+      ],
+      "vial tray three": [
+        "vial_0301",
+        "vial_0302",
+        "vial_0303",
+        "vial_0304"
+      ],
+      "the first cell of every vial tray": [
+        "vial_0101",
+        "vial_0201",
+        "vial_0301"
+      ],
+      "the last cell of every vial tray": [
+        "vial_0104",
+        "vial_0204",
+        "vial_0304"
+      ],
+      "the middle cells of vial tray two": [
+        "vial_0202",
+        "vial_0203"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "coldslot_101",
+      "coldslot_102",
+      "coldslot_103",
+      "coldslot_104",
+      "coldslot_201",
+      "coldslot_202",
+      "coldslot_203",
+      "coldslot_204",
+      "coldslot_301",
+      "coldslot_302",
+      "coldslot_303",
+      "coldslot_304"
+    ],
+    "object_types": {
+      "insulin_pen": [
+        "injector pen"
+      ],
+      "vaccine_tray": [
+        "dose tray"
+      ],
+      "saline_bag": [
+        "iv bag"
+      ],
+      "reagent_bottle": [
+        "assay bottle"
+      ]
+    },
+    "observe_dict": {
+      "coldrack_cam_1": [
+        "coldslot_101",
+        "coldslot_102",
+        "coldslot_103",
+        "coldslot_104"
+      ],
+      "coldrack_cam_2": [
+        "coldslot_201",
+        "coldslot_202",
+        "coldslot_203",
+        "coldslot_204"
+      ],
+      "coldrack_cam_3": [
+        "coldslot_301",
+        "coldslot_302",
+        "coldslot_303",
+        "coldslot_304"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "cold_anteroom"
+    ],
+    "location_names": {
+      "level one of the cold rack": [
+        "coldslot_101",
+        "coldslot_102",
+        "coldslot_103",
+        "coldslot_104"
+      ],
+      "level three of the cold rack": [
+        "coldslot_301",
+        "coldslot_302",
+        "coldslot_303",
+        "coldslot_304"
+      ],
+      "slot 02 on every cold level": [
+        "coldslot_102",
+        "coldslot_202",
+        "coldslot_302"
+      ],
+      "cold slots numbered above 300": [
+        "coldslot_301",
+        "coldslot_302",
+        "coldslot_303",
+        "coldslot_304"
+      ],
+      "the outer slots of cold level two": [
+        "coldslot_201",
+        "coldslot_204"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "pallet_1x1",
+      "pallet_1x2",
+      "pallet_1x3",
+      "pallet_2x1",
+      "pallet_2x2",
+      "pallet_2x3",
+      "pallet_3x1",
+      "pallet_3x2",
+      "pallet_3x3",
+      "pallet_4x1",
+      "pallet_4x2",
+      "pallet_4x3"
+    ],
+    "object_types": {
+      "cereal_box": [
+        "cereal carton"
+      ],
+      "soup_can": [
+        "tin can"
+      ],
+      "jam_jar": [
+        "preserve jar"
+      ],
+      "wrap_bundle": [
+        "shrink bundle"
+      ]
+    },
+    "observe_dict": {
+      "palletizer_cam_yx1": [
+        "pallet_1x1",
+        "pallet_2x1",
+        "pallet_3x1",
+        "pallet_4x1"
+      ],
+      "palletizer_cam_yx2": [
+        "pallet_1x2",
+        "pallet_2x2",
+        "pallet_3x2",
+        "pallet_4x2"
+      ],
+      "palletizer_cam_yx3": [
+        "pallet_1x3",
+        "pallet_2x3",
+        "pallet_3x3",
+        "pallet_4x3"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "palletizer_gate"
+    ],
+    "location_names": {
+      "row one of the pallet grid": [
+        "pallet_1x1",
+        "pallet_1x2",
+        "pallet_1x3"
+      ],
+      "row four of the pallet grid": [
+        "pallet_4x1",
+        "pallet_4x2",
+        "pallet_4x3"
+      ],
+      "the left lane of the pallet grid": [
+        "pallet_1x1",
+        "pallet_2x1",
+        "pallet_3x1",
+        "pallet_4x1"
+      ],
+      "the right lane of the pallet grid": [
+        "pallet_1x3",
+        "pallet_2x3",
+        "pallet_3x3",
+        "pallet_4x3"
+      ],
+      "the heart of the pallet grid": [
+        "pallet_2x2",
+        "pallet_3x2"
+      ],
+      "the top two pallet rows": [
+        "pallet_1x1",
+        "pallet_1x2",
+        "pallet_1x3",
+        "pallet_2x1",
+        "pallet_2x2",
+        "pallet_2x3"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "cw_lane1_01",
+      "cw_lane1_02",
+      "cw_lane1_03",
+      "cw_lane2_01",
+      "cw_lane2_02",
+      "cw_lane2_03",
+      "cw_lane3_01",
+      "cw_lane3_02",
+      "cw_lane3_03",
+      "cw_reject_01",
+      "cw_reject_02"
+    ],
+    "object_types": {
+      "snack_pouch": [
+        "chip bag"
+      ],
+      "pasta_box": [
+        "noodle box"
+      ],
+      "sauce_bottle": [
+        "condiment bottle"
+      ],
+      "sealed_tray": [
+        "film tray"
+      ]
+    },
+    "observe_dict": {
+      "cw_scan_lane1": [
+        "cw_lane1_01",
+        "cw_lane1_02",
+        "cw_lane1_03"
+      ],
+      "cw_scan_lane2": [
+        "cw_lane2_01",
+        "cw_lane2_02",
+        "cw_lane2_03"
+      ],
+      "cw_scan_lane3": [
+        "cw_lane3_01",
+        "cw_lane3_02",
+        "cw_lane3_03"
+      ],
+      "cw_scan_reject": [
+        "cw_reject_01",
+        "cw_reject_02"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "giveaway_checkpoint"
+    ],
+    "location_names": {
+      "checkweigher lane one": [
+        "cw_lane1_01",
+        "cw_lane1_02",
+        "cw_lane1_03"
+      ],
+      "checkweigher lane three": [
+        "cw_lane3_01",
+        "cw_lane3_02",
+        "cw_lane3_03"
+      ],
+      "the reject chute bins": [
+        "cw_reject_01",
+        "cw_reject_02"
+      ],
+      "the first buffer of every checkweigher lane": [
+        "cw_lane1_01",
+        "cw_lane2_01",
+        "cw_lane3_01"
+      ],
+      "the tail of checkweigher lanes two and three": [
+        "cw_lane2_03",
+        "cw_lane3_03"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "grade_g11",
+      "grade_g12",
+      "grade_g13",
+      "grade_g14",
+      "grade_g21",
+      "grade_g22",
+      "grade_g23",
+      "grade_g24",
+      "grade_g31",
+      "grade_g32",
+      "grade_g33",
+      "grade_g34"
+    ],
+    "object_types": {
+      "apple_red": [
+        "red apple"
+      ],
+      "apple_green": [
+        "green apple"
+      ],
+      "pear_bosc": [
+        "bosc pear"
+      ],
+      "quince": [
+        "quince fruit"
+      ]
+    },
+    "observe_dict": {
+      "grading_boom_g1": [
+        "grade_g11",
+        "grade_g12",
+        "grade_g13",
+        "grade_g14"
+      ],
+      "grading_boom_g2": [
+        "grade_g21",
+        "grade_g22",
+        "grade_g23",
+        "grade_g24"
+      ],
+      "grading_boom_g3": [
+        "grade_g31",
+        "grade_g32",
+        "grade_g33",
+        "grade_g34"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "orchard_gate"
+    ],
+    "location_names": {
+      "grading row one": [
+        "grade_g11",
+        "grade_g12",
+        "grade_g13",
+        "grade_g14"
+      ],
+      "grading row three": [
+        "grade_g31",
+        "grade_g32",
+        "grade_g33",
+        "grade_g34"
+      ],
+      "grading rows two and three": [
+        "grade_g21",
+        "grade_g22",
+        "grade_g23",
+        "grade_g24",
+        "grade_g31",
+        "grade_g32",
+        "grade_g33",
+        "grade_g34"
+      ],
+      "the first chute of every grading row": [
+        "grade_g11",
+        "grade_g21",
+        "grade_g31"
+      ],
+      "the outer chutes of the grading table": [
+        "grade_g11",
+        "grade_g14",
+        "grade_g31",
+        "grade_g34"
+      ],
+      "chutes three and four of grading row two": [
+        "grade_g23",
+        "grade_g24"
+      ]
+    }
+  },
+  {
+    "object_locations": [
+      "sring1_sec1",
+      "sring1_sec2",
+      "sring1_sec3",
+      "sring1_sec4",
+      "sring1_sec5",
+      "sring2_sec1",
+      "sring2_sec2",
+      "sring2_sec3",
+      "sring2_sec4",
+      "sring2_sec5"
+    ],
+    "object_types": {
+      "seed_sack": [
+        "grain sack"
+      ],
+      "fertilizer_pail": [
+        "feed pail"
+      ],
+      "egg_carton": [
+        "egg tray"
+      ],
+      "onion_net": [
+        "onion bag"
+      ]
+    },
+    "observe_dict": {
+      "sec1-3_mast_scan": [
+        "sring1_sec1",
+        "sring2_sec2",
+        "sring1_sec1",
+        "sring2_sec2",
+        "sring1_sec3",
+        "sring2_sec3"
+      ],
+      "sring4-5_mast_scan": [
+        "sring1_sec4",
+        "sring1_sec5",
+        "sring2_sec4",
+        "sring2_sec5"
+      ]
+    },
+    "general_position_names": [
+      "home",
+      "silo_catwalk"
+    ],
+    "location_names": {
+      "the inner seed ring": [
+        "sring1_sec1",
+        "sring1_sec2",
+        "sring1_sec3",
+        "sring1_sec4",
+        "sring1_sec5"
+      ],
+      "the outer seed ring": [
+        "sring2_sec1",
+        "sring2_sec2",
+        "sring2_sec3",
+        "sring2_sec4",
+        "sring2_sec5"
+      ],
+      "sector one of both seed rings": [
+        "sring1_sec1",
+        "sring2_sec1"
+      ],
+      "the odd sectors of the inner seed ring": [
+        "sring1_sec1",
+        "sring1_sec3",
+        "sring1_sec5"
+      ],
+      "the outer-ring sectors next to sector one": [
+        "sring2_sec2",
+        "sring2_sec5"
+      ],
+      "the last sector of each seed ring": [
+        "sring1_sec5",
+        "sring2_sec5"
+      ]
+    }
+  }
 ]
